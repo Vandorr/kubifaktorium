@@ -1,0 +1,1565 @@
+# Localization template
+
+language = German
+locales = DE
+fallback = English
+
+
+##happiness = #Happy#Zufriedenheit 
+##happiness.Desc = #Happy#Zufriedenheit: Die Bewegung und Arbeits_geschwin_dig_keit eines Kolo_nisten wird davon beein_flusst, wie gut seine Bedürf_nisse erfüllt werden.
+
+##skill = #People#Geschick
+##skill.Desc = #People#Geschick: Jeder Kolonist ist unter_schiedlich gut für die ver_schiedenen Arbeiten und Werk_stätten geeignet. Im Laufe der Zeit werden sie besser in den Aufgaben, die sie verrichten.
+
+
+##keycycle = #controller#wechseln
+##keycycle.Desc = #controller#Wechseln: Mittlere Maustaste oder 'V'.
+
+##keyrotate = #controller#drehen
+##keyrotate.Desc = #controller#Drehen: Maustasten 4/5 oder 'R'.
+
+
+##zone = #star#Zone
+##zone.Desc = #star#Zonen: Kolonisten können einer oder mehreren Zonen zugeordnet werden. Sie arbeiten nur in den Zonen, denen sie zugeordnet sind.
+
+##water = #Water#Wasser
+##water.Desc = #Water#Wasser: Farmen müssen bewässert werden um bepflanzt werden zu können.
+
+##idle = #Idle#untätig
+##idle.Desc = #Idle#Untätig: Du kannst die Jobs deiner Kolo_nisten im Kolo_nisten_management_bild_schirm verwalten.
+
+##mine = #Mine#abgebaut
+##mine.Desc = #Mine#Abbau: Um etwas abzu_bauen, klicke auf das Abbau_symbol und wähle die abzu_bauenden Resourcen aus.
+
+##weight = Gewicht
+##weight.Desc = Gewicht: Kolo_nisten bewegen sich lang_samer wenn sie schwere Waren trans_portieren.
+
+##territory = #Mountain#Gebiet
+##territory.Desc = #Mountain#Gebiet: Gebäude können nur innerhalb des eigenen Gebiets errichtet werden. Baues Leucht_feuer und besiege gegne_rische Lager um dein Gebiet zu erwei_tern.
+
+##day = #sun#tags_über
+##day.Desc = #sun#Tag: Zeit zwischen 6:00 und 18:00.
+
+##drink = #Drink#Trinken
+##drink.Desc = #Drink#Trinken: Wenn sie durstig sind, suchen Kolo_nisten auto_matisch nach etwas zu trinken. Die Bereit_stellung von Ge_tränken macht sie glück_licher und pro_duktiver.
+
+##food = #Food#Essen
+##food.Desc = #Food#Essen: Bei Hunger suchen Kolo_nisten auto_matisch nach etwas zu essen. Die Bereit_stellung von Nahrung macht sie glück_licher und produktiver.
+
+##stockpilezone = #Stockpile#Lager_platz
+##stockpilezone.Desc = Ein Lager_platz kann auf festem Boden errichtet werden und Produkte aus Werk_stätten, Farmen usw. auf_nehmen.
+
+##farmzone = #Farm#Farm
+##farmzone.Desc = #Farm#Farmen erlauben Kolo_nisten ver_schiedene Pflanzen anzu_bauen.
+
+##grovezone = #Grove#Baum_schulen
+##grovezone.Desc = #Grove#Baum_schulen erlauben Kolo_nisten ver_schiedene Bäume anzu_pflanzen.
+
+##ship = #Compass#Schiff
+##ship.Desc = #Compass#Schiff: Das Schiff, welches euch auf diese Insel gebracht hat und es euch erlaubt, Gegen_stände zwischen Inseln zu trans_portieren.
+
+##power = #Power#Strom
+##power.Desc = #Power#Strom: Wird in Kraft_werken erzeugt und von ver_schiedenen Ma_schinen ver_braucht.
+
+##decoration = #House#Deko_ration
+##decoration.Desc = #House#Deko_rative Gegen_stände machen Kolo_nisten glück_licher und produktiver.
+ 
+
+##stacksize = Stapelbarkeit
+##stacksize.Desc = Stapelbarkeit: In Lagerplätzen und Depots können mehrere Waren des selben Typs auf einem Feld gelagert werden.
+
+##house = #House#Haus
+##house.Desc = #House#Häuser ver_bessern die Lebens_qualität dei_ner Kolo_nisten.
+
+##social = #Chat#Freizeit 
+##social.Desc = #Chat#Freizeit: Kolo_nisten brauchen Er_holung, um zu ged_eihen. Soziale Inter_aktion macht sie glück_licher und pro_duktiver.
+
+##logsys = #Logistics#Logistik_system
+##logsys.Desc = Das Logistik_system erlaubt das Ver_binden mehrerer Trans_port- und Lager_systeme. Es generiert auto_matisch Trans_port_jobs für Fahr_zeuge und Kolo_nisten.  
+
+##cargoship = #Refine#Fracht_schiff
+##cargoship.Desc = #Refine#Fracht_schiffe bringen einen Teil der Prod_uktion aus deinen früheren Kolon_ien auf deine neue Insel.
+
+
+##automatically = auto_mati_sch
+##automatically.Desc = Auto_mati_sierte Gebäude benötigen Strom um zu funktio_nieren.
+##automated = Auto_mati_siert
+##automated.Desc = Auto_mati_sierte Gebäude benötigen Strom um zu funktio_nieren.
+
+##tool = #settings#Werkzeug
+##tool.Desc = #settings#Werkzeug ver_bessert die Quali_tät mit der ein Kolo_nist eine Aufgabe erfüllen kann. Kolo_nisten rüsten auto_matisch das best_mögliche Werk_zeug für ihre Haupt_aufgabe aus. 
+
+##depot = Depot
+##depot.Desc = Depot: Erlaubt es, Güter zu lagern und zu ver_teilen. Benutze Lager_ein- und aus_gänge um Güter ein_zulagern oder zu extra_hieren. 
+
+##robot = Roboter
+##robot.Desc = Roboter können nur die Arbeit aus_führen, für die sie gebaut wurden. Im Gegen_satz zu Kolo_nisten ver_bessern sie sich nicht durch Erfahrung.
+
+
+
+
+Message.WeAreUnderAttack = Wir werden ange_griffen!
+Message.NewBuildOptions = Neue Gebäude frei_geschaltet:
+Message.RecruitmentSuccess = Rekru_tierung erfolg_reich!
+Message.WarnDisembark = 
+Message.MissionComplete = Du hast alle Missions_ziele erfüllt! :) Du kannst auf dieser Karte weiter spielen oder ein neues Spiel starten.
+UI.MessagePanel = Nachricht
+UI.MessagePanel.Desc = Du kannst eine Nachricht durch Rechts_klick schließen. Ges_chlossene Nach_richten werden im Nachrichten_log gespeichert. Ein Linksklick auf eine Nachricht zentriert die Kamera auf das Ereignis.
+UI.Recruit = Rekru_tiere sie.
+UI.Recruit.Desc = Wenn man Schiffs_brüchige oder wilde Tiere rekru_tiert schließen sie sich deiner Sied_lung an. Wichtig: Tiere können nur bestimmte Aufgaben erfüllen. Sobald sie Teil deiner Kolonie sind werden Nahrung und Getränke aus deiner Kolonie nutzen.
+UI.MessageLog = Nachrichten_log
+UI.MessageLog.Desc = Zeigt frühere Mel_dungen an.
+UI.MultiSelectHeader = $1 Kolonist aus_gewählt.
+UI.Build = Bauen
+UI.Build.Desc = Erstellt einen Plan für ein Gebäude, das ans_chließend von deinen Kolo_nisten gebaut wird.
+UI.Mine = Abbauen & ernten
+UI.Mine.Desc = Markiert Bäume, Felsen und andere Objekte, die ##mine oder geerntet werden sollen.
+UI.SettlerMenu = Kolo_nisten_management
+UI.SettlerMenu.Desc = Über_blick und Manage_ment der Kolo_nisten und ihrer Jobs.
+UI.Load = Laden
+UI.Load.Desc = Markiert Objekte, die anschließend auf dein Schiff geladen werden.
+UI.Stockpile = Lagerplatz
+UI.Stockpile.Desc = Klicke und ziehe mit der Maus, um einen neuen ##stockpilezone zu erstellen oder einen bestehenden Lager_platz zu erweitern.
+UI.Grove = Baumschule
+UI.Grove.Desc = Klicke und ziehe mit der Maus, um eine neue ##grovezone zu er_stellen oder eine bestehende Baum_schule zu erweitern.
+UI.Farm = Farm
+UI.Farm.Desc = Klicke und ziehe mit der Maus, um eine neue ##farmzone zu erstellen oder eine be_stehende Farm zu erweitern.
+UI.InventoryMenu = Inventar_management
+UI.InventoryMenu.Desc = Zeigt das Inventar deiner Kolonie an.
+UI.UnloadAll = Alles entladen.
+UI.UnloadAll.Desc = Befehlt deinen Kolo_nisten, die gesamte Fracht des Schiffes zu entladen.
+UI.BuiltFrom = Gebaut aus
+UI.ProducedHere = Wird hier produziert
+UI.ProducedFrom = Produziert aus
+UI.UsedToProduce = Genutzt zur Produktion von
+UI.UsedToConstruct = Genutzt zum Bau von
+UI.Acceleration = Be_schleu_nigung: $1
+UI.ClaimRange = Einfluss_reich_weite: $1
+UI.Faction = Status
+UI.Fight = Krieger komman_dieren.
+UI.Fight.Desc = Setze eine Flagge, an der sich alle be_waffneten Kolo_nisten sammeln werden.
+UI.Follow = Mit Kamera verfolgen.
+UI.GrowTime = Wachstums_zeit: $1
+UI.Harbour.Explanation = Fracht_schiffe liefern Fertig_waren von zuvor kolo_nisierten Inseln.
+UI.HitpointMax = Max. HP: $1
+UI.HitpointRegen = HP Regen_eration: $1
+UI.Stack = ##Stacksize: $1
+UI.LinkOverlay = Produktions_ketten
+UI.LinkOverlay.Desc = Schaltet die Anzeige von aktiven Verb_indungen zwischen Werk_stätten, Farmen etc. an. [Standard: Left Alt]
+UI.MaxSpeed = Höchstge_schwin_digkeit: $1
+UI.SettlerScreen.Areas = Gebiete
+UI.SettlerScreen.Explanation = Werkzeuge -> Kolo_nisten wählen automatisch das best_mögliche Werk_zeug für ihre zugewiesenen Aufgaben aus.<br>Zonen -> Klick: Eine Zone zulassen oder verbieten. <br>Aufgaben und Werkstätten -> Klicken: Umschalten zwischen aktiv und inaktiv. Größe der Quadrate = Kenntnis_stand.
+UI.SettlerScreen.Tasks = Aufgaben
+UI.SettlerScreen.Title = Kolo_nisten_management
+UI.SettlerScreen.Tool = Werkzeug
+UI.SettlerScreen.Workshops = Werk_stätten
+UI.ToolAssignment = Aus_gewähltes Werkzeug / Werkzeug_präferenz.
+UI.ToolAssignment.Desc = Kolo_nisten wählen auto_matisch das best_mögliche Werk_zeug. Ihre ##tool_präferenz (Hammer, Schaufel, Spitzhacke oder Waffe) hängt von ihren Aufgaben ab.
+UI.ToolBaseEffect = Basiseffekt: $1
+UI.ToolTaskType = Aufgabentyp: $1
+UI.Track = Schienen verlegen.
+UI.Track.Desc = Bau von Gleisen, Bahnhöfen und ##depots. <br>Drücke ##keyrotate zum Ausrichten. <br> Drücke ##keycycle zum Umschalten zwischen unterer und oberer Ebene.
+UI.ZoneAssignment = Zonen zuweisen.
+UI.ZoneAssignment.Desc = Jedes Lager_feuer kann auf eine von 5 Farben ein_gestellt werden. Du kannst Kolo_nisten auf bestimmte Bereiche ein_schränken, indem du hier ihre Zonen_zuordnung änderst.
+UI.Speed = Spiel_geschwin_digkeit einstellen
+UI.Speed.Desc = Spiel_geschwin_digkeit einstellen.
+UI.Settings = Einstell_ungs_menü
+UI.Settings.Desc = Öffnet das Einstell_ungs_menü.
+UI.LoadSave = Laden / Speichern
+UI.LoadSave.Desc = Öffnet das Speicher_menü.
+UI.Bug = Bugreport
+UI.Bug.Desc = Die Meldung eines Fehlers sendet einen Screenshot und optional einen Fehler_bericht an den Entwickler.
+UI.Main = Hauptmenü
+UI.Main.Desc = Laden und Speichern eines Spiels, Einstell_ungs_menü und Beenden des Spiels.
+UI.Close = Schließen
+UI.LoadGame = Spiel laden
+UI.SaveGame = Spiel speichern
+
+UI.FarmMode = Status
+UI.FarmModeTill = Pflügen
+UI.FarmModeGrow = Anbauen
+UI.FarmModeHarvest = Ernten
+
+UI.SelectProduct = Produkt auswählen
+UI.TaskGroupLevelBase = Kenntnis_stand
+UI.TaskGroupLevelToolModifier = Werkzeug_modifikator
+UI.TaskGroupTotal = Summe
+UI.SelectPlantType = Pflanzen_art auswählen
+
+
+Objective.Construct = Baue: $1 ($2/$3)
+Objective.Construct.Desc = Um ein $1-Gebäude zu bauen, öffne das #Build# Bau_menü, wechsle zum $5-Tab, klicke auf das gewünschte Gebäude und platziere es auf der Karte.
+Objective.CreateStockpile = Erstelle einen Lagerplatz ($2/$3)
+Objective.CreateStockpile.Desc = Um einen neuen ##stockpilezone anzulegen, klicke auf die Lager_platz-Schalt_fläche und ziehe einen Bereich auf festem Boden.
+Objective.FarmZone = Farm erstellen ($2/$3)
+Objective.FarmZone.Desc = Um eine ##farmzone zu erstellen, klicke auf die Farm-Schalt_fläche und markiere ein Gebiet auf frucht_baren Boden.
+Objective.FarmZoneCrop = Produktion zuweisen: $1
+Objective.FarmZoneCrop.Desc = Um mit dem Anbau einer Pflanze zu beginnen, wähle eine ##farmzone aus und wähle die Pflanze, die angebaut werden soll.
+
+Objective.Have = Baue ab: $1 ($2/$3)
+Objective.Have.Desc = Ressourcen wie Baum_stämme können aus der Umwelt ##mine werden. Waren können in Werk_stätten her_gestellt werden.
+Objective.LinkStockpile = Verbinde $1 mit Lagerplatz ($2/$3)
+Objective.LinkStockpile.Desc = Um $1 mit einem ##stockpilezone zu ver_knüpfen, klicke mit der linken Maus_taste auf $1 und mit der rechten Maustaste auf den ##stockpilezone. Die Werk_stätten produ_zieren, bis die ver_knüpften Lager_bestände voll sind.
+Objective.LinkFarmToStockpile = Verbinde Farm mit Lagerplatz ($2/$3)
+Objective.LinkFarmToStockpile.Desc = Um eine ##farmzone mit einem ##stockpilezone zu verknüpfen, klicke mit der linken Maus_taste auf die Farm und mit der rechten Maus_taste auf den Lagerp_latz. Die Farm wird so lange abgeerntet, bis die ver_knüpften Lager_plätze voll sind.
+Objective.Load = Lade $1 ($2/$3)
+Objective.Load.Desc = Um ein Objekt auf das Schiff zu laden, klicke auf die Lade-Schaltfläche und markiere ein oder mehrere Objekte.
+Objective.MiningJob = Erzeuge Abbau_aufgaben ($2/$3)
+Objective.MiningJob.Desc = Um eine Ressource auszuwählen, die ##mine werden soll, klicke auf die Abbau-Schalt_fläche und wähle sie aus. Beachte, dass Kolo_nisten nur Ressourcen in ihrem ##territory abbauen können.
+Objective.ProductionTask = Setze Produktion auf $1
+Objective.ProductionTask.Desc = Um eine Ware zu produ_zieren, wähle eine Werk_statt und klicke auf die Ware, die produ_ziert werden soll.
+Objective.SettlersEquipTool = Werkzeuge ausgerüstet ($2/$3)
+Objective.SettlersEquipTool.Desc = Kolo_nisten rüsten auto_matisch die ##toole aus, die sie benötigen. Produziere die Werk_zeuge, die sie brauchen, um sie zufrieden zu stellen.
+Objective.SettlerTaskGroup = Job zuweisen: $4 ($2/$3)
+Objective.SettlerTaskGroup.Desc = Um einen Kolo_nisten dazu zu bringen, $4 Jobs zu erledigen, wähle ihn/sie aus und klicke  auf das $4 Symbol. Alter_nativ kannst du die Jobs deiner Kolo_nisten auch über den Kolo_nisten_management_bildschirm verwalten.
+Objective.SettlerWorkshop = Job zuweisen: $1 ($2/$3)
+Objective.SettlerWorkshop.Desc = Damit ein Kolonist in $1 arbeitet, wähle ihn/sie aus und klicke auf $1 im Kolo_nisten_panel. Alternativ kannst du die Jobs deiner Kolo_nisten auch über den Kolo_nisten_management_bildschirm.
+Objective.UnloadAll = Entlade dein Schiff ($1 verbleibend)
+Objective.UnloadAll.Desc = Klicke auf dein ##ship, um zu sehen, welche Waren es an Bord hat. Klicke auf ein Gut, um es von deinen Kolo_nisten entladen zu lassen. Du kannst mehrere Waren auf einmal entladen, indem du die Umschalt- oder Strg-taste gedrückt hältst, während du klickst. Alternativ kannst du auch die Schalt_fläche unten rechts oben, um alles zu entladen.
+Objective.Recruit = Rekru_tiere sie.
+Objective.Recruit.Desc = Einen Schiff_brüchigen zu rekru_tieren oder ein Tier zu zähmen, wird sie in deine Kolonie inte_grieren. Hinweis: Tiere können nur bestimmte Aufgaben ausführen. Sobald sie ein Teil deiner Kolonie sind, werden sie anfangen, deine Vorräte zu ver_brauchen.
+Objective.ActivateDebugMode = Aktiviere den Debugmodus.
+Objective.ActivateDebugMode.Desc = Öffne das Ein_stellungs_menü und aktiviere den Debug_modus.
+Objective.UseDebugRemove = Entferne ein Objekt.
+Objective.UseDebugRemove.Desc = Du kannst alle Objekte, Gebäude oder Gegen_stände im Spiel ent_fernen, indem du das Werk_zeug zum Entfernen verwendest, während du die Strg-Taste gedrückt hältst. [Erfordert Debugmodus]
+Objective.UseDebugSpawn = Erzeuge ein Objekt.
+Objective.UseDebugSpawn.Desc = Du kannst jedes Objekt, Gebäude oder Item im Spiel mit Hilfe des Cheat_menüs spawnen. Drücke F8, um es zu öffnen. [Erfordert Debugmodus]
+Objective.UseRevealMap = Decke die Karte auf.
+Objective.UseRevealMap.Desc = Du kannst den Nebel des Krieges entfernen und die Karte aufdecken, indem du F7 drückst. [Erfordert Debugmodus]
+Objective.ShowHelpTooltip = Bewege die Maus über eine Aufgabe um mehr Infos angezeigt zu bekommen. Zusätzlich kann man auf einige Aufgaben klicken, um die Kamera auf das Ziel der Aufgabe zu fokussieren.
+Objective.ShowHelpTooltip.Desc = Gut gemacht. Ziele und viele andere Elemente der Benutzer_oberfläche liefern mehr Infor_mationen, wenn du mit der Maus darüber fährst.
+Objective.ShowHelpScreen = Klicke auf die Glüh_birne oben rechts in diesem Fenster, um den Hilfe_bildschirm zu öffnen.
+Objective.ShowHelpScreen.Desc = Der Hilfe_bildschirm enthält einige visuelle Hin_weise und Tipps, was du tun musst, um ein Ziel zu erreichen.
+
+
+
+ObjectiveGroup.Help = Hilfesystem
+ObjectiveGroup.Controls = Grund_legendes
+ObjectiveGroup.LoadShip = Lade dein Schiff
+ObjectiveGroup.Expand = Expandiere dein Gebiet
+ObjectiveGroup.MineResources = Baue Resourcen ab
+ObjectiveGroup.UnloadShip = Entlade dein Schiff
+ObjectiveGroup.SetupFarm = Richte eine Farm ein
+ObjectiveGroup.SetupWell = Richte einen Brunnen ein
+ObjectiveGroup.RescueSettlers = Rette die Kolo_nisten
+ObjectiveGroup.Recruit = Rekru_tiere
+
+
+Need.Sleep = Schlaf
+Need.Sleep.Desc = Wenn sie müde sind, kehren die Kolo_nisten auto_matisch nach Hause zurück und schlafen.
+Need.Food = Essen
+Need.Food.Desc = Bei Hunger suchen Kolo_nisten auto_matisch nach etwas zu essen. Die Bereit_stellung von Nahrung macht sie glück_licher und pro_duktiver.
+Need.Drink = Trinken
+Need.Drink.Desc = Wenn sie durstig sind, suchen Kolo_nisten auto_matisch nach etwas zu trinken. Die Bereit_stellung von Ge_tränken macht sie glück_licher und pro_duktiver.
+Need.Social = Sozial_leben
+Need.Social.Desc = Kolo_nisten brau_chen soziale Inter_aktion, um zu gedeihen. Soziale Inter_aktion macht sie glücklicher und prod_uktiver.
+Need.Housing = Haus
+Need.Housing.Desc = Kolo_nisten ziehen es vor, ein Haus zum Leben zu haben. Ein Haus macht sie glück_licher und pro_duktiver.
+
+
+ActorState.Hasdrunk = Hat gerade getrunken
+ActorState.Hasinteracted = Hatte soziale Inter_aktion
+ActorState.Housed = Besitzt ein Haus
+ActorState.Hungry = Hungrig
+ActorState.Nohouse = Obdachlos
+ActorState.Notinteracted = Einsam
+ActorState.Rested = Ausgeruht
+ActorState.Saturated = Gesättigt
+ActorState.Thirsty = Durstig
+ActorState.Tired = Müde
+ActorState.Total = Summe
+
+TaskGroup._Name = Jobs
+TaskGroup.Agriculture = Land_wirtschaft
+TaskGroup.Agriculture.Desc = Land_arbeiter pflanzen und ernten in den ##farmzoneen.
+TaskGroup.Construction = Bau
+TaskGroup.Construction.Desc = Bau_arbeiter arbeiten an Bau_stellen und errichten Gebäude.
+TaskGroup.Crafting = Handwerker
+TaskGroup.Crafting.Desc = Hand_werker betreiben Werk_stätten, um kom_plexere Güter her_zu_stellen.
+TaskGroup.Combat = Kampf
+TaskGroup.Combat.Desc = Kämpfer ver_teidigen ihre Mit_kolo_nisten und kämpfen gegen Feinde.
+TaskGroup.Mining = Abbauen & ernten
+TaskGroup.Mining.Desc = Abbau_kolonisten fällen Bäume und bauen Felsen und Steine ab.
+TaskGroup.Power = Energie
+TaskGroup.Power.Desc = Kolo_nisten und Tiere können ##power erzeugen.
+
+
+Workshop._Name = Werk_stätten
+
+Hint.Camera = Du kannst den Bild_schirm ver_schieben, indem du die Maus zu einer Seite des Bild_schirms bewegst oder die mittlere Maus_taste ged_rückt hälst und die Maus ziehst.
+Hint.CameraZoom = Du kannst mit dem Mausrad rein- und raus_zoomen.
+Hint.DefeatRecruit = Es gibt ein feind_liches Lager auf dieser Insel. Besiege die Feinde, um gefangene Kolo_nisten zu rekru_tieren und ihre Basis zu plün_dern.
+Hint.Drink = Deine Getränke_vorräte sind leer. Durstige Kolo_nisten sind weniger effizient. Baue einen Brunnen, um Wasser zu gewinnen.
+Hint.Farms = Du hast keine aktive Nahrungs_mittel_produktion.
+Hint.Food = Deine Essens_vorräte sind leer. Während hungernde Kolo_nisten nicht sterben, sinkt ihre Produkt_ivität. Ernte  Pflanzen oder erzeuge Farmen, um Nahrung zu erhalten.
+Hint.Recruit = Es gibt rekru_tier_bare Tiere oder ges_trandete Kolo_nisten auf dieser Insel. Finde sie und erfülle ihre Anforde_rungen, damit sie deiner Kolonie beitreten können.
+Hint.Unload = Du hast Waren auf deinem Schiff geladen. Um Waren zu ent_laden, wähle dein Schiff aus und klicke auf die Waren, die du ent_laden möchtest.
+Hint.Workshop = Baue Werk_stätten, um deinen abgebauten Roh_stoffe in fort_schritt_lichere Produkte zu verwandeln.
+
+
+Faction.Player = Freundlich
+Faction.Enemy = Feindlich
+Faction.Neutral = Neutral
+
+Text.BackerRaft.Desc = Gesendet von $1.
+BuildingType.Actor = Lebewesen
+BuildingType.Decoration = Dekoration
+BuildingType.Decoration.Desc = Dekorative Gegen_stände machen Kolo_nisten glücklicher und produktiver.
+BuildingType.Defense = Verteidigung
+BuildingType.Defense.Desc = Wände und Türme.
+BuildingType.Food = Essen und Getränke
+BuildingType.Food.Desc = Gebäude zur Her_stellung und Ver_edelung von ##food und ##drink.
+BuildingType.House = Häuser
+BuildingType.House.Desc = Häuser zu haben verbessert das Glück und die Effizienz deiner Kolo_nisten.
+BuildingType.Item = Gegenstände
+BuildingType.Item.Desc = Gegenstände.
+BuildingType.Logistics = Logistik
+BuildingType.Logistics.Desc = Gebäude und Maschinen zur Auto_matisierung deiner Produktion.
+BuildingType.None = Sonstiges
+BuildingType.None.Desc = Sonstige Gebäude.
+BuildingType.Refining = Veredelung
+BuildingType.Refining.Desc = Werk_stätten zur Ver_edelung und Ent_sorgung von Ressourcen.
+BuildingType.Workshop = Werkstätten
+BuildingType.Workshop.Desc = Werk_stätten zur Her_stellung von ##toolen, Waffen und Maschinen.
+
+
+Settings.Category.Graphics = Grafik
+Settings.Category.Audio = Audio
+Settings.Category.Gameplay = Gameplay
+Settings.Category.Other = Sonstiges
+Settings.UIScale = UI-Skalierung
+Settings.UIScale.Desc = Vergrößere oder ver_kleinere die Benutzer_oberfläche.
+Settings.Shadows = Schatten_qualität
+Settings.Shadows.Desc = Qualität der Schatten, die von den Lichtern geworfen werden. Schatten sehen schön aus, können aber bei vielen Licht_quellen sehr teuer für den Grafik_prozessor sein.
+Settings.Brightness = Helligkeit
+Settings.Brightness.Desc = Helligkeit
+Settings.AA = AA
+Settings.AA.Desc = Anti-Aliasing: Aliasing um Kanten herum reduzieren.
+Settings.Ambience = Ambienz
+Settings.Ambience.Desc = Laut_stärke der ambienten Effekte.
+Settings.AO = AO
+Settings.AO.Desc = Ambient Occlusion: Umgebungs_licht und Schatten.
+Settings.Autosave = Autosave
+Settings.Autosave.Desc = Autom_atisches Speichern nach einer bestimmten Zeit_spanne.
+Settings.Bevel = Bevel und Kanten
+Settings.Bevel.Desc = Zeichnet einen Bevel_effekt um Objekte und   eine Kontur um diese herum.
+Settings.Bloom = Bloom
+Settings.Bloom.Desc = Zeichnet einen Bloom_effekt um über_belichtete Bereiche.
+Settings.Clouds = Wolken
+Settings.Clouds.Desc = Wolken bewegen sich über das Land.
+Settings.Debug = Debugmodus
+Settings.DOF = Tiefen_unschärfe
+Settings.DOF.Desc = Ver_ringerung des Fokus_bereichs beim Herein_zoomen.
+Settings.Fog = Nebel und Dunst
+Settings.Fog.Desc = Zeige Nebel- und Dunst_effekte.
+Settings.FPS = Zeige FPS
+Settings.FPS.Desc = Zeigt die aktuellen frames per second.
+Settings.Hints = Hinweise
+Settings.Hints.Desc = Anzeige von Hinw_eisen, wenn das Spiel Er_eignisse wie ungenutzte Produk_tions_gebäude erkennt.
+Settings.Hit = Treffer_anima_tionen
+Settings.Hit.Desc = Resourcen und Gebäude reagieren, wenn sie getroffen werden.
+Settings.Music = Musik
+Settings.Music.Desc = Musik_lautstärke.
+Settings.Scroll = Rand-Scrollen
+Settings.Scroll.Desc = Scrollt den Bild_schirm, wenn die Maus den Bild_schirm_rand berührt.
+Settings.Sound = Sound
+Settings.Sound.Desc = Laut_stärke von Sound_effekten.
+Settings.SSScale = Screenshot SS
+Settings.SSScale.Desc = Ver_größerungs_faktor für Screen_shots.
+Settings.Weather = Wetter_effekte
+Settings.Weather.Desc = Visuelle Wetter_effekte wie Regen und Schnee.
+
+
+Workshop.Status.Busy = Werkstatt arbeitet.
+Workshop.Status.Busy.Desc = Ein kolonist arbeitet in dieser Werk_statt.
+Workshop.Status.Idle = Werkstatt is untätig.
+Workshop.Status.Idle.Desc = Sobald ein Kolonist bereit ist, beginnt die Produktion.
+Workshop.Status.NoInput = Keine Inputgüter.
+Workshop.Status.NoInput.Desc = Die Produktion wird wieder auf_genommen, sobald die benötigten Input_güter ver_fügbar sind.
+Workshop.Status.NoOutput = Kein Aus_gangs_lager zu_geordnet.
+Workshop.Status.NoOutput.Desc = Um einen Ausgangs-##stockpilezone zu verbinden, klicke mit der linken Maus_taste auf die Werk_statt und dann mit der rechten Maus_taste auf das Lager, wohin die Produkte dieser Werk_statt gehen soll. Die Werk_statt produ_ziert, bis die ver_knüpften Ausgangs_lager voll sind.
+Workshop.Status.NoProduct = Kein Produkt aus_gewählt.
+Workshop.Status.NoProduct.Desc = Um ein Produkt auszuwählen, klicke es im Workshop_panel an. Wenn mehrere Produkte aus_gewählt sind, werden deine Kolo_nisten ihre Auf_gaben auf_teilen.
+Workshop.Status.NoSettler = Kein Kolonist zugewiesen.
+Workshop.Status.NoSettler.Desc = Um einen Kolo_nisten in dieser Werk_statt arbeiten zu lassen, wähle ihn aus und klicke auf die Werk_statt im Kolo_nisten_panel. Alter_nativ kannst du die Jobs deiner Kolo_nisten auch über den Kolo_nisten_management_bild_schirm verwalten.
+Workshop.Status.OutputFull = Ausgangs_lager voll.
+Workshop.Status.OutputFull.Desc = Die Produk_tion wird wieder aufgenommen, sobald Platz im Ausgangs_##stockpilezone vorhanden ist.
+Workshop.Status.UnderConstruction = Im Bau.
+Workshop.Status.UnderConstruction.Desc = Die Werk_statt befindet sich im Bau.
+
+Farm.Status.Harvest = Bereit zur Ernte.
+Farm.Status.Harvest.Desc = 
+Farm.Status.Idle = Farm ist untätig.
+Farm.Status.Idle.Desc = 
+Farm.Status.NoOutput = Kein Ausgangs_lager zugeordnet.
+Farm.Status.NoOutput.Desc = Um einen Ausgangs_##stockpilezone zu verknüpfen, klicke mit der linken Maus_taste auf die ##farmzone und dann mit der rechten Maus_taste auf das Lager, wohin die Produkte dieser Werkstatt gehen soll. Die Farm pro_duziert, bis die ver_knüpften Ausgangs_lager voll sind.
+Farm.Status.NoWorkers = Keine Landwirte.
+Farm.Status.OutputFull = Ausgangs_lager voll.
+Farm.Status.OutputFull.Desc = Die Produktion wird wieder aufgenommen, sobald Platz im Ausgangs_##stockpilezone vor_handen ist.
+Farm.Status.Paused = Kein Produkt aus_gewählt.
+Farm.Status.Plant = Bereit zum Anbauen.
+Farm.Status.Plant.Desc = 
+Farm.Status.Till = Bereit zum Pflügen.
+Farm.Status.Till.Desc = 
+TipOfTheDay.Header = Tipp:
+TipOfTheDay.1 = Deine Ziele werden oben links angezeigt. Fahre  mit der Maus über sie, um weitere Infor_mationen zu erhalten. Klicke auf die Glüh_birne, um das Hilfe_fenster zu öffnen. Lass dir Zeit - deine Kolo_nisten werden nicht ver_hungern.
+
+
+Modifier.Islands = Freundliche Nachbarn.
+Modifier.Islands.Intro = Drei freundliche Inseln versorgen dich mit grund_legenden Gütern, sobald du einen Hafen baust.
+Modifier.MapSizeBig = Große Karte
+Modifier.MapSizeHuge = Riesige Karte
+Modifier.MapSizeNormal = Normale Größe
+Modifier.MapSizeSmall = Kleine Karte
+Modifier.MapsizeTiny = Winzige Karte
+Modifier.ResourcesBasic = Viele Basis_resourcen.
+Modifier.ResourcesBasic.Intro = Diese Insel ist reich an Holz und Stein, hat aber keine Minera_lerze.
+Modifier.EnemyCamp = Ein kleines feindliches Lager.
+Modifier.SpawnExtraSettlers = Spawne 10 zusätzliche Kolo_nisten
+Modifier.RecruitablePigs = Zwei Schweine, die sich an_schließen wollen.
+Modifier.SpawnSettlers = Spawne deine Kolo_nisten
+Modifier.SpawnStrandedColonists.Short = Schiff_brüchige.
+Modifier.SpawnStrandedColonists = Einige Schiff_brüchige wollen sich unserer Kolonie anschließen.
+Modifier.SpawnStrandedColonists.Intro = Wir haben Gerüchte über Schiff_brüchige gehört, die auf der anderen Seite der Insel ge_strandet sind. Wenn wir sie finden können, werden sie sich uns an_schließen.
+Modifier.StrandedGoods = Strandgüter
+Modifier.TerrainDark = Aschenwelt
+Modifier.TerrainDesert = Wüste
+Modifier.TerrainGrassland = Grasland
+TerrainShape.Flat = Flaches Terrain
+TerrainShape.Mountain = Bergiges Terrain
+
+
+Modifier.Tutorial1 = Aufbau einer Basis_kolonie.
+Map01.Introduction = Wir sind auf einer kleinen und fried_lichen Insel an_gekommen. Wir sollten ein kleines Lager ein_richten und uns mit Holz und Stein ein_decken.
+Map01.IntroControls = Mache dich mit den Bedien_elementen vertraut:
+Map01.IntroHelp = Be_dienung des Hilfe_systems:
+Map01.IntroUnload = Ent_lade die Vorräte von deinem Schiff:
+Map01.IntroFarm = Baue eine Farm, um frische Lebens_mittel für die Kolo_nisten anzubauen:
+Map01.IntroWell = Baue einen Brunnen, um unsere Leute mit frischem Wasser zu versorgen:
+Map01.IntroMine = Diese Insel ist sehr reich an Resourcen. Baue etwas Holz und Stein ab:
+Map01.IntroLoad = Sehr gut! Lade ein paar Vorräte auf unser Schiff. Das ist unser letztes Ziel. Wenn wir fertig sind, können wir zur nächsten Insel über_gehen!
+Map01.IntroRecruit = Zähme ein paar Tiere, um unsere Arbeits_kraft zu ver_größern:
+Map01.IntroExpand = Baue ein zweites Lager_feuer, um dein Terri_torium zu er_weitern:
+Map01.SpawnStrandedColonists.Short = Rekru_tiere Schiffs_brüchige.
+Map01.SpawnStrandedColonists = Einige Schiff_brüchige wollen sich unserer Kolonie an_schließen.
+Modifier.TutorialFreePlay = Lerne, die Debug_funktionen zu nutzen.
+MapFP.Introduction = Dieses kurze Tutorial zeigt dir, wie du die Debug_funktionen des Spiels nutzen kannst, um auf Inhalte zuzu_greifen, die noch nicht fertig sind.
+ObjectiveGroup.Debug = Debugmodus-Tutorial.
+Map01.IntroDebug = Beachte, dass du mit diesen Optionen auf unfertige und fehler_hafte Inhalte zugreifen kannst.
+Modifier.Tutorial2 = Produktions-Tutorial
+Map02.Introduction = Auf dieser Insel werden wir eine funk_tionierende Wirt_schaft auf_bauen und einige Werk_zeuge und Waffen herstellen:
+Map02.IntroTool = Baue eine ein_fache Basis_werkstatt und stelle einige Holz_bretter her:
+Map02.IntroTool2 = Als nächstes müssen wir eine weitere Werk_statt bauen und ein_richten, um unsere Holz_bretter in Werk_zeuge zu ver_wandeln:
+Map02.IntroTool3 = Der beste Weg, die Effekt_ivität unserer Hand_werker zu steigern, ist, sie mit besseren Werk_zeugen aus_zustatten. Produziere min_destens Werk_zeuge und rüste deine Kolo_nisten mit diesen aus:
+Map02.IntroBrick = Häuser bieten unseren Kolo_nisten mehr Komfort. Baue Lehm aus den Bergen an und baue einen Ofen, um ihn Lehm in Ziegel zu verwandeln:
+Map02.IntroHouses = Baue ein paar Häuser:
+TitleBasicWorkshop1 = Holzbrett-Produktion
+TitleBasicWorkshop1.Intro = Baue eine einfache Basis_werkstatt und stelle einige Holzbretter her:
+TitleBasicWorkshop2 = Holzhammer-Produktion
+TitleBasicWorkshop3 = Rüste Werkzeuge aus
+TitleBasicWorkshop4 = Ziegel-Produktion
+TitleBasicWorkshop5 = Hausbau
+Modifier.WavesSlimes = Schleim-Wellen
+Scenario.FreeDesert = Freis Spiel: Wüste.
+Scenario.FreeGrassland = Freis Spiel: Grasland.
+Scenario.Tutorial1 = Errichte eine einfache Kolonie.
+
+
+ObjectType.Cow = Kuh
+ObjectType.Cow.Desc = Eine friedliche Kreatur.
+ObjectType.Firefly = Glühwürmchen
+ObjectType.Firefly.Desc = Erleuchtet die Nacht.
+ObjectType.MegaSpider = Megaspinne
+ObjectType.MegaSpider.Desc = Mehr spinne.
+ObjectType.MiningRobot = Bergbau-Roboter
+ObjectType.MiningRobot.Desc = ##robot können nur die Arbeit aus_führen, für die sie gebaut wurden.
+ObjectType.Pig = Schwein
+ObjectType.Pig.Desc = Ein wildes Schwein.
+ObjectType.Scorpion = Skorpion
+ObjectType.Scorpion.Desc = Giftig und gefährlich.
+ObjectType.SettlerFemale = Weibl. Kolonist
+ObjectType.SettlerFemale.Desc = Ein starker Mensch.
+ObjectType.SettlerMale = Männl. Kolonist
+ObjectType.SettlerMale.Desc = Ein starker Mensch.
+ObjectType.Sheep = Schaf
+ObjectType.Sheep.Desc = Schaf
+ObjectType.Slime = Schleim
+ObjectType.Slime.Desc = Ein glibberiger Gegner.
+ObjectType.Snake = Schlange
+ObjectType.Snake.Desc = Verbreitet im Grasland.
+ObjectType.Spider = Spinne
+ObjectType.Spider.Desc = Warum?
+ObjectType.Turtle = Schildkröte
+ObjectType.Turtle.Desc = Schildkröte
+ObjectType.AutoSmelter = Autom. Schmelz_ofen.
+ObjectType.AutoSmelter.Desc = Schmilzt ##automatically abge_bautes Erz zu Metall_blöcken.
+ObjectType.Farm5x5 = Auto_mati_sierte Farm
+ObjectType.Farm5x5.Desc = Diese ##farmzone pflanzt und erntet ##automatically.
+ObjectType.Sawmill = Sägewerk
+ObjectType.Sawmill.Desc = Säge_werke ver_arbeiten Holz_stämme zu Brettern.
+ObjectType.Bonfire = Lager_feuer
+ObjectType.Bonfire.Desc = Er_weitert die Grenzen deines ##territorys und definiert ##Zonen.
+ObjectType.Torch = Fackel
+ObjectType.Torch.Desc = Fackeln sind eine einfache Licht_quelle.
+ObjectType.ConveyorBeltStraight = Transport_band
+ObjectType.ConveyorBeltStraight.Desc = Transport_bänder können zum auto_matischen Trans_port von Gütern ver_wendet werden.
+ObjectType.OverheadConveyorPath = Hänge_bahn_schiene
+ObjectType.OverheadConveyorPath.Desc = Eine Hänge_bahn_schiene. Das Hänge_förder_system zum Trans_port von Gegen_ständen.
+ObjectType.OverheadConveyorStation = Hänge_bahn_station
+ObjectType.OverheadConveyorStation.Desc = Eine Hänge_förder_station zum Trans_port von Gegen_ständen.
+ObjectType.DecoBush = Zierstrauch
+ObjectType.DecoBush.Desc = Nicht sehr aufregend, aber schön anzusehen.
+ObjectType.DecoShrine = Deko_rativer Schrein
+ObjectType.DecoShrine.Desc = Beleuchtet die Umgebung und sieht gut aus..
+ObjectType.FlowerPot = Blumen_topf
+ObjectType.FlowerPot.Desc = Zur Her_stellung von Topf_pflanzen.
+ObjectType.StatueSettler = Kolo_nisten_statue
+ObjectType.StatueSettler.Desc = Eine Statue von Lef dem Großen, die sein Opfer für das Wohl der All_gemeinheit ehrt.
+ObjectType.StatueTrain = Zug-Statue
+ObjectType.StatueTrain.Desc = Eine Statue eines Zuges.
+ObjectType.Depot5x5 = Depot 5x5
+ObjectType.Depot5x5.Desc = ##depots können Waren lagern und verteilen.
+ObjectType.DepotEntry = Depot-Eingang
+ObjectType.DepotEntry.Desc = Lege Gegen_stände hier ab, um sie ins ##depot zu bringen.
+ObjectType.DepotExit = Depot-Ausgang
+ObjectType.DepotExit.Desc = Fordert Waren aus dem ##depot an.
+ObjectType.Harbour = Hafen
+ObjectType.Harbour.Desc = Häfen bieten eine Anlege_stelle für ##cargoshipe.
+ObjectType.IronHammer = Eisen_hammer
+ObjectType.IronHammer.Desc = Hämmer werden zur Herstellung von Waren und zum Bau von Gebäuden ein_gesetzt.
+ObjectType.IronPickaxe = Eisen_spitzhacke
+ObjectType.IronPickaxe.Desc = Spitz_hacken werden zum Abbau von Steinen, Bäumen und Bergen ver_wendet.
+ObjectType.IronShovel = Eisen_schaufel
+ObjectType.IronShovel.Desc = Schaufeln werden für land_wirt_schaftliche Arbeiten ver_wendet.
+ObjectType.IronSword = Eisen_schwert
+ObjectType.IronSword.Desc = Das Eisen_schwert ist eine einfache Nahkampf_waffe.
+ObjectType.WoodHammer = Holzhammer
+ObjectType.WoodHammer.Desc = Hämmer werden zur Herstellung von Waren und zum Bau von Gebäuden ein_gesetzt.
+ObjectType.WoodPickaxe = Holz_spitzhacke
+ObjectType.WoodPickaxe.Desc = Spitz_hacken werden zum Abbau von Steinen, Bäumen und Bergen ver_wendet.
+ObjectType.WoodShovel = Holzschaufel
+ObjectType.WoodShovel.Desc = Schaufeln werden für land_wirt_schaftliche Arbeiten verwendet.
+ObjectType.WoodSword = Holzschwert
+ObjectType.WoodSword.Desc = Das Holzschwert ist eine einfache Nahkampf_waffe.
+ObjectType.Tomato = Tomate
+ObjectType.Tomato.Desc = Eine Tomaten_pflanze.
+ObjectType.Wheat = Weizen
+ObjectType.Wheat.Desc = Weizen ist eine Kultur_pflanze, die zur Herstellung von ##food verwendet wird. 
+ObjectType.House = Haus
+ObjectType.House.Desc = Häuser ver_bessern die Lebens_qualität deiner Kolo_nisten.
+ObjectType.Inserter = Inserter
+ObjectType.Inserter.Desc = Inserter bewegen Artikel zwischen Förder_bändern, ##depots usw..
+ObjectType.Beer = Bier
+ObjectType.Beer.Desc = Bier hält deine Kolo_nisten bei Laune.
+ObjectType.HarvestedBerries = Geerntete Beeren
+ObjectType.HarvestedBerries.Desc = Geerntete Erdbeeren. Sehr lecker.
+ObjectType.Bread = Brot
+ObjectType.Bread.Desc = Eine reich_haltige Nahrungs_quelle.
+ObjectType.Brick = Ziegel
+ObjectType.Brick.Desc = Dient zum Bau von fort_geschritt_enen Gebäuden.
+ObjectType.BushBerries = Erdbeer_strauch
+ObjectType.BushBerries.Desc = Erd_beeren sind eine schnell wachsende und einfach anzu_bauende Nahrungs_quelle. 
+ObjectType.Charcoal = Holzkohle
+ObjectType.Charcoal.Desc = Holzkohle wird verwendet, um fort_geschritt_ene Werk_stätten zu befeuern.
+ObjectType.HarvestedFlowers = Geerntete Blumen
+ObjectType.HarvestedFlowers.Desc = Wild_blumen können geerntet und zu Tee ver_arbeitet werden.
+ObjectType.HarvestedTomato = Geerntete Tomate
+ObjectType.HarvestedTomato.Desc = Ein Haufen geernteter Tomaten.
+ObjectType.HarvestedWheat = Geernteter Weizen
+ObjectType.HarvestedWheat.Desc = Weizen, der zur Her_stellung von Brot und Kuchen ver_wendet werden kann.
+ObjectType.Log = Holzscheit
+ObjectType.Log.Desc = Holz_scheite können zu Holzkohle oder Holz_brettern ver_arbeitet werden.
+ObjectType.MachineParts = Maschinen_teile
+ObjectType.MachineParts.Desc = Maschinen_teile werden zum Bau von kom_plexen Maschinen ein_gesetzt.
+ObjectType.StoneBlock = Steinblock
+ObjectType.StoneBlock.Desc = Ein ver_arbeiteter Stein_block.
+ObjectType.Tea = Tee
+ObjectType.Tea.Desc = Ein erfrisch_endes Getränk.
+ObjectType.WaterBucket = Wasser
+ObjectType.WaterBucket.Desc = Ein ein_faches Getränk.
+ObjectType.WoodenBoard = Holzbrett
+ObjectType.WoodenBoard.Desc = Holz_bretter werden für den Bau fort_schritt_licherer Gebäude verwendet.
+ObjectType.LootBox = Beutekiste
+ObjectType.LootBox.Desc = Beute_kisten enthalten eine zufällige Sammlung von Gegen_ständen. Kosten_los.
+ObjectType.Copper = Kupfer
+ObjectType.Copper.Desc = Kupfer.
+ObjectType.CopperBlock = Kupferblock
+ObjectType.CopperBlock.Desc = Ein Kupferblock.
+ObjectType.Gold = Gold
+ObjectType.Gold.Desc = Gold.
+ObjectType.GoldBlock = Goldblock
+ObjectType.GoldBlock.Desc = Ein Goldblock
+ObjectType.Iron = Eisen
+ObjectType.Iron.Desc = Eisen.
+ObjectType.IronBlock = Eisen_block
+ObjectType.IronBlock.Desc = Bestand_teil von hoch_rangigen ##toolen und Maschinen.
+ObjectType.MinedCopper = Abgebautes Kupfererz
+ObjectType.MinedCopper.Desc = Ein Klumpen Kupfererz.
+ObjectType.MinedGold = Abgebautes Golderz
+ObjectType.MinedGold.Desc = Ein Klumpen Golderz.
+ObjectType.MinedIron = Abgebautes Eisenerz
+ObjectType.MinedIron.Desc = Ein Klumpen Eisenerz.
+ObjectType.Clay = Ton
+ObjectType.Clay.Desc = Ton kann zu Ziegeln ver_arbeitet werden, aus denen die meisten Gebäude gebaut werden.
+ObjectType.DarkGeode = Dunkle Geode
+ObjectType.DarkGeode.Desc = Eine Geode kann abgebaut werden, um ver_schiedene Mineral_erze zu erhalten.
+ObjectType.MinedClay = Abgebauter Ton
+ObjectType.MinedClay.Desc = Ton kann zu Ziegeln ver_arbeitet werden, aus denen die meisten Gebäude gebaut werden.
+ObjectType.MinedRock = Stein
+ObjectType.MinedRock.Desc = Steine werden zum Bau von ein_fachen Gebäuden ver_wendet.
+ObjectType.Rock = Steinhaufen
+ObjectType.Rock.Desc = Enthält #MinedRock# Steine, die zum Bau von ein_fachen Gebäuden ver_wendet werden.
+ObjectType.SandGeode = Sandgeode
+ObjectType.SandGeode.Desc = Eine Geode kann abgebaut werden, um ver_schiedene Mineral_erze zu erhalten.
+ObjectType.SandRock = Steinhaufen
+ObjectType.SandRock.Desc = Enthält Steine, die zum Bau von ein_fachen Gebäuden verwendet werden.
+ObjectType.BackerRaft = Backer Floß
+ObjectType.BackerRaft.Desc = Liefert einen Gegen_stand, der von einem anderen Spieler ge_spendet wurde.
+ObjectType.MudRoad = Schlamm_straße
+ObjectType.MudRoad.Desc = Ein einfacher Weg.
+ObjectType.StoneRoad = Stein_straße
+ObjectType.StoneRoad.Desc = Eine ge_pflasterte Straße.
+ObjectType.Aeste = Zweige
+ObjectType.Aeste.Desc = Kann durch Abbau/Ernte entfernt werden.
+ObjectType.BeachRock = Kleine Steine.
+ObjectType.BeachRock.Desc = Kann durch Abbau / Ernte entfernt werden.
+ObjectType.CorniTree = Fichte
+ObjectType.CorniTree.Desc = Bäume können ab_gebaut werden, um Baum_stämme zu erhalten.
+ObjectType.Muscheln = Muscheln
+ObjectType.Muscheln.Desc = Kann durch Abbau / Ernte entfernt werden.
+ObjectType.Steine = Kleine Steine
+ObjectType.Steine.Desc = Kann durch Abbau / Ernte entfernt werden.
+ObjectType.Tree = Eiche
+ObjectType.Tree.Desc = Bäume können abgebaut werden, um Baum_stämme zu erhalten.
+ObjectType.Weed = Unkraut
+ObjectType.Weed.Desc = Kann durch Abbau / Ernte entfernt werden.
+ObjectType.WildBushel = Unkraut
+ObjectType.WildBushel.Desc = Kann durch Abbau / Ernte entfernt werden.
+ObjectType.Boat = Schiff
+ObjectType.Boat.Desc = Das ##ship, mit dem deine Kolo_nisten die Meere über_queren.
+ObjectType.CargoShip = Frachtschiff
+ObjectType.CargoShip.Desc = Fracht_schiffe bringen Waren aus deinen früheren Kolonien auf deine neue Insel.
+ObjectType.Table = Tisch
+ObjectType.Table.Desc = Wenn die Kolo_nisten erschöpft sind, können sie sich hier entspannen.
+ObjectType.Soil = Erde
+ObjectType.Soil.Desc = Erde
+ObjectType.RailwayCrossing = Bahn_übergang.
+ObjectType.RailwayCrossing.Desc = Ein einfacher Bahn_übergang. Rein dekorativ.
+ObjectType.TracksStation = Bahn_station
+ObjectType.TracksStation.Desc = Die Züge halten an den Bahn_höfen und fahren nach einer kurzen Pause weiter.
+ObjectType.TracksStationGround = Bahnhofs_pflaster.
+ObjectType.TracksStationGround.Desc = Ein deko_rativer Bürger_steig, der auf Schienen verlegt werden kann.
+ObjectType.TrainFactory = Zug_fabrik
+ObjectType.TrainFactory.Desc = In der Zug_fabrik können 3 Züge produziert und instand gehalten werden.
+ObjectType.TrainLocomotive = Loko_motive
+ObjectType.TrainLocomotive.Desc = Loko_motiven treiben Züge an.
+ObjectType.Bakery = Bäckerei
+ObjectType.Bakery.Desc = Zur Herstellung von Brot und anderem ##Food.
+ObjectType.BasicWorkplace = Basis_arbeitsplatz
+ObjectType.BasicWorkplace.Desc = Der Basis_arbeitsplatz ermöglicht die Herstellung einfacher Waren.
+ObjectType.Brewery = Brauerei
+ObjectType.Brewery.Desc = Zur Herstellung von Bier, Tee und anderen Getränken.
+ObjectType.Kiln = Ofen
+ObjectType.Kiln.Desc = Der Ofen dient der Herstellund von Holz_kohle und zum Backen von Ziegeln.
+ObjectType.MetalWorkshop = Metall_werkstatt
+ObjectType.MetalWorkshop.Desc = Die Metall_werkstatt ermöglicht die Her_stellung von modernen ##toolen und Waffen.
+ObjectType.Smelter = Erzhütte
+ObjectType.Smelter.Desc = Schmelzt abgebautes Erz zu Metall_blöcken.
+ObjectType.Well = Brunnen
+ObjectType.Well.Desc = Der Brunnen fördert Grund_wasser, das von den Kolo_nisten in Eimer gefüllt werden kann.
+ObjectType.ZeppelinDepotStation = Zeppelin_depot
+ObjectType.ZeppelinDepotStation.Desc = Depot-station zur Be- und Entladen von Zeppelinen. (##depot, ##logsys)
+ObjectType.ZeppelinFactory = Zeppelin_werk
+ObjectType.ZeppelinFactory.Desc = Baut und unter_stützt einen Zeppelin.
+ObjectType.ZeppelinStation = Zeppelin_bahnhof
+ObjectType.ZeppelinStation.Desc = Station, die von Zeppelinen zum Be- und Entladen von Gütern genutzt wird. (##logsys)
+ObjectType.ZeppelinUnit = Zeppelin
+ObjectType.ZeppelinUnit.Desc = Zeppelin
+
+
+Settings.Language = Sprache
+Settings.Language.Desc = (Die Sprache kann nur im Hauptmenü geändert werden.)
+
+
+
+MainMenu.NewCampaign = Neue Kampagne
+MainMenu.ResumeCampaign = Kampagne fortsetzen
+MainMenu.PlayTutorial = Tutorial spielen
+MainMenu.PlayCustomMap = Eigene Karte spielen
+MainMenu.Settings = Ein_stellungen
+MainMenu.ExitGame = Spiel beenden
+
+
+
+LoadingPhase.InitializingGame = Initia_lisiere Spiel
+LoadingPhase.IconGeneration = Generiere Icons
+LoadingPhase.ExplicitSpawns = Erzeuge explizite Objekt_spawns: $1%
+LoadingPhase.GenericSpawns = Erzeuge generische Objekt_spawns: $1%
+LoadingPhase.CreatingMap = Erzeuge Karte
+LoadingPhase.GeneratingTiles = Generiere Kacheln: $1%
+LoadingPhase.LoadMap = Lade Karte aus Datei
+LoadingPhase.InitialisingObjects = Initia_lisiere Objekte
+
+UI.Weight = ##Weight: $1
+UI.CanBeMined = Kann abgebaut werden
+UI.SelectZoneColor = Wähle Zonenfarbe:
+UI.Equipment = Ausrüstung
+UI.SelectAssignedZones = Wähle zug_ewiesene Zonen:
+UI.AcceptedGoods = Akzeptierte Waren:
+UI.AcceptedGoods.Help = (Klicke auf eine Waret zum um_schalten.)
+
+UI.Recruitment = Rekru_tierung
+UI.Recruit.Defeat = Besiege:
+UI.Recruit.Requirements = An_for_derungen:
+UI.Help = Hilfe
+
+Settings.ScrollSpeed = Scroll_geschw.
+Settings.ScrollSpeed.Desc = Scroll_geschwin_digkeits_faktor. Betrifft das Scrollen am Bildschirm_rand und via WASD.
+
+UI.PressAnyKey = Drücke eine Taste um loszulegen!
+
+UI.CapacityUsed = Kapazität:
+UI.LoadLeave = Laden und Ablegen:
+UI.StoredCargo = Geladene Güter:
+UI.StoredCargo.Help = (Klicke zum Entladen.)
+
+UI.Menu = Menü
+UI.Menu.Title = Menü
+UI.ExitToMain = Beenden zum Hauptmenü.
+UI.VersionInfo = Versions_infos
+
+
+Settings.ExportIcons = Icon_export
+Settings.ExportIcons.Desc = Expor_tiert Objekt_icons beim Start (in der Regel nicht benötigt).
+
+UI.ProductionTree = Pro_duktions_übersicht
+
+
+UI.AcceptAll = Alle akzeptieren
+UI.AcceptAll.Desc = Der ##stockpilezone nimmt alle Güter auf.
+UI.RefuseAll = Alle ablehnen
+UI.RefuseAll.Desc = Der ##stockpilezone nimmt keine Güter auf.
+
+Settings.RotateSpeed = Rot.-geschw.
+Settings.RotateSpeed.Desc = Faktor für die Rotations_geschwin_dikeit. Betrifft das Rotieren der Kamera mit Q / E / BildAuf / BildAb.
+
+
+
+Farm.Status.NoOutputForProduct = Ausgangs_lager akzeptieren nichts.
+Farm.Status.NoOutputForProduct.Desc = Um die akzeptierten Güter eines ##stockpiles zu ändern, wähle es aus und klicke dann auf die ge_wünschten Güter
+
+MainMenu.LoadGame = Spiel laden
+
+
+
+
+Objective.SetClaimColor = Set $1 color to $2.
+Objective.SetClaimColor.Desc = ...
+
+Settings.RightDrag = RMB-Scrollen
+Settings.RightDrag.Desc = Bewege die Karte, in dem du sie bei gedrückter rechter Maustaste ziehst.
+LoadingPhase.Combining = Kombiniere Meshes
+
+UI.ClearZone = Verkaufen / Abreißen / Zone entfernen
+UI.ClearZone.Desc = Zerstöre ein Gebäude oder entferne einen ##stockpilezone, eine ##farmzone oder eine ##grovezone. Benutze ##Keycycle zum Umschalten zwischen mehreren Objekten auf demselben Feld.
+UI.CancelOrder = Befehl abbrechen
+UI.CancelOrder.Desc = Macht einen Befehl wie Ernten oder Laden rück_gängig.
+
+Logistics.Status.NotConnected = Nicht mit Logistik_system verbunden.
+Logistics.Status.Supply = Liefert an Logistik_system.
+Logistics.Status.Request = Fordert aus Logistik_system.
+Logistics.Status.SupplyRequest = Liefert und fordert an.
+Logistics.Status.CanSupply = Kann liefern.
+Logistics.Status.CanRequest = Kann anfordern.
+Logistics.Status.CanSupplyRequest = Kann liefern oder anfordern.
+
+
+
+ObjectType.Oil = Ölquelle
+ObjectType.Oil.Desc = Ölquellen können mit Hilfe von Ölpumpen abgeschöpft werden. (##Roboter benötigen Öl.)
+
+
+# ---
+
+
+Farm.Status.UnderConstruction = Im Bau
+Farm.Status.Working = Wird bearbeitet
+Message.CombatInProgress = $1 wird angegriffen!
+ObjectType.Barn = Scheune
+ObjectType.Barn.Desc = Ein Platz zum Ausruhen für deine Tiere.
+ObjectType.Bush = Busch
+ObjectType.Bush.Desc = Ein einfacher Busch.
+ObjectType.DarkRock = Aschenfels
+ObjectType.DarkRock.Desc = Aschenfels
+ObjectType.DesertTreeStump = Baumstumpf
+ObjectType.DesertTreeStump.Desc = Baumstumpf
+ObjectType.Flower = Blume
+ObjectType.Flower.Desc = Eine sehr hübsche Pflanze.
+ObjectType.OilBarrel = Ölfass
+ObjectType.OilBarrel.Desc = Öl wird zum Bau und zur Wartung von ##robotn verwendet.
+ObjectType.OilPump = Ölpumpe
+ObjectType.OilPump.Desc = Die Öl_pumpe fördert auto_matisch Öl aus einer Ölquelle. (##Roboter benötigen Öl.)
+ObjectType.OilWell = Ölquelle
+ObjectType.OilWell.Desc = Öl_quellen können durch den Bau von Ölpumpen gefördert werden. (##Roboter benötigen Öl.)
+ObjectType.OutpostBonfire = Außen_posten
+ObjectType.OutpostBonfire.Desc = Platziere einen Außen_posten um ein neues ##territory zu beginnen.
+ObjectType.PalmTree = Palme
+ObjectType.PalmTree.Desc = Palme
+ObjectType.RecruitingFlag = Rekru_tierungs_flagge
+ObjectType.RecruitingFlag.Desc = Diese Flagge gehört zu einer Gruppe befreundeter Tiere oder Kolo_nisten. 
+ObjectType.RobotWorkshop = Roboter_werkstatt
+ObjectType.RobotWorkshop.Desc = Die Roboter_werkstatt ermöglicht die Her_stellung von ##robotn. 
+ObjectType.StrawberryDonut = Erdbeer_donut
+ObjectType.StrawberryDonut.Desc = Ungesund aber unwider_stehlich.
+ObjectType.TransportRobot = Transport_roboter
+ObjectType.TransportRobot.Desc = ##robot der gebaut wurde um Güter zu trans_portieren.
+Settings.Lights = Lichter
+Settings.Lights.Desc = Lichter in der Szene anzeigen (erfordert Neustart der Karte).
+Settings.Surveys = Umfragen
+Settings.Surveys.Desc = Umfragen im Hauptmenü anzeigen (englisch).
+UI.Build.AwaitingConstruction = Warten auf den Bau.
+UI.Build.InProgress = Im Bau.
+UI.Build.MissingMaterials = Fehlende Materialien.
+UI.FightClose = Rekru_tierungs_flagge entfernen.
+UI.FightClose.Desc = Entfernt die Rekru_tierungs_flagge. Alle Kolo_nisten werden zu ihrer gewohnten Arbeit zurück_kehren.
+UI.Hitpoints = Treffer_punkte: $1/$2
+UI.LogisticsSystem = Logistik_system
+UI.LogisticsSystem.Desc = Um Waren <b>bereit_zustellen</b>, verbinde diese Einheit (Lager_platz oder Zeppelin_station) mit anderen Einheiten, indem du sie mit der rechten Maus_taste anklickst. Ver_gewissere dich, dass es tatsächlich Waren zu liefern gibt. <br>Nur Lager_plätze können Waren <b>anfrage</b>. Verbinde dazu andere Einheiten (Lager oder Zeppelin_stationen) mit diesem Lager und schalte die gewünschte Ware ein. (##logsys)
+
+
+UI.Pet.Owner = Besitzer
+UI.SurveyInfo = Miniumfrage
+Workshop.Status.NoOutputForProduct = Ausgangs_lager akzeptieren keine Produkte.
+Workshop.Status.NoOutputForProduct.Desc = Um die angenommenen Waren eines ##stockpilezonees zu ändern, klicke mit der linken Maustaste darauf und ändere die akzeptierten Waren, indem du sie auswählst.
+
+UI.Build.MissingMaterials.Explicit = Zum Bau fehlt $1.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ActorState.BadDecoration = Keine Dekoration.
+ActorState.Drinkvariety.High = Hohe Getränke_viel_falt.
+ActorState.Drinkvariety.Low = Keine Getränke_viel_falt.
+ActorState.Foodvariety.High = Hohe Essens_viel_falt.
+ActorState.Foodvariety.Low = Keine Essens_viel_falt.
+ActorState.GoodDecoration = Schöne Umgebung.
+ActorState.HouseQuality.High = Hochwertiges Haus.
+ActorState.HouseQuality.Low = Schlechtes Haus.
+ActorState.Hurt = Schwer verletzt
+ActorState.Injured = Verletzt
+
+AttackEnemyCamp.Desc = 2.) Angriff und Kampf.
+AttackEnemyCamp.Intro = Klicke auf das gegnerische Terri_torium und wähle Angreifen, um deine Kolo_nisten zu rekru_tieren.
+AttackEnemyCamp.Outro = Hinweis: Wähle deine Kolo_nisten aus um zu sehen, wie viel Schaden sie mit den unter_schiedlichen Waffen anrichten.
+
+
+Quality.Level0 = schlecht
+Quality.Level0.Desc = Gegenstand mit schlechter Qualität.
+Quality.Level1 = normal
+Quality.Level1.Desc = Gegenstand mit normaler Qualität.
+Quality.Level2 = gut
+Quality.Level2.Desc = Gegenstand mit guter Qualität.
+Quality.Level3 = hervorragend
+Quality.Level3.Desc = Gegenstand mit hervor_ragender Qualität.
+Quality.Level4 = legendär
+Quality.Level4.Desc = Gegenstand mit legendärer Qualität.
+
+Robot.Mode = Robotermodus
+Robot.Mode.Desc = ##robot können in unter_schiedlichen Modi arbeiten. Ihr Modus beeinflusst ihre Bewegungs_geschwin_digkeit und ihren Treibstoff_verbrauch.
+Robot.Mode.ECO = Ökomodus
+Robot.Mode.NORMAL = Normaler Modus
+Robot.Mode.OFF = Aus
+Robot.Mode.OVERCLOCKED = Übertaktet
+
+Scenario.MockupTier1 = Testmission 1.
+Scenario.MockupTier1.Desc = A work-in-progress mockup of typical gameplay.
+Scenario.MockupTier2 = Testmission 2.
+Scenario.MockupTier2.Desc = A work-in-progress mockup of typical gameplay.
+Scenario.TestMap = Kleine Testkarte.
+Scenario.TestMap.Desc = Nützlich für Testzwecke.
+Scenario.TutorialAdvancedProduction = Fort_geschritt_ene Produktion.
+Scenario.TutorialAdvancedProduction.Desc = Produziere ver_schie_dene Güter und manage mehrere Lage_rstätten.
+Scenario.TutorialAdvancedProduction.Intro = Produziere ver_schiedene Güter und manage mehrere Lager_stätten.
+Scenario.TutorialAutomatedTrains = Auto_matisierter Zug_verkehr.
+Scenario.TutorialAutomatedTrains.Desc = Dieses Tutorial zeigt, wie man auto_matisierte Produktions_gebäude an ein Logistik_system anschließt.
+Scenario.TutorialAutomatedTrains.Intro = Dieses Tutorial zeigt, wie man auto_matisierte Produktions_gebäude an ein Logistik_system anschließt.
+Scenario.TutorialBasics = Eine einfache Kolonie
+Scenario.TutorialBasics.Desc = Dieses Tutorial zeigt die Grundlagen von Produktions- und Kolo_nisten_management.
+Scenario.TutorialCombat = Das Kampfsystem.
+Scenario.TutorialCombat.Desc = Dieses Tutorial zeigt, wie man gegner_ische Camps an_greifen und besiegen kann.
+Scenario.TutorialCombat.Intro = Dieses Tutorial zeigt, wie man gegner_ische Camps an_greifen und besiegen kann.
+Scenario.TutorialLogistics = Das Logistik_system.
+Scenario.TutorialLogistics.Desc = Richte einen Außen_posten ein und beliefere ihn mit Hilfe von Zeppelinen.  
+Scenario.TutorialLogistics.Intro = Richte einen Außen_posten ein und beliefere ihn mit Hilfe von Zeppelinen.
+Scenario.TutorialOreCrushing = Auto_matisierte Eisen_produktion.
+Scenario.TutorialOreCrushing.Desc = Diese Beispiel_szene zeigt, wie Eisen_blöcke produziert werden können.   
+Scenario.TutorialOreCrushing.Intro = Diese Beispiel_szene zeigt, wie Eisen_blöcke produziert werden können.
+Scenario.TutorialTrainPreSignals = Vorsignale für Bahn_strecken.
+Scenario.TutorialTrainPreSignals.Desc = Dieses Beispiel zeigt, wie Vor_signale auf Bahn_strecken genutzt werden können.
+Scenario.TutorialTrainPreSignals.Intro = Dieses Beispiel zeigt, wie Vor_signale auf Bahn_strecken genutzt werden können.
+Scenario.TutorialTrains = Eine einfache Zugstrecke
+Scenario.TutorialTrains.Desc = Verbinde zwei Bahnhöfe mit Hilfe von Zügen und richte ein Logistik_system ein.
+Scenario.TutorialTrains.Intro = Verbinde zwei Bahnhöfe mit Hilfe von Zügen und richte ein Logistik_system ein.
+Scenario.TutorialTrainSignalsCircle = Kreis_förmiger Zug_verkehr.
+Scenario.TutorialTrainSignalsCircle.Desc = Dieses Beispiel zeigt, wie mehrere Züge auf einer kreis_förmigen Strecke verkehren können.
+Scenario.TutorialTrainSignalsCircle.Intro = Dieses Beispiel zeigt, wie mehrere Züge auf einer kreis_förmigen Strecke verkehren können.
+
+SetAdvancedInputStockpile.Desc = 2.) Eingangs_lager zuweisen.
+SetAdvancedInputStockpile.Intro = Wir wollen nicht, dass Berta wegläuft um ent_fernte Resourcen zu holen. Weise der Werk_stätte ein Eingangs_lager zu um dies zu ver_hindern.
+SetAdvancedInputStockpile.Outro = Hinweis: Sobald ein Eingangs_lager zugewiesen ist werden aus_schließlich Resourcen aus diesem verwendet. Werk_stätten können mehrerer Ein- und Ausgangs_lager haben.
+SetBertaColor.Desc = 2.) Weise Berta der gelben Zone zu.
+SetBertaColor.Intro = Kolo_nisten können einer oder mehreren Zonen zugewiesen werden. Sie arbeiten nur in Zonen, in denen sie sich aufhalten dürfen. In diesem Fall möchten wir, dass Berta nur in der neuen gelben Zone arbeitet, die wir gerade erzeugt haben. 
+SetBertaWorkshop.Desc = 1.) Weise Berta der Werkstätte zu.
+SetBertaWorkshop.Intro = Kolo_nisten sammeln Erfahrung in dem, was sie tun. Spezial_isierung ist daher sehr wichtig. In diesem Beispiel wird Ansgar das Tragen über_nehmen während Berta die Werkstätte betreibt.
+SetFighters.Desc = 1.) Mache deine Kolo_nisten zu Kämpfern.
+SetFighters.Intro = Auf den meisten Karten gibt es gegnerische Camps die entfernt werden müssen um zu expandieren. Weise deinen Kolo_nisten die Kampf-Aufgaben_gruppe zu.
+SetFighters.Outro = Hinweis: Sobald sie Kämpfer sind, werden sie auto_matisch die best_mögliche ver_fügbare Waffe suchen und ausrüsten.
+SetOutpostColor.Desc = 1.) Erzeuge einen Außen_posten.
+SetOutpostColor.Intro = Zunächst werden wir unser Terri_torium in zwei ver_schiedene Zonen unterteilen. Wähle das Außen_posten_leucht_feuer (1) im Norden aus und setze seine Farbe auf gelb.
+SetOutpostColorTrain.Desc = 1.) Erzeuge einen Außen_posten.
+SetOutpostColorTrain.Intro = Der erste Teil dieses Tutorials ist identisch mit dem Logistik_tutorial. Wähle das Außen_posten_leucht_feuer (1) im Norden aus und setze seine Farbe auf gelb.
+SetOutputGoods.Desc = 6.) Passe die Ausgangs_lager an.
+SetOutputGoods.Intro = Um festzulegen was eine Werkstatt produziert können wir die akzeptierten Güter der ver_schie_denen Ausgangs_lager ein_schränken.
+SetOutputGoods.Outro = Hinweis: Durch das einrichten unter_schied_licher Ausgangs_lager und das Anpassen ihrer Größe lässt sich bestimmen, wie viel von ver_schie_denen Gütern produziert wird.
+SetOutputStockpiles.Desc = 5.) Richte Ausgangs_lager ein.
+SetOutputStockpiles.Intro = Weise der Werkstatt die beiden Ausgangs_lager zu um mit der Produktion zu beginnen.
+SetRecipes.Desc = 4.) Lege das Produkt fest.
+SetRecipes.Intro = Wir werden die Werk_statt verwenden, um Holzbretter und Stein_blöcke zu produzieren. 
+Settings.Debug.Desc = Der Debug_modus erlaubt es beliebige Objekte zu spawnen (F7), zu entfernen (Alt-Zone entfernen) und die Karte aufzudechen (F7).
+Settings.LeadingCamera = Kamera_vorlauf
+Settings.LeadingCamera.Desc = Beim Verfolgen eines sich bewegenden Kolo_nisten wird die Kamera ent_sprechend vorhalten.
+Settings.Tooltips = Tooltips
+Settings.Tooltips.Desc = Zeige Tooltips wenn sich die Maus über bestimmten Schalt_flächen und Gegen_ständen befindet.
+StockpileZoneCC = Lagerplatz
+StockpileZoneCC.Desc = Ein Lager_platz kann genutzt werden um Produkte aus Werk_stätten, Minen oder Farmen auf_zunehmen.
+Task.Attack.Text = Greife $1 an.
+Task.Clean.Text = Reinige $1.
+Task.Construct.Text = Baue $1.
+Task.ConstructClear.Text = Reinige $1.
+Task.Deconstruct.Text = Reiße $1 ab.
+Task.Drink.Text = Trinke $1.
+Task.Eat.Text = Esse $1.
+Task.Equip.Text = Rüste $1 aus.
+Task.FarmClear.Text = Reinige $1.
+Task.GroveClear.Text = Reinige $1.
+Task.HarvestCrop.Text = Ernte $1.
+Task.HarvestTree.Text = Fälle $1.
+Task.Idle.Text = Untätig.
+Task.Load.Text = Lade $1.
+Task.LogisticsSystem.Text = Bewege $1.
+Task.Mine.Text = Baue $1 ab.
+Task.MoveIntoHouse.Text = Ziehe in $1 ein.
+Task.PlantCrop.Text = Pflanze $1.
+Task.PlantTree.Text = Pflanze $1.
+Task.Power.Text = Betreibe $1.
+Task.Produce.Text = Produziere $1 in $2.
+Task.Rally.Text = Bewege mich zur Flagge.
+Task.Sleep.Text = Schlafe.
+Task.Socialize.Text = Freizeit in $1.
+Task.Stockpile.Text = Bewege $1 zum Lager.
+Task.Till.Text = Pflüge Boden.
+Task.Unequip.Text = Lege Ausrüstung ab.
+Task.Unload.Text = Entlade $1.
+Task.Wander.Text = Wandere.
+
+TipOfTheDay.2 = Deine Kolo_nisten können nicht sterben. Wenn sie verwundet werden heilen sie sich im Schlaf.
+TipOfTheDay.3 = Wenn du eine Resource zum Abbau markierst, halte die Alt-Taste um alle Resourcen vom gleichen Typ zu markieren.
+TipOfTheDay.4 = Du kannst ein exist_ierendes Gebäude klonen indem du die Alt-Taste hältst und auf das Gebäude klickst.
+
+TerrainShape.Normal = Normales Terrain.
+TerrainShape.Plane = Perfekt glattes Terrain
+Tool.Effect.Agriculture.Crit = 
+Tool.Effect.Agriculture.Effect = Geschwin_digkeit: $1
+Tool.Effect.Agriculture.Hit = Erfolgs_chance: $1%
+Tool.Effect.Combat.Crit = Krit. Erfolgs_chance: $1%
+Tool.Effect.Combat.Effect = Schaden: $1
+Tool.Effect.Combat.Hit = Treffer_chance: $1%
+Tool.Effect.Crafting.Crit = Krit. Treffer_chance: $1%
+Tool.Effect.Crafting.Effect = Ge_schwin_dig_keit: $1
+Tool.Effect.Crafting.Hit = Erfolgs_chance: $1%
+Tool.Effect.Mining.Crit = Krit. Erfolgs_chance: $1%
+Tool.Effect.Mining.Effect = Ge_schwin_dig_keit: $1
+Tool.Effect.Mining.Hit = Erfolgs_chance: $1%
+Tool.Effect.None.Crit = 
+Tool.Effect.None.Effect = Basis_effekt
+Tool.Effect.None.Hit = Erfolgs_chance: 50%
+Tool.None = Kein Werkzeug.
+Train.Schedule = Zugfahrplan:
+Train.Schedule.UI = Bahnhof
+Train.Schedule.UI.Desc = Um einen Bahnhof zum Fahrplan hinzu_zufügen wähle den Zug aus und rechts-klicke auf den Bahnhof. Um einen Bahnhof zu ent_fernen, klicke auf seinen Eintrag im Fahr_plan.
+Train.Status.Deactivated = Zug deaktiviert.
+Train.Status.Deactivated.Desc = Um einen Zug zu aktivieren, klicke die ent_sprechende Schaltfläche im Zugpanel.
+Train.Status.NoPath = Kein Weg zum nächsten Ziel.
+Train.Status.NoPath.Desc = Achte darauf, dass es eine Schienen_ver_bindung zwischen den Bahn_höfen gibt und die Signale ggf. ent_sprechend aus_gerichtet sind.
+Train.Status.NoSchedule = Kein Fahrplan.
+Train.Status.NoSchedule.Desc = Um einen Bahnhof zum Fahrplan hin_zuzufügen wähle den Zug aus und rechts-klicke auf den Bahnhof. Um einen Bahn_hof zu ent_fernen, klicke auf seinen Eintrag im Fahrplan.
+Train.Status.Okay = Zug aktiv.
+Train.Status.WaitAtStation = Warte im Bahnhof.
+Train.Status.WaitAtStation.Desc = Der Zug wird mit seinem Fahrplan fortfahren sobald er in diesem Bahnhof fertig ist.
+TrainAutoExitHopper.Desc = 4.) Richte Lagerausgang ein.
+TrainAutoExitHopper.Intro = Das Eisen wird nun auto_matisch zum südlichen Bahnhof trans_portiert. Wähle den Lager_ausgang aus und richte ihn so ein, dass er abge_bautes Eisen akzeptiert.
+TrainAutoSchedule.Desc = 3.) Richte einen Fahrplan ein.
+TrainAutoSchedule.Intro = Wähle den Zug aus und füge beide Bahnhöfe zu seinem Fahr_plan hinzu, in dem du auf sie rechts-klickst.
+TrainSchedule.Desc = 4.) Richte einen Fahr_plan ein.
+TrainSchedule.Intro = Züge be_nötigen einen Fahr_plan um zu funk_tionieren. Wähle den Zug aus und füge beide Bahnhöfe zu seinem Fahrplan hinzu, in dem du auf sie rechts-klickst.
+TutorialNeedsTools.IntroControls = Mache dich mit der Steuerung vertraut:
+TutorialNeedsTools.Introduction = We have arrived on a small and peaceful island. We should set up a small encampment and stock up on wood and stone.
+TutorialNeedsTools.IntroHelp = Learn how to use the help system:
+TutorialNeedsTools.IntroUnload = Unload the supplies from our ship:
+UI.AttackCamp = Angriff!
+UI.Cancel = Abbrechen
+UI.Cancel.Desc = Bau abbrechen.
+UI.CancelAttack = Angriff abbrechen.
+UI.Colonists = Deine Kämpfer (Stärke $1):
+UI.DamageUnarmed = Schaden (unbe_waffnet): $1
+UI.DecorationValue = ##decoration: Wert $1, Reich_weite $2
+UI.Drink = Getränke: 
+UI.Drink.Desc = Sorge dafür, dass deine Kolo_nisten genug zu ##drink haben.
+UI.Drinks = Getränke: $1
+UI.Eats = Essen: $1
+UI.Food = Essen
+UI.Food.Desc = Sorge dafür, dass deine Kolo_nisten genug zu ##food haben.
+UI.GrowthRateDay = Wachstums_rate (Tag): $1
+UI.GrowthRateNight = Wachstums_rate (Nacht): $1
+UI.House = Wohnraum
+UI.House.Desc = Sorge dafür, dass deine Kolo_nisten ein ##house zum Wohnen haben.
+UI.IdleColonists = Untätige Kolo_nisten
+UI.IdleColonists.Desc = Klicke hier, um zwischen deinen ##idleen Kolo_nisten zu wechseln.
+UI.ItemTypes.Quality = Gegen_stands_qualität:
+UI.ItemTypes.Title = Gegen_stands_typ:
+UI.MovementSpeed = Bewegungs_geschwin_digkeit: $1
+UI.PlantGrowth = Wachstum: $1%
+UI.PlantGrowthRate = Wachstums_rate: $1%
+UI.PlantGrowthTime = Wachstums_zeit: $1s
+UI.PlantTitle = Pflanzen_info:
+UI.RelativeStrength.Equal = Rel. Stärke: Gleich.
+UI.RelativeStrength.Hard = Rel. Stärke: Schwer.
+UI.RelativeStrength.Inferior = Rel. Stärke: Trivial.
+UI.RelativeStrength.Low = Rel. Stärke: Schwach.
+UI.RelativeStrength.Overwhelming = Relative Stärke: Extrem.
+UI.Time = Zeit
+UI.Time.Desc = Zeit des Tages. Die meisten Pflanzen wachsen nur ##day.
+UI.TotalStrength = Stärke
+UI.TrackLayer.Semaphore1 = Platziere ein Signal auf einer Zugstrecke.
+UI.TrackLayer.Semaphore2 = Platziere ein Vorsignal auf einer Zugstrecke.
+UI.TrackLayer.Start = Erweitere eine bestehende Zug_strecke. (Beginne eine Zugstrecke an einer Zugfabrik oder einem Bahnhof.
+UI.TypeNameFilter = Suche nach Typ...
+UI.VisionRange = Sichtradium: $1
+UI.Warnings = Warnungen
+UI.Warnings.Desc = Warnungen zeigen mögliche Probleme auf. Klicke hier, um zwischen allen Warnungen zu wechseln.
+UI.WaveNoTime = Gegnerwelle.
+UI.WaveTime = Ankunft in $1s.
+
+
+
+
+BuildAutoTrain.Desc = 2.) Baue einen Zug.
+BuildAutoTrain.Intro = Baue einen Zug in der Zug_fabrik.
+BuildCircleTrain1.Desc = Baue Zug 1/4.
+BuildCircleTrain1.Intro = Baue einen Zug in der Zug_fabrik und füge die beiden Bahnhöfe zu seinem Fahrplan hinzu.
+BuildCircleTrain2.Desc = Baue Zug 2/4.
+BuildCircleTrain2.Intro = Baue einen weiteren Zug in der Zug_fabrik und füge die beiden Bahn_höfe zu seinem Fahrplan hinzu.
+BuildCircleTrain3.Desc = Baue Zug 3/4.
+BuildCircleTrain3.Intro = Baue einen weiteren Zug in der Zug_fabrik und füge die beiden Bahn_höfe zu seinem Fahrplan hinzu.
+BuildCircleTrain4.Desc = Baue Zug 4/4.
+BuildCircleTrain4.Intro = Baue den letzten Zug in der Zug_fabrik und füge die beiden Bahn_höfe zu seinem Fahrplan hinzu.
+BuildCircleTrain4.Outro = Die vier Züge werden fahren ohne sich gegen_seitig zu blockieren. Dieses Layout ist gut für Zug_ver_bindungen mit hohem Waren_auf_kommen geeignet.
+Building.Mode = Baumodus.
+Building.Mode.Desc = Klicke um zwischen aktiv und inaktiv zu wechseln.
+Building.Mode.Disabled = Gebäude inaktiv.
+Building.Mode.Enabled = Gebäude aktiv.
+BuildPreSignalTrain1.Desc = Baue Zug 1/4.
+BuildPreSignalTrain1.Intro = Baue einen Zug in der Zug_fabrik und füge die beiden Bahnhöfe zu seinem Fahr_plan hinzu.
+BuildPreSignalTrain2.Desc = Baue Zug 2/4.
+BuildPreSignalTrain2.Intro = Baue einen weiteren Zug in der Zug_fabrik und füge die beiden Bahn_höfe zu seinem Fahr_plan hinzu.
+BuildPreSignalTrain3.Desc = Baue Zug 3/4.
+BuildPreSignalTrain3.Intro = Baue einen weiteren Zug in der Zug_fabrik und füge die beiden Bahn_höfe zu seinem Fahr_plan hinzu.
+BuildPreSignalTrain4.Desc = Baue Zug 4/4.
+BuildPreSignalTrain4.Intro = Baue den letzten Zug in der Zug_fabrik und füge die beiden Bahnhöfe zu seinem Fahrplan hinzu.
+BuildPreSignalTrain4.Outro = Vorsignale können verhindern, dass ein Zug in eine Kreuzung einfährt, in der er andere Züge block_ieren würde.
+BuildTrain.Desc = 3.) Baue einen Zug.
+BuildTrain.Intro = Baue einen Zug in der Zug_fabrik (4).
+CargoShip.State.ENTERHARBOUR = Steuere Hafen an.
+CargoShip.State.LEAVE = Verlasse Hafen.
+CargoShip.State.UNLOAD = Entlade Schiff.
+DefeatEnemyCamp.Desc = 3.) Besiege das gegnerische Lager.
+DefeatEnemyCamp.Intro = Clicke auf das gegnerische Terri_torium und dann auf Angriff um mit diesem zu beginnen.
+DefeatEnemyCamp.Outro = Hinweis: Kolo_nisten können nicht im Kampf sterben. Wenn sie verletzt sind heilen sie sich im Schlaf.
+FarmZoneCC = Farm
+FarmZoneCC.Desc = Farmen erlauben den Anbau ver_schiedener Pflanzen.
+GroveZoneCC = Baumschule
+GroveZoneCC.Desc = Baum_schulen erlauben den Anbau ver_schiedener Bäume.
+
+LinkAutoTrainStations.Desc = 1.) Verbinde Bahn_höfe.
+LinkAutoTrainStations.Intro = In dem nördlichen Gebiet produ_zieren auto_matisierte Stein_brüche Eisen, welches an_schließend zum Bahnhof trans_portiert wird. Richte eine Logistik_ver_bindung von Bahnhof 1 zu Bahnhof 2 ein.
+LinkGoldZeppelinStation.Desc = 4.) Verbinde Gold mit Netz_werk.
+LinkGoldZeppelinStation.Intro = Als nächstes müssen wir unser Gold_lager (3) mit dem nahe_gelegenen Zeppelin_bahnhof (2) verbinden. Dadurch wird das Gold in das Logistik_netz_werk integriert. 
+LinkStockpiles.Desc = 3.) Verbinde Lager_stätten.
+LinkStockpiles.Intro = Wir werden das Logistik_system verwenden um das Eingangs_lager zu füllen. Verbinde die Lager_stätten 2→4 und 3→5 und richte ein, dass sie Steine und Holz akzeptieren.
+LinkTrainStations.Desc = 2.) Verbinde Bahnhöfe.
+LinkTrainStations.Intro = Verbinde die beiden Bahnhöfe in beiden Rich_tungen.
+LinkTrainStockpiles.Desc = 5.) Verbinde Lagerplätze.
+LinkTrainStockpiles.Intro = Abschließend müssen wir unsere Lagerplätze mit den Bahnhöfen verbinden und einstellen, dass Lagerplatz 5 Goldblöcke akzeptiert.
+LinkTrainStockpiles.Outro = Hinweis: Züge sind teurer einzurichten als Zeppeline, haben aber eine deutlich höhere Kapazität.
+LinkZeppelinStations.Desc = 3.) Verbinde Zeppelin_bahnhöfe.
+LinkZeppelinStations.Intro = Da Goldblöcke sehr schwer sind werden wir Zeppeline verwenden um sie zu trans_portieren. Verbinde hierzu zunächst den nördlichen Zeppelin_bahnhof (2) mit dem südlichen (4).
+LinkZeppelinStationToTarget.Desc = 5.) Verbinde Ziellager.
+LinkZeppelinStationToTarget.Intro = Schließlich müssen wir noch den südlichen Zeppelin_bahnhof (4) mit unserem Ziel_lager (5) verbinden und einrichten, dass dieses Gold_blöcke akzeptiert.
+LoadingPhase.ModelGeneration = Generiere Modelle: $1%
+Logistics.Status.CanRequestButNotSetup = Warnung: Kein Gut von Logistik_system akzeptiert.
+MainMenu.Mods = Mods
+MainMenu.Skirmish.Modifiers = Modi_fika_toren
+MainMenu.Skirmish.Scenarios = Szenarios
+MainMenu.Tutorials = Tutorials
+Message.AreaExpanded = Wir haben unser Gebiet erweitert!
+Message.AreaLost = Wir haben an Gebiet verloren!
+Message.AttackFailed = Angriff auf gegne_risches Lager ge_scheitert. :(
+Message.EnemyCampDestroyed = Gegne_risches Lager zerstört!
+Message.FactorySegmentBlocked = Schienen_segment blockiert.
+Message.TrainRouteFail = Zug findet keinen Weg zu $1.
+Modifier.EnemyCampsFew = Wenige Gegner_lager.
+Modifier.EnemyCampsMany = Viele Gegner_lager.
+Modifier.EnemyCampsNone = Keine Gegner_lager.
+Modifier.EnemyCampsNormal = Normale Gegner_lager.
+Modifier.MapSizeTest = Testkarte (20²)
+
+
+
+
+Modifier.TutorialAdvancedProduction = Fort_geschritt_ene Produktions- und Management_methoden.
+Modifier.TutorialAdvancedProduction.Intro = Produziere ver_schie_dene Güter und manage mehrere Lager_stätten.
+Modifier.TutorialAdvancedProduction.Outro = 
+Modifier.TutorialAutomatedTrains = Auto_matisierter Zug_verkehr.
+Modifier.TutorialAutomatedTrains.Intro = Dieses Tutorial zeigt, wie man auto_matisierte Produktions_gebäude an ein Logistik_system anschließt.
+Modifier.TutorialCombat = Einführung in das Kampfsystem.
+Modifier.TutorialCombat.Intro = Dieses Tutorial zeigt, wie man gegnerische Camps angreifen und besiegen kann.
+Modifier.TutorialLogistics = Einführung in das Logistik_system.
+Modifier.TutorialLogistics.Intro = Richte einen Außen_posten ein und beliefere ihn mit Hilfe von Zeppelinen. 
+Modifier.TutorialLogistics.Outro = Sehr gut! Kolo_nisten und Zeppline werden gemeinsam dafür sorgen, dass die Goldblöcke trans_portiert werden. Das Logistik_system erlaubt das Erstellen komplexer Trans_port_ketten, welche ver_schie_dene Trans_port_systeme kombinieren können.
+Modifier.TutorialNeedsTools = Bedürfnisse und Werkzeuge.
+
+
+
+
+Modifier.TutorialOreCrushing = Auto_matisierte Eisen_produktion.
+Modifier.TutorialOreCrushing.Intro = Diese Beispiel_szene zeigt, wie Eisenblöcke produziert werden können.
+Modifier.TutorialTrainPreSignals = Vor_signale für Bahn_strecken.
+Modifier.TutorialTrainPreSignals.Intro = Dieses Beispiel zeigt, wie Vorsignale auf Bahn_strecken genutzt werden können.
+Modifier.TutorialTrains = Eine einfache Zugstrecke.
+Modifier.TutorialTrains.Intro = Verbinde zwei Bahnhöfe mit Hilfe von Zügen und richte ein Logistik_system ein.
+Modifier.TutorialTrainSignalsCircle = Kreis_förmiger Zugverkehr.
+Modifier.TutorialTrainSignalsCircle.Intro = Dieses Beispiel zeigt, wie mehrere Züge auf einer kreis_förmigen Strecke verkehren können.
+Need.Health = Gesundheit
+Need.Health.Desc = Verwundete Kolo_nisten sind unglücklich und weniger produktiv. Sie regen_erieren sich während sie schlafen.
+
+Objective.AttackEnemyCamp = Greife Gegner an.
+Objective.AttackEnemyCamp.Desc = Um ein Gegnerlager anzu_greifen wähle es aus und klicke auf Angreifen (Deine Kolo_nisten können im Kampf nicht sterben.)
+Objective.BuildTrain = Baue Züge ($2/$3)
+Objective.BuildTrain.Desc = Um einen Zug zu bauen, wähle die Zugfabrik aus und klicke auf "Baue Zug".
+Objective.DefeatEnemyCamp = Besiege Gegner_lager.
+Objective.DefeatEnemyCamp.Desc =  Um ein Gegner_lager anzu_greifen wähle es aus und klicke auf Angreifen (Deine Kolo_nisten können im Kampf nicht sterben.)
+Objective.LogisticsLink = Erzeuge eine Verbindung von $5 zu $6.
+Objective.LogisticsLink.Desc = 
+Um eine Logistik_verbindung zu erzeugen wähle das erste Objekt aus und rechts-klicke dann auf das zweite Objekt. Logistik_verbindungen werden als blaue Pfeile angezeigt.
+Objective.SetActorTaskGroup = Weise $5 $1 zu.
+Objective.SetActorTaskGroup.Desc = Um $5 in $1 arbeiten zu lassen wähle $5 aus und klicke dann auf das Symbol für $1. Alternativ kannst du dies im Kolo_nisten_management_bildschirm tun.
+Objective.SetWorkshopInput = Verbinde $6 mit $5
+Objective.SetWorkshopInput.Desc = Um $6 mit einem Eingangs_lager zu verbinden, wähle $6 aus und rechts-klicke dann auf $5.
+Objective.SetWorkshopOutput = Verbinde $5 mit $6
+Objective.SetWorkshopOutput.Desc = Um $6 mit einen Ausgangs_lager zu verbinden, wähle $6 aus und rechts-klicke dann auf $5.
+
+
+
+Objective.SetZoneColorActive = Erlaube $5 Zugang zu Zone $3.
+Objective.SetZoneColorActive.Desc = Um einem Kolo_nisten den Zugang zu einer Zone zu erlauben, wähle den Kolo_nisten aus und klicke auf die Zone im Kolo_nisten_panel rechts unten. 
+Objective.SetZoneColorInactive = Verbiete $5 Zugang zu Zone $3.
+Objective.SetZoneColorInactive.Desc = Um einem Kolo_nisten den Zugang zu einer Zone zu verbieten, wähle den Kolo_nisten aus und klicke auf die Zone im Kolo_nisten_panel rechts unten.
+Objective.StockpileAcceptsOnlyType = Richte $5 so ein, dass es nur $1 annimmt.
+Objective.StockpileAcceptsOnlyType.Desc = Um die Güter ein_zustellen die ein Lager annimmt, wähle das Lager aus und klicke auf die ent_sprechende Güter im Info_panel rechts unten.
+Objective.StockpileAcceptsType = Richte $5 so ein, dass es $1 annimmt.
+Objective.StockpileAcceptsType.Desc = Um die Güter ein_zustellen die ein Lager annimmt, wähle das Lager aus und klicke auf die ent_sprechende Güter im Info_panel rechts unten.
+Objective.AnyStockpileAcceptsType = Richte ihn so ein, dass er $1 annimmt.
+Objective.AnyStockpileAcceptsType.Desc = Um die Güter ein_zustellen die ein Lager annimmt, wähle das Lager aus und klicke auf die ent_sprechende Güter im Info_panel rechts unten.
+Objective.TrainSchedule = Füge $5 zum Fahrplan hinzu.
+Objective.TrainSchedule.Desc = Um einen Bahnhof zum Fahrplan eines Zuges hin_zuzufügen wähle den Zug aus und rechts-klicke auf den Bahn_hof.
+
+ObjectType.AutoKiln = Auto_mati_sierter Ofen
+ObjectType.AutoKiln.Desc = Öfen produ_zieren ##automatically Ziegel_steine und Holzkohle.
+ObjectType.Centrifuge = Zentrifuge
+ObjectType.Centrifuge.Desc = Die Zentri_fuge kann ver_wendet werden um ver_schie_dene Güter zu trennen.
+ObjectType.ClayQuarry = Ton_stein_bruch
+ObjectType.ClayQuarry.Desc = Der Ton_stein_bruch liefert einen endlosen Vorrat an Ton.
+ObjectType.ClayVein = Tonader
+ObjectType.ClayVein.Desc = Eine uner_schöpf_liche Quelle an Ton. Baue einen Steinbruch, um ihn abzubauen.
+ObjectType.Column = Säule
+ObjectType.Column.Desc = Kann durch Abbauen entfernt werden.
+ObjectType.CrushedCopper = Gemahlenes Kupfer
+ObjectType.CrushedCopper.Desc = Kann zu Kupfer_blöcken geschmolzen werden.
+ObjectType.CrushedCopperMix = Kupfer_reiches Gestein
+ObjectType.CrushedCopperMix.Desc = Kann zu gemahlenem Kupfer und Geröll ver_arbeitet werden.
+ObjectType.CrushedIron = Gemahlenes Eisen
+ObjectType.CrushedIron.Desc = Kann zu Eisen_blöcken ge_schmolzen werden.
+ObjectType.CrushedIronMix = Eisen_reiches Gestein
+ObjectType.CrushedIronMix.Desc = Kann zu gemahlenem Eisen und Geröll verarbeitet werden.
+ObjectType.CrushedRock = Geröll
+ObjectType.CrushedRock.Desc = Kann zu Asphalt verarbeitet werden.
+ObjectType.DecoBranches = Zweige
+ObjectType.DecoBranches.Desc = Kann durch Abbauen entfernt werden.
+ObjectType.DecoRocks = Kleine Steine
+ObjectType.DecoRocks.Desc = Kann durch Abbauen entfernt werden.
+ObjectType.EnemyBonfire = Gegner_lager
+ObjectType.EnemyBonfire.Desc = Zerstöre dieses Leucht_feuer um das umliegende ##territory zu erobern.
+ObjectType.FilterInserter = Filter_inserter
+ObjectType.FilterInserter.Desc = Inserter bewegen Artikel zwischen Förder_bändern, ##depots usw..
+ObjectType.Grove5x5 = Autom. Baum_schule
+ObjectType.Grove5x5.Desc = Pflanzt und erntet ##automatically Bäume.
+ObjectType.IronQuarry = Eisenmine
+ObjectType.IronQuarry.Desc = Der Eisen_stein_bruch liefert einen endlosen Vorrat an Eisen.
+ObjectType.IronVein = Eisenader
+ObjectType.IronVein.Desc = Eine un_erschöpf_liche Quelle an Eisen. Baue einen Stein_bruch, um sie abzubauen.
+ObjectType.Monolith = Alter Monolit
+ObjectType.Monolith.Desc = Kann durch Abbauen entfernt werden.
+ObjectType.OreCrusher = Erzbrecher
+ObjectType.OreCrusher.Desc = Zermahlt Gestein in kleine Brocken.
+ObjectType.PowerLine = Stromleitung
+ObjectType.PowerLine.Desc = Benutze ##powerleitungen um Generatoren mit Verbrauchern zu verbinden.
+ObjectType.Quarry = Steinbruch
+ObjectType.Quarry.Desc = Der Stein_bruch liefert einen end_losen Vorrat an Stein.
+ObjectType.Ruin = Alte Ruine
+ObjectType.Ruin.Desc = Kann durch Abbauen entfernt werden.
+ObjectType.RuinBakery = Verlassene Bäckerei
+ObjectType.RuinBakery.Desc = Ruine einer lange ver_lassenen Siedlung.
+ObjectType.RuinBasicWorkplace = Ver_lassene Werk_statt
+ObjectType.RuinBasicWorkplace.Desc = Ruine einer lange ver_lassenen Siedlung.
+ObjectType.RuinFragment = Ruinen_fragment
+ObjectType.RuinFragment.Desc = Can be removed by harvesting it.
+ObjectType.RuinHouse = Ver_lassenes Haus
+ObjectType.RuinHouse.Desc = Ruine einer lange ver_lassenen Siedlung.
+ObjectType.RuinWell = Ver_lassener Brunnen
+ObjectType.RuinWell.Desc = Ruine einer lange ver_lassenen Siedlung.
+ObjectType.SeaShells = Muscheln
+ObjectType.SeaShells.Desc = Kann durch Abbauen entfernt werden.
+ObjectType.SlimeBig = Großer Schleim
+ObjectType.SlimeBig.Desc = Ein glibberiger Gegner.
+ObjectType.SlimeMini = Mini-Schleim
+ObjectType.SlimeMini.Desc = Ein glibberiger Gegner.
+ObjectType.SlimePool = Schleimpool
+ObjectType.SlimePool.Desc = Heimat für große und kleine Schleims.
+ObjectType.StoneVein = Steinader
+ObjectType.StoneVein.Desc = Eine un_erschöpf_liche Quelle an Steinen. Baue einen Stein_bruch, um sie abzubauen.
+ObjectType.TracksSemaphore = Zug_signal
+ObjectType.TracksSemaphore.Desc = Benutze Zug_signale um mehrere Züge auf der selben Strecke verkehren zu lassen.
+ObjectType.TracksSemaphorePre = Zugvorsignal
+ObjectType.TracksSemaphorePre.Desc = Benutze Vor_signale um zu ver_hindern, dass Züge Kreuzungen block_ieren.
+ObjectType.TrainStation = Bahnhof
+ObjectType.TrainStation.Desc = Züge halten hier und können ##automatically be- und entladen werden. (##logsys)
+ObjectType.Treadmill = Laufband
+ObjectType.Treadmill.Desc = Tiere und Kolo_nisten nutzen das Laufband um ##power für Maschinen zu erzeugen.
+ObjectType.UpgradeWorkshop = Upgrade_werkstatt
+ObjectType.UpgradeWorkshop.Desc = Hier werden ##toole und Waffen zu höher_wertigen Ve_rsionen kombiniert.
+ObjectType.WoodenBuildingPart = Holzteil
+ObjectType.WoodenBuildingPart.Desc = Holzteile werden verwendet um fort_geschrit_tene Ge_bäude zu er_richten. 
+ObjectType.WoodenHandle = Holzgriff
+ObjectType.WoodenHandle.Desc = Griffe werden verwendet um ##toole und Waffen her_zu_stellen.
+ObjectType.Zombie = Untoter Kolonist
+ObjectType.Zombie.Desc = Immer noch am Leben.
+
+
+UI.ProducedIn = Produziert in
+UI.ProcessedIn = Verarbeitet in
+
+UI.HousingValue = ##House: Value $1, places $2
+UI.SocialValue = ##Social.
+UI.ToolValue = ##Tool: Base value $1.
+
+UI.BuildTrain = Zug produzieren
+
+LoadingPhase.UIPanels = Initia_lisiere Benutzer_interface.
+
+
+
+// -----------
+
+
+BuildCloverleaf.Desc = Baue Züge.
+BuildCloverleaf.Intro = Baue ein paar Züge in Zugfabrik (1) und weise ihnen unter_schied_liche Fahr_pläne zu.
+
+BuildingType.Actor.Desc = Spawne Kolonisten, Gegner und Tiere.
+ConvTutPart1.Desc = 1.) Basis_setup.
+ConvTutPart1.Intro = Dieses einfache Setup zeigt, wie Fließ_bänder genutzt werden können. Wähle den Lager_ausgang aus und aktiviere #MinedIron# abgebautes Eisenerz. 
+ConvTutPart2.Desc = 2.) Verteiler.
+ConvTutPart2.Intro = Verteiler teilen Waren gleich_mäßig auf ein oder mehrere ausgehende Bänder auf. Wähle den Lager_ausgang im Depot (2) aus stelle ihn so ein, dass er #StoneBlock# Stein_blöcke aufnimmt.
+ConvTutPart3.Desc = 3.) Über_irdische Bänder.
+ConvTutPart3.Intro = Förder_bänder können in zwei Ebenen gebaut werden. Verwende Rampen, um Waren zwischen den beiden Ebenen zu trans_portieren. Wähle den Lager_ausgang im Depot (3) aus stelle ihn so ein, dass er #StoneBlock# Stein_blöcke aufnimmt.
+Farm.Status.Water = Fertig zum Bewässern.
+Farm.Status.Water.Desc = Fertig zum ##water. Achte darauf, dass #WaterBucket# Wasser bereit steht.
+LoadingPhase.Clearing = Lösche verbleibende Daten.
+LoadingPhase.CombineMeshes = Kombiniere Meshes.
+LoadingPhase.InitNavmesh = Initiali_siere Navigation.
+LoadingPhase.ObjectMaterialCombiner = Kombiniere Materialien.
+LoadingPhase.ObjectTreeExporter = Exportiere Objektbaum.
+MainMenu.Campaign.Size = Welt_karten_größe:
+MainMenu.Campaign.Size.0 = Winzig
+MainMenu.Campaign.Size.1 = Klein
+MainMenu.Campaign.Size.2 = Normal
+MainMenu.Campaign.Size.3 = Groß
+MainMenu.Campaign.Size.4 = Riesig
+Message.MinimumGood = $1 wurde deinem Schiff hinzugefügt.
+
+
+ObjectType.ConstructionBlock = Baustein
+ObjectType.ConstructionBlock.Desc = Ein verstärkter Baustein, der für fort_geschritt_ene Gebäude verwendet wird.
+ObjectType.ConveyorBeltHigh = Fließ_band (hoch)
+ObjectType.ConveyorBeltHigh.Desc = Fließ_bänder werden verwendet, um Waren innerhalb deiner Siedlung zu trans_portieren.
+ObjectType.ConveyorBeltParts = Fließ_bandteil
+ObjectType.ConveyorBeltParts.Desc = Fließ_band_teile werden verwendet, um Fließ_bänder zu bauen.
+ObjectType.ConveyorBeltRampDown = Fließ_band (Rampe)
+ObjectType.ConveyorBeltRampDown.Desc = Fließ_bänder werden verwendet, um Waren innerhalb deiner Siedlung zu trans_portieren.
+ObjectType.ConveyorBeltRampUp = Fließ_band (Rampe)
+ObjectType.ConveyorBeltRampUp.Desc = Fließ_bänder werden verwendet, um Waren innerhalb deiner Siedlung zu trans_portieren.
+ObjectType.ConveyorDistributor = Fließ_band (Verteiler)
+ObjectType.ConveyorDistributor.Desc = Verteiler teilen Waren gleich_mäßig auf ein oder mehrere ausgehende Bänder auf.
+ObjectType.ConveyorDistributorHigh = Fließ_band (Verteiler)
+ObjectType.ConveyorDistributorHigh.Desc = Verteiler teilen Waren gleich_mäßig auf ein oder mehrere ausgehende Bänder auf.
+ObjectType.Dark_Mountain = Dunkelberg
+ObjectType.Dark_Mountain.Desc = Dunkelberg
+ObjectType.DarkRuins = Antike Ruinen
+ObjectType.DarkRuins.Desc = Wer dieses Gebäude errichtet hat, ist längst fort.
+ObjectType.DarkTemple = Antiker Tempel
+ObjectType.DarkTemple.Desc = Wer dieses Gebäude errichtet hat, ist längst fort.
+ObjectType.DecoDarkRock = Kleine Felsen
+ObjectType.DecoDarkRock.Desc = Kann durch Abbauen entfernt werden.
+ObjectType.DecoFern = Farn
+ObjectType.DecoFern.Desc = Kann durch Abbauen entfernt werden.
+ObjectType.DecoSeaShells = Muscheln
+ObjectType.DecoSeaShells.Desc = Kann durch Abbauen entfernt werden.
+ObjectType.DecoSwampBranches = Zweige
+ObjectType.DecoSwampBranches.Desc = Kann durch Abbauen entfernt werden.
+ObjectType.Desert_Mountain = Wüstenfels
+ObjectType.Desert_Mountain.Desc = Wüstenfels
+ObjectType.DesertPillars = Zerstörter Pfeiler.
+ObjectType.DesertPillars.Desc = Kann durch Abbauen entfernt werden.
+ObjectType.DesertTorch = Fackel
+ObjectType.DesertTorch.Desc = Ein antikes Gebäude.
+ObjectType.Foundation_Dark_Lowland = Fundament (Dunkel)
+ObjectType.Foundation_Dark_Lowland.Desc = Baue dieses Fundament auf dunklem Gelände, um den Bau von Gebäuden zu ermöglichen.
+ObjectType.Foundation_Desert_SandHigh = Fundament (Sand)
+ObjectType.Foundation_Desert_SandHigh.Desc = Baue dieses Fundament auf Sand, um den Bau von Gebäuden zu ermöglichen.
+ObjectType.Greenhouse = Gewächshaus
+ObjectType.Greenhouse.Desc = Diese Farm produziert ##automatically Pflanzen und kann überall gebaut werden.
+ObjectType.Hippo = Nilpferd
+ObjectType.Hippo.Desc = Nilpferd
+ObjectType.Mummy = Mumie
+ObjectType.Mummy.Desc = Mumie.
+ObjectType.PyramidRuin = Pyramide
+ObjectType.PyramidRuin.Desc = Ein uraltes Gebäude.
+ObjectType.RallyFlag = Flagge
+ObjectType.RallyFlag.Desc = Bewaffnete Kolonisten versammeln sich um diese Flagge und greifen nahe gelegene Feinde an.
+ObjectType.RefinedBuildingPart = Veredeltes Holzteil
+ObjectType.RefinedBuildingPart.Desc = Veredelte Holz_gebäude_teile werden für den Bau fort_geschritt_ener Gebäude verwendet.
+ObjectType.SandRoughGeode = Sandgeode
+ObjectType.SandRoughGeode.Desc = Eine Geode kann abgebaut werden, um verschiedene Mineral_erze zu erhalten.
+ObjectType.Scarab = Weißer Skarabäus
+ObjectType.Scarab.Desc = Weißer Skarabäus
+ObjectType.TrackParts = Schienen_teile
+ObjectType.TrackParts.Desc = Schienen_teile werden zum Bau von Eisen_bahn_gleisen verwendet.
+ObjectType.TrainingDummy = Trainings_puppe
+ObjectType.TrainingDummy.Desc = Wird von Kolonisten verwendet, um Kämpfen zu üben.
+ObjectType.WaterSprinkler = Wasser_spränkler
+ObjectType.WaterSprinkler.Desc = Bewässert Felder in einem 5x5 Gebiet.
+ObjectType.Worm = Wurm
+ObjectType.Worm.Desc = Kann durch Abbauen entfernt werden.
+
+
+Modifier.SpawnHarbour = Spawne deine Kolonisten.
+Modifier.TutorialConveyorBelts = Fließ_bänder.
+Modifier.TutorialConveyorBelts.Intro = Dieses Tutorial zeigt, wie man Fließ_bänder verwendet.                                       
+Modifier.TutorialTrainCrossing = Kleeblatt-Kreuzung.
+Modifier.TutorialTrainCrossing.Intro = Dieses erweiterte Tutorial zeigt, wie eine Kleeblatt-Kreuzung aussehen kann.
+Scenario.MockupTier12 = Mockup-Mission 12.
+Scenario.MockupTier12.Desc = Ein work-in-progress Mockup für typisches Gameplay.
+Scenario.MockupTier3 = Mockup-Mission 3.
+Scenario.MockupTier3.Desc = Ein work-in-progress Mockup für typisches Gameplay.
+Scenario.TutorialConveyorBelts = Fließ_bänder.
+Scenario.TutorialConveyorBelts.Desc = Dieses Tutorial zeigt, wie man Fließ_bänder verwendet.
+Scenario.TutorialConveyorBelts.Intro = Dieses Tutorial zeigt, wie man Fließ_bänder verwendet.
+Scenario.TutorialTrainCrossing = Kleeblatt-Kreuzung.
+Scenario.TutorialTrainCrossing.Desc = Dieses erweiterte Tutorial zeigt, wie eine Kleeblatt-Kreuzung aussehen kann.
+Scenario.TutorialTrainCrossing.Intro = Dieses erweiterte Tutorial zeigt, wie eine Kleeblatt-Kreuzung aussehen kann.
+Settings.Recommendations = Empfehlungen
+Settings.Recommendations.Desc = Zeige Empfehlungen in der Ecke links oben an.
+Settings.ShowMarkers = Markie_rungen anzeigen
+Settings.ShowMarkers.Desc = Markie_rungen für Lade- oder Abbaujobs anzeigen.
+Task.CombatTrain.Text = Trainiere.
+Task.Water.Text = Bewässere Boden.
+TipOfTheDay.10 = Klicke auf ein empfohlenes Gebäude, um es zu bauen. Klicke auf eine empfohlene Ware, um eine Werk_statt aus_zuwählen, in der sie gebaut werden kann.
+TipOfTheDay.5 = Halte beim Hin_zufügen eines Rezepts die Alt-Taste gedrückt, um die akzeptierten Güter der Ausgangs_lager auto_matisch zu aktuali_sieren.
+TipOfTheDay.6 = Drücke Shift-F1, um die aktuelle Kamera_position zu speichern. Drücke F1, um zu dieser Position zurück_zukehren. (Funk_tioniert mit F1-F4)
+TipOfTheDay.7 = Drücke F11, um das Benutzer_interface aus_zublenden.
+TipOfTheDay.8 = Drücke F12, um einen Screenshot zu machen.<br><br>Ordner unter Windows:<br>   C:\Users_\<benutzername>_\AppData_\LocalLow_\MirkoStudio_\Kubifak_torium_\...  <br>Ordner unter Mac/Linux:<br>  ~/.config_/unity3d_/MirkoStudio_/Kubifak_torium_/
+TipOfTheDay.9 = Klicke auf das Beschrei_bungs_panel eines Gegen_stands, um die entsprech_ende Produktions_übersicht zu öffnen.
+UI.Conv = Fließ_band_werkzeug.
+UI.Conv.Desc = Erzeugt Fließ_bänder. <br>Drücke ##keyrotate zum Aus_richten. <br> Drücke ##keycycle zum Umschal_ten zwischen unterer und oberer Ebene.
+UI.DeleteGame = Entfernen
+UI.FarmModeWater = Bewässern
+UI.LeaveMap = Verlasse Insel
+UI.LeaveMap.Desc = Verlasse diese Insel und kehre zur Welt_karte zurück. Du musst min_destens 10 #Log# Baum_stämme und 10 #MinedRock# Steine auf deinem ##Schiff haben, um die Insel ver_lassen zu können.
+UI.LeaveMap.ItemWarning = Du musst mi_ndestens 10 #Log# Baum_stämme und 10 #MinedRock# Steine auf deinem ##Schiff haben, um die Insel ver_lassen zu können.
+UI.MineableContent = Im Berg vorhanden:
+UI.RecipieHint = <i>Klicke auf ein Rezept, um es zu aktivieren oder zu deak_tivieren. Halte die Alt-Taste gedrückt, um die akzeptierten Güter der Ausgangs_lager auto_matisch zu aktuali_sieren.</i>
+UI.Recruit.Title = Gegner:
+UI.Road = Straßen_bau_werkzeug.
+UI.Road.Desc = Baue Straßen, um Werk_stätten und Lager mit_einander zu ver_binden.
+UI.Tier = Stufe
+UI.Tier1 = Stufe 1
+UI.Tier2 = Stufe 2
+UI.Tier3 = Stufe 3
+UI.Undo = Rückgängig
+UI.Undo.Desc = Entfernt die Schiene / das Förderband / die Blaupause, die zuletzt erstellt wurde.
+UI.WaterUsage = Wasser_verbrauch: $1%
+UI.Weight.Desc = Das ##weight der Ware.
+
+
+UI.AssignZone = Zone zuweisen.
+UI.AssignZone.Desc = Klicke hier um die Nutzung dieser ##Zone an- oder abzu_schalten.
+
+
+Need.Sum = Summe
+Need.SpeedFactor = ##Speed
+
+
+##speed = #FastForward#Geschwin_digkeit 
+##speed.Desc = #FastForward#Geschwin_digkeit: Die Bewe_gungs und Arbeits_geschwin_digkeit eines Kolo_nisten wird davon beein_flusst, wie gut seine Bedürf_nisse erfüllt werden.
+
+UI.Recommendations = Empfehl_un_gen
+
+UI.TargetTrack = Vorrats_ziel ($1 / $2):
+UI.ProductionTarget.Met = Vorrats_ziel erreicht für:<br> $1
+UI.ProductionTarget.MetShort = Vorrats_ziel erreicht:<br> $1  
+
+
+Objective.ClickHelp=Klicke auf diese Aufgabe.
+Objective.RotateCamera=Rotiere Kamera mit Q/E oder BildAuf / BildAb.
+Objective.ScrollCamera=Bewege Kamera mit WASD / Pfeiltasten.
+Objective.ZoomCamera=Zoome mit dem Mausrad.
+
+##productiontarget = Vorrats_ziel
+##productiontarget.Desc = Vorrats_ziel: Menge an Gütern, die produziert werden muss, um die Kampagne zu gewinnen.
+
+UI.IncreaseProductionTarget = Erhöhe Ziel 
+UI.IncreaseProductionTarget.Desc = Das Erhöhen des ##productiontargets für diese Insel führt dazu, dass du auf späteren Inseln weniger produzieren musst. <br>Hinweis: Du kannst die Insel jederzeit verlassen, auch wenn du das erhöhte Ziel nicht erreichst.
+Message.IncreaseProductionTarget = Vorrats_ziel erhöht auf $1%.  
+Objective.FulfillProductionTarget = Erreiche Produktionsziel.
+Objective.FulfillProductionTarget.Desc = Das ##productiontarget wird in der Ecke links oben angezeigt. Produziere die Güter, die benötigt werden. 
+
+
+UI.Build.NoWorker = Keine Bauarbeiter zugewiesen.
+UI.Build.NoWorker.Desc = Um einen Kolo_nisten dazu zu bringen, Bauarbeiten zu erledigen, wähle ihn/sie aus und klicke auf das Bau-Symbol. Alter_nativ kannst du die Jobs deiner Kolo_nisten auch über den Kolo_nisten_management_bildschirm verwalten.
+
+Workshop.Status.NoRoadConnection = Keine Straßen_ver_bindung.
+Workshop.Status.NoRoadConnection.Desc = Werkstätten benötigen Straßen_ver_bindungen zu ihren Lager_plätzen. Baue Straßen mit Hilfe des Staßen_bau_werkzeugs.
+
+Objective.RecruitDemands = Erweitere dein Territorium.
+Objective.RecruitDemands.Desc = Erweitere dein Territorium bis du ihre Flagge umschließt um sie zu rekrutieren.
+
+Settings.StreamDeck = Stream Deck
+Settings.StreamDeck.Desc = Stream Deck-Unterstützung. Benötigt Neustart. 
+
+
+# 31.3.2019
+UI.Start = Starten
+UI.Randomize = Zufällig
+
+Objective.ConnectWorkshopsToRoads = Verbinde Werk_stätte mit Straßen_netz.
+Objective.ConnectWorkshopsToRoads.Desc = Werk_stätten, Farmen und ihre Lager_plätze müssen mit Straßen verbunden werden oder direkt neben_einander stehen. Baue Straßen mit Hilfe des Straßen_bau_tools.
+
+
+Objective.ConnectFarmsToRoads = Verbinde Farm mit Straßen_netz.
+Objective.ConnectFarmsToRoads.Desc = Werk_stätten, Farmen und ihre Lager_plätze müssen mit Straßen ver_bunden werden oder direkt neben_einander stehen. Baue Straßen mit Hilfe des Straßen_bautools.
+
+
+Status.MissingRoad = Keine Straßen_verbindung.
+Status.MissingRoad.Desc = Werk_stätten, Farmen und ihre Lager_plätze müssen mit Straßen ver_bunden werden oder direkt neben_einander stehen. Baue Straßen mit Hilfe des Straßen_bautools.
+
+Logistics.Status.Loop = Schleife entdeckt.
+Logistics.Status.Loop.Desc = Eine Schleife entsteht, wenn eine wechsel_seitige Ver_bindung zu einem anderen Lager/Depot besteht und beide die gleiche Ware annehmen. Ändere die ange_nommenen Waren von beiden, um dies zu beheben.
+
+
+UI.Attack = Angriff
+UI.Attack.Desc = Greife ein feind_liches Lager an, das sich in der Nähe unserer Grenzen befindet.
+
+UI.ActiveJobs = Jobs
+
+UI.Upgrade = Verbessere
+UI.Upgrade.Desc = In der Upgrade-Werkstatt werden zwei Werk_zeuge einer Qualität zu einem Werkzeug einer höheren Qualität kombiniert.
+
+TipOfTheDay.11=Du kannst Zeppelin-Depots wie Lager_plätze nutzen. Sie können als Ein- oder Ausgangs_lager für Work_shops, Farmen usw. verwendet werden.
+
+
+UI.Follow.Desc = Folge einem Gegen_stand oder Kolo_nisten.
+ 
+UI.Clone = Klone Gebäude. 
+UI.Clone.Desc = Baue einen Klon von diesem Gebäude. Produktions_ein_stellungen und Lager_ver_bindungen werden kopiert. 
+
+UI.Weight.Light = Leicht
+UI.Weight.Normal = Normal
+UI.Weight.Heavy = Schwer
+
+UI.BuiltFrom.Multibuild = Erzeugt $1 Einheiten.
+
+UI.LogisticsRequest = Aus Logistik_system anfordern.
+UI.LogisticsRequest.Desc = Fordert die aus_gewählten Waren_arten aus dem Logistik_system an. (Andern_falls werden die Waren_ein_stellungen nur für das Ein_lagern und ange_schlossene Werk_stätten ver_wendet.)
+
+UI.Inventory.ShowCargo = Inkl. Schiffs_ladung
+UI.Inventory.ShowCargo.Desc = Zeige Waren_anzahl inklusive Schiffs_ladung an.
+
+Settings.VoiceAmbience = Stimmen amb.
+Settings.VoiceAmbience.Desc = Laut_stärke der ambienten Stimmen deiner Kolo_nisten.
+
+UI.MinedFrom = Abgebaut aus
+
+
+
+Mod.Contains = Beinhaltet
+Mod.Version = Version
+Mod.MadeBy = Autor(en)
+Mod.Requires = Benötigt
+
+Mod.CoastWaves = Wellen
+Mod.CoastWaves.Desc = Fügt einen Wellenklang zum Spiel hinzu.
+Mod.GreenTomato = Grüne Tomaten
+Mod.GreenTomato.Desc = Ein einfaches Beispiel dafür wie man Waren hinzufügt.
+Mod.LanguageTest = Sprachtest
+Mod.LanguageTest.Desc = Fügt dem Spiel eine neue Sprache hinzu. (Als Beispiel.)
+Mod.MapSize50 = Kartengröße 50
+Mod.MapSize50.Desc = Fügt die Kartengröße 50 hinzu. (Beispiel dafür, wie man Kartenmodifikatoren hinzufügt.)
+Mod.MassiveSheep = Riesenschafe
+Mod.MassiveSheep.Desc = Schafe sind viel größer. (Beispiel dafür, wie man Spieldaten ändert.)
+Mod.SpeedyColonists = Flotte Kolonisten
+Mod.SpeedyColonists.Desc = Einfaches Mod, das die Geschwindigkeit der Kolonisten verändert.
+Mod.StoneBakery = Steinbäckerei
+Mod.StoneBakery.Desc = Bäckereien werden nun aus Steinblöcken gebaut.
+
+
+Setting.AO.High = Hoch
+Setting.AO.Medium = Mittel
+Setting.AO.Off = Aus
+Setting.Shadows.Hard = Hart
+Setting.Shadows.Off = Aus
+Setting.Shadows.Soft = Weich
+
+# 14.4.19
