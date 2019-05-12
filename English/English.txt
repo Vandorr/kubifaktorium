@@ -1,7 +1,7 @@
 ﻿language=English
 locales=EN
 fallback=English
-
+ 
 
 # The general format of the localization file for each line is <key> = <value>, for example "UI.BuildTrain = Build train". The <key> must not be changed, the <value> is to be translated, so e.g. "UI.BuildTrain = Baue Zug".
 # A line starting with "#" is ignored and can be used for comments. 
