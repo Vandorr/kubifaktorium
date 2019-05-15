@@ -13,6 +13,8 @@ fallback=English
 # If required for some reason, you can use <br> to create a line break. However I recommend not using it.       
 # Whenever you start the game with a new translation file, it will auto_matically create a list of the missing translation lines. This is both useful to get started and to keep the translation up-to-date when new strings get added. The file can be found in C:\Users\<username>\AppData\LocalLow\MirkoStudio\Kubifaktorium\Missing_<language>.txt on Windows or ~/.config/unity3d/MirkoStudio/Kubifaktorium/ on Linux.
 
+# Finished translations can be shared and synced on: https://github.com/Vandorr/kubifaktorium
+# Visit us on discord.gg/kubifaktorium to get access and share the localization work with other friendly humans. :)  
 
 
 
@@ -1111,4 +1113,36 @@ UI.TrainStation.WaitForFull = Stop trains until full.
 UI.TrainStation.WaitForFull.Desc = Stop trains until they are fully loaded.
 
 
-TipOfTheDay.11=Use the upgrade workshop to upgrade tools and weapons. 
+TipOfTheDay.12=Use the upgrade workshop to upgrade tools and weapons. 
+
+
+Debug.forcerain = Force rain
+Debug.forcerain.Desc = Force rain to begin.
+
+Debug.time = Advance time
+Debug.time.Desc = Advance time by 2.4h.
+
+Debug.claimall = Claim map
+Debug.claimall.Desc = Claim entire map.
+
+Debug.ai = Start AI
+Debug.ai.Desc = Start AI build service (experimental).
+
+Debug.revealmap = Reveal map
+Debug.revealmap.Desc = Remove fog of war.
+
+
+Debug.killall = Kill all the things
+Debug.killall.Desc = Kill all animals, colonists and enemies.
+
+Debug.clearitems = Clear items
+Debug.clearitems.Desc = Delete all items.
+
+Debug.forcewin = Win
+Debug.forcewin.Desc = Remove inventory targets.
+
+Debug.reloadTranslations = Reload translations
+Debug.reloadTranslations.Desc = Reload localization files and update strings. Does not affect certain UI elements.
+
+Debug.toggleenglish = Toggle English.
+Debug.toggleenglish.Desc = Change to English and back.
