@@ -54,7 +54,7 @@ fallback=English
 ##drink.Desc = #Drink#Drink: When thirsty, colonists will auto_matically search for something to drink. Providing drinks will make them more happy and productive.
 
 ##happiness = #Happy#Happiness 
-##happiness.Desc = #Happy#Happiness: A colonist's movement and work speed is influenced by how well their needs are met.
+##happiness.Desc = #Happy#Happiness: A colonist's movement and work speed is influenced by how well his/her needs are met.
 
 ##skill = #People#Skill
 ##skill.Desc = #People#Skill: Every colonist has a different proficiency for each task group and workshop. Over time, they improve in the tasks they perform.
@@ -90,7 +90,6 @@ fallback=English
 ##logsys.Desc = #Logistics#Logistics System: Allows you to connect multiple trans_portation and storage systems. Once set up, it will auto_matically generate transport jobs for vehicles and colonists.
 
 ##cargoship = #Refine#cargo ship
-##cargoship.Desc = #Refine#Cargo ship: Auto_matically transports goods between your previously settled islands and your current colony. 
 ##automatically = #Power#auto_matically
 ##automatically.Desc = #Power#Automation: Automated buildings will work without being operated by your colonists but require power to function.
 ##Automated = #Power#Automated
@@ -104,7 +103,8 @@ fallback=English
 ##robot = robot
 ##robot.Desc = Robot: Can perform simple tasks. Does not improve ##skill with experience and requires oil to function. Can be set to operate in multiple modes. 
 
-
+##carriage = carriage
+##carriage.Desc = Carriages automatically transports goods between connected carriage stations. Select a station and right click another station to connect them. 
 
 # Messages
 Message.AreaExpanded = We have expanded our territory!
@@ -321,7 +321,7 @@ Objective.ScrollCamera = Move camera using WASD/arrows.
 Objective.ScrollCamera.Desc = Press the WASD- or arrow keys to scroll the camera.
 
 Objective.ZoomCamera = Zoom using the mouse wheel.
-Objective.ZoomCamera.Desc = Move the mouse wheel too zoom in and out with the camera.
+Objective.ZoomCamera.Desc = Move the mouse wheel to zoom in and out with the camera.
 
 Objective.RotateCamera = Rotate using the Q/E or PgUp/PgDown.
 Objective.RotateCamera.Desc = Press the Q- and E-keys to rotate the camera. Alter_natively you can use the page up/down keys.
@@ -333,7 +333,7 @@ Objective.RotateCamera.Desc = Press the Q- and E-keys to rotate the camera. Alte
 ObjectiveGroup.Help = Help system
 ObjectiveGroup.Camera = Camera
 ObjectiveGroup.Controls = Basic controls
-ObjectiveGroup.LoadShip = Load resources onto ship
+ObjectiveGroup.LoadShip = Reach inventory targets
 ObjectiveGroup.Expand = Expand your territory
 ObjectiveGroup.MineResources = Mine resources
 ObjectiveGroup.UnloadShip = Unload the ship
@@ -1042,7 +1042,7 @@ Task.FarmWater.Text = Watering soil.
 Task.Train.Text = Combat training.
 
 Workshop.Status.NoInputStockpile = No input stockpile assigned.
-Workshop.Status.NoInputStockpile.Desc = To link an input ##stockpilezone, left-_click the stockpile and right-_click the workshop where you want the workshop's output to go. Workshops will produce until the linked stockpiles are full.
+Workshop.Status.NoInputStockpile.Desc = To link an input ##stockpilezone, left-_click the stockpile and right-_click the workshop where you want the stockpile's content to be used. Workshops will only use resources from linked input stockpiles as soon as one is connected.
 
 UI.ThisIsland = For this island ($2%): $1
 
@@ -1060,7 +1060,7 @@ Mod.Contains = Contains
 
 BugReport.Title = Submit Bug Report
 BugReport.Cancel = Cancel
-BugReport.Submit = Submit33
+BugReport.Submit = Submit
 BugReport.Summary = Summary
 BugReport.Description = Description
 BugReport.Category = Category
@@ -1131,7 +1131,6 @@ Debug.ai.Desc = Start AI build service (experimental).
 Debug.revealmap = Reveal map
 Debug.revealmap.Desc = Remove fog of war.
 
-
 Debug.killall = Kill all the things
 Debug.killall.Desc = Kill all animals, colonists and enemies.
 
@@ -1146,3 +1145,27 @@ Debug.reloadTranslations.Desc = Reload localization files and update strings. Do
 
 Debug.toggleenglish = Toggle English.
 Debug.toggleenglish.Desc = Change to English and back.
+
+# 21.5.2019
+UI.Item.Import = Import price: $1
+UI.Item.Export = Export price: $1
+UI.Import.Title = Import prices:
+UI.Export.Title = Export prices:
+
+Task.Produce.Export = Exporting $1.
+Task.Produce.Import = Importing $1.
+
+
+UI.Priority = Priority:
+UI.Priority.Tooltip = Priority
+UI.Priority.Tooltip.Desc = Stockpiles and workshops with higher priority are used first.
+
+##cargoship.Desc = #Refine#Cargo ship: Allows you to export goods you no longer need and import resources you need. To export something, connect a stockpile to the cargo port. To import something, connect the cargo port to stockpile and set it to accept something that can be imported.  
+
+
+UI.CurrentlyInStock = In inventory: $1
+
+UI.PropagateToAll = Propagate to outputs.
+UI.PropagateToAll.Desc = Set all output stockpiles to accept the outputs from this workshop. 
+
+TipOfTheDay.13=When you lack necessary resources, you can build a shipping port to import them. Export produced goods to afford them.  
