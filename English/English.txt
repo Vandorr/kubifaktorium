@@ -104,7 +104,7 @@ fallback=English
 ##robot.Desc = Robot: Can perform simple tasks. Does not improve ##skill with experience and requires oil to function. Can be set to operate in multiple modes. 
 
 ##carriage = carriage
-##carriage.Desc = Carriages automatically transports goods between connected carriage stations. Select a station and right click another station to connect them. 
+##carriage.Desc = Carriages auto_matically transports goods between connected carriage stations. Select a station and right click another station to connect them. 
 
 # Messages
 Message.AreaExpanded = We have expanded our territory!
@@ -182,7 +182,7 @@ UI.ToolTaskType = Task type: $1
 UI.Track = Track construction tool.
 UI.Track.Desc = Construct train tracks and signals. <br>Press ##Keyrotate to rotate. <br>Press ##Keycycle to toggle between high and low level.
 UI.Road = Road construction tool.
-UI.Road.Desc = Construct roads to connect workshops and storage.
+
 UI.Conv = Conveyor belt construction tool.
 UI.Conv.Desc = Construct conveyor belts. <br>Press ##Keyrotate to rotate. <br>Press ##Keycycle to toggle between high and low level.
 UI.ZoneAssignment = Assign zones.
@@ -255,7 +255,7 @@ Objective.FulfillProductionTarget = Reach inventory target.
 Objective.FulfillProductionTarget.Desc = The ##productiontarget is shown in the top left corner. Produce goods until you reach what is required. All goods in your colony as well as the goods stored on your ship count.
 
 Objective.Construct = Construct: $1 ($2/$3)
-Objective.Construct.Desc = To construct a $1 open the #Build# build menu, switch to the $5 tab, click on $1 and place it on the map. 
+Objective.Construct.Desc = To construct a $1 open the #Build# build menu, switch to the $7 tab, click on $1 and place it on the map. 
 Objective.CreateStockpile = Create a stockpile zone ($2/$3)
 Objective.CreateStockpile.Desc = To create a new ##stockpilezone click on the stockpile zone button and drag an area on solid ground.
 Objective.FarmZone = Create farm zone ($2/$3)
@@ -1021,6 +1021,7 @@ Farm.Status.InvalidTerrain.Desc = The selected plant does not grow on this soil.
 
 UI.HaltUnloadAll = Halt unload.
 
+
 Status.NothingAccepted = No good accepted.
 Status.NothingAccepted.Desc = No good is accepted by this stockpile.
 
@@ -1101,7 +1102,7 @@ UI.BuildTrain.NoFreeSegment = Track segment occupied.
 Task.UnloadAuto.Text = Unloading $1.
 
 UI.TrackLayer.Start = Build train track. 
-UI.TrackLayer.Start.Desc = Build tracks to connect train factories and stations. The tracks will be automatically built as long as you have track parts in your inventory. <br>Press ##Keycycle to toggle between low and high elevation. 
+UI.TrackLayer.Start.Desc = Build tracks to connect train factories and stations. The tracks will be auto_matically built as long as you have track parts in your inventory. <br>Press ##Keycycle to toggle between low and high elevation. 
 UI.TrackLayer.Semaphore1 = Place a train signal on a track.
 UI.TrackLayer.Semaphore2 = Place a train pre-signal on a track.
 UI.TrackLayer.Semaphore1.Desc = Train signals allow a train to pass in the indicated direction. When the segment ahead is occupied by another train, the train will wait here.
@@ -1126,7 +1127,7 @@ Debug.claimall = Claim map
 Debug.claimall.Desc = Claim entire map.
 
 Debug.ai = Start AI
-Debug.ai.Desc = Start AI build service (experimental).
+Debug.ai.Desc = Start AI build service (experi_mental).
 
 Debug.revealmap = Reveal map
 Debug.revealmap.Desc = Remove fog of war.
@@ -1169,3 +1170,9 @@ UI.PropagateToAll = Propagate to outputs.
 UI.PropagateToAll.Desc = Set all output stockpiles to accept the outputs from this workshop. 
 
 TipOfTheDay.13=When you lack necessary resources, you can build a shipping port to import them. Export produced goods to afford them.  
+
+
+
+
+UI.HaltUnloadAll.Desc = Stop unloading items.
+UI.Road.Desc = Construct roads to connect workshops and storage. Click on a starting tile and an end tile to place a road. Alter_natively click and drag to build a straight road.
