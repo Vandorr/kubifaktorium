@@ -1176,3 +1176,17 @@ TipOfTheDay.13=When you lack necessary resources, you can build a shipping port 
 
 UI.HaltUnloadAll.Desc = Stop unloading items.
 UI.Road.Desc = Construct roads to connect workshops and storage. Click on a starting tile and an end tile to place a road. Alter_natively click and drag to build a straight road.
+
+
+UI.WM.Tiers.Title = Biome completion
+UI.WM.Tiers.Title.Desc = In each biome, there is a set of production targets you need to reach. In order to move on to the next biome, you need to reach 100% in the current biome.
+
+UI.TargetsForTier = Targets for tier $1:
+
+
+# 2.6.19
+Objective.CarriageSchedule = Add $5 to carriage's schedule
+Objective.CarriageSchedule.Desc = To add a station to a carriage's schedule, select the carriage and right-_click on the station you want to add. Clicking again will remove the station. 
+
+				
+UI.Skirmish.Cargohint = Hint: In order to try a different terrain, please select the Mockup Tier 2 or 3 scenarios. This will ensure that you have the appropriate cargo on board.
