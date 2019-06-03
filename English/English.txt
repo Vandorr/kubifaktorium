@@ -990,7 +990,7 @@ UI.Clone = Clone building.
 UI.Clone.Desc = Build a clone of this building. Production settings and links will be copied. 
 
 UI.Weight.Light = Light
-UI.Weight.Normal = Normal
+UI.Weight.Normal = Medium
 UI.Weight.Heavy = Heavy
 
 UI.Build.AwaitingConstruction.Desc = Con_struction will begin as soon as a colo_nist is available.
