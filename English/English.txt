@@ -811,16 +811,6 @@ MainMenu.Skirmish.Modifiers = Modifiers
 
 
 
-Quality.Level0 = poor
-Quality.Level1 = normal
-Quality.Level2 = good
-Quality.Level3 = excellent 
-Quality.Level4 = legendary
-Quality.Level0.Desc = Items of poor quality.
-Quality.Level1.Desc = Items of normal quality.
-Quality.Level2.Desc = Items of good quality.
-Quality.Level3.Desc = Items of excellent quality. 
-Quality.Level4.Desc = Items of legendary quality.
 
 UI.ItemTypes.Title = Item types:
 
@@ -1190,3 +1180,19 @@ Objective.CarriageSchedule.Desc = To add a station to a carriage's schedule, sel
 
 				
 UI.Skirmish.Cargohint = Hint: In order to try a different terrain, please select the Mockup Tier 2 or 3 scenarios. This will ensure that you have the appropriate cargo on board.
+
+Carriage.Schedule = Carriage schedule:
+Carriage.Schedule.UI = Carriage station
+Carriage.Schedule.UI.Desc = To add a station to the schedule, select the carriage and right-_click on the new station. To remove a station, click on its entry in the schedule.
+
+
+UI.Train.Destroy = Destroy train
+UI.Train.Go = Go
+UI.Train.Stop = Stop
+
+Quality.Level0 = poor
+Quality.Level1 = normal
+Quality.Level2 = excellent
+Quality.Level0.Desc = Items of poor quality.
+Quality.Level1.Desc = Items of normal quality.
+Quality.Level2.Desc = Items of excellent quality.
