@@ -228,8 +228,6 @@ Objective.UseRevealMap = Decke die Karte auf.
 Objective.UseRevealMap.Desc = Du kannst den Nebel des Krieges entfernen und die Karte aufdecken, indem du F7 drückst. [Erfordert Debugmodus]
 Objective.ShowHelpTooltip = Bewege die Maus über eine Aufgabe um mehr Infos angezeigt zu bekommen. Zusätzlich kann man auf einige Aufgaben klicken, um die Kamera auf das Ziel der Aufgabe zu fokussieren.
 Objective.ShowHelpTooltip.Desc = Gut gemacht. Ziele und viele andere Elemente der Benutzer_oberfläche liefern mehr Infor_mationen, wenn du mit der Maus darüber fährst.
-Objective.ShowHelpScreen = Klicke auf die Glüh_birne oben rechts in diesem Fenster, um den Hilfe_bildschirm zu öffnen.
-Objective.ShowHelpScreen.Desc = Der Hilfe_bildschirm enthält einige visuelle Hin_weise und Tipps, was du tun musst, um ein Ziel zu erreichen.
 
 
 
@@ -1486,10 +1484,6 @@ UI.Randomize = Zufällig
 
 Objective.ConnectWorkshopsToRoads = Verbinde Werk_stätte mit Straßen_netz.
 Objective.ConnectWorkshopsToRoads.Desc = Werk_stätten, Farmen und ihre Lager_plätze müssen mit Straßen verbunden werden oder direkt neben_einander stehen. Baue Straßen mit Hilfe des Straßen_bau_tools.
-
-
-Objective.ConnectFarmsToRoads = Verbinde Farm mit Straßen_netz.
-Objective.ConnectFarmsToRoads.Desc = Werk_stätten, Farmen und ihre Lager_plätze müssen mit Straßen ver_bunden werden oder direkt neben_einander stehen. Baue Straßen mit Hilfe des Straßen_bautools.
 
 
 Status.MissingRoad = Keine Straßen_verbindung.
