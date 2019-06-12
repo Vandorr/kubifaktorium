@@ -234,7 +234,7 @@ Objective.DefeatEnemyCamp.Desc = To attack an enemy camp select it or the surrou
 
 Objective.SetClaimColor = Set zone assignment for bonfire $5 to color $3.
 Objective.SetClaimColor.Desc = To change a zone's color select its bonfire and click on the desired zone color in the info panel.
-Objective.LogisticsLink = Create a link from $5 to $6.
+Objective.LogisticsLink = Create a link from $7 $5 to $8 $6.
 Objective.LogisticsLink.Desc = To create a logistics link between two objects, select the first object and right-_click the second object. Logistics links will show up as blue arrows whenever a ##logsys building is selected.
 
 Objective.SetZoneColorActive = Enable $5's access to zone color $3.
@@ -242,10 +242,10 @@ Objective.SetZoneColorActive.Desc = To enable a colonist's access to a zone sele
 Objective.SetZoneColorInactive = Disable $5's access to zone color $3.
 Objective.SetZoneColorInactive.Desc = To disable a colonist's access to a zone select the colonist and click on the desired zone color in the info panel.
 
-Objective.StockpileAcceptsType = Make $5 accept $1.
+Objective.StockpileAcceptsType = Make stockpile $5 accept $1.
 Objective.StockpileAcceptsType.Desc = To change a ##stockpilezone's set of accepted goods select it and click on the goods in the info panel.
 
-Objective.StockpileAcceptsOnlyType = Make $5 accept only $1.
+Objective.StockpileAcceptsOnlyType = Make stockpile $5 accept only $1.
 Objective.StockpileAcceptsOnlyType.Desc = To change a ##stockpilezone's set of accepted goods select it and click on the goods in the info panel.
 
 Objective.BuildTrain = Build trains ($2/$3)
@@ -269,9 +269,9 @@ Objective.Have.Desc = Resources can be ##mined from the environment. Goods can b
 Objective.TrainSchedule = Add $5 to train schedule
 Objective.TrainSchedule.Desc = To add a station to a train's schedule, select the train and right-_click on the station you want to add. Clicking again will remove the station. 
 
-Objective.SetWorkshopInput = Link $6 to $5
+Objective.SetWorkshopInput = Link $8 $6 to $7 $5
 Objective.SetWorkshopInput.Desc = To link $6 to an input ##stockpilezone, left-_click on $6 and right-_click on $5. 
-Objective.SetWorkshopOutput = Link $5 to $6
+Objective.SetWorkshopOutput = Link $7 $5 to $8 $6
 Objective.SetWorkshopOutput.Desc = To link $6 to an output ##stockpilezone, left-_click on $6 and right-_click on $5. 
 
 
@@ -311,8 +311,6 @@ Objective.UseRevealMap = Reveal the map.
 Objective.UseRevealMap.Desc = You can remove the fog of war and reveal the map by pressing F7. [Requires debug mode]
 Objective.ShowHelpTooltip = Move your mouse over an objective to display more help.
 Objective.ShowHelpTooltip.Desc = Well done. Objectives and many other user interface elements provide more information when you hover your mouse over them. 
-Objective.ShowHelpScreen = Click on the light bulb in the top right of this panel to open the help screen.
-Objective.ShowHelpScreen.Desc = The help screen provides some visual cues and tipps on what you need to do to complete an objective.
 Objective.ClickHelp = Click this objective.
 Objective.ClickHelp.Desc = You can click on most objectives to move the camera to what you need to interact with.
 
@@ -768,11 +766,11 @@ UI.CancelAttack = Abort attack.
 Message.EnemyCampDestroyed = Enemy camp destroyed! Yay!
 Message.AttackFailed = Attack on enemy camp failed. :(
 
-UI.RelativeStrength.Inferior = Rel. str.: Inferior.
-UI.RelativeStrength.Low = Rel. str.: Low.
-UI.RelativeStrength.Equal = Rel. str.: Equal.
-UI.RelativeStrength.Hard = Rel. str.: Hard.
-UI.RelativeStrength.Overwhelming = Rel. str.: Over_whelming.
+UI.RelativeStrength.Inferior = Enemy strength: Inferior.
+UI.RelativeStrength.Low = Enemy strength: Low.
+UI.RelativeStrength.Equal = Enemy strength: Equal.
+UI.RelativeStrength.Hard = Enemy strength: Hard.
+UI.RelativeStrength.Overwhelming = Enemy strength: Over_whelming.
 
 Tool.Effect.Combat.Effect = Damage: $1
 Tool.Effect.Combat.Hit = Chance to hit: $1%
@@ -936,22 +934,10 @@ Objective.AnyStockpileAcceptsType = Set stockpile to accept $1.
 Objective.AnyStockpileAcceptsType.Desc = To change a ##stockpilezone's set of accepted goods select it and click on the goods in the info panel.
 
 ##productiontarget = inventory target
-##productiontarget.Desc = Inventory target: Amount of goods you need to produce to on each island to succeed in the campaign.
-
-Objective.ConnectWorkshopsToRoads = Connect workshop to road.
-Objective.ConnectWorkshopsToRoads.Desc = Workshops, farms and their stockpiles need to be adjacent to each other or have a road connecting them. Build roads using the road building tool.
-
-
-Objective.ConnectFarmsToRoads = Connect farm to road.
-Objective.ConnectFarmsToRoads.Desc = Farms and their output stockpiles need to have a road connection in between. Build roads using the road building tool.
-
+##productiontarget.Desc = Inventory target: Amount of goods you need to produce on each island to make progress in the campaign.
 
 UI.Build.NoWorker = No construction worker assigned.
 UI.Build.NoWorker.Desc = To make a colonist do construction jobs, select him/her and click on the construction icon and make sure he/she is assigned to work in this zone. Alter_natively, you can manage your colonists' jobs from the colonist management screen.
-
-
-Status.MissingRoad = No road connection.
-Status.MissingRoad.Desc = Workshops, farms and their stockpiles need to be adjacent to each other or have a road connecting them. Build roads using the road building tool.
 
 Logistics.Status.Loop = Loop detected.
 Logistics.Status.Loop.Desc = A loop occurs when there is a two-way connection to another stockpile / depot and both accept the same goods. Change the accepted goods of either one to resolve this.
@@ -1165,7 +1151,6 @@ TipOfTheDay.13=When you lack necessary resources, you can build a shipping port 
 
 
 UI.HaltUnloadAll.Desc = Stop unloading items.
-UI.Road.Desc = Construct roads to connect workshops and storage. Click on a starting tile and an end tile to place a road. Alter_natively click and drag to build a straight road.
 
 
 UI.WM.Tiers.Title = Biome completion
@@ -1196,3 +1181,21 @@ Quality.Level2 = excellent
 Quality.Level0.Desc = Items of poor quality.
 Quality.Level1.Desc = Items of normal quality.
 Quality.Level2.Desc = Items of excellent quality.
+
+Name.StockpileZoneCC = Stockpile
+Name.FarmZoneCC = Farm
+Name.GroveZoneCC = Grove
+
+UI.Road.Desc = Construct roads to connect remote workshops and storages. Colonists move faster while traveling on roads. Click on a starting tile and an end tile to place a road. Alter_natively click and drag to build a straight road.
+
+
+EarlyAccessWarning.Intro = The dark terrain and the related mechanics (conveyor belts, automated production etc.) are still in very early development. Expect poor balance, missing resources etc.. I'm aware of the problems so you don't need to report them as bugs. They are planned to get fixed around the end of 2019. :) 
+EarlyAccessWarning.Help = Early Access Warning
+
+# Deleted: Objective.ShowHelpScreen Objective.ShowHelpScreen.Desc Objective.ConnectFarmsToRoads Objective.ConnectFarmsToRoads.Desc Objective.ConnectWorkshopsToRoads Objective.ConnectWorkshopsToRoads.Desc
+
+TipOfTheDay.14=You can rename colonists, zones and some buildings. To do so, select them and click on their name on top of the info panel.  
+
+UI.Import.Money = Available currency: $1
+UI.Import.Help = Available currency
+UI.Import.Help.Desc = Currency can be used to import raw materials onto your island. Earn currency by exporting manufactured goods. 
