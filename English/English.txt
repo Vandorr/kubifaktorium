@@ -954,9 +954,6 @@ Settings.StreamDeck.Desc = Stream Deck support. Requires restart.
 
 UI.ActiveJobs = Jobs
 
-UI.Upgrade = Select qualities to process.
-UI.Upgrade.Desc = In the upgrade workshop two items of one quality are combined to yield one item of a higher quality. 
-
 TipOfTheDay.11=You can use zeppelin depots like stockpiles. You can use them as inputs or outputs for workshops, farms etc..
 
 
@@ -1194,8 +1191,22 @@ EarlyAccessWarning.Help = Early Access Warning
 
 # Deleted: Objective.ShowHelpScreen Objective.ShowHelpScreen.Desc Objective.ConnectFarmsToRoads Objective.ConnectFarmsToRoads.Desc Objective.ConnectWorkshopsToRoads Objective.ConnectWorkshopsToRoads.Desc
 
-TipOfTheDay.14=You can rename colonists, zones and some buildings. To do so, select them and click on their name on top of the info panel.  
 
 UI.Import.Money = Available currency: $1
 UI.Import.Help = Available currency
 UI.Import.Help.Desc = Currency can be used to import raw materials onto your island. Earn currency by exporting manufactured goods. 
+
+UI.ItemState.Available = Item available
+UI.ItemState.Reserved = Item reserved
+UI.ItemState.ReservedBy = Item reserved by $1
+UI.ItemState.TransportedTo = Item in transit to $1
+
+UI.Upgrade = Select upgraded items to craft.
+UI.Upgrade.Desc = In the upgrade workshop two items of one quality are combined to yield one item of a higher quality. 
+
+
+TipOfTheDay.14=You can rename colonists, zones and some buildings. To do so, select them and click on their name on top of the info panel.  
+
+TipOfTheDay.15 = Colonists move faster when they carry no tools. Unassign all tasks and workshops to turn a colonist into a hauler.    
+
+TipOfTheDay.16 = The tiles within a stockpile are used in the order they are created. Start a stockpile next to a workshop and expand from there to make it a bit more efficient.
