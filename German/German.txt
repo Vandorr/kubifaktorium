@@ -866,17 +866,6 @@ AttackEnemyCamp.Intro = Klicke auf das gegnerische Terri_torium und wähle Angre
 AttackEnemyCamp.Outro = Hinweis: Wähle deine Kolo_nisten aus um zu sehen, wie viel Schaden sie mit den unter_schiedlichen Waffen anrichten.
 
 
-Quality.Level0 = schlecht
-Quality.Level0.Desc = Gegenstand mit schlechter Qualität.
-Quality.Level1 = normal
-Quality.Level1.Desc = Gegenstand mit normaler Qualität.
-Quality.Level2 = gut
-Quality.Level2.Desc = Gegenstand mit guter Qualität.
-Quality.Level3 = hervorragend
-Quality.Level3.Desc = Gegenstand mit hervor_ragender Qualität.
-Quality.Level4 = legendär
-Quality.Level4.Desc = Gegenstand mit legendärer Qualität.
-
 Robot.Mode = Robotermodus
 Robot.Mode.Desc = ##robot können in unter_schiedlichen Modi arbeiten. Ihr Modus beeinflusst ihre Bewegungs_geschwin_digkeit und ihren Treibstoff_verbrauch.
 Robot.Mode.ECO = Ökomodus
@@ -1421,7 +1410,6 @@ UI.MineableContent = Im Berg vorhanden:
 UI.RecipieHint = <i>Klicke auf ein Rezept, um es zu aktivieren oder zu deak_tivieren. Halte die Alt-Taste gedrückt, um die akzeptierten Güter der Ausgangs_lager auto_matisch zu aktuali_sieren.</i>
 UI.Recruit.Title = Gegner:
 UI.Road = Straßen_bau_werkzeug.
-UI.Road.Desc = Baue Straßen, um Werk_stätten und Lager mit_einander zu ver_binden.
 UI.Tier = Stufe
 UI.Tier1 = Stufe 1
 UI.Tier2 = Stufe 2
@@ -1482,12 +1470,6 @@ Settings.StreamDeck.Desc = Stream Deck-Unterstützung. Benötigt Neustart.
 UI.Start = Starten
 UI.Randomize = Zufällig
 
-Objective.ConnectWorkshopsToRoads = Verbinde Werk_stätte mit Straßen_netz.
-Objective.ConnectWorkshopsToRoads.Desc = Werk_stätten, Farmen und ihre Lager_plätze müssen mit Straßen verbunden werden oder direkt neben_einander stehen. Baue Straßen mit Hilfe des Straßen_bau_tools.
-
-
-Status.MissingRoad = Keine Straßen_verbindung.
-Status.MissingRoad.Desc = Werk_stätten, Farmen und ihre Lager_plätze müssen mit Straßen ver_bunden werden oder direkt neben_einander stehen. Baue Straßen mit Hilfe des Straßen_bautools.
 
 Logistics.Status.Loop = Schleife entdeckt.
 Logistics.Status.Loop.Desc = Eine Schleife entsteht, wenn eine wechsel_seitige Ver_bindung zu einem anderen Lager/Depot besteht und beide die gleiche Ware annehmen. Ändere die ange_nommenen Waren von beiden, um dies zu beheben.
@@ -1498,8 +1480,7 @@ UI.Attack.Desc = Greife ein feind_liches Lager an, das sich in der Nähe unserer
 
 UI.ActiveJobs = Jobs
 
-UI.Upgrade = Verbessere
-UI.Upgrade.Desc = In der Upgrade-Werkstatt werden zwei Werk_zeuge einer Qualität zu einem Werkzeug einer höheren Qualität kombiniert.
+
 
 TipOfTheDay.11=Du kannst Zeppelin-Depots wie Lager_plätze nutzen. Sie können als Ein- oder Ausgangs_lager für Work_shops, Farmen usw. verwendet werden.
 
@@ -1790,3 +1771,80 @@ UI.Priority.Tooltip = Priorität
 UI.Priority.Tooltip.Desc = Lagerplätze und Werkstätten mit hoher Priorität werden zuerst verwendet.
 UI.PropagateToAll = An Ausgangslager weiterreichen.
 UI.PropagateToAll.Desc = Richtet alle Ausgangslager so ein, dass sie die Produkte der ausgewählten Jobs annehmen.
+
+
+
+
+
+
+TipOfTheDay.13=Wenn dir die notwendigen Ressourcen fehlen, kannst du einen Hafen bauen, um sie zu importieren. Exportiere produzierte Waren, um sie zu bezahlen.  
+
+UI.HaltUnloadAll.Desc = Entladen anhalten.
+
+
+UI.WM.Tiers.Title = Biomfortschritt
+UI.WM.Tiers.Title.Desc = In jedem Biom gibt es eine Reihe von Produktionszielen, die erreicht werden müssen. Um zum nächsten Biom zu gelangen, müssen 100% im aktuellen Biom erreicht werden.
+
+UI.TargetsForTier = Ziele für Biom $1:
+
+
+# 2.6.19
+Objective.CarriageSchedule = Füge $5 zum Fahrplan hinzu
+Objective.CarriageSchedule.Desc = Um einen Bahnhof zum Fahrplan hin_zuzufügen wähle den Wagen aus und rechts-klicke auf den Bahnhof. Um einen Bahn_hof zu ent_fernen, klicke auf seinen Eintrag im Fahrplan.
+
+				
+UI.Skirmish.Cargohint = Tipp: Um ein anderes Terrain auszuprobieren, wähle die Szenarien Mockup Tier 2 oder 3 um sicher zu stellen, dass du die benötigten Waren an Bord hast.
+
+Carriage.Schedule = Fahrplan:
+Carriage.Schedule.UI = Bahnhof
+Carriage.Schedule.UI.Desc = Um einen Bahnhof zum Fahrplan hinzu_zufügen wähle den Wagen aus und rechts-klicke auf den Bahnhof. Um einen Bahnhof zu ent_fernen, klicke auf seinen Eintrag im Fahr_plan.
+
+
+UI.Train.Destroy = Zug zerstören
+UI.Train.Go = Aktiv
+UI.Train.Stop = Stopp
+
+Quality.Level0 = schlecht
+Quality.Level1 = normal
+Quality.Level2 = gut
+Quality.Level0.Desc = Gegenstände mit schlechter Qualität.
+Quality.Level1.Desc = Gegenstände mit normal Qualität.
+Quality.Level2.Desc = Gegenstände mit guter Qualität.
+
+Name.StockpileZoneCC = Lagerplatz
+Name.FarmZoneCC = Farm
+Name.GroveZoneCC = Baumschule
+
+UI.Road.Desc = Baue Straßen, um entfernte Werkstätten und Lager miteinander zu verbinden. Kolonisten bewegen sich schneller, solange sie auf Straßen unterwegs sind. Klicke auf ein Anfangs- und ein Endfeld, um eine Straße zu platzieren. Ändern_nativ ziehe mit der Maus zwischen zwei Feldern, um eine gerade Straße zu bauen.
+
+ 
+EarlyAccessWarning.Intro = Die Aschenwelt und die damit verbundenen Mechaniken (Fließbänder, automatisierte Produktion etc.) befinden sich noch in einer sehr frühen Entwicklungsphase. Erwarte Probleme mit Balancing, fehlende Ressourcen etc. Ich bin mir der Probleme bewusst, so dass du sie nicht als Fehler melden musst. Sie sollen bis Ende 2019 behoben sein. :)
+EarlyAccessWarning.Help = Early-Access-Warnung
+
+
+
+UI.Import.Money = Verfügbare Währung: $1
+UI.Import.Help = Verfügbare Währung
+UI.Import.Help.Desc = Währung kann verwendet werden, um Rohstoffe auf deine Insel zu importieren. Verdiene Geld durch den Export von produzierten Waren. 
+
+UI.ItemState.Available = Gegenstand verfügbar
+UI.ItemState.Reserved = Gegenstand reserviert
+UI.ItemState.ReservedBy = Gegenstand reserviert von $1
+UI.ItemState.TransportedTo = Gegenstand unterwegs zu $1
+
+UI.Upgrade = Select upgraded items to craft.
+UI.Upgrade.Desc = In the upgrade workshop two items of one quality are combined to yield one item of a higher quality. 
+
+UI.Upgrade = Wähle zu verbessernde Werkzeuge.
+UI.Upgrade.Desc = In der Upgrade-Werkstatt werden zwei Werk_zeuge einer Qualität zu einem Werkzeug einer höheren Qualität kombiniert.
+
+
+TipOfTheDay.10=Klicke auf ein empfohlenes Gebäude, um es zu bauen. Klicken Sie auf einen empfohlenen Gegenstand, um eine Werkstatt auszuwählen, in dem er gebaut werden kann.
+
+TipOfTheDay.14=Du kannst Kolonisten, Zonen und einige Gebäude umbenennen. Wählen diese dazu aus und klicke auf ihren Namen oben im Infopanel.  
+
+TipOfTheDay.15 = Kolonisten bewegen sich schneller, wenn sie keine Werkzeuge tragen. Schalte alle Jobs und Workshops aus, um aus einem Kolonisten einen Transporteur zu machen. 
+
+TipOfTheDay.16 = Die Felder innerhalb eines Lagers werden in der Reihenfolge ihrer Erstellung verwendet. Beginne eine Lager neben einer Werkstatt und erweitern es von dort aus, um es etwas effizienter zu gestalten.
+
+MainMenu.Notice.Demo = Dies ist eine Demoversion mit eingeschränkter Funktionalität. Klicke hier, um die Steam-Seite des Spiels zu besuchen. Füge Kubifaktorium zu deiner Wunschliste hinzu, um benachrichtigt zu werden, wenn es diesen Sommer erscheint! Danke :)
