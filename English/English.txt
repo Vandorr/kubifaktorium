@@ -279,8 +279,6 @@ Objective.LinkStockpile = Link $1 to stockpile ($2/$3)
 Objective.LinkStockpile.Desc = To link a $1 to a ##stockpilezone, left-_click the $1 and right-_click on the stockpile. Workshops will produce until the linked stockpiles are full.
 Objective.LinkFarmToStockpile = Link farm to stockpile ($2/$3)
 Objective.LinkFarmToStockpile.Desc = To link a ##farmzone to a ##stockpilezone, left-_click the farm and right-_click on the stockpile. Crops on farms will be harvested until the linked stockpiles are full.
-Objective.Load = Load $1 ($2/$3)
-Objective.Load.Desc = To load an object onto your ##ship click on the load button and mark one or more items.
 Objective.MiningJob = Create mining tasks ($2/$3)
 Objective.MiningJob.Desc = To select a resource to be ##mined, click the mine button and select the things to be mined. Drag an area to mine everything within. Note that your colonists can only mine resources within your ##territory.
 Objective.ProductionTask = Set production: $1
@@ -1153,7 +1151,7 @@ UI.HaltUnloadAll.Desc = Stop unloading items.
 UI.WM.Tiers.Title = Biome completion
 UI.WM.Tiers.Title.Desc = In each biome, there is a set of production targets you need to reach. In order to move on to the next biome, you need to reach 100% in the current biome.
 
-UI.TargetsForTier = Targets for tier $1:
+UI.TargetsForTier = Targets for biome $1:
 
 
 # 2.6.19
@@ -1210,3 +1208,8 @@ TipOfTheDay.14=You can rename colonists, zones and some buildings. To do so, sel
 TipOfTheDay.15 = Colonists move faster when they carry no tools. Unassign all tasks and workshops to turn a colonist into a hauler.    
 
 TipOfTheDay.16 = The tiles within a stockpile are used in the order they are created. Start a stockpile next to a workshop and expand from there to make it a bit more efficient.
+
+MainMenu.Notice.Demo = This is a demo version with limited functionality. Click here to visit the game's Steam page. Add Kubifaktorium to your wish list to get notified when it comes out this Summer! Thanks :)
+
+# 15.6.2019
+# Removed: Objective.Load, Objective.Load.Desc
