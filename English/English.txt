@@ -1209,7 +1209,12 @@ TipOfTheDay.15 = Colonists move faster when they carry no tools. Unassign all ta
 
 TipOfTheDay.16 = The tiles within a stockpile are used in the order they are created. Start a stockpile next to a workshop and expand from there to make it a bit more efficient.
 
+TipOfTheDay.17 = You can link your ship to a stockpile. Doing so will make your colonists unload all the items the stockpile is set to accept.
+
 MainMenu.Notice.Demo = This is a demo version with limited functionality. Click here to visit the game's Steam page. Add Kubifaktorium to your wish list to get notified when it comes out this Summer! Thanks :)
+
+MainMenu.Notice.Early Access = Thank you for playing Kubifaktorium! Some general tipps for the current version: <br> - When playing the campaign, make sure to save inbetween islands as in-island saves can break in-between versions.
+
 
 # 15.6.2019
 # Removed: Objective.Load, Objective.Load.Desc
