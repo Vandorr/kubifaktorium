@@ -579,6 +579,7 @@ UI.Colonists = Your warriors (Strength $1):
 UI.Help = Help
 
 UI.PressAnyKey = Press any key to begin!
+#시작하려면 좌클릭 및 키를 눌러주세요!
 
 UI.CapacityUsed = Capacity used:
 UI.LoadLeave = Load and leave:
@@ -1190,9 +1191,9 @@ EarlyAccessWarning.Help = Early Access Warning
 # Deleted: Objective.ShowHelpScreen Objective.ShowHelpScreen.Desc Objective.ConnectFarmsToRoads Objective.ConnectFarmsToRoads.Desc Objective.ConnectWorkshopsToRoads Objective.ConnectWorkshopsToRoads.Desc
 
 
-UI.Import.Money = Available currency: $1
-UI.Import.Help = Available currency
-UI.Import.Help.Desc = Currency can be used to import raw materials onto your island. Earn currency by exporting manufactured goods. 
+UI.Import.Money = Available coins: $1
+UI.Import.Help = Available coins
+UI.Import.Help.Desc = Coins can be used to import raw materials onto your island. Earn coins by exporting manufactured goods. 
 
 UI.ItemState.Available = Item available
 UI.ItemState.Reserved = Item reserved
@@ -1213,8 +1214,14 @@ TipOfTheDay.17 = You can link your ship to a stockpile. Doing so will make your 
 
 MainMenu.Notice.Demo = This is a demo version with limited functionality. Click here to visit the game's Steam page. Add Kubifaktorium to your wish list to get notified when it comes out this Summer! Thanks :)
 
-MainMenu.Notice.Early Access = Thank you for playing Kubifaktorium! Some general tipps for the current version: <br> - When playing the campaign, make sure to save inbetween islands as in-island saves can break in-between versions.
+MainMenu.Notice.EarlyAccess = Welcome to the Early Access version of Kubifaktorium! Here are some general tips for the current version: <br> - The grassland and desert biomes are quite playable. Everything beyond (automation, conveyor belts etc.) is early in development. To learn more, have a look at the game's road map. <br> - When playing the campaign, please save the game every time you come back to the world map. <br> - If you encounter a bug, please report it using the in-game reporting tool (button in the top right). <br> - The best place to chat about the game is the official Discord server. <br>Thank you for playing, I hope you enjoy the game! :) <br>  Mirko 
 
 
 # 15.6.2019
 # Removed: Objective.Load, Objective.Load.Desc
+
+
+UI.ShowTips = Show tips
+UI.Tips = Tips
+
+Debug.currency = Add 100 coins. 
