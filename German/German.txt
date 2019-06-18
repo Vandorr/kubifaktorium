@@ -1345,7 +1345,7 @@ ObjectType.DesertTorch.Desc = Ein antikes Gebäude.
 ObjectType.Foundation_Dark_Lowland = Fundament (Dunkel)
 ObjectType.Foundation_Dark_Lowland.Desc = Baue dieses Fundament auf dunklem Gelände, um den Bau von Gebäuden zu ermöglichen.
 ObjectType.Foundation_Desert_SandHigh = Fundament (Sand)
-ObjectType.Foundation_Desert_SandHigh.Desc = Baue dieses Fundament auf Sand, um den Bau von Gebäuden zu ermöglichen.
+ObjectType.Foundation_Desert_SandHigh.Desc=Baue dieses Fundament auf Sand, um den Bau von Gebäuden zu ermöglichen.
 ObjectType.Greenhouse = Gewächshaus
 ObjectType.Greenhouse.Desc = Diese Farm produziert ##automatically Pflanzen und kann überall gebaut werden.
 ObjectType.Hippo = Nilpferd
@@ -1652,7 +1652,6 @@ ObjectType.Floor_Swamp = Sumpfgebiet
 ObjectType.Floor_Swamp.Desc = Sumpf_gebiet
 ObjectType.Floor_Swamp_Water = Sumpf_gebiet
 ObjectType.Floor_Swamp_Water.Desc = Sumpf_gebiet
-ObjectType.Foundation_Desert_SandHigh.Desc = Baue dieses Funda_ment auf Sand, um den Bau von Gebäuden, Straßen und Gleisen zu ermög_lichen.
 ObjectType.Foundation_Grass = Fundament (Gras)
 ObjectType.Foundation_Grass.Desc = Baue dieses Funda_ment auf Gras, um den Bau von Gebäuden, Straßen und Gleisen zu ermög_lichen.
 ObjectType.HouseGood = Schönes Haus
@@ -1751,7 +1750,6 @@ Modifier.TutorialAdvancedProduction.Intro = Produziere ver_schie_dene Güter und
 Modifier.TutorialAdvancedProduction.Outro = 
 Modifier.TutorialTrainSignalsCircle.Intro = Dieses Beispiel zeigt, wie mehrere Züge auf einer kreis_förmigen Strecke verkehren können.
 ObjectType.Floor_Desert_MountainBase.Desc = Wüstensand
-ObjectType.Foundation_Desert_SandHigh.Desc = Baue dieses Funda_ment auf Sand, um den Bau von Gebäuden zu ermöglichen.
 ObjectType.Horse = Horse
 ObjectType.Horse.Desc = A peaceful creature.
 ObjectType.HorseCarriage = Pferde_wagen
@@ -1845,3 +1843,7 @@ TipOfTheDay.15 = Kolo_nisten bewegen sich schneller, wenn sie keine Werk_zeuge t
 TipOfTheDay.16 = Die Felder innerhalb eines Lagers werden in der Reihen_folge ihrer Er_stellung ver_wendet. Beginne eine Lager neben einer Werk_statt und erwei_tern es von dort aus, um es etwas effi_zienter zu gestalten.
 
 MainMenu.Notice.Demo = Dies ist eine Demo_version mit ein_geschränkter Funktio_nalität. Klicke hier, um die Steam-Seite des Spiels zu besuchen. Füge Kubi_faktorium zu deiner Wunsch_liste hinzu, um benach_richtigt zu werden, wenn es diesen Sommer erscheint! Danke :)
+
+
+
+MainMenu.Notice.EarlyAccess = Willkommen zur Early Access Version von Kubifaktorium! Hier einige allgemeine Tipps für die aktuelle Version: <br> - Die Grasland- und Wüstenbiome sind gut spielbar. Alles, was darüber hinausgeht (Automatisierung, Förderbänder usw.), befindet sich in einem frühen Stadium. Um mehr zu erfahren, werfe einen Blick auf die Roadmap. <br> - Wenn du die Kampagne spielst, speichere am besten jedes Mal, wenn du zur Weltkarte zurückkehrst. <br> - Wenn du auf einen Fehler stößt, melde ihn bitte (auf deutsch oder englisch) mit dem In-Game-Bugreporting-Tool (Button oben rechts). <br> - Der beste Ort, um über das Spiel zu plaudern, ist der offizielle (englische) Discord-Server. <br>Danke fürs Spielen, ich hoffe, dir gefällt das Spiel! :) <br> Mirko
