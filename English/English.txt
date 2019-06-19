@@ -1225,3 +1225,4 @@ UI.ShowTips = Show tips
 UI.Tips = Tips
 
 Debug.currency = Add 100 coins. 
+Debug.currency = Add 100 coins to your shipping port.
