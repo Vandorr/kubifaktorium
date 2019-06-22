@@ -1041,7 +1041,7 @@ BugReport.Submitting = Submitting User Report. Thank you!! :D
 BugReport.Failed = The user report could not be sent. Please try again later.
 
 UI.Inhabitants = Inhabitants
-Message.ActorDied = $1 has died.
+Message.ActorDied = $1 was defeated.
 Train.Status.Okay.Desc = The train is proceeding to the next station.
 
 
