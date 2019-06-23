@@ -143,12 +143,12 @@ UI.GrowTime = Wachstums_zeit: $1
 UI.Harbour.Explanation = Fracht_schiffe liefern Fertig_waren von zuvor kolo_nisierten Inseln.
 UI.HitpointMax = Max. HP: $1
 UI.HitpointRegen = HP Regen_eration: $1
-UI.Stack = ##Stacksize: $1
+UI.Stack = Stapelgröße: $1
 UI.LinkOverlay = Produktions_ketten
 UI.LinkOverlay.Desc = Schaltet die Anzeige von aktiven Verb_indungen zwischen Werk_stätten, Farmen etc. an. [Standard: Left Alt]
 UI.MaxSpeed = Höchstge_schwin_digkeit: $1
 UI.SettlerScreen.Areas = Gebiete
-UI.SettlerScreen.Explanation = Werkzeuge -> Kolo_nisten wählen automatisch das best_mögliche Werk_zeug für ihre zugewiesenen Aufgaben aus.<br>Zonen -> Klick: Eine Zone zulassen oder verbieten. <br>Aufgaben und Werkstätten -> Klicken: Umschalten zwischen aktiv und inaktiv. Größe der Quadrate = Kenntnis_stand.
+UI.SettlerScreen.Explanation = Werkzeuge -> Kolo_nisten wählen automatisch das best_mögliche Werk_zeug für ihre zugewiesenen Aufgaben aus.<br>Zonen -> Klick: Eine Zone zulassen oder verbieten. <br>Aufgaben und Werkstätten -> Klick: Umschalten zw. aktiv und inaktiv. Quadratgröße  = Kenntnis_stand.
 UI.SettlerScreen.Tasks = Aufgaben
 UI.SettlerScreen.Title = Kolo_nisten_management
 UI.SettlerScreen.Tool = Werkzeug
@@ -215,7 +215,7 @@ Objective.SettlerTaskGroup.Desc = Um einen Kolo_nisten dazu zu bringen, $4 Jobs 
 Objective.SettlerWorkshop = Job zuweisen: $1 ($2/$3)
 Objective.SettlerWorkshop.Desc = Damit ein Kolonist in $1 arbeitet, wähle ihn/sie aus und klicke auf $1 im Kolo_nisten_panel. Alternativ kannst du die Jobs deiner Kolo_nisten auch über den Kolo_nisten_management_bildschirm.
 Objective.UnloadAll = Entlade dein Schiff ($1 verbleibend)
-Objective.UnloadAll.Desc = Klicke auf dein ##ship, um zu sehen, welche Waren es an Bord hat. Klicke auf ein Gut, um es von deinen Kolo_nisten entladen zu lassen. Du kannst mehrere Waren auf einmal entladen, indem du die Umschalt- oder Strg-taste gedrückt hältst, während du klickst. Alternativ kannst du auch die Schalt_fläche unten rechts oben, um alles zu entladen.
+Objective.UnloadAll.Desc = Klicke auf dein ##ship, um zu sehen, welche Waren es an Bord hat. Klicke auf ein Gut, um es von deinen Kolo_nisten entladen zu lassen. Du kannst mehrere Waren auf einmal entladen, indem du die Umschalt- oder Strg-Taste gedrückt hältst während du klickst. Alternativ kannst du auch die Schalt_fläche unten rechts oben benutzen, um alles zu entladen.
 Objective.Recruit = Rekru_tiere sie.
 Objective.Recruit.Desc = Einen Schiff_brüchigen zu rekru_tieren oder ein Tier zu zähmen, wird sie in deine Kolonie inte_grieren. Hinweis: Tiere können nur bestimmte Aufgaben ausführen. Sobald sie ein Teil deiner Kolonie sind, werden sie anfangen, deine Vorräte zu ver_brauchen.
 Objective.ActivateDebugMode = Aktiviere den Debugmodus.
@@ -380,7 +380,7 @@ Workshop.Status.NoOutput.Desc = Um einen Ausgangs-##stockpilezone zu verbinden, 
 Workshop.Status.NoProduct = Kein Produkt aus_gewählt.
 Workshop.Status.NoProduct.Desc = Um ein Produkt auszuwählen, klicke es im Workshop_panel an. Wenn mehrere Produkte aus_gewählt sind, werden deine Kolo_nisten ihre Auf_gaben auf_teilen.
 Workshop.Status.NoSettler = Kein Kolonist zugewiesen.
-Workshop.Status.NoSettler.Desc = Um einen Kolo_nisten in dieser Werk_statt arbeiten zu lassen, wähle ihn aus und klicke auf die Werk_statt im Kolo_nisten_panel. Alter_nativ kannst du die Jobs deiner Kolo_nisten auch über den Kolo_nisten_management_bild_schirm verwalten.
+Workshop.Status.NoSettler.Desc = Um einen Kolo_nisten in dieser Werk_statt arbeiten zu lassen, wähle ihn aus und klicke auf die Werk_statt im Kolo_nisten_panel. Stelle außerdem sicher, dass die Kolo_nisten in dieser Zone (Farbe) arbeiten dürfen. Alter_nativ kannst du die Jobs deiner Kolo_nisten auch über den Kolo_nisten_management_bild_schirm verwalten.
 Workshop.Status.OutputFull = Ausgangs_lager voll.
 Workshop.Status.OutputFull.Desc = Die Produk_tion wird wieder aufgenommen, sobald Platz im Ausgangs_##stockpilezone vorhanden ist.
 Workshop.Status.UnderConstruction = Im Bau.
@@ -447,7 +447,7 @@ ObjectiveGroup.Debug = Debugmodus-Tutorial.
 Map01.IntroDebug = Beachte, dass du mit diesen Optionen auf unfertige und fehler_hafte Inhalte zugreifen kannst.
 Modifier.Tutorial2 = Produktions-Tutorial
 Map02.Introduction = Auf dieser Insel werden wir eine funk_tionierende Wirt_schaft auf_bauen und einige Werk_zeuge und Waffen herstellen:
-Map02.IntroTool = Baue eine ein_fache Basis_werkstatt und stelle einige Holz_bretter her:
+Map02.IntroTool = Baue eine Basis_werkstatt und stelle einige Holz_bretter her:
 Map02.IntroTool2 = Als nächstes müssen wir eine weitere Werk_statt bauen und ein_richten, um unsere Holz_bretter in Werk_zeuge zu ver_wandeln:
 Map02.IntroTool3 = Der beste Weg, die Effekt_ivität unserer Hand_werker zu steigern, ist, sie mit besseren Werk_zeugen aus_zustatten. Produziere min_destens Werk_zeuge und rüste deine Kolo_nisten mit diesen aus:
 Map02.IntroBrick = Häuser bieten unseren Kolo_nisten mehr Komfort. Baue Lehm aus den Bergen an und baue einen Ofen, um ihn Lehm in Ziegel zu verwandeln:
@@ -621,19 +621,19 @@ ObjectType.StoneRoad.Desc = Eine ge_pflasterte Straße.
 ObjectType.Aeste = Zweige
 ObjectType.Aeste.Desc = Kann durch Abbau/Ernte entfernt werden.
 ObjectType.BeachRock = Kleine Steine.
-ObjectType.BeachRock.Desc = Kann durch Abbau / Ernte entfernt werden.
+ObjectType.BeachRock.Desc = Kann durch abbauen & ernten entfernt werden.
 ObjectType.CorniTree = Fichte
 ObjectType.CorniTree.Desc = Bäume können ab_gebaut werden, um Baum_stämme zu erhalten.
 ObjectType.Muscheln = Muscheln
-ObjectType.Muscheln.Desc = Kann durch Abbau / Ernte entfernt werden.
+ObjectType.Muscheln.Desc = Kann durch abbauen & ernten entfernt werden.
 ObjectType.Steine = Kleine Steine
-ObjectType.Steine.Desc = Kann durch Abbau / Ernte entfernt werden.
+ObjectType.Steine.Desc = Kann durch abbauen & ernten entfernt werden.
 ObjectType.Tree = Eiche
 ObjectType.Tree.Desc = Bäume können abgebaut werden, um Baum_stämme zu erhalten.
 ObjectType.Weed = Unkraut
-ObjectType.Weed.Desc = Kann durch Abbau / Ernte entfernt werden.
+ObjectType.Weed.Desc = Kann durch abbauen & ernten entfernt werden.
 ObjectType.WildBushel = Unkraut
-ObjectType.WildBushel.Desc = Kann durch Abbau / Ernte entfernt werden.
+ObjectType.WildBushel.Desc = Kann durch abbauen & ernten entfernt werden.
 ObjectType.Boat = Schiff
 ObjectType.Boat.Desc = Das ##ship, mit dem deine Kolo_nisten die Meere über_queren.
 ObjectType.CargoShip = Frachtschiff
@@ -654,8 +654,8 @@ ObjectType.TrainLocomotive = Loko_motive
 ObjectType.TrainLocomotive.Desc = Loko_motiven treiben Züge an.
 ObjectType.Bakery = Bäckerei
 ObjectType.Bakery.Desc = Zur Herstellung von Brot und anderem ##Food.
-ObjectType.BasicWorkplace = Basis_arbeitsplatz
-ObjectType.BasicWorkplace.Desc = Der Basis_arbeitsplatz ermöglicht die Herstellung einfacher Waren.
+ObjectType.BasicWorkplace = Basis_werk_statt
+ObjectType.BasicWorkplace.Desc = Der Basis_werk_statt ermöglicht die Herstellung einfacher Waren.
 ObjectType.Brewery = Brauerei
 ObjectType.Brewery.Desc = Zur Herstellung von Bier, Tee und anderen Getränken.
 ObjectType.Kiln = Ofen
@@ -724,7 +724,7 @@ UI.StoredCargo.Help = (Klicke zum Entladen.)
 
 UI.Menu = Menü
 UI.Menu.Title = Menü
-UI.ExitToMain = Beenden zum Hauptmenü.
+UI.ExitToMain = Beenden zum Hauptmenü
 UI.VersionInfo = Versions_infos
 
 
@@ -1177,9 +1177,11 @@ Objective.SetZoneColorInactive = Verbiete $5 Zugang zu Zone $3.
 Objective.SetZoneColorInactive.Desc = Um einem Kolo_nisten den Zugang zu einer Zone zu verbieten, wähle den Kolo_nisten aus und klicke auf die Zone im Kolo_nisten_panel rechts unten.
 Objective.StockpileAcceptsOnlyType = Richte $5 so ein, dass es nur $1 annimmt.
 Objective.StockpileAcceptsOnlyType.Desc = Um die Güter ein_zustellen die ein Lager annimmt, wähle das Lager aus und klicke auf die ent_sprechende Güter im Info_panel rechts unten.
-Objective.StockpileAcceptsType = Richte $5 so ein, dass es $1 annimmt.
+Objective.StockpileAcceptsType = Richte Lagerplatz $5 so ein, dass es $1 annimmt.
 Objective.StockpileAcceptsType.Desc = Um die Güter ein_zustellen die ein Lager annimmt, wähle das Lager aus und klicke auf die ent_sprechende Güter im Info_panel rechts unten.
-Objective.AnyStockpileAcceptsType = Richte ihn so ein, dass er $1 annimmt.
+Objective.HopperAcceptsType = Richte Depot_eingang/-Ausgang $5 so ein, dass er $1 annimmt.
+Objective.HopperAcceptsType.Desc = Um die Güter ein_zustellen die ein Depot_eingang/-Ausgang annimmt, wähle das Lager aus und klicke auf die ent_sprechende Güter im Info_panel rechts unten.
+Objective.AnyStockpileAcceptsType = Richte Lager so ein, dass es $1 annimmt.
 Objective.AnyStockpileAcceptsType.Desc = Um die Güter ein_zustellen die ein Lager annimmt, wähle das Lager aus und klicke auf die ent_sprechende Güter im Info_panel rechts unten.
 Objective.TrainSchedule = Füge $5 zum Fahrplan hinzu.
 Objective.TrainSchedule.Desc = Um einen Bahnhof zum Fahrplan eines Zuges hin_zuzufügen wähle den Zug aus und rechts-klicke auf den Bahn_hof.
@@ -1454,7 +1456,7 @@ Objective.FulfillProductionTarget.Desc = Das ##productiontarget wird in der Ecke
 
 
 UI.Build.NoWorker = Keine Bauarbeiter zugewiesen.
-UI.Build.NoWorker.Desc = Um einen Kolo_nisten dazu zu bringen, Bauarbeiten zu erledigen, wähle ihn/sie aus und klicke auf das Bau-Symbol. Alter_nativ kannst du die Jobs deiner Kolo_nisten auch über den Kolo_nisten_management_bildschirm verwalten.
+UI.Build.NoWorker.Desc = Um einen Kolo_nisten dazu zu bringen, Bauarbeiten zu erledigen, wähle ihn aus und klicke auf das Bau-Symbol. Alter_nativ kannst du die Jobs deiner Kolo_nisten auch über den Kolo_nisten_management_bildschirm verwalten.
 
 Workshop.Status.NoRoadConnection = Keine Straßen_ver_bindung.
 Workshop.Status.NoRoadConnection.Desc = Werkstätten benötigen Straßen_ver_bindungen zu ihren Lager_plätzen. Baue Straßen mit Hilfe des Staßen_bau_werkzeugs.
@@ -1488,7 +1490,7 @@ TipOfTheDay.11=Du kannst Zeppelin-Depots wie Lager_plätze nutzen. Sie können a
 UI.Follow.Desc = Folge einem Gegen_stand oder Kolo_nisten.
  
 UI.Clone = Klone Gebäude. 
-UI.Clone.Desc = Baue einen Klon von diesem Gebäude. Produktions_ein_stellungen und Lager_ver_bindungen werden kopiert. 
+UI.Clone.Desc = Baue einen Klon von diesem Gebäude. Die Produktions_ein_stellungen und Lager_ver_bindungen werden auto_matisch kopiert. 
 
 UI.Weight.Light = Leicht
 UI.Weight.Normal = Normal
@@ -1721,7 +1723,7 @@ UI.PlantInfo = Pflanzen_info:
 UI.ProductionTarget = ##Productiontarget
 UI.ProductionTarget.Desc = Das ##productiontarget für die aktuelle Insel.
 UI.Recommendations.Desc = Das Empfehlungs_system schlägt auf der Grund_lage der aktuellen Situ_ation Dinge zu tun vor.
-UI.RestartMap = Karte neu starten.
+UI.RestartMap = Karte neu starten
 UI.ResumePlaying = Weiter_spielen
 UI.ReturnToMain = Zurück zum Haupt_menü
 UI.ReturnToMain.Desc = Verlasse dieses Spiel und kehre zum Haupt_menü zurück.
@@ -1847,3 +1849,8 @@ MainMenu.Notice.Demo = Dies ist eine Demo_version mit ein_geschränkter Funktio_
 
 
 MainMenu.Notice.EarlyAccess = Willkommen zur Early Access Version von Kubifaktorium! Hier einige allgemeine Tipps für die aktuelle Version: <br> - Die Grasland- und Wüstenbiome sind gut spielbar. Alles, was darüber hinausgeht (Automatisierung, Förderbänder usw.), befindet sich in einem frühen Stadium. Um mehr zu erfahren, werfe einen Blick auf die Roadmap. <br> - Wenn du die Kampagne spielst, speichere am besten jedes Mal, wenn du zur Weltkarte zurückkehrst. <br> - Wenn du auf einen Fehler stößt, melde ihn bitte (auf deutsch oder englisch) mit dem In-Game-Bugreporting-Tool (Button oben rechts). <br> - Der beste Ort, um über das Spiel zu plaudern, ist der offizielle (englische) Discord-Server. <br>Danke fürs Spielen, ich hoffe, dir gefällt das Spiel! :) <br> Mirko
+
+UI.ProductionTarget.TooltipTitle = Produktions_ziel:
+
+Settings.PauseOnDefocus = Auto-Pause
+Settings.PauseOnDefocus.Desc = Pausiert das Spiel, wenn es das Fenster den Fokus verliert. 
