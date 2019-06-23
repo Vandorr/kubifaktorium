@@ -50,8 +50,8 @@ fallback=English
 ##day = #sun#daytime
 ##day.Desc = #sun#Daytime: Time between 6:00 and 18:00.
 
-##drink = #Drink#drink 
-##drink.Desc = #Drink#Drink: When thirsty, colonists will auto_matically search for something to drink. Providing drinks will make them more happy and productive.
+##drink = drink 
+##drink.Desc = Drink: When thirsty, colonists will auto_matically search for something to drink. Providing drinks will make them more happy and productive.
 
 ##happiness = #Happy#Happiness 
 ##happiness.Desc = #Happy#Happiness: A colonist's movement and work speed is influenced by how well his/her needs are met.
@@ -165,7 +165,7 @@ UI.Drinks = Drinks: $1
 UI.Harbour.Explanation = ##Cargoships deliver manufactured goods from previously colonized islands.
 UI.HitpointMax = Max. HP: $1
 UI.HitpointRegen = HP regen_eration: $1
-UI.Stack = ##Stacksize: $1
+UI.Stack = Stack size: $1
 UI.LinkOverlay = Production Routes
 UI.LinkOverlay.Desc = Toggles the display of active links between workshops, farms and ##stockpilezones. [Default: Left Alt]
 UI.MaxSpeed = Max. speed: $1
@@ -244,6 +244,10 @@ Objective.SetZoneColorInactive.Desc = To disable a colonist's access to a zone s
 
 Objective.StockpileAcceptsType = Make stockpile $5 accept $1.
 Objective.StockpileAcceptsType.Desc = To change a ##stockpilezone's set of accepted goods select it and click on the goods in the info panel.
+
+
+Objective.HopperAcceptsType = Make depot exit/entry $5 accept $1.
+Objective.HopperAcceptsType.Desc = To change the accepted goods of a depot exit/entry select it and click on the goods in the info panel.
 
 Objective.StockpileAcceptsOnlyType = Make stockpile $5 accept only $1.
 Objective.StockpileAcceptsOnlyType.Desc = To change a ##stockpilezone's set of accepted goods select it and click on the goods in the info panel.
@@ -447,6 +451,8 @@ Settings.Brightness=Brightness
 Settings.Brightness.Desc=Brightness
 Settings.AA = AA
 Settings.AA.Desc = Anti-Aliasing: Reduce aliasing around edges.
+Settings.PauseOnDefocus = Auto-pause
+Settings.PauseOnDefocus.Desc = Automatically pause the game when it loses focus. 
 Settings.Ambience = Ambience
 Settings.Ambience.Desc = Volume of ambient effects.
 Settings.AO = AO
@@ -505,7 +511,7 @@ Workshop.Status.NoProduct.Desc = To choose an item to be produced, click on it i
 
  
 Workshop.Status.NoSettler = No colonist assigned.
-Workshop.Status.NoSettler.Desc = To make a colonist work in this workshop, select him/her and click on the workshop in the colonist panel. Alter_natively, you can manage your colonists' jobs from the colonist management screen.
+Workshop.Status.NoSettler.Desc = To make a colonist work in this workshop, select him/her and click on the workshop in the colonist panel and make sure he/she is allowed to work in this zone. Alter_natively, you can manage your colonists' jobs from the colonist management screen.
 Workshop.Status.OutputFull = Output stockpiles full.
 Workshop.Status.OutputFull.Desc = Production will resume when space in the output ##stockpilezone becomes available.
 Workshop.Status.UnderConstruction = Under con_struction.
@@ -885,7 +891,7 @@ MainMenu.Campaign.Size.4 = Huge
 UI.AssignZone = Toggle zone.
 UI.AssignZone.Desc = Click here to assign / unassign this ##zone color.  
 
-UI.RestartMap = Restart map.
+UI.RestartMap = Restart map
 
 UI.TargetTrack = Inventory Target ($1 / $2):
 UI.ProductionTarget.Met = Inventory target reached for:<br> $1
@@ -896,7 +902,7 @@ UI.Recommendations.Desc = The recommen_dation system suggests things to do based
 
 UI.ProductionTarget = ##Productiontarget
 UI.ProductionTarget.Desc = The ##productiontarget for the current island.
-
+UI.ProductionTarget.TooltipTitle = Production target:
 
 
 UI.WM.Inventory.Title = Inventory
@@ -934,6 +940,8 @@ Objective.AnyStockpileAcceptsType.Desc = To change a ##stockpilezone's set of ac
 
 ##productiontarget = inventory target
 ##productiontarget.Desc = Inventory target: Amount of goods you need to produce on each island to make progress in the campaign.
+
+
 
 UI.Build.NoWorker = No construction worker assigned.
 UI.Build.NoWorker.Desc = To make a colonist do construction jobs, select him/her and click on the construction icon and make sure he/she is assigned to work in this zone. Alter_natively, you can manage your colonists' jobs from the colonist management screen.
@@ -1226,3 +1234,4 @@ UI.Tips = Tips
 
 Debug.currency = Add 100 coins. 
 Debug.currency = Add 100 coins to your shipping port.
+
