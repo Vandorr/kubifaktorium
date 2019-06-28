@@ -139,7 +139,7 @@ UI.Grove = Grove
 UI.Grove.Desc = Create or expand a ##grovezone.
 UI.Farm = Farm
 UI.Farm.Desc = Create a new ##farmzone or expand an existing zone.
-UI.InventoryMenu = Inventory management
+UI.InventoryMenu = Inventory
 UI.InventoryMenu.Desc = Display your colony's inventory and manage how the goods are used.
 UI.UnloadAll = Unload everything.
 UI.UnloadAll.Desc = Order your colonists to unload all cargo from your ##ship.
@@ -248,6 +248,9 @@ Objective.StockpileAcceptsType.Desc = To change a ##stockpilezone's set of accep
 
 Objective.HopperAcceptsType = Make depot exit/entry $5 accept $1.
 Objective.HopperAcceptsType.Desc = To change the accepted goods of a depot exit/entry select it and click on the goods in the info panel.
+
+Objective.StationAcceptsType = Make station exit/entry $5 accept $1.
+Objective.StationAcceptsType.Desc = To change the accepted goods of a station exit/entry select it and click on the goods in the info panel.
 
 Objective.StockpileAcceptsOnlyType = Make stockpile $5 accept only $1.
 Objective.StockpileAcceptsOnlyType.Desc = To change a ##stockpilezone's set of accepted goods select it and click on the goods in the info panel.
@@ -1222,7 +1225,7 @@ TipOfTheDay.17 = You can link your ship to a stockpile. Doing so will make your 
 
 MainMenu.Notice.Demo = This is a demo version with limited functionality. Click here to visit the game's Steam page. Add Kubifaktorium to your wish list to get notified when it comes out this Summer! Thanks :)
 
-MainMenu.Notice.EarlyAccess = Welcome to the Early Access version of Kubifaktorium! Here are some general tips for the current version: <br> - The grassland and desert biomes are quite playable. Everything beyond (automation, conveyor belts etc.) is early in development. To learn more, have a look at the game's road map. <br> - When playing the campaign, please save the game every time you come back to the world map. <br> - If you encounter a bug, please report it using the in-game reporting tool (button in the top right). <br> - The best place to chat about the game is the official Discord server. <br>Thank you for playing, I hope you enjoy the game! :) <br>  Mirko 
+MainMenu.Notice.EarlyAccess = Welcome to the Early Access version of Kubifaktorium! Here are some general tips for the current version: <br>- I recommend playing the tutorials to get started.<br> - The grassland and desert biomes are quite playable. Everything beyond (automation, conveyor belts etc.) is early in development. To learn more, have a look at the game's road map. <br> - When playing the campaign, please save the game every time you come back to the world map. <br> - If you encounter a bug, please report it using the in-game reporting tool (button in the top right). <br> - The best place to chat about the game is the official Discord server. <br>Thank you for playing, I hope you enjoy the game! :) <br>  Mirko 
 
 
 # 15.6.2019
@@ -1235,3 +1238,5 @@ UI.Tips = Tips
 Debug.currency = Add 100 coins. 
 Debug.currency = Add 100 coins to your shipping port.
 
+
+Task.Idle = Idle
