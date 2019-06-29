@@ -456,6 +456,8 @@ Settings.AA = AA
 Settings.AA.Desc = Anti-Aliasing: Reduce aliasing around edges.
 Settings.PauseOnDefocus = Auto-pause
 Settings.PauseOnDefocus.Desc = Automatically pause the game when it loses focus. 
+Settings.LocalizationHelp = Localization help
+Settings.LocalizationHelp.Desc = Generates the Missing_<language>.txt files to aid with localization.
 Settings.Ambience = Ambience
 Settings.Ambience.Desc = Volume of ambient effects.
 Settings.AO = AO
@@ -469,7 +471,7 @@ Settings.Bloom.Desc = Draw a bloom effect around overexposed areas.
 Settings.Clouds = Clouds
 Settings.Clouds.Desc = Clouds move across the land.
 Settings.Debug = Debug/Cheat mode
-Settings.Debug.Desc = The debug mode allows you to freely spawn (F8) and remove objects (Alt-Remove zone) and reveal the map (F7).
+Settings.Debug.Desc = The debug mode allows you to freely spawn objects (F8) and access more debug options (F7).
 Settings.DOF = Depth of field
 Settings.DOF.Desc = Reduce extent of focal plane when zooming in.
 Settings.Fog = Fog and haze
@@ -786,7 +788,7 @@ Tool.Effect.Combat.Crit = Critical hit chance: $1%
 
 Tool.Effect.Agriculture.Effect = Speed: $1
 Tool.Effect.Agriculture.Hit = Chance to succeed: $1%
-Tool.Effect.Agriculture.Crit = 
+Tool.Effect.Agriculture.Crit = Critical success chance: $1%
 
 Tool.Effect.Mining.Effect = Speed: $1
 Tool.Effect.Mining.Hit = Chance to succeed: $1%
@@ -798,7 +800,7 @@ Tool.Effect.Crafting.Crit = Critical success chance: $1%
 
 Tool.Effect.None.Effect = Base effect
 Tool.Effect.None.Hit = Chance to succeed: 50%
-Tool.Effect.None.Crit = 
+Tool.Effect.None.Crit = Chance to crit: 0%
 
 Tool.None = No tool equipped.
 
@@ -1240,3 +1242,9 @@ Debug.currency = Add 100 coins to your shipping port.
 
 
 Task.Idle = Idle
+
+# 28.6.2019
+UI.WaterState = Water: $1
+
+DemoDisable = Disabled in demo.
+DemoDisable.Desc = Unfortunately this feature is not available in the demo.
