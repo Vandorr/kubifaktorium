@@ -234,7 +234,7 @@ Objective.ShowHelpTooltip.Desc = Gut gemacht. Ziele und viele andere Elemente de
 ObjectiveGroup.Help = Hilfesystem
 ObjectiveGroup.Controls = Grund_legendes
 
-ObjectiveGroup.LoadShip = Erreiche Produktionsziele
+ObjectiveGroup.LoadShip = Erreiche Vorratsziele
 ObjectiveGroup.Expand = Expandiere dein Gebiet
 ObjectiveGroup.MineResources = Baue Ressourcen ab
 ObjectiveGroup.UnloadShip = Entlade dein Schiff
@@ -436,7 +436,7 @@ Map01.IntroUnload = Ent_lade die Vorräte von deinem Schiff:
 Map01.IntroFarm = Baue eine Farm, um frische Lebens_mittel für die Kolo_nisten anzubauen:
 Map01.IntroWell = Baue einen Brunnen, um unsere Leute mit frischem Wasser zu versorgen:
 Map01.IntroMine = Diese Insel ist sehr reich an Ressourcen. Baue etwas Holz und Stein ab:
-Map01.IntroLoad = Sehr gut! Lade ein paar Vorräte auf unser Schiff. Das ist unser letztes Ziel. Wenn wir fertig sind, können wir zur nächsten Insel über_gehen!
+Map01.IntroLoad = Sehr gut! Bevor wir zur nächsten Insel aufbrechen sollten wir unser Vorrats_ziel erreichen.
 Map01.IntroRecruit = Zähme ein paar Tiere, um unsere Arbeits_kraft zu ver_größern:
 Map01.IntroExpand = Baue ein zweites Lager_feuer, um dein Terri_torium zu er_weitern:
 Map01.SpawnStrandedColonists.Short = Rekru_tiere Schiffs_brüchige.
@@ -913,8 +913,7 @@ SetBertaColor.Intro = Kolo_nisten können einer oder mehreren Zonen zugewiesen w
 SetBertaWorkshop.Desc = 1.) Weise Berta der Werkstätte zu
 SetBertaWorkshop.Intro = Kolo_nisten sammeln Erfahrung in dem, was sie tun. Spezial_isierung ist daher sehr wichtig. In diesem Beispiel wird Ansgar das Tragen über_nehmen während Berta die Werkstätte betreibt.
 SetFighters.Desc = 1.) Mache deine Kolo_nisten zu Kämpfern
-SetFighters.Intro = Auf den meisten Karten gibt es gegnerische 
- Lager die entfernt werden müssen um zu expandieren. Weise deinen Kolo_nisten die Kampf-Aufgaben_gruppe zu.
+SetFighters.Intro = Auf den meisten Karten gibt es gegnerische Lager die entfernt werden müssen um zu expandieren. Weise deinen Kolo_nisten die Kampf-Aufgaben_gruppe zu.
 SetFighters.Outro = Hinweis: Sobald sie Kämpfer sind, werden sie auto_matisch die best_mögliche ver_fügbare Waffe suchen und ausrüsten.
 SetOutpostColor.Desc = 1.) Erzeuge einen Außen_posten
 SetOutpostColor.Intro = Zunächst werden wir unser Terri_torium in zwei ver_schiedene Zonen unterteilen. Wähle das Außen_posten_leucht_feuer (1) im Norden aus und setze seine Farbe auf gelb.
@@ -1452,7 +1451,7 @@ Objective.ZoomCamera=Zoome mit dem Mausrad.
 UI.IncreaseProductionTarget = Erhöhe Ziel 
 UI.IncreaseProductionTarget.Desc = Das Erhöhen des ##productiontargets für diese Insel führt dazu, dass du auf späteren Inseln weniger produzieren musst. <br>Hinweis: Du kannst die Insel jederzeit verlassen, auch wenn du das erhöhte Ziel nicht erreichst.
 Message.IncreaseProductionTarget = Vorrats_ziel erhöht auf $1%.  
-Objective.FulfillProductionTarget = Erreiche Produktionsziel
+Objective.FulfillProductionTarget = Erreiche Vorratsziel
 Objective.FulfillProductionTarget.Desc = Das ##productiontarget wird in der Ecke links oben angezeigt. Produziere die Güter, die benötigt werden. 
 
 
@@ -1851,7 +1850,7 @@ MainMenu.Notice.Demo = Dies ist eine Demo_version mit ein_geschränkter Funktio_
 
 MainMenu.Notice.EarlyAccess = Willkommen zur Early Access Version von Kubifaktorium! Hier einige allgemeine Tipps für die aktuelle Version: <br> - Die Grasland- und Wüstenbiome sind gut spielbar. Alles, was darüber hinausgeht (Automatisierung, Förderbänder usw.), befindet sich in einem frühen Stadium. Um mehr zu erfahren, werfe einen Blick auf die Roadmap. <br> - Wenn du die Kampagne spielst, speichere am besten jedes Mal, wenn du zur Weltkarte zurückkehrst. <br> - Wenn du auf einen Fehler stößt, melde ihn bitte (auf deutsch oder englisch) mit dem In-Game-Bugreporting-Tool (Button oben rechts). <br> - Der beste Ort, um über das Spiel zu plaudern, ist der offizielle (englische) Discord-Server. <br>Danke fürs Spielen, ich hoffe, dir gefällt das Spiel! :) <br> Mirko
 
-UI.ProductionTarget.TooltipTitle = Produktions_ziel:
+UI.ProductionTarget.TooltipTitle = Vorrats_ziel:
 
 Settings.PauseOnDefocus = Auto-Pause
 Settings.PauseOnDefocus.Desc = Pausiert das Spiel, wenn es das Fenster den Fokus verliert. 
