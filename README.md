@@ -7,6 +7,7 @@ Commit translations for Kubifaktorium into foreign languages to this repository 
  * French: Translation by Cédric.
  * German: Translation by Mirko.
  * Hungarian: Translation by Vandorr.
+ * Portuguese: Translation by HarD-BR.
 
 
 # More on Kubifaktorium
