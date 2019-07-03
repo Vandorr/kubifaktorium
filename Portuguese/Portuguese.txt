@@ -1094,7 +1094,7 @@ UI.TrackLayer.Semaphore2.Desc = Pré-semáforos de trens permitem que eles passe
 
 
 UI.TrainStation = Estação de trem
-UI.TrainStation.WaitForFull = Para trem até encher.
+UI.TrainStation.WaitForFull = Para o trem até encher.
 UI.TrainStation.WaitForFull.Desc = Para o trem até ele estar totalmente carregado.
 
 
