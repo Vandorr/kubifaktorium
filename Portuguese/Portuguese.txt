@@ -1,0 +1,1250 @@
+﻿language=Portuguese
+locales=BR
+fallback=English
+ 
+
+# The general format of the localization file for each line is <key> = <value>, for example "UI.BuildTrain = Build train". The <key> must not be changed, the <value> is to be translated, so e.g. "UI.BuildTrain = Baue Zug".
+# A line starting with "#" is ignored and can be used for comments. 
+# The line "fallback=English" specifies which language to use when a certain string cannot be found. Usually English is a good choice as it is usually the most up-to-date but other languages can be chosen if they are closer to the target language. 
+# The game supports hyphenation for languages with long strings like German. To use it, use the "_" character to insert a soft hyphen at the spots where a word can be hyphenated. I recommend this for words longer than 12-15 characters. For example: "Recommen_dations" or "trans_portation".
+# A string in the format "#<id>#" causes an icon to be inserted, e.g. "#sun#". Note that the id must not be translated, otherwise it will not be found and translated correctly.
+# A string in the format "##<id>" creates a keyword. Keywords like "##daytime" will be translated to an underlined word "daytime". In addition, an explanation will be added underneath, usually in the tooltips. Again, the id must not be translated. However, the explanation text (the lines with keys like ##idle), should.
+# Strings like "$1", "$2" etc are placeholders for numbers and other things which will be filled by the game. For example "Growth rate at daytime: $1%" will become "Growth rate at daytime: 75%" at runtime. 
+# If required for some reason, you can use <br> to create a line break. However I recommend not using it.       
+# Whenever you start the game with a new translation file, it will auto_matically create a list of the missing translation lines. This is both useful to get started and to keep the translation up-to-date when new strings get added. The file can be found in C:\Users\<username>\AppData\LocalLow\MirkoStudio\Kubifaktorium\Missing_<language>.txt on Windows or ~/.config/unity3d/MirkoStudio/Kubifaktorium/ on Linux.
+
+# Finished translations can be shared and synced on: https://github.com/Vandorr/kubifaktorium
+# Visit us on discord.gg/kubifaktorium to get access and share the localization work with other friendly humans. :)  
+
+
+
+
+##zone = #star#área
+##zone.Desc = #star#Áreas: Colonos podem ser atribuídos à uma ou mais áreas. Eles só irão trabalhar nas áreas que lhe foram atribuídos.
+
+
+##keycycle = #controller#ciclar
+##keycycle.Desc = #controller#Ciclar: Botão do meio do mouse ou Tecla 'V'.
+
+##keyrotate = #controller#rotacionar
+##keyrotate.Desc = #controller#Rotacionar: Botões 4/5 do mouse ou Tecla 'R'.
+
+
+
+##idle = #Idle#ocioso
+##idle.Desc = #Idle#Ocioso: você pode gerenciar o trabalho do colono na janela de gerenciamento de colono.
+
+##mine = #Mine#minerar
+##mine.Desc = #Mine#Minerar: Para selecionar um recurso à ser minerado, clique no botão de minerar e selecione os alvos a serem minerados. Arraste uma área para minerar tudo dentro dela.
+
+##territory = #Mountain#território
+##territory.Desc = #Mountain#Território: Você só pode construir dentro de seu território. Expanda-o construindo fogueiras e derrotando acampamentos inimigos.
+
+
+##weight = peso
+##weight.Desc = Peso: Enquanto carrega itens pesados, seus colonos ficam lentos.
+
+##stacksize = empilhamento
+##stacksize.Desc = Empilhamento: Em estoques e depósitos, múltiplos itens do mesmo tipo podem ser empilhados no mesmo bloco.
+
+##day = #sun#dia
+##day.Desc = #sun#Dia: Hora entre 6:00 e 18:00.
+
+##drink = beber 
+##drink.Desc = Beber: Quando com sede, colonos irão automaticamente procurar algo para beber. Prover bebidas irá faze-los mais felizes e produtivos.
+
+##happiness = #Happy#Felicidade 
+##happiness.Desc = #Happy#Felicidade: O andar e velocidade de trabalho do colono é influenciado por quão bem suas necessidades são atendidas.
+
+##skill = #People#Habilidades
+##skill.Desc = #People#Habilidades: Todo colono tem uma proficiência diferente para cada grupo de atividade and mesa de trabalho. Com o tempo, eles melhoram nas tarefas que realizam.
+
+
+
+##water = água 
+##water.Desc = Água: Terras de plantio precisam de água para as plantas crescerem.
+
+##food = comida
+##food.Desc = Comida: Quando com fome, colonos irão automaticamente procurar algo para comer. Prover comida irá faze-los mais felizes e produtivos.
+
+##stockpilezone = #Stockpile#zona de empilhamento
+##stockpilezone.Desc = #Stockpile#Zona de empilhamento: Podem ser atribuídas em chão sólido e usadas para guardar produtos de mesas de trabalho, fazendas ou mineração.
+##farmzone = #Farm#Plantio
+##farmzone.Desc = #Farm#Zona de plantio: Podem ser atribuídas em solo fértil para permitir que seus colonos cresçam cultivos.
+##grovezone = #Grove#Arvoredo
+##grovezone.Desc = #Grove#Zona de arvoredo: Podem ser atribuídas em solo fértil para permitir que seus colonos cresçam árvores.
+##ship = #Compass#barco
+##ship.Desc = #Compass#Barco: The ship that carried you to this island can be used to transport items between islands. 
+##power = #Power#energia
+##power.Desc = #Power#Energia: Criada em geradores e usada por uma variedade de máquinas.
+
+##decoration = #House#Decoração
+##decoration.Desc = #House#Decoração: Colocar itens decorativos irá fazer seus colonos mais felizes e produtivos.
+ 
+##house = casa
+##house.Desc = Casa: Colonos e animais gostam de ter um lugar para morar. Prove-los casas irá faze-los mais felizes e produtivos.
+
+##social = #Chat#social 
+##social.Desc #Chat#Social: Colonos precisam de interação com outros para crescer. Prove-los interação social irá faze-los mais felizes e produtivos.
+##logsys = #Logistics#Sistema de logística
+##logsys.Desc = #Logistics#Sistema de logística: Permite você conectar múltiplos sistemas de transportação e armazenamento. Uma vez instalados, irá automaticamente gerar trabalhos de transporte à veículos e colonos.
+
+##cargoship = #Refine#Navio de carga
+##automatically = #Power#automaticamente
+##automatically.Desc = #Power#Automação: Construiçôes automatizadas irão trabalhar sem precisarem ser operadas por seus colonos, más necessitam de energia para funcionar.
+##Automated = #Power#Automatizado
+##Automated.Desc = #Power#Automação: Construiçôes automatizadas irão trabalhar sem precisarem ser operadas por seus colonos, más necessitam de energia para funcionar.
+
+##tool = #settings#Ferramenta
+##tool.Desc = #settings#Ferramenta: Aumenta a chance de sucesso do colono em uma tarefa. Colonos irão automaticamente equipar a melhor ferramenta para seu trabalho primário. 
+##depot = depósito
+##depot.Desc = Depósito: Usado para armazenar e distribuir mercadorias. Use funis de entrada e saída para inserir e extrair mercadorias. 
+
+##robot = robô
+##robot.Desc = Robô: Pode realizar tarefas simples. Não melhora ##skill com experiência e necessita olho para funcionamento. Pode ser definido para funcionar em múltiplos modos. 
+
+##carriage = carruagem
+##carriage.Desc = Carruagem transporta automaticamente mercadorias entre estações de carruagens conectadas. Selecione uma estação e clique com o botão direito em outra estação para conectá-las. 
+
+# Messages
+Message.AreaExpanded = Nós expandimos nosso território!
+Message.AreaLost = Nós perdemos território!
+Message.WeAreUnderAttack = Estamos sob ataque!
+Message.NewBuildOptions = Atingindo $1 foi destravado:
+Message.RecruitmentSuccess = Recrutamento bem-sucedido!
+Message.WarnDisembark = Você não pode desembarcar enquanto seus colonos estão na ilha.
+Message.MissionComplete = Ótimo, você completou todos os objetivos para esta ilha! :)
+UI.MissionComplete = Missão completa!
+
+UI.MessagePanel = Mensagem
+UI.MessagePanel.Desc = Para fechar uma mensagem, clique com o botão direito do mouse nela. Você pode rever mensagens fechadas no relatório de mensagens. Clique com o botão esquerdo do mouse na mensagem para focar sua câmera no evento da mensagem.
+
+UI.Recruit = Recrute-os.
+UI.Recruit.Desc = Recrutar um naufragado ou domar um animal, irá faze-los se juntar à sua colonia. Nota: Animais só podem executar certos tipos de tarefas. Uma vez que fazem parte da sua colonia, eles irão começar a consumir seus suprimentos.
+
+UI.MessageLog = Relatório de mensagem
+UI.MessageLog.Desc = Mantêm relatórios de mensagens antigas.
+UI.MultiSelectHeader = $1 colonos selecionados.
+UI.Build = Construir
+UI.Build.Desc = Cria um projeto de construção para ser construído por seus colonos.
+UI.Mine = Minerar e colher
+UI.Mine.Desc = Marca árvores, pedras e outros objetos para serem ##mined ou colhidos. (Segure Alt para marcar todos os objetos do mesmo tipo em seu ##territory).
+UI.SettlerMenu = Gerenciamento de colonos
+UI.SettlerMenu.Desc = Define o trabalho e as mesas de trabalho que seus colonos irão usar.
+UI.Load = Carregar
+UI.Load.Desc = Marca itens para serem carregados para seu ##ship.
+UI.Stockpile = Empilhamento
+UI.Stockpile.Desc = Clique e arraste seu mouse para criar uma nova ##stockpilezone ou expanda uma zona existente. 
+UI.Grove = Arvoredo
+UI.Grove.Desc = Crie ou expanda um ##grovezone.
+UI.Farm = Plantio
+UI.Farm.Desc = Crie um novo ##farmzone ou expanda uma zona existente.
+UI.InventoryMenu = Inventário
+UI.InventoryMenu.Desc = Exibe o Inventário do colono e gerencia como as mercadorias são usadas.
+UI.UnloadAll = Descarregar tudo.
+UI.UnloadAll.Desc = Ordena que seus colonos descarreguem tudo de seu ##ship.
+UI.BuiltFrom = Construir usando
+UI.ProducedHere = Produzido aqui
+UI.ProducedFrom = Produzido de
+UI.UsedToProduce = Usado para produzir
+UI.UsedToConstruct = Usado para construir
+
+UI.Acceleration = Aceleração: $1
+UI.ClaimRange = Área de reivindicação: $1
+UI.Faction = Situação
+UI.Fight = Comande seus guerreiros.
+UI.Fight.Desc = Define uma bandeira de agrupamento para seus colonos. Todos os colonos que carregam uma arma irão se juntar ao redor dessa bandeira e atacar inimigos à vista.
+UI.GrowTime = Tempo para crescer: $1s
+UI.GrowthRateDay = Taxa de crescimento durante o dia: $1%
+UI.GrowthRateNight = Taxa de crescimento durante a noite: $1%
+UI.MovementSpeed = Velocidade de movimento: $1
+UI.DamageUnarmed = Dano (desarmado): $1
+UI.VisionRange = Campo de visão: $1
+UI.Eats = Come: $1
+UI.Drinks = Bebe: $1
+UI.Harbour.Explanation = ##Cargoships entregam mercadorias fabricadas de antigas ilhas colonizadas.
+UI.HitpointMax = Máx. vida: $1
+UI.HitpointRegen = Regeneração de vida: $1
+UI.Stack = Tamanho da pilha: $1
+UI.LinkOverlay = Rotas de produção
+UI.LinkOverlay.Desc = Alterna a visibilidade de ligações ativas entre mesas de trabalho, plantio e ##stockpilezones. [Padrão: Alt esquerdo]
+UI.MaxSpeed = Máx. velocidade: $1
+UI.SettlerScreen.Areas=Áreas
+UI.SettlerScreen.Explanation = Ferramentas -> Colonos automaticamente pegam a melhor ferramenta possível. A preferência de ferramenta depende da atividade atribuída à ele.<br>Zones -> Clique: Permite/proíbe uma zona. Colonos não interagem com coisas em zonas inativas. Selecione uma fogueira para trocar sua zona designada.<br>Tarefas e mesas de trabalho -> Clique: Alterna entre ativo e inativo. O tamanho do quadrado indica o nível de habilidade do colono. 
+UI.SettlerScreen.Tasks=Tarefas
+UI.SettlerScreen.Title=Gerenciamento de colonos
+UI.SettlerScreen.Tool=Ferramenta
+UI.SettlerScreen.Workshops=Mesas de trabalhos
+UI.ToolAssignment = Ferramenta equipada ou preferência.
+UI.ToolAssignment.Desc = Colonos automaticamente pegam a melhor ##tool possível . A sua preferência por ferramenta (martelo, pá, picareta ou arma) depende de sua designada tarefa.
+UI.ToolBaseEffect = Efeito base: $1
+UI.ToolTaskType = Tipo de tarefa: $1
+UI.Track = Ferramenta de construção de trilhos.
+UI.Track.Desc = Constrói trilhos de trem e faróis. <br>Aperte ##Keyrotate para rotacionar. <br>Aperte ##Keycycle para alternar entre nível alto ou baixo.
+UI.Road = Ferramenta de construção de estradas.
+
+UI.Conv = Ferramenta de construção de esteiras transportadoras.
+UI.Conv.Desc = Constrói esteiras transportadoras. <br>Aperte ##Keyrotate para rotacionar. <br>Aperte ##Keycycle para alternar entre nível alto ou baixo.
+UI.ZoneAssignment = Designar zonas.
+UI.ZoneAssignment.Desc = Toda fogueira pode ser definida por uma de 5 cores. Você pode restringir seus colonos a certas áreas trocando sua zona designada aqui.
+
+
+# Top right menu
+UI.Speed = Alterna a velocidade do jogo
+UI.Speed.Desc = Alterne entre pause, velocidade 1x, 2x e 4x.
+UI.Settings = Opções
+UI.Settings.Desc = Abre o menu de opções.
+UI.LoadSave = Carregar / Salvar
+UI.LoadSave.Desc = Abre o menu de salvamento.
+UI.Bug = Reportar um erro(bug)
+UI.Bug.Desc = Reportar um erro irá enviar uma captura de tela e opcionalmente um relatório de erro ao desenvolvedor.
+UI.Undo = Desfazer
+UI.Undo.Desc = Remove o último trilho / esteira / projeto construído.
+UI.Main = Menu
+UI.Main.Desc = Carregue/Salve um jogo, mude as opções ou saia do jogo.
+
+
+UI.Close = Fechar
+UI.LoadGame = Carregar jogo
+UI.SaveGame = Salvar jogo
+UI.SaveGame.Desc = Salva o estado atual do jogo.
+
+UI.FarmMode = Modo
+UI.FarmModeWater = Água
+UI.FarmModeTill = Plantio
+UI.FarmModeGrow = Crescimento
+UI.FarmModeHarvest = Colhimento
+
+UI.SelectProduct = Selecionar produto
+UI.TaskGroupLevelBase = Habilidades aprendidas
+UI.TaskGroupLevelToolModifier = Modificador de ferramenta
+UI.TaskGroupTotal = Soma total
+
+
+
+# Objectives
+
+
+Objective.AttackEnemyCamp = Ataque um acampamento inimigo.
+Objective.AttackEnemyCamp.Desc = Para atacar um acampamento inimigo, selecione o acampamento ou a área envolta e clique em ataque. (Seus colonos não morrem em combate.)
+
+Objective.DefeatEnemyCamp = Derrote o acampamento inimigo.
+Objective.DefeatEnemyCamp.Desc = Para atacar um acampamento inimigo, selecione o acampamento ou a área envolta e clique em ataque. (Seus colonos não morrem em combate.)
+
+
+Objective.SetClaimColor = Defina a zona designada da fogueira $5 para a cor $3.
+Objective.SetClaimColor.Desc = Para trocar a cor da zona, selecione sua fogueira e clique na cor da zona no painel de informações.
+Objective.LogisticsLink = Crie uma ligação da $7 $5 para $8 $6.
+Objective.LogisticsLink.Desc = Para criar uma ligação entre dois objetos, Selecione o primeiro objeto e clique com o botão direito do mouse no segundo objeto. Ligações sempre aparecerão em setas azuis sempre que uma construção de ##logsys está selecionada.
+
+Objective.SetZoneColorActive = Ative o acesso de $5 para a zona da cor $3.
+Objective.SetZoneColorActive.Desc = Para ativar o acesso de um colono a uma zona, selecione o colono e clique na zona escolhida no painel de informações.
+Objective.SetZoneColorInactive = Desative o acesso de $5 para a zona da cor $3.
+Objective.SetZoneColorInactive.Desc = Para desativar o acesso de um colono a uma zona, selecione o colono e clique na zona escolhida no painel de informações.
+
+Objective.StockpileAcceptsType = Faça o empilhamento $5 aceitar $1.
+Objective.StockpileAcceptsType.Desc = Para trocar a definição de mercadorias aceitas por uma ##stockpilezone, selecione-a e clique em mercadorias no painel de informações.
+
+
+Objective.HopperAcceptsType = Faça a entrada/saída do depósito $5 aceitar $1.
+Objective.HopperAcceptsType.Desc = Para trocar as mercadorias aceitas pela entrada/saída de um depósito, selecione-o e clique em mercadorias no painel de informações.
+
+Objective.StationAcceptsType = Faça a entrada/saída da estação $5 aceitar $1.
+Objective.StationAcceptsType.Desc = Para trocar as mercadorias aceitas pela entrada/saída de uma estação, selecione-a e clique em mercadorias no painel de informações.
+
+Objective.StockpileAcceptsOnlyType = Faça a zona de empilhamento $5 aceitar somente $1.
+Objective.StockpileAcceptsOnlyType.Desc = Para trocar a definição de mercadorias aceitas por uma ##stockpilezone, selecione-a e clique em mercadorias no painel de informações.
+
+Objective.BuildTrain = Construa trens ($2/$3)
+Objective.BuildTrain.Desc = Para construir um trem, selecione uma fábrica de trens e clique em "construir trem" no painel de informações.
+
+Objective.FulfillProductionTarget = Atinga a meta de Inventário.
+Objective.FulfillProductionTarget.Desc = Uma ##productiontarget é mostrada no canto superior esquerdo. Produza mercadorias até que você atinga o requerido. Todas as mercadorias na sua colonia, assim como as armazenadas no barco contam.
+
+Objective.Construct = Construa: $1 ($2/$3)
+Objective.Construct.Desc = Para construir uma $1, abra o #Build# menu de construção, troque para a aba $7, clique em $1 e coloque no mapa. 
+Objective.CreateStockpile = Crie uma zona de empilhamento ($2/$3)
+Objective.CreateStockpile.Desc = Para criar uma nova ##stockpilezone, clique no botão da zona de empilhamento e arraste uma área no chão sólido.
+Objective.FarmZone = Crie uma zona de plantio ($2/$3)
+Objective.FarmZone.Desc = Para criar uma nova ##farmzone, clique no botão da zona de plantio e marque uma área em solo fértil. Designe pelo menos $3 blocos para serem fazendas.
+Objective.FarmZoneCrop = Designe uma colheita: $1
+Objective.FarmZoneCrop.Desc = Para começar o crescimento de uma colheita, selecione uma ##farmzone e selecione a planta que você quer plantar.
+Objective.Have = Minere ou produza: $1 ($2/$3)
+Objective.Have.Desc = Recursos podem ser ##mined pelo ambiente. Mercadorias podem ser produzidas em mesas de trabalho.
+
+
+Objective.TrainSchedule = Adicione $5 ao cronograma do trem
+Objective.TrainSchedule.Desc = Para adicionar uma estação ao cronograma do trem, selecione o trem e aperte o botão direito do mouse na estação que deseja adicionar. Clicar novamente na estação irá remove-la do cronograma. 
+
+Objective.SetWorkshopInput = Faça uma ligação de $8 $6 para $7 $5
+Objective.SetWorkshopInput.Desc = Para fazer uma ligação da $6 para uma entrada da ##stockpilezone, clique com o botão esquerdo em $6 e clique com o botão direito em $5. 
+Objective.SetWorkshopOutput = Faça uma ligação de $7 $5 para $8 $6
+Objective.SetWorkshopOutput.Desc = Para fazer uma ligação da $6 para uma saída da ##stockpilezone, clique com o botão esquerdo em $6 e clique com o botão direito em $5.
+
+
+Objective.LinkStockpile = Faça uma ligação do $1 à zona de empilhamento ($2/$3)
+Objective.LinkStockpile.Desc = Para fazer uma ligação do $1 à uma ##stockpilezone, clique com o botão esquerdo em $1 e clique com o botão direito na zona de empilhamento. Mesas de trabalho irão produzir até que as zonas de empilhamento ligadas à ela estejam cheias.
+Objective.LinkFarmToStockpile = Faça uma ligação de um plantio à uma zona de empilhamento ($2/$3)
+Objective.LinkFarmToStockpile.Desc = Para fazer uma ligação da ##farmzone à uma ##stockpilezone, clique com o botão esquerdo no plantio e clique com o botão direito na zona de empilhamento. Plantios irão ser colhidos até que as zonas de empilhamento ligadas a ele estejam cheias.
+Objective.MiningJob = Crie tarefas de mineração ($2/$3)
+Objective.MiningJob.Desc = Para selecionar um recurso a ser ##mined, clique no botão de mineração e selecione coisas a serem mineradas. Arraste uma área para minerar tudo dentro dela. Note que os colonos podem minerar apenas recursos dentro de seu ##territory.
+Objective.ProductionTask = Defina uma produção: $1
+Objective.ProductionTask.Desc = Para produzir uma mercadoria, Selecione uma mesa de trabalho e clique na mercadoria que você quer que ela produza.
+Objective.SettlersEquipTool = Ferramentas equipadas ($2/$3)
+Objective.SettlersEquipTool.Desc = Colonos equipam automaticamente as ##tools que eles precisam. Produza as ferramentas que eles precisam para torna-los mais produtivos.
+
+Objective.SetActorTaskGroup = Designe $5 para trabalhar em $1.
+Objective.SetActorTaskGroup.Desc = Para fazer $5 trabalhar em $1, selecione $5 e clique no ícone $1. Você também pode gerenciar as tarefas dos colonos pela tela de gerenciamento do assentamento.
+
+Objective.SettlerTaskGroup = Designe trabalhos: $4 ($2/$3)
+Objective.SettlerTaskGroup.Desc = Para fazer os colonos trabalharem em $4 , selecione ele/ela e clique no ícone $4. Você também pode gerenciar os trabalhos dos colonos pela tela de gerenciamento de colonos.
+Objective.SettlerWorkshop = Designe trabalhos: $1 ($2/$3) 
+Objective.SettlerWorkshop.Desc = Para fazer um colono trabalhar em $1, selecione ele/ela e clique no $1 pelo painel do colono. Você também pode gerenciar o trabalho do colono pela tela do colono.
+Objective.UnloadAll = Descarregue seu barco ($1 faltando)
+Objective.UnloadAll.Desc = Clique no seu ##ship para ver quais mercadorias ele possui abordo. Clique em uma mercadoria para ordenar o colono a descarregá-la. Você pode descarregar várias mercadorias ao mesmo tempo segurando a tecla shift ou control enquanto clica. Você também pode apertar o botão no canto superior direito para descarregar tudo.
+
+Objective.Recruit = Recrute-os.
+Objective.Recruit.Desc = Recrutar um naufragado ou domar um animal, irá faze-los se juntar à sua colonia. Nota: Animais só podem executar certos tipos de tarefas. Uma vez que fazem parte da sua colonia, eles irão começar a consumir seus suprimentos.
+Objective.ActivateDebugMode = Ative o modo de depuração.
+Objective.ActivateDebugMode.Desc = Abra o menu de opções e ative o modo de depuração.
+Objective.UseDebugRemove = Remova um objeto.
+Objective.UseDebugRemove.Desc = Você pode remover qualquer objeto / construção ou item no jogo usando a ferramenta de remoção padrão enquanto segura a tecla Alt. [Necessário modo depuração]
+Objective.UseDebugSpawn = Invoque um objeto.
+Objective.UseDebugSpawn.Desc = Você pode invocar qualquer objeto / construção ou item no jogo usando o menu de trapaça. Aperte F8 para abrí-lo. [Necessário modo depuração]
+
+Objective.UseRevealMap = Reveal the map.
+Objective.UseRevealMap.Desc = You can remove the fog of war and reveal the map by pressing F7. [Necessário modo depuração]
+Objective.ShowHelpTooltip = Move your mouse over an objective to display more help.
+Objective.ShowHelpTooltip.Desc = Well done. Objectives and many other user interface elements provide more information when you hover your mouse over them. 
+Objective.ClickHelp = Click this objective.
+Objective.ClickHelp.Desc = You can click on most objectives to move the camera to what you need to interact with.
+
+
+Objective.ScrollCamera = Move camera using WASD/arrows.
+Objective.ScrollCamera.Desc = Press the WASD- or arrow keys to scroll the camera.
+
+Objective.ZoomCamera = Zoom using the mouse wheel.
+Objective.ZoomCamera.Desc = Move the mouse wheel to zoom in and out with the camera.
+
+Objective.RotateCamera = Rotate using the Q/E or PgUp/PgDown.
+Objective.RotateCamera.Desc = Press the Q- and E-keys to rotate the camera. Alter_natively you can use the page up/down keys.
+
+
+
+
+# Objective groups
+ObjectiveGroup.Help = Help system
+ObjectiveGroup.Camera = Camera
+ObjectiveGroup.Controls = Basic controls
+ObjectiveGroup.LoadShip = Reach inventory targets
+ObjectiveGroup.Expand = Expand your territory
+ObjectiveGroup.MineResources = Mine resources
+ObjectiveGroup.UnloadShip = Unload the ship
+ObjectiveGroup.SetupFarm = Set up a farm
+ObjectiveGroup.SetupWell = Set up a well
+ObjectiveGroup.RescueSettlers = Rescue colonists
+ObjectiveGroup.Recruit = Recruit
+
+
+# Settler needs
+Need.Sleep = Sleep
+Need.Sleep.Desc = When tired, colonists will auto_matically return to their homes and sleep.
+Need.Food = Food
+Need.Food.Desc = When hungry, colonists will auto_matically search for ##food.
+Need.Drink = Drink
+Need.Drink.Desc = When thirsty, colonists will auto_matically search for something to ##drink. 
+Need.Social = Social
+Need.Social.Desc = Colonists need ##social interaction with each other to thrive. Providing social interaction will make them more happy and productive.
+Need.Housing = Housing
+Need.Housing.Desc = Colonists prefer to have a ##house to live in. Providing one will make them more happy and productive.
+Need.Health = Health
+Need.Health.Desc = Injured colonists are unhappy and less productive. They will regenerate while they sleep.
+Need.Sum = Sum
+Need.Happiness = ##Happiness
+Need.SpeedFactor = Speed
+
+ActorState.Drinkvariety.High = High drink variety.
+ActorState.Drinkvariety.Low = Low drink variety.
+ActorState.Foodvariety.High = High food variety.
+ActorState.Foodvariety.Low = Low food variety.
+ActorState.HouseQuality.High = High quality house.
+ActorState.HouseQuality.Low = Low quality house.
+ActorState.Hasdrunk = Has drunk recently
+ActorState.Hasinteracted = Had social interaction
+ActorState.Housed = Owns a house
+ActorState.Hungry = Hungry
+ActorState.Nohouse = Homeless
+ActorState.Notinteracted = Lonely
+ActorState.BadDecoration = No decoration. 
+ActorState.GoodDecoration = Nice decoration. 
+
+ActorState.Rested = Well rested
+ActorState.Saturated = Saturated
+ActorState.Injured = Injured
+ActorState.Hurt = Severely hurt
+ActorState.Thirsty = Thirsty
+ActorState.Tired = Tired
+ActorState.Total = Sum
+ActorState.NoTool = Lightweight (no tool)
+
+
+# Job/task groups
+TaskGroup._Name = Job assignments
+TaskGroup.Agriculture = Farm work
+TaskGroup.Agriculture.Desc = Farm workers plant till the ground and plant and harvest crops in ##farmzone.
+TaskGroup.Construction = Con_struction
+TaskGroup.Construction.Desc = Con_struction workers execute con_struction jobs.
+TaskGroup.Crafting = Crafting
+TaskGroup.Crafting.Desc = Craftsmen operate workshops to create more complex goods.
+TaskGroup.Combat = Combat
+TaskGroup.Combat.Desc = Fighters defend their fellow colonists and battle against enemies.
+TaskGroup.Mining = Mining & harvesting
+TaskGroup.Mining.Desc = Miners chop down #Tree#trees and ##mine #Rock#rocks and stone.
+Workshop._Name = Workshops
+TaskGroup.Power = Power
+TaskGroup.Power.Desc = Colonists and animals can generate ##power.
+
+
+
+
+Faction.Player = Friendly
+Faction.Enemy = Hostile
+Faction.Neutral = Neutral
+
+
+Text.BackerRaft.Desc = Sent by $1.
+
+BuildingType.Actor = Actor
+BuildingType.Actor.Desc = Spawn colonists, enemies and animals.
+BuildingType.Decoration = Decoration
+BuildingType.Decoration.Desc = Decoration makes your colony more pretty and improves your colonists' happiness.
+BuildingType.Defense = Defense
+BuildingType.Defense.Desc = Walls and towers. 
+BuildingType.Food = Food and Water
+BuildingType.Food.Desc = Buildings to produce and refine ##food and ##drinks.
+BuildingType.House = Housing
+BuildingType.House.Desc = Having ##houses improves your colonists' happiness and efficiency. 
+BuildingType.Item = Items
+BuildingType.Item.Desc = Items.
+BuildingType.Logistics = Logistics
+BuildingType.Logistics.Desc = Buildings and machinery to automate your production.
+BuildingType.None = Miscel_laneous
+BuildingType.None.Desc = Miscel_laneous buildings.
+BuildingType.Refining = Refining
+BuildingType.Refining.Desc = Workshops to refine and dispose of resources.
+BuildingType.Workshop = Workshop
+BuildingType.Workshop.Desc = Workshops to produce ##tools, weapons and machinery.
+
+
+Settings.Category.Graphics = Graphics
+Settings.Category.Audio = Audio
+Settings.Category.Gameplay = Gameplay
+Settings.Category.Other = Other
+
+Settings.Recommendations = Recommen_dations
+Settings.Recommendations.Desc = Show recommen_dations in the top left corner.
+
+
+Settings.UIScale = UI scale
+Settings.UIScale.Desc = Magnify or shring the user interface.
+Settings.Shadows = Shadow quality
+Settings.Shadows.Desc = Quality of the shadows cast by lights. Shadows look nice but can be very hard on the GPU when you have many light sources.
+
+Settings.Brightness=Brightness
+Settings.Brightness.Desc=Brightness
+Settings.AA = AA
+Settings.AA.Desc = Anti-Aliasing: Reduce aliasing around edges.
+Settings.PauseOnDefocus = Auto-pause
+Settings.PauseOnDefocus.Desc = Automatically pause the game when it loses focus. 
+Settings.LocalizationHelp = Localization help
+Settings.LocalizationHelp.Desc = Generates the Missing_<language>.txt files to aid with localization.
+Settings.Ambience = Ambience
+Settings.Ambience.Desc = Volume of ambient effects.
+Settings.AO = AO
+Settings.AO.Desc = Ambient occlusion: Approxi_mation of ambient lighting and shadows.
+Settings.Autosave = Auto save
+Settings.Autosave.Desc = Auto_matically save after a set period of time. 
+Settings.Bevel = Bevel and edges
+Settings.Bevel.Desc = Draw a bevel effect on objects and draw an outline around them.
+Settings.Bloom = Bloom
+Settings.Bloom.Desc = Draw a bloom effect around overexposed areas.
+Settings.Clouds = Clouds
+Settings.Clouds.Desc = Clouds move across the land.
+Settings.Debug = Debug/Cheat mode
+Settings.Debug.Desc = The debug mode allows you to freely spawn objects (F8) and access more debug options (F7).
+Settings.DOF = Depth of field
+Settings.DOF.Desc = Reduce extent of focal plane when zooming in.
+Settings.Fog = Fog and haze
+Settings.Fog.Desc = Display fog and haze effects.
+Settings.ShowMarkers = Show markers
+Settings.ShowMarkers.Desc = Show markers for loading and mining jobs.
+Settings.FPS = Display FPS
+Settings.FPS.Desc = Display current frames per second.
+Settings.Hints = Hints
+Settings.Hints.Desc = Display hints when the game detects events like idle production buildings.
+Settings.Hit = Hit animations
+Settings.Hit.Desc = Mineables and buildings react when hit.
+Settings.Language = Language
+Settings.Language.Desc = (The language can only be changed in the main menu).
+Settings.Music = Music
+Settings.Music.Desc = Volume of music.
+Settings.Scroll = Scroll at border
+Settings.Scroll.Desc = Scroll when the mouse hits the screen edge.
+Settings.ScrollSpeed = Scroll speed
+Settings.ScrollSpeed.Desc = Scroll speed factor. Affects scroll on screen edge and scrolling by WASD.
+Settings.RotateSpeed = Rotate speed
+Settings.RotateSpeed.Desc = Rotate speed factor. Affects camera rotation with Q / E / PgUp / PgDown.
+Settings.Sound = Sound
+Settings.Sound.Desc = Volume of sound effects.
+Settings.SSScale = Screenshot SS
+Settings.SSScale.Desc = Upscaling factor of the screenshots.
+Settings.Weather = Weather effects
+Settings.Weather.Desc = Visual weather effects like rain and snow.
+
+
+Workshop.Status.Busy = Workshop is busy.
+Workshop.Status.Busy.Desc = A colonist is using this workshop.
+Workshop.Status.Idle = Workshop is idle.
+Workshop.Status.Idle.Desc = As soon as a colonist is ready, production will begin.
+Workshop.Status.NoInput = No inputs. 
+Workshop.Status.NoInput.Desc = Production will resume when the required input resources become available.
+
+Workshop.Status.NoOutput = No output stockpile assigned.
+Workshop.Status.NoOutput.Desc = To link an output ##stockpilezone, left-_click the workshop and right-_click the stockpile where you want the workshop's output to go. Workshops will produce until the linked stockpiles are full.
+Workshop.Status.NoProduct = No product selected.
+Workshop.Status.NoProduct.Desc = To choose an item to be produced, click on it in the workshop info panel.
+
+ 
+Workshop.Status.NoSettler = No colonist assigned.
+Workshop.Status.NoSettler.Desc = To make a colonist work in this workshop, select him/her and click on the workshop in the colonist panel and make sure he/she is allowed to work in this zone. Alter_natively, you can manage your colonists' jobs from the colonist management screen.
+Workshop.Status.OutputFull = Output stockpiles full.
+Workshop.Status.OutputFull.Desc = Production will resume when space in the output ##stockpilezone becomes available.
+Workshop.Status.UnderConstruction = Under con_struction.
+Workshop.Status.UnderConstruction.Desc = The workshop is being built.
+
+
+Farm.Status.Harvest = Ready to harvest.
+Farm.Status.Harvest.Desc = 
+Farm.Status.Idle = Idle.
+Farm.Status.Idle.Desc = 
+Farm.Status.NoOutput = No output stockpile assigned.
+Farm.Status.NoOutput.Desc = To link an output ##stockpilezone, left-_click the farm and right-_click the stockpile where you want the ##farmzone's output to go. Farms will produce until the linked stockpiles are full.
+Farm.Status.NoOutputForProduct = Output stockpiles don't accept products.
+Farm.Status.NoOutputForProduct.Desc = To change the accepted goods of a ##stockpilezone, left-_click it and change the types by selecting them in the panel.
+
+Workshop.Status.NoOutputForProduct = Output stockpiles don't accept products.
+Workshop.Status.NoOutputForProduct.Desc = To change the accepted goods of a ##stockpilezone, left-_click it and change the types by selecting them in the panel.
+
+Farm.Status.NoWorkers = No farm workers.
+Farm.Status.OutputFull = Output stockpiles full.
+Farm.Status.OutputFull.Desc = Harvesting will resume when space in the output ##stockpilezone becomes available.
+Farm.Status.Paused = No product selected.
+Farm.Status.Plant = Ready to plant.
+Farm.Status.Plant.Desc = 
+Farm.Status.Till = Ready to till.
+Farm.Status.Till.Desc = Ready to till.
+Farm.Status.Water = Ready to water.
+Farm.Status.Water.Desc = Ready to ##water. Make sure to have water buckets available. 
+
+
+
+
+MainMenu.NewCampaign = New Campaign
+MainMenu.ResumeCampaign = Resume Game
+MainMenu.PlayTutorial = Play Tutorials
+MainMenu.PlayCustomMap = Play Custom Map
+MainMenu.Settings = Settings
+MainMenu.Mods = User Mods
+MainMenu.ExitGame = Exit game
+
+
+LoadingPhase.Clearing = Clearing remaining data.
+LoadingPhase.InitializingGame = Initializing game.
+LoadingPhase.IconGeneration = Icon generation: $1%
+LoadingPhase.ExplicitSpawns = Processing explicit object spawns: $1%
+LoadingPhase.GenericSpawns = Processing generic object spawns: $1%
+LoadingPhase.CreatingMap = Creating map.
+LoadingPhase.GeneratingTiles = Generating tiles: $1%
+LoadingPhase.LoadMap = Loading map from file.
+LoadingPhase.InitialisingObjects = Initialising objects.
+LoadingPhase.ModelGeneration = Generating models: $1%
+LoadingPhase.ObjectMaterialCombiner = Combining materials.
+LoadingPhase.ObjectTreeExporter = Exporting object tree.
+
+UI.Weight = ##Weight: $1
+UI.Weight.Desc = The ##weight of the item. 
+UI.CanBeMined = Can be mined for
+
+UI.SelectZoneColor = Select zone color:
+UI.Equipment = Equipment
+
+UI.SelectAssignedZones = Allowed zones:
+UI.AcceptedGoods = Accepted goods:
+UI.AcceptedGoods.Help = (Click on a good to toggle it.)
+
+UI.Recruitment = Recruitment
+UI.Recruit.Title = Enemies:
+UI.Recruit.Defeat = Enemies (Strength $1):
+UI.Recruit.Requirements = Require_ments:
+UI.Colonists = Your warriors (Strength $1):
+UI.Help = Help
+
+UI.PressAnyKey = Press any key to begin!
+#시작하려면 좌클릭 및 키를 눌러주세요!
+
+UI.CapacityUsed = Capacity used:
+UI.LoadLeave = Load and leave:
+UI.StoredCargo = Stored cargo:
+UI.StoredCargo.Help = (Click on a good to unload.)
+UI.VersionInfo = Version info
+
+UI.Menu = Menu
+UI.Menu.Title = Menu
+UI.ExitToMain = Quit to main menu
+
+Settings.ExportIcons = Export icons
+Settings.ExportIcons.Desc = Export object icons on startup (usually not required).
+
+Settings.LeadingCamera = Lead camera
+Settings.LeadingCamera.Desc = When following a colonist, the camera will lead its movement.
+
+UI.ProductionTree = Production Tree
+
+UI.AcceptAll = Accept all
+UI.AcceptAll.Desc = Set the ##stockpilezone to accept all goods.
+UI.RefuseAll = Refuse all
+UI.RefuseAll.Desc = Set the ##stockpilezone to refuse all goods.
+
+MainMenu.LoadGame = Load Game
+Settings.RightDrag = RMB-Drag
+Settings.RightDrag.Desc = Drag the map while holding the right mouse button.
+LoadingPhase.Combining = Combining meshes
+
+UI.ClearZone = Sell / Deconstruct / Clear zone
+UI.ClearZone.Desc = Destroy a building or remove a ##Stockpilezone, ##Farmzone or ##Grovezone. Use ##Keycycle to switch between multiple objects on the same tile.
+UI.CancelOrder = Cancel order
+UI.CancelOrder.Desc = Cancel an order like mining, loading or decon_structing.
+
+
+Logistics.Status.NotConnected = Not connected to logistics system.
+Logistics.Status.Supply = Providing to logistics system.
+Logistics.Status.Request = Requesting from logistics system.
+Logistics.Status.SupplyRequest = Supplying and requesting.
+Logistics.Status.CanSupply = Can provide to logistics system.
+Logistics.Status.CanRequest = Can request from logistics system.
+Logistics.Status.CanSupplyRequest = Can supply or request.
+Logistics.Status.CanRequestButNotSetup = No good accepted from log. system.
+
+
+UI.LogisticsSystem = Logistics system
+UI.LogisticsSystem.Desc = In order to <b>provide</b> goods, connect this unit to other units (stockpiles, zeppelin stations etc.) by right clicking on them. Also, make sure there are actual goods to provide. <br>In order to <b>request</b> goods, connect other units (stockpile, zeppelin station etc.) to this stockpile and set the desired goods to be accepted. (##logsys)
+
+
+
+Farm.Status.Working = Working
+Farm.Status.UnderConstruction = Under con_struction
+
+Message.CombatInProgress = $1 is under attack!
+
+UI.SurveyInfo = Mini survey
+Settings.Surveys=Surveys
+Settings.Surveys.Desc=Display surveys in the main menu.
+Settings.Lights=Lights
+Settings.Lights.Desc=Display lights in the scene (requires map reload).
+
+Settings.Tooltips=Tooltips
+Settings.Tooltips.Desc=Display tooltips when hovering over buttons etc.. When disabled, you can still see the tooltips when holding the shift key while moving the mouse.
+
+
+UI.FightClose = Remove rally flag.
+UI.FightClose.Desc = Removes the rally flag for your colonists. All colonists will return to their usual work.
+
+UI.Pet.Owner = Owner
+UI.Hitpoints = Hitpoints: $1/$2
+
+UI.Build.InProgress = Con_struction in progress.
+UI.Build.InProgress.Desc = A colonist will haul all required goods and begin con_struction.
+UI.Build.AwaitingConstruction = Awaiting con_struction.
+
+UI.Build.MissingMaterials = Missing materials.
+UI.Build.MissingMaterials.Explicit = Missing $1 for con_struction.
+UI.Build.MissingMaterials.Desc = Your colonists are missing one or more resource in order to build this.
+
+UI.Cancel = Cancel
+UI.Cancel.Desc = Abort con_struction.
+
+StockpileZoneCC = Stockpile
+StockpileZoneCC.Desc = A stockpile can be used to hold products from workshops, farms or mining operations.
+FarmZoneCC = Farm
+FarmZoneCC.Desc = Farms allow your colonists to grow a number of crops. (##farmzone)
+GroveZoneCC = Grove
+GroveZoneCC.Desc = Groves can be built on fertile soil and allow your colonists to grow trees. (##grovezone)
+
+
+CargoShip.State.ENTERHARBOUR = Entering cargo port.
+CargoShip.State.UNLOAD = Unloading.
+CargoShip.State.LEAVE = Leaving cargo port.
+
+
+
+UI.Food = Food stock
+UI.Food.Desc = Provide ##food for your colonists well fed to make them more productive.
+
+UI.Drink = Drink stock
+UI.Drink.Desc = Provide ##drinks for your colonists to make them more productive.
+
+
+UI.House = Housing
+UI.House.Desc = Providing ##houses for your colonists well make them more productive.
+
+UI.IdleColonists = Idle colonists
+UI.IdleColonists.Desc = Click here to cycle through all ##idle colonists.
+
+UI.Warnings = Warnings
+UI.Warnings.Desc = Warnings indicate possible problems like workshops with no assigned workers. Click here to cycle through all warning flags. 
+
+
+UI.Time = Time
+UI.Time.Desc = Time of the day. Most crops only grow during ##day. 
+
+Robot.Mode = Robot mode
+Robot.Mode.Desc = ##Robots can operate in multiple modes. The mode effects their movement speed as well as their fuel consumption. 
+Robot.Mode.OFF = Off
+Robot.Mode.ECO = Eco mode
+Robot.Mode.NORMAL = Normal mode
+Robot.Mode.OVERCLOCKED = Overclocked
+
+MainMenu.Tutorials = Tutorials and example scenes
+
+
+Task.Upgrade.Text = Upgrading $1.
+Task.Unload.Text = Unloading $1.
+
+Task.Attack.Text = Attacking $1.
+Task.CombatTrain.Text = Training.
+Task.Rally.Text = Moving to rally flag.
+Task.Construct.Text = Con_structing $1.
+Task.ConstructClear.Text = Clearing $1.
+Task.Deconstruct.Text = Decon_structing $1.
+Task.Mine.Text = Mining $1.
+Task.Produce.Text = Producing $1 in $2.
+Task.Power.Text = Powering $1.
+Task.Clean.Text = Cleaning $1.
+Task.Load.Text = Loading $1.
+Task.Stockpile.Text = Moving $1 to stockpile.
+Task.LogisticsSystem.Text = Moving $1.
+Task.Equip.Text = Equipping $1.
+Task.Unequip.Text = Unequipping.
+Task.Drink.Text = Drinking $1.
+Task.Eat.Text = Eating $1.
+Task.MoveIntoHouse.Text = Moving into $1.
+Task.Socialize.Text = Socializing in $1.
+Task.Sleep.Text = Sleeping.
+Task.Idle.Text = Idling.
+Task.Wander.Text = Wandering around.
+Task.HarvestCrop.Text = Harvesting $1.
+Task.HarvestTree.Text = Chopping $1.
+Task.PlantCrop.Text = Planting $1.
+Task.PlantTree.Text = Planting $1.
+Task.FarmClear.Text = Clearing $1.
+
+Task.GroveClear.Text = Clearing $1.
+Task.Till.Text = Tilling ground.
+
+Train.Schedule = Train schedule:
+Train.Schedule.UI = Train station
+Train.Schedule.UI.Desc = To add a station to the schedule, select the train and right-_click on the new station. To remove a station, click on its entry in the schedule.
+
+UI.WaveNoTime = Enemies approaching.
+UI.WaveTime = Arriving in $1s.
+
+Train.Status.Deactivated = Train deactivated.
+Train.Status.Deactivated.Desc = You can activate a train by setting it to active in the info panel.
+Train.Status.NoSchedule = No schedule defined.
+Train.Status.NoSchedule.Desc = To add a station to the schedule, select the train and right-_click on the new station. To remove a station, click on its entry in the schedule.
+Train.Status.NoPath = No path to next target.
+Train.Status.NoPath.Desc = Make sure to lay track between stations.
+Train.Status.Okay = Train active.
+Train.Status.WaitAtStation = Waiting at station. 
+Train.Status.WaitAtStation.Desc = The train will resume when it is processed at the station. 
+
+
+UI.AttackCamp = Attack camp.
+UI.TotalStrength = Combined strength 
+UI.CancelAttack = Abort attack.
+
+Message.EnemyCampDestroyed = Enemy camp destroyed! Yay!
+Message.AttackFailed = Attack on enemy camp failed. :(
+
+UI.RelativeStrength.Inferior = Enemy strength: Inferior.
+UI.RelativeStrength.Low = Enemy strength: Low.
+UI.RelativeStrength.Equal = Enemy strength: Equal.
+UI.RelativeStrength.Hard = Enemy strength: Hard.
+UI.RelativeStrength.Overwhelming = Enemy strength: Over_whelming.
+
+Tool.Effect.Combat.Effect = Damage: $1
+Tool.Effect.Combat.Hit = Chance to hit: $1%
+Tool.Effect.Combat.Crit = Critical hit chance: $1%
+
+Tool.Effect.Agriculture.Effect = Speed: $1
+Tool.Effect.Agriculture.Hit = Chance to succeed: $1%
+Tool.Effect.Agriculture.Crit = Critical success chance: $1%
+
+Tool.Effect.Mining.Effect = Speed: $1
+Tool.Effect.Mining.Hit = Chance to succeed: $1%
+Tool.Effect.Mining.Crit = Critical success chance: $1%
+
+Tool.Effect.Crafting.Effect = Speed: $1
+Tool.Effect.Crafting.Hit = Chance to succeed: $1%
+Tool.Effect.Crafting.Crit = Critical success chance: $1%
+
+Tool.Effect.None.Effect = Base effect
+Tool.Effect.None.Hit = Chance to succeed: 50%
+Tool.Effect.None.Crit = Chance to crit: 0%
+
+Tool.None = No tool equipped.
+
+Tool.Effect = Tool effect
+Tool.Effect.Desc = - A weapon's effect deter_mines the damage it can inflict. <br>- Mining, farming and craf_ting tools increase the corres_ponding task com_pletion speed.
+
+Tool.Hit = Success chance
+Tool.Hit.Desc = The success chance deter_mines how likely it is that a task is com_pleted success_fully, e.g. that an enemy is hit or that a produc_tion attempt is success_ful.
+
+Tool.Crit = Critical chance
+Tool.Crit.Desc = The proba_bility that a success is critical. Critical weapon hits inflict bonus damage. Critical mining successes yield bonus goods. 
+
+
+MainMenu.Skirmish.Scenarios = Scenarios
+MainMenu.Skirmish.Modifiers = Modifiers
+
+
+
+
+UI.ItemTypes.Title = Item types:
+
+
+
+Building.Mode = Building mode. 
+Building.Mode.Desc = Click to toggle between active and inactive.
+Building.Mode.Enabled = Building active.
+Building.Mode.Disabled = Building inactive.
+
+UI.TypeNameFilter = Search for type...
+UI.DecorationValue = ##Decoration: Value $1, range $2
+UI.HousingValue = ##House: Value $1, places $2
+UI.SocialValue = ##Social.
+UI.ToolValue = ##Tool: Base value $1.
+
+Message.TrainRouteFail = Train found no route to $1.
+Message.FactorySegmentBlocked = Track segment occupied.
+
+
+UI.PlantGrowth = Growth: $1%
+UI.PlantGrowthRate = Growth rate: $1%
+UI.PlantGrowthTime = Growth time: $1s
+UI.PlantTitle = Plant information:
+UI.WaterUsage = Water usage: $1%
+
+UI.ProducedIn = Produced in
+UI.ProcessedIn = Processed in
+
+UI.BuildTrain = Build train
+
+LoadingPhase.UIPanels = Initializing user interface.
+
+LoadingPhase.CombineMeshes = Combining meshes.
+LoadingPhase.InitNavmesh = Initializing navigation.
+
+
+UI.MineableContent = Mountain content:
+
+UI.DeleteGame = Delete
+UI.Tier = Tier
+UI.Tier1 = Tier 1
+UI.Tier2 = Tier 2
+UI.Tier3 = Tier 3
+
+
+TipOfTheDay.Header=Tip:
+TipOfTheDay.1=Your objectives are displayed in the top left. Mouse over them for more information. Click on the light bulb to open the help window. Take your time - your colonists will not starve.
+TipOfTheDay.2=Your colonists cannot die. When they get hurt, they will heal while sleeping.
+TipOfTheDay.3=When selecting resources to be mined, hold the alt-key to mark all objects of the same type in your territory.
+TipOfTheDay.4=You can clone an existing building by holding the alt-key and clicking on it.
+TipOfTheDay.5=While adding a workshop's recipe hold the alt-key to auto_matically update  the accepted goods of its output stockpiles.
+TipOfTheDay.6=Press shift-F1 to save the current camera position. Press F1 to go back to that position. (Works with F1-F4)
+TipOfTheDay.7=Press F11 to hide the user interface.
+TipOfTheDay.8=Press F12 to make a screenshot.<br><br>Save folder for Windows:<br>   C:\Users_\<username>_\AppData_\LocalLow_\MirkoStudio_\Kubifak_torium_\...  <br>Folder for Mac/Linux:<br>  ~/.config_/unity3d_/MirkoStudio_/Kubifak_torium_/
+TipOfTheDay.9=Click on an item's descrip_tion panel to open the produc_tion tree overview.
+TipOfTheDay.10=Click on a recommended building to build it. Click on a recommended item to select a workshop where it can be built.
+
+UI.RecipieHint = <i>Click on a recipe to activate or deactivate it. Hold the alt-key to auto_matically update the accepted goods of the output stockpiles.</i>
+
+
+
+UI.Recommendations = Recommen_dations
+
+Message.MinimumGood = $1 added to ship's cargo.
+
+MainMenu.Campaign.Size = World map size:
+MainMenu.Campaign.Size.0 = Tiny
+MainMenu.Campaign.Size.1 = Small
+MainMenu.Campaign.Size.2 = Normal
+MainMenu.Campaign.Size.3 = Big
+MainMenu.Campaign.Size.4 = Huge
+
+
+UI.AssignZone = Toggle zone.
+UI.AssignZone.Desc = Click here to assign / unassign this ##zone color.  
+
+UI.RestartMap = Restart map
+
+UI.TargetTrack = Inventory Target ($1 / $2):
+UI.ProductionTarget.Met = Inventory target reached for:<br> $1
+UI.ProductionTarget.MetShort = Inventory achieved:<br> $1  
+
+
+UI.Recommendations.Desc = The recommen_dation system suggests things to do based on the current situation. 
+
+UI.ProductionTarget = ##Productiontarget
+UI.ProductionTarget.Desc = The ##productiontarget for the current island.
+UI.ProductionTarget.TooltipTitle = Production target:
+
+
+UI.WM.Inventory.Title = Inventory
+UI.WM.Inventory = Inventory
+UI.WM.Inventory.Desc = Review the items you have harvested and produced so far. 
+
+UI.VictoryScreen.Title = You have won!
+
+UI.LeaveMap = Leave island
+UI.LeaveMap.Desc = Leave this island and return to the world map.
+UI.IncreaseProductionTarget = Raise target 
+UI.IncreaseProductionTarget.Desc = Raising the ##productiontarget for this island will decrease the goods you will need to produce on other islands. <br>Note: You can leave this island at any time, even when you haven't met the raised target.
+Message.IncreaseProductionTarget = Inventory target raised to $1%.  
+
+UI.ReturnToMain = Back to main menu
+UI.ReturnToMain.Desc = Leave this game and return to the main menu.
+
+UI.NextTutorial = Next tutorial
+UI.NextTutorial.Desc = Leave this game and play the next tutorial.
+
+UI.ResumePlaying = Resume playing
+UI.MapComplete = Victory!
+
+Message.LevelUp = $1 reached $3 lvl. $2.
+
+Message.GameSaved = Game saved. 
+
+
+# 31.3.2019
+UI.Start = Start
+UI.Randomize = Randomize
+
+Objective.AnyStockpileAcceptsType = Set stockpile to accept $1.
+Objective.AnyStockpileAcceptsType.Desc = To change a ##stockpilezone's set of accepted goods select it and click on the goods in the info panel.
+
+##productiontarget = inventory target
+##productiontarget.Desc = Inventory target: Amount of goods you need to produce on each island to make progress in the campaign.
+
+
+
+UI.Build.NoWorker = No construction worker assigned.
+UI.Build.NoWorker.Desc = To make a colonist do construction jobs, select him/her and click on the construction icon and make sure he/she is assigned to work in this zone. Alter_natively, you can manage your colonists' jobs from the colonist management screen.
+
+Logistics.Status.Loop = Loop detected.
+Logistics.Status.Loop.Desc = A loop occurs when there is a two-way connection to another stockpile / depot and both accept the same goods. Change the accepted goods of either one to resolve this.
+
+
+UI.Attack = Attack
+UI.Attack.Desc = Attack an enemy camp that is close to our borders.
+
+Objective.RecruitDemands = Expand your territory to them.
+Objective.RecruitDemands.Desc = Expand your territory until it encloses their flag to recruit them.
+
+Settings.StreamDeck = Stream Deck
+Settings.StreamDeck.Desc = Stream Deck support. Requires restart.
+
+UI.ActiveJobs = Jobs
+
+TipOfTheDay.11=You can use zeppelin depots like stockpiles. You can use them as inputs or outputs for workshops, farms etc..
+
+
+UI.Follow = Follow object
+UI.Follow.Desc = Follow an item, a colonist etc.. 
+UI.Clone = Clone building. 
+UI.Clone.Desc = Build a clone of this building. Production settings and links will be copied. 
+
+UI.Weight.Light = Light
+UI.Weight.Normal = Medium
+UI.Weight.Heavy = Heavy
+
+UI.Build.AwaitingConstruction.Desc = Con_struction will begin as soon as a colo_nist is available.
+
+UI.BuiltFrom.Multibuild = Yields $1 units.
+
+UI.LogisticsRequest = Request from logistics system.
+UI.LogisticsRequest.Desc = Request the selected good types from the logistics system. If not, they will only be used for stockpiling or workshop outputs. 
+
+UI.Inventory.ShowCargo = Include cargo
+UI.Inventory.ShowCargo.Desc = Include the cargo currently stored in your ##ship.
+
+Settings.VoiceAmbience = Voice amb.
+Settings.VoiceAmbience.Desc = Volume of the ambient voices of your colonists.
+
+UI.MinedFrom = Mined from
+
+
+# 14.4.19
+
+Status.ZoneSplit = Zone is split.
+Status.ZoneSplit.Desc = The zone is split into two or more disconnected parts. Remove the extra parts to remove this warning.
+
+UI.GrowsOn = Grows on
+
+Farm.Status.InvalidTerrain = Invalid soil.  
+Farm.Status.InvalidTerrain.Desc = The selected plant does not grow on this soil. 
+
+UI.HaltUnloadAll = Halt unload.
+
+
+Status.NothingAccepted = No good accepted.
+Status.NothingAccepted.Desc = No good is accepted by this stockpile.
+
+UI.AcrossIslands = For all islands: $1
+
+
+MainMenu.Campaign.Loadouts = Starting party and cargo:
+
+
+UI.ItemInfo = Item info:
+UI.PlantInfo = Plant info:
+UI.ActorInfo = Colonist/_Animal info:
+
+UI.TaskGroups = Possible jobs: $1
+
+UI.SpeedBonus = Speed bonus: $1%
+Task.Water.Text = Watering soil.
+Task.FarmWater.Text = Watering soil.
+Task.Train.Text = Combat training.
+
+Workshop.Status.NoInputStockpile = No input stockpile assigned.
+Workshop.Status.NoInputStockpile.Desc = To link an input ##stockpilezone, left-_click the stockpile and right-_click the workshop where you want the stockpile's content to be used. Workshops will only use resources from linked input stockpiles as soon as one is connected.
+
+UI.ThisIsland = For this island ($2%): $1
+
+Setting.AO.Off = Off
+Setting.AO.Medium = Medium
+Setting.AO.High = High
+Setting.Shadows.Off = Off
+Setting.Shadows.Soft = Soft
+Setting.Shadows.Hard = Hard
+
+Mod.MadeBy = Made by
+Mod.Version = Version
+Mod.Requires = Requires
+Mod.Contains = Contains
+
+BugReport.Title = Submit Bug Report
+BugReport.Cancel = Cancel
+BugReport.Submit = Submit
+BugReport.Summary = Summary
+BugReport.Description = Description
+BugReport.Category = Category
+BugReport.Submitting = Submitting User Report. Thank you!! :D
+BugReport.Failed = The user report could not be sent. Please try again later.
+
+UI.Inhabitants = Inhabitants
+Message.ActorDied = $1 was defeated.
+Train.Status.Okay.Desc = The train is proceeding to the next station.
+
+
+UI.CombatState.Waiting = (Waiting)
+
+
+UI.CombatState.Title = Combat in progress!
+
+UI.Attack.Miss = Miss!
+UI.AttackCamp.Desc = Defeat enemy camps to claim their ##territory. Unlike your enemies, your colonists cannot die. Attacking a strong camp repeatedly is a valid strategy for victory.
+
+## 1.5.2019 
+
+UI.IdleFighters = Idle fighters
+UI.IdleFighters.Desc = Click here to cycle through all ##idle fighters.
+
+
+UI.MiningDifficulty = Mining difficulty
+UI.MiningDifficulty.Desc = The mining difficulty determines the time it will take a worker to mine this resource.
+
+
+MiningDifficulty.Easy = Mining difficulty: Easy.
+MiningDifficulty.Normal = Mining difficulty: Normal.
+MiningDifficulty.Hard = Mining difficulty: Hard.
+MiningDifficulty.VeryHard = Mining difficulty: Very hard.
+
+UI.BuildTrain.NoMoreTrains = Maximum number built.
+UI.BuildTrain.NoFreeSegment = Track segment occupied.
+
+Task.UnloadAuto.Text = Unloading $1.
+
+UI.TrackLayer.Start = Build train track. 
+UI.TrackLayer.Start.Desc = Build tracks to connect train factories and stations. The tracks will be auto_matically built as long as you have track parts in your inventory. <br>Press ##Keycycle to toggle between low and high elevation. 
+UI.TrackLayer.Semaphore1 = Place a train signal on a track.
+UI.TrackLayer.Semaphore2 = Place a train pre-signal on a track.
+UI.TrackLayer.Semaphore1.Desc = Train signals allow a train to pass in the indicated direction. When the segment ahead is occupied by another train, the train will wait here.
+UI.TrackLayer.Semaphore2.Desc = Train pre-signals allow a train to pass in the indicated direction. When the segment ahead of the next segment is occupied by another train, the train will wait here.
+
+
+UI.TrainStation = Train station
+UI.TrainStation.WaitForFull = Stop trains until full.
+UI.TrainStation.WaitForFull.Desc = Stop trains until they are fully loaded.
+
+
+TipOfTheDay.12=Use the upgrade workshop to upgrade tools and weapons. 
+
+
+Debug.forcerain = Force rain
+Debug.forcerain.Desc = Force rain to begin.
+
+Debug.time = Advance time
+Debug.time.Desc = Advance time by 2.4h.
+
+Debug.claimall = Claim map
+Debug.claimall.Desc = Claim entire map.
+
+Debug.ai = Start AI
+Debug.ai.Desc = Start AI build service (experi_mental).
+
+Debug.revealmap = Reveal map
+Debug.revealmap.Desc = Remove fog of war.
+
+Debug.killall = Kill all the things
+Debug.killall.Desc = Kill all animals, colonists and enemies.
+
+Debug.clearitems = Clear items
+Debug.clearitems.Desc = Delete all items.
+
+Debug.forcewin = Win
+Debug.forcewin.Desc = Remove inventory targets.
+
+Debug.reloadTranslations = Reload translations
+Debug.reloadTranslations.Desc = Reload localization files and update strings. Does not affect certain UI elements.
+
+Debug.toggleenglish = Toggle English.
+Debug.toggleenglish.Desc = Change to English and back.
+
+# 21.5.2019
+UI.Item.Import = Import price: $1
+UI.Item.Export = Export price: $1
+UI.Import.Title = Import prices:
+UI.Export.Title = Export prices:
+
+Task.Produce.Export = Exporting $1.
+Task.Produce.Import = Importing $1.
+
+
+UI.Priority = Priority:
+UI.Priority.Tooltip = Priority
+UI.Priority.Tooltip.Desc = Stockpiles and workshops with higher priority are used first.
+
+##cargoship.Desc = #Refine#Cargo ship: Allows you to export goods you no longer need and import resources you need. To export something, connect a stockpile to the cargo port. To import something, connect the cargo port to stockpile and set it to accept something that can be imported.  
+
+
+UI.CurrentlyInStock = In inventory: $1
+
+UI.PropagateToAll = Propagate to outputs.
+UI.PropagateToAll.Desc = Set all output stockpiles to accept the outputs from this workshop. 
+
+TipOfTheDay.13=When you lack necessary resources, you can build a shipping port to import them. Export produced goods to afford them.  
+
+
+
+
+UI.HaltUnloadAll.Desc = Stop unloading items.
+
+
+UI.WM.Tiers.Title = Biome completion
+UI.WM.Tiers.Title.Desc = In each biome, there is a set of production targets you need to reach. In order to move on to the next biome, you need to reach 100% in the current biome.
+
+UI.TargetsForTier = Targets for biome $1:
+
+
+# 2.6.19
+Objective.CarriageSchedule = Add $5 to carriage's schedule
+Objective.CarriageSchedule.Desc = To add a station to a carriage's schedule, select the carriage and right-_click on the station you want to add. Clicking again will remove the station. 
+
+				
+UI.Skirmish.Cargohint = Hint: In order to try a different terrain, please select the Mockup Tier 2 or 3 scenarios. This will ensure that you have the appropriate cargo on board.
+
+Carriage.Schedule = Carriage schedule:
+Carriage.Schedule.UI = Carriage station
+Carriage.Schedule.UI.Desc = To add a station to the schedule, select the carriage and right-_click on the new station. To remove a station, click on its entry in the schedule.
+
+
+UI.Train.Destroy = Destroy train
+UI.Train.Go = Go
+UI.Train.Stop = Stop
+
+Quality.Level0 = poor
+Quality.Level1 = normal
+Quality.Level2 = excellent
+Quality.Level0.Desc = Items of poor quality.
+Quality.Level1.Desc = Items of normal quality.
+Quality.Level2.Desc = Items of excellent quality.
+
+Name.StockpileZoneCC = Stockpile
+Name.FarmZoneCC = Farm
+Name.GroveZoneCC = Grove
+
+UI.Road.Desc = Construct roads to connect remote workshops and storages. Colonists move faster while traveling on roads. Click on a starting tile and an end tile to place a road. Alter_natively click and drag to build a straight road.
+
+
+EarlyAccessWarning.Intro = The dark terrain and the related mechanics (conveyor belts, automated production etc.) are still in very early development. Expect poor balance, missing resources etc.. I'm aware of the problems so you don't need to report them as bugs. They are planned to get fixed around the end of 2019. :) 
+EarlyAccessWarning.Help = Early Access Warning
+
+# Deleted: Objective.ShowHelpScreen Objective.ShowHelpScreen.Desc Objective.ConnectFarmsToRoads Objective.ConnectFarmsToRoads.Desc Objective.ConnectWorkshopsToRoads Objective.ConnectWorkshopsToRoads.Desc
+
+
+UI.Import.Money = Available coins: $1
+UI.Import.Help = Available coins
+UI.Import.Help.Desc = Coins can be used to import raw materials onto your island. Earn coins by exporting manufactured goods. 
+
+UI.ItemState.Available = Item available
+UI.ItemState.Reserved = Item reserved
+UI.ItemState.ReservedBy = Item reserved by $1
+UI.ItemState.TransportedTo = Item in transit to $1
+
+UI.Upgrade = Select upgraded items to craft.
+UI.Upgrade.Desc = In the upgrade workshop two items of one quality are combined to yield one item of a higher quality. 
+
+
+TipOfTheDay.14=You can rename colonists, zones and some buildings. To do so, select them and click on their name on top of the info panel.  
+
+TipOfTheDay.15 = Colonists move faster when they carry no tools. Unassign all tasks and workshops to turn a colonist into a hauler.    
+
+TipOfTheDay.16 = The tiles within a stockpile are used in the order they are created. Start a stockpile next to a workshop and expand from there to make it a bit more efficient.
+
+TipOfTheDay.17 = You can link your ship to a stockpile. Doing so will make your colonists unload all the items the stockpile is set to accept.
+
+MainMenu.Notice.Demo = This is a demo version with limited functionality. Click here to visit the game's Steam page. Add Kubifaktorium to your wish list to get notified when it comes out this Summer! Thanks :)
+
+MainMenu.Notice.EarlyAccess = Welcome to the Early Access version of Kubifaktorium! Here are some general tips for the current version: <br>- I recommend playing the tutorials to get started.<br> - The grassland and desert biomes are quite playable. Everything beyond (automation, conveyor belts etc.) is early in development. To learn more, have a look at the game's road map. <br> - When playing the campaign, please save the game every time you come back to the world map. <br> - If you encounter a bug, please report it using the in-game reporting tool (button in the top right). <br> - The best place to chat about the game is the official Discord server. <br>Thank you for playing, I hope you enjoy the game! :) <br>  Mirko 
+
+
+# 15.6.2019
+# Removed: Objective.Load, Objective.Load.Desc
+
+
+UI.ShowTips = Show tips
+UI.Tips = Tips
+
+Debug.currency = Add 100 coins. 
+Debug.currency = Add 100 coins to your shipping port.
+
+
+Task.Idle = Idle
+
+# 28.6.2019
+UI.WaterState = Water: $1
+
+DemoDisable = Disabled in demo.
+DemoDisable.Desc = Unfortunately this feature is not available in the demo.
