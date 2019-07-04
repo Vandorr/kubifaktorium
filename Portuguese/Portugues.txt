@@ -1,4 +1,4 @@
-﻿language=Portuguese
+﻿language=Portugues
 locales=BR
 fallback=English
  
@@ -18,17 +18,14 @@ fallback=English
 
 
 
-
 ##zone = #star#área
 ##zone.Desc = #star#Áreas: Colonos podem ser atribuídos à uma ou mais áreas. Eles só irão trabalhar nas áreas que lhe foram atribuídos.
-
 
 ##keycycle = #controller#ciclar
 ##keycycle.Desc = #controller#Ciclar: Botão do meio do mouse ou Tecla 'V'.
 
 ##keyrotate = #controller#rotacionar
 ##keyrotate.Desc = #controller#Rotacionar: Botões 4/5 do mouse ou Tecla 'R'.
-
 
 
 ##idle = #Idle#ocioso
@@ -40,12 +37,11 @@ fallback=English
 ##territory = #Mountain#território
 ##territory.Desc = #Mountain#Território: Você só pode construir dentro de seu território. Expanda-o construindo fogueiras e derrotando acampamentos inimigos.
 
-
 ##weight = peso
 ##weight.Desc = Peso: Enquanto carrega itens pesados, seus colonos ficam lentos.
 
-##stacksize = empilhamento
-##stacksize.Desc = Empilhamento: Em estoques e depósitos, múltiplos itens do mesmo tipo podem ser empilhados no mesmo bloco.
+##stacksize = estoque
+##stacksize.Desc = Estoque: Em estoques e depósitos, múltiplos itens do mesmo tipo podem ser empilhados no mesmo bloco.
 
 ##day = #sun#dia
 ##day.Desc = #sun#Dia: Hora entre 6:00 e 18:00.
@@ -57,8 +53,7 @@ fallback=English
 ##happiness.Desc = #Happy#Felicidade: O andar e velocidade de trabalho do colono é influenciado por quão bem suas necessidades são atendidas.
 
 ##skill = #People#Habilidades
-##skill.Desc = #People#Habilidades: Todo colono tem uma proficiência diferente para cada grupo de atividade and mesa de trabalho. Com o tempo, eles melhoram nas tarefas que realizam.
-
+##skill.Desc = #People#Habilidades: Todo colono tem uma proficiência diferente para cada grupo de atividade e bancada. Com o tempo, eles melhoram nas tarefas que realizam.
 
 
 ##water = água 
@@ -67,8 +62,8 @@ fallback=English
 ##food = comida
 ##food.Desc = Comida: Quando com fome, colonos irão automaticamente procurar algo para comer. Fornecer comida irá fazê-los mais felizes e produtivos.
 
-##stockpilezone = #Stockpile#zona de empilhamento
-##stockpilezone.Desc = #Stockpile#Zona de empilhamento: Podem ser atribuídas em chão sólido e usadas para guardar produtos de mesas de trabalho, fazendas ou mineração.
+##stockpilezone = #Stockpile#zona de estoque
+##stockpilezone.Desc = #Stockpile#Zona de estoque: Podem ser atribuídas em chão sólido e usadas para guardar produtos de bancadas, fazendas ou mineração.
 ##farmzone = #Farm#Plantio
 ##farmzone.Desc = #Farm#Zona de plantio: Podem ser atribuídas em solo fértil para permitir que seus colonos cresçam cultivos.
 ##grovezone = #Grove#Arvoredo
@@ -110,7 +105,7 @@ fallback=English
 Message.AreaExpanded = Nós expandimos nosso território!
 Message.AreaLost = Nós perdemos território!
 Message.WeAreUnderAttack = Estamos sob ataque!
-Message.NewBuildOptions = Atingindo $1 foi destravado:
+Message.NewBuildOptions = Descoberto $1, foi destravado:
 Message.RecruitmentSuccess = Recrutamento bem-sucedido!
 Message.WarnDisembark = Você não pode desembarcar enquanto seus colonos estão na ilha.
 Message.MissionComplete = Ótimo, você completou todos os objetivos para esta ilha! :)
@@ -130,10 +125,10 @@ UI.Build.Desc = Cria um projeto de construção para ser construído por seus co
 UI.Mine = Minerar e colher
 UI.Mine.Desc = Marca árvores, pedras e outros objetos para serem ##mined ou colhidos. (Segure Alt para marcar todos os objetos do mesmo tipo em seu ##territory).
 UI.SettlerMenu = Gerenciamento de colonos
-UI.SettlerMenu.Desc = Define o trabalho e as mesas de trabalho que seus colonos irão usar.
+UI.SettlerMenu.Desc = Define o trabalho e as bancadas que seus colonos irão usar.
 UI.Load = Carregar
 UI.Load.Desc = Marca itens para serem carregados para seu ##ship.
-UI.Stockpile = Empilhamento
+UI.Stockpile = Estoque
 UI.Stockpile.Desc = Clique e arraste seu mouse para criar uma nova ##stockpilezone ou expanda uma zona existente. 
 UI.Grove = Arvoredo
 UI.Grove.Desc = Crie ou expanda um ##grovezone.
@@ -167,14 +162,14 @@ UI.HitpointMax = Máx. vida: $1
 UI.HitpointRegen = Regeneração de vida: $1
 UI.Stack = Tamanho da pilha: $1
 UI.LinkOverlay = Rotas de produção
-UI.LinkOverlay.Desc = Alterna a visibilidade de ligações ativas entre mesas de trabalho, plantio e ##stockpilezones. [Padrão: Alt esquerdo]
+UI.LinkOverlay.Desc = Alterna a visibilidade de ligações ativas entre bancadas, plantio e ##stockpilezones. [Padrão: Alt esquerdo]
 UI.MaxSpeed = Máx. velocidade: $1
 UI.SettlerScreen.Areas=Áreas
-UI.SettlerScreen.Explanation = Ferramentas -> Colonos automaticamente pegam a melhor ferramenta possível. A preferência de ferramenta depende da atividade atribuída a ele. <br>Zones -> Clique: Permite/proíbe uma zona. Colonos não interagem com coisas em zonas inativas. Selecione uma fogueira para trocar sua zona designada. <br>Tarefas e mesas de trabalho -> Clique: Alterna entre ativo e inativo. O tamanho do quadrado indica o nível de habilidade do colono. 
+UI.SettlerScreen.Explanation = Ferramentas -> Colonos automaticamente pegam a melhor ferramenta possível. A preferência de ferramenta depende da atividade atribuída a ele. <br>Zones -> Clique: Permite/proíbe uma zona. Colonos não interagem com coisas em zonas inativas. Selecione uma fogueira para trocar sua zona designada. <br>Tarefas e bancadas -> Clique: Alterna entre ativo e inativo. O tamanho do quadrado indica o nível de habilidade do colono. 
 UI.SettlerScreen.Tasks=Tarefas
 UI.SettlerScreen.Title=Gerenciamento de colonos
 UI.SettlerScreen.Tool=Ferramenta
-UI.SettlerScreen.Workshops=Mesas de trabalhos
+UI.SettlerScreen.Workshops=Bancadas
 UI.ToolAssignment = Ferramenta equipada ou preferência.
 UI.ToolAssignment.Desc = Colonos automaticamente pegam a melhor ##tool possível . A sua preferência por ferramenta (martelo, pá, picareta ou arma) depende de sua designada tarefa.
 UI.ToolBaseEffect = Efeito base: $1
@@ -187,7 +182,6 @@ UI.Conv = Ferramenta de construção de esteiras transportadoras.
 UI.Conv.Desc = Constrói esteiras transportadoras. <br>Aperte ##Keyrotate para rotacionar. <br>Aperte ##Keycycle para alternar entre nível alto ou baixo.
 UI.ZoneAssignment = Designar zonas.
 UI.ZoneAssignment.Desc = Toda fogueira pode ser definida por uma de 5 cores. Você pode restringir seus colonos a certas áreas trocando sua zona designada aqui.
-
 
 # Top right menu
 UI.Speed = Alterna a velocidade do jogo
@@ -202,7 +196,6 @@ UI.Undo = Desfazer
 UI.Undo.Desc = Remove o último trilho / esteira / projeto construído.
 UI.Main = Menu
 UI.Main.Desc = Carregue/Salve um jogo, mude as opções ou saia do jogo.
-
 
 UI.Close = Fechar
 UI.LoadGame = Carregar jogo
@@ -221,16 +214,13 @@ UI.TaskGroupLevelToolModifier = Modificador de ferramenta
 UI.TaskGroupTotal = Soma total
 
 
-
 # Objectives
-
 
 Objective.AttackEnemyCamp = Ataque um acampamento inimigo.
 Objective.AttackEnemyCamp.Desc = Para atacar um acampamento inimigo, selecione o acampamento ou a área envolta e clique em ataque. (Seus colonos não morrem em combate.)
 
 Objective.DefeatEnemyCamp = Derrote o acampamento inimigo.
 Objective.DefeatEnemyCamp.Desc = Para atacar um acampamento inimigo, selecione o acampamento ou a área envolta e clique em ataque. (Seus colonos não morrem em combate.)
-
 
 Objective.SetClaimColor = Defina a zona designada da fogueira $5 para a cor $3.
 Objective.SetClaimColor.Desc = Para trocar a cor da zona, selecione sua fogueira e clique na cor da zona no painel de informações.
@@ -242,9 +232,8 @@ Objective.SetZoneColorActive.Desc = Para ativar o acesso de um colono a uma zona
 Objective.SetZoneColorInactive = Desative o acesso de $5 para a zona da cor $3.
 Objective.SetZoneColorInactive.Desc = Para desativar o acesso de um colono a uma zona, selecione o colono e clique na zona escolhida no painel de informações.
 
-Objective.StockpileAcceptsType = Faça o empilhamento $5 aceitar $1.
+Objective.StockpileAcceptsType = Faça o estoque $5 aceitar $1.
 Objective.StockpileAcceptsType.Desc = Para trocar a definição de mercadorias aceitas por uma ##stockpilezone, selecione-a e clique em mercadorias no painel de informações.
-
 
 Objective.HopperAcceptsType = Faça a entrada/saída do depósito $5 aceitar $1.
 Objective.HopperAcceptsType.Desc = Para trocar as mercadorias aceitas pela entrada/saída de um depósito, selecione-o e clique em mercadorias no painel de informações.
@@ -252,7 +241,7 @@ Objective.HopperAcceptsType.Desc = Para trocar as mercadorias aceitas pela entra
 Objective.StationAcceptsType = Faça a entrada/saída da estação $5 aceitar $1.
 Objective.StationAcceptsType.Desc = Para trocar as mercadorias aceitas pela entrada/saída de uma estação, selecione-a e clique em mercadorias no painel de informações.
 
-Objective.StockpileAcceptsOnlyType = Faça a zona de empilhamento $5 aceitar somente $1.
+Objective.StockpileAcceptsOnlyType = Faça a zona de estoque $5 aceitar somente $1.
 Objective.StockpileAcceptsOnlyType.Desc = Para trocar a definição de mercadorias aceitas por uma ##stockpilezone, selecione-a e clique em mercadorias no painel de informações.
 
 Objective.BuildTrain = Construa trens ($2/$3)
@@ -262,16 +251,15 @@ Objective.FulfillProductionTarget = Atinja a meta de Inventário.
 Objective.FulfillProductionTarget.Desc = Uma ##productiontarget é mostrada no canto superior esquerdo. Produza mercadorias até que você atinja o requerido. Todas as mercadorias na sua colônia, assim como as armazenadas no barco contam.
 
 Objective.Construct = Construa: $1 ($2/$3)
-Objective.Construct.Desc = Para construir uma $1, abra o #Build# menu de construção, troque para a aba $7, clique em $1 e coloque no mapa. 
-Objective.CreateStockpile = Crie uma zona de empilhamento ($2/$3)
-Objective.CreateStockpile.Desc = Para criar uma nova ##stockpilezone, clique no botão da zona de empilhamento e arraste uma área no chão sólido.
+Objective.Construct.Desc = Para construir um $1, abra o #Build# menu de construção, troque para a aba $7, clique em $1 e coloque no mapa. 
+Objective.CreateStockpile = Crie uma zona de estoque ($2/$3)
+Objective.CreateStockpile.Desc = Para criar uma nova ##stockpilezone, clique no botão da zona de estoque e arraste uma área no chão sólido.
 Objective.FarmZone = Crie uma zona de plantio ($2/$3)
 Objective.FarmZone.Desc = Para criar uma nova ##farmzone, clique no botão da zona de plantio e marque uma área em solo fértil. Designe pelo menos $3 blocos para serem fazendas.
 Objective.FarmZoneCrop = Designe uma colheita: $1
-Objective.FarmZoneCrop.Desc = Para começar o crescimento de uma colheita, selecione uma ##farmzone e selecione a planta que você quer plantar.
+Objective.FarmZoneCrop.Desc = Para começar o crescimento de uma colheita, selecione um ##farmzone e selecione a planta que você quer plantar.
 Objective.Have = Minere ou produza: $1 ($2/$3)
-Objective.Have.Desc = Recursos podem ser ##mined pelo ambiente. Mercadorias podem ser produzidas em mesas de trabalho.
-
+Objective.Have.Desc = Recursos podem ser ##mined pelo ambiente. Mercadorias podem ser produzidas em bancadas.
 
 Objective.TrainSchedule = Adicione $5 ao cronograma do trem
 Objective.TrainSchedule.Desc = Para adicionar uma estação ao cronograma do trem, selecione o trem e aperte o botão direito do mouse na estação que deseja adicionar. Clicar novamente na estação irá removê-la do cronograma. 
@@ -281,15 +269,14 @@ Objective.SetWorkshopInput.Desc = Para fazer uma ligação da $6 para uma entrad
 Objective.SetWorkshopOutput = Faça uma ligação de $7 $5 para $8 $6
 Objective.SetWorkshopOutput.Desc = Para fazer uma ligação da $6 para uma saída da ##stockpilezone, clique com o botão esquerdo em $6 e clique com o botão direito em $5.
 
-
-Objective.LinkStockpile = Faça uma ligação do $1 à zona de empilhamento ($2/$3)
-Objective.LinkStockpile.Desc = Para fazer uma ligação do $1 à uma ##stockpilezone, clique com o botão esquerdo em $1 e clique com o botão direito na zona de empilhamento. Mesas de trabalho irão produzir até que as zonas de empilhamento ligadas à ela estejam cheias.
-Objective.LinkFarmToStockpile = Faça uma ligação de um plantio à uma zona de empilhamento ($2/$3)
-Objective.LinkFarmToStockpile.Desc = Para fazer uma ligação da ##farmzone à uma ##stockpilezone, clique com o botão esquerdo no plantio e clique com o botão direito na zona de empilhamento. Plantios irão ser colhidos até que as zonas de empilhamento ligadas a ele estejam cheias.
+Objective.LinkStockpile = Faça uma ligação do $1 à zona de estoque ($2/$3)
+Objective.LinkStockpile.Desc = Para fazer uma ligação do $1 à uma ##stockpilezone, clique com o botão esquerdo em $1 e clique com o botão direito na zona de estoque. Bancadas irão produzir até que as zonas de estoque ligadas à ela estejam cheias.
+Objective.LinkFarmToStockpile = Faça uma ligação de um plantio à uma zona de estoque ($2/$3)
+Objective.LinkFarmToStockpile.Desc = Para fazer uma ligação do ##farmzone à uma ##stockpilezone, clique com o botão esquerdo no plantio e clique com o botão direito na zona de estoque. Plantios irão ser colhidos até que as zonas de estoque ligadas a ele estejam cheias.
 Objective.MiningJob = Crie tarefas de mineração ($2/$3)
-Objective.MiningJob.Desc = Para selecionar um recurso a ser ##mined, clique no botão de mineração e selecione coisas a serem mineradas. Arraste uma área para minerar tudo dentro dela. Note que os colonos podem minerar apenas recursos dentro de seu ##territory.
+Objective.MiningJob.Desc = Para ##mine um recurso, clique no botão de mineração e selecione coisas a serem mineradas. Arraste uma área para minerar tudo dentro dela. Note que os colonos podem minerar apenas recursos dentro de seu ##territory.
 Objective.ProductionTask = Defina uma produção: $1
-Objective.ProductionTask.Desc = Para produzir uma mercadoria, Selecione uma mesa de trabalho e clique na mercadoria que você quer que ela produza.
+Objective.ProductionTask.Desc = Para produzir uma mercadoria, Selecione uma bancada e clique na mercadoria que você quer que ela produza.
 Objective.SettlersEquipTool = Ferramentas equipadas ($2/$3)
 Objective.SettlersEquipTool.Desc = Colonos equipam automaticamente as ##tools que eles precisam. Produza as ferramentas que eles precisam para torna-los mais produtivos.
 
@@ -319,7 +306,6 @@ Objective.ShowHelpTooltip.Desc = Bem feito. Objetivos e muitos outros elementos 
 Objective.ClickHelp = Clique nesse objetivo.
 Objective.ClickHelp.Desc = Você pode clicar na maioria dos objetivos para mover a câmera para o que você precisa interagir.
 
-
 Objective.ScrollCamera = Mova a câmera usando WASD/setas.
 Objective.ScrollCamera.Desc = Aperte WASD ou as setas para rolar a câmera.
 
@@ -328,7 +314,6 @@ Objective.ZoomCamera.Desc = Mova a roda do mouse para ampliar e afastar a câmer
 
 Objective.RotateCamera = Rotacione usando Q/E ou PgUp/PgDown.
 Objective.RotateCamera.Desc = Aperte as teclas Q e E para rotacionar a câmera. Você também pode usar as teclas PageUP e PageDown.
-
 
 
 
@@ -344,7 +329,6 @@ ObjectiveGroup.SetupFarm = Instale uma fazenda
 ObjectiveGroup.SetupWell = Instale um poço
 ObjectiveGroup.RescueSettlers = Resgate colonos
 ObjectiveGroup.Recruit = Recrute
-
 
 # Settler needs
 Need.Sleep = Dormir
@@ -387,7 +371,6 @@ ActorState.Tired = Cansado
 ActorState.Total = Soma
 ActorState.NoTool = Peso leve (sem ferramenta)
 
-
 # Job/task groups
 TaskGroup._Name = Designação de trabalho
 TaskGroup.Agriculture = Trabalho rural
@@ -395,22 +378,20 @@ TaskGroup.Agriculture.Desc = Fazendeiros preparam o solo para plantio e colheita
 TaskGroup.Construction = Construção
 TaskGroup.Construction.Desc = Construtores executam os trabalhos de projetos.
 TaskGroup.Crafting = Artesãos
-TaskGroup.Crafting.Desc = Artesãos operam mesas de trabalhos para criarem mercadorias mais complexas.
+TaskGroup.Crafting.Desc = Artesãos operam bancadas para criarem mercadorias mais complexas.
 TaskGroup.Combat = Combate
 TaskGroup.Combat.Desc = Guerreiros defendem seus colonos e lutam contra inimigos.
 TaskGroup.Mining = Mineração e colheita
 TaskGroup.Mining.Desc = Mineradores derrubam #Tree#arvores e ##mine #Rock#rochas e pedras.
-Workshop._Name = Mesas de trabalhos
+Workshop._Name = Bancadas
 TaskGroup.Power = Energia
 TaskGroup.Power.Desc = Colonos e animais podem gerar ##power.
-
 
 
 
 Faction.Player = Amigável
 Faction.Enemy = Hostil
 Faction.Neutral = Neutro
-
 
 Text.BackerRaft.Desc = Enviado por $1.
 
@@ -431,10 +412,9 @@ BuildingType.Logistics.Desc = Construções e maquinário para automatizar sua p
 BuildingType.None = Diversos
 BuildingType.None.Desc = Construções diversas.
 BuildingType.Refining = Refinaria
-BuildingType.Refining.Desc = Mesas de trabalho para refino e descarte de recursos.
-BuildingType.Workshop = Mesas de trabalho
-BuildingType.Workshop.Desc = Mesas de trabalho para produzir ##tools, armas e maquinário.
-
+BuildingType.Refining.Desc = Bancadas para refino e descarte de recursos.
+BuildingType.Workshop = Bancada
+BuildingType.Workshop.Desc = Bancada para produzir ##tools, armas e maquinário.
 
 Settings.Category.Graphics = Gráficos
 Settings.Category.Audio = Audio
@@ -443,7 +423,6 @@ Settings.Category.Other = Outros
 
 Settings.Recommendations = Recomendações
 Settings.Recommendations.Desc = Mostra recomendações no canto esquerdo da tela.
-
 
 Settings.UIScale = Escala da interface
 Settings.UIScale.Desc = Aumente ou encolha a interface do usuário.
@@ -462,7 +441,7 @@ Settings.Ambience = Ambiente
 Settings.Ambience.Desc = Volume de efeitos de ambiente.
 Settings.AO = AO
 Settings.AO.Desc = Oclusão do ambiente: Efeitos de sombra e luz.
-Settings.Autosave = Auto-salvamento
+Settings.Autosave = Auto salvamento
 Settings.Autosave.Desc = Automaticamente salva o jogo após um período de tempo. 
 Settings.Bevel = Chanfro e bordas
 Settings.Bevel.Desc = Aplica um contorno e efeitos chanfrados ao redor dos objetos.
@@ -501,42 +480,40 @@ Settings.SSScale.Desc = Aumento da resolução na qualidade da captura de tela.
 Settings.Weather = Efeitos de clima
 Settings.Weather.Desc = Efeitos visuais de clima como chuva e neve.
 
-
-Workshop.Status.Busy = Mesa de trabalho ocupada.
-Workshop.Status.Busy.Desc = Um colono está usando essa mesa de trabalho.
-Workshop.Status.Idle = Mesa de trabalho ociosa.
+Workshop.Status.Busy = Bancada ocupada.
+Workshop.Status.Busy.Desc = Um colono está usando essa bancada.
+Workshop.Status.Idle = Bancada ociosa.
 Workshop.Status.Idle.Desc = Assim que um colono estiver pronto, a produção irá começar.
 Workshop.Status.NoInput = Sem entradas. 
 Workshop.Status.NoInput.Desc = Produção irá retornar quando o recurso de entrada estiver disponível.
 
-Workshop.Status.NoOutput = Nenhuma área de empilhamento foi designada.
-Workshop.Status.NoOutput.Desc = Para ligar uma ##stockpilezone de saída, clique com o botão esquerdo na mesa de trabalho e clique com o botão direito no empilhamento que você quer que a produção vá. Mesas de trabalho irão produzir até que as zonas de empilhamento ligadas à ela estejam cheias.
+Workshop.Status.NoOutput = Nenhuma área de estoque foi designada.
+Workshop.Status.NoOutput.Desc = Para ligar uma ##stockpilezone de saída, clique com o botão esquerdo na bancada e clique com o botão direito no estoque que você quer que a produção vá. Bancadas irão produzir até que as zonas de estoque ligadas à ela estejam cheias.
 Workshop.Status.NoProduct = Nenhum produto selecionado.
-Workshop.Status.NoProduct.Desc = Para escolher um item a ser produzido, clique nele no painel de informações da mesa de trabalho.
+Workshop.Status.NoProduct.Desc = Para escolher um item a ser produzido, clique nele no painel de informações da bancada.
 
  
 Workshop.Status.NoSettler = Nenhum colono designado.
-Workshop.Status.NoSettler.Desc = Para fazer um colono trabalhar nessa mesa de trabalho, selecione ele/ela e clique na mesa de trabalho no painel do colono e certifique-se que ele é permitido trabalhar nessa zona. Você também pode gerenciar os trabalhos dos colonos pela tela de gerenciamento de colonos.
-Workshop.Status.OutputFull = Empilhamento de saída cheio.
+Workshop.Status.NoSettler.Desc = Para fazer um colono trabalhar nessa bancada, selecione ele/ela e clique na bancada no painel do colono e certifique-se que ele é permitido trabalhar nessa zona. Você também pode gerenciar os trabalhos dos colonos pela tela de gerenciamento de colonos.
+Workshop.Status.OutputFull = Estoque de saída cheio.
 Workshop.Status.OutputFull.Desc = A produção irá retornar quando houver espaço disponível na ##stockpilezone de saída.
 Workshop.Status.UnderConstruction = Em construção.
-Workshop.Status.UnderConstruction.Desc = A mesa de trabalho está sendo construída.
-
+Workshop.Status.UnderConstruction.Desc = A bancada está sendo construída.
 
 Farm.Status.Harvest = Pronto para colheita.
 Farm.Status.Harvest.Desc = 
 Farm.Status.Idle = Ocioso.
 Farm.Status.Idle.Desc = 
-Farm.Status.NoOutput = Nenhum empilhamento de saída designado.
-Farm.Status.NoOutput.Desc = Para ligar uma ##stockpilezone de saída, clique com o botão esquerdo na fazenda e clique com o botão direito na ##farmzone que você quer que a produção vá. Fazendas irão produzir até que as zonas de empilhamento ligadas a ela estejam cheias.
-Farm.Status.NoOutputForProduct = Empilhamento de saída não aceita os produtos.
+Farm.Status.NoOutput = Nenhum estoque de saída designado.
+Farm.Status.NoOutput.Desc = Para ligar uma ##stockpilezone de saída, clique com o botão esquerdo na fazenda e clique com o botão direito na ##farmzone que você quer que a produção vá. Fazendas irão produzir até que as zonas de estoque ligadas a ela estejam cheias.
+Farm.Status.NoOutputForProduct = Estoque de saída não aceita os produtos.
 Farm.Status.NoOutputForProduct.Desc = Para trocar os produtos aceitos por uma ##stockpilezone, clique com o botão esquerdo nela e troque os tipos selecionando-os no painel.
 
-Workshop.Status.NoOutputForProduct = Empilhamento de saída não aceita os produtos.
+Workshop.Status.NoOutputForProduct = Estoque de saída não aceita os produtos.
 Workshop.Status.NoOutputForProduct.Desc = Para trocar os produtos aceitos por uma ##stockpilezone, clique com o botão esquerdo nela e troque os tipos selecionando-os no painel.
 
 Farm.Status.NoWorkers = Sem fazendeiros.
-Farm.Status.OutputFull = Empilhamento de saída cheio.
+Farm.Status.OutputFull = Estoque de saída cheio.
 Farm.Status.OutputFull.Desc = A colheita irá retornar quando houver espaço disponível na ##stockpilezone de saída.
 Farm.Status.Paused = Nenhum produto selecionado.
 Farm.Status.Plant = Pronto para plantio.
@@ -545,9 +522,6 @@ Farm.Status.Till = Pronto para cultivo.
 Farm.Status.Till.Desc = Pronto para cultivo.
 Farm.Status.Water = Pronto para regar.
 Farm.Status.Water.Desc = Pronto para receber ##water. Certifique-se que há baldes disponíveis. 
-
-
-
 
 MainMenu.NewCampaign = Nova campanha
 MainMenu.ResumeCampaign = Continuar jogo
@@ -624,7 +598,6 @@ UI.ClearZone.Desc = Destrói uma construção ou uma ##Stockpilezone, ##Farmzone
 UI.CancelOrder = Cancelar ordem
 UI.CancelOrder.Desc = Cancela uma ordem como minerar, carregar ou desconstruir.
 
-
 Logistics.Status.NotConnected = Não conectado ao sistema de logística.
 Logistics.Status.Supply = Fornecendo ao sistema de logística.
 Logistics.Status.Request = Requisitando do sistema de logística.
@@ -634,10 +607,8 @@ Logistics.Status.CanRequest = Pode requisitar do sistema de logística.
 Logistics.Status.CanSupplyRequest = Pode fornecer ou requisitar.
 Logistics.Status.CanRequestButNotSetup = Nenhuma mercadoria aceitar pelo sistema de logística.
 
-
 UI.LogisticsSystem = Sistema de logística
-UI.LogisticsSystem.Desc = Para <b>fornecer</b> mercadorias, conecte essa unidade a outras unidades (empilhamentos, estações de dirigíveis etc.) apertando o botão direito do mouse neles. Certifique-se que há mercadorias para fornecer. <br>Para <b>requisitar</b> mercadorias, conecte outras unidades (empilhamentos, estações de dirigíveis etc.) nesse empilhamento e defina as mercadorias a serem aceitas. (##logsys)
-
+UI.LogisticsSystem.Desc = Para <b>fornecer</b> mercadorias, conecte essa unidade a outras unidades (estoques, estações de dirigíveis etc.) apertando o botão direito do mouse neles. Certifique-se que há mercadorias para fornecer. <br>Para <b>requisitar</b> mercadorias, conecte outras unidades (estoques, estações de dirigíveis etc.) nesse estoque e defina as mercadorias a serem aceitas. (##logsys)
 
 
 Farm.Status.Working = Funcionando
@@ -653,7 +624,6 @@ Settings.Lights.Desc=Mostra luzes no cenário (requer recarregamento do mapa).
 
 Settings.Tooltips=Dicas
 Settings.Tooltips.Desc=Mostram dicas quando passa o mouse sobre Botões etc.. Quando desativado, você ainda consegue ver enquanto segura a tecla shift e move o mouse.
-
 
 UI.FightClose = Remover bandeira de agrupamento.
 UI.FightClose.Desc = Remove a bandeira de agrupamento. Todos os colonos retornam para suas tarefas.
@@ -672,26 +642,22 @@ UI.Build.MissingMaterials.Desc = Seus colonos estão necessitando um ou mais rec
 UI.Cancel = Cancelar
 UI.Cancel.Desc = Aborta a construção.
 
-StockpileZoneCC = Empilhamento
-StockpileZoneCC.Desc = Um empilhamento pode ser usando para guardar produtos de mesas de trabalho, fazenda e mineração.
+StockpileZoneCC = Estoque
+StockpileZoneCC.Desc = Um estoque pode ser usando para guardar produtos de bancadas, fazenda e mineração.
 FarmZoneCC = Fazenda
 FarmZoneCC.Desc = Fazenda permite seus colonos a fazer plantio. (##farmzone)
 GroveZoneCC = Arvoredo
 GroveZoneCC.Desc = Podem ser atribuídas em solo fértil para permitir que seus colonos cresçam árvores. (##grovezone)
 
-
 CargoShip.State.ENTERHARBOUR = Entrando no porto de carga.
 CargoShip.State.UNLOAD = Descarregando.
 CargoShip.State.LEAVE = Saindo do porto de carga.
-
-
 
 UI.Food = Estoque de comidas
 UI.Food.Desc = Forneça ##food para seus colono para fazê-los aumentar a produtividade.
 
 UI.Drink = Estoque de bebidas
 UI.Drink.Desc = Forneça ##drinks para seus colono para fazê-los aumentar a produtividade.
-
 
 UI.House = Casa
 UI.House.Desc = Forneça ##houses para seus colono para fazê-los aumentar a produtividade.
@@ -700,8 +666,7 @@ UI.IdleColonists = Colonos ociosos
 UI.IdleColonists.Desc = Clique aqui para visualizar todos colonos ##idle.
 
 UI.Warnings = Avisos
-UI.Warnings.Desc = Avisos indicam possíveis problemas como mesas de trabalho sem operador designado. Clique aqui para visualizar todos os avisos. 
-
+UI.Warnings.Desc = Avisos indicam possíveis problemas como bancadas sem operador designado. Clique aqui para visualizar todos os avisos. 
 
 UI.Time = Hora
 UI.Time.Desc = Hora do dia. Maioria do plantio cresce somente durante o ##day. 
@@ -714,7 +679,6 @@ Robot.Mode.NORMAL = Modo normal
 Robot.Mode.OVERCLOCKED = Modo tunado
 
 MainMenu.Tutorials = Tutoriais e cenários de exemplos
-
 
 Task.Upgrade.Text = Atualizando $1.
 Task.Unload.Text = Descarregando $1.
@@ -730,7 +694,7 @@ Task.Produce.Text = Produzindo $1 em $2.
 Task.Power.Text = Energizando $1.
 Task.Clean.Text = Limpando $1.
 Task.Load.Text = Carregando $1.
-Task.Stockpile.Text = Movendo $1 para empilhamento.
+Task.Stockpile.Text = Movendo $1 para estoque.
 Task.LogisticsSystem.Text = Movendo $1.
 Task.Equip.Text = Equipando $1.
 Task.Unequip.Text = Desequipando.
@@ -766,7 +730,6 @@ Train.Status.NoPath.Desc = Certifique-se de conectar os trilhos entre as estaç�
 Train.Status.Okay = Trem ativo.
 Train.Status.WaitAtStation = Aguardando na estação. 
 Train.Status.WaitAtStation.Desc = o trem irá retornar à ativa quando for processado na estação. 
-
 
 UI.AttackCamp = Atacar acampamento.
 UI.TotalStrength = Força combinada 
@@ -812,16 +775,10 @@ Tool.Hit.Desc = A chance de sucesso determina a possibilidade da tarefa ser comp
 Tool.Crit = Chance crítica
 Tool.Crit.Desc = A possibilidade de ter um sucesso crítico. Acerto crítico de arma dão dano bônus. Mineração crítica fornece mais recursos. 
 
-
 MainMenu.Skirmish.Scenarios = Cenários
 MainMenu.Skirmish.Modifiers = Modificadores
 
-
-
-
 UI.ItemTypes.Title = Tipos de item:
-
-
 
 Building.Mode = Modo construção. 
 Building.Mode.Desc = Clique para alternar entre ativo e inativo.
@@ -836,7 +793,6 @@ UI.ToolValue = ##Tool: Valor base $1.
 
 Message.TrainRouteFail = Trem não achou rota para $1.
 Message.FactorySegmentBlocked = Segmento de trilho ocupado.
-
 
 UI.PlantGrowth = Crescimento: $1%
 UI.PlantGrowthRate = Taxa de crescimento: $1%
@@ -854,7 +810,6 @@ LoadingPhase.UIPanels = Inicializando interface de usuário.
 LoadingPhase.CombineMeshes = Combinando malhas(meshes).
 LoadingPhase.InitNavmesh = Inicializando navegação.
 
-
 UI.MineableContent = Conteúdo da montanha:
 
 UI.DeleteGame = Deletar
@@ -863,22 +818,19 @@ UI.Tier1 = Grau 1
 UI.Tier2 = Grau 2
 UI.Tier3 = Grau 3
 
-
 TipOfTheDay.Header=Dica:
 TipOfTheDay.1=Seus objetivos são mostrados no canto superior esquerdo. Passe o mouse sobre eles para mais informações. Clique no globo de luz para abrir a janela de ajuda. Leve seu tempo - seus colonos não morrerão de fome.
 TipOfTheDay.2=Seus colonos não podem morrer. Quando eles se machucam, eles irão se curar ao dormir.
 TipOfTheDay.3=Quando estiver escolhendo recursos para minerar, segura a tecla Alt para marcar todos os itens do mesmo tipo no seu território.
 TipOfTheDay.4=Você pode clonar uma construção já existente apertando a tecla Alt e clicando nela.
-TipOfTheDay.5=Enquanto estiver adicionando uma receita da mesa de trabalho, segure a tecla Alt para automaticamente atualizar as mercadorias aceitas pelo seu empilhamento de saída.
+TipOfTheDay.5=Enquanto estiver adicionando uma receita da bancada, segure a tecla Alt para automaticamente atualizar as mercadorias aceitas pelo seu estoque de saída.
 TipOfTheDay.6=Aperte Shift+F1 para salvar a posição atual da câmera. Aperte F1 para voltar a essa posição. (Funciona com F1~F4)
 TipOfTheDay.7=Aperte F11 para esconder a interface de usuário.
 TipOfTheDay.8=Aperte F12 para fazer uma captura de tela. <br><br>Pasta de salvamento para Windows:<br>   C:\Users_\<username>_\AppData_\LocalLow_\MirkoStudio_\Kubifak_torium_\...  <br>Pasta para Mac/Linux:<br>  ~/.config_/unity3d_/MirkoStudio_/Kubifak_torium_/
 TipOfTheDay.9=Clique no painel de descrição do item para abrir a visão da árvore de produção.
-TipOfTheDay.10=Clique em uma construção recomendada para construí-la. Clique em um item recomendado para selecionar a mesa de trabalho onde ele pode ser construído.
+TipOfTheDay.10=Clique em uma construção recomendada para construí-la. Clique em um item recomendado para selecionar a bancada onde ele pode ser construído.
 
-UI.RecipieHint = <i>Clique em uma receita para ativá-la ou desativá-la. Segure a tecla Alt para automaticamente atualizar as mercadorias aceitas pelo seu empilhamento de saída.</i>
-
-
+UI.RecipieHint = <i>Clique em uma receita para ativá-la ou desativá-la. Segure a tecla Alt para automaticamente atualizar as mercadorias aceitas pelo seu estoque de saída.</i>
 
 UI.Recommendations = Recomendações
 
@@ -891,7 +843,6 @@ MainMenu.Campaign.Size.2 = Normal
 MainMenu.Campaign.Size.3 = Grande
 MainMenu.Campaign.Size.4 = Enorme
 
-
 UI.AssignZone = Alterar zona.
 UI.AssignZone.Desc = Clique aqui para designar/remover cor da ##zone.  
 
@@ -901,13 +852,11 @@ UI.TargetTrack = Meta de Inventário ($1 / $2):
 UI.ProductionTarget.Met = Meta de Inventário atingida por:<br> $1
 UI.ProductionTarget.MetShort = Inventário atingido:<br> $1  
 
-
 UI.Recommendations.Desc = O sistema de Recomendações sugerem coisas para fazer baseado na situação atual. 
 
 UI.ProductionTarget = ##Productiontarget
 UI.ProductionTarget.Desc = A ##productiontarget para a ilha atual.
 UI.ProductionTarget.TooltipTitle = Meta de produção:
-
 
 UI.WM.Inventory.Title = Inventário
 UI.WM.Inventory = Inventário
@@ -934,25 +883,673 @@ Message.LevelUp = $1 atingiu lvl $3. $2.
 
 Message.GameSaved = Jogo salvo. 
 
+# Items and screens names
+
+AttackEnemyCamp.Desc = 2.) Ataque o acampamento inimigo
+AttackEnemyCamp.Intro = Clique no território inimigo e clique em atacar para ordenar seus colonos ao ataque.
+AttackEnemyCamp.Outro = Dica: Selecione seus colonos para ver quanto de dano eles dão com diferentes armas.
+
+BuildAutoTrain.Desc = 2.) Construa um trem
+BuildAutoTrain.Intro = Construa um trem usando a fábrica de trens.
+BuildCircleTrain1.Desc = Construa trens 1/4
+BuildCircleTrain1.Intro = Construa um trem usando a fábrica de trens e adicione as duas estações ao seu cronograma.
+BuildCircleTrain2.Desc = Construa trens 2/4
+BuildCircleTrain2.Intro = Construa outro trem usando a fábrica de trens e adicione as duas estações ao seu cronograma.
+BuildCircleTrain3.Desc = Construa trens 3/4
+BuildCircleTrain3.Intro = Construa outro trem usando a fábrica de trens e adicione as duas estações ao seu cronograma.
+BuildCircleTrain4.Desc = Construa trens 4/4
+BuildCircleTrain4.Intro = Construa o último trem usando a fábrica de trens e adicione as duas estações ao seu cronograma.
+BuildCircleTrain4.Outro = Os quatro trens irão usar essa rede de trens circular sem travá-los. Esse tipo de configuração é útil para linhas de alta-capacidade.
+BuildCloverleaf.Desc = Construa trens
+BuildCloverleaf.Intro = Construa alguns trens usando a fábrica de trens (1) e adicione diferentes tipos de estações ao seu cronograma.
+BuildPreSignalTrain1.Desc = Construa trem 1/4
+BuildPreSignalTrain1.Intro = Construa um trem usando a fábrica de trens e adicione as duas estações ao seu cronograma.
+BuildPreSignalTrain2.Desc = Construa trem 2/4
+BuildPreSignalTrain2.Intro = Construa outro trem usando a fábrica de trens e adicione as duas estações ao seu cronograma.
+BuildPreSignalTrain3.Desc = Construa trem 3/4
+BuildPreSignalTrain3.Intro = Construa outro trem usando a fábrica de trens e adicione as duas estações ao seu cronograma.
+BuildPreSignalTrain4.Desc = Construa trem 4/4
+BuildPreSignalTrain4.Intro = Construa o último trem usando a fábrica de trens e adicione as duas estações ao seu cronograma.
+BuildPreSignalTrain4.Outro = Pré-semáforos evita seus trens de entrar em interseções quando isso pode causar um bloqueio.
+BuildTrain.Desc = 3.) Construa um trem
+BuildTrain.Intro = Build a train using the train factory (4).
+
+CarriageSetupLinks.Desc = 2.) Defina as ligações
+CarriageSetupLinks.Intro = Ótimo. As rochas agora são carregadas para a estação no Norte por que é a mais próxima. Agora, ligue as estações.
+CarriageSetupSchedule.Desc = 3.) Defina o cronograma
+CarriageSetupSchedule.Intro = Por último, selecione a carruagem de cavalos e as estações para seu cronograma apertando o botão direito nelas.
+CarriageSetupStockpiles.Desc = 1.) Defina uma estação e um estoque
+CarriageSetupStockpiles.Intro = Rochas são bem pesadas e lentas de carregar. Usar cavalos para transportá-las por longas distâncias é mais eficiente. Selecione a estação de cavalo no topo e o estoque no inferior para aceitar rochas.
+
+ConvTutPart1.Desc = 1.) Configuração simples.
+ConvTutPart1.Intro = Essa configuração mostra como esteiras de chão podem ser usadas. Selecione o funil de saída no depósito e configure-o para aceitar blocos de ferro.
+ConvTutPart2.Desc = 2.) Distribuidores.
+ConvTutPart2.Intro = Distribuidores separa itens uniformemente de esteiras de chegada para uma ou mais esteiras de saída. Selecione o funil de saída no depósito (2) e configure-o para aceitar blocos de pedras.
+ConvTutPart3.Desc = 3.) Esteiras superiores.
+ConvTutPart3.Intro = Esteiras podem ser construídas em duas camadas. Use as rampas para transportar mercadorias entre as camadas altas e baixas. Selecione o funil de saída no depósito (3) e configure-o para aceitar blocos de pedra.
+
+DefeatEnemyCamp.Desc = 3.) Derrote o acampamento inimigo
+DefeatEnemyCamp.Intro = Clique no território inimigo e clique em atacar para ordenar seus colonos ao ataque.
+DefeatEnemyCamp.Outro = Dica: Seus colonos não morrem em combate. Quando eles se machucam, eles recuam para se curar.
+
+LinkAutoTrainStations.Desc = 1.) Ligue estações de trem
+LinkAutoTrainStations.Intro = Dê uma olhada na instalação do norte. As pedreiras automatizadas produzem ferro que é automaticamente transportada para a estação de trem. Crie uma ligação da estação 1 para a estação 2.
+LinkGoldZeppelinStation.Desc = 4.) Ligue o ouro á rede
+LinkGoldZeppelinStation.Intro = Agora, nós precisamos ligar nosso estoque de ouro (3) á estação de dirigíveis próxima a ele (2). Fazendo isso, irá disponibilizar o conteúdo do estoque para a rede de logística.
+LinkStockpiles.Desc = 3.) Ligue os estoques
+LinkStockpiles.Intro = Para encher os estoques de entrada, nós iremos usar o sistema de logística. Ligue os estoques 2 ao 4 e 3 ao 5. Também, defina-os para aceitar rochas e troncos de madeira.
+LinkTrainStations.Desc = 2.) Ligue estações de trem
+LinkTrainStations.Intro = Crie ligações entre as estações de trem em ambas direções.
+LinkTrainStockpiles.Desc = 5.) Ligue estoques
+LinkTrainStockpiles.Intro = Por último, nós precisamos ligar nossos estoques as estações e definir o estoque 5 para aceitar blocos de ouro.
+LinkTrainStockpiles.Outro = Dica: Trens são mais caros para instalar, mas possuem capacidade maior que dirigíveis.
+LinkZeppelinStations.Desc = 3.) Ligue estações de dirigíveis
+LinkZeppelinStations.Intro = Nós iremos usar dirigíveis para transportar blocos de ouro. Para fazer isso, comece ligando o depósito de dirigíveis (2) no Norte ao depósito (4) no sul.
+LinkZeppelinStationToTarget.Desc = 5.) Ligue o estoque alvo
+LinkZeppelinStationToTarget.Intro = Por último, nós precisamos conectar o estoque (4) do sul ao nosso estoque de destino (5) e definir o estoque para aceitar blocos de ouro.
+LinkZeppelinStationWater.Desc = 6.) Conecte baldes de água.
+LinkZeppelinStationWater.Intro = Ótimo! Os blocos de ouro agora serão transportados. Mas não seria legal se os dirigíveis transportassem baldes de água para o posto no caminho de volta? Configure tudo para isso acontecer!
+
+Map01.IntroCamera = Aprenda a controlar a câmera.
+Map01.IntroControls = Se familiarize com os controles:
+Map01.IntroDebug = Note que essa opção te permite acessar conteúdos não terminados e com problemas.
+Map01.Introduction = Nós chegamos em uma ilha pequena e calma. Nós devemos fazer um pequeno acampamento e estocar madeira e pedras.
+Map01.IntroExpand = Construa uma segunda fogueira para expandir nosso território:
+Map01.IntroFarm = Defina uma zona de fazenda para crescer comida fresca para nossos colonos:
+Map01.IntroHelp = Aprenda a usar o sistema de ajuda:
+Map01.IntroLoad = Ótimo! Por último, antes de mover para a próxima ilha, nós devemos atingir a meta de inventário para essa ilha.
+Map01.IntroMine = Esta ilha é muito rica em recursos básicos. Minere algumas madeiras e pedras:
+Map01.IntroUnload = Descarregue os suprimentos de nosso barco:
+Map01.IntroWell = Construa um poço para suprir nosso povo com água fresca:
+Map01.OutroLoad = Note: Na campanha, tudo que produzimos em uma ilha estará disponível no mapa mundo para usar mais tarde. Construções são automaticamente desconstruídas e seus materiais são carregados para o barco.
+Map01.OutroRecruit = Dica: Aumente o tamanho de sua fazenda, expanda seus estoques e use fogueiras para expandir a área e colher todos os recursos necessários.
+Map01.SpawnStrandedColonists = Alguns naufragados querem se juntar a sua colônia.
+Map01.SpawnStrandedColonists.Short = Recrute naufragados.
+MapFP.Introduction = Este pequeno tutorial irá lhe mostrar como você pode usar as opções de depuração do jogo para acessar conteúdos inacabados.
+
+Mod.CoastWaves = Ondas na costa
+Mod.CoastWaves.Desc = Adiciona sons de ondas no jogo e as atribui as rochas da praia.
+Mod.GreenTomato = Mod. Tomate verde
+Mod.GreenTomato.Desc = Esta é uma mod. Exemplo que mostra como adicionar um item.
+Mod.LanguageTest = Teste de linguagem
+Mod.LanguageTest.Desc = Adiciona uma nova linguagem ao jogo. (Para ser usada como padrão.)
+Mod.MapSize50 = Tamanho do mapa 50
+Mod.MapSize50.Desc = Adiciona o Tamanho do mapa 50 como uma opção. (Como um exemplo para adicionar modificadores de mapa).
+Mod.MassiveSheep = Ovelhas gigantes
+Mod.MassiveSheep.Desc = Ovelhas são maiores e aparecem mais vezes.
+Mod.SpeedyColonists = Mod. Colono veloz
+Mod.SpeedyColonists.Desc = Esta é uma mod. que aumenta a velocidade dos colonos.
+Mod.StoneBakery = Padarias de pedra
+Mod.StoneBakery.Desc = Padarias agora são produzidas usando blocos de pedra (invés de tijolos).
+
+# Modifiers
+Modifier.CargoTier2 = Define Cargas para o Grau 2.
+Modifier.CargoTier3 = Define Cargas para o Grau 3.
+Modifier.EnemyCampsFew = Poucos acampamentos inimigos.
+Modifier.EnemyCampsMany = Muitos acampamentos inimigos.
+Modifier.EnemyCampsNone = Nenhum acampamento inimigo.
+Modifier.EnemyCampsNormal = Acampamentos inimigos normais.
+Modifier.MapSizeBig = Mapa grande (96²)
+Modifier.MapSizeHuge = Mapa enorme (128²)
+Modifier.MapSizeNormal = Mapa normal (90²)
+Modifier.MapSizeSmall = Mapa pequeno (72²)
+Modifier.MapSizeTest = Mapa de teste (20²)
+Modifier.MapsizeTiny = Mapa minúsculo (60²)
+Modifier.RecruitablePigs = Alguns pastores e seus porcos querem se juntar.
+Modifier.ResourcesBasic = Somente recursos básicos.
+Modifier.ResourcesBasic.Intro = Essa ilha é rica em madeira e pedra, mas carece de minérios.
+Modifier.ResourcesMeadow = Pasto.
+Modifier.ResourcesMeadow.Intro = Pequena vegetação e rochas. E também duas ovelhas amigáveis.
+Modifier.ResourcesNormal = Recursos normais.
+Modifier.ResourcesNormal.Intro = Distribuição normal de recursos.
+Modifier.ResourcesRocky = Desolado e rochoso.
+Modifier.ResourcesRocky.Intro = Pequena vegetação, más muita pedras.
+Modifier.SpawnSettlers = Invoque seus colonos
+Modifier.SpawnStrandedColonists = Dois naufragados querem se juntar á sua colonia.
+Modifier.SpawnStrandedColonists.Intro = Nós escutamos rumores de que á dois naufragados amigos no lado oposto dessa ilha. Se acharmos eles, eles podem querer se juntar a nós.
+Modifier.SpawnStrandedColonists.Short = Recrute naufragados.
+Modifier.StrandedGoods = Mercadorias encalhadas
+Modifier.TerrainDark = Grau 3: Mundo de cinzas (Selecione Carga de Grau 3!)
+Modifier.TerrainDesert = Grau 2: Deserto (Selecione Carga de Grau 2!)
+Modifier.TerrainGrassland = Grau 1: Campo
+Modifier.Tutorial1 = Instale uma colônia básica.
+Modifier.TutorialAdvancedProduction = Aprenda sobre produção avançada e técnicas de gerenciamento.
+Modifier.TutorialAdvancedProduction.Intro = Esse tutorial mostra como definir bancadas para produzir múltiplas mercadorias e gerenciar estoques.
+Modifier.TutorialAdvancedProduction.Outro = 
+Modifier.TutorialAutomatedTrains = Aprenda como montar uma rota de trem totalmente automatizada.
+Modifier.TutorialAutomatedTrains.Intro = Esse tutorial mostra como integrar construções de produção automática ao sistema de logística.
+Modifier.TutorialCarriages = Aprenda como instalar uma carruagem de cavalo.
+Modifier.TutorialCarriages.Intro = Esse tutorial mostra como definir carruagens para transportar rochas. Rochas são muito pesadas e lentas de carregar. Usar cavalos para transportá-las por longas distâncias é mais eficiente.
+Modifier.TutorialCarriages.Outro = Muito bem! Uma carruagem vem grátis com cada estação construída. Dê uma olhada no próximo tutorial para aprender como usar estoques conectados para ter mais controle sobre as mercadorias transportadas.
+Modifier.TutorialCombat = Aprenda mais sobre o sistema de combate.
+Modifier.TutorialCombat.Intro = Esse tutorial mostra como atacar e se defender de acampamentos inimigos.
+Modifier.TutorialConveyorBelts = Aprenda mais sobre esteiras de transporte.
+Modifier.TutorialConveyorBelts.Intro = Esse tutorial mostra alguns exemplos de maneiras úteis de usar esteiras.
+Modifier.TutorialFreePlay = Aprenda mais sobre como usar funções de trapaça.
+Modifier.TutorialLogistics = Aprenda como definir zonas e um sistema de logística.
+Modifier.TutorialLogistics.Intro = Esse tutorial é sobre instalar um posto e um sistema de logística. Tudo que precisamos já está construído, só precisamos configurar corretamente.
+Modifier.TutorialLogistics.Outro = Ótimo! Colonos e dirigíveis irão trabalhar juntos para transportar nossos blocos de ouros e baldes de água. O sistema de logística te permite criar cadeias complexas usando múltiplos sistemas de transporte. Mercadorias serão entregues até que os estoques estejam cheios.
+Modifier.TutorialNeedsTools = Aprenda mais sobre necessidades e ferramentas.
+Modifier.TutorialOreCrushing = Triturador de minérios automatizado.
+Modifier.TutorialOreCrushing.Intro = Essa cena não-interativa mostra como montar um processador de minérios automatizado. Clique no objetivo abaixo para continuar.
+Modifier.TutorialTrainCrossing = Aprenda como montar uma interconexão em trevo.
+Modifier.TutorialTrainCrossing.Intro = Esse tutorial avançado mostra como uma interconexão em trevo pode ser montada.
+Modifier.TutorialTrainPreSignals = Aprenda como montar semáforos de trem.
+Modifier.TutorialTrainPreSignals.Intro = Esse tutorial mostra alguns exemplos de como usar os semáforos de trem e ter mais de um trem na mesma rede.
+Modifier.TutorialTrains = Aprenda como montar uma rota de trem.
+Modifier.TutorialTrains.Intro = Esse tutorial mostra como conectar duas estações de trem pelo sistema de logística.
+Modifier.TutorialTrainSignalsCircle = Exemplo de rede de trem circular.
+Modifier.TutorialTrainSignalsCircle.Intro = Esse tutorial mostra como usar os semáforos para permitir múltiplos trens em uma mesma rede.
+Modifier.WavesSlimes = Ondas: Slimes
+
+ObjectiveGroup.Debug = Introdução do modo de depuração.
+ObjectType.AutoSmelter = Fundição automática
+ObjectType.AutoSmelter.Desc = Fundições ##Automated derretem minérios triturados em blocos de metal.
+ObjectType.BackerRaft = Jangada
+ObjectType.BackerRaft.Desc = Entrega um item doado por outro jogador.
+ObjectType.Bakery = Padaria
+ObjectType.Bakery.Desc = Usada para produzir pães e outros tipos de comida.
+ObjectType.Barn = Celeiro básico
+ObjectType.Barn.Desc = Um lugar para seus animais descansarem.
+ObjectType.BasicWorkplace = Bancada básica
+ObjectType.BasicWorkplace.Desc = A bancada básica pode ser usada para criar tábuas de madeira e blocos de pedras.
+ObjectType.BeachRock = Pequenas rochas.
+ObjectType.BeachRock.Desc = Podem ser removidas minerando-as ou as colhendo.
+ObjectType.Beer = Cerveja
+ObjectType.Beer.Desc = Cerveja deixa seus colonos felizes.
+ObjectType.Betanium = Betanium
+ObjectType.Betanium.Desc = Betanium é usado para criar coisas que ainda estão em desenvolvimento.
+ObjectType.Boat = Barco
+ObjectType.Boat.Desc = Você usa o barco para atravessar sobre os mares.
+ObjectType.Bonfire = Fogueira
+ObjectType.Bonfire.Desc = Construa fogueiras para expandir seu ##territory e definir ##zones.
+ObjectType.Bread = Pão
+ObjectType.Bread.Desc = Uma rica fonte de nutrição.
+ObjectType.Brewery = Cervejaria
+ObjectType.Brewery.Desc = Usada para produzir cerveja e outros tipos de bebidas.
+ObjectType.Brick = Tijolo
+ObjectType.Brick.Desc = Usado para fazer construções mais avançadas.
+ObjectType.Bush = Arbusto
+ObjectType.Bush.Desc = Um simples arbusto.
+ObjectType.BushBerries = Morango
+ObjectType.BushBerries.Desc = Morangos crescem rápido e são fonte de comida. Cresce no campo.
+ObjectType.Cactus = Cactos
+ObjectType.Cactus.Desc = Evoluídos para sobreviverem ao árduo clima do deserto.
+ObjectType.CargoShip = Barco de carga
+ObjectType.CargoShip.Desc = Traz uma parta do que é produzido nas suas colônias anteriores.
+ObjectType.Centrifuge = Centrífuga
+ObjectType.Centrifuge.Desc = Usada para ##automatically múltiplos tipos de minérios triturados.
+ObjectType.Charcoal = Carvão
+ObjectType.Charcoal.Desc = Carvão é usado como combustível para bancadas mais avançadas.
+ObjectType.Clay = Argila
+ObjectType.Clay.Desc = Argila pode ser processada em tijolos, que são usados para construções.
+ObjectType.ClayQuarry = Pedreira de Argila
+ObjectType.ClayQuarry.Desc = A pedreira de argila ##automatically produz uma infinita fonte de argila.
+ObjectType.ClayVein = Veio de argila
+ObjectType.ClayVein.Desc = Argila pode ser processada em tijolos, que são usados para construções.
+ObjectType.Column = Coluna
+ObjectType.Column.Desc = Pode ser removida através da colheita.
+ObjectType.ConstructionBlock = Bloco de construção
+ObjectType.ConstructionBlock.Desc = Um bloco de construção reforçado usado para construções avançadas.
+ObjectType.ConveyorBeltHigh = Esteira de transporte (alto)
+ObjectType.ConveyorBeltHigh.Desc = Esteiras podem ser usadas para automaticamente transportar mercadorias dentro da sua colônia.
+ObjectType.ConveyorBeltParts = Partes de esteiras
+ObjectType.ConveyorBeltParts.Desc = Partes de esteiras são usadas para construir esteiras de transporte.
+ObjectType.ConveyorBeltRampDown = Esteira (rampa)
+ObjectType.ConveyorBeltRampDown.Desc = Esteiras podem ser usadas para automaticamente transportar mercadorias dentro da sua colônia.
+ObjectType.ConveyorBeltRampUp = Esteira (rampa)
+ObjectType.ConveyorBeltRampUp.Desc = Esteiras podem ser usadas para automaticamente transportar mercadorias dentro da sua colônia.
+ObjectType.ConveyorBeltStraight = Esteira (baixo)
+ObjectType.ConveyorBeltStraight.Desc = Esteiras podem ser usadas para automaticamente transportar mercadorias dentro da sua colônia.
+ObjectType.ConveyorDistributor = Distribuidor de esteira
+ObjectType.ConveyorDistributor.Desc = Uniformemente separa os itens vindo das esteiras para uma ou mais esteiras de saída.
+ObjectType.ConveyorDistributorHigh = Distribuidor de esteira (alto)
+ObjectType.ConveyorDistributorHigh.Desc = Uniformemente separa os itens vindo das esteiras para uma ou mais esteiras de saída.
+ObjectType.Copper = Cobre
+ObjectType.Copper.Desc = Cobre
+ObjectType.CopperBlock = Bloco de cobre
+ObjectType.CopperBlock.Desc = Um bloco de cobre.
+ObjectType.CorniTree = Pinheiro
+ObjectType.CorniTree.Desc = Árvores podem ser mineiradas para pegar troncos.
+ObjectType.CrushedCopper = Cobre triturado
+ObjectType.CrushedCopper.Desc = Pode ser derretido em bloco de cobre.
+ObjectType.CrushedCopperMix = Rochas de cobre
+ObjectType.CrushedCopperMix.Desc = Pode ser separada em cobre triturado e rocha.
+ObjectType.CrushedIron = Ferro triturado
+ObjectType.CrushedIron.Desc =  Pode ser derretido em bloco de ferro.
+ObjectType.CrushedIronMix = Rochas de ferro
+ObjectType.CrushedIronMix.Desc = Pode ser separada em ferro triturado e rocha.
+ObjectType.CrushedRock = Pedregulhos
+ObjectType.CrushedRock.Desc = Pode ser usado para fazer concreto.
+ObjectType.CrystalCore = Núcleo de cristal
+ObjectType.CrystalCore.Desc = Núcleo de cristal.
+ObjectType.Dark_Mountain = Montanha negra
+ObjectType.Dark_Mountain.Desc = Montanha negra
+ObjectType.DarkCrystal = Cristal negro
+ObjectType.DarkCrystal.Desc = Um cristal de origem desconhecida.
+ObjectType.DarkGeode = Geodo negro
+ObjectType.DarkGeode.Desc = Um geodo pode ser minerado para obter diferentes minérios.
+ObjectType.DarkRock = Pedra cinzenta
+ObjectType.DarkRock.Desc = Pedra cinzenta
+ObjectType.DarkRuins = Ruinas anciãs
+ObjectType.DarkRuins.Desc = Quem construiu isso já se foi á muito tempo.
+ObjectType.DarkTemple = Templo ancião
+ObjectType.DarkTemple.Desc = Quem construiu isso já se foi á muito tempo. (Maquete de produção)
+ObjectType.DecoBranches = Galhos
+ObjectType.DecoBranches.Desc = Pode ser removido através da colheita.
+ObjectType.DecoBush = Arbusto decorativo
+ObjectType.DecoBush.Desc = Não é muito excitante, más é bonitinho.
+ObjectType.DecoDarkRock = Pequenas rochas
+ObjectType.DecoDarkRock.Desc = Podem ser removidas minerando-as ou as colhendo.
+ObjectType.DecoFern = Samambaia
+ObjectType.DecoFern.Desc = Podem ser removidas minerando-as ou as colhendo.
+ObjectType.DecoRocks = Pequenas rochas
+ObjectType.DecoRocks.Desc = Podem ser removidas minerando-as ou as colhendo.
+ObjectType.DecoSeaShells = Conchas do mar
+ObjectType.DecoSeaShells.Desc = Podem ser removidas minerando-as ou as colhendo.
+ObjectType.DecoShrine = Altar decorativo
+ObjectType.DecoShrine.Desc =Ilumina seu redor e é bonito.
+ObjectType.DecoSwampBranches = Galhos
+ObjectType.DecoSwampBranches.Desc = Pode ser removido através da colheita.
+ObjectType.Depot5x5 = Depósito 5x5
+ObjectType.Depot5x5.Desc = ##depots ##Automated podem ser usados para armazenar e distribuir mercadorias.
+ObjectType.DepotEntry = Depósito de entrada
+ObjectType.DepotEntry.Desc = Coloque itens aqui para serem levados ao ##depot.
+ObjectType.DepotExit = Depósito de saída
+ObjectType.DepotExit.Desc = Requisita itens do ##depot.
+ObjectType.Desert_Mountain = Montanha de deserto
+ObjectType.Desert_Mountain.Desc = Montanha de deserto
+ObjectType.DesertBrokenGround = Solo murcho.
+ObjectType.DesertBrokenGround.Desc = Pode ser limpo através da mineração.
+ObjectType.DesertBrokenGroundHigh = Solo murcho.
+ObjectType.DesertBrokenGroundHigh.Desc = Pode ser limpo através da mineração.
+ObjectType.DesertPillars = Pilar destruído.
+ObjectType.DesertPillars.Desc = Pode ser removido através da mineração.
+ObjectType.DesertRuins = Ruinas.
+ObjectType.DesertRuins.Desc = Pode ser limpo através da mineração.
+ObjectType.DesertTorch = Tocha
+ObjectType.DesertTorch.Desc = Uma construção antiga.
+ObjectType.DesertTreeStump = Toco de árvore
+ObjectType.DesertTreeStump.Desc = Toco de árvore
+ObjectType.EnemyBonfire = Fogueira inimiga
+ObjectType.EnemyBonfire.Desc = Destrua essa fogueira para reivindicar o ##territory para você.
+ObjectType.Farm5x5 = Fazenda automatizada
+ObjectType.Farm5x5.Desc = Esta fazenda irá ##automatically crescer plantio simples.
+ObjectType.FilterInserter = Insersor com filtragem
+ObjectType.FilterInserter.Desc = Insersores move itens entre esteiras, ##depots e outros.
+ObjectType.Floor_Dark_Oasis = Oasis negro
+ObjectType.Floor_Dark_Oasis.Desc = Oasis negro
+ObjectType.Floor_Desert_Coast = Costa do deserto
+ObjectType.Floor_Desert_Coast.Desc = Costa do deserto
+ObjectType.Floor_Desert_MountainBase = Areia do deserto
+ObjectType.Floor_Desert_MountainBase.Desc = Areia do deserto
+ObjectType.Floor_Desert_Oasis =Oasis do deserto
+ObjectType.Floor_Desert_Oasis.Desc = Oasis do deserto
+ObjectType.Floor_Desert_Oasis_Water = Oasis do deserto
+ObjectType.Floor_Desert_Oasis_Water.Desc = Oasis do deserto
+ObjectType.Floor_Desert_Ocean = Oceano
+ObjectType.Floor_Desert_Ocean.Desc = Oceano
+ObjectType.Floor_Desert_Rough = Solo queimado
+ObjectType.Floor_Desert_Rough.Desc = Solo queimado
+ObjectType.Floor_Desert_Sand = Areia do deserto
+ObjectType.Floor_Desert_Sand.Desc = Areia do deserto
+ObjectType.Floor_Desert_SandHigh = Areia do deserto
+ObjectType.Floor_Desert_SandHigh.Desc = Areia do deserto
+ObjectType.Floor_Desert_Water = Água
+ObjectType.Floor_Desert_Water.Desc = Água
+ObjectType.Floor_Earth = Campo (montanha)
+ObjectType.Floor_Earth.Desc = Campo (montanha)
+ObjectType.Floor_Grass = Campo 
+ObjectType.Floor_Grass.Desc = Campo 
+ObjectType.Floor_LightGrass = Campo seco
+ObjectType.Floor_LightGrass.Desc = Campo seco
+ObjectType.Floor_Sand = Areia
+ObjectType.Floor_Sand.Desc = Areia
+ObjectType.Floor_Stone = Pedra
+ObjectType.Floor_Stone.Desc = Pedra
+ObjectType.Floor_Swamp = Pântano
+ObjectType.Floor_Swamp.Desc = Pântano
+ObjectType.Floor_Swamp_Water = Pântano
+ObjectType.Floor_Swamp_Water.Desc = Pântano
+ObjectType.Flower = Flor
+ObjectType.Flower.Desc = Flor
+ObjectType.FlowerPot = Pote de Flor
+ObjectType.FlowerPot.Desc = Usado para fazer plantas em potes.
+ObjectType.Foundation_Dark_Lowland = Fundação (Negra)
+ObjectType.Foundation_Dark_Lowland.Desc = Construa essa fundação em terrenos negros para poder fazer construções.
+ObjectType.Foundation_Desert_SandHigh = Fundação (Areia)
+ObjectType.Foundation_Desert_SandHigh.Desc = Construa essa fundação em terrenos de areia para poder fazer construções, estradas e trilhos.
+ObjectType.Foundation_Grass = Fundação (Campo)
+ObjectType.Foundation_Grass.Desc = Construa essa fundação em terrenos de campo para poder fazer construções, estradas e trilhos.
+ObjectType.Gold = Ouro
+ObjectType.Gold.Desc = Ouro
+ObjectType.GoldBlock = Bloco de Ouro
+ObjectType.GoldBlock.Desc = Um bloco de ouro
+ObjectType.Greenhouse = Estufas
+ObjectType.Greenhouse.Desc = Esta fazenda irá ##automatically crescer plantio e pode ser construída em qualquer tipo de solo.
+ObjectType.Grove5x5 = Arvoredo automatizado
+ObjectType.Grove5x5.Desc = Este arvoredo irá ##automatically crescer e colher árvores.
+ObjectType.Harbour = Porto de remessas
+ObjectType.Harbour.Desc =  Portos de remessas permitem que você faça trocas com outras ilhas. (##cargoships)
+ObjectType.HarvestedBerries = Morangos
+ObjectType.HarvestedBerries.Desc = Morangos colhidos. Muito saborosos.
+ObjectType.HarvestedFlowers = Flores colhidas
+ObjectType.HarvestedFlowers.Desc = Flores selvagens podem ser colhidas e processadas em chá.
+ObjectType.HarvestedTomato = Tomates colhidos
+ObjectType.HarvestedTomato.Desc = Um punhado de tomates colhidos.
+ObjectType.HarvestedWheat = Trigos colhidos
+ObjectType.HarvestedWheat.Desc = Trigo que pode ser usado para produzir pão e bolos.
+ObjectType.Horse = Cavalo
+ObjectType.Horse.Desc = Uma creatura pacífica.
+ObjectType.HorseCarriage = Carruagem de cavalo
+ObjectType.HorseCarriage.Desc = Cavalos podem transportar todos os tipos de mercadorias.
+ObjectType.HorseStation = Estação de cavalo
+ObjectType.HorseStation.Desc = Estações usadas por ##carriages para transportar mercadorias. Vem com um cavalo grátis! (##Logsys)
+ObjectType.House = Casa básica
+ObjectType.House.Desc = Um lugar para seus colonos descansarem.
+ObjectType.HouseGood = Casa boa
+ObjectType.HouseGood.Desc = Uma casa boa para seus colonos relaxarem.
+ObjectType.HouseNice = Casa muito boa
+ObjectType.HouseNice.Desc = Uma casa muito boa para seus colonos descansarem.
+ObjectType.Inserter = Insersor
+ObjectType.Inserter.Desc =  Insersores move itens entre esteiras, ##depots e outros.
+ObjectType.Iron = Minério de ferro
+ObjectType.Iron.Desc = Minério de ferro.
+ObjectType.IronBlank = Chapa de ferro
+ObjectType.IronBlank.Desc = Chapas de ferro são usadas para fazer ferramentas e armas.
+ObjectType.IronBlock = Bloco de ferro
+ObjectType.IronBlock.Desc = Componente de ferramentas e maquinário de alto grau.
+ObjectType.IronHammer = Martelo de ferro
+ObjectType.IronHammer.Desc = Martelos são usados para produzir mercadorias e construções.
+ObjectType.IronPickaxe = Picareta de ferro
+ObjectType.IronPickaxe.Desc = Picaretas são usadas para minerar rochas, árvores e montanhas.
+ObjectType.IronQuarry = Pedreira de ferro
+ObjectType.IronQuarry.Desc = A pedreira de ferro ##automatically produz uma infinita fonte de ferro.
+ObjectType.IronShovel = Pá de ferro
+ObjectType.IronShovel.Desc = Pás são usadas para os trabalhos na fazenda.
+ObjectType.IronSword = Espada de ferro
+ObjectType.IronSword.Desc = A espada de ferro é a arma corpo-a-corpo básica que dá mais dano que a espada de madeira.
+ObjectType.IronVein = Veio de ferro
+ObjectType.IronVein.Desc = Veio de ferro.
+ObjectType.Kiln = Forno
+ObjectType.Kiln.Desc = O forno é usado para produzir tijolos e carvão.
+ObjectType.Log = Tronco de madeira
+ObjectType.Log.Desc = Troncos de madeira podem ser usados como combustível ou processados em carvão ou tábuas de madeira.
+ObjectType.LootBox = Baú
+ObjectType.LootBox.Desc = Baú podem ser minerados para obter um seleção aleatório de mercadorias.
+ObjectType.LunchBox = Marmita
+ObjectType.LunchBox.Desc = Uma refeição completa feita de mingau de trigo e alguns vegetais. Umm! 
+ObjectType.MachineParts = Partes de maquinário
+ObjectType.MachineParts.Desc = Partes de maquinário são usadas para construir esteiras ou outras maquinarias mais complexas.
+ObjectType.MetalWorkshop = Bancada de metal
+ObjectType.MetalWorkshop.Desc = A bancada de metal permite a produção de armas e ferramentas de metal avançadas.
+ObjectType.MinedClay = Argila minerada
+ObjectType.MinedClay.Desc =  Argila pode ser processada em tijolos, que são usados para construções.
+ObjectType.MinedCopper = Minério de cobre
+ObjectType.MinedCopper.Desc = Um punhado de minério de ferro.
+ObjectType.MinedGold = Minério de ouro
+ObjectType.MinedGold.Desc = Um punhado de minério de ouro.
+ObjectType.MinedIron = Ferro minerado
+ObjectType.MinedIron.Desc = Pode ser derretido em blocos de ferro.
+ObjectType.MinedRock = Rocha
+ObjectType.MinedRock.Desc = Rochas são usadas para construções básicas e podem ser processadas em blocos de pedra.
+ObjectType.MiningRobot = Robô minerador
+ObjectType.MiningRobot.Desc = ##Robots só conseguem exercer a função para qual foram construídas.
+ObjectType.Monolith = Monolíto velho
+ObjectType.Monolith.Desc = Pode ser removido através da colheita.
+ObjectType.MudRoad = Estrada de barro
+ObjectType.MudRoad.Desc = Uma simples estrada.
+ObjectType.OilBarrel = Barril de Óleo
+ObjectType.OilBarrel.Desc = Óleo é usado para construir e manter ##robots.
+ObjectType.OilPump = Bomba de Óleo
+ObjectType.OilPump.Desc = A bomba de óleo ##automatically drena óleo de um poço e os enche em barris.
+ObjectType.OilWell = Poço de óleo
+ObjectType.OilWell.Desc = Poços de óleos são drenados por bombas de óleo quando são colocadas em cima.
+ObjectType.OreCrusher = Triturador de minérios
+ObjectType.OreCrusher.Desc = Tritura minérios em pequenos pedaços ##automatically.
+ObjectType.OutpostBonfire = Posto de fogueira
+ObjectType.OutpostBonfire.Desc = Coloque um posto de fogueira fora de seu ##territory para iniciar uma nova área.
+ObjectType.OverheadConveyorCart = Carrinho aéreo
+ObjectType.OverheadConveyorCart.Desc = Parte do sistema de esteiras aéreas.
+ObjectType.OverheadConveyorPath = Transporte aéreo
+ObjectType.OverheadConveyorPath.Desc = O sistema de transporte aéreo permite transportar mercadorias por cima de esteira ou trilhos.
+ObjectType.OverheadConveyorStation = Estação aérea
+ObjectType.OverheadConveyorStation.Desc =Ligue esta estação á outras para fazer o sistema transportar itens para elas.
+ObjectType.PalmTree = Palmeira
+ObjectType.PalmTree.Desc = Palmeira
+ObjectType.PowerLine = Cabo de energia
+ObjectType.PowerLine.Desc = Use cabos de  ##power para conectar geradores aos usuários de energia.
+ObjectType.PyramidRuin = Pirâmide
+ObjectType.PyramidRuin.Desc = Uma construção antiga.
+ObjectType.Quarry = Pedreira
+ObjectType.Quarry.Desc = A pedreira ##automatically fornece uma fonte inesgotável de rochas.
+ObjectType.RailwayCrossing = Cruzamento da ferrovia.
+ObjectType.RailwayCrossing.Desc = Um simples cruzamento da ferrovia. Puramente decorativo.
+ObjectType.RallyFlag = Bandeira de reunião
+ObjectType.RallyFlag.Desc = Todos os colonos que carregam armas vão se juntar ao redor dessa bandeira e atacar inimigos que estiverem à vista.
+ObjectType.RecruitingFlag = Bandeira de recrutamento
+ObjectType.RecruitingFlag.Desc = Essa bandeira pertence ao grupo de animais e colonos amigáveis. 
+ObjectType.RecyclingWorkshop = Oficina de reciclagem
+ObjectType.RecyclingWorkshop.Desc = Permite que os colonos desmontem itens em seus componentes originais.
+ObjectType.RefinedBuildingPart = Pedaço de madeira refinada
+ObjectType.RefinedBuildingPart.Desc = Pedaços de madeira refinada são usados em construções avançadas. 
+ObjectType.RobotWorkshop = Oficina de robôs
+ObjectType.RobotWorkshop.Desc = A oficina de  ##robot permite que você produza robôs.
+ObjectType.Rock = Pilha de rochas
+ObjectType.Rock.Desc = Minere para obter rochas, que são usadas em construções básicas.
+ObjectType.Ruin = Ruína antiga
+ObjectType.Ruin.Desc = Pode ser removido ao coletar.
+ObjectType.RuinBakery = Padaria abandonada
+ObjectType.RuinBakery.Desc = Um prédio abandonado há muito tempo.
+ObjectType.RuinBasicWorkplace = Área de trabalho abandonada
+ObjectType.RuinBasicWorkplace.Desc = Um prédio abandonado há muito tempo.
+ObjectType.RuinFragment = Fragmento de uma antiga ruína.
+ObjectType.RuinFragment.Desc = Pode ser removido ao coletar.
+ObjectType.RuinHouse = Casa abandonada
+ObjectType.RuinHouse.Desc = Um prédio abandonado há muito tempo.
+ObjectType.RuinWell = Poço abandonado
+ObjectType.RuinWell.Desc = Um prédio abandonado há muito tempo.
+ObjectType.SandGeode = Geodo de areia
+ObjectType.SandGeode.Desc = Um geodo pode ser minerado para obtenção de diferentes minérios.
+ObjectType.SandGeodeBig = Geodo de areia
+ObjectType.SandGeodeBig.Desc = Um geodo pode ser minerado para obtenção de diferentes minérios.
+ObjectType.SandRock = Pilha de rochas
+ObjectType.SandRock.Desc = Minere para obter rochas, que são usadas em construções básicas.
+ObjectType.SandRoughGeode = Geodo de areia
+ObjectType.SandRoughGeode.Desc = Um geodo pode ser minerado para obtenção de diferentes minérios.
+ObjectType.SandRoughGeodeBig = Geodo de areia
+ObjectType.SandRoughGeodeBig.Desc = Um geodo pode ser minerado para obtenção de diferentes minérios.
+ObjectType.Sawmill = Serralheria
+ObjectType.Sawmill.Desc = Serralherias processam a lenha em tábuas.
+ObjectType.SlimePool = Tanque de slime
+ObjectType.SlimePool.Desc = Casa de pequenos e grandes slimes.
+ObjectType.Smelter = Fundição
+ObjectType.Smelter.Desc = Derrete minerais em blocos de metal.
+ObjectType.Soil = Solo
+ObjectType.Soil.Desc = Solo
+ObjectType.Spider = Aranha
+ObjectType.Spider.Desc = Por quê? por quê?
+ObjectType.StatueSettler = Estátua de colono
+ObjectType.StatueSettler.Desc = Estátua do Lef, o grande, em honra ao seu sacrifício ao bem maior.
+ObjectType.StatueTrain = Estátua de trem
+ObjectType.StatueTrain.Desc = A estátua de um trem.
+ObjectType.StoneBlank = Pedra pura
+ObjectType.StoneBlank.Desc = A pedra pura é usada para produzir ferramentas e armas de pedra.
+ObjectType.StoneBlock = Bloco de pedra
+ObjectType.StoneBlock.Desc = Um bloco de pedra processado.
+ObjectType.StoneRoad = Estrada de pedra
+ObjectType.StoneRoad.Desc = Uma estrada de pedra pavimentada.
+ObjectType.StoneVein = Veio de pedra
+ObjectType.StoneVein.Desc = Minere para obter pedras, que são usadas em construções básicas.
+ObjectType.StrawberryDonut = Rosquinha de morango
+ObjectType.StrawberryDonut.Desc = Não é saudável, mas é irresistível.
+ObjectType.Table = Mesa
+ObjectType.Table.Desc = Quando estiverem exaustos, os colonos vão sentar na mesa para relaxar e socializar.
+ObjectType.Tea = Chá
+ObjectType.Tea.Desc = Uma bebida refrescante.
+ObjectType.Tomato = Tomate
+ObjectType.Tomato.Desc = Uma planta de tomate.
+ObjectType.Torch = Tocha
+ObjectType.Torch.Desc = Tochas são uma fonte barata de luz.
+ObjectType.TrackParts = Trilhos
+ObjectType.TrackParts.Desc = Trilhos são utilizados na construção de estradas de ferro.
+ObjectType.TracksSemaphore = Semáforo de trem
+ObjectType.TracksSemaphore.Desc = Use o semáforo de trem para permitir que vários trens compartilhem a mesma rede.
+ObjectType.TracksSemaphorePre = Pré-semáforo de trem
+ObjectType.TracksSemaphorePre.Desc = Use os pré-semáforos para prevenir que os trens entrem em seções bloqueadas.
+ObjectType.TrainFactory = Fábrica de trens
+ObjectType.TrainFactory.Desc = Usados para produção e manutenção de três trens. Os trens podem ser usados no ##logsys.
+ObjectType.TrainingDummy = Boneco de treinamento
+ObjectType.TrainingDummy.Desc = Usado pelos colonos para praticar luta.
+ObjectType.TrainLocomotive = Locomotiva
+ObjectType.TrainLocomotive.Desc = Trens são usados para transportar produtos pesados por longas distâncias.
+ObjectType.TrainStation = Estação de trem
+ObjectType.TrainStation.Desc = Trens podem parar aqui e serem automaticamente carregados ou descarregados.
+ObjectType.TrainStationSmall = Estação de trem (pequena)
+ObjectType.TrainStationSmall.Desc = Trens podem parar aqui e serem automaticamente carregados ou descarregados.
+ObjectType.TransportRobot = Robô de transporte
+ObjectType.TransportRobot.Desc = ##Robots só conseguem exercer a função para qual foram construídas.
+ObjectType.Treadmill = Esteira
+ObjectType.Treadmill.Desc = Animais ou colonos que estiverem usando a esteira vão gerar ##power para sua maquinaria.
+ObjectType.Tree = Carvalho
+ObjectType.Tree.Desc = Árvores podem ser cortadas para se obter lenha.
+ObjectType.UpgradeWorkshop = Melhorar oficina
+ObjectType.UpgradeWorkshop.Desc = Permite que colonos combinem ferramentas e armas para criar itens de melhor qualidade.
+ObjectType.WaterBucket = Água
+ObjectType.WaterBucket.Desc = Uma bebida básica.
+ObjectType.WaterSprinkler = Irrigador
+ObjectType.WaterSprinkler.Desc = Molha plantas próximas em uma área de 5x5.
+ObjectType.Weed = Erva
+ObjectType.Weed.Desc = Pode ser removido ao minerar/coletar.
+ObjectType.Well = Poço
+ObjectType.Well.Desc = O poço bombeia água do subsolo, que pode ser colocada em baldes pelos colonos.
+ObjectType.Wheat = Trigo
+ObjectType.Wheat.Desc = O trigo é uma semente que pode ser usada na produção de pães e outros alimentos.
+ObjectType.WildBushel = Erva
+ObjectType.WildBushel.Desc = Pode ser removido ao minerar/coletar.
+ObjectType.WoodenBoard = Tábua de madeira
+ObjectType.WoodenBoard.Desc = Tábuas de madeira são usadas em construções.
+ObjectType.WoodenBuildingPart = Pedaço de madeira
+ObjectType.WoodenBuildingPart.Desc = Pedaços de madeira são usados em construções.
+ObjectType.WoodenHandle = Cabo de madeira
+ObjectType.WoodenHandle.Desc = Cabos são usados na produção de armas e ferramentas.
+ObjectType.WoodHammer = Martelo de pedra
+ObjectType.WoodHammer.Desc = Martelos são usados na confecção de produtos e em construções.
+ObjectType.WoodPickaxe = Picareta de pedra
+ObjectType.WoodPickaxe.Desc = Picaretas são usadas para minerar pedras, árvores e montanhas.
+ObjectType.WoodShovel = Pá de pedra
+ObjectType.WoodShovel.Desc = Pás são usadas na fazenda.
+ObjectType.WoodSword = Espada de pedra
+ObjectType.WoodSword.Desc = Uma arma bruta. Melhor do que usar as mãos.
+ObjectType.Worm = Minhoca
+ObjectType.Worm.Desc = Pode ser removido ao minerar/coletar.
+ObjectType.ZeppelinDepotStation = Depósito de dirigíveis
+ObjectType.ZeppelinDepotStation.Desc = Estação e ##depot usados pelos dirigíveis para carregar mercadorias de peso leve e médiano. (##Logsys)
+ObjectType.ZeppelinFactory = Fábrica de Dirigíveis
+ObjectType.ZeppelinFactory.Desc = Constrói e auxilia dirigíveis que transportam produtos leves e medianos. ##logsys
+ObjectType.ZeppelinStation = Estação dos Dirigíveis
+ObjectType.ZeppelinStation.Desc = Estação usada pelos dirigíveis para transportar produtos por longas distâncias.(##Logsys)
+ObjectType.ZeppelinUnit = Dirigível
+ObjectType.ZeppelinUnit.Desc = O dirigível transporta um único produto por longas distâncias.
+
+# Screen names
+Scenario.MockupTier1 = Maquete da missão 1.
+Scenario.MockupTier1.Desc = Uma maquete em andamento de um jogo.
+Scenario.MockupTier12 = Maquete da missão 12.
+Scenario.MockupTier12.Desc = Uma maquete em andamento de um jogo.
+Scenario.MockupTier2 = Maquete da missão 2.
+Scenario.MockupTier2.Desc = Uma maquete em andamento de um jogo.
+Scenario.MockupTier23 = Maquete da missão 23
+Scenario.MockupTier23.Desc = Uma maquete em andamento de um jogo.
+Scenario.MockupTier3 = Maquete da missão 3
+Scenario.MockupTier3.Desc = Uma maquete em andamento de um jogo.
+Scenario.TestMap = Pequeno teste de mapa.
+Scenario.TestMap.Desc = Para fins de teste.
+Scenario.TutorialAdvancedProduction = Tutorial: Produção avançada
+Scenario.TutorialAdvancedProduction.Desc = Configure as oficinas para produzir múltiplos produtos e controlar os estoques.
+Scenario.TutorialAutomatedTrains = Tutorial: Trens II
+Scenario.TutorialAutomatedTrains.Desc = Conecte as construções de produção automatizada ao sistema de logística.
+Scenario.TutorialBasics = Tutorial: Colônia básica
+Scenario.TutorialBasics.Desc = Pratique o básico do gerenciamento de produção e colonização.
+Scenario.TutorialCarriages = Tutorial: Carruagem.
+Scenario.TutorialCarriages.Desc = Configure a conexão da carruagem.
+Scenario.TutorialCombat = Tutorial: Sistema de combate.
+Scenario.TutorialCombat.Desc = Ataque e defenda um campo inimigo.
+Scenario.TutorialConveyorBelts = Exemplo: Esteiras<br> transportadoras
+Scenario.TutorialConveyorBelts.Desc = Veja as esteiras transportadoras em funcionamento.
+Scenario.TutorialLogistics = Tutorial: Sistema de<br> logística
+Scenario.TutorialLogistics.Desc = Configure um posto avançado e uma linha de transporte para zepelim.
+Scenario.TutorialOreCrushing = Exemplo: Processamento<br> de minérios
+Scenario.TutorialOreCrushing.Desc = Esse exemplo mostra como configurar a automação do processamento de minérios.
+Scenario.TutorialTrainCrossing = Exemplo: Trevos
+Scenario.TutorialTrainCrossing.Desc = Os trevos permitem que múltiplos trens operem em uma mesma rede.
+Scenario.TutorialTrainPreSignals = Example: Sinalização dos trens
+Scenario.TutorialTrainPreSignals.Desc = Aprenda a usar os pré-semáforos dos trens para prevenir que trens bloqueiem as intersecções. 
+Scenario.TutorialTrains = Tutorial: Trens
+Scenario.TutorialTrains.Desc = Conecte duas estações de trem via sistema de logística.
+Scenario.TutorialTrainSignalsCircle = Exemplo: Rede ferroviária
+Scenario.TutorialTrainSignalsCircle.Desc = Aprenda a usar os semáforos para operar vários trens em uma rede circular única.
+
+SetAdvancedInputStockpile.Desc = 2.) Atribua a um estoque
+SetAdvancedInputStockpile.Intro = Nós não queremos que Berta saia correndo para pegar recursos. Atribua a entrada de um estoque à oficina para prevenir isso. 
+SetAdvancedInputStockpile.Outro = Dica: Uma vez que você atribui a entrada de um estoque à oficina, apenas recursos de estoques designados serão utilizados. Oficinas podem ter múltiplos estoques de entrada e de saída atribuídos. 
+SetBertaColor.Desc = 2.) Atribua Berta à zona amarela
+SetBertaColor.Intro = Os colonos podem ser atribuídos à uma ou mais zonas. Eles só trabalharão nas zonas as quais foram atribuídos. Nesse caso nós queremos que a Berta trabalhe apenas na zona amarela que acabamos de criar.
+SetBertaWorkshop.Desc = 1.) Atribua Berta à oficina
+SetBertaWorkshop.Intro = Os colonos ganham experiência em suas funções. O segredo é se especializar! Nesse tutorial Ansgar vai fazer o transporte enquanto Berta opera a oficina.
+SetFighters.Desc = 1.) Transforme os colonos em lutadores
+SetFighters.Intro = Muitos mapas são ocupados por campos inimigos que você precisa limpar antes de expandir. Atribua alguns colonos para que sejam lutadores.
+SetFighters.Outro = Dica: Depois que você atribui os lutadores, eles automaticamente se equiparão com as melhores armas disponíveis. Repare que os lutadores sempre estão com armas, independente do trabalho que você der para eles. 
+SetOutpostColor.Desc = 1.) Crie uma zona distinta
+SetOutpostColor.Intro = Esse tutorial ensina a configurar um posto avançado e um sistema logístico. Comece separando nosso território em duas zonas distintas. Para fazer isso, selecione o posto avançado da fogueira (1) ao norte e configure sua cor para amarelo.
+SetOutpostColorTrain.Desc = 1.) Crie uma zona distinta
+SetOutpostColorTrain.Intro = A primeira parte deste tutorial é idêntica ao tutorial de logística. Atribua ao posto avançado da fogueira (1) ao norte e a Berta, para tornar a zona amarela.
+SetOutputGoods.Desc = 6.) Ajuste a produção dos estoques 
+SetOutputGoods.Intro = Para ter um maior controle da produção da oficina, nós podemos mudar os produtos que são aceitos nos diferentes estoques.
+SetOutputGoods.Outro = Dica: Você pode controlar o quanto uma oficina produz de qualquer produto ajustando o tamanho da produção de estoque.
+SetOutputStockpiles.Desc = 5.) Ajuste a produção de estoques
+SetOutputStockpiles.Intro = Atribua a produção de estoques para a oficina para começar a produzir.
+SetRecipes.Desc = 4.) Configure a produção
+SetRecipes.Intro = Nós vamos usar a oficina para produzir tábuas de madeira e blocos de pedra. Configure a produção de acordo com isso.
+
+TerrainShape.Flat = Terreno plano
+TerrainShape.Flat.Intro = Essa ilha tem muitos campos.
+TerrainShape.Mountain = Terreno montanhoso
+TerrainShape.Mountain.Intro = A ilha tem muitas colinas e montanhas.
+TerrainShape.Normal = Terreno normal
+TerrainShape.Plane = Terreno perfeitamente plano
+
+TitleBasicWorkshop1 = Produção de tábuas de madeira
+TitleBasicWorkshop1.Intro = Construa uma oficina e produza algumas tábuas de madeira:
+
+TrainAutoExitHopper.Desc = 4.) Configure o funil de saída
+TrainAutoExitHopper.Intro = O ferro minerado agora é automaticamente transportado para a estação sul. Selecione o funil de saída na estação sul e configure-o para aceitar o ferro, para que ele seja estocado no depósito mais próximo.
+TrainAutoSchedule.Desc = 3.) Monte um cronograma
+TrainAutoSchedule.Intro = Selecione o trem e adicione as estações ao cronograma clicando nele com o botão direito.
+TrainSchedule.Desc = 4.) Monte um cronograma
+TrainSchedule.Intro = Os trens requerem um cronograma para saber onde devem ir. Selecione um trem e adicione as estações ao cronograma clicando nele com o botão direito.
+
+TutorialNeedsTools.IntroControls = Se familiarize com os controles:
+TutorialNeedsTools.Introduction = Nós chegamos em uma pequena ilha pacífica. Nós deveríamos armar um pequeno acampamento e estocar madeira e pedra.
+TutorialNeedsTools.IntroHelp = Aprenda como usar o sistema de ajuda:
+TutorialNeedsTools.IntroUnload = Descarregue os recursos de nosso navio:
 
 # 31.3.2019
 UI.Start = Iniciar
 UI.Randomize = Aleatório
 
-Objective.AnyStockpileAcceptsType = Definir empilhamento para aceitar $1.
+Objective.AnyStockpileAcceptsType = Definir estoque para aceitar $1.
 Objective.AnyStockpileAcceptsType.Desc = Para trocar as mercadorias aceitadas pela  ##stockpilezone, selecione-a e clica nas mercadorias no painel de informações.
 
 ##productiontarget = Meta de Inventário
 ##productiontarget.Desc = Meta de Inventário: A quantidade de mercadorias que você precisa produzir em cada ilha para fazer progresso na campanha.
 
 
-
 UI.Build.NoWorker = Nenhum construtor designado.
 UI.Build.NoWorker.Desc = Para fazer um colono trabalhar com construção, selecione ele/ela e clique no ícone de construção e certifique-se que ele/ela é permitido trabalhar nessa zona. Você também pode gerenciar os trabalhos dos colonos pela tela de gerenciamento de colonos.
 
 Logistics.Status.Loop = Repetição detectada.
-Logistics.Status.Loop.Desc = Uma Repetição acontece quando há uma via de duas mãos para outro empilhamento/depósito e ambos aceitam as mesmas mercadorias. Troque as mercadorias aceitas de qualquer um para resolver isso.
-
+Logistics.Status.Loop.Desc = Uma Repetição acontece quando há uma via de duas mãos para outro estoque/depósito e ambos aceitam as mesmas mercadorias. Troque as mercadorias aceitas de qualquer um para resolver isso.
 
 UI.Attack = Atacar
 UI.Attack.Desc = Ataca um acampamento inimigo que está perto de uma fronteira.
@@ -965,8 +1562,7 @@ Settings.StreamDeck.Desc = Suporte ao Stream Deck. Necessário reiniciar.
 
 UI.ActiveJobs = Trabalhos
 
-TipOfTheDay.11=Você pode usar depósitos de dirigíveis como empilhamento. Você pode usá-los como entrada e saída de mesas de trabalho, fazendas etc...
-
+TipOfTheDay.11=Você pode usar depósitos de dirigíveis como estoque. Você pode usá-los como entrada e saída de bancadas, fazendas etc...
 
 UI.Follow = Seguir objeto
 UI.Follow.Desc = Siga um item, um colono etc.. 
@@ -982,7 +1578,7 @@ UI.Build.AwaitingConstruction.Desc = Construção irá começar assim que um col
 UI.BuiltFrom.Multibuild = Possui $1 unidades.
 
 UI.LogisticsRequest = Requisita do sistema de logística.
-UI.LogisticsRequest.Desc = Requisita a mercadoria pelo sistema de logística. Se não possível, eles só serão usados para empilhamento ou saídas de mesas de trabalho. 
+UI.LogisticsRequest.Desc = Requisita a mercadoria pelo sistema de logística. Se não possível, eles só serão usados para estoque ou saídas de bancadas. 
 
 UI.Inventory.ShowCargo = Incluir carga
 UI.Inventory.ShowCargo.Desc = Inclui a carga atualmente armazenada em seu ##ship.
@@ -991,7 +1587,6 @@ Settings.VoiceAmbience = Voz de ambiente.
 Settings.VoiceAmbience.Desc = Volume das vozes dos colonos no ambiente.
 
 UI.MinedFrom = Minerado de
-
 
 # 14.4.19
 
@@ -1005,15 +1600,12 @@ Farm.Status.InvalidTerrain.Desc = A planta selecionada não cresce nesse solo.
 
 UI.HaltUnloadAll = Abortar descarregamentos.
 
-
 Status.NothingAccepted = Nenhuma mercadoria aceita.
-Status.NothingAccepted.Desc = Nenhuma mercadoria é aceita por este empilhamento.
+Status.NothingAccepted.Desc = Nenhuma mercadoria é aceita por este estoque.
 
 UI.AcrossIslands = Para todas ilhas: $1
 
-
 MainMenu.Campaign.Loadouts = Iniciando a festa e carregamento:
-
 
 UI.ItemInfo = Informações do item:
 UI.PlantInfo = Informações da planta:
@@ -1026,8 +1618,8 @@ Task.Water.Text = Regando solo.
 Task.FarmWater.Text = Regando solo.
 Task.Train.Text = Treinando combate.
 
-Workshop.Status.NoInputStockpile = Nenhum empilhamento designado.
-Workshop.Status.NoInputStockpile.Desc = Para ligar uma ##stockpilezone de entrada, clique com o esquerdo no empilhamento e clique na mesa de trabalho onde o conteúdo do empilhamento será usado. Mesas de trabalho somente usam recursos de entradas de empilhamentos assim que um é ligado a ela.
+Workshop.Status.NoInputStockpile = Nenhum estoque designado.
+Workshop.Status.NoInputStockpile.Desc = Para ligar uma ##stockpilezone de entrada, clique com o esquerdo no estoque e clique na bancada onde o conteúdo do estoque será usado. Bancadas somente usam recursos de entradas de estoques assim que um é ligado a ela.
 
 UI.ThisIsland = Para essa ilha ($2%): $1
 
@@ -1056,9 +1648,7 @@ UI.Inhabitants = Inabitantes
 Message.ActorDied = $1 foi derrotado.
 Train.Status.Okay.Desc = O trem está indo para a próxima estação.
 
-
 UI.CombatState.Waiting = (Aguardando)
-
 
 UI.CombatState.Title = Combate em progresso!
 
@@ -1067,13 +1657,11 @@ UI.AttackCamp.Desc = Derrote acampamentos inimigos para reivindicar seu ##territ
 
 ## 1.5.2019 
 
-UI.IdleFighters = Guerreiro ociosos
+UI.IdleFighters = Guerreiros ociosos
 UI.IdleFighters.Desc = Clique aqui para navegar por todos os guerreiros ##idle.
-
 
 UI.MiningDifficulty = Dificuldade da mineração
 UI.MiningDifficulty.Desc = A dificuldade da mineração determina o tempo que irá levar para um minerador obter seus recursos.
-
 
 MiningDifficulty.Easy = Dificuldade de mineração: Fácil.
 MiningDifficulty.Normal = Dificuldade de mineração: Normal.
@@ -1092,653 +1680,11 @@ UI.TrackLayer.Semaphore2 = Coloca um pré-semáforo no trilho.
 UI.TrackLayer.Semaphore1.Desc = Semáforos de trens permitem que eles passem na direção indicada. Quando o segmento a frente está ocupado por outro trem, o trem irá esperar aqui.
 UI.TrackLayer.Semaphore2.Desc = Pré-semáforos de trens permitem que eles passem na direção indicada. Quando o segmento a frente está ocupado por outro trem, o trem irá esperar aqui.
 
-
 UI.TrainStation = Estação de trem
 UI.TrainStation.WaitForFull = Para o trem até encher.
 UI.TrainStation.WaitForFull.Desc = Para o trem até ele estar totalmente carregado.
 
-#Items and screens names
-
-AttackEnemyCamp.Desc = 2.) Attack the enemy camp
-AttackEnemyCamp.Intro = Click on the enemy territory and click on attack to rally your colonists to attack.
-AttackEnemyCamp.Outro = Hint: Select your colonists to see how much damage they do using the different weapons.
-BuildAutoTrain.Desc = 2.) Build a train
-BuildAutoTrain.Intro = Build a train using the train factory.
-BuildCircleTrain1.Desc = Build train 1/4
-BuildCircleTrain1.Intro = Build a train using the train factory and add the two stations to its schedule.
-BuildCircleTrain2.Desc = Build train 2/4
-BuildCircleTrain2.Intro = Build another train using the train factory and add the two stations to its schedule.
-BuildCircleTrain3.Desc = Build train 3/4
-BuildCircleTrain3.Intro = Build another train using the train factory and add the two stations to its schedule.
-BuildCircleTrain4.Desc = Build train 4/4
-BuildCircleTrain4.Intro = Build the final train using the train factory and add the two stations to its schedule.
-BuildCircleTrain4.Outro = The four trains will use this circular train network without locking up. This type of setup is useful for high-capacity train lines.
-BuildCloverleaf.Desc = Build trains
-BuildCloverleaf.Intro = Build a few trains using the train factory (1) and add different sets of stations to their schedules.
-BuildPreSignalTrain1.Desc = Build train 1/4
-BuildPreSignalTrain1.Intro = Build a train using the train factory and add the two stations to its schedule.
-BuildPreSignalTrain2.Desc = Build train 2/4
-BuildPreSignalTrain2.Intro = Build another train using the train factory and add the two stations to its schedule.
-BuildPreSignalTrain3.Desc = Build train 3/4
-BuildPreSignalTrain3.Intro = Build another train using the train factory and add the two stations to its schedule.
-BuildPreSignalTrain4.Desc = Build train 4/4
-BuildPreSignalTrain4.Intro = Build the final train using the train factory and add the two stations to its schedule.
-BuildPreSignalTrain4.Outro = Pre-signals prevent your trains from entering inter_sections when this would cause a deadlock.
-BuildTrain.Desc = 3.) Build a train
-BuildTrain.Intro = Build a train using the train factory (4).
-CarriageSetupLinks.Desc = 2.) Set up links
-CarriageSetupLinks.Intro = Good. The rocks are now carried to the station in the north because it is closest. Next, link the stations.
-CarriageSetupSchedule.Desc = 3.) Set up schedule
-CarriageSetupSchedule.Intro = Finally, select the horse carriages and the stations to their schedules by right-clicking on them.
-CarriageSetupStockpiles.Desc = 1.) Set up station and stockpile
-CarriageSetupStockpiles.Intro = Rocks are pretty heavy, so carrying them is slow. Using horses to transport them over long distances is much more efficient. Set the horse station in the top and the stockpile in the bottom to accept rocks.
-ConvTutPart1.Desc = 1.) Simple setup.
-ConvTutPart1.Intro = This setup shows how ground-based conveyor belts can be used. Select the exit hopper in the depot and set it to accept iron blocks.
-ConvTutPart2.Desc = 2.) Distri_butors.
-ConvTutPart2.Intro = Distri_butors evenly split items from incoming belts to one or more outgoing belts. Select the exit hopper in the depot (2) and set it to accept stone blocks.
-ConvTutPart3.Desc = 3.) Above-ground belts.
-ConvTutPart3.Intro = Conveyor belts can be built in two layers. Use ramps to transport goods between the low and high layers. Select the exit hopper in the depot (3) and set it to accept stone blocks.
-DefeatEnemyCamp.Desc = 3.) Defeat the enemy camp
-DefeatEnemyCamp.Intro = Click on the enemy territory and click on attack to rally your colonists to attack.
-DefeatEnemyCamp.Outro = Hint: Your colonists cannot die in combat. When they get hurt they will retreat to heal.
-LinkAutoTrainStations.Desc = 1.) Link train stations
-LinkAutoTrainStations.Intro = Have a look at the setup in the north. The automated quarries produce iron which is auto_matically transported to the train station. Create a link from station 1 to station 2.
-LinkGoldZeppelinStation.Desc = 4.) Link gold to network
-LinkGoldZeppelinStation.Intro = Next, we need to link our gold stockpile (3) to the zeppelin station next to it (2). Doing so will make the content of the stockpile available to the logistics network.
-LinkStockpiles.Desc = 3.) Link stockpiles
-LinkStockpiles.Intro = In order to fill the input stockpiles, we will use the logistics system. Link the stockpiles 2->4 and 3->5. Also, set them to accept rocks and wooden logs.
-LinkTrainStations.Desc = 2.) Link train stations
-LinkTrainStations.Intro = Create links between the train stations in both directions.
-LinkTrainStockpiles.Desc = 5.) Link stockpiles
-LinkTrainStockpiles.Intro = Finally, we need to link our stockpiles to the stations and set stockpile 5 to accept gold blocks.
-LinkTrainStockpiles.Outro = Hint: Trains are more expensive to set up but have a much higher capacity than zeppelins.
-LinkZeppelinStations.Desc = 3.) Link zeppelin stations
-LinkZeppelinStations.Intro = We'll use zeppelins to transport the gold blocks. To do so, begin by linking the northern zeppelin depot (2) to the southern one (4).
-LinkZeppelinStationToTarget.Desc = 5.) Link target stockpile
-LinkZeppelinStationToTarget.Intro = Finally, we need to connect the southern zeppelin station (4) to our destination stockpile (5) and set the stockpile to accept gold blocks.
-LinkZeppelinStationWater.Desc = 6.) Connect water buckets.
-LinkZeppelinStationWater.Intro = Nice! The gold blocks will now be transported. But wouldn't it be neat if the zeppelins would transport water buckets to the outpost on the way back? Set everything up to make it happen!
-Map01.IntroCamera = Learn to control the camera.
-Map01.IntroControls = Familiarise yourself with the controls:
-Map01.IntroDebug = Note that these options allow you access unfinished and buggy content.
-Map01.Introduction = We have arrived on a small and peaceful island. We should set up a small encampment and stock up on wood and stone.
-Map01.IntroExpand = Build a second bonfire to expand your territory:
-Map01.IntroFarm = Set up a farm zone to grow fresh food for our colonists:
-Map01.IntroHelp = Learn how to use the help system:
-Map01.IntroLoad = Nice! Finally, before moving on to the next island we should reach our inventory target for this island.
-Map01.IntroMine = This island is very rich in basic resources. Mine some wood and stone:
-Map01.IntroUnload = Unload the supplies from our ship:
-Map01.IntroWell = Build a well to supply our people with fresh water:
-Map01.OutroLoad = Note: In the campaign, everything we produce on an island will be available on the world map for further use. Buildings are auto_matically decon_structed and their building materials will be loaded onto the ship.
-Map01.OutroRecruit = Hint: Increase the size of your farm, expand your stockpiles and use bonfires to expand your area to gather all the required resources.
-Map01.SpawnStrandedColonists = Some castaways want to join our colony.
-Map01.SpawnStrandedColonists.Short = Recruit stranded castaways.
-MapFP.Introduction = This short tutorial will show you how you can use the debug/cheat options of the game to access content which is not finished yet.
-Mod.CoastWaves = Coast waves
-Mod.CoastWaves.Desc = Adds a wave sound to the game and assigns it to the beach rock.
-Mod.GreenTomato = Green Tomato Mod
-Mod.GreenTomato.Desc = This is a simple example mod which demos how to add an item.
-Mod.LanguageTest = Language test
-Mod.LanguageTest.Desc = Adds a new language to the game. (To be used as a template.)
-Mod.MapSize50 = Map size 50
-Mod.MapSize50.Desc = Adds the map size 50 as an option. (As an example for adding map modifiers).
-Mod.MassiveSheep = Massive Sheep
-Mod.MassiveSheep.Desc = Sheep are much bigger now and spawn much more often.
-Mod.SpeedyColonists = Speedy Colonist Mod
-Mod.SpeedyColonists.Desc = This is a simple example mod that increases your colonists' speed.
-Mod.StoneBakery = Stone Bakery
-Mod.StoneBakery.Desc = Bakeries are now produced using stone blocks (instead of bricks).
-
-#Modifiers
-Modifier.CargoTier2 = Cargo set to typical tier 2 loadout.
-Modifier.CargoTier3 = Cargo set to typical tier 3 loadout.
-Modifier.EnemyCampsFew = Few enemy camps.
-Modifier.EnemyCampsMany = Many enemy camps.
-Modifier.EnemyCampsNone = No enemy camps.
-Modifier.EnemyCampsNormal = Normal enemy camps.
-Modifier.MapSizeBig = Big map (96²)
-Modifier.MapSizeHuge = Huge map (128²)
-Modifier.MapSizeNormal = Normal size (90²)
-Modifier.MapSizeSmall = Small map (72²)
-Modifier.MapSizeTest = Test map (20²)
-Modifier.MapsizeTiny = Tiny map (60²)
-Modifier.RecruitablePigs = Some herders and their pigs want to join.
-Modifier.ResourcesBasic = Only basic resources.
-Modifier.ResourcesBasic.Intro = This island is rich in wood and stone but lacks mineral ores.
-Modifier.ResourcesMeadow = Meadow.
-Modifier.ResourcesMeadow.Intro = Little vegetation and rocks. Also two friendly sheep.
-Modifier.ResourcesNormal = Normal resources.
-Modifier.ResourcesNormal.Intro = Normal resource distri_bution.
-Modifier.ResourcesRocky = Desolate and rocky.
-Modifier.ResourcesRocky.Intro = Little vegetation but lots of stone.
-Modifier.SpawnSettlers = Spawn your colonists
-Modifier.SpawnStrandedColonists = Two castaways want to join our colony.
-Modifier.SpawnStrandedColonists.Intro = We have heard rumors of friendly castaways stranded on the opposite side of this island. If we can find them they might want to join us.
-Modifier.SpawnStrandedColonists.Short = Recruit stranded castaways.
-Modifier.StrandedGoods = Stranded goods
-Modifier.TerrainDark = Tier 3: Ashen world (select tier 3 cargo!)
-Modifier.TerrainDesert = Tier 2: Desert (select tier 2 cargo!)
-Modifier.TerrainGrassland = Tier 1: Grassland
-Modifier.Tutorial1 = Set up a basic colony.
-Modifier.TutorialAdvancedProduction = Learn about advanced production and management techniques.
-Modifier.TutorialAdvancedProduction.Intro = This tutorial shows how to set up workshops to produce multiple goods and manage stockpiles.
-Modifier.TutorialAdvancedProduction.Outro = 
-Modifier.TutorialAutomatedTrains = Learn to set up a fully automated train route.
-Modifier.TutorialAutomatedTrains.Intro = This tutorial shows how to integrate automated production buildings into the logistics system.
-Modifier.TutorialCarriages = Learn to set up a horse carriage.
-Modifier.TutorialCarriages.Intro = This tutorial shows how to set up horse carriages to transport rocks. Rocks are pretty heavy, so carrying them is slow. Using horses to transport them over long distances is much more efficient.
-Modifier.TutorialCarriages.Outro = Well done! A horse carriage comes free with every built station. Have a look at the next tutorial to learn how to use connected stockpiles to get more control over the transported goods.
-Modifier.TutorialCombat = Learn about the combat system.
-Modifier.TutorialCombat.Intro = This tutorial shows how to attack and defeat enemy camps.
-Modifier.TutorialConveyorBelts = Learn to set up conveyor belts.
-Modifier.TutorialConveyorBelts.Intro = This tutorial shows a few examples of useful conveyor belt setups.
-Modifier.TutorialFreePlay = Learn to use cheat functions.
-Modifier.TutorialLogistics = Learn to set up zones and a logistics system.
-Modifier.TutorialLogistics.Intro = This tutorial covers setting up an outpost and a logistics system. Everything we need is already built, we just need to set it up correctly.
-Modifier.TutorialLogistics.Outro = Nice! Colonists and zeppelins will work together to transport our gold blocks and water buckets. The logistics system allows you to create complex chains using multiple transport systems. Goods will be delivered until the receiving stockpiles are full.
-Modifier.TutorialNeedsTools = Learn about needs and tools.
-Modifier.TutorialOreCrushing = Automated ore crushing.
-Modifier.TutorialOreCrushing.Intro = This non_inter_active sample scene shows how to set up automated ore processing. Click on the objective below to move on.
-Modifier.TutorialTrainCrossing = Learn to set up a cloverleaf junction.
-Modifier.TutorialTrainCrossing.Intro = This advanced tutorial shows how a cloverleaf junction can be set up.
-Modifier.TutorialTrainPreSignals = Learn to set up train signals.
-Modifier.TutorialTrainPreSignals.Intro = This tutorial shows a few examples for how to use train signals to have more than one train run in the same network.
-Modifier.TutorialTrains = Learn to set up a train route.
-Modifier.TutorialTrains.Intro = This tutorial shows how to connect two two train stations via the logistics system.
-Modifier.TutorialTrainSignalsCircle = Circular train network example.
-Modifier.TutorialTrainSignalsCircle.Intro = This tutorial shows how to use signals to allow for multiple trains in a single network.
-Modifier.WavesSlimes = Waves: Slimes
-
-ObjectiveGroup.Debug = Debug mode intro.
-ObjectType.AutoSmelter = Fundição automatica
-ObjectType.AutoSmelter.Desc = ##Automated smelters melt crushed ore into metal blocks.
-ObjectType.BackerRaft = Backer raft
-ObjectType.BackerRaft.Desc = Delivers an item donated by another player.
-ObjectType.Bakery = Bakery
-ObjectType.Bakery.Desc = Used to produce bread and other types of food.
-ObjectType.Barn = Basic barn
-ObjectType.Barn.Desc = A place for your animals to rest.
-ObjectType.BasicWorkplace = Basic workplace
-ObjectType.BasicWorkplace.Desc = The basic workplace can be used to craft wooden boards and stone blocks.
-ObjectType.BeachRock = Small rocks.
-ObjectType.BeachRock.Desc = Can be removed by mining / harvesting them.
-ObjectType.Beer = Beer
-ObjectType.Beer.Desc = Beer keeps your settlers happy.
-ObjectType.Betanium = Betanium
-ObjectType.Betanium.Desc = Betanium is a used to craft the things that are still in early development/experimental.
-ObjectType.Boat = Boat
-ObjectType.Boat.Desc = The boat you use to traverse the seas.
-ObjectType.Bonfire = Bonfire
-ObjectType.Bonfire.Desc = Build bonfires to expand your ##territory and define ##zones.
-ObjectType.Bread = Bread
-ObjectType.Bread.Desc = A rich source of nutrition.
-ObjectType.Brewery = Brewery
-ObjectType.Brewery.Desc = Used to produce beer, tea and other types of drinks.
-ObjectType.Brick = Brick
-ObjectType.Brick.Desc = Used to construct more advanced buildings.
-ObjectType.Bush = Bush
-ObjectType.Bush.Desc = A simple bush.
-ObjectType.BushBerries = Strawberry
-ObjectType.BushBerries.Desc = Strawberries are a fast growing and easy to supply source of food. Grows on grassland.
-ObjectType.Cactus = Cactus
-ObjectType.Cactus.Desc = Evolved to survive the rough climate of the desert.
-ObjectType.CargoShip = Cargo ship
-ObjectType.CargoShip.Desc = Cargo ship bring a part of the production of your previous colonies.
-ObjectType.Centrifuge = Centrifuge
-ObjectType.Centrifuge.Desc = Used to ##automatically separate multiple types of crushed ore.
-ObjectType.Charcoal = Charcoal
-ObjectType.Charcoal.Desc = Charcoal is used to fuel more advanced workshops.
-ObjectType.Clay = Clay
-ObjectType.Clay.Desc = Clay can be processed into bricks, which are used to construct most buildings.
-ObjectType.ClayQuarry = Clay quarry
-ObjectType.ClayQuarry.Desc = The clay quarry ##automatically yields an endless supply of clay.
-ObjectType.ClayVein = Clay vein
-ObjectType.ClayVein.Desc = Clay can be processed into bricks, which are used to construct most buildings.
-ObjectType.Column = Column
-ObjectType.Column.Desc = Can be removed by harvesting it.
-ObjectType.ConstructionBlock = Construction block
-ObjectType.ConstructionBlock.Desc = A reinforced construction block used for advanced buildings.
-ObjectType.ConveyorBeltHigh = Conveyor belt (high)
-ObjectType.ConveyorBeltHigh.Desc = Conveyor belts can be used to auto_matically transport goods within your village.
-ObjectType.ConveyorBeltParts = Conveyor belt parts
-ObjectType.ConveyorBeltParts.Desc = Conveyor belt parts are used to construct conveyor belts.
-ObjectType.ConveyorBeltRampDown = Conveyor belt (ramp)
-ObjectType.ConveyorBeltRampDown.Desc = Conveyor belts can be used to auto_matically transport goods within your village.
-ObjectType.ConveyorBeltRampUp = Conveyor belt (ramp)
-ObjectType.ConveyorBeltRampUp.Desc = Conveyor belts can be used to auto_matically transport goods within your village.
-ObjectType.ConveyorBeltStraight = Conveyor belt (low)
-ObjectType.ConveyorBeltStraight.Desc = Conveyor belts can be used to auto_matically transport goods within your village.
-ObjectType.ConveyorDistributor = Conveyor distributor
-ObjectType.ConveyorDistributor.Desc = Evenly splits items from incoming belts to one or more outgoing belts.
-ObjectType.ConveyorDistributorHigh = Conveyor distributor
-ObjectType.ConveyorDistributorHigh.Desc = Evenly splits items from incoming belts to one or more outgoing belts.
-ObjectType.Copper = Copper
-ObjectType.Copper.Desc = Copper
-ObjectType.CopperBlock = Copper block
-ObjectType.CopperBlock.Desc = A copper block.
-ObjectType.CorniTree = Pine tree
-ObjectType.CorniTree.Desc = Trees can be mined to get logs.
-ObjectType.CrushedCopper = Crushed copper
-ObjectType.CrushedCopper.Desc = Can be melted into copper blocks.
-ObjectType.CrushedCopperMix = Copper-rich rocks
-ObjectType.CrushedCopperMix.Desc = Can be separated into crushed copper and rocks.
-ObjectType.CrushedIron = Crushed iron
-ObjectType.CrushedIron.Desc = Can be melted into iron blocks.
-ObjectType.CrushedIronMix = Iron-rich rocks
-ObjectType.CrushedIronMix.Desc = Can be separated into crushed iron and rocks.
-ObjectType.CrushedRock = Rubble
-ObjectType.CrushedRock.Desc = Can be used to produce concrete.
-ObjectType.CrystalCore = Crystal core
-ObjectType.CrystalCore.Desc = Crystal core.
-ObjectType.Dark_Mountain = Dark mountain
-ObjectType.Dark_Mountain.Desc = Dark mountain
-ObjectType.DarkCrystal = Dark crystal
-ObjectType.DarkCrystal.Desc = A crystal of unknown origin.
-ObjectType.DarkGeode = Dark geode
-ObjectType.DarkGeode.Desc = A geode can be mined to get different mineral ores.
-ObjectType.DarkRock = Ashen rock
-ObjectType.DarkRock.Desc = Ashen rock
-ObjectType.DarkRuins = Ancient ruins
-ObjectType.DarkRuins.Desc = Whoever has built this structure has long gone.
-ObjectType.DarkTemple = Ancient temple
-ObjectType.DarkTemple.Desc = Whoever has built this structure has long gone. (Mockup production target)
-ObjectType.DecoBranches = Branches
-ObjectType.DecoBranches.Desc = Can be removed by harvesting them.
-ObjectType.DecoBush = Decorative bush
-ObjectType.DecoBush.Desc = Not very exciting, but nice to look at.
-ObjectType.DecoDarkRock = Small rocks
-ObjectType.DecoDarkRock.Desc = Can be removed by mining / harvesting them.
-ObjectType.DecoFern = Fern
-ObjectType.DecoFern.Desc = Can be removed by mining / harvesting them.
-ObjectType.DecoRocks = Small rocks
-ObjectType.DecoRocks.Desc = Can be removed by mining / harvesting them.
-ObjectType.DecoSeaShells = Sea shells
-ObjectType.DecoSeaShells.Desc = Can be removed by mining / harvesting them.
-ObjectType.DecoShrine = Decorative shrine
-ObjectType.DecoShrine.Desc = Illuminates the surrounding and looks nice.
-ObjectType.DecoSwampBranches = Branches
-ObjectType.DecoSwampBranches.Desc = Can be removed by harvesting them.
-ObjectType.Depot5x5 = Depot 5x5
-ObjectType.Depot5x5.Desc = ##Automated ##depots can be used to store and distribute goods.
-ObjectType.DepotEntry = Depot entry
-ObjectType.DepotEntry.Desc = Place items here to have them brought into the ##depot.
-ObjectType.DepotExit = Depot exit
-ObjectType.DepotExit.Desc = Request goods from the ##depot.
-ObjectType.Desert_Mountain = Desert mountain
-ObjectType.Desert_Mountain.Desc = Desert mountain
-ObjectType.DesertBrokenGround = Withered soil.
-ObjectType.DesertBrokenGround.Desc = Can be cleared through mining.
-ObjectType.DesertBrokenGroundHigh = Withered soil.
-ObjectType.DesertBrokenGroundHigh.Desc = Can be cleared through mining.
-ObjectType.DesertPillars = Destroyed pillar.
-ObjectType.DesertPillars.Desc = Can be removed via mining.
-ObjectType.DesertRuins = Ruins.
-ObjectType.DesertRuins.Desc = Can be cleared through mining.
-ObjectType.DesertTorch = Torch
-ObjectType.DesertTorch.Desc = An ancient building.
-ObjectType.DesertTreeStump = Tree stump
-ObjectType.DesertTreeStump.Desc = Tree stump
-ObjectType.EnemyBonfire = Enemy Bonfire
-ObjectType.EnemyBonfire.Desc = Destroy this bonfire to claim the ##territory for yourself.
-ObjectType.Farm5x5 = Automated farm
-ObjectType.Farm5x5.Desc = This farm will ##automatically grow simple crops.
-ObjectType.FilterInserter = Filter inserter
-ObjectType.FilterInserter.Desc = Inserters move items between conveyor belts, ##depots and more.
-ObjectType.Floor_Dark_Oasis = Dark oasis
-ObjectType.Floor_Dark_Oasis.Desc = Dark oasis
-ObjectType.Floor_Desert_Coast = Desert coast
-ObjectType.Floor_Desert_Coast.Desc = Desert coast
-ObjectType.Floor_Desert_MountainBase = Desert sand
-ObjectType.Floor_Desert_MountainBase.Desc = Desert sand
-ObjectType.Floor_Desert_Oasis = Desert oasis
-ObjectType.Floor_Desert_Oasis.Desc = Desert oasis
-ObjectType.Floor_Desert_Oasis_Water = Desert oasis
-ObjectType.Floor_Desert_Oasis_Water.Desc = Desert oasis
-ObjectType.Floor_Desert_Ocean = Ocean
-ObjectType.Floor_Desert_Ocean.Desc = Ocean
-ObjectType.Floor_Desert_Rough = Burnt soil
-ObjectType.Floor_Desert_Rough.Desc = Burnt soil
-ObjectType.Floor_Desert_Sand = Desert sand
-ObjectType.Floor_Desert_Sand.Desc = Desert sand
-ObjectType.Floor_Desert_SandHigh = Desert sand
-ObjectType.Floor_Desert_SandHigh.Desc = Desert sand
-ObjectType.Floor_Desert_Water = Water
-ObjectType.Floor_Desert_Water.Desc = Water
-ObjectType.Floor_Earth = Grassland (mountain)
-ObjectType.Floor_Earth.Desc = Grassland (mountain)
-ObjectType.Floor_Grass = Grassland
-ObjectType.Floor_Grass.Desc = Grassland
-ObjectType.Floor_LightGrass = Dry grassland
-ObjectType.Floor_LightGrass.Desc = Dry grassland
-ObjectType.Floor_Sand = Sand
-ObjectType.Floor_Sand.Desc = Sand
-ObjectType.Floor_Stone = Stone
-ObjectType.Floor_Stone.Desc = Stone
-ObjectType.Floor_Swamp = Swamp
-ObjectType.Floor_Swamp.Desc = Swamp
-ObjectType.Floor_Swamp_Water = Swamp
-ObjectType.Floor_Swamp_Water.Desc = Swamp
-ObjectType.Flower = Flower
-ObjectType.Flower.Desc = Flower
-ObjectType.FlowerPot = Flower pot
-ObjectType.FlowerPot.Desc = Use to construct potted plants.
-ObjectType.Foundation_Dark_Lowland = Foundation (Dark)
-ObjectType.Foundation_Dark_Lowland.Desc = Build this foundation on dark terrain to allow the construction of buildings.
-ObjectType.Foundation_Desert_SandHigh = Foundation (Sand)
-ObjectType.Foundation_Desert_SandHigh.Desc = Build this foundation on sand to allow the construction of buildings, roads and tracks.
-ObjectType.Foundation_Grass = Foundation (Grass)
-ObjectType.Foundation_Grass.Desc = Build this foundation on sand to allow the construction of buildings, roads and tracks.
-ObjectType.Gold = Gold
-ObjectType.Gold.Desc = Gold
-ObjectType.GoldBlock = Gold block
-ObjectType.GoldBlock.Desc = A gold block
-ObjectType.Greenhouse = Greenhouse
-ObjectType.Greenhouse.Desc = This farm will ##automatically grow crops and can be built on all types of ground.
-ObjectType.Grove5x5 = Automated grove
-ObjectType.Grove5x5.Desc = This grove will ##automatically grow and harvest trees.
-ObjectType.Harbour = Shipping port
-ObjectType.Harbour.Desc = Shipping ports allow you to trade with other islands. (##cargoships)
-ObjectType.HarvestedBerries = Strawberries
-ObjectType.HarvestedBerries.Desc = Harvested straw_berries. Very tasty.
-ObjectType.HarvestedFlowers = Harvested flowers
-ObjectType.HarvestedFlowers.Desc = Wild flowers can be harvested and processed to tea.
-ObjectType.HarvestedTomato = Harvested Tomato
-ObjectType.HarvestedTomato.Desc = A bunch of harvested tomatoes.
-ObjectType.HarvestedWheat = Harvested wheat
-ObjectType.HarvestedWheat.Desc = Wheat as a crop that can be used to produce bread and cake.
-ObjectType.Horse = Horse
-ObjectType.Horse.Desc = A peaceful creature.
-ObjectType.HorseCarriage = Horse Carriage
-ObjectType.HorseCarriage.Desc = Horses can transport all kinds of goods.
-ObjectType.HorseStation = Horse Station
-ObjectType.HorseStation.Desc = Station used by ##carriages to transport goods. Comes with a free horse! (##Logsys)
-ObjectType.House = Basic house
-ObjectType.House.Desc = A place for your colonists to rest.
-ObjectType.HouseGood = Nice house
-ObjectType.HouseGood.Desc = A nice home for your colonists to relax.
-ObjectType.HouseNice = Very nice house
-ObjectType.HouseNice.Desc = A very nice home for your colonists to rest.
-ObjectType.Inserter = Inserter
-ObjectType.Inserter.Desc = Inserters move items between conveyor belts, ##depots and more.
-ObjectType.Iron = Iron ore
-ObjectType.Iron.Desc = Iron ore.
-ObjectType.IronBlank = Iron blank
-ObjectType.IronBlank.Desc = Iron blanks are used to craft iron tools and weapons.
-ObjectType.IronBlock = Iron block
-ObjectType.IronBlock.Desc = Component of high tier tools and machinery.
-ObjectType.IronHammer = Iron hammer
-ObjectType.IronHammer.Desc = Hammers are used to produce goods and construct buildings.
-ObjectType.IronPickaxe = Iron pickaxe
-ObjectType.IronPickaxe.Desc = Pickaxes are used for mining rocks, trees and mountains.
-ObjectType.IronQuarry = Iron quarry
-ObjectType.IronQuarry.Desc = The iron quarry ##automatically yields an endless supply of iron.
-ObjectType.IronShovel = Iron shovel
-ObjectType.IronShovel.Desc = Shovels are used for farm work.
-ObjectType.IronSword = Iron sword
-ObjectType.IronSword.Desc = The iron sword is a basic melee weapon which does more damage than the wooden sword.
-ObjectType.IronVein = Iron ore
-ObjectType.IronVein.Desc = Iron ore.
-ObjectType.Kiln = Kiln
-ObjectType.Kiln.Desc = The kiln is used to produce bricks and charcoal.
-ObjectType.Log = Wooden log
-ObjectType.Log.Desc = Wooden logs can be used as fuel or processed into charcoal or wooden boards.
-ObjectType.LootBox = Chest
-ObjectType.LootBox.Desc = Chests can be mined for a random selection of goods.
-ObjectType.LunchBox = Lunch box
-ObjectType.LunchBox.Desc = A complete meal made of wheat mush and a few vegetables. Yum!
-ObjectType.MachineParts = Machine parts
-ObjectType.MachineParts.Desc = Machine parts are used to construct conveyor belts and other complex machinery.
-ObjectType.MetalWorkshop = Metal workshop
-ObjectType.MetalWorkshop.Desc = The metal workshop allows the production of advanced iron tools and weapons.
-ObjectType.MinedClay = Mined clay
-ObjectType.MinedClay.Desc = Clay can be processed into bricks, which are used to construct most buildings.
-ObjectType.MinedCopper = Copper ore
-ObjectType.MinedCopper.Desc = A clump of copper ore.
-ObjectType.MinedGold = Gold ore
-ObjectType.MinedGold.Desc = A clump of gold ore.
-ObjectType.MinedIron = Mined iron
-ObjectType.MinedIron.Desc = Can be melted into iron blocks.
-ObjectType.MinedRock = Rock
-ObjectType.MinedRock.Desc = Rocks are used to construct basic buildings and can be processed into stone blocks.
-ObjectType.MiningRobot = Mining robot
-ObjectType.MiningRobot.Desc = ##Robots can only perform the job they are built to do.
-ObjectType.Monolith = Old monolith
-ObjectType.Monolith.Desc = Can be removed by harvesting it.
-ObjectType.MudRoad = Mud road
-ObjectType.MudRoad.Desc = A simple road.
-ObjectType.OilBarrel = Oil barrel
-ObjectType.OilBarrel.Desc = Oil is used to build and maintain ##robots.
-ObjectType.OilPump = Oil pump
-ObjectType.OilPump.Desc = The oil pump ##automatically siphons oil from a well and fills it into barrels.
-ObjectType.OilWell = Oil well
-ObjectType.OilWell.Desc = Oil wells can be siphoned by building oil pumps on top of them.
-ObjectType.OreCrusher = Ore crusher
-ObjectType.OreCrusher.Desc = Crushes ore into small chunks ##automatically.
-ObjectType.OutpostBonfire = Outpost bonfire
-ObjectType.OutpostBonfire.Desc = Place outpost bonfires outside your ##territory to start a new area.
-ObjectType.OverheadConveyorCart = Overhead cart
-ObjectType.OverheadConveyorCart.Desc = Part of the overhead conveyor system.
-ObjectType.OverheadConveyorPath = Overhead Conveyor
-ObjectType.OverheadConveyorPath.Desc = The overhead conveyor system allows you to transport goods over conveyor belts or tracks.
-ObjectType.OverheadConveyorStation = Overhead Station
-ObjectType.OverheadConveyorStation.Desc = Link this station to other stations to make the system transport items to them.
-ObjectType.PalmTree = Palm tree
-ObjectType.PalmTree.Desc = Palm tree
-ObjectType.PowerLine = Power line
-ObjectType.PowerLine.Desc = Use ##power lines to connect generators to energy users.
-ObjectType.PyramidRuin = Pyramid
-ObjectType.PyramidRuin.Desc = An ancient building.
-ObjectType.Quarry = Quarry
-ObjectType.Quarry.Desc = The quarry ##automatically yields an endless supply of rocks.
-ObjectType.RailwayCrossing = Railway Crossing.
-ObjectType.RailwayCrossing.Desc = A simple railway crossing. Purely decorative.
-ObjectType.RallyFlag = Rally flag
-ObjectType.RallyFlag.Desc = All colonists who carry a weapon will gather around this flag and attack enemies on sight.
-ObjectType.RecruitingFlag = Recruiting flag
-ObjectType.RecruitingFlag.Desc = This flag belongs to a group of friendly animals or colonists.
-ObjectType.RecyclingWorkshop = Recycling workshop
-ObjectType.RecyclingWorkshop.Desc = Allows colonists to disassemble items into their original components.
-ObjectType.RefinedBuildingPart = Refined wooden part
-ObjectType.RefinedBuildingPart.Desc = Refined wooden building parts are used to construct advanced buildings.
-ObjectType.RobotWorkshop = Robot workshop
-ObjectType.RobotWorkshop.Desc = The ##robot workshop allows you to produce robots.
-ObjectType.Rock = Pile of rocks
-ObjectType.Rock.Desc = Mine to get rocks, which are used to construct basic buildings.
-ObjectType.Ruin = Old ruin
-ObjectType.Ruin.Desc = Can be removed by harvesting it.
-ObjectType.RuinBakery = Deserted bakery
-ObjectType.RuinBakery.Desc = A deserted settlement, abandoned long ago.
-ObjectType.RuinBasicWorkplace = Deserted workplace
-ObjectType.RuinBasicWorkplace.Desc = A deserted settlement, abandoned long ago.
-ObjectType.RuinFragment = Old ruin fragment
-ObjectType.RuinFragment.Desc = Can be removed by harvesting it.
-ObjectType.RuinHouse = Deserted house
-ObjectType.RuinHouse.Desc = A deserted settlement, abandoned long ago.
-ObjectType.RuinWell = Deserted well
-ObjectType.RuinWell.Desc = A deserted settlement, abandoned long ago.
-ObjectType.SandGeode = Sand geode
-ObjectType.SandGeode.Desc = A geode can be mined to get different mineral ores.
-ObjectType.SandGeodeBig = Sand geode
-ObjectType.SandGeodeBig.Desc = A geode can be mined to get different mineral ores.
-ObjectType.SandRock = Pile of rocks
-ObjectType.SandRock.Desc = Mine to get rocks, which are used to construct basic buildings.
-ObjectType.SandRoughGeode = Sand geode
-ObjectType.SandRoughGeode.Desc = A geode can be mined to get different mineral ores.
-ObjectType.SandRoughGeodeBig = Sand geode
-ObjectType.SandRoughGeodeBig.Desc = A geode can be mined to get different mineral ores.
-ObjectType.Sawmill = Sawmill
-ObjectType.Sawmill.Desc = Sawmills process wooden logs into boards.
-ObjectType.SlimePool = Slime Pool
-ObjectType.SlimePool.Desc = Home for slimes big and small.
-ObjectType.Smelter = Ore smelter
-ObjectType.Smelter.Desc = Melts mined ore into metal blocks.
-ObjectType.Soil = Soil
-ObjectType.Soil.Desc = Soil
-ObjectType.Spider = Aranha
-ObjectType.Spider.Desc = Por quê? por quê?
-ObjectType.StatueSettler = Settler statue
-ObjectType.StatueSettler.Desc = A statue of Lef the great, honoring his sacrifice for the greater good.
-ObjectType.StatueTrain = Train statue
-ObjectType.StatueTrain.Desc = A statue of a train.
-ObjectType.StoneBlank = Stone blank
-ObjectType.StoneBlank.Desc = Stone blanks are used to craft stone tools and weapons.
-ObjectType.StoneBlock = Stone block
-ObjectType.StoneBlock.Desc = A processed block of stone.
-ObjectType.StoneRoad = Stone road
-ObjectType.StoneRoad.Desc = A paved road.
-ObjectType.StoneVein = Stone vein
-ObjectType.StoneVein.Desc = Mine to get rocks, which are used to construct basic buildings.
-ObjectType.StrawberryDonut = Strawberry donut
-ObjectType.StrawberryDonut.Desc = Unhealthy but irre_sistible.
-ObjectType.Table = Table
-ObjectType.Table.Desc = When exhausted, settlers will sit on tables to relax and socialize.
-ObjectType.Tea = Tea
-ObjectType.Tea.Desc = A refreshing drink.
-ObjectType.Tomato = Tomato
-ObjectType.Tomato.Desc = A tomato plant.
-ObjectType.Torch = Torch
-ObjectType.Torch.Desc = Torches are a cheap source of light.
-ObjectType.TrackParts = Track parts
-ObjectType.TrackParts.Desc = Track parts are used to construct railroad tracks.
-ObjectType.TracksSemaphore = Train signal
-ObjectType.TracksSemaphore.Desc = Use train signals to allow multiple trains to share the same network.
-ObjectType.TracksSemaphorePre = Train pre-signal
-ObjectType.TracksSemaphorePre.Desc = Use pre-signals to prevent your trains from blocking inter_sections.
-ObjectType.TrainFactory = Train factory
-ObjectType.TrainFactory.Desc = Used to build and maintain three trains. Trains can be used in the ##logsys.
-ObjectType.TrainingDummy = Training dummy
-ObjectType.TrainingDummy.Desc = Used by colonists to practice fighting.
-ObjectType.TrainLocomotive = Locomotive
-ObjectType.TrainLocomotive.Desc = Trains are used to transport heavy goods over long distances.
-ObjectType.TrainStation = Train station
-ObjectType.TrainStation.Desc = Trains can stop here and are auto_matically loaded or unloaded.
-ObjectType.TrainStationSmall = Train station (small)
-ObjectType.TrainStationSmall.Desc = Trains can stop here and are auto_matically loaded or unloaded.
-ObjectType.TransportRobot = Transport robot
-ObjectType.TransportRobot.Desc = ##Robots can only perform the job they are built to do.
-ObjectType.Treadmill = Treadmill
-ObjectType.Treadmill.Desc = Animals or colonists using the treadmill will generate ##power for your machinery.
-ObjectType.Tree = Oak tree
-ObjectType.Tree.Desc = Trees can be mined to get logs.
-ObjectType.UpgradeWorkshop = Upgrade workshop
-ObjectType.UpgradeWorkshop.Desc = Allows colonists to combine tools and weapons to create higher quality items.
-ObjectType.WaterBucket = Water
-ObjectType.WaterBucket.Desc = A basic drink.
-ObjectType.WaterSprinkler = Water sprinkler
-ObjectType.WaterSprinkler.Desc = Waters nearby farm tiles in a 5x5 area.
-ObjectType.Weed = Weed
-ObjectType.Weed.Desc = Can be removed by mining / harvesting it.
-ObjectType.Well = Well
-ObjectType.Well.Desc = The well pumps groundwater, which can be filled into buckets by the settlers.
-ObjectType.Wheat = Wheat
-ObjectType.Wheat.Desc = Wheat is a crop that can be used to produce bread and other food.
-ObjectType.WildBushel = Weed
-ObjectType.WildBushel.Desc = Can be removed by mining / harvesting it.
-ObjectType.WoodenBoard = Wooden board
-ObjectType.WoodenBoard.Desc = Wooden boards are used to construct buildings.
-ObjectType.WoodenBuildingPart = Wooden part
-ObjectType.WoodenBuildingPart.Desc = Wooden building parts are used to construct buildings.
-ObjectType.WoodenHandle = Wooden handle
-ObjectType.WoodenHandle.Desc = Handles are used to craft tools and weapons.
-ObjectType.WoodHammer = Stone hammer
-ObjectType.WoodHammer.Desc = Hammers are used to produce goods and construct buildings.
-ObjectType.WoodPickaxe = Stone pickaxe
-ObjectType.WoodPickaxe.Desc = Pickaxes are used for mining rocks, trees and mountains.
-ObjectType.WoodShovel = Stone shovel
-ObjectType.WoodShovel.Desc = Shovels are used for farm work.
-ObjectType.WoodSword = Stone sword
-ObjectType.WoodSword.Desc = A crude weapon. Still better than using bare hands.
-ObjectType.Worm = Worm
-ObjectType.Worm.Desc = Can be removed by mining / harvesting it.
-ObjectType.ZeppelinDepotStation = Zeppelin Depot
-ObjectType.ZeppelinDepotStation.Desc = Station and ##depot used by zeppelins to load light and medium goods. (##Logsys)
-ObjectType.ZeppelinFactory = Zeppelin factory
-ObjectType.ZeppelinFactory.Desc = Builds and supports zeppelins which can transport light and medium goods. ##logsys
-ObjectType.ZeppelinStation = Zeppelin Station
-ObjectType.ZeppelinStation.Desc = Station used by zeppelins to transport goods over long distances. (##Logsys)
-ObjectType.ZeppelinUnit = Zeppelin
-ObjectType.ZeppelinUnit.Desc = Zeppelins transport single goods over long distances.
-
-#Screen names
-Scenario.MockupTier1 = Mockup mission 1.
-Scenario.MockupTier1.Desc = A work-in-progress mockup of typical gameplay.
-Scenario.MockupTier12 = Mockup mission 12.
-Scenario.MockupTier12.Desc = A work-in-progress mockup of typical gameplay.
-Scenario.MockupTier2 = Mockup mission 2.
-Scenario.MockupTier2.Desc = A work-in-progress mockup of typical gameplay.
-Scenario.MockupTier23 = Mockup mission 23
-Scenario.MockupTier23.Desc = A work-in-progress mockup of typical gameplay.
-Scenario.MockupTier3 = Mockup mission 3
-Scenario.MockupTier3.Desc = A work-in-progress mockup of typical gameplay.
-Scenario.TestMap = Small test map.
-Scenario.TestMap.Desc = For testing purposes.
-Scenario.TutorialAdvancedProduction = Tutorial: Adv. production
-Scenario.TutorialAdvancedProduction.Desc = Set up work_shops to produce multiple goods and manage stock_piles.
-Scenario.TutorialAutomatedTrains = Tutorial: Trains II
-Scenario.TutorialAutomatedTrains.Desc = Connect automated production buildings to the logistics system.
-Scenario.TutorialBasics = Tutorial: Basic colony
-Scenario.TutorialBasics.Desc = Practice the basics of produc_tion and colo_nist manage_ment.
-Scenario.TutorialCarriages = Tutorial: Carriages.
-Scenario.TutorialCarriages.Desc = Set up a horse carriage connection.
-Scenario.TutorialCombat = Tutorial: Combat system.
-Scenario.TutorialCombat.Desc = Attack and defeat an enemy camps.
-Scenario.TutorialConveyorBelts = Example: Conveyor belts
-Scenario.TutorialConveyorBelts.Desc = Watch common conveyor belt setups at work.
-Scenario.TutorialLogistics = Tutorial: Logistics system
-Scenario.TutorialLogistics.Desc = Set up an outpost and a zeppelin transport line.
-Scenario.TutorialOreCrushing = Example: Ore processing
-Scenario.TutorialOreCrushing.Desc = This example shows how to set up automated ore processing.
-Scenario.TutorialTrainCrossing = Example: Cloverleaf
-Scenario.TutorialTrainCrossing.Desc = The cloverleaf-junction allows multiple trains to operate on the same network.
-Scenario.TutorialTrainPreSignals = Example: Train signals
-Scenario.TutorialTrainPreSignals.Desc = Learn how to use pre-signals to prevent trains from blocking junctions.
-Scenario.TutorialTrains = Tutorial: Trains
-Scenario.TutorialTrains.Desc = Connect two train stations via the logistics system.
-Scenario.TutorialTrainSignalsCircle = Example: Train network
-Scenario.TutorialTrainSignalsCircle.Desc = Learn to use signals to operate multiple trains in a single circular network.
-
-SetAdvancedInputStockpile.Desc = 2.) Assign input stockpiles
-SetAdvancedInputStockpile.Intro = We don't want Berta to run off to fetch remote resources. Assign input stockpiles to the workshop to prevent this.
-SetAdvancedInputStockpile.Outro = Hint: Once an input stockpile is assigned to a workshop, only resources from assigned input stockpiles will be used. Workshops can have multiple input and output stockpiles assigned.
-SetBertaColor.Desc = 2.) Assign Berta to yellow zone
-SetBertaColor.Intro = Colonists can be assigned to one or more zones. They will only work in zones they are assigned to. In this case we want Berta to only work in the yellow zone we just created.
-SetBertaWorkshop.Desc = 1.) Assign Berta to the workshop
-SetBertaWorkshop.Intro = Colonists gain experience in what they do. Special_ization is key! In this tutorial Ansgar will do the carrying while Berta will operate the workshop.
-SetFighters.Desc = 1.) Turn your colonists into fighters
-SetFighters.Intro = Most maps are occupied by enemy camps which you need to clear to expand. Assign your colonists to be fighters.
-SetFighters.Outro = Hint: Once assigned, your fighters will auto_matically equip the best available weapons. Note that fighters will always equip weapons regardless of the other jobs you assign to them.
-SetOutpostColor.Desc = 1.) Create a distinct zone
-SetOutpostColor.Intro = This tutorial covers setting up an outpost and a logistics system. Begin by separating our territory into two distinct zones. To do so, select the outpost bonfire (1) in the north and set its color to yellow.
-SetOutpostColorTrain.Desc = 1.) Create a distinct zone
-SetOutpostColorTrain.Intro = The first part of this tutorial is identical to the logistics tutorial. Assign the outpost bonfire (1) in the north and Berta to zone color yellow.
-SetOutputGoods.Desc = 6.) Adjust output stockpiles
-SetOutputGoods.Intro = In order to get more control over how much the workshop produces, we can change the accepted goods of the different output stockpiles.
-SetOutputGoods.Outro = Hint: You can control how much a workshop produces of any good by adjusting the size of the corre_sponding output stockpile.
-SetOutputStockpiles.Desc = 5.) Set output stockpiles
-SetOutputStockpiles.Intro = Assign output stockpiles to our workshop to begin production.
-SetRecipes.Desc = 4.) Set production
-SetRecipes.Intro = We will use our workshop to produce wooden boards and stone blocks. Set the production accordingly.
-TerrainShape.Flat = Flat terrain
-TerrainShape.Flat.Intro = This island has a lot of grassland.
-TerrainShape.Mountain = Mountain terrain
-TerrainShape.Mountain.Intro = This island has many hills and mountains.
-TerrainShape.Normal = Normal terrain
-TerrainShape.Plane = Perfectly flat terrain
-TitleBasicWorkshop1 = Wooden board production
-TitleBasicWorkshop1.Intro = Build a basic workshop and produce some wooden boards:
-TrainAutoExitHopper.Desc = 4.) Set up exit hopper
-TrainAutoExitHopper.Intro = Mined iron is now auto_matically transported to the southern station. Select the exit hopper in the southern station and set it to accept mined iron to have the iron stored in the nearby depot.
-TrainAutoSchedule.Desc = 3.) Set a schedule
-TrainAutoSchedule.Intro = Select the train and add both stations to the schedule by right-clicking on them.
-TrainSchedule.Desc = 4.) Set a schedule
-TrainSchedule.Intro = Trains require a schedule to know where to go. Select the train and add both stations to the schedule by right-clicking on them.
-TutorialNeedsTools.IntroControls = Familiarise yourself with the controls:
-TutorialNeedsTools.Introduction = We have arrived on a small and peaceful island. We should set up a small encampment and stock up on wood and stone.
-TutorialNeedsTools.IntroHelp = Learn how to use the help system:
-TutorialNeedsTools.IntroUnload = Unload the supplies from our ship:
-
-TipOfTheDay.12=Use a mesa de trabalho atualizada para melhorar as ferramentas e armas. 
-
+TipOfTheDay.12=Use a bancada atualizada para melhorar as ferramentas e armas. 
 
 Debug.forcerain = Forçar chuva
 Debug.forcerain.Desc = Força o início da chuva.
@@ -1779,30 +1725,25 @@ UI.Export.Title = Preços de exportações:
 Task.Produce.Export = Exportando $1.
 Task.Produce.Import = Importando $1.
 
-
 UI.Priority = Prioridade:
 UI.Priority.Tooltip = Prioridade
-UI.Priority.Tooltip.Desc = Empilhamentos e mesas de trabalho com maiores prioridades são usadas primeiro.
+UI.Priority.Tooltip.Desc = Estoques e bancadas com maiores prioridades são usadas primeiro.
 
-##cargoship.Desc = #Refine#Barco de carga: Permite você exportar mercadorias que não necessita e importar recursos necessários. Para exportar alguma coisa, conecte um empilhamento ao porto de carga. Para importar alguma coisa, conecte o porto de carga a um empilhamento e defina-o para aceitar algo que precise ser importado.  
-
+##cargoship.Desc = #Refine#Barco de carga: Permite você exportar mercadorias que não necessita e importar recursos necessários. Para exportar alguma coisa, conecte um estoque ao porto de carga. Para importar alguma coisa, conecte o porto de carga a um estoque e defina-o para aceitar algo que precise ser importado.  
 
 UI.CurrentlyInStock = No inventário: $1
 
 UI.PropagateToAll = Propagar às saídas.
-UI.PropagateToAll.Desc = Define todos os empilhamentos de saídas para aceitar as saídas desta mesa de trabalho. 
+UI.PropagateToAll.Desc = Define todos os estoques de saídas para aceitar as saídas desta bancada. 
 
 TipOfTheDay.13=Quando você tem falta de recursos necessários, você pode construir um porto de carga para importá-los. Exporte mercadorias produzidas para poder comprar outras.  
 
-
 UI.HaltUnloadAll.Desc = Para itens que estão sendo descarregados.
-
 
 UI.WM.Tiers.Title = Conclusão de Biomas
 UI.WM.Tiers.Title.Desc = Em cada bioma, há metas de produção que você precisa completar. Para mover para o próximo bioma, você precisa atingir 100% no bioma atual.
 
 UI.TargetsForTier = Metas para o bioma $1:
-
 
 # 2.6.19
 Objective.CarriageSchedule = Adiciona $5 ao cronograma da carruagem
@@ -1815,7 +1756,6 @@ Carriage.Schedule = Cronograma da carruagem:
 Carriage.Schedule.UI = Estação de carruagens
 Carriage.Schedule.UI.Desc = Para adicionar uma estação ao cronograma, selecione a carruagem e clique com o botão direito na estação desejada. Para remover uma estação, clique nela no cronograma.
 
-
 UI.Train.Destroy = Destruir trem
 UI.Train.Go = Ir
 UI.Train.Stop = Parar
@@ -1827,18 +1767,16 @@ Quality.Level0.Desc = Itens de baixa qualidade.
 Quality.Level1.Desc = Itens de qualidade normal.
 Quality.Level2.Desc = Itens de alta qualidade.
 
-Name.StockpileZoneCC = Empilhamento
+Name.StockpileZoneCC = Estoque
 Name.FarmZoneCC = Fazenda
 Name.GroveZoneCC = Arvoredo
 
-UI.Road.Desc = Constrói estradas para conectar empilhamentos e mesas de trabalhos remotas. Colonos se movem mais rápidos em estradas. Clique em um bloco inicial e depois em um bloco final para construir a rua. Você também pode clicar e arrastar para construir ruas.
-
+UI.Road.Desc = Constrói estradas para conectar estoques e bancadas remotas. Colonos se movem mais rápidos em estradas. Clique em um bloco inicial e depois em um bloco final para construir a rua. Você também pode clicar e arrastar para construir ruas.
 
 EarlyAccessWarning.Intro = O terreno negro e as mecânicas relacionadas (esteiras de transporte, produção automatizada etc.) ainda estão em desenvolvimento. Espere por má balanceamento, recursos faltando etc.. Eu estou ciente dos problemas então você não precisar relatá-los como erros(bugs). Eles estão planejados para serem corrigidos ao final de 2019. :) 
 EarlyAccessWarning.Help = Early Access Warning
 
 # Deleted: Objective.ShowHelpScreen Objective.ShowHelpScreen.Desc Objective.ConnectFarmsToRoads Objective.ConnectFarmsToRoads.Desc Objective.ConnectWorkshopsToRoads Objective.ConnectWorkshopsToRoads.Desc
-
 
 UI.Import.Money = Moedas disponíveis: $1
 UI.Import.Help = Moedas disponíveis
@@ -1852,30 +1790,26 @@ UI.ItemState.TransportedTo = Item em trânsito para $1
 UI.Upgrade = Selecione itens melhorados para construir.
 UI.Upgrade.Desc = Na mesa de melhoras, dois itens de uma qualidade são combinados para garantir um itens de qualidade superior. 
 
-
 TipOfTheDay.14=Você pode renomear colonos, zonas e algumas construções. Para fazer isso, selecione-os e clique no nome no topo do painel de informações.  
 
-TipOfTheDay.15 = Colonos movem mais rápidos quando não carregam ferramentas. Remova todos os trabalhos e mesas de trabalho de um colono para torná-lo em um carregador.    
+TipOfTheDay.15 = Colonos movem mais rápidos quando não carregam ferramentas. Remova todos os trabalhos e bancadas de um colono para torná-lo em um carregador.    
 
-TipOfTheDay.16 = Os blocos de empilhamento são usados na ordem que foram criados. Inicie um empilhamento próximo a uma mesa de trabalho e expanda-o a partir dali para torná-lo mais eficiente.
+TipOfTheDay.16 = Os blocos de estoque são usados na ordem que foram criados. Inicie um estoque próximo a uma bancada e expanda-o a partir dali para torná-lo mais eficiente.
 
-TipOfTheDay.17 = Você pode ligar seu barco a um empilhamento. Fazendo isso, seus colonos vão transportar todos os produtos que o empilhamento aceita do barco.
+TipOfTheDay.17 = Você pode ligar seu barco a um estoque. Fazendo isso, seus colonos vão transportar todos os produtos que o estoque aceita do barco.
 
 MainMenu.Notice.Demo = Essa é uma versão de demonstração com funcionalidades limitadas. Clique aqui para visitar a página do jogo na STEAM. Adicione Kubifaktorium a sua lista de desejos para saber quando ele será lançado este Verão! Obrigado :)
 
 MainMenu.Notice.EarlyAccess = Bem-vindo a versão antecipada de Kubifaktorium! Aqui há algumas dicas para a versão atual: <br>- Eu recomendo iniciar pelos tutoriais.<br> - Os biomas de Campo e Deserto estão bem jogáveis. Tudo além disso (automação, esteiras de transporte etc.) ainda estão em desenvolvimento. Para aprender mais, dê uma olhada no mapa de planejamento futuro do jogo. <br> - Quando estiver jogando a campanha, por favor, salve o jogo toda vez que você for para o mapa mundo. <br> - Se você achar algum erro(bug), por favor, reporte usando a ferramenta dentro do jogo (botão no canto superior direito). <br> - O melhor lugar para conversar sobre o jogo é no nosso servidor oficial do Discord <br> Obrigado por jogar, espero que se divirta com o jogo! :) <br>  Mirko 
 
-
 # 15.6.2019
 # Removed: Objective.Load, Objective.Load.Desc
-
 
 UI.ShowTips = Mostrar dicas
 UI.Tips = Dicas
 
 Debug.currency = Adicionar 100 moedas. 
 Debug.currency = Adicionar 100 moedas ao seu porto de carga.
-
 
 Task.Idle = Ocioso
 
