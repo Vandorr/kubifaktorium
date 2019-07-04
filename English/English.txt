@@ -1248,3 +1248,8 @@ UI.WaterState = Water: $1
 
 DemoDisable = Disabled in demo.
 DemoDisable.Desc = Unfortunately this feature is not available in the demo.
+
+UI.Modding.Submit = Submit/Update
+UI.Modding.Legal = By submitting a mod, you confirm that you made it and agree to the Steam workshop's terms of service (Click here).
+Mod.Owned = Local/owned mod.
+Mod.Steam = Downloaded from Steam Workshop.
