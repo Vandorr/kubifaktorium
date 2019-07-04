@@ -1,4 +1,4 @@
-﻿language=Portuguese
+﻿language=Portugues
 locales=BR
 fallback=English
  
@@ -63,7 +63,7 @@ fallback=English
 ##food.Desc = Comida: Quando com fome, colonos irão automaticamente procurar algo para comer. Fornecer comida irá fazê-los mais felizes e produtivos.
 
 ##stockpilezone = #Stockpile#zona de estoque
-##stockpilezone.Desc = #Stockpile#Zona de estoque: Podem ser atribuídas em chão sólido e usadas para guardar produtos de mesas de trabalho, fazendas ou mineração.
+##stockpilezone.Desc = #Stockpile#Zona de estoque: Podem ser atribuídas em chão sólido e usadas para guardar produtos de bancadas, fazendas ou mineração.
 ##farmzone = #Farm#Plantio
 ##farmzone.Desc = #Farm#Zona de plantio: Podem ser atribuídas em solo fértil para permitir que seus colonos cresçam cultivos.
 ##grovezone = #Grove#Arvoredo
@@ -105,7 +105,7 @@ fallback=English
 Message.AreaExpanded = Nós expandimos nosso território!
 Message.AreaLost = Nós perdemos território!
 Message.WeAreUnderAttack = Estamos sob ataque!
-Message.NewBuildOptions = Atingindo $1 foi destravado:
+Message.NewBuildOptions = Descoberto $1, foi destravado:
 Message.RecruitmentSuccess = Recrutamento bem-sucedido!
 Message.WarnDisembark = Você não pode desembarcar enquanto seus colonos estão na ilha.
 Message.MissionComplete = Ótimo, você completou todos os objetivos para esta ilha! :)
@@ -125,7 +125,7 @@ UI.Build.Desc = Cria um projeto de construção para ser construído por seus co
 UI.Mine = Minerar e colher
 UI.Mine.Desc = Marca árvores, pedras e outros objetos para serem ##mined ou colhidos. (Segure Alt para marcar todos os objetos do mesmo tipo em seu ##territory).
 UI.SettlerMenu = Gerenciamento de colonos
-UI.SettlerMenu.Desc = Define o trabalho e as mesas de trabalho que seus colonos irão usar.
+UI.SettlerMenu.Desc = Define o trabalho e as bancadas que seus colonos irão usar.
 UI.Load = Carregar
 UI.Load.Desc = Marca itens para serem carregados para seu ##ship.
 UI.Stockpile = Estoque
@@ -162,14 +162,14 @@ UI.HitpointMax = Máx. vida: $1
 UI.HitpointRegen = Regeneração de vida: $1
 UI.Stack = Tamanho da pilha: $1
 UI.LinkOverlay = Rotas de produção
-UI.LinkOverlay.Desc = Alterna a visibilidade de ligações ativas entre mesas de trabalho, plantio e ##stockpilezones. [Padrão: Alt esquerdo]
+UI.LinkOverlay.Desc = Alterna a visibilidade de ligações ativas entre bancadas, plantio e ##stockpilezones. [Padrão: Alt esquerdo]
 UI.MaxSpeed = Máx. velocidade: $1
 UI.SettlerScreen.Areas=Áreas
-UI.SettlerScreen.Explanation = Ferramentas -> Colonos automaticamente pegam a melhor ferramenta possível. A preferência de ferramenta depende da atividade atribuída a ele. <br>Zones -> Clique: Permite/proíbe uma zona. Colonos não interagem com coisas em zonas inativas. Selecione uma fogueira para trocar sua zona designada. <br>Tarefas e mesas de trabalho -> Clique: Alterna entre ativo e inativo. O tamanho do quadrado indica o nível de habilidade do colono. 
+UI.SettlerScreen.Explanation = Ferramentas -> Colonos automaticamente pegam a melhor ferramenta possível. A preferência de ferramenta depende da atividade atribuída a ele. <br>Zones -> Clique: Permite/proíbe uma zona. Colonos não interagem com coisas em zonas inativas. Selecione uma fogueira para trocar sua zona designada. <br>Tarefas e bancadas -> Clique: Alterna entre ativo e inativo. O tamanho do quadrado indica o nível de habilidade do colono. 
 UI.SettlerScreen.Tasks=Tarefas
 UI.SettlerScreen.Title=Gerenciamento de colonos
 UI.SettlerScreen.Tool=Ferramenta
-UI.SettlerScreen.Workshops=Mesas de trabalhos
+UI.SettlerScreen.Workshops=Bancadas
 UI.ToolAssignment = Ferramenta equipada ou preferência.
 UI.ToolAssignment.Desc = Colonos automaticamente pegam a melhor ##tool possível . A sua preferência por ferramenta (martelo, pá, picareta ou arma) depende de sua designada tarefa.
 UI.ToolBaseEffect = Efeito base: $1
@@ -251,15 +251,15 @@ Objective.FulfillProductionTarget = Atinja a meta de Inventário.
 Objective.FulfillProductionTarget.Desc = Uma ##productiontarget é mostrada no canto superior esquerdo. Produza mercadorias até que você atinja o requerido. Todas as mercadorias na sua colônia, assim como as armazenadas no barco contam.
 
 Objective.Construct = Construa: $1 ($2/$3)
-Objective.Construct.Desc = Para construir uma $1, abra o #Build# menu de construção, troque para a aba $7, clique em $1 e coloque no mapa. 
+Objective.Construct.Desc = Para construir um $1, abra o #Build# menu de construção, troque para a aba $7, clique em $1 e coloque no mapa. 
 Objective.CreateStockpile = Crie uma zona de estoque ($2/$3)
 Objective.CreateStockpile.Desc = Para criar uma nova ##stockpilezone, clique no botão da zona de estoque e arraste uma área no chão sólido.
 Objective.FarmZone = Crie uma zona de plantio ($2/$3)
 Objective.FarmZone.Desc = Para criar uma nova ##farmzone, clique no botão da zona de plantio e marque uma área em solo fértil. Designe pelo menos $3 blocos para serem fazendas.
 Objective.FarmZoneCrop = Designe uma colheita: $1
-Objective.FarmZoneCrop.Desc = Para começar o crescimento de uma colheita, selecione uma ##farmzone e selecione a planta que você quer plantar.
+Objective.FarmZoneCrop.Desc = Para começar o crescimento de uma colheita, selecione um ##farmzone e selecione a planta que você quer plantar.
 Objective.Have = Minere ou produza: $1 ($2/$3)
-Objective.Have.Desc = Recursos podem ser ##mined pelo ambiente. Mercadorias podem ser produzidas em mesas de trabalho.
+Objective.Have.Desc = Recursos podem ser ##mined pelo ambiente. Mercadorias podem ser produzidas em bancadas.
 
 Objective.TrainSchedule = Adicione $5 ao cronograma do trem
 Objective.TrainSchedule.Desc = Para adicionar uma estação ao cronograma do trem, selecione o trem e aperte o botão direito do mouse na estação que deseja adicionar. Clicar novamente na estação irá removê-la do cronograma. 
@@ -270,11 +270,11 @@ Objective.SetWorkshopOutput = Faça uma ligação de $7 $5 para $8 $6
 Objective.SetWorkshopOutput.Desc = Para fazer uma ligação da $6 para uma saída da ##stockpilezone, clique com o botão esquerdo em $6 e clique com o botão direito em $5.
 
 Objective.LinkStockpile = Faça uma ligação do $1 à zona de estoque ($2/$3)
-Objective.LinkStockpile.Desc = Para fazer uma ligação do $1 à uma ##stockpilezone, clique com o botão esquerdo em $1 e clique com o botão direito na zona de estoque. Mesas de trabalho irão produzir até que as zonas de estoque ligadas à ela estejam cheias.
+Objective.LinkStockpile.Desc = Para fazer uma ligação do $1 à uma ##stockpilezone, clique com o botão esquerdo em $1 e clique com o botão direito na zona de estoque. Bancadas irão produzir até que as zonas de estoque ligadas à ela estejam cheias.
 Objective.LinkFarmToStockpile = Faça uma ligação de um plantio à uma zona de estoque ($2/$3)
-Objective.LinkFarmToStockpile.Desc = Para fazer uma ligação da ##farmzone à uma ##stockpilezone, clique com o botão esquerdo no plantio e clique com o botão direito na zona de estoque. Plantios irão ser colhidos até que as zonas de estoque ligadas a ele estejam cheias.
+Objective.LinkFarmToStockpile.Desc = Para fazer uma ligação do ##farmzone à uma ##stockpilezone, clique com o botão esquerdo no plantio e clique com o botão direito na zona de estoque. Plantios irão ser colhidos até que as zonas de estoque ligadas a ele estejam cheias.
 Objective.MiningJob = Crie tarefas de mineração ($2/$3)
-Objective.MiningJob.Desc = Para selecionar um recurso a ser ##mined, clique no botão de mineração e selecione coisas a serem mineradas. Arraste uma área para minerar tudo dentro dela. Note que os colonos podem minerar apenas recursos dentro de seu ##territory.
+Objective.MiningJob.Desc = Para ##mine um recurso, clique no botão de mineração e selecione coisas a serem mineradas. Arraste uma área para minerar tudo dentro dela. Note que os colonos podem minerar apenas recursos dentro de seu ##territory.
 Objective.ProductionTask = Defina uma produção: $1
 Objective.ProductionTask.Desc = Para produzir uma mercadoria, Selecione uma bancada e clique na mercadoria que você quer que ela produza.
 Objective.SettlersEquipTool = Ferramentas equipadas ($2/$3)
@@ -378,12 +378,12 @@ TaskGroup.Agriculture.Desc = Fazendeiros preparam o solo para plantio e colheita
 TaskGroup.Construction = Construção
 TaskGroup.Construction.Desc = Construtores executam os trabalhos de projetos.
 TaskGroup.Crafting = Artesãos
-TaskGroup.Crafting.Desc = Artesãos operam mesas de trabalhos para criarem mercadorias mais complexas.
+TaskGroup.Crafting.Desc = Artesãos operam bancadas para criarem mercadorias mais complexas.
 TaskGroup.Combat = Combate
 TaskGroup.Combat.Desc = Guerreiros defendem seus colonos e lutam contra inimigos.
 TaskGroup.Mining = Mineração e colheita
 TaskGroup.Mining.Desc = Mineradores derrubam #Tree#arvores e ##mine #Rock#rochas e pedras.
-Workshop._Name = Mesas de trabalhos
+Workshop._Name = Bancadas
 TaskGroup.Power = Energia
 TaskGroup.Power.Desc = Colonos e animais podem gerar ##power.
 
@@ -412,9 +412,9 @@ BuildingType.Logistics.Desc = Construções e maquinário para automatizar sua p
 BuildingType.None = Diversos
 BuildingType.None.Desc = Construções diversas.
 BuildingType.Refining = Refinaria
-BuildingType.Refining.Desc = Mesas de trabalho para refino e descarte de recursos.
-BuildingType.Workshop = Mesas de trabalho
-BuildingType.Workshop.Desc = Mesas de trabalho para produzir ##tools, armas e maquinário.
+BuildingType.Refining.Desc = Bancadas para refino e descarte de recursos.
+BuildingType.Workshop = Bancada
+BuildingType.Workshop.Desc = Bancada para produzir ##tools, armas e maquinário.
 
 Settings.Category.Graphics = Gráficos
 Settings.Category.Audio = Audio
@@ -488,7 +488,7 @@ Workshop.Status.NoInput = Sem entradas.
 Workshop.Status.NoInput.Desc = Produção irá retornar quando o recurso de entrada estiver disponível.
 
 Workshop.Status.NoOutput = Nenhuma área de estoque foi designada.
-Workshop.Status.NoOutput.Desc = Para ligar uma ##stockpilezone de saída, clique com o botão esquerdo na bancada e clique com o botão direito no estoque que você quer que a produção vá. Mesas de trabalho irão produzir até que as zonas de estoque ligadas à ela estejam cheias.
+Workshop.Status.NoOutput.Desc = Para ligar uma ##stockpilezone de saída, clique com o botão esquerdo na bancada e clique com o botão direito no estoque que você quer que a produção vá. Bancadas irão produzir até que as zonas de estoque ligadas à ela estejam cheias.
 Workshop.Status.NoProduct = Nenhum produto selecionado.
 Workshop.Status.NoProduct.Desc = Para escolher um item a ser produzido, clique nele no painel de informações da bancada.
 
@@ -522,8 +522,6 @@ Farm.Status.Till = Pronto para cultivo.
 Farm.Status.Till.Desc = Pronto para cultivo.
 Farm.Status.Water = Pronto para regar.
 Farm.Status.Water.Desc = Pronto para receber ##water. Certifique-se que há baldes disponíveis. 
-
-
 
 MainMenu.NewCampaign = Nova campanha
 MainMenu.ResumeCampaign = Continuar jogo
@@ -645,7 +643,7 @@ UI.Cancel = Cancelar
 UI.Cancel.Desc = Aborta a construção.
 
 StockpileZoneCC = Estoque
-StockpileZoneCC.Desc = Um estoque pode ser usando para guardar produtos de mesas de trabalho, fazenda e mineração.
+StockpileZoneCC.Desc = Um estoque pode ser usando para guardar produtos de bancadas, fazenda e mineração.
 FarmZoneCC = Fazenda
 FarmZoneCC.Desc = Fazenda permite seus colonos a fazer plantio. (##farmzone)
 GroveZoneCC = Arvoredo
@@ -654,7 +652,6 @@ GroveZoneCC.Desc = Podem ser atribuídas em solo fértil para permitir que seus 
 CargoShip.State.ENTERHARBOUR = Entrando no porto de carga.
 CargoShip.State.UNLOAD = Descarregando.
 CargoShip.State.LEAVE = Saindo do porto de carga.
-
 
 UI.Food = Estoque de comidas
 UI.Food.Desc = Forneça ##food para seus colono para fazê-los aumentar a produtividade.
@@ -669,7 +666,7 @@ UI.IdleColonists = Colonos ociosos
 UI.IdleColonists.Desc = Clique aqui para visualizar todos colonos ##idle.
 
 UI.Warnings = Avisos
-UI.Warnings.Desc = Avisos indicam possíveis problemas como mesas de trabalho sem operador designado. Clique aqui para visualizar todos os avisos. 
+UI.Warnings.Desc = Avisos indicam possíveis problemas como bancadas sem operador designado. Clique aqui para visualizar todos os avisos. 
 
 UI.Time = Hora
 UI.Time.Desc = Hora do dia. Maioria do plantio cresce somente durante o ##day. 
@@ -781,10 +778,7 @@ Tool.Crit.Desc = A possibilidade de ter um sucesso crítico. Acerto crítico de 
 MainMenu.Skirmish.Scenarios = Cenários
 MainMenu.Skirmish.Modifiers = Modificadores
 
-
-
 UI.ItemTypes.Title = Tipos de item:
-
 
 Building.Mode = Modo construção. 
 Building.Mode.Desc = Clique para alternar entre ativo e inativo.
@@ -838,7 +832,6 @@ TipOfTheDay.10=Clique em uma construção recomendada para construí-la. Clique 
 
 UI.RecipieHint = <i>Clique em uma receita para ativá-la ou desativá-la. Segure a tecla Alt para automaticamente atualizar as mercadorias aceitas pelo seu estoque de saída.</i>
 
-
 UI.Recommendations = Recomendações
 
 Message.MinimumGood = $1 adicionado à carga do barco.
@@ -890,161 +883,12 @@ Message.LevelUp = $1 atingiu lvl $3. $2.
 
 Message.GameSaved = Jogo salvo. 
 
-# 31.3.2019
-UI.Start = Iniciar
-UI.Randomize = Aleatório
-
-Objective.AnyStockpileAcceptsType = Definir estoque para aceitar $1.
-Objective.AnyStockpileAcceptsType.Desc = Para trocar as mercadorias aceitadas pela  ##stockpilezone, selecione-a e clica nas mercadorias no painel de informações.
-
-##productiontarget = Meta de Inventário
-##productiontarget.Desc = Meta de Inventário: A quantidade de mercadorias que você precisa produzir em cada ilha para fazer progresso na campanha.
-
-
-UI.Build.NoWorker = Nenhum construtor designado.
-UI.Build.NoWorker.Desc = Para fazer um colono trabalhar com construção, selecione ele/ela e clique no ícone de construção e certifique-se que ele/ela é permitido trabalhar nessa zona. Você também pode gerenciar os trabalhos dos colonos pela tela de gerenciamento de colonos.
-
-Logistics.Status.Loop = Repetição detectada.
-Logistics.Status.Loop.Desc = Uma Repetição acontece quando há uma via de duas mãos para outro estoque/depósito e ambos aceitam as mesmas mercadorias. Troque as mercadorias aceitas de qualquer um para resolver isso.
-
-UI.Attack = Atacar
-UI.Attack.Desc = Ataca um acampamento inimigo que está perto de uma fronteira.
-
-Objective.RecruitDemands = Expanda seu território a eles.
-Objective.RecruitDemands.Desc = Expanda seu território até chegar perto de sua bandeira para recrutá-los.
-
-Settings.StreamDeck = Stream Deck
-Settings.StreamDeck.Desc = Suporte ao Stream Deck. Necessário reiniciar.
-
-UI.ActiveJobs = Trabalhos
-
-TipOfTheDay.11=Você pode usar depósitos de dirigíveis como estoque. Você pode usá-los como entrada e saída de mesas de trabalho, fazendas etc...
-
-UI.Follow = Seguir objeto
-UI.Follow.Desc = Siga um item, um colono etc.. 
-UI.Clone = Clonar construção. 
-UI.Clone.Desc = Construa um clone dessa construção. Configurações de produção e ligamentos serão mantidos. 
-
-UI.Weight.Light = Leve
-UI.Weight.Normal = Médio
-UI.Weight.Heavy = Pesado
-
-UI.Build.AwaitingConstruction.Desc = Construção irá começar assim que um colono estiver disponível.
-
-UI.BuiltFrom.Multibuild = Possui $1 unidades.
-
-UI.LogisticsRequest = Requisita do sistema de logística.
-UI.LogisticsRequest.Desc = Requisita a mercadoria pelo sistema de logística. Se não possível, eles só serão usados para estoque ou saídas de mesas de trabalho. 
-
-UI.Inventory.ShowCargo = Incluir carga
-UI.Inventory.ShowCargo.Desc = Inclui a carga atualmente armazenada em seu ##ship.
-
-Settings.VoiceAmbience = Voz de ambiente.
-Settings.VoiceAmbience.Desc = Volume das vozes dos colonos no ambiente.
-
-UI.MinedFrom = Minerado de
-
-# 14.4.19
-
-Status.ZoneSplit = Zona está dividida.
-Status.ZoneSplit.Desc = A zona está dividida em uma ou mais partes desconectadas. Remova as partes extras para tirar esse aviso.
-
-UI.GrowsOn = Cresce em
-
-Farm.Status.InvalidTerrain = Solo inválido.  
-Farm.Status.InvalidTerrain.Desc = A planta selecionada não cresce nesse solo. 
-
-UI.HaltUnloadAll = Abortar descarregamentos.
-
-Status.NothingAccepted = Nenhuma mercadoria aceita.
-Status.NothingAccepted.Desc = Nenhuma mercadoria é aceita por este estoque.
-
-UI.AcrossIslands = Para todas ilhas: $1
-
-MainMenu.Campaign.Loadouts = Iniciando a festa e carregamento:
-
-UI.ItemInfo = Informações do item:
-UI.PlantInfo = Informações da planta:
-UI.ActorInfo = Informações do Colono/Animal:
-
-UI.TaskGroups = Possíveis trabalhos: $1
-
-UI.SpeedBonus = Velocidade bônus: $1%
-Task.Water.Text = Regando solo.
-Task.FarmWater.Text = Regando solo.
-Task.Train.Text = Treinando combate.
-
-Workshop.Status.NoInputStockpile = Nenhum estoque designado.
-Workshop.Status.NoInputStockpile.Desc = Para ligar uma ##stockpilezone de entrada, clique com o esquerdo no estoque e clique na bancada onde o conteúdo do estoque será usado. Mesas de trabalho somente usam recursos de entradas de estoques assim que um é ligado a ela.
-
-UI.ThisIsland = Para essa ilha ($2%): $1
-
-Setting.AO.Off = Desligado
-Setting.AO.Medium = Médio
-Setting.AO.High = Alto
-Setting.Shadows.Off = Desligado
-Setting.Shadows.Soft = Suaves
-Setting.Shadows.Hard = Nítidas
-
-Mod.MadeBy = Feito por
-Mod.Version = Versão
-Mod.Requires = Requer
-Mod.Contains = Contém
-
-BugReport.Title = Enviar relatório de erro(bug)
-BugReport.Cancel = Cancelar
-BugReport.Submit = Enviar
-BugReport.Summary = Sumário
-BugReport.Description = Descrição
-BugReport.Category = Categoria
-BugReport.Submitting = Enviando relatório do usuário. Obrigado!! :D
-BugReport.Failed = O relatório do usuário não pôde ser enviado. Por favor, tente novamente mais tarde.
-
-UI.Inhabitants = Inabitantes
-Message.ActorDied = $1 foi derrotado.
-Train.Status.Okay.Desc = O trem está indo para a próxima estação.
-
-UI.CombatState.Waiting = (Aguardando)
-
-UI.CombatState.Title = Combate em progresso!
-
-UI.Attack.Miss = Desviou!
-UI.AttackCamp.Desc = Derrote acampamentos inimigos para reivindicar seu ##territory. Diferente de seus inimigos, seus colonos não morrem. Atacar um acampamento forte repetidamente é uma válida estratégia para a vitória.
-
-## 1.5.2019 
-
-UI.IdleFighters = Guerreiro ociosos
-UI.IdleFighters.Desc = Clique aqui para navegar por todos os guerreiros ##idle.
-
-UI.MiningDifficulty = Dificuldade da mineração
-UI.MiningDifficulty.Desc = A dificuldade da mineração determina o tempo que irá levar para um minerador obter seus recursos.
-
-MiningDifficulty.Easy = Dificuldade de mineração: Fácil.
-MiningDifficulty.Normal = Dificuldade de mineração: Normal.
-MiningDifficulty.Hard = Dificuldade de mineração: Difícil.
-MiningDifficulty.VeryHard = Dificuldade de mineração: Muito difícil.
-
-UI.BuildTrain.NoMoreTrains = Número máximo construído.
-UI.BuildTrain.NoFreeSegment = Segmento de trilho ocupado.
-
-Task.UnloadAuto.Text = Descarregando $1.
-
-UI.TrackLayer.Start = Constrói trilhos de trem. 
-UI.TrackLayer.Start.Desc = Constrói trilhos de trem para conectar fábricas de trem á estações. Os trilhos irão ser automaticamente construídos contanto que você tenha parte de trilhos no seu Inventário. <br>Aperte ##Keycycle para alternar entre elevação alta ou baixa. 
-UI.TrackLayer.Semaphore1 = Coloca um semáforo no trilho.
-UI.TrackLayer.Semaphore2 = Coloca um pré-semáforo no trilho.
-UI.TrackLayer.Semaphore1.Desc = Semáforos de trens permitem que eles passem na direção indicada. Quando o segmento a frente está ocupado por outro trem, o trem irá esperar aqui.
-UI.TrackLayer.Semaphore2.Desc = Pré-semáforos de trens permitem que eles passem na direção indicada. Quando o segmento a frente está ocupado por outro trem, o trem irá esperar aqui.
-
-UI.TrainStation = Estação de trem
-UI.TrainStation.WaitForFull = Para o trem até encher.
-UI.TrainStation.WaitForFull.Desc = Para o trem até ele estar totalmente carregado.
-
-#Items and screens names
+# Items and screens names
 
 AttackEnemyCamp.Desc = 2.) Ataque o acampamento inimigo
 AttackEnemyCamp.Intro = Clique no território inimigo e clique em atacar para ordenar seus colonos ao ataque.
 AttackEnemyCamp.Outro = Dica: Selecione seus colonos para ver quanto de dano eles dão com diferentes armas.
+
 BuildAutoTrain.Desc = 2.) Construa um trem
 BuildAutoTrain.Intro = Construa um trem usando a fábrica de trens.
 BuildCircleTrain1.Desc = Construa trens 1/4
@@ -1069,21 +913,25 @@ BuildPreSignalTrain4.Intro = Construa o último trem usando a fábrica de trens 
 BuildPreSignalTrain4.Outro = Pré-semáforos evita seus trens de entrar em interseções quando isso pode causar um bloqueio.
 BuildTrain.Desc = 3.) Construa um trem
 BuildTrain.Intro = Build a train using the train factory (4).
+
 CarriageSetupLinks.Desc = 2.) Defina as ligações
 CarriageSetupLinks.Intro = Ótimo. As rochas agora são carregadas para a estação no Norte por que é a mais próxima. Agora, ligue as estações.
 CarriageSetupSchedule.Desc = 3.) Defina o cronograma
 CarriageSetupSchedule.Intro = Por último, selecione a carruagem de cavalos e as estações para seu cronograma apertando o botão direito nelas.
 CarriageSetupStockpiles.Desc = 1.) Defina uma estação e um estoque
 CarriageSetupStockpiles.Intro = Rochas são bem pesadas e lentas de carregar. Usar cavalos para transportá-las por longas distâncias é mais eficiente. Selecione a estação de cavalo no topo e o estoque no inferior para aceitar rochas.
+
 ConvTutPart1.Desc = 1.) Configuração simples.
 ConvTutPart1.Intro = Essa configuração mostra como esteiras de chão podem ser usadas. Selecione o funil de saída no depósito e configure-o para aceitar blocos de ferro.
 ConvTutPart2.Desc = 2.) Distribuidores.
 ConvTutPart2.Intro = Distribuidores separa itens uniformemente de esteiras de chegada para uma ou mais esteiras de saída. Selecione o funil de saída no depósito (2) e configure-o para aceitar blocos de pedras.
 ConvTutPart3.Desc = 3.) Esteiras superiores.
 ConvTutPart3.Intro = Esteiras podem ser construídas em duas camadas. Use as rampas para transportar mercadorias entre as camadas altas e baixas. Selecione o funil de saída no depósito (3) e configure-o para aceitar blocos de pedra.
+
 DefeatEnemyCamp.Desc = 3.) Derrote o acampamento inimigo
 DefeatEnemyCamp.Intro = Clique no território inimigo e clique em atacar para ordenar seus colonos ao ataque.
 DefeatEnemyCamp.Outro = Dica: Seus colonos não morrem em combate. Quando eles se machucam, eles recuam para se curar.
+
 LinkAutoTrainStations.Desc = 1.) Ligue estações de trem
 LinkAutoTrainStations.Intro = Dê uma olhada na instalação do norte. As pedreiras automatizadas produzem ferro que é automaticamente transportada para a estação de trem. Crie uma ligação da estação 1 para a estação 2.
 LinkGoldZeppelinStation.Desc = 4.) Ligue o ouro á rede
@@ -1101,6 +949,7 @@ LinkZeppelinStationToTarget.Desc = 5.) Ligue o estoque alvo
 LinkZeppelinStationToTarget.Intro = Por último, nós precisamos conectar o estoque (4) do sul ao nosso estoque de destino (5) e definir o estoque para aceitar blocos de ouro.
 LinkZeppelinStationWater.Desc = 6.) Conecte baldes de água.
 LinkZeppelinStationWater.Intro = Ótimo! Os blocos de ouro agora serão transportados. Mas não seria legal se os dirigíveis transportassem baldes de água para o posto no caminho de volta? Configure tudo para isso acontecer!
+
 Map01.IntroCamera = Aprenda a controlar a câmera.
 Map01.IntroControls = Se familiarize com os controles:
 Map01.IntroDebug = Note que essa opção te permite acessar conteúdos não terminados e com problemas.
@@ -1117,6 +966,7 @@ Map01.OutroRecruit = Dica: Aumente o tamanho de sua fazenda, expanda seus estoqu
 Map01.SpawnStrandedColonists = Alguns naufragados querem se juntar a sua colônia.
 Map01.SpawnStrandedColonists.Short = Recrute naufragados.
 MapFP.Introduction = Este pequeno tutorial irá lhe mostrar como você pode usar as opções de depuração do jogo para acessar conteúdos inacabados.
+
 Mod.CoastWaves = Ondas na costa
 Mod.CoastWaves.Desc = Adiciona sons de ondas no jogo e as atribui as rochas da praia.
 Mod.GreenTomato = Mod. Tomate verde
@@ -1132,7 +982,7 @@ Mod.SpeedyColonists.Desc = Esta é uma mod. que aumenta a velocidade dos colonos
 Mod.StoneBakery = Padarias de pedra
 Mod.StoneBakery.Desc = Padarias agora são produzidas usando blocos de pedra (invés de tijolos).
 
-#Modifiers
+# Modifiers
 Modifier.CargoTier2 = Define Cargas para o Grau 2.
 Modifier.CargoTier3 = Define Cargas para o Grau 3.
 Modifier.EnemyCampsFew = Poucos acampamentos inimigos.
@@ -1164,7 +1014,7 @@ Modifier.TerrainDesert = Grau 2: Deserto (Selecione Carga de Grau 2!)
 Modifier.TerrainGrassland = Grau 1: Campo
 Modifier.Tutorial1 = Instale uma colônia básica.
 Modifier.TutorialAdvancedProduction = Aprenda sobre produção avançada e técnicas de gerenciamento.
-Modifier.TutorialAdvancedProduction.Intro = Esse tutorial mostra como definir mesas de trabalho para produzir múltiplas mercadorias e gerenciar estoques.
+Modifier.TutorialAdvancedProduction.Intro = Esse tutorial mostra como definir bancadas para produzir múltiplas mercadorias e gerenciar estoques.
 Modifier.TutorialAdvancedProduction.Outro = 
 Modifier.TutorialAutomatedTrains = Aprenda como montar uma rota de trem totalmente automatizada.
 Modifier.TutorialAutomatedTrains.Intro = Esse tutorial mostra como integrar construções de produção automática ao sistema de logística.
@@ -1222,7 +1072,7 @@ ObjectType.Brick.Desc = Usado para fazer construções mais avançadas.
 ObjectType.Bush = Arbusto
 ObjectType.Bush.Desc = Um simples arbusto.
 ObjectType.BushBerries = Morango
-ObjectType.BushBerries.Desc = Morangos crescem rápido e fonte de comida. Cresce no campo.
+ObjectType.BushBerries.Desc = Morangos crescem rápido e são fonte de comida. Cresce no campo.
 ObjectType.Cactus = Cactos
 ObjectType.Cactus.Desc = Evoluídos para sobreviverem ao árduo clima do deserto.
 ObjectType.CargoShip = Barco de carga
@@ -1596,13 +1446,13 @@ ObjectType.Worm.Desc = Pode ser removido ao minerar/coletar.
 ObjectType.ZeppelinDepotStation = Depósito de dirigíveis
 ObjectType.ZeppelinDepotStation.Desc = Estação e ##depot usados pelos dirigíveis para carregar mercadorias de peso leve e médiano. (##Logsys)
 ObjectType.ZeppelinFactory = Fábrica de Dirigíveis
-ObjectType.ZeppelinFactory.Desc = Constrói e auxilia dirigíveis que transportam produtos leves e medianos.B##logsys
+ObjectType.ZeppelinFactory.Desc = Constrói e auxilia dirigíveis que transportam produtos leves e medianos. ##logsys
 ObjectType.ZeppelinStation = Estação dos Dirigíveis
 ObjectType.ZeppelinStation.Desc = Estação usada pelos dirigíveis para transportar produtos por longas distâncias.(##Logsys)
-ObjectType.ZeppelinUnit = Zepelim
-ObjectType.ZeppelinUnit.Desc = O zepelim transporta um único produto por longas distâncias.
+ObjectType.ZeppelinUnit = Dirigível
+ObjectType.ZeppelinUnit.Desc = O dirigível transporta um único produto por longas distâncias.
 
-#Screen names
+# Screen names
 Scenario.MockupTier1 = Maquete da missão 1.
 Scenario.MockupTier1.Desc = Uma maquete em andamento de um jogo.
 Scenario.MockupTier12 = Maquete da missão 12.
@@ -1625,11 +1475,11 @@ Scenario.TutorialCarriages = Tutorial: Carruagem.
 Scenario.TutorialCarriages.Desc = Configure a conexão da carruagem.
 Scenario.TutorialCombat = Tutorial: Sistema de combate.
 Scenario.TutorialCombat.Desc = Ataque e defenda um campo inimigo.
-Scenario.TutorialConveyorBelts = Exemplo: Esteiras transportadoras
+Scenario.TutorialConveyorBelts = Exemplo: Esteiras<br> transportadoras
 Scenario.TutorialConveyorBelts.Desc = Veja as esteiras transportadoras em funcionamento.
-Scenario.TutorialLogistics = Tutorial: Sistema de logística
+Scenario.TutorialLogistics = Tutorial: Sistema de<br> logística
 Scenario.TutorialLogistics.Desc = Configure um posto avançado e uma linha de transporte para zepelim.
-Scenario.TutorialOreCrushing = Exemplo: Processamento de minérios
+Scenario.TutorialOreCrushing = Exemplo: Processamento<br> de minérios
 Scenario.TutorialOreCrushing.Desc = Esse exemplo mostra como configurar a automação do processamento de minérios.
 Scenario.TutorialTrainCrossing = Exemplo: Trevos
 Scenario.TutorialTrainCrossing.Desc = Os trevos permitem que múltiplos trens operem em uma mesma rede.
@@ -1639,6 +1489,7 @@ Scenario.TutorialTrains = Tutorial: Trens
 Scenario.TutorialTrains.Desc = Conecte duas estações de trem via sistema de logística.
 Scenario.TutorialTrainSignalsCircle = Exemplo: Rede ferroviária
 Scenario.TutorialTrainSignalsCircle.Desc = Aprenda a usar os semáforos para operar vários trens em uma rede circular única.
+
 SetAdvancedInputStockpile.Desc = 2.) Atribua a um estoque
 SetAdvancedInputStockpile.Intro = Nós não queremos que Berta saia correndo para pegar recursos. Atribua a entrada de um estoque à oficina para prevenir isso. 
 SetAdvancedInputStockpile.Outro = Dica: Uma vez que você atribui a entrada de um estoque à oficina, apenas recursos de estoques designados serão utilizados. Oficinas podem ter múltiplos estoques de entrada e de saída atribuídos. 
@@ -1660,24 +1511,178 @@ SetOutputStockpiles.Desc = 5.) Ajuste a produção de estoques
 SetOutputStockpiles.Intro = Atribua a produção de estoques para a oficina para começar a produzir.
 SetRecipes.Desc = 4.) Configure a produção
 SetRecipes.Intro = Nós vamos usar a oficina para produzir tábuas de madeira e blocos de pedra. Configure a produção de acordo com isso.
+
 TerrainShape.Flat = Terreno plano
 TerrainShape.Flat.Intro = Essa ilha tem muitos campos.
 TerrainShape.Mountain = Terreno montanhoso
 TerrainShape.Mountain.Intro = A ilha tem muitas colinas e montanhas.
 TerrainShape.Normal = Terreno normal
 TerrainShape.Plane = Terreno perfeitamente plano
+
 TitleBasicWorkshop1 = Produção de tábuas de madeira
 TitleBasicWorkshop1.Intro = Construa uma oficina e produza algumas tábuas de madeira:
+
 TrainAutoExitHopper.Desc = 4.) Configure o funil de saída
 TrainAutoExitHopper.Intro = O ferro minerado agora é automaticamente transportado para a estação sul. Selecione o funil de saída na estação sul e configure-o para aceitar o ferro, para que ele seja estocado no depósito mais próximo.
 TrainAutoSchedule.Desc = 3.) Monte um cronograma
 TrainAutoSchedule.Intro = Selecione o trem e adicione as estações ao cronograma clicando nele com o botão direito.
 TrainSchedule.Desc = 4.) Monte um cronograma
 TrainSchedule.Intro = Os trens requerem um cronograma para saber onde devem ir. Selecione um trem e adicione as estações ao cronograma clicando nele com o botão direito.
+
 TutorialNeedsTools.IntroControls = Se familiarize com os controles:
 TutorialNeedsTools.Introduction = Nós chegamos em uma pequena ilha pacífica. Nós deveríamos armar um pequeno acampamento e estocar madeira e pedra.
 TutorialNeedsTools.IntroHelp = Aprenda como usar o sistema de ajuda:
 TutorialNeedsTools.IntroUnload = Descarregue os recursos de nosso navio:
+
+# 31.3.2019
+UI.Start = Iniciar
+UI.Randomize = Aleatório
+
+Objective.AnyStockpileAcceptsType = Definir estoque para aceitar $1.
+Objective.AnyStockpileAcceptsType.Desc = Para trocar as mercadorias aceitadas pela  ##stockpilezone, selecione-a e clica nas mercadorias no painel de informações.
+
+##productiontarget = Meta de Inventário
+##productiontarget.Desc = Meta de Inventário: A quantidade de mercadorias que você precisa produzir em cada ilha para fazer progresso na campanha.
+
+
+UI.Build.NoWorker = Nenhum construtor designado.
+UI.Build.NoWorker.Desc = Para fazer um colono trabalhar com construção, selecione ele/ela e clique no ícone de construção e certifique-se que ele/ela é permitido trabalhar nessa zona. Você também pode gerenciar os trabalhos dos colonos pela tela de gerenciamento de colonos.
+
+Logistics.Status.Loop = Repetição detectada.
+Logistics.Status.Loop.Desc = Uma Repetição acontece quando há uma via de duas mãos para outro estoque/depósito e ambos aceitam as mesmas mercadorias. Troque as mercadorias aceitas de qualquer um para resolver isso.
+
+UI.Attack = Atacar
+UI.Attack.Desc = Ataca um acampamento inimigo que está perto de uma fronteira.
+
+Objective.RecruitDemands = Expanda seu território a eles.
+Objective.RecruitDemands.Desc = Expanda seu território até chegar perto de sua bandeira para recrutá-los.
+
+Settings.StreamDeck = Stream Deck
+Settings.StreamDeck.Desc = Suporte ao Stream Deck. Necessário reiniciar.
+
+UI.ActiveJobs = Trabalhos
+
+TipOfTheDay.11=Você pode usar depósitos de dirigíveis como estoque. Você pode usá-los como entrada e saída de bancadas, fazendas etc...
+
+UI.Follow = Seguir objeto
+UI.Follow.Desc = Siga um item, um colono etc.. 
+UI.Clone = Clonar construção. 
+UI.Clone.Desc = Construa um clone dessa construção. Configurações de produção e ligamentos serão mantidos. 
+
+UI.Weight.Light = Leve
+UI.Weight.Normal = Médio
+UI.Weight.Heavy = Pesado
+
+UI.Build.AwaitingConstruction.Desc = Construção irá começar assim que um colono estiver disponível.
+
+UI.BuiltFrom.Multibuild = Possui $1 unidades.
+
+UI.LogisticsRequest = Requisita do sistema de logística.
+UI.LogisticsRequest.Desc = Requisita a mercadoria pelo sistema de logística. Se não possível, eles só serão usados para estoque ou saídas de bancadas. 
+
+UI.Inventory.ShowCargo = Incluir carga
+UI.Inventory.ShowCargo.Desc = Inclui a carga atualmente armazenada em seu ##ship.
+
+Settings.VoiceAmbience = Voz de ambiente.
+Settings.VoiceAmbience.Desc = Volume das vozes dos colonos no ambiente.
+
+UI.MinedFrom = Minerado de
+
+# 14.4.19
+
+Status.ZoneSplit = Zona está dividida.
+Status.ZoneSplit.Desc = A zona está dividida em uma ou mais partes desconectadas. Remova as partes extras para tirar esse aviso.
+
+UI.GrowsOn = Cresce em
+
+Farm.Status.InvalidTerrain = Solo inválido.  
+Farm.Status.InvalidTerrain.Desc = A planta selecionada não cresce nesse solo. 
+
+UI.HaltUnloadAll = Abortar descarregamentos.
+
+Status.NothingAccepted = Nenhuma mercadoria aceita.
+Status.NothingAccepted.Desc = Nenhuma mercadoria é aceita por este estoque.
+
+UI.AcrossIslands = Para todas ilhas: $1
+
+MainMenu.Campaign.Loadouts = Iniciando a festa e carregamento:
+
+UI.ItemInfo = Informações do item:
+UI.PlantInfo = Informações da planta:
+UI.ActorInfo = Informações do Colono/Animal:
+
+UI.TaskGroups = Possíveis trabalhos: $1
+
+UI.SpeedBonus = Velocidade bônus: $1%
+Task.Water.Text = Regando solo.
+Task.FarmWater.Text = Regando solo.
+Task.Train.Text = Treinando combate.
+
+Workshop.Status.NoInputStockpile = Nenhum estoque designado.
+Workshop.Status.NoInputStockpile.Desc = Para ligar uma ##stockpilezone de entrada, clique com o esquerdo no estoque e clique na bancada onde o conteúdo do estoque será usado. Bancadas somente usam recursos de entradas de estoques assim que um é ligado a ela.
+
+UI.ThisIsland = Para essa ilha ($2%): $1
+
+Setting.AO.Off = Desligado
+Setting.AO.Medium = Médio
+Setting.AO.High = Alto
+Setting.Shadows.Off = Desligado
+Setting.Shadows.Soft = Suaves
+Setting.Shadows.Hard = Nítidas
+
+Mod.MadeBy = Feito por
+Mod.Version = Versão
+Mod.Requires = Requer
+Mod.Contains = Contém
+
+BugReport.Title = Enviar relatório de erro(bug)
+BugReport.Cancel = Cancelar
+BugReport.Submit = Enviar
+BugReport.Summary = Sumário
+BugReport.Description = Descrição
+BugReport.Category = Categoria
+BugReport.Submitting = Enviando relatório do usuário. Obrigado!! :D
+BugReport.Failed = O relatório do usuário não pôde ser enviado. Por favor, tente novamente mais tarde.
+
+UI.Inhabitants = Inabitantes
+Message.ActorDied = $1 foi derrotado.
+Train.Status.Okay.Desc = O trem está indo para a próxima estação.
+
+UI.CombatState.Waiting = (Aguardando)
+
+UI.CombatState.Title = Combate em progresso!
+
+UI.Attack.Miss = Desviou!
+UI.AttackCamp.Desc = Derrote acampamentos inimigos para reivindicar seu ##territory. Diferente de seus inimigos, seus colonos não morrem. Atacar um acampamento forte repetidamente é uma válida estratégia para a vitória.
+
+## 1.5.2019 
+
+UI.IdleFighters = Guerreiros ociosos
+UI.IdleFighters.Desc = Clique aqui para navegar por todos os guerreiros ##idle.
+
+UI.MiningDifficulty = Dificuldade da mineração
+UI.MiningDifficulty.Desc = A dificuldade da mineração determina o tempo que irá levar para um minerador obter seus recursos.
+
+MiningDifficulty.Easy = Dificuldade de mineração: Fácil.
+MiningDifficulty.Normal = Dificuldade de mineração: Normal.
+MiningDifficulty.Hard = Dificuldade de mineração: Difícil.
+MiningDifficulty.VeryHard = Dificuldade de mineração: Muito difícil.
+
+UI.BuildTrain.NoMoreTrains = Número máximo construído.
+UI.BuildTrain.NoFreeSegment = Segmento de trilho ocupado.
+
+Task.UnloadAuto.Text = Descarregando $1.
+
+UI.TrackLayer.Start = Constrói trilhos de trem. 
+UI.TrackLayer.Start.Desc = Constrói trilhos de trem para conectar fábricas de trem á estações. Os trilhos irão ser automaticamente construídos contanto que você tenha parte de trilhos no seu Inventário. <br>Aperte ##Keycycle para alternar entre elevação alta ou baixa. 
+UI.TrackLayer.Semaphore1 = Coloca um semáforo no trilho.
+UI.TrackLayer.Semaphore2 = Coloca um pré-semáforo no trilho.
+UI.TrackLayer.Semaphore1.Desc = Semáforos de trens permitem que eles passem na direção indicada. Quando o segmento a frente está ocupado por outro trem, o trem irá esperar aqui.
+UI.TrackLayer.Semaphore2.Desc = Pré-semáforos de trens permitem que eles passem na direção indicada. Quando o segmento a frente está ocupado por outro trem, o trem irá esperar aqui.
+
+UI.TrainStation = Estação de trem
+UI.TrainStation.WaitForFull = Para o trem até encher.
+UI.TrainStation.WaitForFull.Desc = Para o trem até ele estar totalmente carregado.
 
 TipOfTheDay.12=Use a bancada atualizada para melhorar as ferramentas e armas. 
 
@@ -1722,7 +1727,7 @@ Task.Produce.Import = Importando $1.
 
 UI.Priority = Prioridade:
 UI.Priority.Tooltip = Prioridade
-UI.Priority.Tooltip.Desc = Estoques e mesas de trabalho com maiores prioridades são usadas primeiro.
+UI.Priority.Tooltip.Desc = Estoques e bancadas com maiores prioridades são usadas primeiro.
 
 ##cargoship.Desc = #Refine#Barco de carga: Permite você exportar mercadorias que não necessita e importar recursos necessários. Para exportar alguma coisa, conecte um estoque ao porto de carga. Para importar alguma coisa, conecte o porto de carga a um estoque e defina-o para aceitar algo que precise ser importado.  
 
@@ -1732,8 +1737,6 @@ UI.PropagateToAll = Propagar às saídas.
 UI.PropagateToAll.Desc = Define todos os estoques de saídas para aceitar as saídas desta bancada. 
 
 TipOfTheDay.13=Quando você tem falta de recursos necessários, você pode construir um porto de carga para importá-los. Exporte mercadorias produzidas para poder comprar outras.  
-
-
 
 UI.HaltUnloadAll.Desc = Para itens que estão sendo descarregados.
 
@@ -1768,7 +1771,7 @@ Name.StockpileZoneCC = Estoque
 Name.FarmZoneCC = Fazenda
 Name.GroveZoneCC = Arvoredo
 
-UI.Road.Desc = Constrói estradas para conectar estoques e mesas de trabalhos remotas. Colonos se movem mais rápidos em estradas. Clique em um bloco inicial e depois em um bloco final para construir a rua. Você também pode clicar e arrastar para construir ruas.
+UI.Road.Desc = Constrói estradas para conectar estoques e bancadas remotas. Colonos se movem mais rápidos em estradas. Clique em um bloco inicial e depois em um bloco final para construir a rua. Você também pode clicar e arrastar para construir ruas.
 
 EarlyAccessWarning.Intro = O terreno negro e as mecânicas relacionadas (esteiras de transporte, produção automatizada etc.) ainda estão em desenvolvimento. Espere por má balanceamento, recursos faltando etc.. Eu estou ciente dos problemas então você não precisar relatá-los como erros(bugs). Eles estão planejados para serem corrigidos ao final de 2019. :) 
 EarlyAccessWarning.Help = Early Access Warning
@@ -1789,7 +1792,7 @@ UI.Upgrade.Desc = Na mesa de melhoras, dois itens de uma qualidade são combinad
 
 TipOfTheDay.14=Você pode renomear colonos, zonas e algumas construções. Para fazer isso, selecione-os e clique no nome no topo do painel de informações.  
 
-TipOfTheDay.15 = Colonos movem mais rápidos quando não carregam ferramentas. Remova todos os trabalhos e mesas de trabalho de um colono para torná-lo em um carregador.    
+TipOfTheDay.15 = Colonos movem mais rápidos quando não carregam ferramentas. Remova todos os trabalhos e bancadas de um colono para torná-lo em um carregador.    
 
 TipOfTheDay.16 = Os blocos de estoque são usados na ordem que foram criados. Inicie um estoque próximo a uma bancada e expanda-o a partir dali para torná-lo mais eficiente.
 
