@@ -1575,6 +1575,11 @@ TutorialNeedsTools.Introduction = Nós chegamos em uma pequena ilha pacífica. N
 TutorialNeedsTools.IntroHelp = Aprenda como usar o sistema de ajuda:
 TutorialNeedsTools.IntroUnload = Descarregue os recursos de nosso navio:
 
+Mod.Owned = Mod. possuída .
+Mod.Steam = Baixado pela Oficina Steam.
+UI.Modding.Legal = Ao enviar uma Mod., você confirma que é de sua autoria e aceita os Termos de Serviço da Oficina Steam (Click here).
+UI.Modding.Submit = Enviar/Atualizar
+
 # 31.3.2019
 UI.Start = Iniciar
 UI.Randomize = Aleatório
