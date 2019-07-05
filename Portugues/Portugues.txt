@@ -82,7 +82,7 @@ fallback=English
 ##social = #Chat#social 
 ##social.Desc #Chat#Social: Colonos precisam de interação com outros para crescer. Fornecer interação social irá fazê-los mais felizes e produtivos.
 ##logsys = #Logistics#Sistema de logística
-##logsys.Desc = #Logistics#Sistema de logística: Permite você conectar múltiplos sistemas de transporte e armazenamento. Uma vez instalados, irá automa_ticamente gerar trabalhos de transporte à veículos e colonos.
+##logsys.Desc = #Logistics#Sistema de logística: Permite você conectar múltiplos sistemas de transporte e armaze_namento. Uma vez instalados, irá automa_ticamente gerar trabalhos de transporte à veículos e colonos.
 
 ##cargoship = #Refine#Navio de carga
 ##automatically = #Power#automa_ticamente
@@ -849,7 +849,7 @@ UI.AssignZone.Desc = Clique aqui para desig_nar/remo_ver cor da ##zone.
 UI.RestartMap = Reiniciar mapa
 
 UI.TargetTrack = Meta de Inventário ($1 / $2):
-UI.ProductionTarget.Met = Meta de Inventário atingida por:<br> $1
+UI.ProductionTarget.Met = Meta de Inventário atingida para:<br> $1
 UI.ProductionTarget.MetShort = Inventário atingido:<br> $1  
 
 UI.Recommendations.Desc = O sistema de Recomen_dações sugerem coisas para fazer baseado na situação atual. 
@@ -868,7 +868,7 @@ UI.LeaveMap = Sair da ilha
 UI.LeaveMap.Desc = Sair da ilha e retornar ao mapa mundo.
 UI.IncreaseProductionTarget = Elevar meta 
 UI.IncreaseProductionTarget.Desc = Elevando a ##productiontarget para essa ilha irá diminuir as mercadorias que você precisa produzir em outras ilhas. <br>Nota: Você pode sair da ilha a qualquer momento, mesmo que você não tenha atingido a meta elevada.
-Message.IncreaseProductionTarget = Meta de Inventário elevado para $1%.  
+Message.IncreaseProductionTarget = Meta de Inventário elevada para $1%.  
 
 UI.ReturnToMain = Retornar ao menu principal
 UI.ReturnToMain.Desc = Sair desse jogo e retornar ao menu principal.
@@ -1413,7 +1413,7 @@ ObjectType.Treadmill = Esteira
 ObjectType.Treadmill.Desc = Animais ou colonos que estiverem usando a esteira vão gerar ##power para sua maquinaria.
 ObjectType.Tree = Carvalho
 ObjectType.Tree.Desc = Árvores podem ser cortadas para se obter lenha.
-ObjectType.UpgradeWorkshop = Melhorar oficina
+ObjectType.UpgradeWorkshop = Oficina de aprimora_mento
 ObjectType.UpgradeWorkshop.Desc = Permite que colonos combinem ferramentas e armas para criar itens de melhor qualidade.
 ObjectType.WaterBucket = Água
 ObjectType.WaterBucket.Desc = Uma bebida básica.
@@ -1451,8 +1451,8 @@ ObjectType.ZeppelinStation = Estação dos Dirigíveis
 ObjectType.ZeppelinStation.Desc = Estação usada pelos dirigíveis para transportar produtos por longas distâncias.(##Logsys)
 ObjectType.ZeppelinUnit = Dirigível
 ObjectType.ZeppelinUnit.Desc = O dirigível transporta um único produto por longas distâncias.
-ObjectType.AutoKiln = Automated kiln
-ObjectType.AutoKiln.Desc = ##Automated kilns are used to produce bricks and charcoal.
+ObjectType.AutoKiln = Forno Automatizado
+ObjectType.AutoKiln.Desc = Fornos ##Automated são usados para produzir tijolos e carvão.
 ObjectType.Cow = Vaca
 ObjectType.Cow.Desc = Uma criatura pacífica.
 ObjectType.Firefly = Vagalume
@@ -1835,7 +1835,7 @@ TipOfTheDay.17 = Você pode ligar seu barco a um estoque. Fazendo isso, seus col
 
 MainMenu.Notice.Demo = Essa é uma versão de demonstração com funcio_nalidades limitadas. Clique aqui para visitar a página do jogo na STEAM. Adicione Kubifak_torium a sua lista de desejos para saber quando ele será lançado este Verão! Obrigado :)
 
-MainMenu.Notice.EarlyAccess = Bem-vindo a versão antecipada de Kubifaktorium! Aqui há algumas dicas para a versão atual: <br>- Eu recomendo iniciar pelos tutoriais.<br> - Os biomas de Campo e Deserto estão bem jogáveis. Tudo além disso (automação, esteiras de transporte etc.) ainda estão em desen_volvimento. Para aprender mais, dê uma olhada no mapa de planejamento futuro do jogo. <br> - Quando estiver jogando a campanha, por favor, salve o jogo toda vez que você for para o mapa mundo. <br> - Se você achar algum erro(bug), por favor, reporte usando a ferramenta dentro do jogo (botão no canto superior direito). <br> - O melhor lugar para conversar sobre o jogo é no nosso servidor oficial do Discord <br> Obrigado por jogar, espero que se divirta com o jogo! :) <br>  Mirko 
+MainMenu.Notice.EarlyAccess = Bem-vindo a versão antecipada de Kubifa_ktorium! Aqui há algumas dicas para a versão atual: <br>- Eu recomendo iniciar pelos tutoriais.<br> - Os biomas de Campo e Deserto estão bem jogáveis. Tudo além disso (automação, esteiras de transporte etc.) ainda estão em desen_volvimento. Para aprender mais, dê uma olhada no mapa de planejamento futuro do jogo. <br> - Quando estiver jogando a campanha, por favor, salve o jogo toda vez que você for para o mapa mundo. <br> - Se você achar algum erro(bug), por favor, reporte usando a ferramenta dentro do jogo (botão no canto superior direito). <br> - O melhor lugar para conversar sobre o jogo é no nosso servidor oficial do Discord <br> Obrigado por jogar, espero que se divirta com o jogo! :) <br>  Mirko 
 
 # 15.6.2019
 # Removed: Objective.Load, Objective.Load.Desc
@@ -1851,7 +1851,7 @@ Task.Idle = Ocioso
 UI.WaterState = Água: $1
 
 DemoDisable = Desativado na Demo.
-DemoDisable.Desc = Infelizmente, esse recurso do jogo ainda não está disponível na Demo.
+DemoDisable.Desc = Infeli_zmente, esse recurso do jogo ainda não está disponível na Demo.
 
 Mod.Owned = Mod. possuída .
 Mod.Steam = Baixado pela Oficina Steam.
