@@ -446,7 +446,7 @@ Settings.Autosave.Desc = Automaticamente salva o jogo após um período de tempo
 Settings.Bevel = Chanfro e bordas
 Settings.Bevel.Desc = Aplica um contorno e efeitos chanfrados ao redor dos objetos.
 Settings.Bloom = Bloom
-Settings.Bloom.Desc = Aplica um efeito de brilho ao redor de área superexpostas à luz.
+Settings.Bloom.Desc = Aplica um efeito de brilho ao redor de áreas superexpostas à luz.
 Settings.Clouds = Nuvens
 Settings.Clouds.Desc = Nuvens se movem sobre o terreno.
 Settings.Debug = Modo depuração
@@ -618,12 +618,12 @@ Message.CombatInProgress = $1 está sob ataque!
 
 UI.SurveyInfo = Mini questionário
 Settings.Surveys=Questionário
-Settings.Surveys.Desc=Mostram questionários no menu principal.
+Settings.Surveys.Desc=Mostra questionários no menu principal.
 Settings.Lights=Luzes
 Settings.Lights.Desc=Mostra luzes no cenário (requer recarregamento do mapa).
 
 Settings.Tooltips=Dicas
-Settings.Tooltips.Desc=Mostram dicas quando passa o mouse sobre Botões etc.. Quando desativado, você ainda consegue ver enquanto segura a tecla shift e move o mouse.
+Settings.Tooltips.Desc=Mostra dicas quando passa o mouse sobre botões etc.. Quando desativado, você ainda consegue ver enquanto segura a tecla shift e move o mouse.
 
 UI.FightClose = Remover bandeira de agrupamento.
 UI.FightClose.Desc = Remove a bandeira de agrupamento. Todos os colonos retornam para suas tarefas.
@@ -1041,9 +1041,6 @@ Modifier.TutorialTrains.Intro = Esse tutorial mostra como conectar duas estaçõ
 Modifier.TutorialTrainSignalsCircle = Exemplo de rede de trem circular.
 Modifier.TutorialTrainSignalsCircle.Intro = Esse tutorial mostra como usar os semáforos para permitir múltiplos trens em uma mesma rede.
 Modifier.WavesSlimes = Ondas: Slimes
-Modifier.TutorialAdvancedProduction.Intro = Esse tutorial mostra como instalar bancadas para produzir múltiplas mercadorias e gerenciar estoques.
-Modifier.TutorialAdvancedProduction.Outro = 
-Modifier.TutorialTrainSignalsCircle.Intro = Esse tutorial mostra como usar semáforos para permitir múltiplos trebs em uma única rede.
 
 ObjectiveGroup.Debug = Introdução do modo de depuração.
 ObjectType.AutoSmelter = Fundição automática
@@ -1460,8 +1457,6 @@ ObjectType.Cow = Vaca
 ObjectType.Cow.Desc = Uma criatura pacífica.
 ObjectType.Firefly = Vagalume
 ObjectType.Firefly.Desc = Iluminando a noite.
-ObjectType.Floor_Desert_MountainBase.Desc = Areia do deserto
-ObjectType.Foundation_Desert_SandHigh.Desc = Construa essa fundação em terrenos de areia para poder fazer construções, estradas e trilhos.
 ObjectType.Hippo = Hipopótamo
 ObjectType.Hippo.Desc = Hipopótamo
 ObjectType.MegaSpider = Mega Aranha
@@ -1577,7 +1572,7 @@ TutorialNeedsTools.IntroUnload = Descarregue os recursos de nosso navio:
 
 Mod.Owned = Mod. possuída .
 Mod.Steam = Baixado pela Oficina Steam.
-UI.Modding.Legal = Ao enviar uma Mod., você confirma que é de sua autoria e aceita os Termos de Serviço da Oficina Steam (Click here).
+UI.Modding.Legal = Ao enviar uma Mod., você confirma que é de sua autoria e aceita os Termos de Serviço da Oficina Steam (Clique aqui).
 UI.Modding.Submit = Enviar/Atualizar
 
 # 31.3.2019
@@ -1854,7 +1849,6 @@ MainMenu.Notice.EarlyAccess = Bem-vindo a versão antecipada de Kubifaktorium! A
 UI.ShowTips = Mostrar dicas
 UI.Tips = Dicas
 
-Debug.currency = Adicionar 100 moedas. 
 Debug.currency = Adicionar 100 moedas ao seu porto de carga.
 
 Task.Idle = Ocioso
