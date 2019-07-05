@@ -485,7 +485,7 @@ Settings.Hints.Desc = Display hints when the game detects events like idle produ
 Settings.Hit = Hit animations
 Settings.Hit.Desc = Mineables and buildings react when hit.
 Settings.Language = Language
-Settings.Language.Desc = (The language can only be changed in the main menu).
+Settings.Language.Desc = (The language can only be changed in the main menu and may require a restart).
 Settings.Music = Music
 Settings.Music.Desc = Volume of music.
 Settings.Scroll = Scroll at border
@@ -1253,3 +1253,9 @@ UI.Modding.Submit = Submit/Update
 UI.Modding.Legal = By submitting a mod, you confirm that you made it and agree to the Steam workshop's terms of service (Click here).
 Mod.Owned = Local/owned mod.
 Mod.Steam = Downloaded from Steam Workshop.
+
+# 5.7.2019
+UI.BuildTrain.SelectTrainToBuild = Select train to build.
+
+UI.WorldMap = World map
+UI.WorldMap.Desc = Welcome to the world map! Farm and harvest resources, build increasingly more complex production chains and grow your workforce by recruiting animals and colonists.<br>Note: Currently there is no story or ultimate objective. Just explore the different biomes and enjoy the game. :) 
