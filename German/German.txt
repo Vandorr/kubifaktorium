@@ -3,6 +3,7 @@
 language = German
 locales = DE
 fallback = English
+disableHyphenationCheck = true
 
 
 ##happiness = #Happy#Zufriedenheit 
@@ -1128,8 +1129,6 @@ Modifier.MapSizeTest = Testkarte (20²)
 
 
 Modifier.TutorialAdvancedProduction = Fort_geschritt_ene Produktions- und Management_methoden.
-Modifier.TutorialAdvancedProduction.Intro = Produziere ver_schie_dene Güter und manage mehrere Lager_stätten.
-Modifier.TutorialAdvancedProduction.Outro = 
 Modifier.TutorialAutomatedTrains = Auto_matisierter Zug_verkehr
 Modifier.TutorialAutomatedTrains.Intro = Dieses Tutorial zeigt, wie man auto_matisierte Produktions_gebäude an ein Logistik_system anschließt.
 Modifier.TutorialCombat = Einführung in das Kampfsystem.
@@ -1149,7 +1148,6 @@ Modifier.TutorialTrainPreSignals.Intro = Dieses Beispiel zeigt, wie Vorsignale a
 Modifier.TutorialTrains = Eine einfache Zugstrecke.
 Modifier.TutorialTrains.Intro = Verbinde zwei Bahnhöfe mit Hilfe von Zügen und richte ein Logistik_system ein.
 Modifier.TutorialTrainSignalsCircle = Kreis_förmiger Zugverkehr
-Modifier.TutorialTrainSignalsCircle.Intro = Dieses Beispiel zeigt, wie mehrere Züge auf einer kreis_förmigen Strecke verkehren können.
 Need.Health = Gesundheit
 Need.Health.Desc = Verwundete Kolo_nisten sind unglücklich und weniger produktiv. Sie regen_erieren sich während sie schlafen.
 
@@ -1597,7 +1595,6 @@ Modifier.ResourcesNormal = Normale Ressourcen.
 Modifier.ResourcesNormal.Intro = Normal Ressourcen_verteilung.
 Modifier.ResourcesRocky = Desolat und felsig.
 Modifier.ResourcesRocky.Intro = Wenig Vegetation, dafür aber viel Steine.
-Modifier.TutorialAdvancedProduction.Intro = Dieses Tutorial zeigt, wie man Werk_stätten einrichtet, um mehrere Waren zu produ_zieren und Lager_bestände zu verwalten.
 Modifier.TutorialAdvancedProduction.Outro = 
 Modifier.TutorialTrainSignalsCircle.Intro = Dieses Tutorial zeigt, wie man Signale verwendet, um mehrere Züge in einem Schienen_netz zu betreiben.
 Need.Happiness = ##Glücklichkeit
@@ -1748,7 +1745,6 @@ Workshop.Status.NoInputStockpile.Desc = Um ein Eingangs_lager zu verl_inken, kli
 ##carriage = Pferdewagen
 ##carriage.Desc = Pferde_wagen befördern auto_matisch Waren zwischen ver_bundenen Bahn_höfen. Wähle eine Station aus und rechts-klicke auf eine andere um sie zu ver_binden.
 
-Modifier.TutorialAdvancedProduction.Intro = Produziere ver_schie_dene Güter und manage mehrere Lage_rstätten.
 Modifier.TutorialAdvancedProduction.Outro = 
 Modifier.TutorialTrainSignalsCircle.Intro = Dieses Beispiel zeigt, wie mehrere Züge auf einer kreis_förmigen Strecke verkehren können.
 ObjectType.Floor_Desert_MountainBase.Desc = Wüstensand
@@ -1889,3 +1885,8 @@ UI.Tips = Tipps
 
 Objective.StationAcceptsType = Richte Bahnhof $5 so ein, dass es $1 annimmt.
 Objective.StationAcceptsType.Desc = Um die Güter ein_zustellen die ein Bahnhof annimmt, wähle ihn aus und klicke auf die ent_sprechende Güter im Info_panel rechts unten.
+
+UI.BuildTrain.SelectTrainToBuild = Wähle zu bauenden Zugtyp.
+
+UI.WorldMap = Weltkarte
+UI.WorldMap.Desc = Willkommen auf der Weltkarte! Sammle Ressourcen, baue immer komplexere Produktionsketten auf und erweitere Deine Arbeiterschaft durch die Rekrutierung von Tieren und Kolonisten.<br>Hinweis: Derzeit gibt es keine Story oder ein besonderes Ziel. Erkunde einfach die verschiedenen Biome und genieße das Spiel. :) 
