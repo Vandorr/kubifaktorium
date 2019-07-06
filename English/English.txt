@@ -391,7 +391,7 @@ ActorState.NoTool = Lightweight (no tool)
 # Job/task groups
 TaskGroup._Name = Job assignments
 TaskGroup.Agriculture = Farm work
-TaskGroup.Agriculture.Desc = Farm workers plant till the ground and plant and harvest crops in ##farmzone.
+TaskGroup.Agriculture.Desc = Farm workers till the ground and plant and harvest crops in ##farmzone.
 TaskGroup.Construction = Con_struction
 TaskGroup.Construction.Desc = Con_struction workers execute con_struction jobs.
 TaskGroup.Crafting = Crafting
@@ -1259,3 +1259,12 @@ UI.BuildTrain.SelectTrainToBuild = Select train to build.
 
 UI.WorldMap = World map
 UI.WorldMap.Desc = Welcome to the world map! Farm and harvest resources, build increasingly more complex production chains and grow your workforce by recruiting animals and colonists.<br>Note: Currently there is no story or ultimate objective. Just explore the different biomes and enjoy the game. :) 
+
+
+# 6.7.2019
+UI.Modding.State.Idle = (Idle)
+UI.Modding.State.Submitting = Submitting mod...
+UI.Modding.State.Updating = Updating mod...
+UI.Modding.State.CreationFailed = Mod creation failed: Error code $1
+UI.Modding.State.UpdateSuccess = Mod updated / created successfully.
+UI.Modding.State.SteamNotInitialized = Error: Steam interface not initialized.
