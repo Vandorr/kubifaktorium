@@ -1680,7 +1680,7 @@ BugReport.Category = Categoria
 BugReport.Submitting = Enviando relatório do usuário. Obrigado!! :D
 BugReport.Failed = O relatório do usuário não pôde ser enviado. Por favor, tente novamente mais tarde.
 
-UI.Inhabitants = Inabitantes
+UI.Inhabitants = Habitantes
 Message.ActorDied = $1 foi derrotado.
 Train.Status.Okay.Desc = O trem está indo para a próxima estação.
 
