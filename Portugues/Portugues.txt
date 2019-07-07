@@ -1307,8 +1307,8 @@ ObjectType.OilWell = Poço de óleo
 ObjectType.OilWell.Desc = Poços de óleos são drenados por bombas de óleo quando são colocadas em cima.
 ObjectType.OreCrusher = Triturador de minérios
 ObjectType.OreCrusher.Desc = Tritura minérios em pequenos pedaços ##automatically.
-ObjectType.OutpostBonfire = Posto de fogueira
-ObjectType.OutpostBonfire.Desc = Coloque um posto de fogueira fora de seu ##territory para iniciar uma nova área.
+ObjectType.OutpostBonfire = Fogueira grande
+ObjectType.OutpostBonfire.Desc = Construa fogueiras para expandir seu ##territory e definir ##zones.
 ObjectType.OverheadConveyorCart = Carrinho aéreo
 ObjectType.OverheadConveyorCart.Desc = Parte do sistema de esteiras aéreas.
 ObjectType.OverheadConveyorPath = Transporte aéreo
@@ -1863,3 +1863,11 @@ UI.BuildTrain.SelectTrainToBuild = Selecione o trem para construir.
 
 UI.WorldMap = Mapa mundo
 UI.WorldMap.Desc = Bem-vindo ao mapa mundo! Plante e colha recursos, construa cadeias de produções mais complexas e cresça sua força de trabalho através do recrutamento de animais e colonos.<br>Nota: Atualmente não há uma história ou objetivo principal. Apenas explore os diferentes biomas e se divirta com o jogo. :) 
+
+# 6.7.2019
+UI.Modding.State.Idle = (Ocioso)
+UI.Modding.State.Submitting = Enviando mod...
+UI.Modding.State.Updating = Atualizando mod...
+UI.Modding.State.CreationFailed = Criação da mod. falhou: Código de erro $1
+UI.Modding.State.UpdateSuccess = Mod. atualizada / criado com sucesso.
+UI.Modding.State.SteamNotInitialized = Erro: Interface Steam não inicializada.
