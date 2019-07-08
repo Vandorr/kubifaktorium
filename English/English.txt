@@ -539,6 +539,7 @@ Farm.Status.NoWorkers = No farm workers.
 Farm.Status.OutputFull = Output stockpiles full.
 Farm.Status.OutputFull.Desc = Harvesting will resume when space in the output ##stockpilezone becomes available.
 Farm.Status.Paused = No product selected.
+
 Farm.Status.Plant = Ready to plant.
 Farm.Status.Plant.Desc = 
 Farm.Status.Till = Ready to till.
@@ -1025,7 +1026,7 @@ UI.TaskGroups = Possible jobs: $1
 UI.SpeedBonus = Speed bonus: $1%
 Task.Water.Text = Watering soil.
 Task.FarmWater.Text = Watering soil.
-Task.Train.Text = Combat training.
+
 
 Workshop.Status.NoInputStockpile = No input stockpile assigned.
 Workshop.Status.NoInputStockpile.Desc = To link an input ##stockpilezone, left-_click the stockpile and right-_click the workshop where you want the stockpile's content to be used. Workshops will only use resources from linked input stockpiles as soon as one is connected.
@@ -1268,3 +1269,39 @@ UI.Modding.State.Updating = Updating mod...
 UI.Modding.State.CreationFailed = Mod creation failed: Error code $1
 UI.Modding.State.UpdateSuccess = Mod updated / created successfully.
 UI.Modding.State.SteamNotInitialized = Error: Steam interface not initialized.
+
+# 8.7.2019
+Farm.Status.Paused.Desc = Select a plant to be grown in this farm.
+
+## renamed from Task.Train
+Task.TrainCombat.Text = Combat training.
+
+TipOfTheDay.18 = When you run out of the resources you need to progress, build a shipping port and trade. Items like wooden boards, bread and beer can be produced infinitely and exported. 
+
+
+UI.Pasture = Pasture
+UI.Pasture.Desc = Create or expand a ##pasturezone.
+##pasturezone = #Pasture#Pasture
+##pasturezone.Desc = #Pasture#Pasture zone: Can be assigned on fertile soil to collect and house neutral animals.
+
+TaskGroup.Pasture = Ranch work
+TaskGroup.Pasture.Desc = Ranchers tame wild animals and tend to animals in ##pasturezones.
+UI.SelectAnimal = Select animal
+UI.PastureAnimalInfo = Farm animal
+UI.TamingDifficulty = Taming difficulty
+
+Name.PastureZoneCC = Pasture
+UI.PastureYield = Yields $1 every $2 seconds when kept in pasture.
+UI.PastureCapacity = Capacity used: $1 / $2
+Task.Tame.Text = Taming $1.
+Task.YieldAnimal.Text = Milking $1.
+
+
+Pasture.Status.Idle = Idle.
+Pasture.Status.Idle.Desc = Pasture is operating normally.
+Pasture.Status.Paused = No animal selected.
+Pasture.Status.Paused.Desc = Select an animal type to be tamed. Only neutral animals in vision range can be tamed.
+Pasture.Status.NoPastureWorkers = No ranchers available.
+Pasture.Status.NoPastureWorkers.Desc = Assign a colonist to work as a rancher and make sure he/she is allowed to access this zone.
+Pasture.Status.TooSmall = Pasture is too small.
+Pasture.Status.TooSmall.Desc = Pastures require 6 tiles per animal.
