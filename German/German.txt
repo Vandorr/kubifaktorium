@@ -1890,3 +1890,54 @@ UI.BuildTrain.SelectTrainToBuild = Wähle zu bauenden Zugtyp.
 
 UI.WorldMap = Weltkarte
 UI.WorldMap.Desc = Willkommen auf der Weltkarte! Sammle Ressourcen, baue immer komplexere Produktionsketten auf und erweitere Deine Arbeiterschaft durch die Rekrutierung von Tieren und Kolonisten.<br>Hinweis: Derzeit gibt es keine Story oder ein besonderes Ziel. Erkunde einfach die verschiedenen Biome und genieße das Spiel. :) 
+
+
+
+
+
+# 6.7.2019
+UI.Modding.State.Idle = (Untätig)
+UI.Modding.State.Submitting = Übertrage Mod...
+UI.Modding.State.Updating = Mod wird aktualisiert...
+UI.Modding.State.CreationFailed = Moderstellung gescheitert: Error code $1
+UI.Modding.State.UpdateSuccess = Mod erfolgreich aktualisiert.
+UI.Modding.State.SteamNotInitialized = Fehler: Steaminterface nicht initialisiert.
+
+# 8.7.2019
+Farm.Status.Paused.Desc = Wähle ein Pflanze, die in dieser Farm angebaut werden soll.
+
+Task.TrainCombat.Text = Kampftraining.
+
+TipOfTheDay.18 = Wenn dir die Ressourcen ausgehen, die du benötigst um weiter zu kommen, baue einen Frachthafen und handle. Gegenstände wie Holzbretter, Brot und Bier können immer produziert und exportiert werden. 
+
+
+UI.Pasture = Weide
+UI.Pasture.Desc = Erstelle oder expandiere eine ##pasturezone.
+##pasturezone = #Pasture#Weide
+##pasturezone.Desc = #Pasture#Weide: Kann auf fruchtbarem Boden erstellt werden um neutrale Tiere zu sammeln und zu behausen.
+
+TaskGroup.Pasture = Viehzucht
+TaskGroup.Pasture.Desc = Viehzüchter zähmen wilde Tiere und kümmern sich in der ##pasturezone um sie.
+UI.SelectAnimal = Wähle Tierart
+UI.PastureAnimalInfo = Weidetier
+UI.TamingDifficulty = Zähmschwierigkeit
+
+Name.PastureZoneCC = Weide
+UI.PastureYield = Erzeugt $1 alle $2 Sekunden.
+UI.PastureCapacity = Genutzte Kapazität: $1 / $2
+Task.Tame.Text = Zähme $1.
+Task.YieldAnimal.Text = Melke $1.
+
+
+Pasture.Status.Idle = Untätig.
+Pasture.Status.Idle.Desc = Weide funktioniert normal.
+Pasture.Status.Paused = Kein Tier ausgewählt.
+Pasture.Status.Paused.Desc = Wähle eine Tierart aus, die gezähmt werden soll. Nur neutrale Tiere im Sichtbereich können gezähmt werden.
+Pasture.Status.NoPastureWorkers = Kein Viehzüchter verfügbar.
+Pasture.Status.NoPastureWorkers.Desc = Weise einem Kolonisten die Viehzuchtaufgabe zu und stelle sicher, dass er/sie diese Weide erreichen kann.
+Pasture.Status.TooSmall = Weide ist zu klein.
+Pasture.Status.TooSmall.Desc = Eine Weide benötigt 6 Felder pro Tier.
+
+PastureAnimal.Status.NoPasture = Tier nicht gezähmt.
+PastureAnimal.Status.NoYield = Tier produziert nichts.
+PastureAnimal.Status.YieldProgress = Produktionsfortschritt: $1%
