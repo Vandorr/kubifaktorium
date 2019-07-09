@@ -19,7 +19,7 @@ fallback=English
 
 
 ##zone = #star#área
-##zone.Desc = #star#Áreas: Colonos podem ser atribuídos à uma ou mais áreas. Eles só irão trabalhar nas áreas que lhe foram atribuídos.
+##zone.Desc = #star#Áreas: Colonos podem ser atribuídos a uma ou mais áreas. Eles só irão trabalhar nas áreas que lhe foram atribuídos.
 
 ##keycycle = #controller#ciclar
 ##keycycle.Desc = #controller#Ciclar: Botão do meio do mouse ou Tecla 'V'.
@@ -1229,8 +1229,8 @@ ObjectType.Greenhouse = Estufas
 ObjectType.Greenhouse.Desc = Esta fazenda irá ##automatically crescer plantio e pode ser construída em qualquer tipo de solo.
 ObjectType.Grove5x5 = Arvoredo auto_matizado
 ObjectType.Grove5x5.Desc = Este arvoredo irá ##automatically crescer e colher árvores.
-ObjectType.Harbour = Porto de remessas
-ObjectType.Harbour.Desc =  Portos de remessas permitem que você faça trocas com outras ilhas. (##cargoships)
+ObjectType.Harbour = Porto de carga
+ObjectType.Harbour.Desc =  Portos de cargas permitem que você faça trocas com outras ilhas. (##cargoships)
 ObjectType.HarvestedBerries = Morangos
 ObjectType.HarvestedBerries.Desc = Morangos colhidos. Muito saborosos.
 ObjectType.HarvestedFlowers = Flores colhidas
@@ -1652,7 +1652,7 @@ UI.TaskGroups = Possíveis trabalhos: $1
 UI.SpeedBonus = Velocidade bônus: $1%
 Task.Water.Text = Regando solo.
 Task.FarmWater.Text = Regando solo.
-Task.Train.Text = Treinando combate.
+Task.Train.Text = Treinamento de combate.
 
 Workshop.Status.NoInputStockpile = Nenhum estoque designado.
 Workshop.Status.NoInputStockpile.Desc = Para ligar uma ##stockpilezone de entrada, clique com o esquerdo no estoque e clique na bancada onde o conteúdo do estoque será usado. Bancadas somente usam recursos de entradas de estoques assim que um é ligado a ela.
@@ -1871,3 +1871,43 @@ UI.Modding.State.Updating = Atualizando mod...
 UI.Modding.State.CreationFailed = Criação da mod. falhou: Código de erro $1
 UI.Modding.State.UpdateSuccess = Mod. atualizada / criado com sucesso.
 UI.Modding.State.SteamNotInitialized = Erro: Interface Steam não inicializada.
+
+# 8.7.2019
+Farm.Status.Paused.Desc = Selecione a planta para crescer nessa fazenda.
+
+## renamed from Task.Train
+Task.TrainCombat.Text = Treinamento de combate.
+
+TipOfTheDay.18 = Quando acabar os recursos necessários para progredir, construa um porto de carga e faça trocas. Itens como tábuas de madeira, pão e cerveja podem ser produzidos infinitamente e exportados.
+
+
+UI.Pasture = Pasto
+UI.Pasture.Desc = Crie ou expanda um ##pasturezone.
+##pasturezone = #Pasture#Pasto
+##pasturezone.Desc = #Pasture#Zona de pasto: Pode ser atribuída em solo fértil para coletar e abrigar animais neutros.
+
+TaskGroup.Pasture = Trabalho de rancho
+TaskGroup.Pasture.Desc = Rancheiros domam animais selvagens e cuidam deles no ##pasturezone.
+UI.SelectAnimal = Selecione o animal
+UI.PastureAnimalInfo = Animal de fazenda
+UI.TamingDifficulty = Dificuldade de domação
+
+Name.PastureZoneCC = Pasto
+UI.PastureYield = Produz $1 a cada $2 segundos quando mantido no pasto.
+UI.PastureCapacity = Capacidade usada: $1 / $2
+Task.Tame.Text = Domando $1.
+Task.YieldAnimal.Text = Ordenhando $1.
+
+
+Pasture.Status.Idle = Ocioso.
+Pasture.Status.Idle.Desc = Pasto está funcionando normalmente.
+Pasture.Status.Paused = Nenhum animal selecionado.
+Pasture.Status.Paused.Desc = Selecione um tipo de animal para ser domado. Somente animais neutros no campo de visão podem ser domados.
+Pasture.Status.NoPastureWorkers = Nenhum rancheiro disponível.
+Pasture.Status.NoPastureWorkers.Desc = Designe um colono para trabalhar como rancheiro e certifique-se de que ele/ela é permitido trabalhar nessa zona.
+Pasture.Status.TooSmall = Pasto é muito pequeno.
+Pasture.Status.TooSmall.Desc = Pastos requerem 6 blocos por animal.
+
+PastureAnimal.Status.NoPasture = Animal não domado.
+PastureAnimal.Status.NoYield = Animal produz nada.
+PastureAnimal.Status.YieldProgress = Progresso da produção: $1%
