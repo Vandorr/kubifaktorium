@@ -696,7 +696,7 @@ UI.Drink.Desc = Provide ##drinks for your colonists to make them more productive
 
 
 UI.House = Housing
-UI.House.Desc = Providing ##houses for your colonists well make them more productive.
+UI.House.Desc = Providing ##houses for your colonists will make them more productive.
 
 UI.IdleColonists = Idle colonists
 UI.IdleColonists.Desc = Click here to cycle through all ##idle colonists.
@@ -1309,3 +1309,6 @@ Pasture.Status.TooSmall.Desc = Pastures require 6 tiles per animal.
 PastureAnimal.Status.NoPasture = Animal not tamed.
 PastureAnimal.Status.NoYield = Animal produces nothing.
 PastureAnimal.Status.YieldProgress = Production progress: $1%
+
+## 9.7.2019
+UI.Error.TrackReserved = Cannot remove tracks while they are reserved by a train. 
