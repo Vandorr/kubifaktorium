@@ -1305,3 +1305,7 @@ Pasture.Status.NoPastureWorkers = No ranchers available.
 Pasture.Status.NoPastureWorkers.Desc = Assign a colonist to work as a rancher and make sure he/she is allowed to access this zone.
 Pasture.Status.TooSmall = Pasture is too small.
 Pasture.Status.TooSmall.Desc = Pastures require 6 tiles per animal.
+
+PastureAnimal.Status.NoPasture = Animal not tamed.
+PastureAnimal.Status.NoYield = Animal produces nothing.
+PastureAnimal.Status.YieldProgress = Production progress: $1%
