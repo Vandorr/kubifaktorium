@@ -764,7 +764,7 @@ Tool.Effect.None.Effect = Efeito base
 Tool.Effect.None.Hit = Chance de sucesso: 50%
 Tool.Effect.None.Crit = Chance de crítico: 0%
 
-Tool.None = Nenhuma ferramenta equipada.
+Tool.None = Nenhuma ferramenta<br> equi_pada.
 
 Tool.Effect = Efeito da ferramenta
 Tool.Effect.Desc = - O efeito da arma determina o tipo de dano que ela irá infligir. <br>- Mineração, plantação e ferramentas de construção aumentam a velocidade de terminar a tarefa corres_pondente.
@@ -1911,3 +1911,6 @@ Pasture.Status.TooSmall.Desc = Pastos requerem 6 blocos por animal.
 PastureAnimal.Status.NoPasture = Animal não domado.
 PastureAnimal.Status.NoYield = Animal produz nada.
 PastureAnimal.Status.YieldProgress = Progresso da produção: $1%
+
+# 9.7.2019
+UI.Error.TrackReserved = Não é possível remover trilhos enquanto são usados por um trem.
