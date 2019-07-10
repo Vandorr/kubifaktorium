@@ -46,8 +46,8 @@ fallback=English
 ##day = #sun#dia
 ##day.Desc = #sun#Dia: Hora entre 6:00 e 18:00.
 
-##drink = beber 
-##drink.Desc = Beber: Quando com sede, colonos irão automa_ticamente procurar algo para beber. Fornecer bebidas irá fazê-los mais felizes e produtivos.
+##drink = bebida 
+##drink.Desc = Bebida: Quando com sede, colonos irão automa_ticamente procurar algo para beber. Fornecer bebidas irá fazê-los mais felizes e produtivos.
 
 ##happiness = #Happy#Felicidade 
 ##happiness.Desc = #Happy#Felicidade: O andar e velocidade de trabalho do colono é influenciado por quão bem suas necessidades são atendidas.
@@ -335,7 +335,7 @@ Need.Sleep = Dormir
 Need.Sleep.Desc = Quando cansados, colonos irão automa_ticamente retornar para suas casas e dormir.
 Need.Food = Comida
 Need.Food.Desc = Quando com fome, colonos irão automa_ticamente procurar por ##food.
-Need.Drink = Drink
+Need.Drink = Bebida
 Need.Drink.Desc = Quando com sede, colonos irão automa_ticamente procurar por ##drink. 
 Need.Social = Social
 Need.Social.Desc = Colonos precisam de interação ##social com outros colonos para crescer. Fornecer interação social irá fazê-los mais felizes e produtivos.
