@@ -8,6 +8,8 @@ Commit translations for Kubifaktorium into foreign languages to this repository 
  * German: Translation by Mirko.
  * Hungarian: Translation by Vandorr.
  * Portuguese: Translation by HarD-BR and Lariro.
+ * Traditional Chinese: Translation by Apophis Lee and Cathern.
+ * Simplified Chinese: Translation by Law_4x.
 
 
 # More on Kubifaktorium
