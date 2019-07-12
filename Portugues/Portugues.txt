@@ -1026,7 +1026,7 @@ Modifier.TutorialCombat.Intro = Esse tutorial mostra como atacar e se defender d
 Modifier.TutorialConveyorBelts = Aprenda mais sobre esteiras de transporte.
 Modifier.TutorialConveyorBelts.Intro = Esse tutorial mostra alguns exemplos de maneiras úteis de usar esteiras.
 Modifier.TutorialFreePlay = Aprenda mais sobre como usar funções de trapaça.
-Modifier.TutorialLogistics = Aprenda como definir zonas e um sistema de logística.
+Modifier.TutorialLogistics = Aprenda como definir zonas e um sistema de logística.Tudo
 Modifier.TutorialLogistics.Intro = Esse tutorial é sobre instalar um posto e um sistema de logística. Tudo que precisamos já está construído, só precisamos configurar corre_tamente.
 Modifier.TutorialLogistics.Outro = Ótimo! Colonos e dirigíveis irão trabalhar juntos para transportar nossos blocos de ouros e baldes de água. O sistema de logística te permite criar cadeias complexas usando múltiplos sistemas de transporte. Mercadorias serão entregues até que os estoques estejam cheios.
 Modifier.TutorialNeedsTools = Aprenda mais sobre necessidades e ferramentas.
@@ -1916,3 +1916,34 @@ PastureAnimal.Status.YieldProgress = Progresso da produção: $1%
 
 # 9.7.2019
 UI.Error.TrackReserved = Não é possível remover trilhos enquanto são usados por um trem.
+
+# 12.7.2019
+Modifier.ShippingPort = Use o porto de carga para importar e exportar mercadorias.
+Modifier.ShippingPort.Intro = Esse tutorial mostra como usar um porto de carga para importar e exportar mercadorias. Tudo que precisamos já está construído, só precisamos configurar corre_tamente.
+Modifier.ShippingPort.Outro = Ótimo! Exporte mercadorias como pão, que pode ser produzido com recursos renováveis para ganhar moedas. Importe mercadorias como minério de cobre, que você não pode conseguir nessa ilha.
+ObjectType.BeachChair = Cadeira de praia
+ObjectType.BeachChair.Desc = Quando exausto, um colono irá sentar na cadeira de praia para relaxar.
+ObjectType.CacaoTree = Árvore de cacau
+ObjectType.CacaoTree.Desc = Árvores de cacau podem ser mineradas para adquirir troncos e grãos de cacau.
+ObjectType.ChocolateMilk = Achocolatado
+ObjectType.ChocolateMilk.Desc = Um achocolatado saboroso.
+ObjectType.CocoaBeans = Grãos de cacau
+ObjectType.CocoaBeans.Desc = Uma sacola de grãos de cacau. Pode ser usada para fazer achocolatado.
+ObjectType.Cotton = Planta de algodão
+ObjectType.Cotton.Desc = Algodão pode ser usada para produzir tecidos.
+ObjectType.Fabric = Pano
+ObjectType.Fabric.Desc = Pano é criado de lã or algodão e pode ser usado para produzir móveis e outras coisas.
+ObjectType.HarvestedCotton = Algodão colhido
+ObjectType.HarvestedCotton.Desc = Algodão pode ser usado para produzir itens de tecido.
+ObjectType.TextileWorkplace = Bancada de tecidos
+ObjectType.TextileWorkplace.Desc = A bancada de tecidos pode ser usada para produzir pano de algodão ou lã.
+ObjectType.Wool = Lã
+ObjectType.Wool.Desc = Lã pode ser colhida de ovelhas.
+Scenario.TutorialShippingPort = Tutorial: Porto de carga
+Scenario.TutorialShippingPort.Desc = Use o porto de carga para importar ou exportar mercadorias.
+SetExportStockpiles.Desc = 1.) Designe mercadorias para serem exportadas
+SetExportStockpiles.Intro = Para ganhar moedas, nós precisamos exportar mercadorias que produzimos. Ligue os estoques 2-4 ao porto de carga.
+SetExportStockpiles.Outro = Ótimo! Suas mercadorias de exportação serão transportadas para o porto de carga. Note que você só pode exportar mercadorias produzidas. Selecione o porto de carga para ver os precços de diferentes mercadorias. Dica: Ligue os estoques com pouca prioridade ao porto de carga para exportar somente mercadorias em excesso.
+SetImportStockpiles.Desc = 2.) Designe mercadorias para serem exportadas
+SetImportStockpiles.Intro = Agora nós podemos especificar as mercadorias que queremos receber em troca. Ligue o porto de carga ao estoque 5-7.
+TerrainShape.Rainbow = Terreno perfeitamente plano
