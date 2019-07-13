@@ -4,12 +4,15 @@ Commit translations for Kubifaktorium into foreign languages to this repository 
 
 # Current languages in the game
  * English: Main version by Mirko.
+ * Dutch: Translation by Boris "SkelliBoi" Krischel.
  * French: Translation by Cédric.
  * German: Translation by Mirko.
  * Hungarian: Translation by Vandorr.
+ * Japanese: Translation by WiNCHaN and Japan communities.
+ * Korean: Translation by Pie and Blackmass.
  * Portuguese: Translation by HarD-BR and Lariro.
- * Traditional Chinese: Translation by Apophis Lee and Cathern.
  * Simplified Chinese: Translation by Law_4x.
+ * Traditional Chinese: Translation by Apophis Lee and Cathern.
 
 
 # More on Kubifaktorium
