@@ -8,6 +8,8 @@ Commit translations for Kubifaktorium into foreign languages to this repository 
  * German: Translation by Mirko.
  * Hungarian: Translation by Vandorr.
  * Portuguese: Translation by HarD-BR and Lariro.
+ * Traditional Chinese: Translation by Apophis Lee and Cathern.
+ * Simplified Chinese: Translation by Law_4x and Karnie and Jockey.
 
 
 # More on Kubifaktorium
@@ -21,6 +23,8 @@ Commit translations for Kubifaktorium into foreign languages to this repository 
 * Information about how translations can be made can be found in the wiki (https://kubifaktorium.fandom.com/wiki/Modding)
 
 * In order to gain access to this repo, please visit us Discord (https://discord.gg/kubifaktorium and contact vandorr#0626).
+
+Warning: Do not edit those files. It is automatically synced from the main version. If you find errors in the English or German version, please contact me via Discord (discord.gg/kubifaktorium) or mail (info@bossconstructor.de).
 
 Thank you for your help! :)
 
