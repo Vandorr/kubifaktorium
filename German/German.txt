@@ -1,6 +1,6 @@
 # Localization template
 
-language = German
+language = Deutsch
 locales = DE
 fallback = English
 disableHyphenationCheck = true
@@ -1941,3 +1941,48 @@ Pasture.Status.TooSmall.Desc = Eine Weide benötigt 6 Felder pro Tier.
 PastureAnimal.Status.NoPasture = Tier nicht gezähmt.
 PastureAnimal.Status.NoYield = Tier produziert nichts.
 PastureAnimal.Status.YieldProgress = Produktionsfortschritt: $1%
+
+
+
+
+DemoDisable = Nicht in demo enthalten.
+DemoDisable.Desc = Leider ist diese Funktion nicht in der Demo verfügbar.
+Mod.Owned = Eigener Mod.
+Mod.Steam = Heruntergeladen vom Steam Workshop.
+Modifier.ShippingPort = Benutze den Frachthafen um Güter zu importieren oder zu exportieren.
+Modifier.ShippingPort.Intro = Dieses Tutorial zeigt, wie man den Frachthafen für den Import und Export von Waren nutzen kann. Alles, was wir brauchen, ist bereits gebaut, wir müssen es nur richtig einrichten.
+Modifier.ShippingPort.Outro = Super! Exportiere Waren wie Brot, die mit erneuerbaren Ressourcen hergestellt werden können, um Geld zu verdienen. Importiere Waren wie Kupfererz, die du auf der aktuellen Insel nicht (mehr) abbauen kannst.
+ObjectType.BeachChair = Strandstuhl
+ObjectType.BeachChair.Desc = Wenn ein Kolonist erschöpft ist kann er hier relaxen.
+ObjectType.CacaoTree = Kakaobaum
+ObjectType.CacaoTree.Desc = Kakaobäume können abgeholzt werden, um Holz und Kakaobohnen zu erhalten.
+ObjectType.ChocolateMilk = Schokomilch
+ObjectType.ChocolateMilk.Desc = Eine sehr leckere Schokoladenmilch.
+ObjectType.CocoaBeans = Kakaobohnen
+ObjectType.CocoaBeans.Desc = Ein Beutel mit Kakaobohnen. Kann zur Herstellung von Schokoladenmilch verwendet werden.
+ObjectType.Cotton = Baumwollpflanze
+ObjectType.Cotton.Desc = Baumwolle kann zur Herstellung von Textilartikeln verwendet werden.
+ObjectType.Fabric = Stoff
+ObjectType.Fabric.Desc = Stoffe werden aus Wolle oder Baumwolle hergestellt und zur Herstellung von Möbeln und mehr verwendet.
+ObjectType.HarvestedCotton = Baumwolle
+ObjectType.HarvestedCotton.Desc = Baumwolle wird zur Herstellung von Textilartikeln verwendet.
+ObjectType.Milk = Milch
+ObjectType.Milk.Desc = Kann direkt getrunken oder zu Lebensmitteln verarbeitet werden.
+ObjectType.TextileWorkplace = Textil_arbeits_platz
+ObjectType.TextileWorkplace.Desc = Der Textil_arbeits_platz kann zum Herstellen von Stoffen genutzt werden.
+ObjectType.Wool = Wolle
+ObjectType.Wool.Desc = Wolle kann durch das Scheren von Schafen gewonnen werden.
+Scenario.TutorialShippingPort = Tutorial: Frachthafen
+Scenario.TutorialShippingPort.Desc = Benutze den Frachthafen um Güter zu importieren oder zu exportieren.
+SetExportStockpiles.Desc = 1.) Weise Exportgüter zu
+SetExportStockpiles.Intro = Um Geld zu verdienen, müssen wir Waren exportieren, die wir produziert haben. Verbinde die Lager 2-4 mit dem Frachthafen.
+SetExportStockpiles.Outro = Schön! Deine Exportgüter werden nun zum Frachthafen transportiert. Beachte, dass nur produzierte Waren exportiert werden können. Wähle den Frachthafen aus, um die Preise für verschiedene Waren anzuzeigen. Hinweis: Verknüpfe Lager mit geringerer Priorität mit Frachthäfen, um nur überschüssige Waren zu exportieren.
+SetImportStockpiles.Desc = 2.) Weise Importgüter zu
+SetImportStockpiles.Intro = Jetzt können wir die Waren festlegen, die wir im Gegenzug erhalten möchten. Verbinde den Frachthafen mit den Lagern 5-7.
+Settings.LocalizationHelp = Localisierungshilfe
+Settings.LocalizationHelp.Desc = Erzeugt Missing_<language>.txt-Dateien um bei der localization behilflich zu sein.
+TerrainShape.Rainbow = Flaches terrain
+UI.Error.TrackReserved = Es ist nicht möglich, Gleise zu entfernen, während sie von einem Zug reserviert sind.
+UI.Modding.Legal = Mit dem Absenden eines Mods bestätigst du, dass du der Autor bist und erklärst dich mit den Geschäftsbedingungen vom Steam Workshop einverstanden (Klicke hier).
+UI.Modding.Submit = Upload/Update
+UI.WaterState = Wasser: $1
