@@ -1026,7 +1026,7 @@ Modifier.TutorialCombat.Intro = Esse tutorial mostra como atacar e se defender d
 Modifier.TutorialConveyorBelts = Aprenda mais sobre esteiras de transporte.
 Modifier.TutorialConveyorBelts.Intro = Esse tutorial mostra alguns exemplos de maneiras úteis de usar esteiras.
 Modifier.TutorialFreePlay = Aprenda mais sobre como usar funções de trapaça.
-Modifier.TutorialLogistics = Aprenda como definir zonas e um sistema de logística.Tudo
+Modifier.TutorialLogistics = Aprenda como definir zonas e um sistema de logís_tica.
 Modifier.TutorialLogistics.Intro = Esse tutorial é sobre instalar um posto e um sistema de logística. Tudo que precisamos já está construído, só precisamos configurar corre_tamente.
 Modifier.TutorialLogistics.Outro = Ótimo! Colonos e dirigíveis irão trabalhar juntos para transportar nossos blocos de ouros e baldes de água. O sistema de logística te permite criar cadeias complexas usando múltiplos sistemas de transporte. Mercadorias serão entregues até que os estoques estejam cheios.
 Modifier.TutorialNeedsTools = Aprenda mais sobre necessidades e ferramentas.
@@ -1872,7 +1872,7 @@ UI.Modding.State.Submitting = Enviando mod...
 UI.Modding.State.Updating = Atualizando mod...
 UI.Modding.State.CreationFailed = Criação da mod. falhou: Código de erro $1
 UI.Modding.State.UpdateSuccess = Mod. atualizada / criado com sucesso.
-UI.Modding.State.SteamNotInitialized = Erro: Interface Steam não inicializada.
+UI.Modding.State.SteamNotInitialized = Erro: Interface Steam não inicia_lizada.
 
 # 8.7.2019
 Farm.Status.Paused.Desc = Selecione a planta para crescer nessa fazenda.
@@ -1880,7 +1880,7 @@ Farm.Status.Paused.Desc = Selecione a planta para crescer nessa fazenda.
 ## renamed from Task.Train
 Task.TrainCombat.Text = Treinamento de combate.
 
-TipOfTheDay.18 = Quando acabar os recursos necessários para progredir, construa um porto de carga e faça trocas. Itens como tábuas de madeira, pão e cerveja podem ser produzidos infinitamente e exportados.
+TipOfTheDay.18 = Quando acabar os recursos necessários para progredir, construa um porto de carga e faça trocas. Itens como tábuas de madeira, pão e cerveja podem ser produzidos infini_tamente e exportados.
 
 
 UI.Pasture = Pasto
@@ -1926,9 +1926,9 @@ ObjectType.BeachChair.Desc = Quando exausto, um colono irá sentar na cadeira de
 ObjectType.CacaoTree = Árvore de cacau
 ObjectType.CacaoTree.Desc = Árvores de cacau podem ser mineradas para se obter troncos e grãos de cacau.
 ObjectType.ChocolateMilk = Achocolatado
-ObjectType.ChocolateMilk.Desc = Um achocolatado saboroso.
+ObjectType.ChocolateMilk.Desc = Um achoco_latado saboroso.
 ObjectType.CocoaBeans = Grãos de cacau
-ObjectType.CocoaBeans.Desc = Uma sacola de grãos de cacau. Pode ser usada para fazer achocolatado.
+ObjectType.CocoaBeans.Desc = Uma sacola de grãos de cacau. Pode ser usada para fazer achoco_latado.
 ObjectType.Cotton = Planta de algodão
 ObjectType.Cotton.Desc = Algodão pode ser usada para produzir tecidos.
 ObjectType.Fabric = Pano
@@ -1943,7 +1943,7 @@ Scenario.TutorialShippingPort = Tutorial: Porto de carga
 Scenario.TutorialShippingPort.Desc = Use o porto de carga para importar ou exportar mercadorias.
 SetExportStockpiles.Desc = 1.) Designe mercadorias para serem exportadas
 SetExportStockpiles.Intro = Para ganhar moedas, nós precisamos exportar mercadorias que produzimos. Ligue os estoques 2-4 ao porto de carga.
-SetExportStockpiles.Outro = Ótimo! Suas mercadorias de exportação serão transportadas para o porto de carga. Note que você só pode exportar mercadorias produzidas. Selecione o porto de carga para ver os precços de diferentes mercadorias. Dica: Ligue os estoques com pouca prioridade ao porto de carga para exportar somente mercadorias em excesso.
+SetExportStockpiles.Outro = Ótimo! Suas mercadorias de exportação serão trans_portadas para o porto de carga. Note que você só pode exportar mercadorias produzidas. Selecione o porto de carga para ver os precços de diferentes mercadorias. Dica: Ligue os estoques com pouca prioridade ao porto de carga para exportar somente mercadorias em excesso.
 SetImportStockpiles.Desc = 2.) Designe mercadorias para serem importadas
 SetImportStockpiles.Intro = Agora nós podemos especificar as mercadorias que queremos receber em troca. Ligue o porto de carga ao estoque 5-7.
-TerrainShape.Rainbow = Terreno perfeitamente plano
+TerrainShape.Rainbow = Terreno perfei_tamente plano
