@@ -78,14 +78,15 @@ fallback=English
 ##power = #Power#power
 ##power.Desc = #Power#Power: Created in generators and used by a variety of machines.
 
-##decoration = #House#Decoration
-##decoration.Desc = #House#Decoration: Placing decorative items will make your colonists happier and more productive.
+##decoration = decoration
+##decoration.Desc = Decoration: Placing decorative items will make your colonists happier and more productive.
  
 ##house = house
 ##house.Desc = Housing: Colonists and animals prefer to have a place to live in. Providing one will make them more happy and productive.
 
-##social = #Chat#social 
-##social.Desc #Chat#Social: Colonists need interaction with each other to thrive. Providing social interaction will make them more happy and productive.
+
+##social = social 
+##social.Desc = Social: Colonists need interaction with each other to thrive. Providing social interaction will make them more happy and productive.
 ##logsys = #Logistics#logistics system
 ##logsys.Desc = #Logistics#Logistics System: Allows you to connect multiple trans_portation and storage systems. Once set up, it will auto_matically generate transport jobs for vehicles and colonists.
 
@@ -279,7 +280,7 @@ Objective.TrainSchedule.Desc = To add a station to a train's schedule, select th
 Objective.SetWorkshopInput = Link $8 $6 to $7 $5
 Objective.SetWorkshopInput.Desc = To link $6 to an input ##stockpilezone, left-_click on $6 and right-_click on $5. 
 Objective.SetWorkshopOutput = Link $7 $5 to $8 $6
-Objective.SetWorkshopOutput.Desc = To link $6 to an output ##stockpilezone, left-_click on $6 and right-_click on $5. 
+Objective.SetWorkshopOutput.Desc = To link $5 to an output ##stockpilezone, left-_click on $5 and right-_click on $6. 
 
 
 Objective.LinkStockpile = Link $1 to stockpile ($2/$3)
@@ -1312,3 +1313,5 @@ PastureAnimal.Status.YieldProgress = Production progress: $1%
 
 ## 9.7.2019
 UI.Error.TrackReserved = Cannot remove tracks while they are reserved by a train. 
+
+UI.SocialBuilding = ##Social building.
