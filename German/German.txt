@@ -62,8 +62,8 @@ disableHyphenationCheck = true
 ##power = #Power#Strom
 ##power.Desc = #Power#Strom: Wird in Kraft_werken erzeugt und von ver_schiedenen Ma_schinen ver_braucht.
 
-##decoration = #House#Deko_ration
-##decoration.Desc = #House#Deko_rative Gegen_stände machen Kolo_nisten glück_licher und produktiver.
+##decoration = Deko_ration
+##decoration.Desc = Deko_rative Gegen_stände machen Kolo_nisten glück_licher und produktiver.
  
 
 ##stacksize = Stapelbarkeit
@@ -1287,13 +1287,13 @@ BuildCloverleaf.Intro = Baue ein paar Züge in Zugfabrik (1) und weise ihnen unt
 
 BuildingType.Actor.Desc = Spawne Kolonisten, Gegner und Tiere.
 ConvTutPart1.Desc = 1.) Basis_setup
-ConvTutPart1.Intro = Dieses einfache Setup zeigt, wie Fließ_bänder genutzt werden können. Wähle den Lager_ausgang aus und aktiviere #MinedIron# abgebautes Eisenerz. 
+ConvTutPart1.Intro = Dieses einfache Setup zeigt, wie Fließ_bänder genutzt werden können. Wähle den Lager_ausgang aus und aktiviere abgebautes Eisenerz. 
 ConvTutPart2.Desc = 2.) Verteiler
-ConvTutPart2.Intro = Verteiler teilen Waren gleich_mäßig auf ein oder mehrere ausgehende Bänder auf. Wähle den Lager_ausgang im Depot (2) aus stelle ihn so ein, dass er #StoneBlock# Stein_blöcke aufnimmt.
+ConvTutPart2.Intro = Verteiler teilen Waren gleich_mäßig auf ein oder mehrere ausgehende Bänder auf. Wähle den Lager_ausgang im Depot (2) aus stelle ihn so ein, dass er Stein_blöcke aufnimmt.
 ConvTutPart3.Desc = 3.) Über_irdische Bänder
 ConvTutPart3.Intro = Förder_bänder können in zwei Ebenen gebaut werden. Verwende Rampen, um Waren zwischen den beiden Ebenen zu trans_portieren. Wähle den Lager_ausgang im Depot (3) aus stelle ihn so ein, dass er #StoneBlock# Stein_blöcke aufnimmt.
 Farm.Status.Water = Fertig zum Bewässern
-Farm.Status.Water.Desc = Fertig zum ##water. Achte darauf, dass #WaterBucket# Wasser bereit steht.
+Farm.Status.Water.Desc = Fertig zum ##water. Achte darauf, dass Wasser bereit steht.
 LoadingPhase.Clearing = Lösche verbleibende Daten.
 LoadingPhase.CombineMeshes = Kombiniere Meshes.
 LoadingPhase.InitNavmesh = Initiali_siere Navigation.
@@ -1986,3 +1986,6 @@ UI.Error.TrackReserved = Es ist nicht möglich, Gleise zu entfernen, während si
 UI.Modding.Legal = Mit dem Absenden eines Mods bestätigst du, dass du der Autor bist und erklärst dich mit den Geschäftsbedingungen vom Steam Workshop einverstanden (Klicke hier).
 UI.Modding.Submit = Upload/Update
 UI.WaterState = Wasser: $1
+
+
+UI.SocialBuilding = ##Socialgebäude.
