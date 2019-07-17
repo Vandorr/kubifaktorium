@@ -80,7 +80,7 @@ fallback=English
 ##house.Desc = Casa: Colonos e animais gostam de ter um lugar para morar. Fornecer casas irá fazê-los mais felizes e produtivos.
 
 ##social = social 
-##social.Desc Social: Colonos precisam de interação com outros para crescer. Fornecer interação social irá fazê-los mais felizes e produtivos.
+##social.Desc = Social: Colonos precisam de interação ##social com outros para crescer. Fornecer interação social irá fazê-los mais felizes e produtivos.
 ##logsys = #Logistics#Sistema de logística
 ##logsys.Desc = #Logistics#Sistema de logística: Permite você conectar múltiplos sistemas de transporte e armaze_namento. Uma vez instalados, irá automa_ticamente gerar trabalhos de transporte à veículos e colonos.
 
