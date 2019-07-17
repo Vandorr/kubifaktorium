@@ -73,14 +73,14 @@ fallback=English
 ##power = #Power#energia
 ##power.Desc = #Power#Energia: Criada em geradores e usada por uma variedade de máquinas.
 
-##decoration = #House#Decoração
-##decoration.Desc = #House#Decoração: Colocar itens decorativos irá fazer seus colonos mais felizes e produtivos.
+##decoration = decoração
+##decoration.Desc = Decoração: Colocar itens decorativos irá fazer seus colonos mais felizes e produtivos.
  
 ##house = casa
 ##house.Desc = Casa: Colonos e animais gostam de ter um lugar para morar. Fornecer casas irá fazê-los mais felizes e produtivos.
 
-##social = #Chat#social 
-##social.Desc #Chat#Social: Colonos precisam de interação com outros para crescer. Fornecer interação social irá fazê-los mais felizes e produtivos.
+##social = social 
+##social.Desc Social: Colonos precisam de interação com outros para crescer. Fornecer interação social irá fazê-los mais felizes e produtivos.
 ##logsys = #Logistics#Sistema de logística
 ##logsys.Desc = #Logistics#Sistema de logística: Permite você conectar múltiplos sistemas de transporte e armaze_namento. Uma vez instalados, irá automa_ticamente gerar trabalhos de transporte à veículos e colonos.
 
@@ -267,7 +267,7 @@ Objective.TrainSchedule.Desc = Para adicionar uma estação ao cronograma do tre
 Objective.SetWorkshopInput = Faça uma ligação de $8 $6 para $7 $5
 Objective.SetWorkshopInput.Desc = Para fazer uma ligação da $6 para uma entrada da ##stockpilezone, clique com o botão esquerdo em $6 e clique com o botão direito em $5. 
 Objective.SetWorkshopOutput = Faça uma ligação de $7 $5 para $8 $6
-Objective.SetWorkshopOutput.Desc = Para fazer uma ligação da $6 para uma saída da ##stockpilezone, clique com o botão esquerdo em $6 e clique com o botão direito em $5.
+Objective.SetWorkshopOutput.Desc = Para fazer uma ligação da $5 para uma saída da ##stockpilezone, clique com o botão esquerdo em $5 e clique com o botão direito em $6.
 
 Objective.LinkStockpile = Faça uma ligação do $1 à zona de estoque ($2/$3)
 Objective.LinkStockpile.Desc = Para fazer uma ligação do $1 à uma ##stockpilezone, clique com o botão esquerdo em $1 e clique com o botão direito na zona de estoque. Bancadas irão produzir até que as zonas de estoque ligadas à ela estejam cheias.
@@ -1916,6 +1916,7 @@ PastureAnimal.Status.YieldProgress = Progresso da produção: $1%
 
 # 9.7.2019
 UI.Error.TrackReserved = Não é possível remover trilhos enquanto são usados por um trem.
+UI.SocialBuilding = Construção ##Social.
 
 # 12.7.2019
 Modifier.ShippingPort = Use o porto de carga para importar e exportar mercadorias.
