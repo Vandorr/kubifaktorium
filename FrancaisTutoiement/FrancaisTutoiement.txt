@@ -220,11 +220,11 @@ Objective.UnloadAll.Desc = Clique sur ton ##ship pour voir les marchandises qu'i
 Objective.Recruit = Recrute-les.
 Objective.Recruit.Desc = Recruter un naufragé ou dompter un animal les fera rejoindre ta colonie. Remarque: Les animaux ne peuvent effectuer qu'un nombre limité de tâches. Une fois qu'ils font partie de ton colonie, ils commenceront à consommer tes provisions.
 Objective.ActivateDebugMode = Activer le mode débogage.
-Objective.ActivateDebugMode.Desc = Ouvre le menu des paramètres et active le mode débogage/triche.
+Objective.ActivateDebugMode.Desc = Ouvre le menu des paramètres et active le mode débugage/triche.
 Objective.UseDebugRemove = Supprimer un objet.
 Objective.UseDebugRemove.Desc = Tu peux supprimer tout objet, bâtiment ou élément dans le jeu en utilisant l'outil de suppression standard tout en maintenant la touche Alt enfoncée. [Nécessite le mode debogage]
 Objective.UseDebugSpawn = Faire apparaître un objet.
-Objective.UseDebugSpawn.Desc = Tu peux générer n'importe quel objet, bâtiment ou élément dans le jeu en utilisant le menu de triche. Appuie sur F8 pour l'ouvrir. [Nécessite le mode debogage]
+Objective.UseDebugSpawn.Desc = Tu peux générer n'importe quel objet, bâtiment ou élément dans le jeu en utilisant le menu de triche. Appuie sur F8 pour l'ouvrir. [Nécessite le mode debugage]
 Objective.UseRevealMap = Révéler la carte.
 Objective.UseRevealMap.Desc = Tu peux supprimer le brouillard de guerre et révéler la carte en appuyant sur F7. [Nécessite le mode debogage]
 Objective.ShowHelpTooltip = Déplace ta souris sur un objectif pour afficher de l'aide supplémentaire
@@ -496,7 +496,7 @@ ObjectType.AutoSmelter.Desc = Les fonderies ##Automated fondent du minerai broy�
 ObjectType.Farm5x5 = Ferme automatisé
 ObjectType.Farm5x5.Desc = Cette ferme cultivera ##automatically des cultures simples.
 ObjectType.Sawmill = Scierie
-ObjectType.Sawmill.Desc = Les scieries transforment les bûches en bois en planches.
+ObjectType.Sawmill.Desc = Les scieries transforment les bûches de bois en planches.
 ObjectType.Bonfire = Feu de camp
 ObjectType.Bonfire.Desc = Construis des feux de camp pour agrandir ton ##territory et définir des ##zones.
 ObjectType.Torch = Torche
@@ -619,42 +619,42 @@ ObjectType.MudRoad = Chemin en terre battue
 ObjectType.MudRoad.Desc = Une simple route.
 ObjectType.StoneRoad = Route pavée
 ObjectType.StoneRoad.Desc = Une route pavée de pierre.
-ObjectType.Aeste = Zweige
-ObjectType.Aeste.Desc = Kann durch Abbauen & Ernten entfernt werden.
+ObjectType.Aeste = Branches
+ObjectType.Aeste.Desc = Peut être enlevé en minant / récoltant.
 ObjectType.BeachRock = Petit rocher.
-ObjectType.BeachRock.Desc = Peut être enlevé en le minant/récoltant.
+ObjectType.BeachRock.Desc = Peut être enlevé en minant/récoltant.
 ObjectType.CorniTree = Pin
 ObjectType.CorniTree.Desc = Les arbres peuvent être exploités pour obtenir des bûches.
-ObjectType.Muscheln = Muscheln
-ObjectType.Muscheln.Desc = Kann durch Abbauen & Ernten entfernt werden.
-ObjectType.Steine = Kleine Steine
-ObjectType.Steine.Desc = Kann durch Abbauen & Ernten entfernt werden.
+ObjectType.Muscheln = Moules
+ObjectType.Muscheln.Desc = Peut être enlevé en minant / récoltant.
+ObjectType.Steine = Petite pierres
+ObjectType.Steine.Desc = Peut être enlevé en minant / récoltant.
 ObjectType.Tree = Chêne
 ObjectType.Tree.Desc = Les arbres peuvent être exploités pour obtenir des bûches.
 ObjectType.Weed = Mauvaise herbe
-ObjectType.Weed.Desc = Peut être enlevée en minant / récoltant.
+ObjectType.Weed.Desc = Peut être enlevé en minant / récoltant.
 ObjectType.WildBushel = Mauvaise herbe
-ObjectType.WildBushel.Desc = Peut être enlevée en minant / récoltant.
+ObjectType.WildBushel.Desc = Peut être enlevé en minant / récoltant.
 ObjectType.Boat = Navire
-ObjectType.Boat.Desc = Le navire que vous utilisez pour traverser les océans.
+ObjectType.Boat.Desc = Le navire que tu utilises pour traverser les océans.
 ObjectType.CargoShip = Navire cargo
-ObjectType.CargoShip.Desc = Le navire cargo transporte une partie de la production de vos colonies précédentes.
+ObjectType.CargoShip.Desc = Le navire cargo transporte une partie de la production de tes colonies précédentes.
 ObjectType.Table = Table
 ObjectType.Table.Desc = Lorsqu'ils sont épuisés, les colons se mettent assis à table pour se détendre et discuter.
 ObjectType.Soil = Sol
 ObjectType.Soil.Desc = Sol
-ObjectType.RailwayCrossing = Railway Crossing.
-ObjectType.RailwayCrossing.Desc = A simple railway crossing. Purement décoratif.
-ObjectType.TracksStation = Bahn_station
-ObjectType.TracksStation.Desc = Die Züge halten an den Bahn_höfen und fahren nach einer kurzen Pause weiter.
-ObjectType.TracksStationGround = Bahnhofs_pflaster.
-ObjectType.TracksStationGround.Desc = Ein deko_rativer Bürger_steig, der auf Schienen verlegt werden kann.
+ObjectType.RailwayCrossing = Croisement ferroviaire.
+ObjectType.RailwayCrossing.Desc = Un simple croisement ferroviaire. Purement décoratif.
+ObjectType.TracksStation = Gare de trains
+ObjectType.TracksStation.Desc = Les trains s'arrêtent aux gares et repartent après une courte pause.
+ObjectType.TracksStationGround = Asphalte de gare
+ObjectType.TracksStationGround.Desc = Un trottoir décoratif qui peut être posé sur les voix.
 ObjectType.TrainFactory = Usine à train
 ObjectType.TrainFactory.Desc = Utilisé pour fabriquer des trains. Les trains peuvent être utilisés dans le ##logsys.
 ObjectType.TrainLocomotive = Locomotive
 ObjectType.TrainLocomotive.Desc = Les trains sont utilisés pour transporter des marchandises lourdes sur de longues distances.
 ObjectType.Bakery = Boulangerie
-ObjectType.Bakery.Desc = Utilisé pour produire du pain et d'autres types de nourritures.
+ObjectType.Bakery.Desc = Produit du pain et d'autres types de nourritures.
 ObjectType.BasicWorkplace = Atelier rudimentaire
 ObjectType.BasicWorkplace.Desc = L'atelier rudimentaire peut être utilisé pour fabriquer des planches en bois et des blocs de pierre.
 ObjectType.Brewery = Brasserie
@@ -666,13 +666,13 @@ ObjectType.MetalWorkshop.Desc = L'atelier de métal permet la production d'outil
 ObjectType.Smelter = Fonderie de minerai
 ObjectType.Smelter.Desc = Fond le minerai extrait en blocs de métal.
 ObjectType.Well = Puits
-ObjectType.Well.Desc = Le puits pompe les eaux souterraines, et peut être rempli par les colons à l'aide de seaux.
-ObjectType.ZeppelinDepotStation = Zeppelin Depot
+ObjectType.Well.Desc = Le puits pompe les eaux souterraines produisant des seaux d'eau.
+ObjectType.ZeppelinDepotStation = Dépôt de zeppelins
 ObjectType.ZeppelinDepotStation.Desc = Les gares et les ##depot utilisés par les zeppelins pour charger et décharger des marchandises. (##logsys)
-ObjectType.ZeppelinFactory = Usine de Zeppelin
+ObjectType.ZeppelinFactory = Usine de zeppelin
 ObjectType.ZeppelinFactory.Desc = Construit et supporte un Zeppelin. Les zeppelins peuvent être utilisés dans le ##logsys.
-ObjectType.ZeppelinStation = Zeppelin_bahnhof
-ObjectType.ZeppelinStation.Desc = Station, die von Zeppelinen zum Be- und Entladen von Gütern genutzt wird. (##logsys)
+ObjectType.ZeppelinStation = Gare à zeppelin
+ObjectType.ZeppelinStation.Desc = Gare utilisée par les zeppelin pour charger et décharger des produits. (##logsys)
 ObjectType.ZeppelinUnit = Zeppelin
 ObjectType.ZeppelinUnit.Desc = Zeppelin
 
@@ -702,26 +702,26 @@ LoadingPhase.InitialisingObjects = Initialisation des objets
 
 UI.Weight = ##Weight: $1
 UI.CanBeMined = Peut être exploité pour
-UI.SelectZoneColor = Sélectionner la couleur de la zone:
+UI.SelectZoneColor = Sélectionne la couleur de la zone:
 UI.Equipment = Equipement
 UI.SelectAssignedZones = Zones autorisées:
 UI.AcceptedGoods = Marchandises acceptées:
-UI.AcceptedGoods.Help = (Cliquez sur une marchandise pour la basculer.)
+UI.AcceptedGoods.Help = (Clique sur un produit pour l'accepter)
 
 UI.Recruitment = Recrutement
-UI.Recruit.Defeat = Ennemies (Force $1):
+UI.Recruit.Defeat = Ennemis (Force $1):
 UI.Recruit.Requirements = Exigences:
 UI.Help = Aide
 
 Settings.ScrollSpeed = Vitesse de défilement
 Settings.ScrollSpeed.Desc = Facteur de vitesse de défilement. Affecte le défilement sur le bord de l'écran et le défilement par WASD.
 
-UI.PressAnyKey = Appuyez sur n'importe quelle touche pour commencer!
+UI.PressAnyKey = Appuye sur n'importe quelle touche pour commencer!
 
 UI.CapacityUsed = Capacité utilisée:
 UI.LoadLeave = Charger et quitter:
 UI.StoredCargo = Marchandises stockées:
-UI.StoredCargo.Help = (Cliquez sur une marchandise à décharger.)
+UI.StoredCargo.Help = (Clique sur une marchandise à décharger.)
 
 UI.Menu = Menu
 UI.Menu.Title = Menu
@@ -730,23 +730,23 @@ UI.VersionInfo = Infos sur la version
 
 
 Settings.ExportIcons = Icônes d'exportation
-Settings.ExportIcons.Desc = Exportez les icônes d'objet au démarrage (généralement non requis).
+Settings.ExportIcons.Desc = Exporter les icônes d'objet au démarrage (généralement non requis).
 
 UI.ProductionTree = Arborescence Production
 
 
 UI.AcceptAll = Tout accepter
-UI.AcceptAll.Desc = Définir la ##stockpilezone pour accepter toutes les marchandises.
+UI.AcceptAll.Desc = Régler la ##stockpilezone pour accepter toutes les marchandises.
 UI.RefuseAll = Tout refuser
 UI.RefuseAll.Desc = Régler la ##stockpilezone pour refuser toutes les marchandises.
 
 Settings.RotateSpeed = Vitesse de rotation
-Settings.RotateSpeed.Desc = Tournez le facteur de vitesse. Affecte la rotation de la caméra avec Q/E/PgUp/PgDown.
+Settings.RotateSpeed.Desc = Modifie le facteur de vitesse de rotation. Affecte la rotation de la caméra avec Q/E/PgUp/PgDown.
 
 
 
 Farm.Status.NoOutputForProduct = Les zones de stockage sortantes n'acceptent pas le produit.
-Farm.Status.NoOutputForProduct.Desc = Pour modifier les marchandises acceptées d'une ##stockpilezone, clique gauche dessus et modifie les marchandises en les sélectionnant dans le panneau.
+Farm.Status.NoOutputForProduct.Desc = Pour modifier les marchandises acceptées par une ##stockpilezone, clique gauche dessus et modifie les marchandises en les sélectionnant dans le panneau.
 
 MainMenu.LoadGame = Charger Partie
 
@@ -757,11 +757,11 @@ Objective.SetClaimColor = Définis l'assignation de la zone pour le feu de camp 
 Objective.SetClaimColor.Desc = Pour modifier la couleur d'une zone, sélectionne son feu de camp et clique sur la couleur de la zone souhaitée dans le panneau d'informations.
 
 Settings.RightDrag = Bouger la caméra
-Settings.RightDrag.Desc = Faites bouger la caméra tout en maintenant le bouton droit de la souris.
+Settings.RightDrag.Desc = Fais bouger la caméra tout en maintenant le bouton droit de la souris.
 LoadingPhase.Combining = Mélange des maillages
 
-UI.ClearZone = Vendre / Déconstruire / Dégager la zone
-UI.ClearZone.Desc = Détruisez un bâtiment ou enlevez une ##Stockpilezone, ##Farmzone or ##Grovezone. Utilisez ##Keycycle pour basculer entre plusieurs objets sur la même tuile.
+UI.ClearZone = Vendre / Démolir / Dégager la zone
+UI.ClearZone.Desc = Détruis un bâtiment ou enleve une ##Stockpilezone, ##Farmzone ou ##Grovezone. Utilise ##Keycycle pour basculer entre plusieurs objets sur la même tuile.
 UI.CancelOrder = Annuler un ordre
 UI.CancelOrder.Desc = Annuler un ordre comme l'extraction minière, le chargement ou la déconstruction.
 
@@ -775,8 +775,8 @@ Logistics.Status.CanSupplyRequest = Peut approvisionner ou demander.
 
 
 
-ObjectType.Oil = Ölquelle
-ObjectType.Oil.Desc = Ölquellen können mit Hilfe von Ölpumpen abgeschöpft werden. (##Roboter benötigen Öl.)
+ObjectType.Oil = Puit de pétrole
+ObjectType.Oil.Desc = Les puits de pétrol peuvent être siphonnés à l'aide de pompes à pétrole. (##Roboter requierent pétrol.)
 
 
 # ---
@@ -786,29 +786,29 @@ Farm.Status.UnderConstruction = En construction
 Farm.Status.Working = Actif
 Message.CombatInProgress = $1 est attaqué!
 ObjectType.Barn = Grange rudimentaire
-ObjectType.Barn.Desc = Un endroit pour que vos animaux puissent se reposer.
+ObjectType.Barn.Desc = Un endroit pour que tes animaux puissent se reposer.
 ObjectType.Bush = Arbuste
 ObjectType.Bush.Desc = Un simple arbuste.
-ObjectType.DarkRock = Roche d'Ashen
-ObjectType.DarkRock.Desc = Roche d'Ashen
+ObjectType.DarkRock = Basalt
+ObjectType.DarkRock.Desc = Roche de basalt
 ObjectType.DesertTreeStump = Souche d'arbre
 ObjectType.DesertTreeStump.Desc = Souche d'arbre
 ObjectType.Flower = Fleur
 ObjectType.Flower.Desc = Fleur
 ObjectType.OilBarrel = Baril de pétrole
-ObjectType.OilBarrel.Desc = L'huile est utilisée pour construire et entretenir des ##robots.
+ObjectType.OilBarrel.Desc = Le pétrole est utilisée pour construire et entretenir des ##robots.
 ObjectType.OilPump = Pompe à pétrole
 ObjectType.OilPump.Desc = La pompe à pétrole siphone ##automatically le pétrole d'un puits et remplit des barrils.
 ObjectType.OilWell = Puit pétrolier
 ObjectType.OilWell.Desc = Les puits de pétrole peuvent être siphonnés par des pompes à pétrole lorsqu'elles sont construites par dessus.
 ObjectType.OutpostBonfire = Feu de camp avant-poste
-ObjectType.OutpostBonfire.Desc = Placez les feux avant-poste en dehors de votre ##territory pour bâtir une nouvelle zone.
+ObjectType.OutpostBonfire.Desc = Place les feux avant-poste en dehors de ton ##territory pour bâtir une nouvelle zone.
 ObjectType.PalmTree = Palmier
 ObjectType.PalmTree.Desc = Un palmier.
 ObjectType.RecruitingFlag = Drapeau de recrutement
 ObjectType.RecruitingFlag.Desc = Ce drapeau appartient à un groupe amical d'animaux et de colons.
 ObjectType.RobotWorkshop = Atelier robot
-ObjectType.RobotWorkshop.Desc = Le ##robot atelier vous permet de produire des robots.
+ObjectType.RobotWorkshop.Desc = L'atelier ##robot te permet de produire des robots.
 ObjectType.StrawberryDonut = Donut à la fraise
 ObjectType.StrawberryDonut.Desc = Malsain mais irrésistible.
 ObjectType.TransportRobot = Robot de transport
@@ -824,13 +824,13 @@ UI.FightClose = Enlever le drapeau de ralliement.
 UI.FightClose.Desc = Enlève le drapeau de ralliement pour tes colons. Tous les colons retourneront à leur travail habituel.
 UI.Hitpoints = Points de vie: $1/$2
 UI.LogisticsSystem = Système logistique
-UI.LogisticsSystem.Desc = Pour <b>fournir</b> des marchandises, connectez cette unité (zone de stockage ou station zeppelin) à d'autres unités par un clic droit sur eux. Also, make sure there are actual goods to provide. <br>Only ##stockpilezone can <b>request</b> goods. In order to do so, connect other units (stockpiles or zeppelin stations) to this stockpile and set the desired goods to be accepted. (##logsys)
+UI.LogisticsSystem.Desc = Pour <b>fournir</b> des marchandises, connecte cette unité (zone de stockage ou station zeppelin) à d'autres unités par un clic droit sur eux. Assure toi aussi qu'il y a bien des produit à livrer. <br>Seul les ##stockpilezone peuvent <b>demander</b> des produits. Pour ce faire, connect les autres zone (zones de stockage ou gares de zeppelin) à cette zone de stockage et définit le produit voulu comme accepté. (##logsys)
 
 
 UI.Pet.Owner = Propriétaire
 UI.SurveyInfo = Mini Sondage
 Workshop.Status.NoOutputForProduct = Les zones de stockage sortantes n'acceptent pas le produit.
-Workshop.Status.NoOutputForProduct.Desc = Pour modifier les marchandises acceptées dans une ##stockpilezone, clique gauche dessus et modifier les types en les sélectionnant dans le panneau.
+Workshop.Status.NoOutputForProduct.Desc = Pour modifier les marchandises acceptées dans une ##stockpilezone, clique gauche dessus et modifie les types en les sélectionnant dans le panneau.
 
 UI.Build.MissingMaterials.Explicit = Manque $1 pour la construction.
 
@@ -862,9 +862,9 @@ ActorState.HouseQuality.Low = Maison de basse qualité.
 ActorState.Hurt = Gravement blessé
 ActorState.Injured = Blessé
 
-AttackEnemyCamp.Desc = 2.) Attaquer le camp ennemi.
-AttackEnemyCamp.Intro = Cliquez sur le territoire ennemi et cliquez sur attaquer pour rallier vos colons pour attaquer.
-AttackEnemyCamp.Outro = Astuce: Sélectionnez vos colons pour voir combien de dégâts ils infligents avec d'autres armes.
+AttackEnemyCamp.Desc = 2.) Attaque le camp ennemi.
+AttackEnemyCamp.Intro = Clique sur le territoire ennemi et clique sur attaquer pour rallier tes colons et lancer l'attaque.
+AttackEnemyCamp.Outro = Astuce: Sélectionne tes colons pour voir combien de dégâts ils infligents avec d'autres armes.
 
 
 Robot.Mode = Mode robot
