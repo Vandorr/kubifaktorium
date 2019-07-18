@@ -876,6 +876,10 @@ TipOfTheDay.5=While adding a workshop's recipe hold the alt-key to auto_maticall
 TipOfTheDay.6=Press shift-F1 to save the current camera position. Press F1 to go back to that position. (Works with F1-F4)
 TipOfTheDay.7=Press F11 to hide the user interface.
 TipOfTheDay.8=Press F12 to make a screenshot.<br><br>Save folder for Windows:<br>   C:\Users_\<username>_\AppData_\LocalLow_\MirkoStudio_\Kubifak_torium_\...  <br>Folder for Mac/Linux:<br>  ~/.config_/unity3d_/MirkoStudio_/Kubifak_torium_/
+
+TipOfTheDay.8 = Press F12 to make a screenshot.<br><br>Save folder for Windows/Linux/Mac:<br>   C:\Users_\<username>_\AppData_\LocalLow_\MirkoStudio_\Kubifak_torium_\...  <br>~/.config_/unity3d_/MirkoStudio_/Kubifak_torium_/<br>~_/Library_/Application Support_/unity.Unity Technologies.Unity Labs...
+
+
 TipOfTheDay.9=Click on an item's descrip_tion panel to open the produc_tion tree overview.
 TipOfTheDay.10=Click on a recommended building to build it. Click on a recommended item to select a workshop where it can be built.
 
@@ -1315,3 +1319,5 @@ PastureAnimal.Status.YieldProgress = Production progress: $1%
 UI.Error.TrackReserved = Cannot remove tracks while they are reserved by a train. 
 
 UI.SocialBuilding = ##Social building.
+
+UI.Error.LastBonfire = You cannot remove your last bonfire.
