@@ -47,7 +47,7 @@ disableHyphenationCheck = true
 ##food = #Food#Essen
 ##food.Desc = #Food#Essen: Bei Hunger suchen Kolo_nisten auto_matisch nach etwas zu essen. Die Bereit_stellung von Nahrung macht sie glück_licher und produktiver.
 
-##stockpilezone = #Stockpile#Lager_platz
+##stockpilezone = Lager_platz
 ##stockpilezone.Desc = Ein Lager_platz kann auf festem Boden errichtet werden und Produkte aus Werk_stätten, Farmen usw. auf_nehmen.
 
 ##farmzone = #Farm#Farm
@@ -1397,7 +1397,7 @@ TipOfTheDay.10 = Klicke auf ein empfohlenes Gebäude, um es zu bauen. Klicke auf
 TipOfTheDay.5 = Halte beim Hin_zufügen eines Rezepts die Alt-Taste gedrückt, um die akzeptierten Güter der Ausgangs_lager auto_matisch zu aktuali_sieren.
 TipOfTheDay.6 = Drücke Shift-F1, um die aktuelle Kamera_position zu speichern. Drücke F1, um zu dieser Position zurück_zukehren. (Funk_tioniert mit F1-F4)
 TipOfTheDay.7 = Drücke F11, um das Benutzer_interface aus_zublenden.
-TipOfTheDay.8 = Drücke F12, um einen Screenshot zu machen.<br><br>Ordner unter Windows:<br>   C:\Users_\<benutzername>_\AppData_\LocalLow_\MirkoStudio_\Kubifak_torium_\...  <br>Ordner unter Mac/Linux:<br>  ~/.config_/unity3d_/MirkoStudio_/Kubifak_torium_/
+TipOfTheDay.8 = Drücke F12, um einen Screenshot zu machen.<br><br>Ordner unter Windows/Linux/Mac:<br>   C:\Users_\<benutzername>_\AppData_\LocalLow_\MirkoStudio_\Kubifak_torium_\...  <br>~/.config_/unity3d_/MirkoStudio_/Kubifak_torium_/<br>~_/Library_/Application Support_/unity.Unity Technologies.Unity Labs...
 TipOfTheDay.9 = Klicke auf das Beschrei_bungs_panel eines Gegen_stands, um die entsprech_ende Produktions_übersicht zu öffnen.
 UI.Conv = Fließ_band_werkzeug
 UI.Conv.Desc = Erzeugt Fließ_bänder. <br>Drücke ##keyrotate zum Aus_richten. <br> Drücke ##keycycle zum Umschal_ten zwischen unterer und oberer Ebene.
@@ -1877,7 +1877,6 @@ Modifier.TutorialTrainSignalsCircle.Intro = Dieses Tutorial zeigt, wie man Signa
 ObjectType.Betanium = Betanium
 ObjectType.Betanium.Desc = Betanium wird verwendet, um die Dinge herzustellen, die sich noch in einem frühen Entwicklungsstadium befinden.
 ObjectType.Floor_Desert_MountainBase.Desc = Wüstensand
-ObjectType.Foundation_Desert_SandHigh.Desc = Baue dieses Fundament auf Sand, um den Bau von Gebäuden zu ermöglichen.
 TipOfTheDay.17 = Du kannst dein Schiff mit einem Lagerplatz verbinden. Wenn du dies tust, werden deie Kolonisten alle Gegenstände, die der Lagerplatz annimmt, in diesen entladen.
 UI.ShowTips = Tipps anzeigen
 UI.Tips = Tipps
@@ -1989,3 +1988,5 @@ UI.WaterState = Wasser: $1
 
 
 UI.SocialBuilding = ##Socialgebäude.
+
+UI.Error.LastBonfire = Du kannst dein einziges Leuchtfeuer nicht entfernen.
