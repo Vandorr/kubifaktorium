@@ -1949,3 +1949,12 @@ SetExportStockpiles.Outro = Ótimo! Suas mercadorias de exportação serão tran
 SetImportStockpiles.Desc = 2.) Designe mercadorias para serem importadas
 SetImportStockpiles.Intro = Agora nós podemos especificar as mercadorias que queremos receber em troca. Ligue o porto de carga ao estoque 5-7.
 TerrainShape.Rainbow = Terreno perfei_tamente plano
+
+# 18.7.2019
+
+ObjectType.CactusRound = Cacto
+ObjectType.CactusRound.Desc = Evoluído para sobreviver o clima árduo do deserto.
+ObjectType.JoshuaTree = Árvore de Josué
+ObjectType.JoshuaTree.Desc = Evoluído para sobreviver o clima árduo do deserto.
+ObjectType.Ostrich = Avestruz
+ObjectType.Ostrich.Desc = Avestruz
