@@ -1990,3 +1990,6 @@ UI.WaterState = Wasser: $1
 UI.SocialBuilding = ##Socialgebäude.
 
 UI.Error.LastBonfire = Du kannst dein einziges Leuchtfeuer nicht entfernen.
+
+TaskGroup.Logistics = Logistik
+TaskGroup.Logistics.Desc = Transport zwischen Lagern und Depots, Import und Export. 
