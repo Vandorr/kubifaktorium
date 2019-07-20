@@ -1,7 +1,7 @@
 ﻿language=Portugues
 locales=BR
 fallback=English
- 
+disableHyphenationCheck=true
 
 # The general format of the localization file for each line is <key> = <value>, for example "UI.BuildTrain = Build train". The <key> must not be changed, the <value> is to be translated, so e.g. "UI.BuildTrain = Baue Zug".
 # A line starting with "#" is ignored and can be used for comments. 
@@ -123,7 +123,7 @@ UI.MultiSelectHeader = $1 colonos seleci_onados.
 UI.Build = Construir
 UI.Build.Desc = Cria um projeto de construção para ser construído por seus colonos.
 UI.Mine = Minerar e colher
-UI.Mine.Desc = Marca árvores, pedras e outros objetos para serem ##mined ou colhidos. (Segure Alt para marcar todos os objetos do mesmo tipo em seu ##territory).
+UI.Mine.Desc = Marca árvores, pedras e outros objetos para ##mine ou colher. (Segure Alt para marcar todos os objetos do mesmo tipo em seu ##territory).
 UI.SettlerMenu = Geren_ciamento de colonos
 UI.SettlerMenu.Desc = Define o trabalho e as bancadas que seus colonos irão usar.
 UI.Load = Carregar
@@ -654,13 +654,13 @@ CargoShip.State.UNLOAD = Desca_rregando.
 CargoShip.State.LEAVE = Saindo do porto de carga.
 
 UI.Food = Estoque de comidas
-UI.Food.Desc = Forneça ##food para seus colono para fazê-los aumentar a produ_tividade.
+UI.Food.Desc = Forneça ##food aos seus colono para fazê-los aumentar a produ_tividade.
 
 UI.Drink = Estoque de bebidas
-UI.Drink.Desc = Forneça ##drinks para seus colono para fazê-los aumentar a produ_tividade.
+UI.Drink.Desc = Forneça ##drinks aos seus colono para fazê-los aumentar a produ_tividade.
 
 UI.House = Casa
-UI.House.Desc = Forneça ##houses para seus colono para fazê-los aumentar a produ_tividade.
+UI.House.Desc = Forneça ##houses aos seus colono para fazê-los aumentar a produ_tividade.
 
 UI.IdleColonists = Colonos ociosos
 UI.IdleColonists.Desc = Clique aqui para visualizar todos colonos ##idle.
@@ -1958,3 +1958,11 @@ ObjectType.JoshuaTree = Árvore de Josué
 ObjectType.JoshuaTree.Desc = Evoluído para sobreviver o clima árduo do deserto.
 ObjectType.Ostrich = Avestruz
 ObjectType.Ostrich.Desc = Avestruz
+
+## 20.7.2019
+UI.Vein.Destroy = Cover vein
+UI.Vein.Destroy.Desc = Destrói esse veio e te permite construir outras coisas em cima. Aviso: Não pode ser desfeito. 
+UI.House.ForColonists = Colonos:
+UI.House.ForAnimals = Animais:
+
+LoadingPhase.HarbourPlacement = Inicializando interface do porto de carga. 
