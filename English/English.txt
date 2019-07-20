@@ -404,7 +404,8 @@ TaskGroup.Mining.Desc = Miners chop down #Tree#trees and ##mine #Rock#rocks and 
 Workshop._Name = Workshops
 TaskGroup.Power = Power
 TaskGroup.Power.Desc = Colonists and animals can generate ##power.
-
+TaskGroup.Logistics = Logistics
+TaskGroup.Logistics.Desc = Hauling to stockpiles and depots, importing and exporting. 
 
 
 
@@ -1320,4 +1321,13 @@ UI.Error.TrackReserved = Cannot remove tracks while they are reserved by a train
 
 UI.SocialBuilding = ##Social building.
 
+
 UI.Error.LastBonfire = You cannot remove your last bonfire.
+
+## 20.7.2019
+UI.Vein.Destroy = Cover vein
+UI.Vein.Destroy.Desc = Destroys this vein and allows you to build other things on top. Warning: Cannot be undone. 
+UI.House.ForColonists = Colonists:
+UI.House.ForAnimals = Animals:
+
+LoadingPhase.HarbourPlacement = Initializing shipping port UI. 
