@@ -31,8 +31,8 @@ fallback=English
 
 
 
-##idle = #Idle#idle
-##idle.Desc = #Idle#Idle: you can manage your colonists' jobs in the colonist management screen.
+##idle = idle
+##idle.Desc = Idle: you can manage your colonists' jobs in the colonist management screen.
 
 ##mine = #Mine#mine
 ##mine.Desc = #Mine#Mine: To select a resource to be mined, click the mine button and select the things to be mined. Drag an area to mine everything within.
@@ -1331,3 +1331,15 @@ UI.House.ForColonists = Colonists:
 UI.House.ForAnimals = Animals:
 
 LoadingPhase.HarbourPlacement = Initializing shipping port UI. 
+
+UI.IdleColonists.ListTaskGroups = Assigned jobs:
+
+
+TipOfTheDay.19 = When workshop or stockpile is selected, hold the left alt-key to display arrows for other workshops/stockpiles.
+
+UI.Confirm.Yes = Yes
+UI.Confirm.No = No
+UI.Confirm.Load = Are you sure you want to abandon the current game and load the save file?
+UI.Confirm.MainMenu = Are you sure you want to abandon the current game and return to the main menu?
+UI.Confirm.Restart = Are you sure you want to abandon the current game and restart the map?
+UI.Confirm.Quit = Are you sure you want to exit the game?
