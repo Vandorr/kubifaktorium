@@ -1128,7 +1128,7 @@ ObjectType.Dark_Mountain.Desc = Montanha negra
 ObjectType.DarkCrystal = Cristal negro
 ObjectType.DarkCrystal.Desc = Um cristal de origem desco_nhecida.
 ObjectType.DarkGeode = Geodo negro
-ObjectType.DarkGeode.Desc = Um geodo pode ser minerado para obter diferentes minérios.
+ObjectType.DarkGeode.Desc = Um geodo pode ser minerado para obtenção de diferentes minérios.
 ObjectType.DarkRock = Pedra cinzenta
 ObjectType.DarkRock.Desc = Pedra cinzenta
 ObjectType.DarkRuins = Ruinas anciãs
@@ -1966,3 +1966,31 @@ UI.House.ForColonists = Colonos:
 UI.House.ForAnimals = Animais:
 
 LoadingPhase.HarbourPlacement = Inicializando interface do porto de carga. 
+
+ObjectType.Fennec = Feneco
+ObjectType.Fennec.Desc = Um caçador fofinho vivendo no deserto.
+ObjectType.Foundation_Pier = Píer
+ObjectType.Foundation_Pier.Desc = Um píer para seus colonos caminhar sobre (decoração).
+ObjectType.Foundation_Pier_High = Píer (alto)
+ObjectType.Foundation_Pier_High.Desc = Um píer para seus colonos caminhar sobre (decoração).
+ObjectType.TreeFallen = Árvore
+ObjectType.TreeFallen.Desc = Pode ser minerada para obter troncos.
+ObjectType.TreeFallenTwo = Árvore
+ObjectType.TreeFallenTwo.Desc = Pode ser minerada para obter troncos.
+TaskGroup.Logistics = Logística
+TaskGroup.Logistics.Desc = Transporte de estoques, depósitos, importações e exportações.
+
+UI.IdleColonists.ListTaskGroups = Trabalhos designados:
+
+
+TipOfTheDay.19 = Quando uma bancada ou estoque é selecionado, segure o Alt esquerdo para mostrar setas para outras bancadas/estoques.
+
+UI.Confirm.Yes = Sim
+UI.Confirm.No = Não
+UI.Confirm.Load = Você tem certeza que quer abandonar o jogo atual e carregar outro?
+UI.Confirm.MainMenu = Você tem certeza que quer abandonar o jogo atual e retornar ao menu principal?
+UI.Confirm.Restart = Você tem certeza que quer abandonar o jogo atual e reiniciar o mapa?
+UI.Confirm.Quit = Você tem certeza que quer sair do jogo?
+
+ObjectType.StoneWall = Parede de pedra
+ObjectType.StoneWall.Desc = Puramente decorativo no momento.
