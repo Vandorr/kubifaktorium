@@ -776,7 +776,7 @@ Logistics.Status.CanSupplyRequest = Kann liefern oder anfordern.
 
 
 ObjectType.Oil = Ölquelle
-ObjectType.Oil.Desc = Ölquellen können mit Hilfe von Ölpumpen abgeschöpft werden. (##Roboter benötigen Öl.)
+ObjectType.Oil.Desc = Ölquellen können mit Hilfe von Ölpumpen abgeschöpft werden. (##Robot benötigen Öl.)
 
 
 # ---
@@ -798,9 +798,9 @@ ObjectType.Flower.Desc = Eine sehr hübsche Pflanze.
 ObjectType.OilBarrel = Ölfass
 ObjectType.OilBarrel.Desc = Öl wird zum Bau und zur Wartung von ##robotn verwendet.
 ObjectType.OilPump = Ölpumpe
-ObjectType.OilPump.Desc = Die Öl_pumpe fördert auto_matisch Öl aus einer Ölquelle. (##Roboter benötigen Öl.)
+ObjectType.OilPump.Desc = Die Öl_pumpe fördert auto_matisch Öl aus einer Ölquelle. (##Robot benötigen Öl.)
 ObjectType.OilWell = Ölquelle
-ObjectType.OilWell.Desc = Öl_quellen können durch den Bau von Ölpumpen ausgebeutet werden. (##Roboter benötigen Öl.)
+ObjectType.OilWell.Desc = Öl_quellen können durch den Bau von Ölpumpen ausgebeutet werden. (##Robot benötigen Öl.)
 ObjectType.OutpostBonfire = Großes Leucht_feuer
 ObjectType.OutpostBonfire.Desc = Er_weitert die Grenzen deines ##territorys und definiert ##Zonen.
 ObjectType.PalmTree = Palme
