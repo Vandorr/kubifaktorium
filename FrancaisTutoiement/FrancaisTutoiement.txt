@@ -1,6 +1,6 @@
 ﻿# Localization template
 
-language = Français
+language = Français (Tu)
 locales = FR
 fallback = English
 disableHyphenationCheck = false
@@ -713,7 +713,7 @@ UI.Recruit.Defeat = Ennemis (Force $1):
 UI.Recruit.Requirements = Exigences:
 UI.Help = Aide
 
-Settings.ScrollSpeed = Vitesse de défilement
+Settings.ScrollSpeed = Vitesse défilement
 Settings.ScrollSpeed.Desc = Facteur de vitesse de défilement. Affecte le défilement sur le bord de l'écran et le défilement par WASD.
 
 UI.PressAnyKey = Appuie sur n'importe quelle touche pour commencer!
