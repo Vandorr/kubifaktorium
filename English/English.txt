@@ -1343,3 +1343,6 @@ UI.Confirm.Load = Are you sure you want to abandon the current game and load the
 UI.Confirm.MainMenu = Are you sure you want to abandon the current game and return to the main menu?
 UI.Confirm.Restart = Are you sure you want to abandon the current game and restart the map?
 UI.Confirm.Quit = Are you sure you want to exit the game?
+
+UI.Recipe.Inputs = Inputs:
+UI.Recipe.AdditionalOutputs = Additional outputs:
