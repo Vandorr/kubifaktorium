@@ -1637,3 +1637,5 @@ UI.Confirm.Quit=本当にゲームを終了しますか？
 UI.Confirm.Restart=本当に現在の進行状況を破棄して、マップを最初からやり直しますか？
 UI.Confirm.Yes=はい
 UI.IdleColonists.ListTaskGroups=割り当てられた仕事：
+UI.Recipe.AdditionalOutputs=追加生産物：
+UI.Recipe.Inputs=生産に必要な物資：
