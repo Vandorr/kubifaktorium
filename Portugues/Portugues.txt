@@ -1994,3 +1994,8 @@ UI.Confirm.Quit = Você tem certeza que quer sair do jogo?
 
 ObjectType.StoneWall = Parede de pedra
 ObjectType.StoneWall.Desc = Puramente decorativo no momento.
+
+## 27.7.2019
+
+UI.Recipe.Inputs = Entradas:
+UI.Recipe.AdditionalOutputs = Saídas adicionais:
