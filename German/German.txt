@@ -6,61 +6,61 @@ fallback = English
 disableHyphenationCheck = true
 
 
-##happiness = #Happy#Zufriedenheit 
-##happiness.Desc = #Happy#Zufriedenheit: Die Bewegung und Arbeits_geschwin_dig_keit eines Kolo_nisten wird davon beein_flusst, wie gut seine Bedürf_nisse erfüllt werden.
+##happiness = Zufriedenheit 
+##happiness.Desc = Zufriedenheit: Die Bewegung und Arbeits_geschwin_dig_keit eines Kolo_nisten wird davon beein_flusst, wie gut seine Bedürf_nisse erfüllt werden.
 
-##skill = #People#Geschick
-##skill.Desc = #People#Geschick: Jeder Kolonist ist unter_schiedlich gut für die ver_schiedenen Arbeiten und Werk_stätten geeignet. Im Laufe der Zeit werden sie besser in den Aufgaben, die sie verrichten.
-
-
-##keycycle = #controller#wechseln
-##keycycle.Desc = #controller#Wechseln: Mittlere Maustaste oder 'V'.
-
-##keyrotate = #controller#drehen
-##keyrotate.Desc = #controller#Drehen: Maustasten 4/5 oder 'R'.
+##skill = Geschick
+##skill.Desc = Geschick: Jeder Kolonist ist unter_schiedlich gut für die ver_schiedenen Arbeiten und Werk_stätten geeignet. Im Laufe der Zeit werden sie besser in den Aufgaben, die sie verrichten.
 
 
-##zone = #star#Zone
-##zone.Desc = #star#Zonen: Kolonisten können einer oder mehreren Zonen zugeordnet werden. Sie arbeiten nur in den Zonen, denen sie zugeordnet sind.
+##keycycle = wechseln
+##keycycle.Desc = Wechseln: Mittlere Maustaste oder 'V'.
 
-##water = #Water#Wasser
-##water.Desc = #Water#Wasser: Farmen müssen bewässert werden um bepflanzt werden zu können.
+##keyrotate = drehen
+##keyrotate.Desc = Drehen: Maustasten 4/5 oder 'R'.
 
-##idle = #Idle#untätig
-##idle.Desc = #Idle#Untätig: Du kannst die Jobs deiner Kolo_nisten im Kolo_nisten_management_bild_schirm verwalten.
 
-##mine = #Mine#abgebaut
-##mine.Desc = #Mine#Abbau: Um etwas abzu_bauen, klicke auf das Abbau_symbol und wähle die abzu_bauenden Ressourcen aus.
+##zone = Zone
+##zone.Desc = Zonen: Kolonisten können einer oder mehreren Zonen zugeordnet werden. Sie arbeiten nur in den Zonen, denen sie zugeordnet sind.
+
+##water = Wasser
+##water.Desc = Wasser: Farmen müssen bewässert werden um bepflanzt werden zu können.
+
+##idle = untätig
+##idle.Desc = Untätig: Du kannst die Jobs deiner Kolo_nisten im Kolo_nisten_management_bild_schirm verwalten.
+
+##mine = abgebaut
+##mine.Desc = Abbau: Um etwas abzu_bauen, klicke auf das Abbau_symbol und wähle die abzu_bauenden Ressourcen aus.
 
 ##weight = Gewicht
 ##weight.Desc = Gewicht: Kolo_nisten bewegen sich lang_samer wenn sie schwere Waren trans_portieren.
 
-##territory = #Mountain#Gebiet
-##territory.Desc = #Mountain#Gebiet: Gebäude können nur innerhalb des eigenen Gebiets errichtet werden. Baue Leucht_feuer und besiege gegne_rische Lager um dein Gebiet zu erwei_tern.
+##territory = Gebiet
+##territory.Desc = Gebiet: Gebäude können nur innerhalb des eigenen Gebiets errichtet werden. Baue Leucht_feuer und besiege gegne_rische Lager um dein Gebiet zu erwei_tern.
 
-##day = #sun#tags_über
-##day.Desc = #sun#Tag: Zeit zwischen 6:00 und 18:00.
+##day = tags_über
+##day.Desc = Tag: Zeit zwischen 6:00 und 18:00.
 
-##drink = #Drink#Trinken
-##drink.Desc = #Drink#Trinken: Wenn sie durstig sind, suchen Kolo_nisten auto_matisch nach etwas zu trinken. Die Bereit_stellung von Ge_tränken macht sie glück_licher und pro_duktiver.
+##drink = Trinken
+##drink.Desc = Trinken: Wenn sie durstig sind, suchen Kolo_nisten auto_matisch nach etwas zu trinken. Die Bereit_stellung von Ge_tränken macht sie glück_licher und pro_duktiver.
 
-##food = #Food#Essen
-##food.Desc = #Food#Essen: Bei Hunger suchen Kolo_nisten auto_matisch nach etwas zu essen. Die Bereit_stellung von Nahrung macht sie glück_licher und produktiver.
+##food = Essen
+##food.Desc = Essen: Bei Hunger suchen Kolo_nisten auto_matisch nach etwas zu essen. Die Bereit_stellung von Nahrung macht sie glück_licher und produktiver.
 
 ##stockpilezone = Lager_platz
 ##stockpilezone.Desc = Ein Lager_platz kann auf festem Boden errichtet werden und Produkte aus Werk_stätten, Farmen usw. auf_nehmen.
 
-##farmzone = #Farm#Farm
-##farmzone.Desc = #Farm#Farmen erlauben Kolo_nisten ver_schiedene Pflanzen anzu_bauen.
+##farmzone = Farm
+##farmzone.Desc = Farmen erlauben Kolo_nisten ver_schiedene Pflanzen anzu_bauen.
 
-##grovezone = #Grove#Baum_schule
-##grovezone.Desc = #Grove#Baum_schulen erlauben Kolo_nisten ver_schiedene Bäume anzu_pflanzen.
+##grovezone = Baum_schule
+##grovezone.Desc = Baum_schulen erlauben Kolo_nisten ver_schiedene Bäume anzu_pflanzen.
 
-##ship = #Compass#Schiff
-##ship.Desc = #Compass#Schiff: Das Schiff, welches euch auf diese Insel gebracht hat und es euch erlaubt, Gegen_stände zwischen Inseln zu trans_portieren.
+##ship = Schiff
+##ship.Desc = Schiff: Das Schiff, welches euch auf diese Insel gebracht hat und es euch erlaubt, Gegen_stände zwischen Inseln zu trans_portieren.
 
-##power = #Power#Strom
-##power.Desc = #Power#Strom: Wird in Kraft_werken erzeugt und von ver_schiedenen Ma_schinen ver_braucht.
+##power = Strom
+##power.Desc = Strom: Wird in Kraft_werken erzeugt und von ver_schiedenen Ma_schinen ver_braucht.
 
 ##decoration = Deko_ration
 ##decoration.Desc = Deko_rative Gegen_stände machen Kolo_nisten glück_licher und produktiver.
@@ -69,17 +69,17 @@ disableHyphenationCheck = true
 ##stacksize = Stapelbarkeit
 ##stacksize.Desc = Stapelbarkeit: In Lagerplätzen und Depots können mehrere Waren des selben Typs auf einem Feld gelagert werden.
 
-##house = #House#Haus
-##house.Desc = #House#Häuser ver_bessern die Lebens_qualität dei_ner Kolo_nisten.
+##house = Haus
+##house.Desc = Häuser ver_bessern die Lebens_qualität dei_ner Kolo_nisten.
 
-##social = #Chat#Freizeit 
-##social.Desc = #Chat#Freizeit: Kolo_nisten brauchen Er_holung, um zu ged_eihen. Soziale Inter_aktion macht sie glück_licher und pro_duktiver.
+##social = Freizeit 
+##social.Desc = Freizeit: Kolo_nisten brauchen Er_holung, um zu ged_eihen. Soziale Inter_aktion macht sie glück_licher und pro_duktiver.
 
-##logsys = #Logistics#Logistik_system
+##logsys = Logistik_system
 ##logsys.Desc = Das Logistik_system erlaubt das Ver_binden mehrerer Trans_port- und Lager_systeme. Es generiert auto_matisch Trans_port_jobs für Fahr_zeuge und Kolo_nisten.  
 
-##cargoship = #Refine#Fracht_schiff
-##cargoship.Desc = #Refine#Fracht_schiffe bringen einen Teil der Prod_uktion aus deinen früheren Kolon_ien auf deine neue Insel.
+##cargoship = Fracht_schiff
+##cargoship.Desc = Fracht_schiffe bringen einen Teil der Prod_uktion aus deinen früheren Kolon_ien auf deine neue Insel.
 
 
 ##automatically = auto_mati_sch
@@ -87,8 +87,8 @@ disableHyphenationCheck = true
 ##automated = Auto_mati_siert
 ##automated.Desc = Auto_mati_sierte Gebäude benötigen Strom um zu funktio_nieren.
 
-##tool = #settings#Werkzeug
-##tool.Desc = #settings#Werkzeug ver_bessert die Quali_tät mit der ein Kolo_nist eine Aufgabe erfüllen kann. Kolo_nisten rüsten auto_matisch das best_mögliche Werk_zeug für ihre Haupt_aufgabe aus. 
+##tool = Werkzeug
+##tool.Desc = Werkzeug ver_bessert die Quali_tät mit der ein Kolo_nist eine Aufgabe erfüllen kann. Kolo_nisten rüsten auto_matisch das best_mögliche Werk_zeug für ihre Haupt_aufgabe aus. 
 
 ##depot = Depot
 ##depot.Desc = Depot: Erlaubt es, Güter zu lagern und zu ver_teilen. Benutze Lager_ein- und aus_gänge um Güter ein_zulagern oder zu ent_nehmen. 
@@ -1912,8 +1912,8 @@ TipOfTheDay.18 = Wenn dir die Ressourcen ausgehen, die du benötigst um weiter z
 
 UI.Pasture = Weide
 UI.Pasture.Desc = Erstelle oder expandiere eine ##pasturezone.
-##pasturezone = #Pasture#Weide
-##pasturezone.Desc = #Pasture#Weide: Kann auf fruchtbarem Boden erstellt werden um neutrale Tiere zu sammeln und zu behausen.
+##pasturezone = Weide
+##pasturezone.Desc = Weide: Kann auf fruchtbarem Boden erstellt werden um neutrale Tiere zu sammeln und zu behausen.
 
 TaskGroup.Pasture = Viehzucht
 TaskGroup.Pasture.Desc = Viehzüchter zähmen wilde Tiere und kümmern sich in der ##pasturezone um sie.
