@@ -19,26 +19,26 @@ fallback=English
 
 
 
-##zone = #star#zone
-##zone.Desc = #star#Zones: Colonists can be assigned to one or more zones. They will only work in the zones they are assigned to.
+##zone = zone
+##zone.Desc = Zones: Colonists can be assigned to one or more zones. They will only work in the zones they are assigned to.
 
 
-##keycycle = #controller#cycle
-##keycycle.Desc = #controller#Cycle: Middle mouse button or 'V'-key.
+##keycycle = cycle
+##keycycle.Desc = Cycle: Middle mouse button or 'V'-key.
 
-##keyrotate = #controller#rotate
-##keyrotate.Desc = #controller#Rotate: Mouse buttons 4/5 or 'R'-key.
+##keyrotate = rotate
+##keyrotate.Desc = Rotate: Mouse buttons 4/5 or 'R'-key.
 
 
 
 ##idle = idle
 ##idle.Desc = Idle: you can manage your colonists' jobs in the colonist management screen.
 
-##mine = #Mine#mine
-##mine.Desc = #Mine#Mine: To select a resource to be mined, click the mine button and select the things to be mined. Drag an area to mine everything within.
+##mine = mine
+##mine.Desc = Mine: To select a resource to be mined, click the mine button and select the things to be mined. Drag an area to mine everything within.
 
-##territory = #Mountain#territory
-##territory.Desc = #Mountain#Territory: You can only build inside of your territory. Expand it by building bonfires and defeating enemy camps.
+##territory = territory
+##territory.Desc = Territory: You can only build inside of your territory. Expand it by building bonfires and defeating enemy camps.
 
 
 ##weight = weight
@@ -47,17 +47,17 @@ fallback=English
 ##stacksize = stack size
 ##stacksize.Desc = Stacking: In stockpiles and depots multiple items of the same type can be stacked on a single tile.
 
-##day = #sun#daytime
-##day.Desc = #sun#Daytime: Time between 6:00 and 18:00.
+##day = daytime
+##day.Desc = Daytime: Time between 6:00 and 18:00.
 
 ##drink = drink 
 ##drink.Desc = Drink: When thirsty, colonists will auto_matically search for something to drink. Providing drinks will make them more happy and productive.
 
-##happiness = #Happy#Happiness 
-##happiness.Desc = #Happy#Happiness: A colonist's movement and work speed is influenced by how well his/her needs are met.
+##happiness = Happiness 
+##happiness.Desc = Happiness: A colonist's movement and work speed is influenced by how well his/her needs are met.
 
-##skill = #People#Skill
-##skill.Desc = #People#Skill: Every colonist has a different proficiency for each task group and workshop. Over time, they improve in the tasks they perform.
+##skill = Skill
+##skill.Desc = Skill: Every colonist has a different proficiency for each task group and workshop. Over time, they improve in the tasks they perform.
 
 
 
@@ -67,16 +67,16 @@ fallback=English
 ##food = food
 ##food.Desc = Food: When hungry, colonists will auto_matically search for something to eat. Providing food will make them more happy and productive.
 
-##stockpilezone = #Stockpile#stockpile zone
-##stockpilezone.Desc = #Stockpile#Stockpile zone: Can be assigned on solid ground and used to hold products from workshops, farms or mining operations.
-##farmzone = #Farm#Farm
-##farmzone.Desc = #Farm#Farm zone: Can be assigned on fertile soil to allow your colonists to grow a number of crops.
-##grovezone = #Grove#Grove
-##grovezone.Desc = #Grove#Grove zone: Can be assigned on fertile soil to allow your colonists to grow trees.
-##ship = #Compass#ship
-##ship.Desc = #Compass#Ship: The ship that carried you to this island can be used to transport items between islands. 
-##power = #Power#power
-##power.Desc = #Power#Power: Created in generators and used by a variety of machines.
+##stockpilezone = stockpile zone
+##stockpilezone.Desc = Stockpile zone: Can be assigned on solid ground and used to hold products from workshops, farms or mining operations.
+##farmzone = Farm
+##farmzone.Desc = Farm zone: Can be assigned on fertile soil to allow your colonists to grow a number of crops.
+##grovezone = Grove
+##grovezone.Desc = Grove zone: Can be assigned on fertile soil to allow your colonists to grow trees.
+##ship = ship
+##ship.Desc = Ship: The ship that carried you to this island can be used to transport items between islands. 
+##power = power
+##power.Desc = Power: Created in generators and used by a variety of machines.
 
 ##decoration = decoration
 ##decoration.Desc = Decoration: Placing decorative items will make your colonists happier and more productive.
@@ -87,17 +87,17 @@ fallback=English
 
 ##social = social 
 ##social.Desc = Social: Colonists need interaction with each other to thrive. Providing social interaction will make them more happy and productive.
-##logsys = #Logistics#logistics system
-##logsys.Desc = #Logistics#Logistics System: Allows you to connect multiple trans_portation and storage systems. Once set up, it will auto_matically generate transport jobs for vehicles and colonists.
+##logsys = logistics system
+##logsys.Desc = Logistics System: Allows you to connect multiple trans_portation and storage systems. Once set up, it will auto_matically generate transport jobs for vehicles and colonists.
 
-##cargoship = #Refine#cargo ship
-##automatically = #Power#auto_matically
-##automatically.Desc = #Power#Automation: Automated buildings will work without being operated by your colonists but require power to function.
-##Automated = #Power#Automated
-##Automated.Desc = #Power#Automation: Automated buildings will work without being operated by your colonists but require power to function.
+##cargoship = cargo ship
+##automatically = auto_matically
+##automatically.Desc = Automation: Automated buildings will work without being operated by your colonists but require power to function.
+##Automated = Automated
+##Automated.Desc = Automation: Automated buildings will work without being operated by your colonists but require power to function.
 
-##tool = #settings#Tool
-##tool.Desc = #settings#Tool: Increases a colonist's chance to succeed in a given task. Colonists will auto_matically equip the best tool available for their primary task type. 
+##tool = Tool
+##tool.Desc = Tool: Increases a colonist's chance to succeed in a given task. Colonists will auto_matically equip the best tool available for their primary task type. 
 ##depot = depot
 ##depot.Desc = Depot: Used to store and distribute goods. Use entry and exit hoppers to insert and extract goods. 
 
@@ -1287,8 +1287,8 @@ TipOfTheDay.18 = When you run out of the resources you need to progress, build a
 
 UI.Pasture = Pasture
 UI.Pasture.Desc = Create or expand a ##pasturezone.
-##pasturezone = #Pasture#Pasture
-##pasturezone.Desc = #Pasture#Pasture zone: Can be assigned on fertile soil to collect and house neutral animals.
+##pasturezone = Pasture
+##pasturezone.Desc = Pasture zone: Can be assigned on fertile soil to collect and house neutral animals.
 
 TaskGroup.Pasture = Ranch work
 TaskGroup.Pasture.Desc = Ranchers tame wild animals and tend to animals in ##pasturezones.
