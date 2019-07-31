@@ -18,24 +18,24 @@ disableHyphenationCheck=true
 
 
 
-##zone = #star#área
-##zone.Desc = #star#Áreas: Colonos podem ser atribuídos a uma ou mais áreas. Eles só irão trabalhar nas áreas que lhe foram atribuídos.
+##zone = área
+##zone.Desc = Áreas: Colonos podem ser atribuídos a uma ou mais áreas. Eles só irão trabalhar nas áreas que lhe foram atribuídos.
 
-##keycycle = #controller#ciclar
-##keycycle.Desc = #controller#Ciclar: Botão do meio do mouse ou Tecla 'V'.
+##keycycle = Alternar
+##keycycle.Desc = Alternar: Botão do meio do mouse ou Tecla 'V'.
 
-##keyrotate = #controller#rotacionar
-##keyrotate.Desc = #controller#Rotacionar: Botões 4/5 do mouse ou Tecla 'R'.
+##keyrotate = rotacionar
+##keyrotate.Desc = Rotacionar: Botões 4/5 do mouse ou Tecla 'R'.
 
 
-##idle = #Idle#ocioso
-##idle.Desc = #Idle#Ocioso: você pode gerenciar o trabalho do colono na janela de geren_ciamento de colono.
+##idle = ocioso
+##idle.Desc = Ocioso: você pode gerenciar o trabalho do colono na janela de geren_ciamento de colono.
 
-##mine = #Mine#minerar
-##mine.Desc = #Mine#Minerar: Para selecionar um recurso a ser minerado, clique no botão de minerar e selecione os alvos a serem minerados. Arraste uma área para minerar tudo dentro dela.
+##mine = minerar
+##mine.Desc = Minerar: Para selecionar um recurso a ser minerado, clique no botão de minerar e selecione os alvos a serem minerados. Arraste uma área para minerar tudo dentro dela.
 
-##territory = #Mountain#território
-##territory.Desc = #Mountain#Território: Você só pode construir dentro de seu território. Expanda-o construindo fogueiras e derrotando acampamentos inimigos.
+##territory = território
+##territory.Desc = Território: Você só pode construir dentro de seu território. Expanda-o construindo fogueiras e derrotando acampamentos inimigos.
 
 ##weight = peso
 ##weight.Desc = Peso: Enquanto carrega itens pesados, seus colonos ficam lentos.
@@ -43,17 +43,17 @@ disableHyphenationCheck=true
 ##stacksize = estoque
 ##stacksize.Desc = Estoque: Em estoques e depósitos, múltiplos itens do mesmo tipo podem ser empilhados no mesmo bloco.
 
-##day = #sun#dia
-##day.Desc = #sun#Dia: Hora entre 6:00 e 18:00.
+##day = dia
+##day.Desc = Dia: Hora entre 6:00 e 18:00.
 
 ##drink = bebida 
 ##drink.Desc = Bebida: Quando com sede, colonos irão automa_ticamente procurar algo para beber. Fornecer bebidas irá fazê-los mais felizes e produtivos.
 
-##happiness = #Happy#Felicidade 
-##happiness.Desc = #Happy#Felicidade: O andar e velocidade de trabalho do colono é influenciado por quão bem suas necessidades são atendidas.
+##happiness = Felicidade 
+##happiness.Desc = Felicidade: O andar e velocidade de trabalho do colono é influenciado por quão bem suas necessidades são atendidas.
 
-##skill = #People#Habilidades
-##skill.Desc = #People#Habilidades: Todo colono tem uma proficiência diferente para cada grupo de atividade e bancada. Com o tempo, eles melhoram nas tarefas que realizam.
+##skill = Habilidades
+##skill.Desc = Habilidades: Todo colono tem uma proficiência diferente para cada grupo de atividade e bancada. Com o tempo, eles melhoram nas tarefas que realizam.
 
 
 ##water = água 
@@ -62,16 +62,16 @@ disableHyphenationCheck=true
 ##food = comida
 ##food.Desc = Comida: Quando com fome, colonos irão automa_ticamente procurar algo para comer. Fornecer comida irá fazê-los mais felizes e produtivos.
 
-##stockpilezone = #Stockpile#zona de estoque
-##stockpilezone.Desc = #Stockpile#Zona de estoque: Podem ser atribuídas em chão sólido e usadas para guardar produtos de bancadas, fazendas ou mineração.
-##farmzone = #Farm#Plantio
-##farmzone.Desc = #Farm#Zona de plantio: Podem ser atribuídas em solo fértil para permitir que seus colonos cresçam cultivos.
-##grovezone = #Grove#Arvoredo
-##grovezone.Desc = #Grove#Zona de arvoredo: Podem ser atribuídas em solo fértil para permitir que seus colonos cresçam árvores.
-##ship = #Compass#barco
-##ship.Desc = #Compass#Barco: O barco que te trouxe até essa ilha pode ser usado para transportar itens entre as ilhas. 
-##power = #Power#energia
-##power.Desc = #Power#Energia: Criada em geradores e usada por uma variedade de máquinas.
+##stockpilezone = zona de estoque
+##stockpilezone.Desc = Zona de estoque: Podem ser atribuídas em chão sólido e usadas para guardar produtos de bancadas, fazendas ou mineração.
+##farmzone = Plantio
+##farmzone.Desc = Zona de plantio: Podem ser atribuídas em solo fértil para permitir que seus colonos cresçam cultivos.
+##grovezone = Arvoredo
+##grovezone.Desc = Zona de arvoredo: Podem ser atribuídas em solo fértil para permitir que seus colonos cresçam árvores.
+##ship = barco
+##ship.Desc = Barco: O barco que te trouxe até essa ilha pode ser usado para transportar itens entre as ilhas. 
+##power = energia
+##power.Desc = Energia: Criada em geradores e usada por uma variedade de máquinas.
 
 ##decoration = decoração
 ##decoration.Desc = Decoração: Colocar itens decorativos irá fazer seus colonos mais felizes e produtivos.
@@ -81,17 +81,17 @@ disableHyphenationCheck=true
 
 ##social = social 
 ##social.Desc = Social: Colonos precisam de interação ##social com outros para crescer. Fornecer interação social irá fazê-los mais felizes e produtivos.
-##logsys = #Logistics#Sistema de logística
-##logsys.Desc = #Logistics#Sistema de logística: Permite você conectar múltiplos sistemas de transporte e armaze_namento. Uma vez instalados, irá automa_ticamente gerar trabalhos de transporte à veículos e colonos.
+##logsys = Sistema de logística
+##logsys.Desc = Sistema de logística: Permite você conectar múltiplos sistemas de transporte e armaze_namento. Uma vez instalados, irá automa_ticamente gerar trabalhos de transporte à veículos e colonos.
 
-##cargoship = #Refine#Navio de carga
-##automatically = #Power#automa_ticamente
-##automatically.Desc = #Power#Automação: Construções automa_tizadas irão trabalhar sem precisarem ser operadas por seus colonos, más necessitam de energia para funcionar.
-##Automated = #Power#Automatizado
-##Automated.Desc = #Power#Automação: Construções automa_tizadas irão trabalhar sem precisarem ser operadas por seus colonos, más necessitam de energia para funcionar.
+##cargoship = Navio de carga
+##automatically = automa_ticamente
+##automatically.Desc = Automação: Construções automa_tizadas irão trabalhar sem precisarem ser operadas por seus colonos, más necessitam de energia para funcionar.
+##Automated = Automatizado
+##Automated.Desc = Automação: Construções automa_tizadas irão trabalhar sem precisarem ser operadas por seus colonos, más necessitam de energia para funcionar.
 
-##tool = #settings#Ferramenta
-##tool.Desc = #settings#Ferramenta: Aumenta a chance de sucesso do colono em uma tarefa. Colonos irão automa_ticamente equipar a melhor ferramenta para seu trabalho primário. 
+##tool = Ferramenta
+##tool.Desc = Ferramenta: Aumenta a chance de sucesso do colono em uma tarefa. Colonos irão automa_ticamente equipar a melhor ferramenta para seu trabalho primário. 
 ##depot = depósito
 ##depot.Desc = Depósito: Usado para armazenar e distribuir mercadorias. Use funis de entrada e saída para inserir e extrair mercadorias. 
 
@@ -1835,7 +1835,7 @@ TipOfTheDay.16 = Os blocos de estoque são usados na ordem que foram criados. In
 
 TipOfTheDay.17 = Você pode ligar seu barco a um estoque. Fazendo isso, seus colonos vão transportar todos os produtos que o estoque aceita do barco.
 
-MainMenu.Notice.Demo = Essa é uma versão de demonstração com funcio_nalidades limitadas. Clique aqui para visitar a página do jogo na STEAM. Adicione Kubifak_torium a sua lista de desejos para saber quando ele será lançado este Verão! Obrigado :)
+MainMenu.Notice.Demo = Essa é uma versão de demonstração com funcio_nalidades limitadas. Clique aqui para visitar a página do jogo na STEAM e comprar a versão de Acesso Antecipado ou adicionar na sua lista de desejos para receber as atualizações sobre o jogo. Obrigado :)
 
 MainMenu.Notice.EarlyAccess = Bem-vindo a versão antecipada de Kubifa_ktorium! Aqui há algumas dicas para a versão atual: <br>- Eu recomendo iniciar pelos tutoriais.<br> - Os biomas de Campo e Deserto estão bem jogáveis. Tudo além disso (automação, esteiras de transporte etc.) ainda estão em desen_volvimento. Para aprender mais, dê uma olhada no mapa de planejamento futuro do jogo. <br> - Quando estiver jogando a campanha, por favor, salve o jogo toda vez que você for para o mapa mundo. <br> - Se você achar algum erro(bug), por favor, reporte usando a ferramenta dentro do jogo (botão no canto superior direito). <br> - O melhor lugar para conversar sobre o jogo é no nosso servidor oficial do Discord <br> Obrigado por jogar, espero que se divirta com o jogo! :) <br>  Mirko 
 
@@ -1885,8 +1885,8 @@ TipOfTheDay.18 = Quando acabar os recursos necessários para progredir, construa
 
 UI.Pasture = Pasto
 UI.Pasture.Desc = Crie ou expanda um ##pasturezone.
-##pasturezone = #Pasture#Pasto
-##pasturezone.Desc = #Pasture#Zona de pasto: Pode ser atribuída em solo fértil para coletar e abrigar animais neutros.
+##pasturezone = Pasto
+##pasturezone.Desc = Zona de pasto: Pode ser atribuída em solo fértil para coletar e abrigar animais neutros.
 
 TaskGroup.Pasture = Trabalho de rancho
 TaskGroup.Pasture.Desc = Rancheiros domam animais selvagens e cuidam deles no ##pasturezone.
