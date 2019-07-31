@@ -1840,7 +1840,7 @@ TipOfTheDay.15 = Kolo_nisten bewegen sich schneller, wenn sie keine Werk_zeuge t
 
 TipOfTheDay.16 = Die Felder innerhalb eines Lagers werden in der Reihen_folge ihrer Er_stellung ver_wendet. Beginne eine Lager neben einer Werk_statt und erwei_tern es von dort aus, um es etwas effi_zienter zu gestalten.
 
-MainMenu.Notice.Demo = Dies ist eine Demo_version mit ein_geschränkter Funktio_nalität. Klicke hier, um die Steam-Seite des Spiels zu besuchen. Füge Kubi_faktorium zu deiner Wunsch_liste hinzu, um benach_richtigt zu werden, wenn es diesen Sommer erscheint! Danke :)
+MainMenu.Notice.Demo = Dies ist eine Demo_version mit ein_geschränkter Funktio_nalität. Klicke hier, um die Steam-Seite zu besuchen und die Early Access-Version zu kaufen oder das Spiel auf deine Wunschliste zu setzen. Danke :)
 
 
 
