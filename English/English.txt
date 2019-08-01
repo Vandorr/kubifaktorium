@@ -611,7 +611,8 @@ Settings.ExportIcons.Desc = Export object icons on startup (usually not required
 Settings.LeadingCamera = Lead camera
 Settings.LeadingCamera.Desc = When following a colonist, the camera will lead its movement.
 
-UI.ProductionTree = Production Tree
+UI.ProductionTree = Product Encyclopedia
+
 
 UI.AcceptAll = Accept all
 UI.AcceptAll.Desc = Set the ##stockpilezone to accept all goods.
@@ -1346,3 +1347,7 @@ UI.Confirm.Quit = Are you sure you want to exit the game?
 
 UI.Recipe.Inputs = Inputs:
 UI.Recipe.AdditionalOutputs = Additional outputs:
+
+# 1.8.2019
+UI.ProductionTree.Desc = Open the selected item in the product encyclopedia.
+
