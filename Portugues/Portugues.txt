@@ -1999,3 +1999,6 @@ ObjectType.StoneWall.Desc = Puramente decorativo no momento.
 
 UI.Recipe.Inputs = Entradas:
 UI.Recipe.AdditionalOutputs = Saídas adicionais:
+
+# 1.8.2019
+UI.ProductionTree.Desc = Abre o item selecionado na enciclopédia de produtos.
