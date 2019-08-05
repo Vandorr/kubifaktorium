@@ -755,6 +755,9 @@ Task.FarmClear.Text = Clearing $1.
 Task.GroveClear.Text = Clearing $1.
 Task.Till.Text = Tilling ground.
 
+Task.Export.Text = Exporting $1.
+Task.Import.Text = Importing $1.
+
 Train.Schedule = Train schedule:
 Train.Schedule.UI = Train station
 Train.Schedule.UI.Desc = To add a station to the schedule, select the train and right-_click on the new station. To remove a station, click on its entry in the schedule.
