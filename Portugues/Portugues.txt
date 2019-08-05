@@ -714,6 +714,9 @@ Task.FarmClear.Text = Limpando $1.
 Task.GroveClear.Text = Limpando $1.
 Task.Till.Text = Solo de plantio.
 
+Task.Export.Text = Exportando $1.
+Task.Import.Text = Importando $1.
+
 Train.Schedule = Cronograma do trem:
 Train.Schedule.UI = Estação de trem
 Train.Schedule.UI.Desc = Para adicionar uma estação ao cronograma, selecione o trem e aperte com o botão direito na nova estação. Para remover uma estação, clique nela no cronograma.
