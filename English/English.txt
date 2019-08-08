@@ -880,9 +880,9 @@ TipOfTheDay.4=You can clone an existing building by holding the alt-key and clic
 TipOfTheDay.5=While adding a workshop's recipe hold the alt-key to auto_matically update  the accepted goods of its output stockpiles.
 TipOfTheDay.6=Press shift-F1 to save the current camera position. Press F1 to go back to that position. (Works with F1-F4)
 TipOfTheDay.7=Press F11 to hide the user interface.
-TipOfTheDay.8=Press F12 to make a screenshot.<br><br>Save folder for Windows:<br>   C:\Users_\<username>_\AppData_\LocalLow_\MirkoStudio_\Kubifak_torium_\...  <br>Folder for Mac/Linux:<br>  ~/.config_/unity3d_/MirkoStudio_/Kubifak_torium_/
+TipOfTheDay.8=Press F12 to make a screenshot.<br><br>Save folder for Windows:<br>   C:\Users_\<username>_\AppData_\LocalLow_\MirkoStudio_\Kubifak_torium_\...  <br>Folder for Linux:<br>  ~/.config_/unity3d_/MirkoStudio_/Kubifak_torium_/<br>Folder for Mac:<br>  ~/Library/Application Support/unity.Unity Technologies.Unity Labs
 
-TipOfTheDay.8 = Press F12 to make a screenshot.<br><br>Save folder for Windows/Linux/Mac:<br>   C:\Users_\<username>_\AppData_\LocalLow_\MirkoStudio_\Kubifak_torium_\...  <br>~/.config_/unity3d_/MirkoStudio_/Kubifak_torium_/<br>~_/Library_/Application Support_/unity.Unity Technologies.Unity Labs...
+TipOfTheDay.8 = Press F12 to make a screenshot.<br><br>Save folder for Windows:<br>   C:\Users_\<username>_\AppData_\LocalLow_\MirkoStudio_\Kubifak_torium_\...  <br>Folder for Linux:<br>  ~/.config_/unity3d_/MirkoStudio_/Kubifak_torium_/<br>Folder for Mac:<br>  ~/Library/Application Support/unity.Unity Technologies.Unity Labs
 
 
 TipOfTheDay.9=Click on an item's descrip_tion panel to open the produc_tion tree overview.
