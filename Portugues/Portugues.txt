@@ -2011,3 +2011,10 @@ BugReport.Discord = ID do Discord ou email (para contato, opcional)
 Savegame.ModsInUse = Mods em uso:
 Savegame.TimeSaved = Salvo em:
 Savegame.Version = Versão do jogo:
+
+# 9.8.2019
+
+ObjectType.TrainLocomotive2 = Locomotiva
+ObjectType.TrainLocomotive2.Desc = Trens são usados para transportar mercadorias pesadas por longas distâncias.
+ObjectType.TrainLocomotive3 = Locomotiva
+ObjectType.TrainLocomotive3.Desc = Trens são usados para transportar mercadorias pesadas por longas distâncias.
