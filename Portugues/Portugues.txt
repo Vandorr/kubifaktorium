@@ -826,7 +826,7 @@ TipOfTheDay.4=Você pode clonar uma construção já existente apertando a tecla
 TipOfTheDay.5=Enquanto estiver adicionando uma receita da bancada, segure a tecla Alt para automa_ticamente atualizar as mercadorias aceitas pelo seu estoque de saída.
 TipOfTheDay.6=Aperte Shift+F1 para salvar a posição atual da câmera. Aperte F1 para voltar a essa posição. (Funciona com F1~F4)
 TipOfTheDay.7=Aperte F11 para esconder a interface de usuário.
-TipOfTheDay.8=Aperte F12 para fazer uma captura de tela. <br><br>Pasta de salvamento para Windows:<br>   C:\Users_\<username>_\AppData_\LocalLow_\MirkoStudio_\Kubifak_torium_\...  <br>Pasta para Linux:<br>  ~/.config_/unity3d_/MirkoStudio_/Kubifak_torium_/ <br>Pasta para Mac: ~_/Library_/Application Support_/unity.Unity Technologies.Unity Labs...
+TipOfTheDay.8=Aperte F12 para fazer uma captura de tela. <br><br>Pasta de salvamento para Windows/Linux/Mac:<br>   C:\Users_\<username>_\AppData_\LocalLow_\MirkoStudio_\Kubifak_torium_\...  <br>  ~/.config_/unity3d_/MirkoStudio_/Kubifak_torium_/ <br> ~_/Library_/Application Support_/unity.Unity Technologies.Unity Labs...
 TipOfTheDay.9=Clique no painel de descrição do item para abrir a visão da árvore de produção.
 TipOfTheDay.10=Clique em uma construção recomendada para construí-la. Clique em um item recomendado para selecionar a bancada onde ele pode ser construído.
 
