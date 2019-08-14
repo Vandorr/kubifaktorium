@@ -2018,3 +2018,7 @@ ObjectType.TrainLocomotive2 = Locomotiva
 ObjectType.TrainLocomotive2.Desc = Trens são usados para transportar mercadorias pesadas por longas distâncias.
 ObjectType.TrainLocomotive3 = Locomotiva
 ObjectType.TrainLocomotive3.Desc = Trens são usados para transportar mercadorias pesadas por longas distâncias.
+
+# 14.8.2019
+
+UI.EnterText = Digite o texto...
