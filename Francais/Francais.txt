@@ -1668,67 +1668,33 @@ UI.WorldMap.Desc = Bienvenue sur la carte du monde! Cultivez et récoltez des re
 ## 9.7.2019
 
 UI.Error.TrackReserved = Impossible de supprimer les voies pendant qu'elles sont utilisées par un train.
-
-
-
 UI.SocialBuilding = ##Social building.
-
-
-
-
-
 UI.Error.LastBonfire = Vous ne pouvez pas supprimer votre grand feu.
-
-
 
 ## 20.7.2019
 
 UI.Vein.Destroy = Recouvrir la veine
-
 UI.Vein.Destroy.Desc = Détruit cette veine et vous permet de construire d'autres choses par dessus. Attention: Ne peut pas être annulé. 
-
 UI.House.ForColonists = Colons:
-
 UI.House.ForAnimals = Animaux:
-
-
-
 LoadingPhase.HarbourPlacement = Initialisation du shipping port UI. 
-
-
-
 UI.IdleColonists.ListTaskGroups = Métiers affectés:
-
-
-
-
-
 TipOfTheDay.19 = Lorsque l'établi ou la réserve sont sélectionnés, maintenez la touche alt-key pour afficher les flèches des autres établis/réserves.
-
-
-
 UI.Confirm.Yes = Oui
-
 UI.Confirm.No = Non
-
 UI.Confirm.Load = Etes-vous sûr de vouloir abandonner cette partie et charger la partie sauvegardée?
-
 UI.Confirm.MainMenu = Etes-vous sûr de vouloir abandonner cette partie et retourner au menu principal?
-
 UI.Confirm.Restart = Etes-vous sûr de vouloir abandonner cette partie et redémarrer la carte?
-
 UI.Confirm.Quit = Etes-vous sûr de vouloir quitter le jeu?
-
-
-
 UI.Recipe.Inputs = Entrées:
-
 UI.Recipe.AdditionalOutputs = Sorties supplémentaires:
-
-
 
 # 1.8.2019
 
 UI.ProductionTree.Desc = Ouvrir l'objet sélectionné dans l'encyclopédie des produits.
-
+BugReport.Discord = ID Discord ou E-mail (pour des questions, facultatif)
+Savegame.Version = Version du Jeu :
+Savegame.ModsInUse = Mods Utilisés :
+Savegame.TimeSaved = Sauvegardé sur :
+UI.EnterText=Saisir Texte...
 
