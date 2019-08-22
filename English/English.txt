@@ -32,7 +32,7 @@ fallback=English
 
 
 ##idle = idle
-##idle.Desc = Idle: you can manage your colonists' jobs in the colonist management screen.
+##idle.Desc = Idle: you can manage your colonists' jobs in the #People# colonist management screen.
 
 ##mine = mine
 ##mine.Desc = Mine: To select a resource to be mined, click the mine button and select the things to be mined. Drag an area to mine everything within.
@@ -170,7 +170,7 @@ UI.Stack = Stack size: $1
 UI.LinkOverlay = Production Routes
 UI.LinkOverlay.Desc = Toggles the display of active links between workshops, farms and ##stockpilezones. [Default: Left Alt]
 UI.MaxSpeed = Max. speed: $1
-UI.SettlerScreen.Areas=Areas
+UI.SettlerScreen.Areas=Zones
 UI.SettlerScreen.Explanation = Tools -> Colonists auto_matically pick the best possible tool. Their tool preference depends on their assigned tasks.<br>Zones -> Click: Allow/forbid a zone. Colonists will not interact with things in inactive zones. Select a bonfire to change its designated zone.<br>Tasks & workshops -> Click: Toggle between active and inactive. The squares' sizes indicate the colonists' skill levels. 
 UI.SettlerScreen.Tasks=Tasks
 UI.SettlerScreen.Title=Colonist management
@@ -265,9 +265,9 @@ Objective.FulfillProductionTarget.Desc = The ##productiontarget is shown in the 
 Objective.Construct = Construct: $1 ($2/$3)
 Objective.Construct.Desc = To construct a $1 open the #Build# build menu, switch to the $7 tab, click on $1 and place it on the map. 
 Objective.CreateStockpile = Create a stockpile zone ($2/$3)
-Objective.CreateStockpile.Desc = To create a new ##stockpilezone click on the stockpile zone button and drag an area on solid ground.
+Objective.CreateStockpile.Desc = To create a new ##stockpilezone click on the #Stockpile# stockpile zone button and drag an area on solid ground.
 Objective.FarmZone = Create farm zone ($2/$3)
-Objective.FarmZone.Desc = To create a ##farmzone click on the farm zone button and mark an area on fertile ground. Assign at least $3 tiles to be farms.
+Objective.FarmZone.Desc = To create a ##farmzone click on the #Farm# farm zone button and mark an area on fertile ground. Assign at least $3 tiles to be farms.
 Objective.FarmZoneCrop = Assign crop: $1
 Objective.FarmZoneCrop.Desc = To start growing a crop, select a ##farmzone and select the plant you want to grow.
 Objective.Have = Mine or produce: $1 ($2/$3)
@@ -288,21 +288,21 @@ Objective.LinkStockpile.Desc = To link a $1 to a ##stockpilezone, left-_click th
 Objective.LinkFarmToStockpile = Link farm to stockpile ($2/$3)
 Objective.LinkFarmToStockpile.Desc = To link a ##farmzone to a ##stockpilezone, left-_click the farm and right-_click on the stockpile. Crops on farms will be harvested until the linked stockpiles are full.
 Objective.MiningJob = Create mining tasks ($2/$3)
-Objective.MiningJob.Desc = To select a resource to be ##mined, click the mine button and select the things to be mined. Drag an area to mine everything within. Note that your colonists can only mine resources within your ##territory.
+Objective.MiningJob.Desc = To select a resource to be ##mined, click the #Mine# mine button and select the things to be mined. Drag an area to mine everything within. Note that your colonists can only mine resources within your ##territory.
 Objective.ProductionTask = Set production: $1
 Objective.ProductionTask.Desc = To produce a good, select a workshop and click on the good you want it to produce.
 Objective.SettlersEquipTool = Tools equipped ($2/$3)
 Objective.SettlersEquipTool.Desc = Colonists auto_matically equip the ##tools they need. Produce the tools they need to make them more productive.
 
 Objective.SetActorTaskGroup = Assign $5 to work in $1.
-Objective.SetActorTaskGroup.Desc = To make $5 work in $1, select $5 and click on the $1 icon. Alter_natively, you can manage your colonists' jobs from the settler management screen.
+Objective.SetActorTaskGroup.Desc = To make $5 work in $1, select $5 and click on #$7# $1. Alter_natively, you can manage your colonists' jobs from the settler management screen.
 
 Objective.SettlerTaskGroup = Assign job: $4 ($2/$3)
-Objective.SettlerTaskGroup.Desc = To make a colonist do $4 jobs, select him/her and click on the $4 icon. Alter_natively, you can manage your colonists' jobs from the colonist management screen.
+Objective.SettlerTaskGroup.Desc = To make a colonist do $4 jobs, select him/her and click on #$7# $4. Alter_natively, you can manage your colonists' jobs in the #People# colonist management screen.
 Objective.SettlerWorkshop = Assign job: $1 ($2/$3) 
-Objective.SettlerWorkshop.Desc = To make a colonist work in the $1, select him/her and click on the $1 in the colonist panel. Alter_natively, you can manage your colonists' jobs from the colonist management screen.
+Objective.SettlerWorkshop.Desc = To make a colonist work in the $1, select him/her and click on the $1 in the colonist panel. Alter_natively, you can manage your colonists' jobs in the #People# colonist management screen.
 Objective.UnloadAll = Unload your ship ($1 left)
-Objective.UnloadAll.Desc = Click on your ##ship to see what goods it has on board. Click on a good to order your colonists to unload it. You can unload multiple goods at once by holding the shift or control key while clicking. Alter_natively you can press the button on the top right to unload everything.
+Objective.UnloadAll.Desc = Click on your ##ship to see what goods it has on board. Click on a good to order your colonists to unload it. You can unload multiple goods at once by holding the shift or control key while clicking. Alter_natively you can press the #Unload# unload button to unload everything.
 
 Objective.Recruit = Recruit them.
 Objective.Recruit.Desc = Recruiting a castaway or taming an animal will make them join your colony. Note: Animals can only perform a limited set of tasks. Once they are a part of your colony, they will begin consuming your supplies.
@@ -400,7 +400,7 @@ TaskGroup.Crafting.Desc = Craftsmen operate workshops to create more complex goo
 TaskGroup.Combat = Combat
 TaskGroup.Combat.Desc = Fighters defend their fellow colonists and battle against enemies.
 TaskGroup.Mining = Mining & harvesting
-TaskGroup.Mining.Desc = Miners chop down #Tree#trees and ##mine #Rock#rocks and stone.
+TaskGroup.Mining.Desc = Miners chop down trees and ##mine rocks and stone.
 Workshop._Name = Workshops
 TaskGroup.Power = Power
 TaskGroup.Power.Desc = Colonists and animals can generate ##power.
@@ -518,7 +518,7 @@ Workshop.Status.NoProduct.Desc = To choose an item to be produced, click on it i
 
  
 Workshop.Status.NoSettler = No colonist assigned.
-Workshop.Status.NoSettler.Desc = To make a colonist work in this workshop, select him/her and click on the workshop in the colonist panel and make sure he/she is allowed to work in this zone. Alter_natively, you can manage your colonists' jobs from the colonist management screen.
+Workshop.Status.NoSettler.Desc = To make a colonist work in this workshop, select him/her and click on the workshop in the colonist panel and make sure he/she is allowed to work in this zone. Alter_natively, you can manage your colonists' jobs in the #People# colonist management screen.
 Workshop.Status.OutputFull = Output stockpiles full.
 Workshop.Status.OutputFull.Desc = Production will resume when space in the output ##stockpilezone becomes available.
 Workshop.Status.UnderConstruction = Under con_struction.
@@ -910,7 +910,7 @@ UI.RestartMap = Restart map
 
 UI.TargetTrack = Inventory Target ($1 / $2):
 UI.ProductionTarget.Met = Inventory target reached for:<br> $1
-UI.ProductionTarget.MetShort = Inventory achieved:<br> $1  
+UI.ProductionTarget.MetShort = Inventory target achieved:<br> $1  
 
 
 UI.Recommendations.Desc = The recommen_dation system suggests things to do based on the current situation. 
@@ -959,7 +959,7 @@ Objective.AnyStockpileAcceptsType.Desc = To change a ##stockpilezone's set of ac
 
 
 UI.Build.NoWorker = No construction worker assigned.
-UI.Build.NoWorker.Desc = To make a colonist do construction jobs, select him/her and click on the construction icon and make sure he/she is assigned to work in this zone. Alter_natively, you can manage your colonists' jobs from the colonist management screen.
+UI.Build.NoWorker.Desc = To make a colonist do construction jobs, select him/her and click on the construction icon and make sure he/she is assigned to work in this zone. Alter_natively, you can manage your colonists' jobs from the #People# colonist management screen.
 
 Logistics.Status.Loop = Loop detected.
 Logistics.Status.Loop.Desc = A loop occurs when there is a two-way connection to another stockpile / depot and both accept the same goods. Change the accepted goods of either one to resolve this.
@@ -1155,6 +1155,16 @@ Task.Produce.Import = Importing $1.
 UI.Priority = Priority:
 UI.Priority.Tooltip = Priority
 UI.Priority.Tooltip.Desc = Stockpiles and workshops with higher priority are used first.
+UI.Priority.Tooltip1 = Very high priority
+UI.Priority.Tooltip1.Desc = Stockpiles and workshops with higher priority are used first.
+UI.Priority.Tooltip2 = High priority
+UI.Priority.Tooltip2.Desc = Stockpiles and workshops with higher priority are used first.
+UI.Priority.Tooltip3 = Normal priority
+UI.Priority.Tooltip3.Desc = Stockpiles and workshops with higher priority are used first.
+UI.Priority.Tooltip4 = Low priority
+UI.Priority.Tooltip4.Desc = Stockpiles and workshops with higher priority are used first.
+UI.Priority.Tooltip5 = Very low priority
+UI.Priority.Tooltip5.Desc = Stockpiles and workshops with higher priority are used first.
 
 ##cargoship.Desc = #Refine#Cargo ship: Allows you to export goods you no longer need and import resources you need. To export something, connect a stockpile to the cargo port. To import something, connect the cargo port to stockpile and set it to accept something that can be imported.  
 
@@ -1251,7 +1261,6 @@ Debug.currency = Add 100 coins.
 Debug.currency = Add 100 coins to your shipping port.
 
 
-Task.Idle = Idle
 
 # 28.6.2019
 UI.WaterState = Water: $1
