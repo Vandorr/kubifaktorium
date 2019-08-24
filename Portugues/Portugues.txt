@@ -29,7 +29,7 @@ disableHyphenationCheck=true
 
 
 ##idle = ocioso
-##idle.Desc = Ocioso: você pode gerenciar o trabalho do colono na janela de geren_ciamento de colono.
+##idle.Desc = Ocioso: você pode gerenciar o trabalho do colono na #People# janela de geren_ciamento de colono.
 
 ##mine = minerar
 ##mine.Desc = Minerar: Para selecionar um recurso a ser minerado, clique no botão de minerar e selecione os alvos a serem minerados. Arraste uma área para minerar tudo dentro dela.
@@ -164,7 +164,7 @@ UI.Stack = Tamanho da pilha: $1
 UI.LinkOverlay = Rotas de produção
 UI.LinkOverlay.Desc = Alterna a visibilidade de ligações ativas entre bancadas, plantio e ##stockpilezones. [Padrão: Alt esquerdo]
 UI.MaxSpeed = Máx. velocidade: $1
-UI.SettlerScreen.Areas=Áreas
+UI.SettlerScreen.Areas=Zonas
 UI.SettlerScreen.Explanation = Ferramentas -> Colonos automa_ticamente pegam a melhor ferramenta possível. A preferência de ferramenta depende da atividade atribuída a ele. <br>Zonas -> Clique: Per_mite/pro_íbe uma zona. Colonos não interagem com coisas em zonas inativas. Selecione uma fogueira para trocar sua zona designada. <br>Tarefas e bancadas -> Clique: Alterna entre ativo e inativo. O tamanho do quadrado indica o nível de habilidade do colono. 
 UI.SettlerScreen.Tasks=Tarefas
 UI.SettlerScreen.Title=Geren_ciamento de colonos
@@ -253,9 +253,9 @@ Objective.FulfillProductionTarget.Desc = Uma ##productiontarget é mostrada no c
 Objective.Construct = Construa: $1 ($2/$3)
 Objective.Construct.Desc = Para construir um $1, abra o #Build# menu de construção, troque para a aba $7, clique em $1 e coloque no mapa. 
 Objective.CreateStockpile = Crie uma zona de estoque ($2/$3)
-Objective.CreateStockpile.Desc = Para criar uma nova ##stockpilezone, clique no botão da zona de estoque e arraste uma área no chão sólido.
+Objective.CreateStockpile.Desc = Para criar uma nova ##stockpilezone, clique no botão da zona de #Stockpile# estoque e arraste uma área no chão sólido.
 Objective.FarmZone = Crie uma zona de plantio ($2/$3)
-Objective.FarmZone.Desc = Para criar uma nova ##farmzone, clique no botão da zona de plantio e marque uma área em solo fértil. Designe pelo menos $3 blocos para serem fazendas.
+Objective.FarmZone.Desc = Para criar uma nova ##farmzone, clique no botão da zona de #Farm# plantio e marque uma área em solo fértil. Designe pelo menos $3 blocos para serem fazendas.
 Objective.FarmZoneCrop = Designe uma colheita: $1
 Objective.FarmZoneCrop.Desc = Para começar o crescimento de uma colheita, selecione um ##farmzone e selecione a planta que você quer plantar.
 Objective.Have = Minere ou produza: $1 ($2/$3)
@@ -274,21 +274,21 @@ Objective.LinkStockpile.Desc = Para fazer uma ligação do $1 à uma ##stockpile
 Objective.LinkFarmToStockpile = Faça uma ligação de um plantio à uma zona de estoque ($2/$3)
 Objective.LinkFarmToStockpile.Desc = Para fazer uma ligação do ##farmzone à uma ##stockpilezone, clique com o botão esquerdo no plantio e clique com o botão direito na zona de estoque. Plantios irão ser colhidos até que as zonas de estoque ligadas a ele estejam cheias.
 Objective.MiningJob = Crie tarefas de mineração ($2/$3)
-Objective.MiningJob.Desc = Para ##mine um recurso, clique no botão de mineração e selecione coisas a serem mineradas. Arraste uma área para minerar tudo dentro dela. Note que os colonos podem minerar apenas recursos dentro de seu ##territory.
+Objective.MiningJob.Desc = Para ##mine um recurso, clique no botão de #Mine# mineração e selecione coisas a serem mineradas. Arraste uma área para minerar tudo dentro dela. Note que os colonos podem minerar apenas recursos dentro de seu ##territory.
 Objective.ProductionTask = Defina uma produção: $1
 Objective.ProductionTask.Desc = Para produzir uma mercadoria, Selecione uma bancada e clique na mercadoria que você quer que ela produza.
 Objective.SettlersEquipTool = Ferramentas equipadas ($2/$3)
 Objective.SettlersEquipTool.Desc = Colonos equipam automa_ticamente as ##tools que eles precisam. Produza as ferramentas que eles precisam para torna-los mais produtivos.
 
 Objective.SetActorTaskGroup = Designe $5 para trabalhar em $1.
-Objective.SetActorTaskGroup.Desc = Para fazer $5 trabalhar em $1, selecione $5 e clique no ícone $1. Você também pode gerenciar as tarefas dos colonos pela tela de geren_ciamento do assenta_mento.
+Objective.SetActorTaskGroup.Desc = Para fazer $5 trabalhar em $1, selecione $5 e clique no #$7# $1. Você também pode gerenciar as tarefas dos colonos pela tela de geren_ciamento do assenta_mento.
 
 Objective.SettlerTaskGroup = Designe trabalhos: $4 ($2/$3)
-Objective.SettlerTaskGroup.Desc = Para fazer os colonos trabalharem em $4 , selecione ele/ela e clique no ícone $4. Você também pode gerenciar os trabalhos dos colonos pela tela de geren_ciamento de colonos.
+Objective.SettlerTaskGroup.Desc = Para fazer os colonos trabalharem em $4 , selecione ele/ela e clique no #$7# $4. Você também pode gerenciar os trabalhos dos colonos pela tela de geren_ciamento de colonos.
 Objective.SettlerWorkshop = Designe trabalhos: $1 ($2/$3) 
-Objective.SettlerWorkshop.Desc = Para fazer um colono trabalhar em $1, selecione ele/ela e clique no $1 pelo painel do colono. Você também pode gerenciar o trabalho do colono pela tela do colono.
+Objective.SettlerWorkshop.Desc = Para fazer um colono trabalhar em $1, selecione ele/ela e clique no $1 pelo painel do colono. Você também pode gerenciar o trabalho do colono pela #People# tela do colono.
 Objective.UnloadAll = Descarregue seu barco ($1 faltando)
-Objective.UnloadAll.Desc = Clique no seu ##ship para ver quais mercadorias ele possui a bordo. Clique em uma mercadoria para ordenar o colono a descarregá-la. Você pode desca_rregar várias mercadorias ao mesmo tempo segurando a tecla Shift ou Ctrl enquanto clica. Você também pode apertar o botão no canto superior direito para desca_rregar tudo.
+Objective.UnloadAll.Desc = Clique no seu ##ship para ver quais mercadorias ele possui a bordo. Clique em uma mercadoria para ordenar o colono a descarregá-la. Você pode desca_rregar várias mercadorias ao mesmo tempo segurando a tecla Shift ou Ctrl enquanto clica. Você também pode apertar o #Unload# bot'ao de desca_rregar para desca_rregar tudo.
 
 Objective.Recruit = Recrute-os.
 Objective.Recruit.Desc = Recrutar um naufragado ou domar um animal, irá fazê-los se juntar à sua colônia. Nota: Animais só podem executar certos tipos de tarefas. Uma vez que fazem parte da sua colônia, eles irão começar a consumir seus suprimentos.
@@ -382,7 +382,7 @@ TaskGroup.Crafting.Desc = Artesãos operam bancadas para criarem mercadorias mai
 TaskGroup.Combat = Combate
 TaskGroup.Combat.Desc = Guerreiros defendem seus colonos e lutam contra inimigos.
 TaskGroup.Mining = Mineração e colheita
-TaskGroup.Mining.Desc = Mineradores derrubam #Tree#arvores e ##mine #Rock#rochas e pedras.
+TaskGroup.Mining.Desc = Mineradores derrubam arvores e ##mine rochas e pedras.
 Workshop._Name = Bancadas
 TaskGroup.Power = Energia
 TaskGroup.Power.Desc = Colonos e animais podem gerar ##power.
@@ -494,7 +494,7 @@ Workshop.Status.NoProduct.Desc = Para escolher um item a ser produzido, clique n
 
  
 Workshop.Status.NoSettler = Nenhum colono designado.
-Workshop.Status.NoSettler.Desc = Para fazer um colono trabalhar nessa bancada, selecione ele/ela e clique na bancada no painel do colono e certifique-se que ele é permitido trabalhar nessa zona. Você também pode gerenciar os trabalhos dos colonos pela tela de geren_ciamento de colonos.
+Workshop.Status.NoSettler.Desc = Para fazer um colono trabalhar nessa bancada, selecione ele/ela e clique na bancada no painel do colono e certifique-se que ele é permitido trabalhar nessa zona. Você também pode gerenciar os trabalhos dos colonos pela #People# tela de geren_ciamento de colonos.
 Workshop.Status.OutputFull = Estoque de saída cheio.
 Workshop.Status.OutputFull.Desc = A produção irá retornar quando houver espaço disponível na ##stockpilezone de saída.
 Workshop.Status.UnderConstruction = Em construção.
@@ -850,7 +850,7 @@ UI.RestartMap = Reiniciar mapa
 
 UI.TargetTrack = Meta de Inventário ($1 / $2):
 UI.ProductionTarget.Met = Meta de Inventário atingida para:<br>$1
-UI.ProductionTarget.MetShort = Inventário atingido:<br>$1  
+UI.ProductionTarget.MetShort = Meta de Inventário atingida:<br>$1  
 
 UI.Recommendations.Desc = O sistema de Recomen_dações sugerem coisas para fazer baseado na situação atual. 
 
@@ -1584,7 +1584,7 @@ Objective.AnyStockpileAcceptsType.Desc = Para trocar as mercadorias aceitadas pe
 
 
 UI.Build.NoWorker = Nenhum construtor designado.
-UI.Build.NoWorker.Desc = Para fazer um colono trabalhar com construção, selecione ele/ela e clique no ícone de construção e certifique-se que ele/ela é permitido trabalhar nessa zona. Você também pode gerenciar os trabalhos dos colonos pela tela de geren_ciamento de colonos.
+UI.Build.NoWorker.Desc = Para fazer um colono trabalhar com construção, selecione ele/ela e clique no ícone de construção e certifique-se que ele/ela é permitido trabalhar nessa zona. Você também pode gerenciar os trabalhos dos colonos pela #People# tela de geren_ciamento de colonos.
 
 Logistics.Status.Loop = Repetição detectada.
 Logistics.Status.Loop.Desc = Uma Repetição acontece quando há uma via de duas mãos para outro esto_que/depó_sito e ambos aceitam as mesmas mercadorias. Troque as mercadorias aceitas de qualquer um para resolver isso.
@@ -1765,7 +1765,17 @@ Task.Produce.Import = Importando $1.
 
 UI.Priority = Prioridade:
 UI.Priority.Tooltip = Prioridade
-UI.Priority.Tooltip.Desc = Estoques e bancadas com maiores prioridades são usadas primeiro.
+UI.Priority.Tooltip.Desc = Estoques e bancadas com maior prioridade são usadas primeiro.
+UI.Priority.Tooltip1 = Prioridade muito alta
+UI.Priority.Tooltip1.Desc = Estoques e bancadas com maior prioridade são usadas primeiro.
+UI.Priority.Tooltip2 = Prioridade alta
+UI.Priority.Tooltip2.Desc = Estoques e bancadas com maior prioridade são usadas primeiro.
+UI.Priority.Tooltip3 = Prioridade normal
+UI.Priority.Tooltip3.Desc = Estoques e bancadas com maior prioridade são usadas primeiro.
+UI.Priority.Tooltip4 = Prioridade baixa
+UI.Priority.Tooltip4.Desc = Estoques e bancadas com maior prioridade são usadas primeiro.
+UI.Priority.Tooltip5 = Prioridade muito baixa
+UI.Priority.Tooltip5.Desc = Estoques e bancadas com maior prioridade são usadas primeiro.
 
 ##cargoship.Desc = #Refine#Barco de carga: Permite você exportar mercadorias que não necessita e importar recursos necessários. Para exportar alguma coisa, conecte um estoque ao porto de carga. Para importar alguma coisa, conecte o porto de carga a um estoque e defina-o para aceitar algo que precise ser importado.  
 
@@ -1846,8 +1856,6 @@ UI.ShowTips = Mostrar dicas
 UI.Tips = Dicas
 
 Debug.currency = Adicionar 100 moedas ao seu porto de carga.
-
-Task.Idle = Ocioso
 
 # 28.6.2019
 UI.WaterState = Água: $1
@@ -2022,3 +2030,14 @@ ObjectType.TrainLocomotive3.Desc = Trens são usados para transportar mercadoria
 # 14.8.2019
 
 UI.EnterText = Digite o texto...
+
+# 23.8.2019
+
+Settings.AssistMode = Modo assistência
+Settings.AssistMode.Desc = Simplifica algumas mecânicas para facilitar o jogo a novos jogadores: 1) Automa_ticamente designa colonos a todas as tarefas/bancadas. 2) Produtos das bancadas são automa_ticamente designados aos seus estoques de saída. 3) Alguns itens como materiais de construções são automa_ticamente desca_rregados de seu barco. 4) Adiciona todas as cores/zonas a todos os colonos.
+
+UI.ForbidUsage = Uso proibído
+UI.ForbidUsage.Desc = Proíbe seus colonos de consumirem mercadorias desse estoque.
+
+TutorialWarning = Aviso de tutorial.
+TutorialWarning.Desc = É altamente recomendável jogar alguns dos tutoriais antes de começar um jogo. (Inicie qualquer tutorial para remover esse aviso)
