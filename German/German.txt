@@ -2043,3 +2043,12 @@ Savegame.TimeSaved = Gespeichert am:
 
 
 UI.EnterText=Suchtext eingeben...
+
+UI.Build.ConstructionComplete = Bau abgeschlossen.
+UI.Build.ConstructionComplete.Desc = Der Bau wurde erfolgreich abgeschlossen.
+
+ObjectType.TrainLocomotive2 = Loko_motive
+ObjectType.TrainLocomotive2.Desc = Loko_motiven treiben Züge an.
+
+ObjectType.TrainLocomotive3 = Loko_motive
+ObjectType.TrainLocomotive3.Desc = Loko_motiven treiben Züge an.
