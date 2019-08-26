@@ -1380,3 +1380,9 @@ UI.ForbidUsage.Desc = Prevent your colonists from consuming goods from this stoc
 
 TutorialWarning = Tutorial warning.
 TutorialWarning.Desc = It is strongly recommended to play some of the tutorials before going into the game. (Start any tutorial to remove this warning.)
+
+UI.Build.ConstructionComplete = Construction complete.
+UI.Build.ConstructionComplete.Desc = Construction has been completed.
+
+Workshop.Status.OutputBoxFull = Output box occupied.
+Workshop.Status.OutputBoxFull.Desc = Please empty the output box to resume production.
