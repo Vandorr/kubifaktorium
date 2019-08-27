@@ -233,14 +233,14 @@ Objective.DefeatEnemyCamp = Defeat enemy camp.
 Objective.DefeatEnemyCamp.Desc = To attack an enemy camp select it or the surrounding area and click on attack. (Your colonists cannot die in combat.)
 
 
-Objective.SetClaimColor = Set zone assignment for bonfire $5 to color $3.
+Objective.SetClaimColor = Set zone assignment for bonfire $5 to $9.
 Objective.SetClaimColor.Desc = To change a zone's color select its bonfire and click on the desired zone color in the info panel.
 Objective.LogisticsLink = Create a link from $7 $5 to $8 $6.
 Objective.LogisticsLink.Desc = To create a logistics link between two objects, select the first object and right-_click the second object. Logistics links will show up as blue arrows whenever a ##logsys building is selected.
 
-Objective.SetZoneColorActive = Enable $5's access to zone color $3.
+Objective.SetZoneColorActive = Enable $5's access to zone $9.
 Objective.SetZoneColorActive.Desc = To enable a colonist's access to a zone select the colonist and click on the desired zone color in the info panel.
-Objective.SetZoneColorInactive = Disable $5's access to zone color $3.
+Objective.SetZoneColorInactive = Disable $5's access to zone $9.
 Objective.SetZoneColorInactive.Desc = To disable a colonist's access to a zone select the colonist and click on the desired zone color in the info panel.
 
 Objective.StockpileAcceptsType = Make stockpile $5 accept $1.
@@ -1386,3 +1386,9 @@ UI.Build.ConstructionComplete.Desc = Construction has been completed.
 
 Workshop.Status.OutputBoxFull = Output box occupied.
 Workshop.Status.OutputBoxFull.Desc = Please empty the output box to resume production.
+
+UI.Color1 = red
+UI.Color2 = yellow
+UI.Color3 = green
+UI.Color4 = blue
+UI.Color5 = purple
