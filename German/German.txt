@@ -2052,3 +2052,11 @@ ObjectType.TrainLocomotive2.Desc = Loko_motiven treiben Züge an.
 
 ObjectType.TrainLocomotive3 = Loko_motive
 ObjectType.TrainLocomotive3.Desc = Loko_motiven treiben Züge an.
+
+
+
+UI.Color1 = rot
+UI.Color2 = gelb
+UI.Color3 = grün
+UI.Color4 = blau
+UI.Color5 = lila
