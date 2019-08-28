@@ -1375,7 +1375,7 @@ UI.EnterText=Enter text...
 Settings.AssistMode = Assist mode
 Settings.AssistMode.Desc = Simplifies a few mechanics to make the game easier to pick up for newer players: 1) Automatically assigns colonists to all tasks/workshops. 2) Workshop products are automatically assigned to their output stockpiles. 3) Some items like building materials are automatically unloaded from your ship. 4) Adds all colors/zones to all colonists.
 
-UI.ForbidUsage = Forbid usage
+UI.ForbidUsage = Forbid consumption
 UI.ForbidUsage.Desc = Prevent your colonists from consuming goods from this stockpile.
 
 TutorialWarning = Tutorial warning.
