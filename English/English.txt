@@ -1392,3 +1392,6 @@ UI.Color2 = yellow
 UI.Color3 = green
 UI.Color4 = blue
 UI.Color5 = purple
+
+
+UI.ProductionTime = Production time: $1s
