@@ -621,7 +621,7 @@ UI.RefuseAll.Desc = Set the ##stockpilezone to refuse all goods.
 
 MainMenu.LoadGame = Load Game
 Settings.RightDrag = RMB-Drag
-Settings.RightDrag.Desc = Drag the map while holding the right mouse button.
+Settings.RightDrag.Desc = Drag the map while holding the right mouse button. Rotate it while holding the middle mouse button.
 LoadingPhase.Combining = Combining meshes
 
 UI.ClearZone = Sell / Deconstruct / Clear zone
