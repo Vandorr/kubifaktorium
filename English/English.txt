@@ -436,6 +436,8 @@ BuildingType.Refining = Refining
 BuildingType.Refining.Desc = Workshops to refine and dispose of resources.
 BuildingType.Workshop = Workshop
 BuildingType.Workshop.Desc = Workshops to produce ##tools, weapons and machinery.
+BuildingType.AutoWorkshop = Workshop (Automated)
+BuildingType.AutoWorkshop.Desc = Automated workshops produce goods without the need to be operated by colonists.
 
 
 Settings.Category.Graphics = Graphics
@@ -732,6 +734,9 @@ Task.ConstructClear.Text = Clearing $1.
 Task.Deconstruct.Text = Decon_structing $1.
 Task.Mine.Text = Mining $1.
 Task.Produce.Text = Producing $1 in $2.
+Task.SupplyAutoWorkshop.Text = Producing $1 in $2.
+Task.UnloadAutoWorkshop.Text = Unloading $1 from $2.
+
 Task.Power.Text = Powering $1.
 Task.Clean.Text = Cleaning $1.
 Task.Load.Text = Loading $1.
