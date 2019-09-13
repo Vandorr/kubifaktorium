@@ -1315,6 +1315,7 @@ UI.TamingDifficulty = Taming difficulty
 
 Name.PastureZoneCC = Pasture
 UI.PastureYield = Yields $1 every $2 seconds when kept in pasture.
+UI.PastureYield.Short = Yield when in pasture
 UI.PastureCapacity = Capacity used: $1 / $2
 Task.Tame.Text = Taming $1.
 Task.YieldAnimal.Text = Milking $1.
@@ -1400,3 +1401,10 @@ UI.Color5 = purple
 
 
 UI.ProductionTime = Production time: $1s
+
+
+Status.NoCarriage = No carriage assigned.
+Status.NoCarriage.Desc = No carriage is assigned to stop at this station. Select a carriage and right-click on this station to add it to its schedule.
+
+Status.NoTrain = No train assigned.
+Status.NoTrain.Desc = No train is assigned to stop at this station. Select a train and right-click on this station to add it to its schedule.
