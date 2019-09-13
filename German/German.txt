@@ -2100,3 +2100,6 @@ UI.Priority.Tooltip5.Desc = Lager_plätze und Werk_stätten mit hoher Prio_ritä
 UI.ProductionTime = Produktionszeit: $1s
 Workshop.Status.OutputBoxFull = Ausgangsbox besetzt.
 Workshop.Status.OutputBoxFull.Desc = Transportiere den Gegenstand der aktuell in der Ausgangsbox steckt um mit der Produktion fortzufahren.
+
+
+UI.PastureYield.Short = Produktion in Weide
