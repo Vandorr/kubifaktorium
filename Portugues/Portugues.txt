@@ -222,14 +222,14 @@ Objective.AttackEnemyCamp.Desc = Para atacar um acampamento inimigo, selecione o
 Objective.DefeatEnemyCamp = Derrote o acampamento inimigo.
 Objective.DefeatEnemyCamp.Desc = Para atacar um acampamento inimigo, selecione o acampamento ou a área envolta e clique em ataque. (Seus colonos não morrem em combate.)
 
-Objective.SetClaimColor = Defina a zona designada da fogueira $5 para a cor $3.
+Objective.SetClaimColor = Defina a zona designada da fogueira $5 para $3.
 Objective.SetClaimColor.Desc = Para trocar a cor da zona, selecione sua fogueira e clique na cor da zona no painel de informações.
 Objective.LogisticsLink = Crie uma ligação de $7 $5 para $8 $6.
 Objective.LogisticsLink.Desc = Para criar uma ligação entre dois objetos, Selecione o primeiro objeto e clique com o botão direito do mouse no segundo objeto. Ligações sempre aparecerão em setas azuis sempre que uma construção de ##logsys está selecionada.
 
-Objective.SetZoneColorActive = Ative o acesso de $5 para a zona da cor $3.
+Objective.SetZoneColorActive = Ative o acesso de $5 para a $3.
 Objective.SetZoneColorActive.Desc = Para ativar o acesso de um colono a uma zona, selecione o colono e clique na zona escolhida no painel de informações.
-Objective.SetZoneColorInactive = Desative o acesso de $5 para a zona da cor $3.
+Objective.SetZoneColorInactive = Desative o acesso de $5 para a $3.
 Objective.SetZoneColorInactive.Desc = Para desativar o acesso de um colono a uma zona, selecione o colono e clique na zona escolhida no painel de informações.
 
 Objective.StockpileAcceptsType = Faça o estoque $5 aceitar $1.
@@ -590,7 +590,7 @@ UI.RefuseAll.Desc = Define a ##stockpilezone para recusar todas as mercadorias.
 
 MainMenu.LoadGame = Carregar jogo
 Settings.RightDrag = Arraste com BDM
-Settings.RightDrag.Desc = Arraste o mapa enquanto segura o botão direito do mouse.
+Settings.RightDrag.Desc = Arraste o mapa enquanto segura o botão direito do mouse. Rotacione enquanto segura o botão do meio do mouse.
 LoadingPhase.Combining = Combinando malhas_(meshes)
 
 UI.ClearZone = Vender / Descon_struir / Limpar zona
@@ -2036,8 +2036,59 @@ UI.EnterText = Digite o texto...
 Settings.AssistMode = Modo assistência
 Settings.AssistMode.Desc = Simplifica algumas mecânicas para facilitar o jogo a novos jogadores: 1) Automa_ticamente designa colonos a todas as tarefas/bancadas. 2) Produtos das bancadas são automa_ticamente designados aos seus estoques de saída. 3) Alguns itens como materiais de construções são automa_ticamente desca_rregados de seu barco. 4) Adiciona todas as cores/zonas a todos os colonos.
 
-UI.ForbidUsage = Uso proibído
+UI.ForbidUsage = Consumo proibído
 UI.ForbidUsage.Desc = Proíbe seus colonos de consumirem mercadorias desse estoque.
 
 TutorialWarning = Aviso de tutorial.
 TutorialWarning.Desc = É altamente recomendável jogar alguns dos tutoriais antes de começar um jogo. (Inicie qualquer tutorial para remover esse aviso)
+
+# 26.8.2019
+
+UI.Build.ConstructionComplete = Construção completa.
+UI.Build.ConstructionComplete.Desc = A Construção foi completada.
+
+Workshop.Status.OutputBoxFull = Caixa de saída ocupada.
+Workshop.Status.OutputBoxFull.Desc = Por favor, esvazie a caixa de saída para continuar a produ_ção.
+
+# 27.8.2019
+
+UI.Color1 = vermelho
+UI.Color2 = amarelo
+UI.Color3 = verde
+UI.Color4 = azul
+UI.Color5 = roxo
+
+# 29.8.2019
+
+UI.ProductionTime = Tempo de produ_ção: $1s
+
+# 8.9.2019
+
+BuildingType.AutoWorkshop = Bancadas (Automa_tizadas)
+BuildingType.AutoWorkshop.Desc = Bancadas automa_tizadas produzem mercadorias sem precisarem ser operadas por colonos.
+
+Task.SupplyAutoWorkshop.Text = Produzindo $1 em $2.
+Task.UnloadAutoWorkshop.Text = Desca_rregando $1 de $2.
+
+# 13.9.2019
+
+UI.PastureYield.Short = Produz quando no pasto
+
+Status.NoCarriage = Nenhuma carruagem definida.
+Status.NoCarriage.Desc = Nenhuma carruagem esta definida para parar nesta estação. Selecione uma carruagem e clique com o botão esquerdo nesta estação para adicioná-la ao cronograma.
+
+Status.NoTrain = Nenhum trem definido.
+Status.NoTrain.Desc = Nenhum trem esta definido para parar nesta estação. Selecione um trem e clique com o botão esquerdo nesta estação para adicioná-la ao cronograma.
+
+AutoWorkshop1.Desc = 1.) Configuração semi-automática
+AutoWorkshop1.Intro = O jeito mais básico de operar uma bancada automática é deixar seus colonos suprir os materiais de entrada necessários and transportar os de saída. Ligue o estoque 1 a Serralheria e ligue a Serralheria ao estoque 2.
+AutoWorkshop2.Desc = 2.) Depósitos e Insersores
+AutoWorkshop2.Intro = Você pode usar depósitos, funis e Insersores para automa_ticamente suprir uma bancada automa_tizada. Defina os funis no depósito 4 para aceitar troncos.
+AutoWorkshop3.Desc = 3.) Múltiplas bancadas
+AutoWorkshop3.Intro = Você pode usar esteiras para suprir múltiplas bancadas de uma vez. Você também pode ligar a saída de uma bancada para a próxima bancada automa_tizada na linha de produ_ção.
+AutoWorkshop3.Outro = Dica: O estoque 1x1 entre os insersores garantem que os colonos não "roubem" as tábuas de madeiras intermediadas.
+Modifier.TutorialAutoWorkshops = Configure bancadas automa_tizadas em diferentes maneiras.
+Modifier.TutorialAutoWorkshops.Intro = Este tutorial mostra como configurar bancadas automa_tizadas para produzir mercadorias sem necessitar de colonos.
+Modifier.TutorialAutoWorkshops.Outro = 
+Scenario.TutorialAutoWorkshops = Tutorial: Bancadas automa_tizadas
+Scenario.TutorialAutoWorkshops.Desc = Configure bancadas automa_tizadas em diferentes maneiras.
