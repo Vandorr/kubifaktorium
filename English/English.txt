@@ -863,7 +863,6 @@ UI.ProcessedIn = Processed in
 UI.BuildTrain = Build train
 
 LoadingPhase.UIPanels = Initializing user interface.
-
 LoadingPhase.CombineMeshes = Combining meshes.
 LoadingPhase.InitNavmesh = Initializing navigation.
 
@@ -1408,3 +1407,9 @@ Status.NoCarriage.Desc = No carriage is assigned to stop at this station. Select
 
 Status.NoTrain = No train assigned.
 Status.NoTrain.Desc = No train is assigned to stop at this station. Select a train and right-click on this station to add it to its schedule.
+
+
+UI.Priority.TooltipDisabled = Disabled.
+UI.Priority.TooltipDisabled = This object is disabled.
+
+UI.Modding.State.PreviewTooBig = Preview too big. The thumbnail.png file must be smaller than 1MB.
