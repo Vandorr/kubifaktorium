@@ -1413,3 +1413,6 @@ UI.Priority.TooltipDisabled = Disabled.
 UI.Priority.TooltipDisabled = This object is disabled.
 
 UI.Modding.State.PreviewTooBig = Preview too big. The thumbnail.png file must be smaller than 1MB.
+
+Status.TooManyGoods = Too many goods accepted
+Status.TooManyGoods.Desc = It is not recommended to accept more than 5 goods in an output stockpile. Create multiple stockpiles to get more control over your production. 
