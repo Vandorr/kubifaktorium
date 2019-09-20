@@ -1410,7 +1410,7 @@ Status.NoTrain.Desc = No train is assigned to stop at this station. Select a tra
 
 
 UI.Priority.TooltipDisabled = Disabled.
-UI.Priority.TooltipDisabled = This object is disabled.
+UI.Priority.TooltipDisabled.Desc = This object is disabled.
 
 UI.Modding.State.PreviewTooBig = Preview too big. The thumbnail.png file must be smaller than 1MB.
 
@@ -1418,3 +1418,11 @@ Status.TooManyGoods = Too many goods accepted
 Status.TooManyGoods.Desc = It is not recommended to accept more than 5 goods in an output stockpile. Create multiple stockpiles to get more control over your production. 
 
 Message.Screenshot = Screenshot written to $1.
+
+UI.Credits = Credits
+UI.ItemTier = Tier: $1
+
+
+
+Settings.ColorBlindMode = Color Blind Mode 
+Settings.ColorBlindMode.Desc = Changes some UI colors to make it easier to distinguish if you have impaired color vision. Requires restart to take effect.
