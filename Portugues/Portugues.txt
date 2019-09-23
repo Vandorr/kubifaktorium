@@ -2092,3 +2092,27 @@ Modifier.TutorialAutoWorkshops.Intro = Este tutorial mostra como configurar banc
 Modifier.TutorialAutoWorkshops.Outro = 
 Scenario.TutorialAutoWorkshops = Tutorial: Bancadas automa_tizadas
 Scenario.TutorialAutoWorkshops.Desc = Configure bancadas automa_tizadas em diferentes maneiras.
+
+# 16.9.2019
+
+UI.Priority.TooltipDisabled = Desativado.
+UI.Priority.TooltipDisabled.Desc = Esse objeto está desativado.
+
+UI.Modding.State.PreviewTooBig = Visualização muito grande. O arquivo miniatura.png deve ser menor que 1MB.
+
+# 17.9.2019
+
+Status.TooManyGoods = Muitas mercadorias aceitadas
+Status.TooManyGoods.Desc = Não é recomendado aceitar mais que 5 mercadorias em um estoque de saída. Crie múltiplos estoques para ter mais controle sobre a produção. 
+
+# 19.9.2019
+
+Message.Screenshot = Captura de tela salva em $1.
+
+# 20.9.2019
+
+UI.Credits = Créditos
+UI.ItemTier = Grau: $1
+
+Settings.ColorBlindMode = Modo daltônico 
+Settings.ColorBlindMode.Desc = Alterna cores da interface para melhor distinguição se você tem daltonismo. Requer reinicialização para ter efeito.
