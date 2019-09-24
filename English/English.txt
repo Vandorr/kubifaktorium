@@ -436,8 +436,8 @@ BuildingType.Refining = Refining
 BuildingType.Refining.Desc = Workshops to refine and dispose of resources.
 BuildingType.Workshop = Workshop
 BuildingType.Workshop.Desc = Workshops to produce ##tools, weapons and machinery.
-BuildingType.AutoWorkshop = Workshop (Automated)
-BuildingType.AutoWorkshop.Desc = Automated workshops produce goods without the need to be operated by colonists.
+BuildingType.AutoWorkshop = Factory
+BuildingType.AutoWorkshop.Desc = Factories produce goods without the need to be operated by colonists.
 
 
 Settings.Category.Graphics = Graphics
