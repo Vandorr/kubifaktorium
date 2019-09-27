@@ -2134,3 +2134,6 @@ Task.UnloadAutoWorkshop.Text = Entlade $1 von $2.
 UI.Credits = Credits
 UI.Modding.State.PreviewTooBig = Vorschau zu groß. Die Datei thumbnail.png muss kleiner als 1MB sein.
 UI.Priority.TooltipDisabled = Abgeschaltet.
+
+
+LinkStockpiles.Outro = Tipp: Du kannst gesetzte Verbindungen wieder entfernen, indem du die gleiche Verbindung ein weiteres Mal erstellst.
