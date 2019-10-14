@@ -160,7 +160,7 @@ UI.Drinks = Bebe: $1
 UI.Harbour.Explanation = ##Cargoships entregam mercadorias fabricadas de antigas ilhas colonizadas.
 UI.HitpointMax = Máx. vida: $1
 UI.HitpointRegen = Regeneração de vida: $1
-UI.Stack = Tamanho da pilha: $1
+UI.Stack = Tamanho da pilha: $1 ($2)
 UI.LinkOverlay = Rotas de produção
 UI.LinkOverlay.Desc = Alterna a visibilidade de ligações ativas entre bancadas, plantio e ##stockpilezones. [Padrão: Alt esquerdo]
 UI.MaxSpeed = Máx. velocidade: $1
@@ -2064,8 +2064,8 @@ UI.ProductionTime = Tempo de produ_ção: $1s
 
 # 8.9.2019
 
-BuildingType.AutoWorkshop = Bancadas (Automa_tizadas)
-BuildingType.AutoWorkshop.Desc = Bancadas automa_tizadas produzem mercadorias sem precisarem ser operadas por colonos.
+BuildingType.AutoWorkshop = Fábricas
+BuildingType.AutoWorkshop.Desc = Fábricas produzem mercadorias sem precisarem ser operadas por colonos.
 
 Task.SupplyAutoWorkshop.Text = Produzindo $1 em $2.
 Task.UnloadAutoWorkshop.Text = Desca_rregando $1 de $2.
