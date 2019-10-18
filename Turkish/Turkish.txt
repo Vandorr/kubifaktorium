@@ -23,8 +23,8 @@ fallback=English
 ##zone.Desc = Alanlar: Kolonistler bir veya birden fazla alana atanabilir. Sadece atandıkları alanlarda çalışırlar.
 
 
-##keycycle = cycle
-##keycycle.Desc = Cycle: Orta fare veya 'V'-tuşu.
+##keycycle = dolaş
+##keycycle.Desc = Dolaş: Orta fare veya 'V'-tuşu.
 
 ##keyrotate = döndür
 ##keyrotate.Desc = Döndür: 4. veya 5. fare tuşları ya da 'R'-tuşu.
@@ -1244,11 +1244,11 @@ TipOfTheDay.15 = Kolonistler ekipman taşımıyorken daha hızlı hareket eder. 
 
 TipOfTheDay.16 = Bir depo alanının kareleri oluşturuldukları sırada kullanılır. Bir atölyenin yanında oluşturup oradan genişleterek daha etkili kılabilirsiniz.
 
-TipOfTheDay.17 = Geminizi bir depo alanına bağlayabilirsiniz. Bunu yapmak kolonistlerin depo alanının kabul ettiği tüm eşyaları taşımasını sağlar.Y
+TipOfTheDay.17 = Geminizi bir depo alanına bağlayabilirsiniz. Bunu yapmak kolonistlerin depo alanının kabul ettiği tüm eşyaları taşımasını sağlar.
 
 MainMenu.Notice.Demo = Bu sınırlı özelliklere sahip bir deneme sürümü. Buraya tıklayarak oyunun steam sayfasını ziyaret ederek erken erişin sürümünü satın alabilir ya da oyunu istek listenize ekleyerek güncellemeler hakkında bilgi alabilirsiniz. Teşekkürler :)
 
-MainMenu.Notice.EarlyAccess = Kubifaktorium'un Erken Erişim sürümüne hoşgeldiniz! Şimdiki sürüm için bazı ipuçları: <br>- Yeni başlayanların eğitimleri oynamasını sıklıkla öneriyorum.<br> - Çimler ve çöl biyomları oldukça oynanabilir durumda. Onun dışındaki her şey (otomasyon, taşıma bantları vb.) hala geliştirmenin erken aşamasında. Daha fazlasını öğrenmek için oyunun yol haritasına bakın. Oyunu oynarken lütfen dünya haritasına her döndüğünüzde oyunu kaydedin. <br> - Eğer bir sorunla karşılaşırsanız lütfen oyun içi bildirme (sağ üstte) yoluyla bize bildirin. <br> - Oyun hakkında konuşmak için en iyi yer oyunun resmi Discord sunucusudur.<br>Oynadığınız için teşekkür ederim, umarım oyunu beğenirsiniz! :) <br>  Mirko
+MainMenu.Notice.EarlyAccess = Kubifaktorium'un Erken Erişim sürümüne hoşgeldiniz! Şimdiki sürüm için bazı ipuçları: <br>- Yeni başlayanların eğitimleri oynamasını sıklıkla öneriyorum.<br> - Çimler ve çöl biyomları oldukça oynanabilir durumda. Onun dışındaki her şey (otomasyon, taşıma bantları vb.) hala geliştirmenin erken aşamasında. Daha fazlasını öğrenmek için oyunun yol haritasına bakın. Oyunu oynarken lütfen dünya haritasına her döndüğünüzde oyunu kaydedin. <br> - Eğer bir sorunla karşılaşırsanız lütfen oyun içi bildirme (sağ üstte) yoluyla bize bildirin. <br> - Oyun hakkında konuşmak için en iyi yer oyunun resmi Discord sunucusudur.<br>Oynadığınız için teşekkür ederim, umarım oyunu beğenirsiniz! :) <br>  Mirko (ve Türkçe çevirmen Samet Ahmet Şahin (Slevilex))
 
 
 # 15.6.2019
@@ -1365,7 +1365,7 @@ UI.ProductionTree.Desc = Seçilen ürünü ürün ansiklopedisinde aç.
 
 
 
-BugReport.Discord = Discord Numarası veya eposta (sorular için, isteğe bağlı)
+BugReport.Discord = Discord Numarası veya E-Posta (sorular için, isteğe bağlı)
 
 Savegame.Version = Oyun Sürümü:
 Savegame.ModsInUse = Kullanılan Modlar:
@@ -1487,61 +1487,61 @@ Modifier.EnemyCampsMany = Düşman kampı fazla.
 Modifier.EnemyCampsNone = Düşman kampı yok.
 Modifier.EnemyCampsNormal = Düşman kampı normal.
 Modifier.MapSizeBig = Büyük harita (96²)
-Modifier.MapSizeHuge = Kocamna harita (128²)
+Modifier.MapSizeHuge = Kocaman harita (128²)
 Modifier.MapSizeNormal = Normal boyut (90²)
 Modifier.MapSizeSmall = Küçük harita (72²)
 Modifier.MapSizeTest = Test haritası (20²)
 Modifier.MapsizeTiny = Minik harita (60²)
 Modifier.RecruitablePigs = Birkaç kişi domuzlarıyla beraber katılmak istiyor.
-Modifier.ResourcesBasic = Only basic resources.
-Modifier.ResourcesBasic.Intro = This island is rich in wood and stone but lacks mineral ores.
-Modifier.ResourcesMeadow = Meadow.
-Modifier.ResourcesMeadow.Intro = Little vegetation and rocks. Also two friendly sheep.
-Modifier.ResourcesNormal = Normal resources.
-Modifier.ResourcesNormal.Intro = Normal resource distri_bution.
-Modifier.ResourcesRocky = Desolate and rocky.
-Modifier.ResourcesRocky.Intro = Little vegetation but lots of stone.
-Modifier.ShippingPort = Use the shipping port to import and export goods.
-Modifier.ShippingPort.Intro = This tutorial shows you how to use the shipping port to import and export goods. Everything we need is already built, we just need to set it up correctly.
-Modifier.ShippingPort.Outro = Nice! Export goods like bread, which can be produced with renewable resources, to earn currency. Import goods like copper ore, which you cannot get on this island.
-Modifier.SpawnSettlers = Spawn your colonists
-Modifier.SpawnStrandedColonists = Two castaways want to join our colony.
-Modifier.SpawnStrandedColonists.Intro = We have heard rumors of friendly castaways stranded on the opposite side of this island. If we can find them they might want to join us.
-Modifier.SpawnStrandedColonists.Short = Recruit stranded castaways.
-Modifier.StrandedGoods = Stranded goods
-Modifier.TerrainDark = Tier 3: Ashen world (select tier 3 cargo!)
-Modifier.TerrainDesert = Tier 2: Desert (select tier 2 cargo!)
-Modifier.TerrainGrassland = Tier 1: Grassland
-Modifier.Tutorial1 = Set up a basic colony.
-Modifier.TutorialAdvancedProduction = Learn about advanced production and management techniques.
-Modifier.TutorialAdvancedProduction.Intro = This tutorial shows how to set up workshops to produce multiple goods and manage stockpiles.
+Modifier.ResourcesBasic = Sadece temel kaynaklar.
+Modifier.ResourcesBasic.Intro = Bu ada odun ve taş bakımından zengin ama cevher eksiği var.
+Modifier.ResourcesMeadow = Çorak.
+Modifier.ResourcesMeadow.Intro = Az bitki ve kaya. Ve iki koyun.
+Modifier.ResourcesNormal = Normal kaynaklar.
+Modifier.ResourcesNormal.Intro = Normal kaynak dağıtımı.
+Modifier.ResourcesRocky = Toprak ve kayalık.
+Modifier.ResourcesRocky.Intro = Yeşillik az ama kaya çok.
+Modifier.ShippingPort = Limanı kullanarak ithalat ve ihracat yap.
+Modifier.ShippingPort.Intro = Bu eğitim size limanı kullanarak ithalat ve ihracat yapmayı gösterir. İhtiyacımız olan her şey zaten burada, sadece düzügn bir şekilde ayarlamamız gerekir.
+Modifier.ShippingPort.Outro = Güzel! Ekmek gibi yenilenebilir kaynaklarla üretilebilen ürünleri ihraç ederek para kazanabilirsin. Bu adada elde edemeyeceğin bakır cevheri gibi şeyleri ithal edebilirsiniz.
+Modifier.SpawnSettlers = Kolonistlerini getir
+Modifier.SpawnStrandedColonists = İki kazazede kolonimize katılmak istiyor.
+Modifier.SpawnStrandedColonists.Intro = Adanın diğer tarafında iki tane kazazede olduğunu duyduk. Eğer onları bulursak bize katılmak isteyebilirler.
+Modifier.SpawnStrandedColonists.Short = Kazazedeleri ikna et.
+Modifier.StrandedGoods = Dağılmış ürünler
+Modifier.TerrainDark = Seviye 3: Kara Dünya (Seviye 3 kargo seçin!)
+Modifier.TerrainDesert = Seviye 2: Çöl (Seviye 2 kargo seçin!)
+Modifier.TerrainGrassland = Seviye 1: Çimlik
+Modifier.Tutorial1 = Temel bir koloni kur.
+Modifier.TutorialAdvancedProduction = Gelişmiş üretim ve yönetim tekniklerini öğren.
+Modifier.TutorialAdvancedProduction.Intro = Bu eğitim çoklu ürün üretimini ve depolanmasını ayarlamayı öğretir.
 Modifier.TutorialAdvancedProduction.Outro =
-Modifier.TutorialAutomatedTrains = Learn to set up a fully automated train route.
-Modifier.TutorialAutomatedTrains.Intro = This tutorial shows how to integrate automated production buildings into the logistics system.
-Modifier.TutorialAutoWorkshops = Set up automated work_shops in different ways.
-Modifier.TutorialAutoWorkshops.Intro = This tutorial shows how to set up automated workshops to produce goods independent of your colonists.
+Modifier.TutorialAutomatedTrains = Tam otomatik bir tren hattı kurmayı öğren.
+Modifier.TutorialAutomatedTrains.Intro = Bu eğitim otomatikleştirilmiş üretim binalarını lojistik sistemine entegre etmeyi öğretir.
+Modifier.TutorialAutoWorkshops = Çeşitli yollarla otomatikleştirilmiş atölye kurmayı öğren.
+Modifier.TutorialAutoWorkshops.Intro = Bu eğitim kolonistlerine gerek duymadan üretim yapan otomatik atölyeleri ayarlamayı öğretir.
 Modifier.TutorialAutoWorkshops.Outro =
-Modifier.TutorialCarriages = Learn to set up a horse carriage.
-Modifier.TutorialCarriages.Intro = This tutorial shows how to set up horse carriages to transport rocks. Rocks are pretty heavy, so carrying them is slow. Using horses to transport them over long distances is much more efficient.
-Modifier.TutorialCarriages.Outro = Well done! A horse carriage comes free with every built station. Have a look at the next tutorial to learn how to use connected stockpiles to get more control over the transported goods.
-Modifier.TutorialCombat = Learn about the combat system.
-Modifier.TutorialCombat.Intro = This tutorial shows how to attack and defeat enemy camps.
-Modifier.TutorialConveyorBelts = Learn to set up conveyor belts.
-Modifier.TutorialConveyorBelts.Intro = This tutorial shows a few examples of useful conveyor belt setups.
-Modifier.TutorialLogistics = Learn to set up zones and a logistics system.
-Modifier.TutorialLogistics.Intro = This tutorial covers setting up an outpost and a logistics system. Everything we need is already built, we just need to set it up correctly.
-Modifier.TutorialLogistics.Outro = Nice! Colonists and zeppelins will work together to transport our gold blocks and water buckets. The logistics system allows you to create complex chains using multiple transport systems. Goods will be delivered until the receiving stockpiles are full.
-Modifier.TutorialNeedsTools = Learn about needs and tools.
-Modifier.TutorialOreCrushing = Automated ore crushing.
-Modifier.TutorialOreCrushing.Intro = This non_inter_active sample scene shows how to set up automated ore processing. Click on the objective below to move on.
-Modifier.TutorialTrainCrossing = Learn to set up a cloverleaf junction.
-Modifier.TutorialTrainCrossing.Intro = This advanced tutorial shows how a cloverleaf junction can be set up.
-Modifier.TutorialTrainPreSignals = Learn to set up train signals.
-Modifier.TutorialTrainPreSignals.Intro = This tutorial shows a few examples for how to use train signals to have more than one train run in the same network.
+Modifier.TutorialCarriages = At arabalarını ayarlamayı öğren.
+Modifier.TutorialCarriages.Intro = Bu eğitim taş taşımak için bir at arabası hattı ayarlamayı öğretir. Kayalar ağırdır, bundan dolayı da taşınmaları yavaştır. Uzun mesafelerde atları kullanmak çok daha etkilidir
+Modifier.TutorialCarriages.Outro = Tebrikler! Her istasyonla beraber bir at gelir. Bir sonraki eğitime bakarak taşınan ürünler üzerinde daha fazla kontrol sağlamak için bağlı depo alanlarını kullanmayı öğren.
+Modifier.TutorialCombat = Dövüş sistemini öğren.
+Modifier.TutorialCombat.Intro = Bu eğitim düşman kamplarına saldırmayı ve kendi kampını savunmayı öğretir.
+Modifier.TutorialConveyorBelts = Taşıma bantlarını kurmayı öğren.
+Modifier.TutorialConveyorBelts.Intro = Bu eğitim kullanışlı taşıma bandı kurulumlarını gösterir.
+Modifier.TutorialLogistics = Alan ve lojistik sistemini kurmayı öğren.
+Modifier.TutorialLogistics.Intro = Bu eğitim bir uç karakol ve lojistik sistemi kurmayı öğretir. İhtiyacımız olan her şey zaten inşa edilmiş, sadece her şeyi doğru bir şekilde ayarlamamız gerek.
+Modifier.TutorialLogistics.Outro = Güzel! Kolonistler ve zeplinler altın bloklarımızı ve su kovalarımızı taşımak için işbirliği yapacaklar. Lojistik sistemi çoklu taşıma sistemleri kullanarak karmaşık zincirler üretmenizi sağlar. Alım depo alanları dolana kadar ürünler taşınacaktır.
+Modifier.TutorialNeedsTools = İhtiyaçlar ve aletler.
+Modifier.TutorialOreCrushing = Otomatikleştirilmiş cevher ezimi.
+Modifier.TutorialOreCrushing.Intro = Bu etkileşimsiz örnek nasıl otomatikleştirilmiş cevher ezimi kurulumu yapacağınızı öğretir. Alttaki göreve tıklayarak devam et.
+Modifier.TutorialTrainCrossing = Bir yoncayaprağı geçidi kurmayı öğren.
+Modifier.TutorialTrainCrossing.Intro = Bu eğitim bir yoncayaprağı geçidi kurmayı öğretir.
+Modifier.TutorialTrainPreSignals = Tren sinyallerini ayarlamayı öğren.
+Modifier.TutorialTrainPreSignals.Intro = Bu eğitim birden fazla trenin bir hatta çalışmasını sağlamak için sinyallerin birkaç kullanım örneğini gösterir.
 Modifier.TutorialTrains = Bir tren hattı kurmayı öğren.
-Modifier.TutorialTrains.Intro = This tutorial shows how to connect two two train stations via the logistics system.
-Modifier.TutorialTrainSignalsCircle = Circular train network example.
-Modifier.TutorialTrainSignalsCircle.Intro = This tutorial shows how to use signals to allow for multiple trains in a single network.
+Modifier.TutorialTrains.Intro = Bu eğitim iki tren istasyonunu lojistik sistemiyle nasıl bağlayacağınızı gösterir.
+Modifier.TutorialTrainSignalsCircle = Dairesel tren hattı örneği.
+Modifier.TutorialTrainSignalsCircle.Intro = Bu eğitim birden fazla trenin bir hatta çalışmasını sağlamak için sinyalleri nasıl kullanacağını gösterir.
 Modifier.WavesSlimes = Dalgalar: Slimelar
 ObjectType.AutoKiln = Otomatik fırın
 ObjectType.AutoKiln.Desc = ##Otomatik fırınlar tuğla ve odun kömürü üretiminde kullanılır.
