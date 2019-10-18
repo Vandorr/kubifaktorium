@@ -1,0 +1,2142 @@
+﻿language=Türkçe
+locales=TR
+fallback=English
+
+
+# The general format of the localization file for each line is <key> = <value>, for example "UI.BuildTrain = Build train". The <key> must not be changed, the <value> is to be translated, so e.g. "UI.BuildTrain = Baue Zug".
+# A line starting with "#" is ignored and can be used for comments.
+# The line "fallback=English" specifies which language to use when a certain string cannot be found. Usually English is a good choice as it is usually the most up-to-date but other languages can be chosen if they are closer to the target language.
+# The game supports hyphenation for languages with long strings like German. To use it, use the "_" character to insert a soft hyphen at the spots where a word can be hyphenated. I recommend this for words longer than 12-15 characters. For example: "Recommen_dations" or "trans_portation".
+# A string in the format "#<id>#" causes an icon to be inserted, e.g. "#sun#". Note that the id must not be translated, otherwise it will not be found and translated correctly.
+# A string in the format "##<id>" creates a keyword. Keywords like "##daytime" will be translated to an underlined word "daytime". In addition, an explanation will be added underneath, usually in the tooltips. Again, the id must not be translated. However, the explanation text (the lines with keys like ##idle), should.
+# Strings like "$1", "$2" etc are placeholders for numbers and other things which will be filled by the game. For example "Growth rate at daytime: $1%" will become "Growth rate at daytime: 75%" at runtime.
+# If required for some reason, you can use <br> to create a line break. However I recommend not using it.
+# Whenever you start the game with a new translation file, it will auto_matically create a list of the missing translation lines. This is both useful to get started and to keep the translation up-to-date when new strings get added. The file can be found in C:\Users\<username>\AppData\LocalLow\MirkoStudio\Kubifaktorium\Missing_<language>.txt on Windows or ~/.config/unity3d/MirkoStudio/Kubifaktorium/ on Linux.
+
+# Finished translations can be shared and synced on: https://github.com/Vandorr/kubifaktorium
+# Visit us on discord.gg/kubifaktorium to get access and share the localization work with other friendly humans. :)
+
+
+
+
+##zone = alan
+##zone.Desc = Alanlar: Kolonistler bir veya birden fazla alana atanabilir. Sadece atandıkları alanlarda çalışırlar.
+
+
+##keycycle = cycle
+##keycycle.Desc = Cycle: Orta fare veya 'V'-tuşu.
+
+##keyrotate = döndür
+##keyrotate.Desc = Döndür: 4. veya 5. fare tuşları ya da 'R'-tuşu.
+
+
+
+##idle = boş
+##idle.Desc = Boş: Kolonistlerinin işlerini #People# kolonist yönetim ekranından ayarlayabilirsin.
+
+##mine = kaz
+##mine.Desc = Kazmak: Bir kaynağın kazılması için kaz butonuna basıp kazılacak şeyleri seçin. Tutup sürükleyerek seçtiğiniz bölgedeki her şeyin kazılması için emir verebilirsiniz.
+
+##territory = bölge
+##territory.Desc = Bölge: Sadece kendi bölgenin içine inşa edebilirsin. Düşman kamplarını yok ederek ve kamp ateşleri inşa ederek bölgeni genişletebilirsin.
+
+
+##weight = ağırlık
+##weight.Desc = Ağırlık: Ağır eşyalar taşırken kolonistlerin yavaşlar.
+
+##stacksize = yığın boyutu
+##stacksize.Desc = Yığın Boyutu: Depolama bölgelerinde ve depolarda birden fazla özdeş eşya tek bir karede durabilir.
+
+##day = gündüz
+##day.Desc = Gündüz: 6.00 ve 18:00 arası.
+
+##drink = içecek
+##drink.Desc = İçecek: Kolonistlerin susamışken içecek bir şey ararlar. İçecek bulundurman onları daha mutlu ve üretken yapar.
+
+##happiness = Mutluluk
+##happiness.Desc = Mutluluk: Bir kolonistin hareket ve çalışma hızı ihtiyaçlarının ne kadar iyi karşılandığıyla ilişkilidir.
+
+##skill = Yetenek
+##skill.Desc = Yetenek: Her kolonistin farklı becerileri vardır. Zamanla yaptıkları şeylerde daha iyi olurlar.
+
+
+
+##water = su
+##water.Desc = Su: Tarlalarda bitkilerin büyümesi için tarlaların sulanması gereklidir.
+
+##food = yiyecek
+##food.Desc = Yiyecek: Kolonistler acıkmışken yiyecek bir şeyler ararlar. Yiyecek bulundurman onları daha mutlu ve üretken yapar.
+
+##stockpilezone = depolama alanı
+##stockpilezone.Desc = Depolama alanı: Sert zeminler üzerinde oluşturulabilir ve madenlerde, tarlalarda ya da atölyelerde üretilen eşyaları depolayabilir.
+##farmzone = Tarla
+##farmzone.Desc = Tarla: verimli topraklar üzerinde oluşturularak bitki büyütmeye elverir.
+##grovezone = ağaçlandırma bölgesi
+##grovezone.Desc = Ağaçlandırma Bölgesi: Verimli topraklar üzerinde oluşturursanız kolonistleriniz fidan ekebilir.
+##ship = gemi
+##ship.Desc = Gemi: Bu adaya sizi taşıyan gemi. Adalar arasında eşya taşımak için kullanılabilir.
+##power = elektrik
+##power.Desc = Elektrik: Jeneratörlerde üretilir ve çeşitli makineler tarafından kullanılır.
+
+##decoration = dekorasyon
+##decoration.Desc = Dekorasyon: Dekoratif eşyalar yerleştirmek kolonistlerinizi daha mutlu ve üretken yapar.
+
+##house = ev
+##house.Desc = İkamet: Kolonistler ve hayvanlar yaşamak için bir yer ister. Onlara bu imkanı sunmak onları daha mutlu ve üretken yapar.
+
+
+##social = ilişkiler
+##social.Desc = Sosyal: Kolonistlerin gelişmek için birbirleriyle etkileşimde bulunmaları gerekir. Onlara bu şansı tanımak onları daha mutlu ve üretken yapar.
+##logsys = lojistik sistemi
+##logsys.Desc = Lojistik Sistemi: Birden fazla taşıma ve depolama sistemlerini birleştirmenizi sağlar. Bir kere kurduğunuz zaman, araçlar ve kolonistler için otomatik olarak taşıma işleri üretir.
+
+##cargoship = kargo gemisi
+##automatically = otomatik olarak
+##automatically.Desc = Otomasyon: Otomatikleştirilmiş binalar kolonistlere gerek duymaz fakat çalışmak için elektrik gerektirirler.
+##Automated = Otomatikleştirilmiş
+##Automated.Desc = Otomasyon: Otomatikleştirilmiş binalar kolonistlere gerek duymaz fakat çalışmak için elektrik gerektirirler.
+
+##tool = Ekipman
+##tool.Desc = Ekipman: Verilen bir görevde kolonistinin başarı şansını arttırır. Kolonistler otomatik olarak mesleklerine uygun en iyi ekipmanı kullanırlar.
+##depot = depo
+##depot.Desc = Depo: Eşyaları depolamak ve dağıtmak için kullanılır. Giriş ve çıkış için gözler (hopper) kullanarak eşya depolayıp alabilirsin.
+
+##robot = robot
+##robot.Desc = Robot: Basit işleri gerçekleştirebilir. Tecrübe kazanamaz ve çalışmak için yağ (petrol) gerektirir. Birden fazla modda çalışmak için ayarlanabilir.
+
+##carriage = at arabası
+##carriage.Desc = At Arabaları birbirine bağlanmış istasyonlar arasında otomatik olarak eşya taşırlar. Bir istasyonu seçtikten sonra başka bir istasyona sağ tıklayarak bu istasyonları bağlayabilirsiniz.
+
+# Messages
+Message.AreaExpanded = Bölgemizi genişlettik!
+Message.AreaLost = Bölgemizi kaybettik!
+Message.WeAreUnderAttack = Saldırı altındayız!
+Message.NewBuildOptions = Elde ettiğimiz $1 şunları açtı:
+Message.RecruitmentSuccess = İkna başarılı!
+Message.WarnDisembark = Adada kolonistlerin varken adadan ayrılamazsın.
+Message.MissionComplete = Harika, bu ada için tüm hedeflere ulaştın! :)
+UI.MissionComplete = Görev tamamlandı!
+
+UI.MessagePanel = Mesaj
+UI.MessagePanel.Desc = Bir mesajı kapatmak için üzerine sağ tıkla. Mesaj kaydında kapattığın mesajlara tekrar bakabilirsin. Bir mesaja sol tıklarsan kameran o olaya odaklanır.
+
+UI.Recruit = Onları kolonine katılmaya ikna et.
+UI.Recruit.Desc = Bir kazazedeyi ikna ederek ya da bir hayvanı evcilleştirerek kolonine katabilirsin. Fakat hayvanların sadece belirli işleri yapabileceğini unutma. Bir kez koloninin parçası olduktan sonra kaynaklarını tüketmeye başlarlar. Note: Animals can only perform a limited set of tasks.
+
+UI.MessageLog = Mesaj Kaydı
+UI.MessageLog.Desc = Gelen mesajların kaydını tutar.
+UI.MultiSelectHeader = $1 kolonist seçildi.
+UI.Build = İnşaat
+UI.Build.Desc = Kolonistlerin tarafından inşa edilmek üzere bir bina taslağı oluştur.
+UI.Mine = Kaz ve Topla
+UI.Mine.Desc = Ağaçları, kayaları ve diğer eşyaları kazılmak ya da toplanmak üzere işaretle. (Alt tuşuna basılı tutarak bölgendeki aynı nesnelerin hepsini işaretleyebilirsin.)
+UI.SettlerMenu = Kolonist Yönetimi
+UI.SettlerMenu.Desc = Kolonistlerinin işlerini ve kullandıkları atölyeleri ayarla
+UI.Load = Yükle
+UI.Load.Desc = Gemine yüklenecek eşyaları seç.
+UI.Stockpile = Depo Alanı
+UI.Stockpile.Desc = Farenle tutup sürükleyerek yeni bir depo alanı oluştur veya olan bir depo alanını genişlet.
+UI.Grove = Ağaçlandırma Alanı
+UI.Grove.Desc = Yeni bir ağaçlandırma alanı oluştur veya genişlet.
+UI.Farm = Tarla
+UI.Farm.Desc = Yeni bir tarla oluştur veya genişlet.
+UI.InventoryMenu = Envanter
+UI.InventoryMenu.Desc = Koloninin envanterini görüntüle ve eşyaların nasıl kullanıldığını ayarla.
+UI.UnloadAll = Hepsini Boşalt
+UI.UnloadAll.Desc = Kolonistlerine gemindeki tüm eşyaları boşaltma emri ver.
+UI.BuiltFrom = Madde:
+UI.ProducedHere = Üretim Yeri:
+UI.ProducedFrom = Üretim Maddesi:
+UI.UsedToProduce = Neyde Kullanılır:
+UI.UsedToConstruct = Neyde Kullanılır:
+
+UI.Acceleration = İvme: $1
+UI.ClaimRange = Ele geçirme menzili: $1
+UI.Faction = Durum
+UI.Fight = Savaşçılarını komuta et.
+UI.Fight.Desc = Kolonistlerin için bir seferberlik bayrağı belirle. Bir silah taşıyan tüm kolonistler bu bayrağın etrafına toplanıp gördükleri düşmana saldıracaklar.
+UI.GrowTime = Büyüme zamanı: $1s
+UI.GrowthRateDay = Gündüz büyüme hızı: $1%
+UI.GrowthRateNight = Gece büyüme hızı: $1%
+UI.MovementSpeed = Hareket hızı: $1
+UI.DamageUnarmed = Hasar (silahsız): $1
+UI.VisionRange = Görüş menzili: $1
+UI.Eats = Yedikleri: $1
+UI.Drinks = İçtikleri: $1
+UI.Harbour.Explanation = Kargo gemileri önceden yerleşilmiş adalarda üretilen eşyalardan taşır.
+UI.HitpointMax = Maks. Can: $1
+UI.HitpointRegen = Can yenilenmesi: $1
+UI.Stack = Yığın boyutu: $1
+UI.LinkOverlay = Üretim rotası
+UI.LinkOverlay.Desc = Atölyeler, tarlalar ve depo alanları arasındaki aktif bağlantıları gösterir. [Fabrika Ayarları: Sol Alt Tuşu]
+UI.MaxSpeed = Maks. Hız: $1
+UI.SettlerScreen.Areas=Alanlar
+UI.SettlerScreen.Explanation = Ekipman -> Kolonistler otomatik olarak en iyi ekipmanı alır. Ekipman tercihleri yapacakları göreve göredir.<br>Alanlar -> Tıkla: Bir alana izin ver/yasakla. Kolonistler yasaklı bölgelerdeki nesnelerle etkileşime girmez. Bir kamp ateşinin alanını değiştirmek için seç.<br>Görevler ve atölyeler -> Tıkla: Aktifleştir veya devre dışı bırak. Karelerin boyutları kolonistlerinin yetenek seviyelerini belirtir.
+UI.SettlerScreen.Tasks=Görevler
+UI.SettlerScreen.Title=Kolonist yönetimi
+UI.SettlerScreen.Tool=Ekipman
+UI.SettlerScreen.Workshops=Atölyeler
+UI.ToolAssignment = Tercih edilen ekipman
+UI.ToolAssignment.Desc = Kolonistler otomatik olarak en iyi ekipmanı seçer. Ekipman tercihleri (çekiç, kürek, kazma veya silah) atandıkları göreve bağlıdır.
+UI.ToolBaseEffect = Temel Etki: $1
+UI.ToolTaskType = Görev Tipi: $1
+UI.Track = Ray İnşaatı.
+UI.Track.Desc = Tren rayları ve sinyalizasyon inşa et. <br>Döndürmek için ##Keyrotate tuşuna bas. <br>İnşa ederken yüksek seviyede mi yoksa alçak seviyede mi inşa edileceğini değiştirmek için ##Keycycle tuşuna bas.
+UI.Road = Yol İnşaatı.
+
+UI.Conv = Taşıma Bandı İnşaatı.
+UI.Conv.Desc = Taşıma bantları inşa et. <br>Döndürmek için ##Keyrotate tuşuna bas. <br>İnşa ederken yüksek seviyede mi yoksa alçak seviyede mi inşa edileceğini değiştirmek için ##Keycycle tuşuna bas
+UI.ZoneAssignment = Alan ayarla.
+UI.ZoneAssignment.Desc = Bütün kamp ateşleri 5 renkten birine atanabilir. Buradaki atamaları değiştirerek kolonistlerinizin bölgelerini sınırlayabilirsiniz.
+
+
+# Top right menu
+UI.Speed = Oyunun hızını değiştir
+UI.Speed.Desc = Oyunu durdurun ve devam ettirin ya da 2 ve 4 kat hıza alın.
+UI.Settings = Ayarlar menüsü
+UI.Settings.Desc = Ayarlar menüsünü aç.
+UI.LoadSave = Kaydet ve Yükle
+UI.LoadSave.Desc = Kayıt menüsünü aç.
+UI.Bug = Sorun rapor et
+UI.Bug.Desc = Bir sorunu rapor etmek geliştiriciye bir ekran görüntüsü ve isteğe bağlı olarak sorun raporu gönderir.
+UI.Undo = Geri Al
+UI.Undo.Desc = En son inşa edilen rayı/bandı/taslağı kaldır.
+UI.Main = Menüyü aç
+UI.Main.Desc = Bir oyunu kaydet/yükle, ayarları değiştir veya oyundan çık.
+
+
+UI.Close = Kapat
+UI.LoadGame = Oyunu yükle
+UI.SaveGame = Oyunu kaydet
+UI.SaveGame.Desc = Oyunun şu anki durumunu bir dosyaya kaydet.
+
+UI.FarmMode = Mod
+UI.FarmModeWater = Su
+UI.FarmModeTill = Çapala
+UI.FarmModeGrow = Büyüt
+UI.FarmModeHarvest = Hasat Et
+
+UI.SelectProduct = Ürün seç
+UI.TaskGroupLevelBase = Öğrenilen beceri
+UI.TaskGroupLevelToolModifier = Ekipman etkisi
+UI.TaskGroupTotal = Toplam
+
+
+
+# Objectives
+
+
+Objective.AttackEnemyCamp = Düşman kampına saldır.
+Objective.AttackEnemyCamp.Desc = Bir düşman kampına saldırmak için kampı veya çevresindeki alanı seçip saldıra tıkla. (Kolonistlerin savaşta ölemez.)
+
+Objective.DefeatEnemyCamp = Düşman kampını yok et.
+Objective.DefeatEnemyCamp.Desc = Bir düşman kampına saldırmak için kampı veya çevresindeki alanı seçip saldıra tıkla. (Kolonistlerin savaşta ölemez.)
+
+
+Objective.SetClaimColor = $5 numaralı kamp ateşinin rengini $9 olarak ayarla.
+Objective.SetClaimColor.Desc = Bir alanın rengini seçmek için kamp ateşine tıkla ve bilgi panelinde istediğin rengi seç.
+Objective.LogisticsLink = $7 $5 ile $8 $6 arasında bir bağlantı oluştur.
+Objective.LogisticsLink.Desc = İki nesne arasında bir lojistik bağlantısı oluşturmak için ilk nesneyi seç, ardından ikinci nesneye sağ tıkla. Lojistik linkleri lojistik sistemiyle uyumlu bir bina seçildiğinde maviye döner.
+
+Objective.SetZoneColorActive = $5 adlı kolonistin $9 alana erişimine izin ver.
+Objective.SetZoneColorActive.Desc = Bir kolonistin bir alana olan erişimine izin vermek için kolonisti seçin ve bilgi panelinde istediğiniz alan rengini seçin.
+Objective.SetZoneColorInactive = $5 adlı kolonistin $9 alana erişimini yasakla.
+Objective.SetZoneColorInactive.Desc = Bir kolonistin bir alana olan erişimini yasaklamak için kolonisti seçin ve bilgi panelinde istediğiniz alan rengini seçin.
+
+Objective.StockpileAcceptsType = $5 depo alanının $1 ürününü kabul etmesine izin ver.
+Objective.StockpileAcceptsType.Desc = Bir depo alanının kabul ettiği ürünleri belirlemek için depoya tıklayıp bilgi panelinden seçiminizi yapın.
+
+
+Objective.HopperAcceptsType = $5 depo besleme ağzı/depo alanı $1 ürününü kabul etsin.
+Objective.HopperAcceptsType.Desc = Bir depo giriş çıkışının kabul ettiği ürünleri değiştirmek için seçin ve bilgi panelinde ürünlere tıklayın.
+
+Objective.StationAcceptsType = $5. istasyon girdi çıktısının $1 ürününü kabul etmesini sağla.
+Objective.StationAcceptsType.Desc = Bir istasyon giriş çıkışının kabul ettiği ürünleri değiştirmek için seçin ve bilgi panelinde ürünlere tıklayın.
+
+Objective.StockpileAcceptsOnlyType = Make stockpile $5 depo alanının $1 ürününün kabul etmesini sağla.
+Objective.StockpileAcceptsOnlyType.Desc = Bir depo alanının kabul ettiği ürünleri değiştirmek için tıklayın ve bilgi panelinde ürünlere tıklayın.
+
+Objective.BuildTrain = Tren inşa et ($2/$3)
+Objective.BuildTrain.Desc = Bir tren inşa etmek için bir tren fabrikasına tıkla ve bilgi panelinde tren inşa et butonuna bas.
+
+Objective.FulfillProductionTarget = Üretim hedefine ulaş.
+Objective.FulfillProductionTarget.Desc = Üretim hedefi sol üst köşede gösterilir. Hedefe ulaşana kadar üretim yapmalıısnız. Gemidekiler de dahil koloninin tamamındaki ürünler eşyalar sayılır.
+
+Objective.Construct = Bir $1 İnşa Et ($2/$3)
+Objective.Construct.Desc = Bir $1 inşa etmek için İnşa Et menüsünü açıp, $7 sekmesine geçip, $1 binasının üzerine tıkladıktan sonra haritada yerleştirin.
+Objective.CreateStockpile = Bir depo alanı oluştur ($2/$3)
+Objective.CreateStockpile.Desc = Yeni bir depo alanı oluşturmak için depo alanı butonuna tıklayın ve sert zemin üzerinde sürükleyin.
+Objective.FarmZone = Tarla oluştur ($2/$3)
+Objective.FarmZone.Desc = Bir tarla oluşturmak için tarla butonuna tıklayın ve verimle topraklar üzerinde sürükleyin. Bir tarla için alan en az $3 olmalıdır.
+Objective.FarmZoneCrop = Ekin belirle: $1
+Objective.FarmZoneCrop.Desc = Bir ekin yetiştirmek için tarlayı seçip istediğiniz ekini seçin.
+Objective.Have = Kaz veya üret: $1 ($2/$3)
+Objective.Have.Desc = Kaynaklar çevreden kazılabilir ve ürünler atölyelerde üretilebilir.
+
+
+Objective.TrainSchedule = Trenin rotasına $5 istasyonunu ekle.
+Objective.TrainSchedule.Desc = Bir trenin rotasına bir istasyonu eklemek için treni seçin, ve eklemek istediğiniz istasyona sağ tıklayın. Tekrar tıklamak istasyonu trenin rotasından çıkarır.
+
+Objective.SetWorkshopInput = $8 $6 yerini $7 $5 yerine bağla
+Objective.SetWorkshopInput.Desc = Bir girdi depo alanını $6 ile bağlamak için $6 yerine sol tıkla ve $5 yerine sağ tıkla.
+Objective.SetWorkshopOutput = $7 $5 yerini $8 $6 yerine bağla
+Objective.SetWorkshopOutput.Desc = $5 yerini bir çıktı depo alanına bağlamak için $5 yerine sol tıkla ve $6 yerine sağ tıkla.
+
+
+Objective.LinkStockpile = $1 yerini depo alanına bağla ($2/$3)
+Objective.LinkStockpile.Desc = $1 yerini bir depo alanıyla bağlamak için $1 yerine sol tıklayıp depo alanına sağ tıkla. Atölyeler bağlı depo alanları dolana kadar üretim yapar.
+
+Objective.LinkFarmToStockpile = Tarlayı depo alanına bağla ($2/$3)
+Objective.LinkFarmToStockpile.Desc = Bir tarlayı bir depo alanına bağlamak için tarlaya sol tıkla ve depo alanına sağ tıkla. Tarlalar bağlı depo alanları dolana kadar üretim yapar.
+Objective.MiningJob = Madencilik işleri oluştur($2/$3)
+Objective.MiningJob.Desc = To select a resource to be ##mined, click the #Mine# mine button and select the things to be mined. Drag an area to mine everything within. Note that your colonists can only mine resources within your ##territory.
+Objective.ProductionTask = Üretim belirle: $1
+Objective.ProductionTask.Desc = Bir ürünü üretmek için bir atölye seçin ve atölyenin üretmesini istediğiniz ürünü seçin.
+Objective.SettlersEquipTool = Kullanılan ekipman ($2/$3)
+Objective.SettlersEquipTool.Desc = Kolonistler otomatik olarak ihtiyaç duydukları ekipmanı kullanır. Onları daha üretken yapmak için gerek duydukları eşyaları üretin.
+
+Objective.SetActorTaskGroup = $5 kişisini $1 yerinde çalışması için ata.
+Objective.SetActorTaskGroup.Desc = $5 kişisinin $1 yerinde çalışması için, $5 kişisini seçin ve #$7# $1 yerine tıklayın. Alternatif olarak kolonistlerinin işlerini kolonist yönetim ekranından da yönetebilirsin.
+
+Objective.SettlerTaskGroup = İş ata: $4 ($2/$3)
+Objective.SettlerTaskGroup.Desc = Bir kolonistin $4 işlerini yapması için onu seç ve #$7# $4 tıkla. Alternatif olarak kolonistlerinin işlerini #People# kolonist yönetimi ekranından da yönetebilirsin.
+Objective.SettlerWorkshop = İş ata: $1 ($2/$3)
+Objective.SettlerWorkshop.Desc = Bir kolonistin $1 yerinde çalışması için onu seç ve kolonist yönetim panelinde $1 yerine tıkla. Alternatif olarak kolonistlerinin işlerini #People# kolonist yöetimi ekranından da yönetebilirsin.
+Objective.UnloadAll = Gemiyi boşalt ($1 adet eşya kaldı)
+Objective.UnloadAll.Desc = Gemine tıklayarak içinde hangi eşyaların olduğunu gör. Bir eşyaya tıklayarak kolonistlerinin o eşyayı boşaltması için emir ver. Shift veya Control tuşuna basılı tutarken eşyalara basarak tek seferde birden fazla eşya boşaltabilirsiniz. Alternatif olarak Boşalt butonuna basarak her şeyi boşaltabilirsiniz.
+
+Objective.Recruit = İkna Et
+Objective.Recruit.Desc = Bir kazazedeyi ikna ederek ya da bir hayvanı evcilleştirerek onları kolonine katabilirsin. Not: Hayvanlar sadece sınırlı işler yapabilir. Koloninin bir parçası oldukları an kaynaklarını tüketmeye başlarlar.
+Objective.ActivateDebugMode = Geliştirici modunu aktifleştir.
+Objective.ActivateDebugMode.Desc = Ayarlar menüsünü aç ve geliştirici modunu aktifleştir.
+Objective.UseDebugRemove = Bir nesneyi yok et.
+Objective.UseDebugRemove.Desc = Alt tuşuna basılı tutarken kaldır butonuna basıp sonra seçerek oyundaki istediğiniz nesneyi, binayı ya da eşyayı yok edebilirsiniz. [Geliştirici moduna has]
+Objective.UseDebugSpawn = Bir nesne oluştur.
+Objective.UseDebugSpawn.Desc = Geliştirici menüsünden oyundaki herhangi bir nesneyi, binayı ya da eşyayı oluşturabilirsiniz. F8 tuşuna basarak menüyü açın. [Geliştirici moduna has]
+
+Objective.UseRevealMap = Haritayı açığa çıkar.
+Objective.UseRevealMap.Desc = F7 tuşuna basarak savaş sisini ortadan kaldırıp haritayı açığa çıkarabilirsiniz. [Geliştirici moduna has]
+Objective.ShowHelpTooltip = Farenizi bir görevin üzerine getirdiğinizde yardım alabilirsiniz.
+Objective.ShowHelpTooltip.Desc = Tebrikler. Görevler ve diğer arayüzler fareyi üzerine getirdiğinizde daha çok bilgi verir.
+Objective.ClickHelp = Bu göreve tıkla.
+Objective.ClickHelp.Desc = Çoğu görevin üzerine tıklayarak ilgili nesnenin üzerine gidebilirsiniz.
+
+
+Objective.ScrollCamera = WASD veya ok tuşlarını kullanarak kamerayı hareket ettir.
+Objective.ScrollCamera.Desc = WASD veya ok tuşlarını kullanarak kamerayı hareket ettir.
+
+Objective.ZoomCamera = Fare tekerleğini kullanarak yakınlaş ve uzaklaş.
+Objective.ZoomCamera.Desc = Fare tekerleğini kullanarak yakınlaş ve uzaklaş.
+
+Objective.RotateCamera = Q/E veya Page Up/Page Down ile döndür.
+Objective.RotateCamera.Desc = Q ve E tuşlarını kullanarak kamerayı döndür. İstersen Page Up ve Page Down tuşlarını da kullanabilirsin.
+
+
+
+
+# Objective groups
+ObjectiveGroup.Help = Yardım Sistemi
+ObjectiveGroup.Camera = Kamera
+ObjectiveGroup.Controls = Temel Kontroller
+ObjectiveGroup.LoadShip = Envanter Hedefine Ulaş
+ObjectiveGroup.Expand = Bölgeni Genişlet
+ObjectiveGroup.MineResources = Kaynak Kaz
+ObjectiveGroup.UnloadShip = Gemiyi Boşalt
+ObjectiveGroup.SetupFarm = Bir Tarla Oluştur
+ObjectiveGroup.SetupWell = Bir Kuyu Kaz
+ObjectiveGroup.RescueSettlers = Kolonist Kurtar
+ObjectiveGroup.Recruit = İkna Et
+
+
+# Settler needs
+Need.Sleep = Uyku
+Need.Sleep.Desc = Yorulduklarında kolonistler otomatik olarak evlerine dönüp uyurlar.
+Need.Food = Açlık
+Need.Food.Desc = Açken kolonistler otomatik olarak yiyecek bir şeyler ararlar.
+Need.Drink = Susuzluk
+Need.Drink.Desc = Susamışken kolonistler otomatik olarak içecek bir şeyler ararlar.
+Need.Social = Sosyal
+Need.Social.Desc = Kolonistlerin gelişmesi için sosyalleşmeleri gereklidir. Onlara bu şansı tanımak onları daha mutlu ve üretken yapar.
+Need.Housing = İkamet
+Need.Housing.Desc = Kolonistler içinde yaşayacak bir ev ister. Onlara bir ev vermek onları daha mutlu ve üretken yapar.
+Need.Health = Sağlık
+Need.Health.Desc = Yaralı kolonistler mutsuz ve daha az üretken olurlar. Uyurken bir miktar iyileşirler.
+Need.Sum = Toplam
+Need.Happiness = Mutluluk
+Need.SpeedFactor = Hız
+
+ActorState.Drinkvariety.High = İçecek çeşidi fazla.
+ActorState.Drinkvariety.Low = İçecek çeşidi az.
+ActorState.Foodvariety.High = Yiyecek çeşidi fazla.
+ActorState.Foodvariety.Low = Yiyecek çeşidi az.
+ActorState.HouseQuality.High = Ev kalitesi yüksek.
+ActorState.HouseQuality.Low = Ev kalitesi düşük.
+ActorState.Hasdrunk = Yakın zamanda içti
+ActorState.Hasinteracted = Yakın zamanda sosyalleşti
+ActorState.Housed = Bir evi var
+ActorState.Hungry = Aç
+ActorState.Nohouse = Evsiz
+ActorState.Notinteracted = Yalnız
+ActorState.BadDecoration = Dekorasyon yok.
+ActorState.GoodDecoration = Dekorasyon güzel.
+
+ActorState.Rested = İyi dinlenmiş
+ActorState.Saturated = Doymuş
+ActorState.Injured = Yaralı
+ActorState.Hurt = Biraz yaralanmış
+ActorState.Thirsty = Susuz
+ActorState.Tired = Yorgun
+ActorState.Total = Toplam
+ActorState.NoTool = Hafif (ekipmansız)
+
+
+# Job/task groups
+TaskGroup._Name = İş atamaları
+TaskGroup.Agriculture = Tarlada Çalışma
+TaskGroup.Agriculture.Desc = Tarlada çalışanlar toprağı çapalar, tohum eker ve ekin toplar.
+TaskGroup.Construction = İnşaat
+TaskGroup.Construction.Desc = İnşaat işçileri inşaat yapar.
+TaskGroup.Crafting = Üretim
+TaskGroup.Crafting.Desc = Ustalar atölyelerde eşyalar üretir.
+TaskGroup.Combat = Savaş
+TaskGroup.Combat.Desc = Savaşçılar kolonistleri korur ve düşmanlara karşı savaşır.
+TaskGroup.Mining = Kazma ve Toplama
+TaskGroup.Mining.Desc = Madenciler ağaç keser, taş ve kaya kazar.
+Workshop._Name = Atölyeler
+TaskGroup.Power = Elektrik
+TaskGroup.Power.Desc = Kolonistler ve hayvanlar elektrik üretebilir.
+TaskGroup.Logistics = Lojistik
+TaskGroup.Logistics.Desc = Depo alanlarına ve depolara ürün taşıma, ihracat ve ithalat.
+
+
+Faction.Player = Dost
+Faction.Enemy = Düşman
+Faction.Neutral = Tarafsız
+
+
+
+Text.BackerRaft.Desc = $1 tarafından yollandı.
+
+BuildingType.Actor = Canlılar
+BuildingType.Actor.Desc = Kolonist, düşman ve hayvan ortaya çıkarır.
+BuildingType.Decoration = Dekorasyon
+BuildingType.Decoration.Desc = Dekorasyon kolonini daha güzel yapar ve kolonistlerinin mutluluğunu arttırır.
+BuildingType.Defense = Savunma
+BuildingType.Defense.Desc = Surlar ve kuleler.
+BuildingType.Food = Yiyecek İçecek
+BuildingType.Food.Desc = Yiyecekleri ve içecekleri üreten ve işleyen binalar.
+BuildingType.House = İkamet
+BuildingType.House.Desc = Bir eve sahip olmaları kolonistlerinin mutluluğunu ve verimliliğini arttırır.
+BuildingType.Item = Eşyalar
+BuildingType.Item.Desc = Eşyalar.
+BuildingType.Logistics = Lojistik
+BuildingType.Logistics.Desc = Üretimini otomatikleştirmek için binalar ve makineler.
+BuildingType.None = Diğer
+BuildingType.None.Desc = Diğer kategorilere girmeyen binalar.
+BuildingType.Refining = İşleme
+BuildingType.Refining.Desc = Kaynakları işleme ve imha etme odaklı atölyeler.
+BuildingType.Workshop = Atölye
+BuildingType.Workshop.Desc = Ekipman, silah ve makineler üreten atölyeler.
+
+
+Settings.Category.Graphics = Grafikler
+Settings.Category.Audio = Ses
+Settings.Category.Gameplay = Oynanış
+Settings.Category.Other = Diğer
+
+Settings.Recommendations = Öneriler
+Settings.Recommendations.Desc = Sol üst köşede önerileri göster.
+
+
+Settings.UIScale = Arayüz boyutu
+Settings.UIScale.Desc = Kullanıcı arayüzünü büyült ya da küçült.
+Settings.Shadows = Gölge Kalitesi
+Settings.Shadows.Desc = Işıklar tarafından oluşturulan gölgelerin kalitesi. Gölgeler güzel gözükür fakat çok fazla ışık kaynağı olduğu zaman ekran kartını oldukça zorlayabilir.
+
+Settings.Brightness= Parlaklık
+Settings.Brightness.Desc= Parlaklık
+Settings.AA = Anti-Aliasing
+Settings.AA.Desc = Anti-Aliasing: Kenar keskinliğini azaltma oranı.
+Settings.PauseOnDefocus = Otomatik Duraklat
+Settings.PauseOnDefocus.Desc = Oyunu başka bir pencereye geçtiğiniz anda otomatik olarak duraklatır.
+Settings.LocalizationHelp = Çeviri yardımı
+Settings.LocalizationHelp.Desc = Çevirmenlere yardımcı olmak için Missing_<dil>.txt dosyalarını oluşturur.
+Settings.Ambience = Çevre Sesleri
+Settings.Ambience.Desc = Çevre seslerinin yüksekliği.
+Settings.AO = AO
+Settings.AO.Desc = Ambient Occlusion: Çevre aydınlatma ve gölgelendirmelerinin tahmini.
+Settings.Autosave = Otomatik Kayıt
+Settings.Autosave.Desc = Belirli bir süreden sonra oyunu otomatik olarak kaydetme.
+Settings.Bevel = Kenar Yumuşatma ve Kenar Çizgileri
+Settings.Bevel.Desc = Nesnelerin kenarlarını yumuşat ve kenarlarını çizgilerle belirt.
+Settings.Bloom = Parlaklık Işıkları
+Settings.Bloom.Desc = Fazla parlak bölgeler etrafında ışık oluştur.
+Settings.Clouds = Bulutlar
+Settings.Clouds.Desc = Bulutlar gökyüzünde dolaşır.
+Settings.Debug = Geliştirici modu
+Settings.Debug.Desc = Geliştirici modu özgürce nesne oluşturmayı (F8) ve daha farklı özelliklere (F7) erişmeyi sağlar.
+Settings.DOF = Derinlik
+Settings.DOF.Desc = Büyültülürken görüntü düzleminin genişlemesini azaltır.
+Settings.Fog = Sis
+Settings.Fog.Desc = Sis efektlerini göster.
+Settings.ShowMarkers = İşaretler
+Settings.ShowMarkers.Desc = Yükleme ve kazma işleri için işaretleri göster.
+Settings.FPS = FPS'i göster
+Settings.FPS.Desc = Saniye başına kareyi göster.
+Settings.Hints = İpuçları
+Settings.Hints.Desc = Oyun boşta duran üretim binaları gibi olaylar farkettiğinde bunu belirtmesini sağlar.
+Settings.Hit = Vurma animasyonları
+Settings.Hit.Desc = Kazılabilenler ve binalar vuruldukları zaman tepki gösterir.
+Settings.Language = Dil
+Settings.Language.Desc = Dil sadece ana menüde değiştirilebilir ve yeniden başlatma gerektirebilir.
+Settings.Music = Müzik
+Settings.Music.Desc = Müzik yüksekliği.
+Settings.Scroll = Kenarlarda Kaydırma
+Settings.Scroll.Desc = Fare ekran kenarına gelince kamerayı hareket ettir.
+Settings.ScrollSpeed = Kaydırma Hızı
+Settings.ScrollSpeed.Desc = Kaydırma hızı etkeni. WASD ve kenar kaydırmasının hızını etkiler.
+Settings.RotateSpeed = Döndürme Hızı
+Settings.RotateSpeed.Desc = Döndürme hızı etkeni. Q/E/PageUp ve PageDown ile döndürme hızını etkiler.
+Settings.Sound = Ses Efektleri
+Settings.Sound.Desc = Ses efekti yüksekliği.
+Settings.SSScale = Ekran Görüntüsü Boyutu
+Settings.SSScale.Desc = Ekran görüntülerini büyütme oranı.
+Settings.Weather = Hava Efektleri
+Settings.Weather.Desc = Yağmur ve kar gibi görüntüsel hava efektleri.
+
+
+Workshop.Status.Busy = Atölye meşgul.
+Workshop.Status.Busy.Desc = Bir kolonist bu atölyeyi kullanıyor.
+Workshop.Status.Idle = Atölye boşta.
+Workshop.Status.Idle.Desc = Bir kolonist hazır olduğunda üretim başlayacak.
+Workshop.Status.NoInput = Girdi yok.
+Workshop.Status.NoInput.Desc = Üretim gereken girdi kaynakları uygun olduğunda başlayacak.
+
+Workshop.Status.NoOutput = Çıktı depo alanı atanmadı.
+Workshop.Status.NoOutput.Desc = Bir çıktı depo alanı atamak için atölyeye sol tıklayın ve atölyenin çıktısının gitmesini istediğiniz depo alanına sağ tıklayın. Atölyeler bağlı çıktı depo alanları dolana kadar üretim yapar.
+Workshop.Status.NoProduct = Ürün seçilmedi.
+Workshop.Status.NoProduct.Desc = Bir ürünü üretilmesi için seçmek için atölye bilgi panelinde o ürün üzerine tıklayın.
+
+
+Workshop.Status.NoSettler = Kolonist atanmadı.
+Workshop.Status.NoSettler.Desc = Bir kolonistin bu atölyede çalışması için onu seçin ve kolonist panelinde atölyeye tıklayın. Atölyenin olduğu bölgede çalışma izni olduğuna emin olun. Alternatif olarak kolonistlerinin işlerini kolonist yönetim ekranından da yönetebilirsiniz.
+Workshop.Status.OutputFull = Çıktı depo alanları dolu.
+Workshop.Status.OutputFull.Desc = Üretim çıktı depo alanlarında boş yer olduğu zaman devam edecek.
+Workshop.Status.UnderConstruction = İnşaat altında.
+Workshop.Status.UnderConstruction.Desc = Bu atölye inşa ediliyor.
+
+
+Farm.Status.Harvest = Toplanmaya hazır.
+Farm.Status.Harvest.Desc =
+Farm.Status.Idle = Boşta.
+Farm.Status.Idle.Desc =
+Farm.Status.NoOutput = Çıktı depo alanı atanmadı.
+Farm.Status.NoOutput.Desc = Bir çıktı depo alanı atamak için tarlaya sol tıklayın ve tarlanın çıktısının gitmesini istediğiniz depo alanına sağ tıklayın. Tarlalar bağlı çıktı depo alanları dolana kadar üretim yapar.
+Farm.Status.NoOutputForProduct = Çıktı depo alanları üretilen ürünleri kabul etmiyor.
+Farm.Status.NoOutputForProduct.Desc = Bir depo alanının kabul ettiği ürünleri değiştirmek için sol tıklayın ve panelde ürünleri seçin.
+
+Workshop.Status.NoOutputForProduct = Çıktı depo alanları ürün kabul etmiyor.
+Workshop.Status.NoOutputForProduct.Desc = Bir depo alanının kabul ettiği ürünleri değiştirmek için sol tıklayın ve panelde ürünleri seçin.
+
+Farm.Status.NoWorkers = Tarla işçisi yok.
+Farm.Status.OutputFull = Çıktı depo alanları dolu.
+Farm.Status.OutputFull.Desc = Çıktı depo alanlarında boş yer olunca ürün toplama devam edecek.
+Farm.Status.Paused = Ürün seçilmedi.
+
+Farm.Status.Plant = Ekilmeye hazır.
+Farm.Status.Plant.Desc =
+Farm.Status.Till = Çapalanmaya hazır.
+Farm.Status.Till.Desc = Çapalanmaya hazır.
+Farm.Status.Water = Sulanmaya hazır.
+Farm.Status.Water.Desc = Sulanmaya hazır. Su kovası bulunduğundan emin olun.
+
+
+
+
+MainMenu.NewCampaign = Yeni Oyun
+MainMenu.ResumeCampaign = Oyuna Devam Et
+MainMenu.PlayTutorial = Eğitim Bölümleri
+MainMenu.PlayCustomMap = Özel Haritada Oyna
+MainMenu.Settings = Ayarlar
+MainMenu.Mods = Modlar
+MainMenu.ExitGame = Oyundan Çık
+
+
+LoadingPhase.Clearing = Kalan veri temizleniyor...
+LoadingPhase.InitializingGame = Oyun hazırlanıyor...
+LoadingPhase.IconGeneration = İkonlar oluşturuluyor: $1%
+LoadingPhase.ExplicitSpawns = Ek nesne oluşumları işleniyor: $1%
+LoadingPhase.GenericSpawns = Genel nesne oluşumları işleniyor: $1%
+LoadingPhase.CreatingMap = Harita oluşturuluyor...
+LoadingPhase.GeneratingTiles = Kareler oluşturuluyor: $1%
+LoadingPhase.LoadMap = Harita dosyadan yükleniyor...
+LoadingPhase.InitialisingObjects = Nesneler hazırlanıyor...
+LoadingPhase.ModelGeneration = Modeller oluşturuluyor: $1%
+LoadingPhase.ObjectMaterialCombiner = Materyaller birleştiriliyor...
+LoadingPhase.ObjectTreeExporter = Nesne ağacı dışa aktarılıyor...
+
+UI.Weight = Ağırlık: $1
+UI.Weight.Desc = Bir eşyanın ağırlığı.
+UI.CanBeMined = Kazıldığında elde edilecekler:
+
+UI.SelectZoneColor = Bölge rengi seç:
+UI.Equipment = Ekipman
+
+UI.SelectAssignedZones = İzin verilen bölgeler:
+UI.AcceptedGoods = Kabul edilen ürünler:
+UI.AcceptedGoods.Help = (Bir ürüne tıklayarak durumunu ayarla.)
+
+UI.Recruitment = İkna Et
+UI.Recruit.Title = Düşmanlar:
+UI.Recruit.Defeat = Düşmanlar (Kuvvet $1):
+UI.Recruit.Requirements = Gereklilikler:
+UI.Colonists = Savaşçıların (Kuvvet $1):
+UI.Help = Yardım
+
+UI.PressAnyKey = Başlamak için herhangi bir tuşa basın!
+#시작하려면 좌클릭 및 키를 눌러주세요!
+
+UI.CapacityUsed = Kullanılan Kapasite:
+UI.LoadLeave = Yükle ve Ayrıl:
+UI.StoredCargo = Depolanan Kargo:
+UI.StoredCargo.Help = (Bir ürünün üzerine tıklayarak boşalt.)
+UI.VersionInfo = Sürüm bilgisi
+
+UI.Menu = Menü
+UI.Menu.Title = Menü
+UI.ExitToMain = Ana menüye git
+
+Settings.ExportIcons = İkonları dışa aktar
+Settings.ExportIcons.Desc = Başlangıçta nesne ikonlarını dışa aktar. (genellikle gerek duyulmaz)
+
+Settings.LeadingCamera = Kamera Takip Etsin
+Settings.LeadingCamera.Desc = Bir kolonisti takip ederken kamera hareketini takip eder.
+
+UI.ProductionTree = Ürün Ansiklopedisi
+
+
+UI.AcceptAll = Hepsini Kabul Et
+UI.AcceptAll.Desc = Depo alanı tüm ürünleri kabul etsin.
+UI.RefuseAll = Hepsini Reddet
+UI.RefuseAll.Desc = Depo alanı tüm ürünleri reddetsin.
+
+MainMenu.LoadGame = Oyunu Yükle
+Settings.RightDrag = Sağ Tıkla Sürükleme
+Settings.RightDrag.Desc = Sağ tıka basılı tutarken haritayı hareket ettir ve ortaya basılı tutarken haritayı döndür.
+LoadingPhase.Combining = Görüntüler birleştiriliyor...
+
+UI.ClearZone = Sat / Yık / Temizle
+UI.ClearZone.Desc = Bir binayı yok et ya da bir depo alanını, tarlayı ya da ağaçlandırma alanını kaldır. Aynı karedeki birden fazla nesne arasında geçmek için ##Keycycle kullan.
+UI.CancelOrder = Emri iptal et.
+UI.CancelOrder.Desc = Maden kazma, yükleme veya yıkma gibi bir emri iptal et.
+
+
+Logistics.Status.NotConnected = Lojistik sistemine bağlı değil.
+Logistics.Status.Supply = Lojistik sistemine ürün sağlıyor.
+Logistics.Status.Request = Lojistik sisteminden ürün istiyor.
+Logistics.Status.SupplyRequest = Ürün sağlıyor ve istiyor.
+Logistics.Status.CanSupply = Lojistik sistemine ürün sağlayabilir.
+Logistics.Status.CanRequest = Lojistik sisteminden ürün isteyebilir.
+Logistics.Status.CanSupplyRequest = Ürün sağlayabilir ve isteyebilir.
+Logistics.Status.CanRequestButNotSetup = Lojistik sisteminden ürün kabul etmiyor.
+
+
+UI.LogisticsSystem = Lojistik Sistemi
+UI.LogisticsSystem.Desc = Ürün sunmak için bu birimi diğer birimlere (depo alanları, zeplin istasyonlar vb.) üzerlerine sağ tıklayarak bağlayın. Sağlayacak ürün olduğuna emin olu. Ürün istemek için diğer birimleri bu depo alanına bağlayıp istenen ürünlerin kabul edilmesini ayarlayın.
+
+
+
+Farm.Status.Working = Çalışıyor
+Farm.Status.UnderConstruction = İnşa Ediliyor
+
+Message.CombatInProgress = $1 saldırı altında!
+
+UI.SurveyInfo = Mini Survey
+Settings.Surveys=S urveyler
+Settings.Surveys.Desc= Ana menüde survey göster.
+Settings.Lights= Aydınlatma
+Settings.Lights.Desc=A ydınlatmayı göster. (haritayı yeniden yükleme gerektirir)
+
+Settings.Tooltips= İpuçları
+Settings.Tooltips.Desc= Butonların üzerine geldiğin zaman vb. ipuçları göster. Kapalıyken shift tuşuna basılı tuttuğunda yine de ipuçlarını görebilirsin.
+
+
+UI.FightClose = Seferberlik bayrağını kaldır
+UI.FightClose.Desc = Seferberlik bayrağını ve durumunu kaldırır. Tüm kolonistler günlük hayatlarına dönerler.
+
+UI.Pet.Owner = Sahip
+UI.Hitpoints = Can: $1/$2
+
+UI.Build.InProgress = İnşa ediliyor.
+UI.Build.InProgress.Desc = Bir kolonist tüm gerekli ürünleri taşıyıp inşaata başlayacak.
+UI.Build.AwaitingConstruction = İnşaat bekleniyor.
+
+UI.Build.MissingMaterials = Hammadde yok.
+UI.Build.MissingMaterials.Explicit = İnşaat için gerekli olan $1 hammaddesi yok.
+UI.Build.MissingMaterials.Desc = Kolonistlerin bunu inşa etmek için gereken bir veya daha fazla kaynağı bulamıyor.
+
+UI.Cancel = İptal
+UI.Cancel.Desc = İnşaatı iptal et.
+
+StockpileZoneCC = Depo alanı
+StockpileZoneCC.Desc = Bir depo alanı atölyelerden, tarlalardan veya kazılanlardan ortaya çıkanları depolamak için kullanılabilir.
+FarmZoneCC = Tarla
+FarmZoneCC.Desc = Tarlalar kolonistlerinin ekin büyütmesini sağlar.
+GroveZoneCC = Ağaçlandırma Alanı
+GroveZoneCC.Desc = Ağaçlandırma alanları verimli topraklar üzerinde oluşturulabilir ve kolonistlerinin ağaçlandırma yapmasını sağlar.
+
+
+CargoShip.State.ENTERHARBOUR = Kargo limanına giriyor.
+CargoShip.State.UNLOAD = Kargo boşaltıyor
+CargoShip.State.LEAVE = Kargo limanından çıkıyor.
+
+
+
+UI.Food = Yiyecek Stoğu
+UI.Food.Desc = Kolonistlerin iyi beslenirse daha üretken olurlar.
+
+UI.Drink = İçecek Stoğu
+UI.Drink.Desc = Kolonistlerin içecekler içerse daha üretken olurlar.
+
+
+UI.House = İkamet
+UI.House.Desc = Kolonistlerin evlere sahip olursa daha üretken olurlar.
+
+UI.IdleColonists = Boştaki Kolonistler
+UI.IdleColonists.Desc = Buraya tıklayarak tüm boştaki kolonistler arasında dolaş.
+
+UI.Warnings = Uyarılar
+UI.Warnings.Desc = Uyarılar işçisiz atölyeler gibi sorunları belirtir. Buraya tıklayarak tüm uyarılar arasında dolaş.
+
+
+UI.Time = Saat
+UI.Time.Desc = Günün saati. Çoğu ekin sadece gündüz büyür.
+
+Robot.Mode = Robot modu
+Robot.Mode.Desc = Robotlar birden fazla modda çalışabilir. Modları hareket hızlarını ve yakıt tüketimlerini etkiler.
+Robot.Mode.OFF = Kapalı
+Robot.Mode.ECO = Düşük Güç Modu
+Robot.Mode.NORMAL = Normal Mod
+Robot.Mode.OVERCLOCKED = Aşırtma Modu
+
+MainMenu.Tutorials = Eğitimler ve Örnekler
+
+
+Task.Upgrade.Text = $1 geliştiriliyor.
+Task.Unload.Text = $1 boşaltılıyor.
+
+Task.Attack.Text = $1 nesnesine saldırılıyor.
+Task.CombatTrain.Text = Eğitiliyor.
+Task.Rally.Text = Seferberlik bayrağına ilerleniyor.
+Task.Construct.Text = $1 inşa ediliyor.
+Task.ConstructClear.Text = $1 temizleniyor.
+Task.Deconstruct.Text = $1 yıkılıyor.
+Task.Mine.Text = $1 kazılıyor.
+Task.Produce.Text = $1 yerinde $2 üretiliyor.
+Task.Power.Text = $1 nesnesine güç veriliyor.
+Task.Clean.Text = $1 temizleniyor.
+Task.Load.Text = $1 nesnesini yüklüyor.
+Task.Stockpile.Text = $1 depo alanına taşınıyor.
+Task.LogisticsSystem.Text = $1 hareket ettiriliyor.
+Task.Equip.Text = $1 alınıyor.
+Task.Unequip.Text = Bırakılıyor.
+Task.Drink.Text = $1 içiliyor.
+Task.Eat.Text = $1 yeniliyor.
+Task.MoveIntoHouse.Text = $1 evine taşınılıyor.
+Task.Socialize.Text = $1 yerinde sosyalleşiliyor.
+Task.Sleep.Text = Uyuyor.
+Task.Idle.Text = Boş duruyor.
+Task.Wander.Text = Dolaşıyor.
+Task.HarvestCrop.Text = $1 toplanıyor.
+Task.HarvestTree.Text = $1 kesiliyor.
+Task.PlantCrop.Text = $1 ekiliyor.
+Task.PlantTree.Text = $1 dikiliyor.
+Task.FarmClear.Text = $1 temizleniyor.
+
+Task.GroveClear.Text = $1 temizleniyor.
+Task.Till.Text = Toprak çapalanıyor.
+
+Task.Export.Text = $1 ihraç ediliyor.
+Task.Import.Text = $1 ithal ediliyor.
+
+Train.Schedule = Tren Rotası:
+Train.Schedule.UI = Tren İstasyonu
+Train.Schedule.UI.Desc = Bir istasyonu rotaya eklemek için treni seçip istasyona sağ tıklayın. Bir istasyonu rotadan kaldırmak için rotadaki istasyona tıklayın.
+
+UI.WaveNoTime = Düşmanlar yaklaşıyor.
+UI.WaveTime = $1 saniye içerisinde geliyorlar.
+
+Train.Status.Deactivated = Tren devre dışı.
+Train.Status.Deactivated.Desc = Bir treni bilgi panelinden aktif edebilirsiniz.
+Train.Status.NoSchedule = Rota belirlenmemiş.
+Train.Status.NoSchedule.Desc = Bir istasyonu rotaya eklemek için treni seçip istasyona sağ tıklayın. Bir istasyonu rotadan kaldırmak için rotadaki istasyona tıklayın.
+Train.Status.NoPath = Bir sonraki hedefe yol bulunamadı.
+Train.Status.NoPath.Desc = İstasyonlar arasında ray olduğuna emin olun.
+Train.Status.Okay = Tren aktif.
+Train.Status.WaitAtStation = İstasyonda bekliyor.
+Train.Status.WaitAtStation.Desc = Tren istasyondaki işi bittiğinde devam edecek.
+
+
+UI.AttackCamp = Kampa saldır.
+UI.TotalStrength = Toplam güç
+UI.CancelAttack = Saldırıyı iptal et.
+
+Message.EnemyCampDestroyed = Düşman kampı yok edildi!
+Message.AttackFailed = Düşman kampına olan saldırı başarısız oldu. :(
+
+UI.RelativeStrength.Inferior = Düşman kuvveti: Acınacak Seviyede.
+UI.RelativeStrength.Low = Düşman kuvveti: Az Kuvvetli.
+UI.RelativeStrength.Equal = Düşman kuvveti: Eşit Kuvvetli.
+UI.RelativeStrength.Hard = Düşman kuvveti: Çok Kuvvetli.
+UI.RelativeStrength.Overwhelming = Düşman kuvveti: Aşırı Kuvvetli.
+
+Tool.Effect.Combat.Effect = Hasar: $1
+Tool.Effect.Combat.Hit = Vurma ihtimali: $1%
+Tool.Effect.Combat.Crit = Kritik vurma ihtimali: $1%
+
+Tool.Effect.Agriculture.Effect = Hız: $1
+Tool.Effect.Agriculture.Hit = Başarılı olma ihtimali: $1%
+Tool.Effect.Agriculture.Crit = Kritik başarı ihtimali: $1%
+
+Tool.Effect.Mining.Effect = Hız: $1
+Tool.Effect.Mining.Hit = Başarılı olma ihtimali: $1%
+Tool.Effect.Mining.Crit = Kritik başarı ihtimali: $1%
+
+Tool.Effect.Crafting.Effect = Hız: $1
+Tool.Effect.Crafting.Hit = Başarılı olma ihtimali: $1%
+Tool.Effect.Crafting.Crit = Kritik başarı ihtimali: $1%
+
+Tool.Effect.None.Effect = Temel Etki
+Tool.Effect.None.Hit = Başarılı olma ihtimali: 50%
+Tool.Effect.None.Crit = Kritik olma ihtimali: 0%
+
+Tool.None = Ekipman yok.
+
+Tool.Effect = Ekipman etkisi
+Tool.Effect.Desc = - Bir silahın etkisi verebileceği hasarı belirler. Madencilik, çiftçilik ve üretim ekipmanı belirtilen görevin başarı hızını arttırır.
+
+Tool.Hit = Başarı ihtimali
+Tool.Hit.Desc = Başarı ihtimali bir görevin (mesela bir saldırının ya da bir üretimin) başarılma ihtimalini belirler.
+
+Tool.Crit = Kritiklik ihtimali
+Tool.Crit.Desc = Bir başarının kritik olma ihtimali. Kritik saldırı fazladan hasar verirken kritik kazmalar fazladan ürün çıkartır.
+
+
+MainMenu.Skirmish.Scenarios = Senaryolar
+MainMenu.Skirmish.Modifiers = Etkileyiciler
+
+
+
+
+UI.ItemTypes.Title = Eşya türleri:
+
+
+
+Building.Mode = İnşa modu.
+Building.Mode.Desc = Bu butona basarak aktif edin veya devre dışı bırakın.
+Building.Mode.Enabled = Bina aktif.
+Building.Mode.Disabled = Bina devre dışı.
+
+UI.TypeNameFilter = Eşya ara...
+UI.DecorationValue = Dekorasyon: Değer $1, Menzil $2
+UI.HousingValue = Ev: Değer $1, yerler $2
+UI.SocialValue = Sosyal.
+UI.ToolValue = Ekipman: Taban değeri $1.
+
+Message.TrainRouteFail = Train $1 yerine yol bulamadı.
+Message.FactorySegmentBlocked = Ray meşgul.
+
+
+UI.PlantGrowth = Büyüme: $1%
+UI.PlantGrowthRate = Büyüme oranı: $1%
+UI.PlantGrowthTime = Büyüme zamanı: $1s
+UI.PlantTitle = Bitki bilgisi:
+UI.WaterUsage = Su kullanımı: $1%
+
+UI.ProducedIn = Üretildiği yerler
+UI.ProcessedIn = İşlendiği yerler
+
+UI.BuildTrain = Tren inşa et.
+
+LoadingPhase.UIPanels = Kullanıcı arayüzü hazırlanıyor...
+
+LoadingPhase.CombineMeshes = Görüntüler birleştiriliyor.
+LoadingPhase.InitNavmesh = Hareket işleniyor.
+
+
+UI.MineableContent = İçerik:
+
+UI.DeleteGame = Sil
+UI.Tier = Seviye
+UI.Tier1 = Seviye 1
+UI.Tier2 = Seviye 2
+UI.Tier3 = Seviye 3
+
+
+TipOfTheDay.Header=İpucu:
+TipOfTheDay.1=Görevlerin sol üstte gösterilir. Fareyi üzerlerine getirerek daha fazla bilgi edinebilirsin. Ampule tıklayarak yardım penceresini aç. Çok acele etmene gerek yok, kolonistlerin ölmeyecek.
+TipOfTheDay.2=Kolonistlerin ölemez. Canları azaldığı zaman uyuduklarında iyileşirler.
+TipOfTheDay.3=Kazılacak kaynakları seçerken Alt tuşuna basılı tutarak bölgenizdeki aynı türden tüm nesneleri seçin.
+TipOfTheDay.4=Alt tuşuna basılı tutarken bir binaya basarsanız o binayı kopyalarsınız.
+TipOfTheDay.5=Bir atölyeye üretim eklerken alt tuşuna basılı tutarak çıktı depo alanlarında kabul edilen ürünleri otomatik olarak güncelleyebilirsiniz.
+TipOfTheDay.6=Shift ve F1'e basarak kameranın şimdiki pozisyonunu kaydedin. F1'e tekrar basarak o pozisyona gidin. (F1 ila F4 arasında çalışır)
+TipOfTheDay.7=F11'e basarak arayüzü gizleyin.
+TipOfTheDay.8=F12'ye basarak bir ekran görüntüsü alın.<br><br>Kaydetme klasörleri Win/Linux/Mac:<br>   C:\Kullanıılar_\<kullaıcıadı>_\AppData_\LocalLow_\MirkoStudio_\Kubifak_torium_\...  <br>  ~/.config_/unity3d_/MirkoStudio_/Kubifak_torium_/<br>  ~/Library/Application Support/unity.Unity Technologies.Unity Labs
+
+
+
+TipOfTheDay.9=Bir eşyanın açıklama paneline tıklayıp üretim ağacını görüntüleyebilirsiniz.
+TipOfTheDay.10=Önerilen bir binaya tıklayarak inşa edin. Önerilen bir eşyaya tıklayarak üretilebildiği bir atölye seçin.
+
+UI.RecipeHint = <i>Bir üretim tarifine tıklayarak aktif edin ya da devre dışı bırakın. Alt tuşuna basılı tutarak çıktı depo alanlarında kabul edilen ürünleri otomatik olarak güncelleyebilirsiniz.</i>
+
+
+
+UI.Recommendations = Öneriler
+
+Message.MinimumGood = $1 geminin kargosuna eklendi.
+
+MainMenu.Campaign.Size = Dünya boyutu:
+MainMenu.Campaign.Size.0 = Minik
+MainMenu.Campaign.Size.1 = Küçük
+MainMenu.Campaign.Size.2 = Normal
+MainMenu.Campaign.Size.3 = Büyük
+MainMenu.Campaign.Size.4 = Kocaman
+
+
+UI.AssignZone = Alan ata.
+UI.AssignZone.Desc = Buraya tıklayarak bu alanın rengini seçin.
+
+UI.RestartMap = Haritayı Yeniden Başlat
+
+UI.TargetTrack = Üretim Hedefi ($1 / $2):
+UI.ProductionTarget.Met = Üretim hedefine ulaşıldı:<br> $1
+UI.ProductionTarget.MetShort = Üretim hedefine ulaşıldı:<br> $1
+
+
+UI.Recommendations.Desc = Öneri sistemi şu anki durumu göze alarak yapılacak şeyler önerir.
+
+UI.ProductionTarget = Üretim Hedefi
+UI.ProductionTarget.Desc = Şu anki ada için üretim hedefi
+UI.ProductionTarget.TooltipTitle = Üretim Hedefi:
+
+
+UI.WM.Inventory.Title = Envanter
+UI.WM.Inventory = Envanter
+UI.WM.Inventory.Desc = Şimdiye kadar ürettiğin ve topladığın eşyaları gözden geçir.
+
+UI.VictoryScreen.Title = Kazandın!
+
+UI.LeaveMap = Adadan Ayrıl
+UI.LeaveMap.Desc = Bu adadan ayrıl ve dünya haritasına geri dön.
+UI.IncreaseProductionTarget = Hedefi Yükselt
+UI.IncreaseProductionTarget.Desc = Şimdiki ada için üretim hedefini yükseltmek diğer adalardaki üretim hedefini azaltır.<br>Not: Yükseltilen hedefe ulaşmadığın zaman bile bu adadan ayrılabilirsin.
+Message.IncreaseProductionTarget = Envanter hedefi %$1 oldu.
+
+UI.ReturnToMain = Ana Menüye Geri Dön
+UI.ReturnToMain.Desc = Oyundan ayrıl ve ana menüye geri dön.
+
+UI.NextTutorial = Sonraki Eğitim
+UI.NextTutorial.Desc = Oyundan ayrıl ve sonraki eğitim bölümünü oyna.
+
+UI.ResumePlaying = Oynamaya Devam Et
+UI.MapComplete = Zafer!
+
+Message.LevelUp = $1 $2 becerisinde $3. seviyeye ulaştı.
+
+Message.GameSaved = Oyun kaydedildi.
+
+
+# 31.3.2019
+UI.Start = Başla
+UI.Randomize = Rastgele
+
+Objective.AnyStockpileAcceptsType = Depo alanı $1 ürününü kabul etsin.
+Objective.AnyStockpileAcceptsType.Desc = Bir depo alanında kabul edilen ürünleri değiştirmek için seçin ve bilgi panelinde ürünlere tıklayın.
+
+##productiontarget = Üretim Hedefi
+##productiontarget.Desc = Üretim Hedefi: İlerlemek için her adada üretmen gereken ürünler.
+
+
+
+UI.Build.NoWorker = İnşaat işçisi atanmadı.
+UI.Build.NoWorker.Desc = Bir kolonistin inşaat işleri yapması için onu seç ve inşaat ikonuna tıkla. O bölgede çalışma izni olduğundan emin ol. Alternatif olarak kolonistlerinin işlerini kolonist yönetim ekranından da yönetebilirsin.
+
+Logistics.Status.Loop = Döngü tespit edildi.
+Logistics.Status.Loop.Desc = Bir döngü iki depo/depo alanı arasında çift yönlü bir bağlantı olduğunda ve ikisi de aynı ürünleri kabul ettiğinde ortaya çıkar. İkisinden birinin kabul ettiği ürünleri değiştirerek bu sorunu çözebilirsiniz.
+
+
+UI.Attack = Saldır
+UI.Attack.Desc = Sınırlarımıza yakın olan bir düşman kampına saldır.
+
+Objective.RecruitDemands = Bölgeni genişlet.
+Objective.RecruitDemands.Desc = Onları ikna edip kendine katmak için bölgeni bayrağı içine alana kadar genişlet.
+
+Settings.StreamDeck = Stream Deck
+Settings.StreamDeck.Desc = Stream Deck desteği. Yeniden başlatma gerektirir.
+
+UI.ActiveJobs = İşler
+
+TipOfTheDay.11=Zeplin depolarını depo alanları gibi kullanabilirsin. Tarlalar, atölyeler vb. için girdi veya çıktı olarak kullanabilirsin.
+
+
+UI.Follow = Nesneyi takip et
+UI.Follow.Desc = Bir kolonisti, eşyayı vb. takip et.
+UI.Clone = Binayı kopyala
+UI.Clone.Desc = Bu binanın bir kopyasını inşa et. Üretim ayaları ve bağlantılar kopyalanacak.
+
+UI.Weight.Light = Hafif
+UI.Weight.Normal = Orta
+UI.Weight.Heavy = Ağır
+
+UI.Build.AwaitingConstruction.Desc = İnşaat bir kolonist uygun olduğu zaman başlayacak.
+
+UI.BuiltFrom.Multibuild = $1 birim verir.
+
+UI.LogisticsRequest = Lojistik sisteminden iste.
+UI.LogisticsRequest.Desc = Seçilen ürünleri lojistik sisteminden iste. Eğer seçilmezlerse sadece depo veya atölye çıktıları olarak kullanılacaklar.
+
+UI.Inventory.ShowCargo = Kargoyu dahil et
+UI.Inventory.ShowCargo.Desc = Şu an geminde bulunan kargoyu dahil et.
+
+Settings.VoiceAmbience = Kolonist Sesi
+Settings.VoiceAmbience.Desc = Kolonistlerinin ses yüksekliği.
+
+UI.MinedFrom = Kazılan yer
+
+
+# 14.4.19
+
+Status.ZoneSplit = Alan bölündü.
+Status.ZoneSplit.Desc = Bu alan iki veya daha fazla parçaya bölündü. Diğer parçaları silerek bu uyarıyı kaldırın.
+
+UI.GrowsOn = Büyüdüğü yer(ler)
+
+Farm.Status.InvalidTerrain = Uygun olmayan toprak.
+Farm.Status.InvalidTerrain.Desc = Seçilen bitki bu toprakta büyümez.
+
+UI.HaltUnloadAll = Boşaltmayı durdur.
+
+
+Status.NothingAccepted = Ürün kabul edilmiyor.
+Status.NothingAccepted.Desc = Bu depo alanında hiçbir ürün kabul edilmiyor.
+
+UI.AcrossIslands = Tüm adalar için: $1
+
+
+MainMenu.Campaign.Loadouts = Başlangıç grubu ve kargosu:
+
+
+UI.ItemInfo = Eşya bilgisi:
+UI.PlantInfo = Bitki bilgisi:
+UI.ActorInfo = Kolonist / Hayvan bilgisi:
+
+UI.TaskGroups = İşler: $1
+
+UI.SpeedBonus = Hız bonusu: $1%
+Task.Water.Text = Toprak sulanıyor.
+Task.FarmWater.Text = Toprak sulanıyor.
+
+
+Workshop.Status.NoInputStockpile = Girdi depo alanı atanmadı.
+Workshop.Status.NoInputStockpile.Desc = Bir girdi depo alanı atamak için depo alanına sol tıklayın ve depo alanının içerdiği ürünlerin kullanılmasını istediğiniz atölyeye sağ tıklayın. Atölyeler biri bağlandığı an sadece bağlı depo alanlarından kaynak kullanacaktır.
+
+UI.ThisIsland = Bu ada için($2%): $1
+
+Setting.AO.Off = Kapalı
+Setting.AO.Medium = Orta
+Setting.AO.High = Yüksek
+Setting.Shadows.Off = Kapalı
+Setting.Shadows.Soft = Yumuşak
+Setting.Shadows.Hard = Sert
+
+Mod.MadeBy = Yapan
+Mod.Version = Sürüm
+Mod.Requires = Gereklilikleri
+Mod.Contains = İçerdikleri
+
+BugReport.Title = Sorun Raporu Yolla
+BugReport.Cancel = İptal Et
+BugReport.Submit = Yolla
+BugReport.Summary = Özet
+BugReport.Description = Açıklama
+BugReport.Category = Kategori
+BugReport.Submitting = Sorun raporu yollanıyor. Teşekkürler!! :D
+BugReport.Failed = Sorun raporu yollanamadı. Lütfen daha sonra tekrar deneyin.
+
+UI.Inhabitants = Yaşayanlar
+Message.ActorDied = $1 yenildi.
+Train.Status.Okay.Desc = Tren bir sonraki istasyona ilerliyor.
+
+
+UI.CombatState.Waiting = (Bekliyor)
+
+
+UI.CombatState.Title = Devam eden savaş var!
+
+UI.Attack.Miss = Iska!
+UI.AttackCamp.Desc = Bölgelerini ele geçirmek için düşman kamplarını yok et. Düşmanlarının aksine kolonistlerin ölemezler. Kuvvetli bir kampa defalarca saldırmak zaferin anahtarıdır.
+
+## 1.5.2019
+
+UI.IdleFighters = Boştaki savaşçılar
+UI.IdleFighters.Desc = Buraya tıklayarak boştaki tüm savaşçılar arasında dolaş.
+
+
+UI.MiningDifficulty = Sertlik
+UI.MiningDifficulty.Desc = Sertlik bir işçinin bu kaynağı kazmasının ne kadar zaman alacağını belirler.
+
+
+MiningDifficulty.Easy = Sertlik: Yumuşak
+MiningDifficulty.Normal = Sertlik: Orta
+MiningDifficulty.Hard = Sertlik: Sert
+MiningDifficulty.VeryHard = Sertlik: Çok Sert
+
+UI.BuildTrain.NoMoreTrains = Maksimum sayıda inşa edildi.
+UI.BuildTrain.NoFreeSegment = Ray parçası dolu.
+
+Task.UnloadAuto.Text = $1 boşaltılıyor.
+
+UI.TrackLayer.Start = Tren rayı inşa et.
+UI.TrackLayer.Start.Desc = Tren rayları inşa ederek tren fabrikalarını ve istasyonları birleştir. Raylar envanterinde ray parçaları olduğu sürece otomatik olarak inşa edilecek. <br>İnşa ederken yüksek seviyede mi yoksa alçak seviyede mi inşa edileceğini değiştirmek için ##Keycycle tuşuna bas.
+UI.TrackLayer.Semaphore1 = Bir rayın üzernie bir sinyal yerleştir.
+UI.TrackLayer.Semaphore2 = Bir rayın üzerine bir ön-sinyal yerleştir.
+UI.TrackLayer.Semaphore1.Desc = Tren sinyalleri bir trenin belirtilen yönde geçmesini sağlar. İlerideki bölüm meşgulse tren burada bekler.
+UI.TrackLayer.Semaphore2.Desc = Tren ön-sinyalleri bir trenin belirtilen yönde geçmesini sağlar. İlerideki bölüm meşgulse tren burada bekler.
+
+
+UI.TrainStation = Tren İstasyonu
+UI.TrainStation.WaitForFull = Trenler dolana kadar bekle.
+UI.TrainStation.WaitForFull.Desc = Trenleri tamamen dolana kadar beklet.
+
+
+TipOfTheDay.12=Geliştirme atölyesini kullanarak ekipmanı ve silahları geliştir.
+
+
+Debug.forcerain = Yağmuru Zorla
+Debug.forcerain.Desc = Zorla yağmur başlat.
+
+Debug.time = Zamanı ilerlet.
+Debug.time.Desc = Zamanı 2.4 saat ilerlet.
+
+Debug.claimall = Haritaya El Koy
+Debug.claimall.Desc = Tüm haritaya el koy.
+
+Debug.ai = YZ'yi başlat
+Debug.ai.Desc = Yapay Zeka inşa hizmetini başlat (deneysel).
+
+Debug.revealmap = Haritayı açığa çıkar
+Debug.revealmap.Desc = Savaş sisini kaldır.
+
+Debug.killall = Her şeyi öldür
+Debug.killall.Desc = Tüm hayvanları, düşmanları ve kolonistleri öldür.
+
+Debug.clearitems = Eşyaları temizle
+Debug.clearitems.Desc = Tüm eşyaları temizle.
+
+Debug.forcewin = Kazan
+Debug.forcewin.Desc = Üretim hedeflerini kaldır.
+
+Debug.reloadTranslations = Çevirileri yeniden yükle
+Debug.reloadTranslations.Desc = Çeviri dosyalarını yeniden yükle ve yazıları güncelle. Bazı arayüzleri etkilemez.
+
+Debug.toggleenglish = İngilizceyi aç/kapa.
+Debug.toggleenglish.Desc = İngilizceyi aç/kapa.
+
+# 21.5.2019
+UI.Item.Import = İthalat ücreti: $1
+UI.Item.Export = İhracat ücreti: $1
+UI.Import.Title = İthalat ücretleri:
+UI.Export.Title = İhracat ücretleri:
+
+Task.Produce.Export = $1 ihraç ediliyor.
+Task.Produce.Import = $1 ithal ediliyor.
+
+
+UI.Priority = Öncelik:
+UI.Priority.Tooltip = Öncelik
+UI.Priority.Tooltip.Desc = Daha yüksek öncelikli depo alanları ve atölyeler daha önce kullanılır.
+UI.Priority.Tooltip1 = Çok Yüksek Öncelik
+UI.Priority.Tooltip1.Desc = Daha yüksek öncelikli depo alanları ve atölyeler daha önce kullanılır.
+UI.Priority.Tooltip2 = Yüksek Öncelik
+UI.Priority.Tooltip2.Desc = Daha yüksek öncelikli depo alanları ve atölyeler daha önce kullanılır.
+UI.Priority.Tooltip3 = Normal Öncelik
+UI.Priority.Tooltip3.Desc = Daha yüksek öncelikli depo alanları ve atölyeler daha önce kullanılır.
+UI.Priority.Tooltip4 = Düşük Öncelik
+UI.Priority.Tooltip4.Desc = Daha yüksek öncelikli depo alanları ve atölyeler daha önce kullanılır.
+UI.Priority.Tooltip5 = Çok Düşük Öncelik
+UI.Priority.Tooltip5.Desc = Daha yüksek öncelikli depo alanları ve atölyeler daha önce kullanılır.
+
+##cargoship.Desc = Kargo gemisi: Gerek duymadığınız ürünleri ihraç ve gerek duyduklarınızı ithal etmenizi sağlar. Bir şeyi ihraç etmek için bir depo alanını limana bağlayın. Bir şeyi ithal etmek için limanı bir depo alanına bağlayın ve ithal edilebilecek bir şeyi kabul etmesi için ayarlayın.
+
+
+UI.CurrentlyInStock = Envanterdekiler: $1
+
+UI.PropagateToAll = Çıktı depo alanlarını ayarla.
+UI.PropagateToAll.Desc = Tüm çıktı depo alanlarını bu atölyeden çıktıları kabul etmesi için ayarla.
+
+TipOfTheDay.13=Gerekli kaynaklar bulunmadığı zaman, bir liman inşa ederek kaynak ithal edebilirsiniz. Masrafları karşılamak için üretimi ihraç edebilirsiniz.
+
+
+
+
+UI.HaltUnloadAll.Desc = Ürün boşaltmayı durdur.
+
+
+UI.WM.Tiers.Title = Biyom üretim hedefi
+UI.WM.Tiers.Title.Desc = Her biyomda ulaşman gereken bir üretim hedefi vardır. Diğer biyoma geçmek için şimdiki biyomda %100'e ulaşman gerekir.
+
+UI.TargetsForTier = Biyom hedefleri $1:
+
+
+# 2.6.19
+Objective.CarriageSchedule = At arabasının rotasına $5 istasyonunu ekle
+Objective.CarriageSchedule.Desc = Bir istasyonu bir at arabasının rotasına eklemek için at arabasını seçin ve eklemek istediğiniz istasyona sağ tıklayın. Tekrar tıklamak istasyonu rotadan kaldırır.
+
+
+UI.Skirmish.Cargohint = İpucu: Başka bir coğrafyayı denemek için Seviye 2 veya 3 senaryoları deneyin. Bu uygun kargoya sahip olduğunuza emin olmanızı sağlar.
+
+Carriage.Schedule = At Arabasının Rotası:
+Carriage.Schedule.UI = At Arabası İstasyonu
+Carriage.Schedule.UI.Desc = Rotaya bir istasyon eklemek için at arabasını seçin ve yeni istasyona sağ tıklayın. Bir istasyonu kaldırmak için rotadaki girdisine tıklayın.
+
+
+UI.Train.Destroy = Treni yok et.
+UI.Train.Go = Git
+UI.Train.Stop = Dur
+
+Quality.Level0 = berbat
+Quality.Level1 = normal
+Quality.Level2 = harika
+Quality.Level0.Desc = Berbat kalitedeki eşyalar.
+Quality.Level1.Desc = Normal kalitedeki eşyalar.
+Quality.Level2.Desc = Harika kalitedeki eşyalar.
+
+Name.StockpileZoneCC = Depo Alanı
+Name.FarmZoneCC = Tarla
+Name.GroveZoneCC = Ağaçlandırma Alanı
+
+UI.Road.Desc = Yollar inşa ederek atölyeleri ve depoları bağla. Kolonistler yolların üzerinde daha hızlı hareket eder. Bir başlangıç ve bir bitiş karesi belirleyerek yol inşa et. Alternatif olarak tutup sürükleyebilirsiniz.
+
+
+EarlyAccessWarning.Intro = Kara topraklar ve ilişkili özellikler (taşıma bantları, otomatik üretim vb.) heniz erken geliştirmede. Dengesizlik ve kayıp kaynaklar gibi sorunlar bekleyin. Sorunlardan haberdarım, bundan dolayı onları rapor etmenize gerek yok. 2019'un sonunda düzeltmeyi planlıyorum :)
+EarlyAccessWarning.Help = Erken Erişim Uyarısı
+
+# Deleted: Objective.ShowHelpScreen Objective.ShowHelpScreen.Desc Objective.ConnectFarmsToRoads Objective.ConnectFarmsToRoads.Desc Objective.ConnectWorkshopsToRoads Objective.ConnectWorkshopsToRoads.Desc
+
+
+UI.Import.Money = Paran: $1
+UI.Import.Help = Paran
+UI.Import.Help.Desc = Parayı hammadde ithalatında kullanabilirsin. İhracat yaparak para kazan.
+
+UI.ItemState.Available = Eşya uygun
+UI.ItemState.Reserved = Eşya rezerve
+UI.ItemState.ReservedBy = Eşya $1 tarafından rezerve edildi
+UI.ItemState.TransportedTo = Eşya $1 yerine taşınıyor
+
+UI.Upgrade = Geliştirilecek eşyaları seç.
+UI.Upgrade.Desc = Geliştirme atölyesinde aynı kaliteden iki eşya daha yüksek kalitede tek bir eşya oluşturmak için birleştirilir.
+
+
+TipOfTheDay.14= Kolonistleri, alanları ve bazı binaları isimlendirebilirsin. Bunu yapmak için onları seçip bilgi panelinin üst kısmındaki isimlerine tıkla.
+
+TipOfTheDay.15 = Kolonistler ekipman taşımıyorken daha hızlı hareket eder. Tüm görevlerin ve atölyelerin atamasını kaldırarak bir kolonisti taşıyııc yapabilirsiniz.
+
+TipOfTheDay.16 = Bir depo alanının kareleri oluşturuldukları sırada kullanılır. Bir atölyenin yanında oluşturup oradan genişleterek daha etkili kılabilirsiniz.
+
+TipOfTheDay.17 = Geminizi bir depo alanına bağlayabilirsiniz. Bunu yapmak kolonistlerin depo alanının kabul ettiği tüm eşyaları taşımasını sağlar.Y
+
+MainMenu.Notice.Demo = Bu sınırlı özelliklere sahip bir deneme sürümü. Buraya tıklayarak oyunun steam sayfasını ziyaret ederek erken erişin sürümünü satın alabilir ya da oyunu istek listenize ekleyerek güncellemeler hakkında bilgi alabilirsiniz. Teşekkürler :)
+
+MainMenu.Notice.EarlyAccess = Kubifaktorium'un Erken Erişim sürümüne hoşgeldiniz! Şimdiki sürüm için bazı ipuçları: <br>- Yeni başlayanların eğitimleri oynamasını sıklıkla öneriyorum.<br> - Çimler ve çöl biyomları oldukça oynanabilir durumda. Onun dışındaki her şey (otomasyon, taşıma bantları vb.) hala geliştirmenin erken aşamasında. Daha fazlasını öğrenmek için oyunun yol haritasına bakın. Oyunu oynarken lütfen dünya haritasına her döndüğünüzde oyunu kaydedin. <br> - Eğer bir sorunla karşılaşırsanız lütfen oyun içi bildirme (sağ üstte) yoluyla bize bildirin. <br> - Oyun hakkında konuşmak için en iyi yer oyunun resmi Discord sunucusudur.<br>Oynadığınız için teşekkür ederim, umarım oyunu beğenirsiniz! :) <br>  Mirko
+
+
+# 15.6.2019
+# Removed: Objective.Load, Objective.Load.Desc
+
+
+UI.ShowTips = İpuçlarını Göster
+UI.Tips = İpuçları
+
+Debug.currency = 100 para ekle.
+Debug.currency = Kargo limanına 100 para ekle.
+
+
+
+# 28.6.2019
+UI.WaterState = Su: $1
+
+DemoDisable = Deneme sürümünde devre dışı.
+DemoDisable.Desc = Ne yazık ki bu özellik deneme sürümünde açık değil.
+
+UI.Modding.Submit = Yükle/Güncelle
+UI.Modding.Legal = Bir mod yükleyerek, o modu yaptığınızı ve Steam Atölyesinin Terms of Service'ına uyduğunuzu kabul edersiniz. (Buraya tıklayın)
+Mod.Owned = Yerel/Sahibi olduğun mod.
+Mod.Steam = Steam Atölyesinden indirildi.
+
+# 5.7.2019
+UI.BuildTrain.SelectTrainToBuild = Yapılacak treni seçin.
+
+UI.WorldMap = Dünya haritası
+UI.WorldMap.Desc = Dünya haritasına hoş geldin! Kaynak topla, daha karmaşıklaşan üretim zincirleri oluştur, hayvanları ve insanları kendine katarak işgücünü arttır!<br>Not: Şimdilik hikaye veya amaç yok. Sadece biyomları keşfet ve eğlen :)
+
+
+# 6.7.2019
+UI.Modding.State.Idle = (Boş)
+UI.Modding.State.Submitting = Mod yükleniyor...
+UI.Modding.State.Updating = Mod güncelleniyor...
+UI.Modding.State.CreationFailed = Mod oluşturulamadı: Hata kodu $1
+UI.Modding.State.UpdateSuccess = Mod başarıyla yüklendi/güncellendi.
+UI.Modding.State.SteamNotInitialized = Hata: Steam arayüzü başlatılmamış.
+
+# 8.7.2019
+Farm.Status.Paused.Desc = Bu tarlada ekilecek bir bitki seç.
+
+## renamed from Task.Train
+Task.TrainCombat.Text = Savaş eğitimi
+
+TipOfTheDay.18 = İlerlemen için gereken kaynaklar bittiğinde bir liman inşa et ve ticaret yap. Kereste, ekmek ve bira gibi eşyalar sınırsız üretilebilir ve ihraç edilebilir.
+
+
+UI.Pasture = Mera
+UI.Pasture.Desc = Bir mera oluştur veya genişlet.
+##pasturezone = Mera
+##pasturezone.Desc = Mera: Verimli topraklarda oluşturulabilir. Tarafsız hayvanlar toplar ve onlara ev sahipliği yapar.
+
+TaskGroup.Pasture = Hayvancılık
+TaskGroup.Pasture.Desc = Hayvancılar vahşi hayvanları evcilleştirir ve meralardaki hayvanlarla ilgilenir.
+UI.SelectAnimal = Hayvan seç
+UI.PastureAnimalInfo = Çiftlik hayvanı
+UI.TamingDifficulty = Evcilleştirme Zorluğu
+
+Name.PastureZoneCC = Mera
+UI.PastureYield = Meradayken $2 saniyede bir $1 verir.
+UI.PastureCapacity = Kullanılan Kapasite: $1 / $2
+Task.Tame.Text = $1 evcilleştiriliyor.
+Task.YieldAnimal.Text = $1 sağılıyor.
+
+
+Pasture.Status.Idle = Boşta.
+Pasture.Status.Idle.Desc = Mera normal bir şekilde çalışıyor.
+Pasture.Status.Paused = Hayvan seçilmedi.
+Pasture.Status.Paused.Desc = Evcilleştirilecek bir hayvan türü seçin. Sadece görülebilen tarafsız hayvanlar evcilleştirilebilir.
+Pasture.Status.NoPastureWorkers = Hayvancı yok.
+Pasture.Status.NoPastureWorkers.Desc = Bir kolonisti hayvancı olarak çalışması için ata ve onun bu bölgede çalışmaya izni olduğundan emin ol.
+Pasture.Status.TooSmall = Mera çok küçük.
+Pasture.Status.TooSmall.Desc = Meralar hayvan başı 6 kare gerektirir.
+
+PastureAnimal.Status.NoPasture = Hayvan evcilleştirilmedi.
+PastureAnimal.Status.NoYield = Hayvan bir şey üretmiyor.
+PastureAnimal.Status.YieldProgress = Üretim ilerlemesi: $1%
+
+## 9.7.2019
+UI.Error.TrackReserved = Bir tren tarafından kullanılacakken raylar kaldırılamaz.
+
+UI.SocialBuilding = Sosyal bina.
+
+
+UI.Error.LastBonfire = Son kamp ateşini yok edemezsin.
+
+## 20.7.2019
+UI.Vein.Destroy = Damarı yok et.
+UI.Vein.Destroy.Desc = Bu damarı yok eder ve üzerine başka şeyler inşa etmene olanak sağlar. Uyarı: Geri döndürülemez.
+UI.House.ForColonists = Kolonistler:
+UI.House.ForAnimals = Hayvanlar:
+
+LoadingPhase.HarbourPlacement = Liman arayüzü işleniyor.
+
+UI.IdleColonists.ListTaskGroups = Atanmış işler:
+
+
+TipOfTheDay.19 = Atölye veya depo alanı sçeildiğinde Sol Alt tuşuna basılı tutarak diğer atölyeler / depo alanları için ok tuşları gösterin.
+
+UI.Confirm.Yes = Evet
+UI.Confirm.No = Hayır
+UI.Confirm.Load = Şimdiki oyunu bitirip kayıt dosyasını yüklemek istediğinize emin misiniz?
+UI.Confirm.MainMenu = Şimdiki oyunu bitirip haritayı yeniden başlatmak istediğinize emin misiniz?
+UI.Confirm.Restart = Şimdiki oyunu bitirip haritayı yeniden başlatmak istediğinize emin misiniz?
+UI.Confirm.Quit = Oyundan çıkmak istediğinize emin misiniz?
+
+UI.Recipe.Inputs = Girdiler:
+UI.Recipe.AdditionalOutputs = Fazladan çıktılar:
+
+# 1.8.2019
+UI.ProductionTree.Desc = Seçilen ürünü ürün ansiklopedisinde aç.
+
+
+
+BugReport.Discord = Discord Numarası veya eposta (sorular için, isteğe bağlı)
+
+Savegame.Version = Oyun Sürümü:
+Savegame.ModsInUse = Kullanılan Modlar:
+Savegame.TimeSaved = Ne Zaman Kaydedildi:
+
+UI.EnterText=Yazı girin...
+
+Settings.AssistMode = Destek Modu
+Settings.AssistMode.Desc = Birkaç oyun mekaniğini yeni oyuncuların oyunu daha rahat anlayabilmesi için basitleştirir. Basitleştirilenler şunlardır:
+1) Otomatik olarak kolonistleri tüm işlere/atölyelere atamak. 2) Atölyede üretilenler otomatik olarak çıktı depo alanlarına atanır. 3) Gemiden inşaat materyalleri gibi bazı eşyalar otomatik olarak boşaltılır. 4) Tüm renkleri/alanları tüm kolonistlere ekler.
+UI.ForbidUsage = Tüketimi yasakla
+UI.ForbidUsage.Desc = Kolonistlerinin bu depo alanından tüketim yapmasını yasakla.
+
+TutorialWarning =  Eğitim uyarısı.
+TutorialWarning.Desc = Oyuna başlamadan önce eğitimlerden birini oynamak şiddetle tavsiye edilir. (Bu uyarıyı kaldırmak için herhangi bir eğitime başla.)
+
+UI.Build.ConstructionComplete = İnşaat tamamlandı.
+UI.Build.ConstructionComplete.Desc = İnşaat tamamlandı.
+
+Workshop.Status.OutputBoxFull = Çıktı kutusu dolu.
+Workshop.Status.OutputBoxFull.Desc = Üretimi devam ettirmek için lütfen çıktı kutusunu boşaltın.
+
+UI.Color1 = kırmızı
+UI.Color2 = sarı
+UI.Color3 = yeşil
+UI.Color4 = mavi
+UI.Color5 = mor
+
+
+UI.ProductionTime = Üretim Süresi: $1s
+
+AttackEnemyCamp.Desc = 2.) Düşman kampına saldır.
+AttackEnemyCamp.Intro = Düşman bölgesine tıkla ve saldıra tıklayarak kampa saldır.
+AttackEnemyCamp.Outro = İpucu: Kolonistlerini seçerek farklı silahlar kullanırken ne kadar hasar verdiklerini gör.
+AutoWorkshop1.Desc = 1.) Yarı Otomatik Kurulum
+AutoWorkshop1.Intro = Otomatik bir atölyeyi kullanmanın en basit yolu kolonistlerinin girdi sağlayıp çıktıları almasıdır. Depo alanı 1'i testereye, testereyi de depo alanı 2'ye bağlayın.
+AutoWorkshop2.Desc = 2.) Depolar ve otomatik kollar.
+AutoWorkshop2.Intro = Depolar, gözler ve otomatik kollar kullanarak otomatik bir atölyeyi kullanabilirsiniz. Depo 4'teki gözleri kütük kabul edecek şekilde ayarlayın.
+AutoWorkshop3.Desc = 3.) Çoklu Atölyeler
+AutoWorkshop3.Intro = Taşıma bantları kullanarak aynı anda birden fazla atölyeyi besleyebilirsin. Üretim zincirinde bir atölyenin çıktısını diğer atölyenin girdisi de yapabilirsin.
+AutoWorkshop3.Outro = İpucu: otomatik kolların arasındaki 1x1 (1'e 1) depo alanı kolonistlerinin ortadaki ürünleri "çalmamasını" sağlar.
+BuildAutoTrain.Desc = 2.) Bir tren inşa et
+BuildAutoTrain.Intro = Tren fabrikasını kullanarak bir tren inşa et.
+BuildCircleTrain1.Desc = Tren 1/4
+BuildCircleTrain1.Intro = Tren fabrikasını kullanarak bir tren inşa et ve iki istasyonu rotasına ekle.
+BuildCircleTrain2.Desc = Tren 2/4
+BuildCircleTrain2.Intro = Tren fabrikasını kullanarak başka bir tren inşa et ve iki istasyonu rotasına ekle.
+BuildCircleTrain3.Desc = Tren 3/4
+BuildCircleTrain3.Intro = Tren fabrikasını kullanarak başka bir tren inşa et ve iki istasyonu rotasına ekle.
+BuildCircleTrain4.Desc = Tren 4/4
+BuildCircleTrain4.Intro = Tren fabrikasını kullanarak son treni inşa et ve iki istasyonu rotasına ekle.
+BuildCircleTrain4.Outro = Bu dört tren döngüsel tren hattını çakışmadan kullanacaklar. Bu tür bir kurulum yüksek kapasiteli tren hatlarında kullanışlıdır.
+BuildCloverleaf.Desc = Tren inşa et
+BuildCloverleaf.Intro = Tren fabrikasını kullanarak birkaç tane tren inşa et ve farklı istasyonları rotalarına ekle.
+BuildingType.AutoWorkshop = Atölye (Otomatikleştirilmiş)
+BuildingType.AutoWorkshop.Desc = Otomatikleştirilmiş atölyeler kolonistlere gerek duymadan ürün üretebilirler.
+BuildPreSignalTrain1.Desc = Tren 1/4
+BuildPreSignalTrain1.Intro = Tren fabrikasını kullanarak bir tren inşa et ve iki istasyonu rotasına ekle.
+BuildPreSignalTrain2.Desc = Tren 2/4
+BuildPreSignalTrain2.Intro = Tren fabrikasını kullanarak başka bir tren inşa et ve iki istasyonu rotasına ekle.
+BuildPreSignalTrain3.Desc = Tren 3/4
+BuildPreSignalTrain3.Intro = Tren fabrikasını kullanarak başka bir tren inşa et ve iki istasyonu rotasına ekle.
+BuildPreSignalTrain4.Desc = Tren 4/4
+BuildPreSignalTrain4.Intro = Tren fabrikasını kullanarak son treni inşa et ve iki istasyonu rotasına ekle.
+BuildPreSignalTrain4.Outro = Ön Sinyaller trenlerin kilitlenmelerine sebep olacak raylara girmelerini engeller.
+BuildTrain.Desc = 3.) Bir tren inşa et
+BuildTrain.Intro = Tren fabrikasını kullanarak bir tren inşa et (4).
+CarriageSetupLinks.Desc = 2.) Bağlantıları ayarla
+CarriageSetupLinks.Intro = Güzel. Kayalar şimdi en yakın olduğu için kuzeydeki istasyona taşınıyor. Şimdi, istasyonları bağla.
+CarriageSetupSchedule.Desc = 3.) Rotayı ayarla
+CarriageSetupSchedule.Intro = Son olarak at arabalarını seç ve sağ tıklayarak istasyonları rotalara ekle.
+CarriageSetupStockpiles.Desc = 1.) İstasyon ve depo alanı kur.
+CarriageSetupStockpiles.Intro = Kayalar oldukça ağır olduklarından onları taşımak da zahmetli ve yavaştır. Uzak mesafelerde at arabaları kullanmak çok daha etkilidir. Üstteki ve alttaki depo alanlarını kayaları kabul edecek şekilde ayarla.
+ConvTutPart1.Desc = 1.) Basit kurulum.
+ConvTutPart1.Intro = Bu kurulum yerdeki taşıma bantlarının nasıl kullanılabileceğini gösterir. Çıkış gözünü demir blokları kabul edecek şekilde ayarla.
+ConvTutPart2.Desc = 2.) Dağıtıcılar
+ConvTutPart2.Intro = Dağıtıcılar girdi taşıma bantlarından çıkanları bir veya birden fazla çıktı girdi bandına dağıtır. Çıktı gözünü seç ve taş blokları kabul edecek şekilde ayarla.
+ConvTutPart3.Desc = 3.) Toprak-üstü bantları
+ConvTutPart3.Intro = Taşıma bantları iki kat halinde inşa edilebilir. Rampalarla katlar arasında ürünleri taşıyabilirsin. Depodaki çıktı gözünü seç ve tahta kütükleri kabul edecek şekilde ayarla.
+DefeatEnemyCamp.Desc = 3.) Düşman kampını yok et
+DefeatEnemyCamp.Intro = Düşman bölgesine tıkla ve kolonistlerine saldırı emrini ver.
+DefeatEnemyCamp.Outro = İpucu: Kolonistlerin savaşta ölemez. Canları azaldığında geri çekilirler.
+LinkAutoTrainStations.Desc = 1.) Tren istasyonlarını bağla
+LinkAutoTrainStations.Intro = Kuzeydeki kurulumu incele. Otomatik kazıcılardan kazılan demirler otomatik olarak tren istasyonuna taşınır. İstasyon 1 ve istasyon 2 arasında bir bağlantı kur.
+LinkGoldZeppelinStation.Desc = 4.) Altını ağa bağla
+LinkGoldZeppelinStation.Intro = Şimdi altın deposunu yanındaki zeplin istasyonuna bağla. Bunu yapmak deponun içeriğini ağa açar.
+LinkStockpiles.Desc = 3.) Depo alanları bağla
+LinkStockpiles.Intro = Girdi depo alanlarını doldurmak için lojistik sistemini kullanacağız. 2. depo alanını 4.'ye, 3. depo alanını da 5.'ye bağla. Ayrıca onları kaya ve kütük kabul edecek şekilde ayarla.
+LinkTrainStations.Desc = 2.) Tren istasyonlarını bağla
+LinkTrainStations.Intro = İki yönde de tren istasyonlarını birbirine bağla.
+LinkTrainStockpiles.Desc = 5.) Depo alanlarını bağla
+LinkTrainStockpiles.Intro = Son olarak depo alanlarıımızı istasyonlara bağlamamız ve depo alanı 5'i altın blokları kabul edecek şekilde ayarlamamız gerekiyor.
+LinkTrainStockpiles.Outro = İpucu: Trenlerin kurulumu pahalıdır ama zeplinlerden daha yüksek kapasiteye sahiptirler.
+LinkZeppelinStations.Desc = 3.) Zeplin istasyonlarını bağla
+LinkZeppelinStations.Intro = Zeplinleri kullanarak altın bloklarını taşıyacağız. Bunu yapmak için kuzeydeki istasyonu (2) diğerine (4) bağla.
+LinkZeppelinStationToTarget.Desc = 5.) Hedef depo alanını bağla
+LinkZeppelinStationToTarget.Intro = Son olarak güney zeplin istasyonunu hedef depo alanımıza bağlamamız ve depo alanını altın blokları kabul edecek şekilde ayarlamamız gerek.
+LinkZeppelinStationWater.Desc = 6.) Su kovalarını bağla.
+LinkZeppelinStationWater.Intro = Harika! Altın bloklara taşınacak. Ama zeplinler geri dönerken su kovalarını da taşısaydı daha güzel olmaz mıydı? Bu sistemi de kur!
+Map01.IntroCamera = Kamerayı kontrol etmeyi öğren.
+Map01.IntroControls = Kontrollere alış:
+Map01.Introduction = Ufak ve barışçıl bir adaya vardık. Bir kamp kurup odun ve taş depolamalıyız.
+Map01.IntroExpand = Bölgeni genişletmek için ikinci bir kamp ateşi inşa et:
+Map01.IntroFarm = Kolonistlerimize taze yiyecek yetiştirmek için tarlalar kur:
+Map01.IntroHelp = Yardım sistemini kullanmayı öğren:
+Map01.IntroLoad = Güzel! Son olarak, diğer adaya geçmeden önce üretim hedefimize ulaşmamız gerekiyor.
+Map01.IntroMine = Bu ada temel kaynaklarda çok zengin. Biraz odun ve taş kaz:
+Map01.IntroUnload = Gemiyi boşalt:
+Map01.IntroWell = Temiz su için bir kuyu inşa et:
+Map01.OutroLoad = Not: Oyunda bir adada ürettiğimiz her şey dünya haritasında ileride kullanılabilir olacaktır. Binalar otomatik olarak yıkılır ve malzemeleri gemiye yüklenir.
+Map01.OutroRecruit = İpucu: Tarlanın boyutunu büyüt, depo alanlarını genişlet ve kamp ateşleri kullanarak tüm kaynakları toplamak için bölgeni genişlet.
+Map01.SpawnStrandedColonists = Bazı kazazedeler kolonimize katılmak istiyor.
+Map01.SpawnStrandedColonists.Short = Kazazedeleri kendine kat.
+Message.Screenshot = Ekran görüntüleri $1 yoluna kaydedildi.
+Modifier.CargoTier2 = Kargo genel seviye 2 düzenine ayarlandı.
+Modifier.CargoTier3 = Kargo genel seviye 3 düzenine ayarlandı
+Modifier.EnemyCampsFew = Düşman kampı az.
+Modifier.EnemyCampsMany = Düşman kampı fazla.
+Modifier.EnemyCampsNone = Düşman kampı yok.
+Modifier.EnemyCampsNormal = Düşman kampı normal.
+Modifier.MapSizeBig = Büyük harita (96²)
+Modifier.MapSizeHuge = Kocamna harita (128²)
+Modifier.MapSizeNormal = Normal boyut (90²)
+Modifier.MapSizeSmall = Küçük harita (72²)
+Modifier.MapSizeTest = Test haritası (20²)
+Modifier.MapsizeTiny = Minik harita (60²)
+Modifier.RecruitablePigs = Birkaç kişi domuzlarıyla beraber katılmak istiyor.
+Modifier.ResourcesBasic = Only basic resources.
+Modifier.ResourcesBasic.Intro = This island is rich in wood and stone but lacks mineral ores.
+Modifier.ResourcesMeadow = Meadow.
+Modifier.ResourcesMeadow.Intro = Little vegetation and rocks. Also two friendly sheep.
+Modifier.ResourcesNormal = Normal resources.
+Modifier.ResourcesNormal.Intro = Normal resource distri_bution.
+Modifier.ResourcesRocky = Desolate and rocky.
+Modifier.ResourcesRocky.Intro = Little vegetation but lots of stone.
+Modifier.ShippingPort = Use the shipping port to import and export goods.
+Modifier.ShippingPort.Intro = This tutorial shows you how to use the shipping port to import and export goods. Everything we need is already built, we just need to set it up correctly.
+Modifier.ShippingPort.Outro = Nice! Export goods like bread, which can be produced with renewable resources, to earn currency. Import goods like copper ore, which you cannot get on this island.
+Modifier.SpawnSettlers = Spawn your colonists
+Modifier.SpawnStrandedColonists = Two castaways want to join our colony.
+Modifier.SpawnStrandedColonists.Intro = We have heard rumors of friendly castaways stranded on the opposite side of this island. If we can find them they might want to join us.
+Modifier.SpawnStrandedColonists.Short = Recruit stranded castaways.
+Modifier.StrandedGoods = Stranded goods
+Modifier.TerrainDark = Tier 3: Ashen world (select tier 3 cargo!)
+Modifier.TerrainDesert = Tier 2: Desert (select tier 2 cargo!)
+Modifier.TerrainGrassland = Tier 1: Grassland
+Modifier.Tutorial1 = Set up a basic colony.
+Modifier.TutorialAdvancedProduction = Learn about advanced production and management techniques.
+Modifier.TutorialAdvancedProduction.Intro = This tutorial shows how to set up workshops to produce multiple goods and manage stockpiles.
+Modifier.TutorialAdvancedProduction.Outro =
+Modifier.TutorialAutomatedTrains = Learn to set up a fully automated train route.
+Modifier.TutorialAutomatedTrains.Intro = This tutorial shows how to integrate automated production buildings into the logistics system.
+Modifier.TutorialAutoWorkshops = Set up automated work_shops in different ways.
+Modifier.TutorialAutoWorkshops.Intro = This tutorial shows how to set up automated workshops to produce goods independent of your colonists.
+Modifier.TutorialAutoWorkshops.Outro =
+Modifier.TutorialCarriages = Learn to set up a horse carriage.
+Modifier.TutorialCarriages.Intro = This tutorial shows how to set up horse carriages to transport rocks. Rocks are pretty heavy, so carrying them is slow. Using horses to transport them over long distances is much more efficient.
+Modifier.TutorialCarriages.Outro = Well done! A horse carriage comes free with every built station. Have a look at the next tutorial to learn how to use connected stockpiles to get more control over the transported goods.
+Modifier.TutorialCombat = Learn about the combat system.
+Modifier.TutorialCombat.Intro = This tutorial shows how to attack and defeat enemy camps.
+Modifier.TutorialConveyorBelts = Learn to set up conveyor belts.
+Modifier.TutorialConveyorBelts.Intro = This tutorial shows a few examples of useful conveyor belt setups.
+Modifier.TutorialLogistics = Learn to set up zones and a logistics system.
+Modifier.TutorialLogistics.Intro = This tutorial covers setting up an outpost and a logistics system. Everything we need is already built, we just need to set it up correctly.
+Modifier.TutorialLogistics.Outro = Nice! Colonists and zeppelins will work together to transport our gold blocks and water buckets. The logistics system allows you to create complex chains using multiple transport systems. Goods will be delivered until the receiving stockpiles are full.
+Modifier.TutorialNeedsTools = Learn about needs and tools.
+Modifier.TutorialOreCrushing = Automated ore crushing.
+Modifier.TutorialOreCrushing.Intro = This non_inter_active sample scene shows how to set up automated ore processing. Click on the objective below to move on.
+Modifier.TutorialTrainCrossing = Learn to set up a cloverleaf junction.
+Modifier.TutorialTrainCrossing.Intro = This advanced tutorial shows how a cloverleaf junction can be set up.
+Modifier.TutorialTrainPreSignals = Learn to set up train signals.
+Modifier.TutorialTrainPreSignals.Intro = This tutorial shows a few examples for how to use train signals to have more than one train run in the same network.
+Modifier.TutorialTrains = Bir tren hattı kurmayı öğren.
+Modifier.TutorialTrains.Intro = This tutorial shows how to connect two two train stations via the logistics system.
+Modifier.TutorialTrainSignalsCircle = Circular train network example.
+Modifier.TutorialTrainSignalsCircle.Intro = This tutorial shows how to use signals to allow for multiple trains in a single network.
+Modifier.WavesSlimes = Dalgalar: Slimelar
+ObjectType.AutoKiln = Otomatik fırın
+ObjectType.AutoKiln.Desc = ##Otomatik fırınlar tuğla ve odun kömürü üretiminde kullanılır.
+ObjectType.AutoSmelter = Otomatik eritici
+ObjectType.AutoSmelter.Desc = ##Otomatik eriticiler parçalanmış madeni metal bloklara dönüştürür.
+ObjectType.BackerRaft = Bağışçı botu
+ObjectType.BackerRaft.Desc = Başka bir oyuncu tarafından bağışlanan bir eşyayı teslim eder.
+ObjectType.Bakery = Fırın
+ObjectType.Bakery.Desc = Ekmek ve diğer yiyecek çeşitleri üretmeye yarar.
+ObjectType.Barn = Basit ahır
+ObjectType.Barn.Desc = Hayvanlarının dinlenebileceği bir yer.
+ObjectType.BasicWorkplace = Basit atölye
+ObjectType.BasicWorkplace.Desc = Basit atölye kereste ve taş bloğu üretmeye yarar.
+ObjectType.BeachChair = Plaj Sandalyesi
+ObjectType.BeachChair.Desc = Yorulduklarında kolonistler dinlenmek için bir plaj sandalyesinin üzerine otururlar.
+ObjectType.BeachRock = Minik kayalar.
+ObjectType.BeachRock.Desc = Kazarak / toplayarak yok edilebilir.
+ObjectType.Beer = Bira
+ObjectType.Beer.Desc = Bira kolonistlerini mutlu eder.
+ObjectType.Betanium = Betanyum
+ObjectType.Betanium.Desc = Betanyum henüz geliştirmenin erken aşamasında olan eşyaları üretmekte kullanılır.
+ObjectType.Boat = Gemi
+ObjectType.Boat.Desc = Denizlerde yolculuk etmek için kullandığın gemi.
+ObjectType.Bonfire = Kamp Ateşi
+ObjectType.Bonfire.Desc = Kamp ateşlerini kullanarak bölgeni genişlet ve alanları belirle.
+ObjectType.Bread = Ekmek
+ObjectType.Bread.Desc = Zengin bir karbonhidrat kaynağı.
+ObjectType.Brewery = Ocak
+ObjectType.Brewery.Desc = Bira, çay ve diğer içeceklerin üretildiği yer.
+ObjectType.Brick = Tuğla
+ObjectType.Brick.Desc = Daha gelişmiş binaların inşaatında kullanılır.
+ObjectType.Bush = Çalı
+ObjectType.Bush.Desc = Bildiğin çalı.
+ObjectType.BushBerries = Çilek
+ObjectType.BushBerries.Desc = Çilekler hızlı büyüyen, kolay elde edilebilen bir yiyecek kaynağıdır. Çimlerin üzerinde büyür.
+ObjectType.CacaoTree = Kakao ağacı
+ObjectType.CacaoTree.Desc = Kakao ağaçları kakao tohumu ve kütük elde etmek için kesilebilir.
+ObjectType.Cactus = Kaktüs
+ObjectType.Cactus.Desc = Çölün sert koşullarına uyum sağlamış bir bitki.
+ObjectType.CactusRound = Kaktüs
+ObjectType.CactusRound.Desc = Çölün sert koşullarına uyum sağlamış bir bitki.
+ObjectType.CargoShip = Kargo gemisi
+ObjectType.CargoShip.Desc = Kargo gemisi önceki kolonilerinin üretiminden bir parça getirirler.
+ObjectType.Centrifuge = Sentrifüj
+ObjectType.Centrifuge.Desc = Otomatik olarak ezilmiş cevherleri ayırmaya yarar.
+ObjectType.Charcoal = Odun Kömürü
+ObjectType.Charcoal.Desc = Gelişmiş atölyelerde yakıt olarak kullanılır.
+ObjectType.ChocolateMilk = Çikolatalı süt
+ObjectType.ChocolateMilk.Desc = Lezzetli çikolatalı süt.
+ObjectType.Clay = Kil
+ObjectType.Clay.Desc = Kil çoğu binanın inşasında kullanılan tuğlalara dönüştürülebilir.
+ObjectType.ClayQuarry = Kil madeni
+ObjectType.ClayQuarry.Desc = Kil madeni otomatik olarak sınırsız kil sunar.
+ObjectType.ClayVein = Kil damarı
+ObjectType.ClayVein.Desc = Kil çoğu binanın inşasında kullanılan tuğlalara dönüştürülebilir.
+ObjectType.CocoaBeans = Kakao tohumu
+ObjectType.CocoaBeans.Desc = Kakao tohumları. Çikolatalı süt yapımında kullanılabilir.
+ObjectType.Column = Sütun
+ObjectType.Column.Desc = Toplarak kaldırılabilir.
+ObjectType.ConstructionBlock = İnşa bloğu
+ObjectType.ConstructionBlock.Desc = Gelişmiş binalarda kullanılan işlenmiş bir inşa bloğu.
+ObjectType.ConveyorBeltHigh = Taşıma bandı (yüksek)
+ObjectType.ConveyorBeltHigh.Desc = Taşıma bantları otomatik olarak ürün taşımanı sağlar.
+ObjectType.ConveyorBeltParts = Bant parçaları
+ObjectType.ConveyorBeltParts.Desc = Bant parçaları taşıma bantları inşasında kullanılır.
+ObjectType.ConveyorBeltRampDown = Taşıma bandı (rampa)
+ObjectType.ConveyorBeltRampDown.Desc = Taşıma bantları otomatik olarak ürün taşımanı sağlar.
+ObjectType.ConveyorBeltRampUp = Taşıma bandı (rampa)
+ObjectType.ConveyorBeltRampUp.Desc = Taşıma bantları otomatik olarak ürün taşımanı sağlar.
+ObjectType.ConveyorBeltStraight = Taşıma bandı (alçak)
+ObjectType.ConveyorBeltStraight.Desc = Taşıma bantları otomatik olarak ürün taşımanı sağlar.
+ObjectType.ConveyorDistributor = Bant dağıtıcısı
+ObjectType.ConveyorDistributor.Desc = Girdi bantlarından çıktı bantlarına eşit bir şekilde ürün dağıtır.
+ObjectType.ConveyorDistributorHigh = Bant dağıtıcısı
+ObjectType.ConveyorDistributorHigh.Desc = Girdi bantlarından çıktı bantlarına eşit bir şekilde ürün dağıtır.
+ObjectType.Copper = Bakır cevheri
+ObjectType.Copper.Desc = Kazılmaya hazır bakır cevheri.
+ObjectType.CopperBlock = Bakır bloğu
+ObjectType.CopperBlock.Desc = Bakırdan bir blok.
+ObjectType.CorniTree = Çam Ağacı
+ObjectType.CorniTree.Desc = Ağaçlardan kütük elde edilebilir.
+ObjectType.Cotton = Pamuk bitkisi
+ObjectType.Cotton.Desc = Tekstil ürünleri üretiminde kullanılır.
+ObjectType.Cow = İnek
+ObjectType.Cow.Desc = Barışçıl bir canlı.
+ObjectType.CrushedCopper = Ezilmiş bakır
+ObjectType.CrushedCopper.Desc = Bakır bloklarına dönüştürülebilir.
+ObjectType.CrushedCopperMix = Bakır zengini kaya
+ObjectType.CrushedCopperMix.Desc = Ezilmiş bakır ve kayaya ayrılabilir.
+ObjectType.CrushedIron = Ezilmiş demir
+ObjectType.CrushedIron.Desc = Can be melted into iron blocks.
+ObjectType.CrushedIronMix = Demir zengini kaya
+ObjectType.CrushedIronMix.Desc = Ezilmiş demir ve kayaya ayrılabilir.
+ObjectType.CrushedRock = Ezilmiş taş
+ObjectType.CrushedRock.Desc = Betona dönüştürülebilir.
+ObjectType.CrystalCore = Kristal
+ObjectType.CrystalCore.Desc = Krista.
+ObjectType.Dark_Mountain = Kara dağ
+ObjectType.Dark_Mountain.Desc = Kara dağ
+ObjectType.DarkCrystal = Kara kristal
+ObjectType.DarkCrystal.Desc = Aslı bilinmeyen bir kristal.
+ObjectType.DarkGeode = Kara jeot
+ObjectType.DarkGeode.Desc = Çeşitli mineraller elde etmek için kazılabilen bir jeot.
+ObjectType.DarkRock = Kara kaya
+ObjectType.DarkRock.Desc = Kara kaya
+ObjectType.DarkRuins = Eski harabeler
+ObjectType.DarkRuins.Desc = Bunu kim inşa ettiyse uzun süre önce kaybolmuş.
+ObjectType.DarkTemple = Eski tapınak
+ObjectType.DarkTemple.Desc = Bunu kim inşa ettiyse uzun süre önce kaybolmuş. (Örnek üretim hedefi)
+ObjectType.DecoBranches = Dallar
+ObjectType.DecoBranches.Desc = Toplanarak kaldırılabilir.
+ObjectType.DecoBush = Dekoratif çalı
+ObjectType.DecoBush.Desc = Çok ilginç değil ama bakması güzel.
+ObjectType.DecoDarkRock = Minik kayalar
+ObjectType.DecoDarkRock.Desc = Toplanarak kaldırılabilir.
+ObjectType.DecoFern = Eğreltiotu
+ObjectType.DecoFern.Desc = Toplanarak kaldırılabilir.
+ObjectType.DecoRocks = Minik kayalar
+ObjectType.DecoRocks.Desc = Toplanarak kaldırılabilir.
+ObjectType.DecoSeaShells = Deniz kabukları
+ObjectType.DecoSeaShells.Desc = Toplanarak kaldırılabilir.
+ObjectType.DecoShrine = Dekoratif türbe
+ObjectType.DecoShrine.Desc = Etrafı aydınlatır ve güzel görünür.
+ObjectType.DecoSwampBranches = Dallar
+ObjectType.DecoSwampBranches.Desc = Toplanarak kaldırılabilir.
+ObjectType.Depot5x5 = Depo 5'e 5
+ObjectType.Depot5x5.Desc = Otomatikleştirilmiş depolar ürünlerin depolanmasında ve dağıtımında kullanılabilir.
+ObjectType.DepotEntry = Depo girişi
+ObjectType.DepotEntry.Desc = Depoya gönderilecek ürünleri buraya yerleştir.
+ObjectType.DepotExit = Depo çıkışı
+ObjectType.DepotExit.Desc = Depodan ürün iste.
+ObjectType.Desert_Mountain = Çöl dağı
+ObjectType.Desert_Mountain.Desc = Çöl dağı
+ObjectType.DesertBrokenGround = Kurak toprak.
+ObjectType.DesertBrokenGround.Desc = Kazılarak temizlenebilir.
+ObjectType.DesertBrokenGroundHigh = Kurak toprak.
+ObjectType.DesertBrokenGroundHigh.Desc = Kazılarak temizlenebilir.
+ObjectType.DesertPillars = Yok edilmiş sütun.
+ObjectType.DesertPillars.Desc = Kazılarak temizlenebilir.
+ObjectType.DesertRuins = Harabeler.
+ObjectType.DesertRuins.Desc = Kazılarak temizlenebilir.
+ObjectType.DesertTorch = Meşale
+ObjectType.DesertTorch.Desc = Eski bir bina.
+ObjectType.DesertTreeStump = Ağaç kütüğü
+ObjectType.DesertTreeStump.Desc = Ağaç kütüğü
+ObjectType.EnemyBonfire = Düşman kamp ateşi
+ObjectType.EnemyBonfire.Desc = Bu kamp ateşini yok ederek bu bölgeyi ele geçir.
+ObjectType.Fabric = Kumaş
+ObjectType.Fabric.Desc = Kumaş yün veya pamuktan üretilir ve çeşitli şeylerin üretiminde kullanılır.
+ObjectType.Farm5x5 = Otomatik tarla
+ObjectType.Farm5x5.Desc = Bu tarla otomatik olarak basit bitkiler yetiştirir.
+ObjectType.Fennec = Çöl tilkisi
+ObjectType.Fennec.Desc = Çölde yaşayan şirin bir avcı.
+ObjectType.FilterInserter = Filtreli taşıma kolu
+ObjectType.FilterInserter.Desc = Taşıma kolları taşıma bantları, depolar ve diğerleri arasında eşyaları taşır.
+ObjectType.Firefly = Ateş Böceği
+ObjectType.Firefly.Desc = Geceyi aydınlatır.
+ObjectType.Floor_Dark_Oasis = Kara çöl
+ObjectType.Floor_Dark_Oasis.Desc = Kara çöl
+ObjectType.Floor_Desert_Coast = Çöl kıyısı
+ObjectType.Floor_Desert_Coast.Desc = Çöl kıyısı
+ObjectType.Floor_Desert_MountainBase = Çöl kumu
+ObjectType.Floor_Desert_MountainBase.Desc = Çöl kumu
+ObjectType.Floor_Desert_Oasis = Çöl
+ObjectType.Floor_Desert_Oasis.Desc = Çöl
+ObjectType.Floor_Desert_Oasis_Water = Çöl
+ObjectType.Floor_Desert_Oasis_Water.Desc = Çöl
+ObjectType.Floor_Desert_Ocean = Okyanus
+ObjectType.Floor_Desert_Ocean.Desc = Okyanus
+ObjectType.Floor_Desert_Rough = Kuru toprak
+ObjectType.Floor_Desert_Rough.Desc = Kuru toprak
+ObjectType.Floor_Desert_Sand = Çöl kumu
+ObjectType.Floor_Desert_Sand.Desc = Çöl kumu
+ObjectType.Floor_Desert_SandHigh = Çöl kumu
+ObjectType.Floor_Desert_SandHigh.Desc = Çöl kumu
+ObjectType.Floor_Desert_Water = Su
+ObjectType.Floor_Desert_Water.Desc = Su
+ObjectType.Floor_Earth = Çimlik (dağ)
+ObjectType.Floor_Earth.Desc = Çimlik (dağ)
+ObjectType.Floor_Grass = Çimlik
+ObjectType.Floor_Grass.Desc = Çimlik
+ObjectType.Floor_LightGrass = Kuru çimlik
+ObjectType.Floor_LightGrass.Desc = Kuru çimlik
+ObjectType.Floor_Sand = Kum
+ObjectType.Floor_Sand.Desc = Kum
+ObjectType.Floor_Stone = Taş
+ObjectType.Floor_Stone.Desc = Taş
+ObjectType.Floor_Swamp = Bataklık
+ObjectType.Floor_Swamp.Desc = Bataklık
+ObjectType.Floor_Swamp_Water = Bataklık
+ObjectType.Floor_Swamp_Water.Desc = Bataklık
+ObjectType.Flower = Çiçek
+ObjectType.Flower.Desc = Çiçek
+ObjectType.FlowerPot = Çiçek saksısı
+ObjectType.FlowerPot.Desc = Güzel görünüşlü bir çiçek saksısı.
+ObjectType.Foundation_Dark_Lowland = Temel (Kara)
+ObjectType.Foundation_Dark_Lowland.Desc = Bu temeli kara topraklar üzerinde inşa edip binaların inşa edilmesine olanak ver.
+ObjectType.Foundation_Desert_SandHigh = Temel (Kum)
+ObjectType.Foundation_Desert_SandHigh.Desc = Bu temeli kumlar üzerine inşe edip binaların inşa edilmesine olanak ver.
+ObjectType.Foundation_Grass = Temel (Çim)
+ObjectType.Foundation_Grass.Desc = Bu temeli kumlar üzerine inşe edip binaların inşa edilmesine olanak ver.
+ObjectType.Foundation_Pier = İskele
+ObjectType.Foundation_Pier.Desc = Kolonistlerinin üzerine yürümesi için bir iskele (dekoratif).
+ObjectType.Foundation_Pier_High = İskele (yüksek)
+ObjectType.Foundation_Pier_High.Desc = Kolonistlerinin üzerine yürümesi için bir iskele (dekoratif).
+ObjectType.Gold = Altın madeni
+ObjectType.Gold.Desc = Kazılmaya hazır altın madeni.
+ObjectType.GoldBlock = Altın bloğu
+ObjectType.GoldBlock.Desc = Bir altın bloğu
+ObjectType.Greenhouse = Sera
+ObjectType.Greenhouse.Desc = Bu tarla otomatik olarak bitki yetiştirir ve her tür toprak üzerine yerleştirilebilir.
+ObjectType.Grove5x5 = Otomatik ağaçlandırma bölgesi
+ObjectType.Grove5x5.Desc = Bu bölge otomatik olarak ağaç yetiştirir.
+ObjectType.Harbour = Liman
+ObjectType.Harbour.Desc = Limanlar diğer adalarla ticarete olanak verir.
+ObjectType.HarvestedBerries = Çilekler
+ObjectType.HarvestedBerries.Desc = Toplanmış çilekler. Çok lezzetli.
+ObjectType.HarvestedCotton = Toplanmış pamuk
+ObjectType.HarvestedCotton.Desc = Pamuk tekstil ürünleri üretimine olanak verir.
+ObjectType.HarvestedFlowers = Toplanmış çiçekler
+ObjectType.HarvestedFlowers.Desc = Çiçekler toplandıktan sonra çay yapılabilir.
+ObjectType.HarvestedTomato = Toplanmış domates
+ObjectType.HarvestedTomato.Desc = Bir miktar toplanmış domates.
+ObjectType.HarvestedWheat = Toplanmış buğday
+ObjectType.HarvestedWheat.Desc = Buğday ekmek ve kek üretilebilecek bir ekindir.
+ObjectType.Hippo = Hipopotam
+ObjectType.Hippo.Desc = Hipopotam
+ObjectType.Horse = At
+ObjectType.Horse.Desc = Barışçıl bir canlı.
+ObjectType.HorseCarriage = At Arabası
+ObjectType.HorseCarriage.Desc = Atlar her türlü ürünü taşıyabilir.
+ObjectType.HorseStation = At İstasyonu
+ObjectType.HorseStation.Desc = At arabalarıyla ürün taşımak için kullanılan istasyon. Bedavadan bir atla gelir!
+ObjectType.House = Basit ev
+ObjectType.House.Desc = Kolonistlerinin dinlenmesi için bir ev.
+ObjectType.HouseGood = Güzel ev
+ObjectType.HouseGood.Desc = Kolonistlerinin dinlenmesi için güzel bir ev.
+ObjectType.HouseNice = Çok güzel ev
+ObjectType.HouseNice.Desc = Kolonistlerinin dinlenmesi için çok güzel bir ev.
+ObjectType.Inserter = Otomatik Kol
+ObjectType.Inserter.Desc = Otomatik Kollar taşıma bantları, depolar vs. arasında eşya taşırlar.
+ObjectType.Iron = Demir cevheri
+ObjectType.Iron.Desc = Kazılmaya hazır demir cevheri
+ObjectType.IronBlank = Hazır demir
+ObjectType.IronBlank.Desc = Demirden aletler ve silahlar yapılmasına olanak sağlayan hazır demirler.
+ObjectType.IronBlock = Demir blok
+ObjectType.IronBlock.Desc = Yüksek seviyeli alet ve makinelerin bir parçası.
+ObjectType.IronHammer = Demir çekiç
+ObjectType.IronHammer.Desc = Çekiçler eşya üretiminde ve bina inşasında kullanılır.
+ObjectType.IronPickaxe = Demir kazma
+ObjectType.IronPickaxe.Desc = Kazmalar kaya kazmada, ağaç kesmede ve dağları delmekte kullanılır.
+ObjectType.IronQuarry = Demir madeni
+ObjectType.IronQuarry.Desc = Demir madeni otomatik olarak sınırsız bir demir kaynağı sunar.
+ObjectType.IronShovel = Demir kürek
+ObjectType.IronShovel.Desc = Kürekler tarlada kullanılır.
+ObjectType.IronSword = Demir kılıç
+ObjectType.IronSword.Desc = Demir kılıç tahta kılıçtan daha fazla hasar veren temel bir yakın dövüş silahıdır.
+ObjectType.IronVein = Demir damarı
+ObjectType.IronVein.Desc = Demir elde etmek için üzerine bir maden inşa et.
+ObjectType.JoshuaTree = Joshua Ağacı
+ObjectType.JoshuaTree.Desc = Çölün sert ikliminde hayatta kalmak için gelişmiş.
+ObjectType.Kiln = Tuğla Fırını
+ObjectType.Kiln.Desc = Tuğla Fırını tuğla ve odun kömürü yapımında kullanılır.
+ObjectType.Log = Tahta kütük
+ObjectType.Log.Desc = Tahta kütükler yakıt olarak kullanılabilir ya da odun kömürü veya tahta kalasa dönüştürülebilir.
+ObjectType.LootBox = Sandık
+ObjectType.LootBox.Desc = Sandıklar rastgele eşyalar elde etmek için kırılabilir.
+ObjectType.LunchBox = Kumanya (Yemek)
+ObjectType.LunchBox.Desc = Buğday ve sebzelerden yapılan bir yemek. Ham!
+ObjectType.MachineParts = Makine parçaları
+ObjectType.MachineParts.Desc = Makine parçaları taşıma bantları ve diğer karmaşık makineleri inşa etmekte kullanılır.
+ObjectType.MegaSpider = Mega Örümcek
+ObjectType.MegaSpider.Desc = Daha fazla örümcek.
+ObjectType.MetalWorkshop = Metal atölyesi
+ObjectType.MetalWorkshop.Desc = Metal atölyesi gelişmiş demir alet ve silah üretimine olanak verir.
+ObjectType.Milk = Süt
+ObjectType.Milk.Desc = İçilebilir veya işlenebilir.
+ObjectType.MinedClay = Kazılmış kil
+ObjectType.MinedClay.Desc = Kil birçok binanın yapımında kullanılan tuğlalara dönüştürülebilir.
+ObjectType.MinedCopper = Bakır cevheri
+ObjectType.MinedCopper.Desc = Bir miktar bakır cevheri.
+ObjectType.MinedGold = Altın cevheri
+ObjectType.MinedGold.Desc = Bir miktar altın cevheri.
+ObjectType.MinedIron = Kazılmış demir
+ObjectType.MinedIron.Desc = Demir bloklara dönüştürülebilir.
+ObjectType.MinedRock = Kaya
+ObjectType.MinedRock.Desc = Kayalar basit binaları inşa etmekte kullanılır ve taş bloklara dönüştürülebilir.
+ObjectType.MiningRobot = Madencilik robotu
+ObjectType.MiningRobot.Desc = Robotlar sadece amaçlandıkları işi yapabilirler.
+ObjectType.Monolith = Eski yapı
+ObjectType.Monolith.Desc = Toplanarak kaldırılabilir.
+ObjectType.MudRoad = Çamur yol
+ObjectType.MudRoad.Desc = Basit bir yol.
+ObjectType.Mummy = Mumya
+ObjectType.Mummy.Desc = Mumya.
+ObjectType.OilBarrel = Yağ (Petrol) varili
+ObjectType.OilBarrel.Desc = Yağ (Petrol) robotların inşasında ve bakımında kullanılır.
+ObjectType.OilPump = Yağ (Petrol) pompası
+ObjectType.OilPump.Desc = Yağ (Petrol) pompası otomatik olarak bir kuyudan yağ (petrol) çeker ve varillere doldurur.
+ObjectType.OilWell = Yağ (Petrol) kuyusu
+ObjectType.OilWell.Desc = Yağ (Petrol) kuyuları üzerlerine yağ (petrol) pompaları inşa edilerek kullanılabilir.
+ObjectType.OreCrusher = Cevher ezici
+ObjectType.OreCrusher.Desc = Cevherleri otomatik olarak minik parçalar haline getirir.
+ObjectType.Ostrich = Deve Kuşu
+ObjectType.Ostrich.Desc = Deve Kuşu
+ObjectType.OutpostBonfire = Büyük Kamp Ateşi
+ObjectType.OutpostBonfire.Desc = Kamp ateşleri inşa ederek alan belirle ve bölgeni büyüt.
+ObjectType.OverheadConveyorCart = Üstray Arabası
+ObjectType.OverheadConveyorCart.Desc = Üstray taşıma sisteminin bir parçası.
+ObjectType.OverheadConveyorPath = Üstray Taşıyıcı
+ObjectType.OverheadConveyorPath.Desc = Üstray taşıyıcı sistemi rayların veya taşıma bantlarının üstünden ürün taşımanızı sağlar.
+ObjectType.OverheadConveyorStation = Üstray İstasyonu
+ObjectType.OverheadConveyorStation.Desc = Bu istasyonu diğer istasyonlara bağlayarak sistemin onlara eşya taşımasını sağla.
+ObjectType.PalmTree = Palmiye ağacı
+ObjectType.PalmTree.Desc = Ağaçlardan kütük elde edilebilir.
+ObjectType.Pig = Domuz
+ObjectType.Pig.Desc = Vahşi bir hayvan.
+ObjectType.PowerLine = Elektrik hattı
+ObjectType.PowerLine.Desc = Elektrik hatlarıyla jeneratörleri tüketicilere bağlayın.
+ObjectType.PyramidRuin = Piramit
+ObjectType.PyramidRuin.Desc = Antik bir yapı.
+ObjectType.Quarry = Taş Ocağı
+ObjectType.Quarry.Desc = Taş ocağı otomatik olarak sınırsız taş sunar.
+ObjectType.RailwayCrossing = Ray Geçidi
+ObjectType.RailwayCrossing.Desc = Basit bir ray geçidi. Tamamen dekoratif.
+ObjectType.RallyFlag = Seferberlik bayrağı
+ObjectType.RallyFlag.Desc = Silah taşıyan tüm kolonistler bu bayrağın etrafına toplanıp gördükleri düşmanlara saldırırlar.
+ObjectType.RecruitingFlag = İkna etme (toplama) bayrağı
+ObjectType.RecruitingFlag.Desc = Bu bayrak dost canlısı bir grup hayvana veya kolonistlere ait.
+ObjectType.RecyclingWorkshop = Geri dönüşüm atölyesi
+ObjectType.RecyclingWorkshop.Desc = Kolonistlerin eşyaları hammaddelerine dönüştürmelerini sağlar.
+ObjectType.RefinedBuildingPart = İşlenmiş odun parçası
+ObjectType.RefinedBuildingPart.Desc = İşlenmiş odun bina parçaları gelişmiş binaların inşasında kullanılır.
+ObjectType.RobotWorkshop = Robot atölyesi
+ObjectType.RobotWorkshop.Desc = Robot atölyesi robot üretmenizi sağlar.
+ObjectType.Rock = Kaya yığını
+ObjectType.Rock.Desc = Kazarak temel binaların inşasında kullanılan kayaları elde edin.
+ObjectType.Ruin = Eski harabe
+ObjectType.Ruin.Desc = Toplanarak kaldırılabilir.
+ObjectType.RuinBakery = Harabe fırın
+ObjectType.RuinBakery.Desc = Harabe bir yapı, uzun süre once terk edilmiş.
+ObjectType.RuinBasicWorkplace = Harabe atölye
+ObjectType.RuinBasicWorkplace.Desc = Harabe bir yapı, uzun süre önce terk edilmiş.
+ObjectType.RuinFragment = Eski harabe parçası
+ObjectType.RuinFragment.Desc = Toplanarak kaldırılabilir.
+ObjectType.RuinHouse = Harabe ev
+ObjectType.RuinHouse.Desc = Harabe bir yapı, uzun süre önce terk edilmiş.
+ObjectType.RuinWell = Harabe kuyu
+ObjectType.RuinWell.Desc = Harabe bir yapı, uzun süre önce terk edilmiş.
+ObjectType.SandGeode = Kum Jeotu
+ObjectType.SandGeode.Desc = Bir jeot çeşitli cevherler elde etmek için kazılabilir.
+ObjectType.SandGeodeBig = Kum Jeotu
+ObjectType.SandGeodeBig.Desc = Bir jeot çeşitli cebverler elde etmek için kazılabilir.
+ObjectType.SandRock = Kaya yığını
+ObjectType.SandRock.Desc = Kazarak temel binaların inşasında kullanılan kayaları elde edin.
+ObjectType.SandRoughGeode = Kum Jeotu
+ObjectType.SandRoughGeode.Desc = Bir jeot çeşitli cebverler elde etmek için kazılabilir.
+ObjectType.SandRoughGeodeBig = Kum Jeotu
+ObjectType.SandRoughGeodeBig.Desc = Bir jeot çeşitli cebverler elde etmek için kazılabilir.
+ObjectType.Sawmill = Otomatik testere
+ObjectType.Sawmill.Desc = Otomatik testereler kütükleri kalaslara dönüştürür.
+ObjectType.Scarab = Beyaz Scarab (Bokböceği)
+ObjectType.Scarab.Desc = Beyaz scarab (bokböceği)
+ObjectType.Scorpion = Akrep
+ObjectType.Scorpion.Desc = Zehirli ve tehlikeli.
+ObjectType.SettlerFemale = Kadın kolonist
+ObjectType.SettlerFemale.Desc = Güçlü bir insan.
+ObjectType.SettlerMale = Erkek kolonist
+ObjectType.SettlerMale.Desc = Güçlü bir insan.
+ObjectType.Sheep = Koyun
+ObjectType.Sheep.Desc = Koyun
+ObjectType.Slime = Mini Slime
+ObjectType.Slime.Desc = Jölemsi bir düşman.
+ObjectType.SlimeBig = Büyük Slime
+ObjectType.SlimeBig.Desc = Jölemsi bir düşman.
+ObjectType.SlimeMini = Slime
+ObjectType.SlimeMini.Desc = Jölemsi bir düşman.
+ObjectType.SlimePool = Slime Havuzu
+ObjectType.SlimePool.Desc = Büyük ya da küçük, bütün slimeların evi.
+ObjectType.Smelter = Cevher eritici
+ObjectType.Smelter.Desc = Kazılmış cevherleri metal bloklara çevirir.
+ObjectType.Snake = Yılan
+ObjectType.Snake.Desc = Genellikle çimliklerde bulunur.
+ObjectType.Soil = Toprak
+ObjectType.Soil.Desc = Toprak
+ObjectType.Spider = Örümcek
+ObjectType.Spider.Desc = Neden? Sadece neden?
+ObjectType.StatueSettler = Kolonist heykeli
+ObjectType.StatueSettler.Desc = Büyük Lef'in fedakarlığını onurlandırmak için inşa edilen bir heykel.
+ObjectType.StatueTrain = Tren heykeli
+ObjectType.StatueTrain.Desc = Bir trenin heykeli.
+ObjectType.StoneBlank = Hazır taş
+ObjectType.StoneBlank.Desc = Hazır taşlar taştan aletler ve silahlar yapmak için kullanılır.
+ObjectType.StoneBlock = Taş blok
+ObjectType.StoneBlock.Desc = İşlenmiş bir taş bloğu.
+ObjectType.StoneRoad = Taş yol
+ObjectType.StoneRoad.Desc = Döşenmiş bir yol.
+ObjectType.StoneVein = Taş damarı
+ObjectType.StoneVein.Desc = Taş kazmak için üzerine bir taş ocağı inşa edin.
+ObjectType.StoneWall = Taş duvar
+ObjectType.StoneWall.Desc = Şimdilik tamamen dekoratif.
+ObjectType.StrawberryDonut = Çilekli donut
+ObjectType.StrawberryDonut.Desc = Sağlıksız ama dayanılmaz.
+ObjectType.Table = Masa
+ObjectType.Table.Desc = Yorulduklarında kolonistler masalara oturup dinlenir ve sosyalleşirler.
+ObjectType.Tea = Çay
+ObjectType.Tea.Desc = Harareti alır.
+ObjectType.TextileWorkplace = Tekstil atölyesi
+ObjectType.TextileWorkplace.Desc = Tekstil atölyesi yün veya pamuktan kumaş yapmayı sağlar.
+ObjectType.Tomato = Domates
+ObjectType.Tomato.Desc = Domates bitkisi.
+ObjectType.Torch = Meşale
+ObjectType.Torch.Desc = Meşaleler ucuz bir ışık kaynağıdır.
+ObjectType.TrackParts = Ray parçası
+ObjectType.TrackParts.Desc = Ray parçaları ray inşaatında kullanılır.
+ObjectType.TracksSemaphore = Tren sinyalleri
+ObjectType.TracksSemaphore.Desc = Tren sinyalleriyle birden fazla trenin aynı ağda çalışmasını sağla.
+ObjectType.TracksSemaphorePre = Tren ön-sinyalleri
+ObjectType.TracksSemaphorePre.Desc = Tren ön-sinyalleriyle birden fazla trenin aynı ağda çalışmasını sağla.
+ObjectType.TrainFactory = Tren fabrikası
+ObjectType.TrainFactory.Desc = 3 tane trenin inşasında ve bakımında kullanılır. Trenler lojistik sisteminde kullnaılabilir.
+ObjectType.TrainingDummy = Eğitim mankeni
+ObjectType.TrainingDummy.Desc = Kolonistler tarafından dövüş pratiği için kullanılır.
+ObjectType.TrainLocomotive2 = Lokomotif
+ObjectType.TrainLocomotive2.Desc = Trenler uzak mesfelerde ağır ürünleri taşımakta kullanılır.
+ObjectType.TrainLocomotive3 = Lokomotif
+ObjectType.TrainLocomotive3.Desc = Trenler uzak mesfelerde ağır ürünleri taşımakta kullanılır.
+ObjectType.TrainStation = Tren istasyonu
+ObjectType.TrainStation.Desc = Trenler burada durup otomatik olarak dolar veya boşalır.
+ObjectType.TrainStationSmall = Tren istasyonu (küçük)
+ObjectType.TrainStationSmall.Desc = Trenler burada durup otomatik olarak dolar veya boşalır.
+ObjectType.TransportRobot = Taşıma Robotu
+ObjectType.TransportRobot.Desc = Robotlar sadece amaçlandıkları işi yapar.
+ObjectType.Treadmill = Koşu Bandı
+ObjectType.Treadmill.Desc = Hayvanlar veya kolonistler bu bantları kullanarak elektrik üretir.
+ObjectType.Tree = Meşe ağacı
+ObjectType.Tree.Desc = Ağaçlardan kütük elde edilebilir.
+ObjectType.TreeFallen = Ağaç
+ObjectType.TreeFallen.Desc = Ağaçlardan kütük elde edilebilir.
+ObjectType.TreeFallenTwo = Ağaç
+ObjectType.TreeFallenTwo.Desc = Ağaçlardan kütük elde edilebilir.
+ObjectType.Turtle = Kaplumbağa
+ObjectType.Turtle.Desc = Kaplumbağa
+ObjectType.UpgradeWorkshop = Geliştirme atölyesi
+ObjectType.UpgradeWorkshop.Desc = Kolonistlerin aletleri birleştirerek daha kaliteli eşyalar üretmesini sağlar.
+ObjectType.WaterBucket = Su
+ObjectType.WaterBucket.Desc = Temel içecek.
+ObjectType.WaterSprinkler = Sulayıcı
+ObjectType.WaterSprinkler.Desc = 5'e 5 bir menzili sular.
+ObjectType.Weed = Yabani Ot
+ObjectType.Weed.Desc = Toplanarak kaldırılabilir.
+ObjectType.Well = Kuyu
+ObjectType.Well.Desc = Kuyu yerden kolonistler tarafından kovalara doldurulabilen su çeker.
+ObjectType.Wheat = Buğday
+ObjectType.Wheat.Desc = Buğday ekmek ve diğer yiyeceklerin üretiminde kullanılabilen bir ekindir.
+ObjectType.WildBushel = Yabani Ot
+ObjectType.WildBushel.Desc = Toplanarak kaldırılabilir.
+ObjectType.WoodenBoard = Tahta kalas
+ObjectType.WoodenBoard.Desc = Tahta kalaslar binaların inşasında kullanılır.
+ObjectType.WoodenBuildingPart = Tahta parça
+ObjectType.WoodenBuildingPart.Desc = Tahta parçalar binaların inşasında kullanılır.
+ObjectType.WoodenHandle = Tahta sap
+ObjectType.WoodenHandle.Desc = Saplar alet ve silahların üretiminde kullanılır.
+ObjectType.WoodHammer = Taş çekiç
+ObjectType.WoodHammer.Desc = Çekiçler eşya üretiminde ve bina inşasında kullanılır.
+ObjectType.WoodPickaxe = Taş kazma
+ObjectType.WoodPickaxe.Desc = Kazmalar kaya kazmada, ağaç kesmede ve dağları delmekte kullanılır.
+ObjectType.WoodShovel = Taş kürek
+ObjectType.WoodShovel.Desc = Kürekler tarlada kullanılır.
+ObjectType.WoodSword = Taş kılıç
+ObjectType.WoodSword.Desc = Çok iyi bir silah değil ama çıplak elden daha iyidir herhalde.
+ObjectType.Wool = Yün
+ObjectType.Wool.Desc = Yün koyunlardan elde edilebilir.
+ObjectType.Worm = Solucan
+ObjectType.Worm.Desc = Toplanarak kaldırılabilir.
+ObjectType.ZeppelinDepotStation = Zeplin Deposu
+ObjectType.ZeppelinDepotStation.Desc = Hafif ve orta ağırlıktaki ürünleri taşımakta kullanılan zeplinlerin istasyonu ve deposu.
+ObjectType.ZeppelinFactory = Zeplin fabrikası
+ObjectType.ZeppelinFactory.Desc = Ürün taşıyabilen 3 zeplin inşa eder ve destekler.
+ObjectType.ZeppelinStation = Zeplin İstasyonu
+ObjectType.ZeppelinStation.Desc = Zeplinler tarafından uzun mesafelerde ürün taşımakta kullanılan istasyonlar.
+ObjectType.ZeppelinUnit = Zeplin
+ObjectType.ZeppelinUnit.Desc = Uzun mesafelerde tek ürün taşıyabilen zeplinler.
+ObjectType.Zombie = Zombi Kolonist
+ObjectType.Zombie.Desc = Nasıl oluyorsa hala canlı.
+Scenario.AllTheBiomes = Her şeyden ortaya
+Scenario.AllTheBiomes.Desc = Tek bir haritada tüm biyomları oyna (deneysel).
+Scenario.MockupTier1 = Örnek Görev 1
+Scenario.MockupTier1.Desc = Genel oynanışın bir örneği.
+Scenario.MockupTier12 = Örnek Görev 12.
+Scenario.MockupTier12.Desc = Genel oynanışın bir örneği.
+Scenario.MockupTier2 = Örnek Görev 2.
+Scenario.MockupTier2.Desc = Genel oynanışın bir örneği.
+Scenario.MockupTier23 = Örnek Görev 23
+Scenario.MockupTier23.Desc = Genel oynanışın bir örneği.
+Scenario.MockupTier3 = Örnek Görev 3
+Scenario.MockupTier3.Desc = Genel oynanışın bir örneği.
+Scenario.TestMap = Küçük test haritası.
+Scenario.TestMap.Desc = Test amaçlı.
+Scenario.TutorialAdvancedProduction = Eğitim: Gelişmiş üretim
+Scenario.TutorialAdvancedProduction.Desc = Atölyeleri çoklu ürün üretecek şekilde ayarla ve depo alanlarını yönet.
+Scenario.TutorialAutomatedTrains = Eğitim: Trenler II
+Scenario.TutorialAutomatedTrains.Desc = Otomatikleştirilmiş trenleri lojistik sistemine bağla
+Scenario.TutorialAutoWorkshops = Eğitim: Otomatik Atölyeler
+Scenario.TutorialAutoWorkshops.Desc = Çeşitli yollarla otomatik atölyeler kur.
+Scenario.TutorialBasics = Eğitim: Temel Koloni
+Scenario.TutorialBasics.Desc = Temel üretim ve koloni yönetimini öğren.
+Scenario.TutorialCarriages = Eğitim: At Arabaları
+Scenario.TutorialCarriages.Desc = Bir at arabası ağı kur.
+Scenario.TutorialCombat = Eğitim: Savaş
+Scenario.TutorialCombat.Desc = Bir düşman kampına saldır ve yok et.
+Scenario.TutorialConveyorBelts = Örnek: Taşıma Bantları
+Scenario.TutorialConveyorBelts.Desc = Taşıma bandı kurulumlarının örneklerini çalışırken gör.
+Scenario.TutorialLogistics = Eğitim: Lojistik Sistemi
+Scenario.TutorialLogistics.Desc = Bir zeplin hattı kur.
+Scenario.TutorialOreCrushing = Örnek: Cevher İşleme
+Scenario.TutorialOreCrushing.Desc = Bu örnek otomatik cevher işlemeyi gösterir.
+Scenario.TutorialShippingPort = Eğitim: Ticaret ve Liman
+Scenario.TutorialShippingPort.Desc = Limanı kullanarak ihracat ve ithalatın nasıl yapılacağını öğren.
+Scenario.TutorialTrainCrossing = Örnek: Yoncayaprağı
+Scenario.TutorialTrainCrossing.Desc = Yoncayaprağı birden fazla trenin aynı hatta çalışmasını sağlar.
+Scenario.TutorialTrainPreSignals = Örnek: Tren sinyalleri
+Scenario.TutorialTrainPreSignals.Desc = Ön-sinyaller kullanarak trenlerin kavşaklarda sıkışmasını engellemeyi öğren.
+Scenario.TutorialTrains = Eğitim: Trenler
+Scenario.TutorialTrains.Desc = İki tren istasyonunu lojistik sistemiyle bağla.
+Scenario.TutorialTrainSignalsCircle = Örnek: Tren Ağı
+Scenario.TutorialTrainSignalsCircle.Desc = Sinyalleri kullanarak tek döngüsel bir hatta birden fazla treni nasıl kullanacağını öğren
+SetAdvancedInputStockpile.Desc = 2.) Çıktı depo alanları ata
+SetAdvancedInputStockpile.Intro = Berta'nın kaynakları almak için koşmasını istemiyoruz. Atölyeye girdi depo alanı atayarak bunu engelleyibilirsin.
+SetAdvancedInputStockpile.Outro = İpucu: Bir girdi depo alanı bir atölyeye atandığında sadece o girdi alanından kaynaklar kullanılacaktır. Atölyelere birden fazla girdi ve çıktı depo alanları atayabilirsin.
+SetBertaColor.Desc = 2.) Berta'yı sarı alana ata
+SetBertaColor.Intro = Kolonistler birden fazla alana atanabilir. Sadece atandıkları alanlarda çalışacaklardır. Bu durumda Berta'nın sadece sarı alanda çalışmasını istiyoruz.
+SetBertaWorkshop.Desc = 1.) Berta'yı atölyeye ata
+SetBertaWorkshop.Intro = Kolonistler yaptıkları şeylerde tecrübe kazanır. Yoğunlaşma anahtardır. Bu eğitimde Ansgar taşımayı yaparken Berta atölyeyi kullanacak.
+SetExportStockpiles.Desc = 1.) İhraç edilecek ürünleri seç
+SetExportStockpiles.Intro = Para kazanmak için ürettiğimiz ürünleri ihraç etmemiz gerekli. 2. ve 4. depo alanını limana bağla.
+SetExportStockpiles.Outro = Harika! Şimdi ihraç ürünlerin limana taşınacaklar. Sadece ürettiğin ürünleri ihraç edebileceğini unutma. Limandan çeşitli ürünlerin fiyatlarını görebilirsin. İpucu: Limana düşük öncelikli depo alanlarını bağlayarak sadece fazladan üretilen ürünleri ihraç edebilirsin.
+SetFighters.Desc = 1.) Kolonistlerini savaşçılara dönüştür
+SetFighters.Intro = Çoğu harita genişlemek için yok etmen gereken düşman kamplarını barındırır. Kolonistlerini savaşçılara dönüştür.
+SetFighters.Outro = İpucu: Atandıklarında savaşçıların otomatik olarak en iyi silahları alırlar. Savaşçıların onlara atadığın diğer işlere bakmaksızı n silah alacaklarını unutma.
+SetImportStockpiles.Desc = 2.) İthal edilecek ürünleri seç
+SetImportStockpiles.Intro = Şimdi karşılığında istediğimiz ürünleri seçebiliriz. Limanı 5. ve 7. depo alanlarına bağla.
+SetOutpostColor.Desc = 1.) Ayrı bir bölge oluştur
+SetOutpostColor.Intro = Bu eğitim bir karakol ve lojistik sistemi kurmayı öğretir. Bölgemizi iki ayrı alana ayırmakla başla. Yapmak için karakol kamp ateşini seç ve sarı renge ata.
+SetOutpostColorTrain.Desc = 1.) Ayrı bir bölge oluştur
+SetOutpostColorTrain.Intro = Bu eğitimin ilk kısmı lojistik eğitimine benzer. Karakol kamp ateşini ve Berta'yı sarı renge ata.
+SetOutputGoods.Desc = 6.) Çıktı depo alanlarını ata
+SetOutputGoods.Intro = Atölyelerin üretimini daha çok kontrol edebilmek için çeşitli çıktı depo alanlarının kabul ettiği ürünleri değiştirebiliriz.
+SetOutputGoods.Outro = İpucu: Çıktı depo alanının boyutunu ayarlayarak bir atölyenin üretimini ayarlayabilirsin.
+SetOutputStockpiles.Desc = 5.) Çıktı depo alanlarını ata
+SetOutputStockpiles.Intro = Çıktı depo alanlarını atölyeye atayarak üretime başla
+SetRecipes.Desc = 4.) Üretimi ayarla
+SetRecipes.Intro = Atölyemizi tahta kalas ve taş blok üretiminde kullanacağız. Üretimi ona göre ayarla.
+Settings.ColorBlindMode = Renk Körü Modu
+Settings.ColorBlindMode.Desc = Görüşünüzde sıkıntı varsa bazı arayüz renklerini değiştirerek daha kolay ayırt etmenizi sağlar. Yeniden bşalatma gerektirir.
+Status.NoCarriage = At arabası atanmadı.
+Status.NoCarriage.Desc = Hiçbir at arabası bu istasyonda durması için atanmadı. Bir at arabası seç ve istasyona sağ tıklayarak rotaya ekle.
+Status.NoTrain = Tren atanmadı.
+Status.NoTrain.Desc = Hiçbir tren bu istasyonda durmak için atanmadı. Bir tren seç ve bu istasyona sağ tıklayarak rotaya ekle.
+Status.TooManyGoods = Kabul edilen çok fazla ürün var
+Status.TooManyGoods.Desc = Bir çıktı depo alanında 5'ten fazla ürün kabul etmek tavsiye edilmez. Birden fazla depo alanı oluşturarak üretiminiz üzerinde daha fazla kontrol sahibi olabilirsiniz.
+Task.SupplyAutoWorkshop.Text = $2 atölyesinde $1 üretiliyor.
+Task.UnloadAutoWorkshop.Text = $2 atölyesinden $1 boşaltılıyor.
+TerrainShape.Flat = Düz coğrafya
+TerrainShape.Flat.Intro = Bu adada çok fazla çimlik var.
+TerrainShape.Mountain = Dağlı coğrafya
+TerrainShape.Mountain.Intro = Bu ada tepeli ve dağlı.
+TerrainShape.Normal = Normla coğrafya
+TerrainShape.Plane = Dümdüz coğrafya
+TerrainShape.Rainbow = Dümdüz coğrafya
+TitleBasicWorkshop1 = Tahta kalas üretimi
+TitleBasicWorkshop1.Intro = Bir temel atölye inşa et ve biraz tahta kalas üret:
+TrainAutoExitHopper.Desc = 4.) Çıktı gözünü ayarla
+TrainAutoExitHopper.Intro = Kazılan demir artık otomatik olarak güney istasyonuna taşınıyor. Çıktı gözünü seçip kazılmış demiri kabul edecek şekilde ayarlayarak yakındaki depoda demirin depolanmasını sağla.
+TrainAutoSchedule.Desc = 3.) Rotayı ayarla
+TrainAutoSchedule.Intro = Treni seç ve iki istasyon uda üzerlerine sağ tıklayarak rotaya ekle.
+TrainSchedule.Desc = 4.) Bir rota ayarla
+TrainSchedule.Intro = Trenler nereye gideceklerini bilmek için bir rota gerektirirler. Treni seç ve iki istasyonu da sağ tıklayarak rotaya ekle.
+TutorialNeedsTools.IntroControls = Kontrollere alış
+TutorialNeedsTools.Introduction = Minik ve barışçıl bir adaya vardık. Bir kamp kurup odun ve taş depolamalıyız.
+TutorialNeedsTools.IntroHelp = Yardım sistemini kullanmayı öğren:
+TutorialNeedsTools.IntroUnload = Gemiyi boşalt:
+UI.Credits = Emeği Geçenler
+UI.ItemTier = Seviye: $1
+UI.Modding.State.PreviewTooBig = Öngösterim resmi çok büyük. thumbnail.png 1MB'dan daha ufak olmalıdır.
+UI.PastureYield.Short = Meradayken verilen
+UI.Priority.TooltipDisabled = Devre dışı.
+UI.Priority.TooltipDisabled.Desc = Bu nesne devre dışı.
+UI.RecipieHint = <i>Bir tarife tıklayarak aktif et veya devre dışı bırak. Alt tuşuna basarak bağlı çıktı depo alanlarının kabul ettiği ürünleri otomatik olarak değiştir.</i>
+LinkStockpiles.Outro = İpucu: Aynı linki tekrar oluşturarak linkleri kaldırabilirsin.
+ObjectType.AutoMason = Otomatik taşkesici
+ObjectType.AutoMason.Desc = Otomatik taşkesiciler kayaları taş bloklara dönüştürür.
+ObjectType.TrainFactoryLong = Tren fabrikası (uzun)
+ObjectType.TrainFactoryLong.Desc = Üç trenin inşası ve bakımında kullanılır. Trenler lojistik sisteminde kullanılabilir.
+ObjectType.TrainLocomotive = Lokomotif
+ObjectType.TrainLocomotive.Desc = Trenler uzun mesafelerde ağır ürünlerin taşınmasında kullanılır.
+ObjectType.TrainStationLong = Tren istasyonu (uzun)
+ObjectType.TrainStationLong.Desc = Trenler burada durabilir ve otomatik olarak dolar veya boşalır.
