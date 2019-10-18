@@ -1426,3 +1426,7 @@ UI.ItemTier = Tier: $1
 
 Settings.ColorBlindMode = Color Blind Mode 
 Settings.ColorBlindMode.Desc = Changes some UI colors to make it easier to distinguish if you have impaired color vision. Requires restart to take effect.
+
+
+Workshop.Status.NoInputStockpileForRecipe = Required inputs not supplied by stockpiles.  
+Workshop.Status.NoInputStockpileForRecipe.Desc = None of the input stockpiles assigned to this workshop accept one or more of the goods required by the selected jobs. 
