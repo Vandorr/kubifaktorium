@@ -1369,7 +1369,7 @@ UI.ProductionTree.Desc = Open the selected item in the product encyclopedia.
 
 
 
-BugReport.Discord = Discord ID or email (for questions, optional)
+BugReport.Discord = Email address (for questions, optional)
 
 Savegame.Version = Game Version:
 Savegame.ModsInUse = Mods in use:
