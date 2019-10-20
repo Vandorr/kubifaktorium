@@ -2028,7 +2028,7 @@ UI.ProductionTree.Desc = Öffnet den ausgewählten Gegenstand in der Produktenzy
 
 
 
-BugReport.Discord = Discord ID oder email (für Nachfragen, optional)
+BugReport.Discord = Email-Adresse (für Nachfragen, optional)
 
 Savegame.Version = Spielversion:
 Savegame.ModsInUse = Verwendete Mods:
