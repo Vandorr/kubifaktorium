@@ -1869,7 +1869,7 @@ Scenario.TutorialCarriages.Desc = Richte eine Verbindung aus Pferde_wagen ein.
 
 
 CarriageSetupLinks.Desc = 2.) Verbindungen einrichten
-CarriageSetupLinks.Intro = Gut. Die Felsen werden nun zum Bahnhof im Norden getragen, da er am nächsten ist. Verbinde als die Bahnhöfe.
+CarriageSetupLinks.Intro = Gut. Die Felsen werden nun zum Bahnhof im Norden getragen, da er am nächsten ist. Verbinde die beiden Bahnhöfe.
 CarriageSetupSchedule.Desc = 3.) Fahrplan einrichten
 CarriageSetupSchedule.Intro = Wähle nun die Pferde_wagen aus und füge ihren Fahr_plänen jeweils die beiden Bahnhöfe hinzu, indem du mit der rechten Maustaste auf sie klickst.
 CarriageSetupStockpiles.Desc = 1.) Bahnhof und Lager einrichten
@@ -2146,3 +2146,52 @@ Settings.ColorBlindMode = Hilfe für Farbenblinde
 Settings.ColorBlindMode.Desc = Ändert einige Farben der Benutzeroberfläche, um die Unterscheidbarkeit für Spieler mit Farbfehlsichtigkeit zu erleichtern. Erfordert einen Neustart, um wirksam zu werden.
 UI.ItemTier = Stufe: $1
 UI.Priority.TooltipDisabled.Desc = Dieses Lager ist abgeschaltet.
+
+
+Workshop.Status.NoInputStockpileForRecipe = Benötigte Güter nicht verfügbar.
+Workshop.Status.NoInputStockpileForRecipe.Desc = Keines der Eingangslager akzeptiert die Güter, die von einem ausgewählten Rezept benötigt werden.
+ObjectType.DepotHC5x5 = Depot 5x5 (hohe Kapazität)
+ObjectType.DepotHC5x5.Desc = ##depots können Waren lagern und verteilen.
+ObjectType.Floor_Sand_Water = Sand
+ObjectType.Floor_Sand_Water.Desc = Sand
+ObjectType.LongInserter = Inserter (lang)
+ObjectType.LongInserter.Desc = Inserter bewegen Artikel zwischen Förder_bändern, ##depots usw..
+
+Map01.OutroFarm = Tipp: Die meisten Pflanzen benötigen einen bestimmten Boden, um zu wachsen. Bewege den Mauszeiger über eine Pflanze im Farm-Panel, um zu sehen, auf welchen Bodentypen sie gepflanzt werden kann.
+
+
+Modifier.CargoTier2.Name = Frachtstufe 2
+Modifier.CargoTier3.Name = Frachtstufe 3
+Modifier.MapSizeBig.Name = Kartengröße
+Modifier.MapSizeHuge.Name = Kartengröße
+Modifier.MapSizeNormal.Name = Kartengröße
+Modifier.MapSizeSmall.Name = Kartengröße
+Modifier.MapSizeTest.Name = Kartengröße
+Modifier.MapsizeTiny.Name = Kartengröße
+Modifier.RecruitablePigs.Name = Rekrutierbare Schweine
+Modifier.RecruitColonists.Name = Gestrandete Kolonisten
+Modifier.ResourcesBasic.Name = Resourcenmenge
+Modifier.ResourcesMeadow.Name = Resourcenmenge
+Modifier.ResourcesNormal.Name = Resourcenmenge
+Modifier.SpawnEnemyCampsFew.Name = Gegnerlager
+Modifier.SpawnEnemyCampsMany.Name = Gegnerlager
+Modifier.SpawnEnemyCampsNone.Name = Gegnerlager
+Modifier.SpawnEnemyCampsNormal.Name = Gegnerlager
+Modifier.SpawnStrandedGoods.Name = Gestrandete Güter
+Modifier.TerrainDark.Name = Terrain
+Modifier.TerrainDesert.Name = Terrain
+Modifier.TerrainGrassland.Name = Terrain
+Modifier.TerrainShapeFlat.Name = Terrainform
+Modifier.TerrainShapeMountain.Name = Terrainform
+Modifier.TerrainShapeNormal.Name = Terrainform
+Modifier.TerrainShapePlane.Name = Terrainform
+Modifier.TerrainShapeRainbow.Name = Terrainform
+Modifier.WavesSlimes.Name = (Experimentell)
+
+Scenario.AllTheBiomes.Name = Multibiomkarte
+Scenario.MockupTier1.Name = Stufe 1
+Scenario.MockupTier12.Name = Stufen 1 + 2
+Scenario.MockupTier2.Name = Stufe 2
+Scenario.MockupTier23.Name = Stufen 2 + 3
+Scenario.MockupTier3.Name = Stufe 3
+Scenario.TestMap.Name = Leere Karte
