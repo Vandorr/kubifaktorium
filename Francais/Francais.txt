@@ -1698,3 +1698,57 @@ Savegame.ModsInUse = Mods Utilisés :
 Savegame.TimeSaved = Sauvegardé sur :
 UI.EnterText=Saisir Texte...
 
+Settings.AssistMode = Mode assistance
+Settings.AssistMode.Desc = Simplifie quelques mécanismes pour rendre le jeu plus facile à comprendre pour les nouveaux joueurs : 1) Affecte automatiquement les colons à toutes les tâches/ateliers. 2) Les produits de l'atelier sont automatiquement affectés à leurs stocks de production. 3) Certains articles comme les matériaux de construction sont automatiquement déchargés de votre navire. 4) Ajoute toutes les couleurs/zones à tous les colons.
+
+UI.ForbidUsage = Interdire la consommation
+UI.ForbidUsage.Desc = Empêchez vos colons de consommer des marchandises de cette réserve.
+
+TutorialWarning = Avertissement du tutoriel.
+TutorialWarning.Desc = Il est fortement recommandé de jouer à certains des tutoriels avant d'entrer dans le jeu. (Lancez n'importe quel tutoriel pour supprimer cet avertissement.)
+
+UI.Build.ConstructionComplete = Construction terminée.
+UI.Build.ConstructionComplete.Desc = La construction est terminée.
+
+Workshop.Status.OutputBoxFull = Boîte de sortie occupée.
+Workshop.Status.OutputBoxFull.Desc = Veuillez vider la boîte de sortie pour reprendre la production..
+
+UI.Color1 = rouge
+UI.Color2 = jaune
+UI.Color3 = vert
+UI.Color4 = bleu
+UI.Color5 = violet
+
+
+UI.ProductionTime = Délai de production : $1s
+
+
+Status.NoCarriage = Aucun chariot assigné.
+Status.NoCarriage.Desc = Aucun chariot n'est assigné pour s'arrêter à cette station. Sélectionnez une voiture et cliquez avec le bouton droit de la souris sur cette station pour l'ajouter à sa programmation.
+
+Status.NoTrain = Aucun train assigné.
+Status.NoTrain.Desc = Aucun train n'est assigné pour s'arrêter à cette gare. Sélectionnez un train et cliquez avec le bouton droit de la souris sur cette station pour l'ajouter à sa programmation.
+
+
+UI.Priority.TooltipDisabled = Désactivé.
+UI.Priority.TooltipDisabled.Desc = Cet objet est désactivé.
+
+UI.Modding.State.PreviewTooBig = Aperçu trop grand. Le fichier thumbnail.png doit être inférieur à 1 Mo.
+
+Status.TooManyGoods = Trop de marchandises acceptées
+Status.TooManyGoods.Desc = Il n'est pas recommandé d'accepter plus de 5 marchandises dans un stock de sortie. Créez plusieurs stocks pour avoir plus de contrôle sur votre production. 
+
+Message.Screenshot = Capture d'écran réalisée à $1.
+
+UI.Credits = Crédits
+UI.ItemTier = Niveau : $1
+
+
+
+Settings.ColorBlindMode = Mode daltonien 
+Settings.ColorBlindMode.Desc = Modifie certaines couleurs de l'interface utilisateur pour faciliter la distinction si vous avez une mauvaise vision des couleurs. Nécessite un redémarrage pour prendre effet.
+
+
+Workshop.Status.NoInputStockpileForRecipe = Intrants requis non fournis par les stocks.  
+Workshop.Status.NoInputStockpileForRecipe.Desc = Aucun des stocks d'intrants affectés à cet atelier n'accepte une ou plusieurs des marchandises requises pour les travaux sélectionnés.
+
