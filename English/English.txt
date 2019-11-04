@@ -1430,3 +1430,8 @@ Settings.ColorBlindMode.Desc = Changes some UI colors to make it easier to disti
 
 Workshop.Status.NoInputStockpileForRecipe = Required inputs not supplied by stockpiles.  
 Workshop.Status.NoInputStockpileForRecipe.Desc = None of the input stockpiles assigned to this workshop accept one or more of the goods required by the selected jobs. 
+
+UI.Mod.Missing = missing
+Savegame.Type.World = World map save
+Savegame.Type.Island = Island save
+Savegame.ModsInUse.None = (No mods used.)
