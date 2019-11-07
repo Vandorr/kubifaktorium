@@ -1291,7 +1291,7 @@ ConvTutPart1.Intro = Dieses einfache Setup zeigt, wie Fließ_bänder genutzt wer
 ConvTutPart2.Desc = 2.) Verteiler
 ConvTutPart2.Intro = Verteiler teilen Waren gleich_mäßig auf ein oder mehrere ausgehende Bänder auf. Wähle den Lager_ausgang im Depot (2) aus stelle ihn so ein, dass er Stein_blöcke aufnimmt.
 ConvTutPart3.Desc = 3.) Über_irdische Bänder
-ConvTutPart3.Intro = Förder_bänder können in zwei Ebenen gebaut werden. Verwende Rampen, um Waren zwischen den beiden Ebenen zu trans_portieren. Wähle den Lager_ausgang im Depot (3) aus stelle ihn so ein, dass er #StoneBlock# Stein_blöcke aufnimmt.
+ConvTutPart3.Intro = Förder_bänder können in zwei Ebenen gebaut werden. Verwende Rampen, um Waren zwischen den beiden Ebenen zu trans_portieren. Wähle den Lager_ausgang im Depot (3) aus stelle ihn so ein, dass er Holz_scheite aufnimmt.
 Farm.Status.Water = Fertig zum Bewässern
 Farm.Status.Water.Desc = Fertig zum ##water. Achte darauf, dass Wasser bereit steht.
 LoadingPhase.Clearing = Lösche verbleibende Daten.
@@ -2195,3 +2195,12 @@ Scenario.MockupTier2.Name = Stufe 2
 Scenario.MockupTier23.Name = Stufen 2 + 3
 Scenario.MockupTier3.Name = Stufe 3
 Scenario.TestMap.Name = Leere Karte
+
+
+Map01.IntroKeybindings = Tipp: Du kannst alle Tastatur_shortcuts im Launcher-Programm anpassen.
+Mod.BuildingCategory = Test Mod
+Mod.BuildingCategory.Desc = Für Testzwecke.
+Savegame.ModsInUse.None = (Keine Mods verwendet.)
+Savegame.Type.Island = Insel-Speicherstand
+Savegame.Type.World = Weltkarten-Speicherstand
+UI.Mod.Missing = fehlt
