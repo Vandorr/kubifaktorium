@@ -12,6 +12,7 @@ Commit translations for Kubifaktorium into foreign languages to this repository 
  * Korean: Translation by Pie and Blackmass.
  * Portuguese: Translation by HarD-BR and Lariro.
  * Simplified Chinese: Translation by Law_4x and Karnie and Jockey.
+ * Spanish: Translation by Isthar.
  * Traditional Chinese: Translation by Apophis Lee, Cathern Gao and Chinese communities.
 
 
