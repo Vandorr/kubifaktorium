@@ -1752,3 +1752,7 @@ Settings.ColorBlindMode.Desc = Modifie certaines couleurs de l'interface utilisa
 Workshop.Status.NoInputStockpileForRecipe = Intrants requis non fournis par les stocks.  
 Workshop.Status.NoInputStockpileForRecipe.Desc = Aucun des stocks d'intrants affectés à cet atelier n'accepte une ou plusieurs des marchandises requises pour les travaux sélectionnés.
 
+UI.Mod.Missing = manquant
+Savegame.Type.World = Sauvegarder Carte du Monde
+Savegame.Type.Island = Sauvegarder Ile
+Savegame.ModsInUse.None = (Aucun mod utilisé)
