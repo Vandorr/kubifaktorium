@@ -1193,7 +1193,7 @@ UI.TargetsForTier = Targets for biome $1:
 
 
 # 2.6.19
-Objective.CarriageSchedule = Add $5 to carriage's schedule
+Objective.CarriageSchedule = Add $5 to carriage $3's schedule
 Objective.CarriageSchedule.Desc = To add a station to a carriage's schedule, select the carriage and right-_click on the station you want to add. Clicking again will remove the station. 
 
 				
