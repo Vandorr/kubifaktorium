@@ -1311,17 +1311,17 @@ Message.MinimumGood = $1 wurde deinem Schiff hinzugefügt.
 ObjectType.ConstructionBlock = Baustein
 ObjectType.ConstructionBlock.Desc = Ein verstärkter Baustein, der für fort_geschritt_ene Gebäude verwendet wird.
 ObjectType.ConveyorBeltHigh = Fließ_band (hoch)
-ObjectType.ConveyorBeltHigh.Desc = Fließ_bänder werden verwendet, um Waren innerhalb deiner Siedlung zu trans_portieren.
+ObjectType.ConveyorBeltHigh.Desc = Fließ_bänder werden verwendet, um Waren innerhalb deiner Siedlung zu trans_portieren. (Benötigt Fließ_bandteile)
 ObjectType.ConveyorBeltParts = Fließ_bandteil
 ObjectType.ConveyorBeltParts.Desc = Fließ_band_teile werden verwendet, um Fließ_bänder zu bauen.
 ObjectType.ConveyorBeltRampDown = Fließ_band (Rampe)
-ObjectType.ConveyorBeltRampDown.Desc = Fließ_bänder werden verwendet, um Waren innerhalb deiner Siedlung zu trans_portieren.
+ObjectType.ConveyorBeltRampDown.Desc = Fließ_bänder werden verwendet, um Waren innerhalb deiner Siedlung zu trans_portieren. (Benötigt Fließ_bandteile)
 ObjectType.ConveyorBeltRampUp = Fließ_band (Rampe)
-ObjectType.ConveyorBeltRampUp.Desc = Fließ_bänder werden verwendet, um Waren innerhalb deiner Siedlung zu trans_portieren.
+ObjectType.ConveyorBeltRampUp.Desc = Fließ_bänder werden verwendet, um Waren innerhalb deiner Siedlung zu trans_portieren. (Benötigt Fließ_bandteile)
 ObjectType.ConveyorDistributor = Fließ_band (Verteiler)
-ObjectType.ConveyorDistributor.Desc = Verteiler teilen Waren gleich_mäßig auf ein oder mehrere ausgehende Bänder auf.
+ObjectType.ConveyorDistributor.Desc = Verteiler teilen Waren gleich_mäßig auf ein oder mehrere ausgehende Bänder auf. (Benötigt Fließ_bandteile)
 ObjectType.ConveyorDistributorHigh = Fließ_band (Verteiler)
-ObjectType.ConveyorDistributorHigh.Desc = Verteiler teilen Waren gleich_mäßig auf ein oder mehrere ausgehende Bänder auf.
+ObjectType.ConveyorDistributorHigh.Desc = Verteiler teilen Waren gleich_mäßig auf ein oder mehrere ausgehende Bänder auf. (Benötigt Fließ_bandteile)
 ObjectType.Dark_Mountain = Dunkelberg
 ObjectType.Dark_Mountain.Desc = Dunkelberg
 ObjectType.DarkRuins = Antike Ruinen
@@ -1791,7 +1791,7 @@ UI.TargetsForTier = Ziele für Biom $1:
 
 
 # 2.6.19
-Objective.CarriageSchedule = Füge $5 zum Fahrplan hinzu
+Objective.CarriageSchedule = Füge $5 zum Fahrplan von Wagen $3 hinzu
 Objective.CarriageSchedule.Desc = Um einen Bahnhof zum Fahrplan hin_zuzufügen wähle den Wagen aus und rechts-klicke auf den Bahnhof. Um einen Bahn_hof zu ent_fernen, klicke auf seinen Ein_trag im Fahr_plan.
 
 				
@@ -2204,3 +2204,5 @@ Savegame.ModsInUse.None = (Keine Mods verwendet.)
 Savegame.Type.Island = Insel-Speicherstand
 Savegame.Type.World = Weltkarten-Speicherstand
 UI.Mod.Missing = fehlt
+
+Map01.OutroUnload = Tipp: Du kannst deine Kolonisten dazu bringen, dein Schiff automatisch zu entladen, indem du es mit Lagerplätzen oder Depots verbindest.
