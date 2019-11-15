@@ -7,10 +7,10 @@ disableHyphenationCheck = true
 
 
 ##happiness = Zufriedenheit 
-##happiness.Desc = Zufriedenheit: Die Bewegung und Arbeits_geschwin_dig_keit eines Kolo_nisten wird davon beein_flusst, wie gut seine Bedürf_nisse erfüllt werden.
+##happiness.Desc = Zufriedenheit: Die Bewegungs_geschwin_dig_keit eines Kolo_nisten wird davon beein_flusst, wie gut seine Bedürf_nisse erfüllt werden.
 
 ##skill = Geschick
-##skill.Desc = Geschick: Jeder Kolonist ist unter_schiedlich gut für die ver_schiedenen Arbeiten und Werk_stätten geeignet. Im Laufe der Zeit werden sie besser in den Aufgaben, die sie verrichten.
+##skill.Desc = Geschick: Jeder Kolonist ist unter_schiedlich gut für die ver_schiedenen Arbeiten und Werk_stätten geeignet, was die Erfolgs- und Fehlschlags_wahrscheinlich_keit beeinflusst. Im Laufe der Zeit werden die Kolonisten besser in den Aufgaben, die sie verrichten.
 
 
 ##keycycle = wechseln
@@ -1215,7 +1215,7 @@ ObjectType.FilterInserter.Desc = Inserter bewegen ausgewählte Artikel zwischen 
 ObjectType.Grove5x5 = Autom. Baum_schule
 ObjectType.Grove5x5.Desc = Pflanzt und erntet ##automatically Bäume.
 ObjectType.IronQuarry = Eisenmine
-ObjectType.IronQuarry.Desc = Der Eisen_stein_bruch liefert einen endlosen Vorrat an Eisen.
+ObjectType.IronQuarry.Desc = Der Eisen_stein_bruch liefert einen endlosen Vorrat an Eisen. 
 ObjectType.IronVein = Eisenader
 ObjectType.IronVein.Desc = Eine un_erschöpf_liche Quelle an Eisen. Baue einen Stein_bruch, um sie abzubauen.
 ObjectType.Monolith = Alter Monolit
