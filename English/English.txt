@@ -1447,3 +1447,14 @@ Savegame.ModsInUse.None = (No mods used.)
 
 ##movementspeed = Movement speed
 ##movementspeed = Movement speed factor. (Determined by happiness)
+
+UI.ShippingPort.Import = Import goods
+UI.ShippingPort.Import.Desc = Click to toggle further goods from getting ordered (Only affects future shipments). To import goods ling this shipping port to a stockpile and set it to accept what you want to import.
+UI.ShippingPort.Export = Export goods
+UI.ShippingPort.Export.Desc = Click to toggle further goods from being brought to be exported (Only affects future shipments). To export goods link a stockpile containing them to this shipping port. 
+
+UI.ShowAll = Show all items
+UI.ShowAll.Desc = Deactivate to show only the most relevant items in the current context.
+
+UI.AreYouSure.Delete = Are you sure you want to delete the selected file?
+UI.AreYouSure.Overwrite = Are you sure you want to delete the selected file?
