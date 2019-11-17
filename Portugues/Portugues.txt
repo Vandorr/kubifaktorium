@@ -1794,7 +1794,7 @@ UI.WM.Tiers.Title.Desc = Em cada bioma, há metas de produção que você precis
 UI.TargetsForTier = Metas para o bioma $1:
 
 # 2.6.19
-Objective.CarriageSchedule = Adiciona $5 ao cronograma da carruagem
+Objective.CarriageSchedule = Adiciona $5 ao cronograma da carruagem $3
 Objective.CarriageSchedule.Desc = Para adicionar uma estação ao cronograma da carruagem, selecione a carruagem e clique com o botão direito na estação desejada. Clicando novamente irá remover a estação. 
 				
 UI.Skirmish.Cargohint = Dica: Para testar diferentes terrenos, por favor selecione os cenários do Modelo de Grau 2 ou 3. Isso vai garantir que você tem a carga apropriada a bordo.
@@ -2196,3 +2196,10 @@ UI.Priority.TooltipDisabled = Desativado.
 UI.Priority.TooltipDisabled.Desc = Esse objeto está desativado.
 Workshop.Status.NoInputStockpileForRecipe = Recursos de entrada necessários não são supridos pelos estoques.
 Workshop.Status.NoInputStockpileForRecipe.Desc = Nenhum dos estoques de entrada designados para essa bancadas aceita um ou mais das mercadorias necessárias para o trabalho selecionado.
+
+# 4.11.2019
+
+UI.Mod.Missing = faltando
+Savegame.Type.World = Salvar mapa mundo
+Savegame.Type.Island = Salvar ilha
+Savegame.ModsInUse.None = (Nenhum mod usado.)
