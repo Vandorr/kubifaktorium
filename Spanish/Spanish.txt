@@ -1778,3 +1778,17 @@ Savegame.ModsInUse.None = (No hay mods en uso.)
 Savegame.Type.Island = Guardar isla
 Savegame.Type.World = Guardar mapa del mundo
 UI.Mod.Missing = faltan
+##critchance = Posibilidad de crítico
+##critchance.Desc = Posibilidad de éxito crítico. (Determinado por habilidades)
+##movementspeed = Velocidad de movimiento
+##successchance = Posibilidad de éxito
+##successchance.Desc = Posibilidad de tener éxtio. (Determinado por habilidades)
+UI.AreYouSure.Delete = ¿Seguro que quieres borrar el fichero selec_cionado?
+UI.AreYouSure.Overwrite = ¿Seguro que quieres borrar el fichero selec_cionado?
+UI.ShippingPort.Export = Exportar bienes
+UI.ShippingPort.Export.Desc = Haz clic para marcar más bienes que traer y exportados (Solo afecta a futuros envíos). Para exportar bienes enlaza una reserva que los contenga a este puerto de embarque.
+UI.ShippingPort.Import = Importar bienes
+UI.ShippingPort.Import.Desc = Haz clic para marcar más bienes que encargar (Solo afecta a futuros envíos). Para importar bienes enlaza este puerto a una reserva y configú_rala para aceptar los bienes que quieres importar.
+UI.ShowAll = Mostrar todo
+UI.ShowAll.Desc = Desactí_valo para mostrar solo los objetos más relevantes según el contexto.
+
