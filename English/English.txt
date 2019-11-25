@@ -1458,3 +1458,21 @@ UI.ShowAll.Desc = Deactivate to show only the most relevant items in the current
 
 UI.AreYouSure.Delete = Are you sure you want to delete the selected file?
 UI.AreYouSure.Overwrite = Are you sure you want to delete the selected file?
+
+
+ShippingPort.Status.NoImportStockpile = No import stockpile connected.
+ShippingPort.Status.NoImportStockpile.Desc = To import goods link this shipping port to a stockpile and set it to accept what you want to import.
+
+ShippingPort.Status.NoExportStockpile = No export stockpile connected.
+ShippingPort.Status.NoExportStockpile.Desc = To export goods link a stockpile containing them to this shipping port. 
+
+ShippingPort.Status.NoImportValidType = No valid import type assigned.
+ShippingPort.Status.NoImportValidType.Desc = To assign goods for import, select a connected import stockpile and set it to accept one ore more good types, that can be imported.
+
+ShippingPort.Status.NoExportValidType = No valid export type assigned.
+ShippingPort.Status.NoExportValidType.Desc = To assign goods for export, select a connected export stockpile and set it to accept one or more good types that can be exported.
+
+ShippingPort.Status.Okay = Shipping port is working.
+ShippingPort.Status.Okay.Desc = The shipping port is set up correctly.
+
+ShippingPort.Status.Idle = Shipping port is idle.
