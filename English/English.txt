@@ -560,8 +560,8 @@ MainMenu.PlayTutorial = Play Tutorials
 MainMenu.PlayCustomMap = Play Custom Map
 MainMenu.Settings = Settings
 MainMenu.Mods = User Mods
-MainMenu.ExitGame = Exit game
-
+MainMenu.ExitGame = Exit Game
+MainMenu.OneBigMap = Play Huge Map
 
 LoadingPhase.Clearing = Clearing remaining data.
 LoadingPhase.InitializingGame = Initializing game.
@@ -1476,3 +1476,7 @@ ShippingPort.Status.Okay = Shipping port is working.
 ShippingPort.Status.Okay.Desc = The shipping port is set up correctly.
 
 ShippingPort.Status.Idle = Shipping port is idle.
+
+
+Debug.audiodebug = Audio Debug Panel
+Debug.audiodebug.Desc = Play in-game sounds (useful for debugging and audio design).
