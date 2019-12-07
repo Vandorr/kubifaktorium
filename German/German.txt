@@ -2206,3 +2206,50 @@ Savegame.Type.World = Weltkarten-Speicherstand
 UI.Mod.Missing = fehlt
 
 Map01.OutroUnload = Tipp: Du kannst deine Kolonisten dazu bringen, dein Schiff automatisch zu entladen, indem du es mit Lagerplätzen oder Depots verbindest.
+
+
+
+
+##critchance = % kritisch
+##critchance.Desc = Wahrscheinlichkeit für kritischen Erfolg. (Bestimmt durch Fähigkeit)
+##movementspeed = Bewegungsgeschwindigkeit
+##successchance = Erfolgschance
+##successchance.Desc = Erfolgschance. (Bestimmt durch Fähigkeit)
+Debug.audiodebug = Audio Debug Panel
+Debug.audiodebug.Desc = Spiele beliebige in-game sounds (nützlich für debugging und audio design).
+MainMenu.OneBigMap = Riesige Karte
+ObjectType.CorniTreeSnow = Tannenbaum
+ObjectType.CorniTreeSnow.Desc = Bäume können ab_gebaut werden, um Holz_scheite zu erhalten.
+ObjectType.DecoSnowRocks = Kleine Steine
+ObjectType.DecoSnowRocks.Desc = Kann durch Abbauen entfernt werden.
+ObjectType.Floor_Grassland_Ice = Eis
+ObjectType.Floor_Grassland_Ice.Desc = Eis
+ObjectType.SnowBench = Bank
+ObjectType.SnowBench.Desc = Wenn ein Kolonist erschöpft ist kann er hier entspannen.
+ObjectType.SnowMan = Schneemann
+ObjectType.SnowMan.Desc = Mag die kalte Umgebung.
+ObjectType.ToolWorkshop = Werkzeugschmiede
+ObjectType.ToolWorkshop.Desc = Erlaubt Kolonisten Werkzeuge und Waffen herzustellen.
+ObjectType.XmasPresents = Geschenke
+ObjectType.XmasPresents.Desc = Öffne Geschenke indem du sie abbaust.
+ShippingPort.Status.Idle = Frachthafen ist untätig.
+ShippingPort.Status.NoExportStockpile = Kein Ausgangslager verbunden.
+ShippingPort.Status.NoExportStockpile.Desc = Um Waren zu exportieren, verbinde einen Lagerbestand, der diese enthält, mit diesem Frachthafen.
+ShippingPort.Status.NoExportValidType = Eingangslager akzeptiert keine gültigen Güter.
+ShippingPort.Status.NoExportValidType.Desc = Um Waren für den Export zu bestimmen, wähle ein angeschlossenes Eingangslager aus und stelle es so ein, dass es die Warenarten akzeptiert, die exportiert werden können.
+ShippingPort.Status.NoImportStockpile = Kein Eingangslager verbunden.
+ShippingPort.Status.NoImportStockpile.Desc = Um Waren zu importieren, verbinde diesen Frachthafen mit einem Lager und stellen es so ein, dass es akzeptiert, was du importieren möchtest.
+ShippingPort.Status.NoImportValidType = Ausgangslager akzeptiert keine gültigen Güter.
+ShippingPort.Status.NoImportValidType.Desc = Um Waren für den Import zuzuordnen, wähle ein angeschlossenes Ausgangslager aus und stelle es so ein, dass es einen oder mehrere Warentypen akzeptiert, die importiert werden können.
+ShippingPort.Status.Okay = Frachthafen aktiv.
+ShippingPort.Status.Okay.Desc = Der Frachthafen ist korrekt eingerichtet.
+
+UI.AreYouSure.Delete = Bist du sicher, dass du die ausgewählte Datei löschen möchtest?
+UI.AreYouSure.Overwrite = Bist du sicher, dass du die ausgewählte Datei überschreiben möchtest?
+
+UI.ShippingPort.Export = Exportiere Güter
+UI.ShippingPort.Export.Desc = Klicke hier, um den Export von Gütern an- oder abzuschalten (betrifft nur zukünftige Sendungen). Um Waren zu exportieren, verbinden ein Lager, das diese enthält, mit diesem Frachthafen.
+UI.ShippingPort.Import = Importiere Güter
+UI.ShippingPort.Import.Desc = Klicke hier, um den Import von Gütern an- oder abzuschalten (betrifft nur zukünftige Sendungen). Um Waren zu importieren, verbinden ein Lager in das diese gebracht werden sollen, mit diesem Frachthafen.
+UI.ShowAll = Zeige alle Waren
+UI.ShowAll.Desc = Deaktiviere dies, um nur die relevantesten Waren im aktuellen Kontext anzuzeigen.
