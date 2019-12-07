@@ -560,8 +560,8 @@ MainMenu.PlayTutorial = Play Tutorials
 MainMenu.PlayCustomMap = Play Custom Map
 MainMenu.Settings = Settings
 MainMenu.Mods = User Mods
-MainMenu.ExitGame = Exit game
-
+MainMenu.ExitGame = Exit Game
+MainMenu.OneBigMap = Play Huge Map
 
 LoadingPhase.Clearing = Clearing remaining data.
 LoadingPhase.InitializingGame = Initializing game.
@@ -1449,7 +1449,7 @@ Savegame.ModsInUse.None = (No mods used.)
 ##movementspeed = Movement speed factor. (Determined by happiness)
 
 UI.ShippingPort.Import = Import goods
-UI.ShippingPort.Import.Desc = Click to toggle further goods from getting ordered (Only affects future shipments). To import goods ling this shipping port to a stockpile and set it to accept what you want to import.
+UI.ShippingPort.Import.Desc = Click to toggle further goods from getting ordered (Only affects future shipments). To import goods link this shipping port to a stockpile and set it to accept what you want to import.
 UI.ShippingPort.Export = Export goods
 UI.ShippingPort.Export.Desc = Click to toggle further goods from being brought to be exported (Only affects future shipments). To export goods link a stockpile containing them to this shipping port. 
 
@@ -1458,3 +1458,25 @@ UI.ShowAll.Desc = Deactivate to show only the most relevant items in the current
 
 UI.AreYouSure.Delete = Are you sure you want to delete the selected file?
 UI.AreYouSure.Overwrite = Are you sure you want to delete the selected file?
+
+
+ShippingPort.Status.NoImportStockpile = No import stockpile connected.
+ShippingPort.Status.NoImportStockpile.Desc = To import goods link this shipping port to a stockpile and set it to accept what you want to import.
+
+ShippingPort.Status.NoExportStockpile = No export stockpile connected.
+ShippingPort.Status.NoExportStockpile.Desc = To export goods link a stockpile containing them to this shipping port. 
+
+ShippingPort.Status.NoImportValidType = No valid import type assigned.
+ShippingPort.Status.NoImportValidType.Desc = To assign goods for import, select a connected import stockpile and set it to accept one ore more good types, that can be imported.
+
+ShippingPort.Status.NoExportValidType = No valid export type assigned.
+ShippingPort.Status.NoExportValidType.Desc = To assign goods for export, select a connected export stockpile and set it to accept one or more good types that can be exported.
+
+ShippingPort.Status.Okay = Shipping port is working.
+ShippingPort.Status.Okay.Desc = The shipping port is set up correctly.
+
+ShippingPort.Status.Idle = Shipping port is idle.
+
+
+Debug.audiodebug = Audio Debug Panel
+Debug.audiodebug.Desc = Play in-game sounds (useful for debugging and audio design).

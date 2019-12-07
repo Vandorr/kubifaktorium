@@ -50,10 +50,10 @@ disableHyphenationCheck=true
 ##drink.Desc = Bebida: Quando com sede, colonos irão automa_ticamente procurar algo para beber. Fornecer bebidas irá fazê-los mais felizes e produtivos.
 
 ##happiness = Felicidade 
-##happiness.Desc = Felicidade: O andar e velocidade de trabalho do colono é influenciado por quão bem suas necessidades são atendidas.
+##happiness.Desc = Felicidade: A velocidade do colono é influenciado por quão bem suas necessidades são atendidas.
 
 ##skill = Habilidades
-##skill.Desc = Habilidades: Todo colono tem uma proficiência diferente para cada grupo de atividade e bancada. Com o tempo, eles melhoram nas tarefas que realizam.
+##skill.Desc = Habilidades: Todo colono tem uma habilidade diferente para cada grupo de atividade e bancada. Essa habilidade determina a chance de sucesso ou falha na tarefa. Com o tempo, colonos melhoram nas tarefas que realizam.
 
 
 ##water = água 
@@ -530,6 +530,7 @@ MainMenu.PlayCustomMap = Jogar mapa customizado
 MainMenu.Settings = Confi_gurações
 MainMenu.Mods = Modificações
 MainMenu.ExitGame = Sair do jogo
+MainMenu.OneBigMap = Jogar mapa grande
 
 LoadingPhase.Clearing = Limpando dados restantes.
 LoadingPhase.InitializingGame = Inicia_lizando jogo.
@@ -2203,3 +2204,51 @@ UI.Mod.Missing = faltando
 Savegame.Type.World = Salvar mapa mundo
 Savegame.Type.Island = Salvar ilha
 Savegame.ModsInUse.None = (Nenhum mod usado.)
+
+# 15.11.2019
+
+##critchance = Chance crítica
+##critchance.Desc = Chance de sucesso crítico. (Determinada pela habilidade)
+
+##successchance = Chance de sucesso
+##successchance.Desc = Chance de sucesso. (Determinada pela habilidade)
+
+##movementspeed = Velocidade de movimento
+##movementspeed = Fator da velocidade de movimento. (Determinada pela felicidade)
+
+# 16.11.2019
+
+UI.ShippingPort.Import = Importar mercadorias
+UI.ShippingPort.Import.Desc = Clique para alternar mercadorias futuras a serem ordenadas. (Somente afeta carregamentos futuros). Para importar mercadorias, ligue esse porto a um estoque e configure-o para aceitar a mercadoria a ser importada.
+UI.ShippingPort.Export = Exportar mercadorias
+UI.ShippingPort.Export.Desc = Clique para alternar mercadorias futuras a serem exportadas. (Somente afeta carregamentos futuros). Para exportar mercadorias, ligue esse estoque a um porto.
+
+UI.ShowAll = Mostrar todos os itens
+UI.ShowAll.Desc = Desative para mostrar somente os itens mais relevantos no contexto atual.
+
+UI.AreYouSure.Delete = Você tem certeza que deseja deletar o item selecionado?
+UI.AreYouSure.Overwrite = Você tem certeza que deseja deletar o item selecionado?
+
+# 25.11.2019
+
+ShippingPort.Status.NoImportStockpile = Sem estoque de importe conectado.
+ShippingPort.Status.NoImportStockpile.Desc = Para importar mercadorias, ligue esse porto a um estoque e configure-o para aceitar a mercadoria a ser importada.
+
+ShippingPort.Status.NoExportStockpile = Sem estoque de exporte conectado.
+ShippingPort.Status.NoExportStockpile.Desc = Para exportar mercadorias, ligue esse porto a um estoque e configure-o para aceitar a mercadoria a ser importada.
+
+ShippingPort.Status.NoImportValidType = Nenhum tipo válido de importe atribuído.
+ShippingPort.Status.NoImportValidType.Desc = Para atribuir mercadorias para importe, selecione um estoque de importe conectado e configure-o para aceitar um ou mais tipos de mercadorias que podem ser importados.
+
+ShippingPort.Status.NoExportValidType = No valid export type assigned.
+ShippingPort.Status.NoExportValidType.Desc = Para atribuir mercadorias para exporte, selecione um estoque de exporte conectado e configure-o para aceitar um ou mais tipos de mercadorias que podem ser exportados.
+
+ShippingPort.Status.Okay = Porto de carga está funcionando.
+ShippingPort.Status.Okay.Desc = O porto de carga está configurado corretamente.
+
+ShippingPort.Status.Idle = Porto de carga está ocioso.
+
+# 30.11.2019
+
+Debug.audiodebug = Painel de depuração de áudio
+Debug.audiodebug.Desc = Toca sons em jogo (útil para depuração e design de sons).
