@@ -1457,7 +1457,7 @@ UI.ShowAll = Show all items
 UI.ShowAll.Desc = Deactivate to show only the most relevant items in the current context.
 
 UI.AreYouSure.Delete = Are you sure you want to delete the selected file?
-UI.AreYouSure.Overwrite = Are you sure you want to delete the selected file?
+UI.AreYouSure.Overwrite = Are you sure you want to overwrite the selected file?
 
 
 ShippingPort.Status.NoImportStockpile = No import stockpile connected.
