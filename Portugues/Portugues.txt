@@ -2227,7 +2227,7 @@ UI.ShowAll = Mostrar todos os itens
 UI.ShowAll.Desc = Desative para mostrar somente os itens mais relevantos no contexto atual.
 
 UI.AreYouSure.Delete = Você tem certeza que deseja deletar o item selecionado?
-UI.AreYouSure.Overwrite = Você tem certeza que deseja deletar o item selecionado?
+UI.AreYouSure.Overwrite = Você tem certeza que deseja sobrescrever o item selecionado?
 
 # 25.11.2019
 
@@ -2252,3 +2252,14 @@ ShippingPort.Status.Idle = Porto de carga está ocioso.
 
 Debug.audiodebug = Painel de depuração de áudio
 Debug.audiodebug.Desc = Toca sons em jogo (útil para depuração e design de sons).
+
+# 15.12.2019
+
+UI.ShippingPort.AutomationMode = Modo automação
+UI.ShippingPort.AutomationMode.Desc = Enquanto no modo automação, o porto de carga irá ignorar estoques de importação conectados e mercadorias requisitadas para importação por funis de saída.
+
+ShippingPort.Status.NoExitHopper = Nenhum funil de saída colocado.
+ShippingPort.Status.NoExitHopper.Desc = Enquanto no modo automação, o porto de carga irá ignorar estoques de importação conectados e mercadorias requisitadas para importação por funis de saída.
+
+ShippingPort.Status.NoExitHopperValidType = Nenhum tipo válido de importação designado.
+ShippingPort.Status.NoExitHopperValidType.Desc = Para designar mercadorias para importação, selecione um funil de saída e configure-o para aceitar um ou mais tipos de mercadorias que podem ser importadas.
