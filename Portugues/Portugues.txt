@@ -2263,3 +2263,33 @@ ShippingPort.Status.NoExitHopper.Desc = Enquanto no modo automação, o porto de
 
 ShippingPort.Status.NoExitHopperValidType = Nenhum tipo válido de importação designado.
 ShippingPort.Status.NoExitHopperValidType.Desc = Para designar mercadorias para importação, selecione um funil de saída e configure-o para aceitar um ou mais tipos de mercadorias que podem ser importadas.
+
+# 30.12.2019
+
+Map01.OutroUnload = Dica: Você pode fazer seus colonos descarregar o barco automa_ticamente ligando ele nos estoques e depósitos.
+Modifier.NoProductionTarget = Desativa a meta de inventário.
+Modifier.NoProductionTarget.Intro = Desativa a meta de inventário para este mapa.
+Modifier.NoProductionTarget.Name = Sem meta de inventário.
+Modifier.NoProductionTarget.Short = Sem meta de inventário.
+ObjectType.CorniTreeSnow = Pinheiro
+ObjectType.CorniTreeSnow.Desc = Árvores podem ser mineiradas para coletar troncos.
+ObjectType.DarkMonolith = Monolíto escuro
+ObjectType.DarkMonolith.Desc = Um Monolíto ancião de origen desco_nhecida.
+ObjectType.DarkSkeleton = Esqueleto escuro
+ObjectType.DarkSkeleton.Desc = Uma casca deteriorada de um grande animal.
+ObjectType.DecoSnowRocks = Pequenas rochas
+ObjectType.DecoSnowRocks.Desc = Pode ser removida por Mineração / colheita.
+ObjectType.Floor_Grassland_Ice = Gelo
+ObjectType.Floor_Grassland_Ice.Desc = Gelo
+ObjectType.SeaWeed = Algas marinhas
+ObjectType.SeaWeed.Desc = Plantas subaquáticas.
+ObjectType.SnowBench = Banco
+ObjectType.SnowBench.Desc = Quando exaustos, um colono irá sentar no banco para relaxar.
+ObjectType.SnowMan = Boneco de neve
+ObjectType.SnowMan.Desc = Apreciando o cenário.
+ObjectType.ToolWorkshop = Bancada de ferramentas
+ObjectType.ToolWorkshop.Desc = Permite colonos criarem ferramentas e armas.
+ObjectType.XmasPresents = Presentes
+ObjectType.XmasPresents.Desc = Presentes oiden ser mineirados para obter mercadorias aleatórias.
+ObjectType.XmasTree = Árvore de Natal
+ObjectType.XmasTree.Desc = Celebrando o início de um novo ano.
