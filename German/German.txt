@@ -2253,3 +2253,25 @@ UI.ShippingPort.Import = Importiere Güter
 UI.ShippingPort.Import.Desc = Klicke hier, um den Import von Gütern an- oder abzuschalten (betrifft nur zukünftige Sendungen). Um Waren zu importieren, verbinden ein Lager in das diese gebracht werden sollen, mit diesem Frachthafen.
 UI.ShowAll = Zeige alle Waren
 UI.ShowAll.Desc = Deaktiviere dies, um nur die relevantesten Waren im aktuellen Kontext anzuzeigen.
+
+
+
+
+Modifier.NoProductionTarget = Kein Inventarziel.
+Modifier.NoProductionTarget.Intro = Entfernt das Inventarziel für diese Karte.
+Modifier.NoProductionTarget.Name = Kein Inventarziel.
+Modifier.NoProductionTarget.Short = Kein Inventarziel.
+ObjectType.DarkMonolith = Dunkler Monolith
+ObjectType.DarkMonolith.Desc = Ein uralter Monolit mit unbekannter Herkunft.
+ObjectType.DarkSkeleton = Dunkles Skelett
+ObjectType.DarkSkeleton.Desc = Die Überreste eines großen Tieres.
+ObjectType.SeaWeed = Seekraut
+ObjectType.SeaWeed.Desc = Unterwasserpflanze.
+ObjectType.XmasTree = Weihnachtsbaum
+ObjectType.XmasTree.Desc = Feiert den Beginn eines neuen Jahres.
+ShippingPort.Status.NoExitHopper = Kein Depot_ausgang platziert.
+ShippingPort.Status.NoExitHopper.Desc = Im automatischen Modus ignoriert der Hafen verbundene Importlager und importiert die Güter, die von den Depot_ausgängen nachgefragt werden.
+ShippingPort.Status.NoExitHopperValidType = Kein gültiger Importtyp zugewiesen.
+ShippingPort.Status.NoExitHopperValidType.Desc = Um Güter für den Import zuzuweisen, wähle einen Depot_ausgang aus und wähle einen Gütertyp aus, der importiert werden kann.
+UI.ShippingPort.AutomationMode = Automatischer Modus
+UI.ShippingPort.AutomationMode.Desc = Im automatischen Modus ignoriert der Hafen verbundene Importlager und importiert die Güter, die von den Depot_ausgängen nachgefragt werden.
