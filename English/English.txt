@@ -1492,3 +1492,9 @@ ShippingPort.Status.NoExitHopperValidType.Desc = To assign goods for import, sel
 
 Debug.audiodebug = Audio Debug Panel
 Debug.audiodebug.Desc = Play in-game sounds (useful for debugging and audio design).
+
+
+Message.Ingredients.Missing = Missing ingredients: $1
+Message.Building.Complete = $1 completed $2.
+
+UI.ColonistScreen.NameHead = Name
