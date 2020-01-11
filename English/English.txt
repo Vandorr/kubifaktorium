@@ -1498,3 +1498,9 @@ Message.Ingredients.Missing = Missing ingredients: $1
 Message.Building.Complete = $1 completed $2.
 
 UI.ColonistScreen.NameHead = Name
+
+Conveyor.Status.AdjacentDistributors = Adjacent conveyor belt distributors.
+Conveyor.Status.AdjacentDistributors.Desc = Conveyor belt distributors cannot be placed next to each other. 
+
+Conveyor.Status.Operational = Conveyor is working.
+Conveyor.Status.Operational.Desc = Conveyor is set up correctly.  
