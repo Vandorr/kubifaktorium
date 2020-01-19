@@ -1504,3 +1504,12 @@ Conveyor.Status.AdjacentDistributors.Desc = Conveyor belt distributors cannot be
 
 Conveyor.Status.Operational = Conveyor is working.
 Conveyor.Status.Operational.Desc = Conveyor is set up correctly.  
+
+
+WorkshopAuto.Status.NoOutput = No output stockpile or inserter assigned.
+WorkshopAuto.Status.NoOutput.Desc = You need to assign an output stockpile or build an inserter to unload this workshop's output goods. To link an output ##stockpilezone, left-_click the workshop and right-_click the stockpile where you want the workshop's output to go. Workshops will produce until the linked stockpiles are full.
+WorkshopAuto.Status.NoOutputForProduct = Output stockpiles don't accept products.
+WorkshopAuto.Status.NoOutputForProduct.Desc = To change the accepted goods of a ##stockpilezone, left-_click it and change the types by selecting them in the panel.
+
+WorkshopAuto.Status.PartialServe = Not all inputs supplied by inserters.
+WorkshopAuto.Status.PartialServe.Desc = Make sure all input spots are supplied by inserters. 
