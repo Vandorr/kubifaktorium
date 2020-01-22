@@ -121,26 +121,25 @@ UI.MessagePanel = Message
 UI.MessagePanel.Desc = To close a message, right-_click on it. You can review closed messages in the message log. Left-_click on a message to focus your camera on the event.
 
 UI.Recruit = Recruit them.
-UI.Recruit.Desc = Recruiting a castaway or taming an animal will make them join your colony. Note: Animals can only perform a limited set of tasks. Once they are a part of your colony, they will begin consuming your supplies.
+UI.Recruit.It = Recruit it.
+UI.Recruit.Desc = Recruiting a castaway or an animal will make them join your colony. Note: Animals can only perform a limited set of tasks. Once they are a part of your colony, they will begin consuming your supplies.
 
-UI.MessageLog = Message log
+UI.MessageLog = Message log ///L///
 UI.MessageLog.Desc = Keeps track of previous messages.
 UI.MultiSelectHeader = $1 colonist selected.
-UI.Build = Construct
+UI.Build = Construct ///B///
 UI.Build.Desc = Create a blueprint for a building to be con_structed by your colonists.
-UI.Mine = Mine & harvest
+UI.Mine = Mine & harvest ///M///
 UI.Mine.Desc = Mark trees, rocks and other objects to be ##mined or harvested. (Hold alt to mark all objects of the same type in your ##territory).
-UI.SettlerMenu = Colonist management
+UI.SettlerMenu = Colonist management ///F9///
 UI.SettlerMenu.Desc = Set your colonists' jobs and the workshops they use.
-UI.Load = Load
-UI.Load.Desc = Mark items to be loaded onto your ##ship.
-UI.Stockpile = Stockpile
+UI.Stockpile = Stockpile ///P///
 UI.Stockpile.Desc = Click and drag your mouse to create a new ##stockpilezone or expand an existing zone. 
-UI.Grove = Grove
+UI.Grove = Grove ///G///
 UI.Grove.Desc = Create or expand a ##grovezone.
-UI.Farm = Farm
+UI.Farm = Farm ///F///
 UI.Farm.Desc = Create a new ##farmzone or expand an existing zone.
-UI.InventoryMenu = Inventory
+UI.InventoryMenu = Inventory ///I///
 UI.InventoryMenu.Desc = Display your colony's inventory and manage how the goods are used.
 UI.UnloadAll = Unload everything.
 UI.UnloadAll.Desc = Order your colonists to unload all cargo from your ##ship.
@@ -171,7 +170,7 @@ UI.LinkOverlay = Production Routes
 UI.LinkOverlay.Desc = Toggles the display of active links between workshops, farms and ##stockpilezones. [Default: Left Alt]
 UI.MaxSpeed = Max. speed: $1
 UI.SettlerScreen.Areas=Zones
-UI.SettlerScreen.Explanation = Tools -> Colonists auto_matically pick the best possible tool. Their tool preference depends on their assigned tasks.<br>Zones -> Click: Allow/forbid a zone. Colonists will not interact with things in inactive zones. Select a bonfire to change its designated zone.<br>Tasks & workshops -> Click: Toggle between active and inactive. The squares' sizes indicate the colonists' skill levels. 
+UI.SettlerScreen.Explanation = Tools: Colonists auto_matically pick the best possible tool. Their tool preference depends on their assigned tasks.<br>Zones: Click to allow/forbid a zone. Colonists will not interact with things in inactive zones. Select a bonfire to change its designated zone.<br>Tasks & workshops: Click to toggle between active and inactive. The squares' sizes indicate the colonists' skill levels. 
 UI.SettlerScreen.Tasks=Tasks
 UI.SettlerScreen.Title=Colonist management
 UI.SettlerScreen.Tool=Tool
@@ -180,18 +179,18 @@ UI.ToolAssignment = Equipped tool or preference.
 UI.ToolAssignment.Desc = Colonists auto_matically pick the best possible ##tool. Their tool preference (hammer, shovel, pickaxe or weapon) depends on their assigned tasks.
 UI.ToolBaseEffect = Base effect: $1
 UI.ToolTaskType = Task type: $1
-UI.Track = Track construction tool.
+UI.Track = Track construction tool. ///T///
 UI.Track.Desc = Construct train tracks and signals. <br>Press ##Keyrotate to rotate. <br>Press ##Keycycle to toggle between high and low level.
-UI.Road = Road construction tool.
+UI.Road = Road construction tool. ///R///
 
-UI.Conv = Conveyor belt construction tool.
+UI.Conv = Conveyor belt construction tool. ///C///
 UI.Conv.Desc = Construct conveyor belts. <br>Press ##Keyrotate to rotate. <br>Press ##Keycycle to toggle between high and low level.
 UI.ZoneAssignment = Assign zones.
 UI.ZoneAssignment.Desc = Every bonfire can be set to one of 5 colors. You can restrict your colonists to certain areas by changing their zone assignment here.
 
 
 # Top right menu
-UI.Speed = Toggle game speed
+UI.Speed = Toggle game speed ///Numpad 0-3///
 UI.Speed.Desc = Toggle between pause, 1x, 2x and 4x speed.
 UI.Settings = Settings menu
 UI.Settings.Desc = Open the settings menu.
@@ -201,7 +200,7 @@ UI.Bug = Report a bug
 UI.Bug.Desc = Reporting a bug will send a screenshot and optionally a bug report to the developer.
 UI.Undo = Undo
 UI.Undo.Desc = Remove the track / belt / blueprint last constructed.
-UI.Main = Open the menu
+UI.Main = Open the menu ///Escape///
 UI.Main.Desc = Load/save a game, change the settings or exit the game.
 
 
@@ -418,23 +417,23 @@ Text.BackerRaft.Desc = Sent by $1.
 
 BuildingType.Actor = Actor
 BuildingType.Actor.Desc = Spawn colonists, enemies and animals.
-BuildingType.Decoration = Decoration
+BuildingType.Decoration = Decoration ///1///
 BuildingType.Decoration.Desc = Decoration makes your colony more pretty and improves your colonists' happiness.
 BuildingType.Defense = Defense
 BuildingType.Defense.Desc = Walls and towers. 
-BuildingType.Food = Food and Water
+BuildingType.Food = Food and Water ///2///
 BuildingType.Food.Desc = Buildings to produce and refine ##food and ##drinks.
 BuildingType.House = Housing
 BuildingType.House.Desc = Having ##houses improves your colonists' happiness and efficiency. 
 BuildingType.Item = Items
 BuildingType.Item.Desc = Items.
-BuildingType.Logistics = Logistics
+BuildingType.Logistics = Logistics ///3///
 BuildingType.Logistics.Desc = Buildings and machinery to automate your production.
-BuildingType.None = Miscel_laneous
+BuildingType.None = Miscel_laneous ///4///
 BuildingType.None.Desc = Miscel_laneous buildings.
 BuildingType.Refining = Refining
 BuildingType.Refining.Desc = Workshops to refine and dispose of resources.
-BuildingType.Workshop = Workshop
+BuildingType.Workshop = Workshop ///5///
 BuildingType.Workshop.Desc = Workshops to produce ##tools, weapons and machinery.
 BuildingType.AutoWorkshop = Factory
 BuildingType.AutoWorkshop.Desc = Factories produce goods without the need to be operated by colonists.
@@ -626,9 +625,9 @@ Settings.RightDrag = RMB-Drag
 Settings.RightDrag.Desc = Drag the map while holding the right mouse button. Rotate it while holding the middle mouse button.
 LoadingPhase.Combining = Combining meshes
 
-UI.ClearZone = Sell / Deconstruct / Clear zone
+UI.ClearZone = Sell / Deconstruct / Clear zone ///Z///
 UI.ClearZone.Desc = Destroy a building or remove a ##Stockpilezone, ##Farmzone or ##Grovezone. Use ##Keycycle to switch between multiple objects on the same tile.
-UI.CancelOrder = Cancel order
+UI.CancelOrder = Cancel order ///X///
 UI.CancelOrder.Desc = Cancel an order like mining, loading or decon_structing.
 
 
@@ -983,9 +982,9 @@ UI.ActiveJobs = Jobs
 TipOfTheDay.11=You can use zeppelin depots like stockpiles. You can use them as inputs or outputs for workshops, farms etc..
 
 
-UI.Follow = Follow object
+UI.Follow = Follow object ///O///
 UI.Follow.Desc = Follow an item, a colonist etc.. 
-UI.Clone = Clone building. 
+UI.Clone = Clone building. ///Alt-click/// 
 UI.Clone.Desc = Build a clone of this building. Production settings and links will be copied. 
 
 UI.Weight.Light = Light
@@ -1100,7 +1099,7 @@ UI.BuildTrain.NoFreeSegment = Track segment occupied.
 
 Task.UnloadAuto.Text = Unloading $1.
 
-UI.TrackLayer.Start = Build train track. 
+UI.TrackLayer.Start = Build train track.
 UI.TrackLayer.Start.Desc = Build tracks to connect train factories and stations. The tracks will be auto_matically built as long as you have track parts in your inventory. <br>Press ##Keycycle to toggle between low and high elevation. 
 UI.TrackLayer.Semaphore1 = Place a train signal on a track.
 UI.TrackLayer.Semaphore2 = Place a train pre-signal on a track.
@@ -1301,7 +1300,7 @@ Task.TrainCombat.Text = Combat training.
 TipOfTheDay.18 = When you run out of the resources you need to progress, build a shipping port and trade. Items like wooden boards, bread and beer can be produced infinitely and exported. 
 
 
-UI.Pasture = Pasture
+UI.Pasture = Pasture ///U///
 UI.Pasture.Desc = Create or expand a ##pasturezone.
 ##pasturezone = Pasture
 ##pasturezone.Desc = Pasture zone: Can be assigned on fertile soil to collect and house neutral animals.
@@ -1513,3 +1512,13 @@ WorkshopAuto.Status.NoOutputForProduct.Desc = To change the accepted goods of a 
 
 WorkshopAuto.Status.PartialServe = Not all inputs supplied by inserters.
 WorkshopAuto.Status.PartialServe.Desc = Make sure all input spots are supplied by inserters. 
+
+UI.DomesticAnimal = Domestic animal. 
+UI.DomesticAnimal.Desc = Can be recruited into your colony. 
+
+
+
+Settings.ZoomAnimation = Zoom animation
+Settings.ZoomAnimation.Desc = Transition smoothly when zooming in / out.
+
+UI.Saturation = Saturation
