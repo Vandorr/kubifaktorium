@@ -181,7 +181,7 @@ UI.ToolBaseEffect = Base effect: $1
 UI.ToolTaskType = Task type: $1
 UI.Track = Track construction tool. ///T///
 UI.Track.Desc = Construct train tracks and signals. <br>Press ##Keyrotate to rotate. <br>Press ##Keycycle to toggle between high and low level.
-UI.Road = Road construction tool. ///R///
+UI.Road = Road construction tool. ///H///
 
 UI.Conv = Conveyor belt construction tool. ///C///
 UI.Conv.Desc = Construct conveyor belts. <br>Press ##Keyrotate to rotate. <br>Press ##Keycycle to toggle between high and low level.
@@ -1522,3 +1522,4 @@ Settings.ZoomAnimation = Zoom animation
 Settings.ZoomAnimation.Desc = Transition smoothly when zooming in / out.
 
 UI.Saturation = Saturation
+UI.SettlerScreen.Filter = Filter:
