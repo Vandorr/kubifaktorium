@@ -88,7 +88,7 @@ disableHyphenationCheck = true
 ##automated.Desc = Auto_mati_sierte Gebäude benötigen Strom um zu funktio_nieren.
 
 ##tool = Werkzeug
-##tool.Desc = Werkzeug ver_bessert die Quali_tät mit der ein Kolo_nist eine Aufgabe erfüllen kann. Kolo_nisten rüsten auto_matisch das best_mögliche Werk_zeug für ihre Haupt_aufgabe aus. 
+##tool.Desc = Werkzeug erlaubt es deines Kolo_nisten höherwertige Gebäude zu bauen und bessere Ressourcen abzubauen. Kolo_nisten rüsten auto_matisch das best_mögliche Werk_zeug für ihre Haupt_aufgabe aus. 
 
 ##depot = Depot
 ##depot.Desc = Depot: Erlaubt es, Güter zu lagern und zu ver_teilen. Benutze Lager_ein- und -aus_gänge um Güter ein_zulagern oder zu ent_nehmen. 
@@ -1454,7 +1454,8 @@ Objective.FulfillProductionTarget.Desc = Das ##productiontarget wird in der Ecke
 
 
 UI.Build.NoWorker = Keine Bauarbeiter zugewiesen
-UI.Build.NoWorker.Desc = Um einen Kolo_nisten dazu zu bringen, Bauarbeiten zu erledigen, wähle ihn aus und klicke auf das Bau-Symbol. Alter_nativ kannst du die Jobs deiner Kolo_nisten auch über den #People# Kolo_nisten_management_bildschirm verwalten.
+UI.Build.NoWorker.Desc = Um einen Kolo_nisten dazu zu bringen, Bauarbeiten zu erledigen, wähle ihn aus und klicke auf das Bau-Symbol. Alter_nativ kannst du die Jobs deiner Kolo_nisten auch über den #People# Kolo_nisten_management_bildschirm verwalten. 
+
 
 Workshop.Status.NoRoadConnection = Keine Straßen_ver_bindung
 Workshop.Status.NoRoadConnection.Desc = Werkstätten benötigen Straßen_ver_bindungen zu ihren Lager_plätzen. Baue Straßen mit Hilfe des Staßen_bau_werkzeugs.
@@ -2275,3 +2276,5 @@ ShippingPort.Status.NoExitHopperValidType = Kein gültiger Importtyp zugewiesen.
 ShippingPort.Status.NoExitHopperValidType.Desc = Um Güter für den Import zuzuweisen, wähle einen Depot_ausgang aus und wähle einen Gütertyp aus, der importiert werden kann.
 UI.ShippingPort.AutomationMode = Automatischer Modus
 UI.ShippingPort.AutomationMode.Desc = Im automatischen Modus ignoriert der Hafen verbundene Importlager und importiert die Güter, die von den Depot_ausgängen nachgefragt werden.
+
+
