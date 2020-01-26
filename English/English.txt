@@ -97,7 +97,7 @@ fallback=English
 ##Automated.Desc = Automation: Automated buildings will work without being operated by your colonists but require power to function.
 
 ##tool = Tool
-##tool.Desc = Tool: Increases a colonist's chance to succeed in a given task. Colonists will auto_matically equip the best tool available for their primary task type. 
+##tool.Desc = Tool: Allows your colonists to build, mine or harvest higher tier buildings and resources. Colonists will auto_matically equip the highest quality tool that is available for their primary assigned task. 
 ##depot = depot
 ##depot.Desc = Depot: Used to store and distribute goods. Use entry and exit hoppers to insert and extract goods. 
 
@@ -961,8 +961,10 @@ Objective.AnyStockpileAcceptsType.Desc = To change a ##stockpilezone's set of ac
 
 
 
-UI.Build.NoWorker = No construction worker assigned.
-UI.Build.NoWorker.Desc = To make a colonist do construction jobs, select him/her and click on the construction icon and make sure he/she is assigned to work in this zone. Alter_natively, you can manage your colonists' jobs from the #People# colonist management screen.
+UI.Build.NoWorker = No construction worker available.
+UI.Build.NoWorker.Desc = To make a colonist do construction jobs, select him/her and click on the construction icon and make sure he/she is assigned to work in this zone. Alter_natively, you can manage your colonists' jobs from the #People# colonist management screen. 
+
+ 
 
 Logistics.Status.Loop = Loop detected.
 Logistics.Status.Loop.Desc = A loop occurs when there is a two-way connection to another stockpile / depot and both accept the same goods. Change the accepted goods of either one to resolve this.
@@ -1523,3 +1525,19 @@ Settings.ZoomAnimation.Desc = Transition smoothly when zooming in / out.
 
 UI.Saturation = Saturation
 UI.SettlerScreen.Filter = Filter:
+
+UI.UpgradeBuilding = Upgrade to $1.
+UI.UpgradeBuilding.Desc = Upgrade this building to a $1. Requires $2. 
+
+UI.RequiredTool = Required tool
+UI.RequiredTool.Desc = Higher quality resources require better ##tools to be mined or harvested. You can craft tools in the tool workshop.
+UI.RequiredTool.None = No tool required.
+UI.RequiredTool.Lvl = Requires $1 or better.
+
+UI.Build.NoTool = Workers need better tools.
+UI.Build.NoTool.Desc = To construct higher tier buildings your colonists require better ##tools. Have a look at the building's info tooltip (hover over it's description above) to see what type and quality of tool you need.
+
+Farm.Status.NoTool = Workers need better tools.
+Farm.Status.NoTool.Desc = To harvest higher tier plants and trees your colonists require better ##tools. Have a look at the plant's info tooltip (hover over it's name) to see what type and quality of tool you need.
+
+
