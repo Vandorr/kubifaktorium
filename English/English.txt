@@ -1541,3 +1541,4 @@ Farm.Status.NoTool = Workers need better tools.
 Farm.Status.NoTool.Desc = To harvest higher tier plants and trees your colonists require better ##tools. Have a look at the plant's info tooltip (hover over it's name) to see what type and quality of tool you need.
 
 
+UI.BuildInstantly = (Built instantly.)
