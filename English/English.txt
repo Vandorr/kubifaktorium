@@ -1114,8 +1114,6 @@ UI.TrainStation.WaitForFull = Stop trains until full.
 UI.TrainStation.WaitForFull.Desc = Stop trains until they are fully loaded.
 
 
-TipOfTheDay.12=Use the upgrade workshop to upgrade tools and weapons. 
-
 
 Debug.forcerain = Force rain
 Debug.forcerain.Desc = Force rain to begin.
@@ -1249,6 +1247,7 @@ TipOfTheDay.15 = Colonists move faster when they carry no tools. Unassign all ta
 TipOfTheDay.16 = The tiles within a stockpile are used in the order they are created. Start a stockpile next to a workshop and expand from there to make it a bit more efficient.
 
 TipOfTheDay.17 = You can link your ship to a stockpile. Doing so will make your colonists unload all the items the stockpile is set to accept.
+
 
 MainMenu.Notice.Demo = This is a demo version with limited functionality. Click here to visit the game's Steam page to buy the Early Access version or wishlist the game to get notified of updates. Thanks :)
 
@@ -1542,3 +1541,13 @@ Farm.Status.NoTool.Desc = To harvest higher tier plants and trees your colonists
 
 
 UI.BuildInstantly = (Built instantly.)
+
+
+
+
+UI.ResetTasks = Reset tasks.
+UI.ResetTasks.Desc = Clear all task assignments.
+UI.ResetWorkshops = Reset workshops.
+UI.ResetWorkshops.Desc = Clear all workshop assignments.
+UI.Autoassign = Auto-assign.
+UI.Autoassign.Desc = Automatically assign task and workshops to the most competent colonists.
