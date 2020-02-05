@@ -1318,7 +1318,7 @@ ObjectType.ConveyorBeltRampDown = Fließ_band (Rampe)
 ObjectType.ConveyorBeltRampDown.Desc = Fließ_bänder werden verwendet, um Waren innerhalb deiner Siedlung zu trans_portieren. (Benötigt Fließ_bandteile)
 ObjectType.ConveyorBeltRampUp = Fließ_band (Rampe)
 ObjectType.ConveyorBeltRampUp.Desc = Fließ_bänder werden verwendet, um Waren innerhalb deiner Siedlung zu trans_portieren. (Benötigt Fließ_bandteile)
-ObjectType.ConveyorDistributor = Fließ_band (Verteiler)
+ObjectType.ConveyorDistributor = Fließ_band_verteiler
 ObjectType.ConveyorDistributor.Desc = Verteiler teilen Waren gleich_mäßig auf ein oder mehrere ausgehende Bänder auf. (Benötigt Fließ_bandteile)
 ObjectType.ConveyorDistributorHigh = Fließ_band (Verteiler)
 ObjectType.ConveyorDistributorHigh.Desc = Verteiler teilen Waren gleich_mäßig auf ein oder mehrere ausgehende Bänder auf. (Benötigt Fließ_bandteile)
@@ -1409,7 +1409,7 @@ UI.LeaveMap.ItemWarning = Du musst mi_ndestens 10 #Log# Holz_scheite und 10 #Min
 UI.MineableContent = Im Berg vorhanden:
 UI.RecipieHint = <i>Klicke auf ein Rezept, um es zu aktivieren oder zu deak_tivieren. Halte die Alt-Taste gedrückt, um die akzeptierten Güter der Ausgangs_lager auto_matisch zu aktuali_sieren.</i>
 UI.Recruit.Title = Gegner:
-UI.Road = Straßen_bau_werkzeug ///R///
+UI.Road = Straßen_bau_werkzeug ///H///
 UI.Tier = Stufe
 UI.Tier1 = Stufe 1
 UI.Tier2 = Stufe 2
@@ -1683,7 +1683,7 @@ Task.UnloadAuto.Text = Entlade $1.
 Task.Upgrade.Text = Verbessere $1.
 TerrainShape.Flat.Intro = Diese Insel hat viel Gras_land.
 TerrainShape.Mountain.Intro = Diese Insel hat viele Hügel und Berge.
-TipOfTheDay.12 = Benutze die Upgrade-Werk_statt, um Werk_zeuge und Waffen aufzu_rüsten.
+
 Tool.Crit = Crit-Chance
 Tool.Crit.Desc = Die Wahr_scheinlich_keit, dass ein kriti_scher Erfolg erzielt wird. Kriti_sche Waffen_schläge verur_sachen Bonus_schaden. Kritische Abbau_erfolge bringen Bonus_güter.
 Tool.Effect = Werkzeugeffekt
@@ -2276,5 +2276,51 @@ ShippingPort.Status.NoExitHopperValidType = Kein gültiger Importtyp zugewiesen.
 ShippingPort.Status.NoExitHopperValidType.Desc = Um Güter für den Import zuzuweisen, wähle einen Depot_ausgang aus und wähle einen Gütertyp aus, der importiert werden kann.
 UI.ShippingPort.AutomationMode = Automatischer Modus
 UI.ShippingPort.AutomationMode.Desc = Im automatischen Modus ignoriert der Hafen verbundene Importlager und importiert die Güter, die von den Depot_ausgängen nachgefragt werden.
+
+
+
+
+
+Conveyor.Status.AdjacentDistributors = Benachbarte Fließ_band_verteiler.
+Conveyor.Status.AdjacentDistributors.Desc = Fließ_band_verteiler können nicht miteinander benachbart sein.
+Conveyor.Status.Operational = Fließband arbeitet.
+Conveyor.Status.Operational.Desc = Das Fließband ist korrekt platziert.
+ConvTutPart4.Desc = 4.) Beende dieses Tutorial.
+ConvTutPart4.Intro = Fließband sind für den reibungslosen Ablauf Ihrer automatischen Produktion unerlässlich. Schaue dir an wie alles eingerichtet ist und klicke auf das Ziel unten, um dieses Tutorial zu beenden.
+Farm.Status.NoTool = Arbeiter benötigen besseres Werkzeug.
+Farm.Status.NoTool.Desc = Um höherwertige Pflanzen und Bäume zu ernten, benötigen deine Kolonisten bessere ##toole. Schaue dir den Info-Tooltip der Pflanze an, um zu sehen, welche Art und Qualität von Werkzeug du benötigst.
+Message.Building.Complete = $1 hat $2 fertig gestellt.
+Message.Ingredients.Missing = Fehlendes Material: $1
+Mod.MusicExample = Musik_modding_beispiel
+Mod.MusicExample.Desc = Ermöglicht es, dem Spiel benutzerdefinierte Musik hinzuzufügen.
+Modifier.TerrainShapePlaneWithMountains.Name = Terrainform
+ObjectType.WatchTower = Aussichtsturm
+ObjectType.WatchTower.Desc = Baue einen Aussichtsturm um deinen Sichtradius zu erhöhen.
+Settings.ZoomAnimation = Zoomanimation
+Settings.ZoomAnimation.Desc = Weicher Übergang beim Rein-/Rauszoomen.
+TerrainShape.PlaneWithMountains = Kein Wasser
+UI.Build.NoTool = Arbeiter benötigen besseres Werkzeug.
+UI.Build.NoTool.Desc = Um höherwertige Gebäude zu errichten, benötigen deine Kolonisten bessere ##toole. Schaue dir den Info-Tooltip des Gebäudes an, um zu sehen, welche Art und Qualität von Werkzeug du benötigst.
+UI.BuildInstantly = (Wird sofort gebaut.)
+UI.ColonistScreen.NameHead = Name
+UI.DomesticAnimal = Haustier.
+UI.DomesticAnimal.Desc = Kann in deine Kolonie aufgenommen werden.
+UI.Recruit.It = Rekrutieren
+UI.RequiredTool = Benötigtes Werkzeug
+UI.RequiredTool.Desc = Um höherwertige Resourcen abzubauen, benötigen deine Kolonisten bessere ##toole. Du kannst Werkzeuge in der Werkzeugschmiede produzieren.
+UI.RequiredTool.Lvl = Benötigt $1 oder besser.
+UI.RequiredTool.None = Benötigt kein Werkzeug.
+UI.Saturation = Sättigung
+UI.SettlerScreen.Filter = Filter:
+UI.UpgradeBuilding = Aufrüsten zu $1.
+UI.UpgradeBuilding.Desc = Rüsted dieses Gebäude zu $1 auf. Benötigt $2.
+WorkshopAuto.Status.NoOutput = Kein Ausgangslager oder Inserter zugewiesen.
+WorkshopAuto.Status.NoOutput.Desc = Du musst ein Ausgangs_lager zuweisen oder einen Inserter bauen, um die produzieren Güter dieser Werkstatt aufzunehmen. Um ein Ausgangs_lager zu verbinden, klicke mit der linken Maustaste auf die Werkstatt und mit der rechten Maustaste auf das Lager, in das die Produktion der Werkstatt gehen soll. Die Werkstätten produzieren, bis die verknüpften Lager voll sind.
+
+WorkshopAuto.Status.NoOutputForProduct = Ausgangs_lager akzeptieren Produkte nicht.
+WorkshopAuto.Status.NoOutputForProduct.Desc = Um die akzeptierten Produkte eines ##stockpilezone zu ändern, klicke mit der linken Maustaste auf das Lager und wähle die gewünschten Produkte aus.
+WorkshopAuto.Status.PartialServe = Nicht alle Eingänge werden von Insertern versorgt.
+WorkshopAuto.Status.PartialServe.Desc = Stelle sicher, dass alle Gütereingänge von Insertern versorgt werden.
+
 
 
