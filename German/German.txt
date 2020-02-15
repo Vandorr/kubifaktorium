@@ -149,7 +149,7 @@ UI.LinkOverlay = Produktions_ketten
 UI.LinkOverlay.Desc = Schaltet die Anzeige von aktiven Verb_indungen zwischen Werk_stätten, Farmen etc. an. [Standard: Left Alt]
 UI.MaxSpeed = Höchstge_schwin_digkeit: $1
 UI.SettlerScreen.Areas = Zonen
-UI.SettlerScreen.Explanation = Werkzeuge: Kolo_nisten wählen automatisch das best_mögliche Werk_zeug für ihre zugewiesenen Aufgaben aus.<br>Zonen: Eine Zone zulassen oder verbieten. <br>Aufgaben und Werkstätten: Umschalten zw. aktiv und inaktiv. Quadratgröße = Kenntnis_stand.
+UI.SettlerScreen.Explanation = Werkzeuge: Kolo_nisten wählen automatisch die best_möglichen Werk_zeuge für ihre zugewiesenen Aufgaben aus.<br>Zonen: Eine Zone zulassen oder verbieten. <br>Aufgaben und Werkstätten: Umschalten zw. aktiv und inaktiv. Quadratgröße = Kenntnis_stand.
 UI.SettlerScreen.Tasks = Aufgaben
 UI.SettlerScreen.Title = Kolo_nisten_management
 UI.SettlerScreen.Tool = Werkzeug
