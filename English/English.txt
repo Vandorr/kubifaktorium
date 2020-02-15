@@ -19,6 +19,8 @@ fallback=English
 
 
 
+
+
 ##zone = zone
 ##zone.Desc = Zones: Colonists can be assigned to one or more zones. They will only work in the zones they are assigned to.
 
@@ -170,7 +172,7 @@ UI.LinkOverlay = Production Routes
 UI.LinkOverlay.Desc = Toggles the display of active links between workshops, farms and ##stockpilezones. [Default: Left Alt]
 UI.MaxSpeed = Max. speed: $1
 UI.SettlerScreen.Areas=Zones
-UI.SettlerScreen.Explanation = Tools: Colonists auto_matically pick the best possible tool. Their tool preference depends on their assigned tasks.<br>Zones: Click to allow/forbid a zone. Colonists will not interact with things in inactive zones. Select a bonfire to change its designated zone.<br>Tasks & workshops: Click to toggle between active and inactive. The squares' sizes indicate the colonists' skill levels. 
+UI.SettlerScreen.Explanation = Tools: Colonists auto_matically pick the best possible tools. Their tool preference depends on their assigned tasks.<br>Zones: Click to allow/forbid a zone. Colonists will not interact with things in inactive zones. Select a bonfire to change its designated zone.<br>Tasks & workshops: Click to toggle between active and inactive. The squares' sizes indicate the colonists' skill levels. 
 UI.SettlerScreen.Tasks=Tasks
 UI.SettlerScreen.Title=Colonist management
 UI.SettlerScreen.Tool=Tool
@@ -594,7 +596,6 @@ UI.Colonists = Your warriors (Strength $1):
 UI.Help = Help
 
 UI.PressAnyKey = Press any key to begin!
-#시작하려면 좌클릭 및 키를 눌러주세요!
 
 UI.CapacityUsed = Capacity used:
 UI.LoadLeave = Load and leave:
@@ -1207,12 +1208,6 @@ UI.Train.Destroy = Destroy train
 UI.Train.Go = Go
 UI.Train.Stop = Stop
 
-Quality.Level0 = poor
-Quality.Level1 = normal
-Quality.Level2 = excellent
-Quality.Level0.Desc = Items of poor quality.
-Quality.Level1.Desc = Items of normal quality.
-Quality.Level2.Desc = Items of excellent quality.
 
 Name.StockpileZoneCC = Stockpile
 Name.FarmZoneCC = Farm
