@@ -1821,7 +1821,7 @@ Name.GroveZoneCC = Baum_schule
 UI.Road.Desc = Baue Straßen, um ent_fernte Werk_stätten und Lager mit_einander zu verbinden. Kolo_nisten bewegen sich schneller, solange sie auf Straßen unter_wegs sind. Klicke auf ein Anfangs- und ein Endfeld, um eine Straße zu platzieren. Älter_nativ ziehe mit der Maus zwischen zwei Feldern, um eine gerade Straße zu bauen.
 
  
-EarlyAccessWarning.Intro = Die Aschen_welt und die damit ver_bundenen Mechaniken (Fließ_bänder, auto_mati_sierte Produk_tion etc.) befinden sich noch in einer sehr frühen Ent_wicklungs_phase. Erwarte Probleme mit Balancing, fehlende Ressourcen etc. Ich bin mir der Pro_bleme bewusst, so dass du sie nicht als Fehler melden musst. Sie sollen bis Ende 2019 behoben sein. :)
+EarlyAccessWarning.Intro = Das Balancing im Mid-Late-Game ist in Arbeit. Importiere fehlende Ressourcen, die du zum Erfüllen der Missionsziele brauchst, über den Frachthafen.
 EarlyAccessWarning.Help = Early-Access-Warnung
 
 
