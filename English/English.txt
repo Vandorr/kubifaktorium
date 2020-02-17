@@ -1216,7 +1216,7 @@ Name.GroveZoneCC = Grove
 UI.Road.Desc = Construct roads to connect remote workshops and storages. Colonists move faster while traveling on roads. Click on a starting tile and an end tile to place a road. Alter_natively click and drag to build a straight road.
 
 
-EarlyAccessWarning.Intro = The dark terrain and the related mechanics (conveyor belts, automated production etc.) are still in very early development. Expect poor balance, missing resources etc.. I'm aware of the problems so you don't need to report them as bugs. They are planned to get fixed around the end of 2019. :) 
+EarlyAccessWarning.Intro = The mid-late game balancing is still work in progress. Use the shipping port to import the resources you need to complete your objectives.  
 EarlyAccessWarning.Help = Early Access Warning
 
 # Deleted: Objective.ShowHelpScreen Objective.ShowHelpScreen.Desc Objective.ConnectFarmsToRoads Objective.ConnectFarmsToRoads.Desc Objective.ConnectWorkshopsToRoads Objective.ConnectWorkshopsToRoads.Desc
