@@ -7,7 +7,7 @@ disableHyphenationCheck = true
 
 
 ##happiness = Zufriedenheit 
-##happiness.Desc = Zufriedenheit: Die Bewegungs_geschwin_dig_keit eines Kolo_nisten wird davon beein_flusst, wie gut seine Bedürf_nisse erfüllt werden.
+##happiness.Desc = Zufriedenheit: Die Bewegungs- und Arbeits_geschwin_dig_keit eines Kolo_nisten werden davon beein_flusst, wie gut seine Bedürf_nisse erfüllt werden.
 
 ##skill = Geschick
 ##skill.Desc = Geschick: Jeder Kolonist ist unter_schiedlich gut für die ver_schiedenen Arbeiten und Werk_stätten geeignet, was die Erfolgs- und Fehlschlags_wahrscheinlich_keit beeinflusst. Im Laufe der Zeit werden die Kolonisten besser in den Aufgaben, die sie verrichten.
