@@ -56,7 +56,7 @@ fallback=English
 ##drink.Desc = Drink: When thirsty, colonists will auto_matically search for something to drink. Providing drinks will make them more happy and productive.
 
 ##happiness = Happiness 
-##happiness.Desc = Happiness: A colonist's movement speed is influenced by how well his/her needs are met.
+##happiness.Desc = Happiness: A colonist's movement and work speed are influenced by how well his/her needs are met.
 
 ##skill = Skill
 ##skill.Desc = Skill: Every colonist has a different skill for each task group and workshop. This skill determines the chance to succeed or fail at a task. Over time, colonists improve their skill in the tasks they perform.  
@@ -378,17 +378,22 @@ ActorState.Hungry = Hungry
 ActorState.Nohouse = Homeless
 ActorState.Notinteracted = Lonely
 ActorState.BadDecoration = No decoration. 
-ActorState.GoodDecoration = Nice decoration. 
+ActorState.GoodDecoration = Nice decoration.
+ActorState.FavoriteFood.Yes = Had $1.
+ActorState.FavoriteFood.No = Needs $1.
+ActorState.FavoriteDrink.Yes = Had $1.
+ActorState.FavoriteDrink.No = Needs $1.
 
 ActorState.Rested = Well rested
 ActorState.Saturated = Saturated
 ActorState.Injured = Injured
 ActorState.Hurt = Severely hurt
 ActorState.Thirsty = Thirsty
+ActorState.NotThirsty = Not thirsty
 ActorState.Tired = Tired
 ActorState.Total = Sum
 ActorState.NoTool = Lightweight (no tool)
-
+ActorState.Healthy = Healthy
 
 # Job/task groups
 TaskGroup._Name = Job assignments
@@ -843,7 +848,9 @@ Building.Mode.Disabled = Building inactive.
 
 UI.TypeNameFilter = Search for type...
 UI.DecorationValue = ##Decoration: Value $1, range $2
-UI.HousingValue = ##House: Value $1, places $2
+UI.HousingValue = ##House: Quality $1, places $2
+UI.HousingValue.High = high
+UI.HousingValue.Low = low
 UI.SocialValue = ##Social.
 UI.ToolValue = ##Tool: Base value $1.
 
@@ -1546,3 +1553,12 @@ UI.ResetWorkshops = Reset workshops.
 UI.ResetWorkshops.Desc = Clear all workshop assignments.
 UI.Autoassign = Auto-assign.
 UI.Autoassign.Desc = Automatically assign task and workshops to the most competent colonists.
+
+
+ActorState.Sum.Happy = Happy
+ActorState.Sum.Unhappy = Unhappy
+ActorState.Sum.Neutral = Neutral 
+
+
+ActorState.Title.BasicNeeds = Basic needs:
+ActorState.Title.SecondaryNeeds = Secondary needs:
