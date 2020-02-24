@@ -1,4 +1,4 @@
-﻿language=Ruccian
+language=Russian
 locales=RU
 fallback=English
  
@@ -21,195 +21,195 @@ fallback=English
 
 
 
-##zone = zone
-##zone.Desc = Zones: Colonists can be assigned to one or more zones. They will only work in the zones they are assigned to.
+##zone = #star#
+##zone.Desc = Зоны: Колониста можно прикрепить к одной или нескольким #star# зонам. Он будет выполнять задачи только в тех зонах, которым ему были назначены.
 
 
-##keycycle = cycle
-##keycycle.Desc = Cycle: Middle mouse button or 'V'-key.
+##keycycle = #controller#
+##keycycle.Desc = Цикл: Средняя кнопка мыши или клавиша 'V'.
 
-##keyrotate = rotate
-##keyrotate.Desc = Rotate: Mouse buttons 4/5 or 'R'-key.
-
-
-
-##idle = idle
-##idle.Desc = Idle: you can manage your colonists' jobs in the #People# colonist management screen.
-
-##mine = mine
-##mine.Desc = Mine: To select a resource to be mined, click the mine button and select the things to be mined. Drag an area to mine everything within.
-
-##territory = territory
-##territory.Desc = Territory: You can only build inside of your territory. Expand it by building bonfires and defeating enemy camps.
-
-
-##weight = weight
-##weight.Desc = Weight: When carrying heavy items, your colonists get slowed down.
-
-##stacksize = stack size
-##stacksize.Desc = Stacking: In stockpiles and depots multiple items of the same type can be stacked on a single tile.
-
-##day = daytime
-##day.Desc = Daytime: Time between 6:00 and 18:00.
-
-##drink = drink 
-##drink.Desc = Drink: When thirsty, colonists will auto_matically search for something to drink. Providing drinks will make them more happy and productive.
-
-##happiness = Happiness 
-##happiness.Desc = Happiness: A colonist's movement and work speed are influenced by how well his/her needs are met.
-
-##skill = Skill
-##skill.Desc = Skill: Every colonist has a different skill for each task group and workshop. This skill determines the chance to succeed or fail at a task. Over time, colonists improve their skill in the tasks they perform.  
+##keyrotate = #controller#
+##keyrotate.Desc = Вращение: Кнопки мыши 4/5 или клавиша 'R'.
 
 
 
-##water = water 
-##water.Desc = Water: Farm land needs to be watered for plants to grow.
+##idle = #idle#
+##idle.Desc = Вы можете управлять задачами для своих #Idle# колонистов на экране управления колонистами.
 
-##food = food
-##food.Desc = Food: When hungry, colonists will auto_matically search for something to eat. Providing food will make them more happy and productive.
+##mine = #mine#
+##mine.Desc = Чтобы добыть ресурс, нажмите на панели кнопку 'Сбор и добыча' и выберите нужный вам ресурс. Выделите область, чтобы добыть в ней все доступные ресурсы.
 
-##stockpilezone = stockpile zone
-##stockpilezone.Desc = Stockpile zone: Can be assigned on solid ground and used to hold products from workshops, farms or mining operations.
-##farmzone = Farm
-##farmzone.Desc = Farm zone: Can be assigned on fertile soil to allow your colonists to grow a number of crops.
-##grovezone = Grove
-##grovezone.Desc = Grove zone: Can be assigned on fertile soil to allow your colonists to grow trees.
-##ship = ship
-##ship.Desc = Ship: The ship that carried you to this island can be used to transport items between islands. 
-##power = power
-##power.Desc = Power: Created in generators and used by a variety of machines.
+##territory = #mountain#
+##territory.Desc = Вы можете строить только на своей территории. Расширяйте её, строя костры и захватывая вражеские лагеря.
 
-##decoration = decoration
-##decoration.Desc = Decoration: Placing decorative items will make your colonists happier and more productive.
+
+##weight = #weight#
+##weight.Desc = При переноске тяжелых предметов у колонистов падает скорость передвижения.
+
+##stacksize = #stack size#
+##stacksize.Desc = На складах и хранилищах несколько предметов одного типа можно укладывать в штабель на одну клетку.
+
+##day = #sun#
+##day.Desc = День, это время между 6:00 и 18:00 часами.
+
+##drink = #drink#
+##drink.Desc = Когда колонисты испытывают жажду, то автоматически ищут воду или напитки. Приготовленные напитки сделают их более счастливыми и эффективными.
+
+##happiness = #happy# 
+##happiness.Desc = Скорость выполнения задачи и скорость передвижения колониста зависит от того, насколько хорошо удовлетворяются его потребности.
+
+##skill = #people#
+##skill.Desc = Каждый колонист имеет разный уровень навыка в назначаемых ему задачах, а так же навыки работы в мастерских. Со временем колонисты улучшают свои навыки.  
+
+
+
+##water = #water# 
+##water.Desc = Чтобы растения росли, поля на фермах необходимо поливать.
+
+##food = #food#
+##food.Desc = Когда колонисты голодны, они будут автоматически искать доступную пищу. Разнообразие продуктов сделает их более счастливыми и эффективными.
+
+##stockpilezone = #stockpile zone#
+##stockpilezone.Desc = Склады необходимо размещать на твердой почве. Они позволят вам хранить ресуры, продукцию из мастерских и ферм.
+##farmzone = #farm#
+##farmzone.Desc = Фермы необходимо размещать на плодородной почве. На них ваши колонисты смогут выращивать с\х культуры.
+##grovezone = #grove#
+##grovezone.Desc = Лесные фермы необходимо размещать на плодородной почве. Они позволят вашим колонистам выращивать деревья.
+##ship = #compass#
+##ship.Desc = Корабль, который доставил вас на этот остров. Можно использовать для транспортировки предметов между островами. 
+##power = #power#
+##power.Desc = Энергия создается генераторами и используется для работы различных механизмов.
+
+##decoration = #house#
+##decoration.Desc = Размещение декоративных предметов сделает ваших колонистов более счастливыми и эффективными.
  
-##house = house
-##house.Desc = Housing: Colonists and animals prefer to have a place to live in. Providing one will make them more happy and productive.
+##house = #house#
+##house.Desc = Все колонисты и животные мечтают иметь крышу над головой. Собственное жилище делает их более счастливыми и эффективными.
 
 
-##social = social 
-##social.Desc = Social: Colonists need interaction with each other to thrive. Providing social interaction will make them more happy and productive.
-##logsys = logistics system
-##logsys.Desc = Logistics System: Allows you to connect multiple trans_portation and storage systems. Once set up, it will auto_matically generate transport jobs for vehicles and colonists.
+##social = #chat# 
+##social.Desc = Колонисты нуждаются в общении друг с другом. Общаясь друг с другом они станут более счастливыми и эффективными.
+##logsys = #logistics#
+##logsys.Desc = Логистическая сеть позволяет подключить несколько систем транспортировки и хранения. После настройки, автоматически генерирует задания транспортировки для транспортных средств и колонистов.
 
-##cargoship = cargo ship
-##automatically = auto_matically
-##automatically.Desc = Automation: Automated buildings will work without being operated by your colonists but require power to function.
-##Automated = Automated
-##Automated.Desc = Automation: Automated buildings will work without being operated by your colonists but require power to function.
+##cargoship = #refine#
+##automatically = #power#
+##automatically.Desc = Автоматизированные здания будут работать без участия ваших колонистов, но для их работы потребуется энергия.
+##Automated = #power#
+##Automated.Desc = Автоматизированные здания будут работать без участия ваших колонистов, но для их работы потребуется энергия.
 
-##tool = Tool
-##tool.Desc = Tool: Allows your colonists to build, mine or harvest higher tier buildings and resources. Colonists will auto_matically equip the highest quality tool that is available for their primary assigned task. 
-##depot = depot
-##depot.Desc = Depot: Used to store and distribute goods. Use entry and exit hoppers to insert and extract goods. 
+##tool = #tool#
+##tool.Desc = Инструмент увеличивает шанс на успешное завершение задачи. Колонисты автоматически выбирают лучший инструмент для выполнения назначенных им задач. 
+##depot = #depot#
+##depot.Desc = Хранилище используется для хранения предметов. Используйте входной и выходной манипулятор, чтобы загружать и разгружать предметы. 
 
-##robot = robot
-##robot.Desc = Robot: Can perform simple tasks. Does not improve ##skill with experience and requires oil to function. Can be set to operate in multiple modes. 
+##robot = #robot#
+##robot.Desc = Робот может выполнять простые задачи. Не повышает свои навыки и опыт. Для работы требуется нефть. Можно настроить для работы в нескольких режимах. 
 
-##carriage = carriage
-##carriage.Desc = Carriages auto_matically transports goods between connected carriage stations. Select a station and right click another station to connect them. 
+##carriage = #carriage#
+##carriage.Desc = Конные повозки автоматически перевозят предметы между подключенными станциями. Выберите станцию и щелкните правой кнопкой мыши на другой станции, чтобы подключить её. 
 
 # Messages
-Message.AreaExpanded = We have expanded our territory!
-Message.AreaLost = We have lost territory!
-Message.WeAreUnderAttack = We are under attack!
-Message.NewBuildOptions = Acquiring $1 has unlocked:
-Message.RecruitmentSuccess = Recruitment successful!
-Message.WarnDisembark = You cannot disembark while your colonists are still on the island.
-Message.MissionComplete = Nice, you have completed all objectives for this island! :)
+Message.AreaExpanded = Вы расширили свою территорию!
+Message.AreaLost = Вы потеряли территорию!
+Message.WeAreUnderAttack = Вы подверглись атаке!
+Message.NewBuildOptions = Вы получили(добыли) $1 и разблокировали:
+Message.RecruitmentSuccess = Вербовка прошла успешно!
+Message.WarnDisembark = Вы не можете высадиться, пока ваши колонисты еще на острове. ??
+Message.MissionComplete = Отлично! Вы выполнили все цели на этом острове! :)
 UI.MissionComplete = Mission complete!
 
-UI.MessagePanel = Message
-UI.MessagePanel.Desc = To close a message, right-_click on it. You can review closed messages in the message log. Left-_click on a message to focus your camera on the event.
+UI.MessagePanel = Сообщение
+UI.MessagePanel.Desc = Чтобы закрыть сообщение, щелкните по нему правой кнопкой мыши. Вы можете просмотреть все предыдущие сообщения в Журнале. Щелкните левой кнопкой мыши на сообщении, чтобы сфокусировать камеру на событии.
 
-UI.Recruit = Recruit them.
-UI.Recruit.It = Recruit it.
-UI.Recruit.Desc = Recruiting a castaway or an animal will make them join your colony. Note: Animals can only perform a limited set of tasks. Once they are a part of your colony, they will begin consuming your supplies.
+UI.Recruit = Завербуйте их.
+UI.Recruit.It = Recruit меня.
+UI.Recruit.Desc = Вербовка потерпевших кораблекрушение или приручение животного позволит им присоединиться к вашей колонии. Примечание: животные могут выполнять только ограниченный набор задач. Как только они станут частью вашей колонии, они начнут потреблять ваши припасы.
 
-UI.MessageLog = Message log ///L///
-UI.MessageLog.Desc = Keeps track of previous messages.
-UI.MultiSelectHeader = $1 colonist selected.
-UI.Build = Construct ///B///
-UI.Build.Desc = Create a blueprint for a building to be con_structed by your colonists.
-UI.Mine = Mine & harvest ///M///
-UI.Mine.Desc = Mark trees, rocks and other objects to be ##mined or harvested. (Hold alt to mark all objects of the same type in your ##territory).
-UI.SettlerMenu = Colonist management ///F9///
-UI.SettlerMenu.Desc = Set your colonists' jobs and the workshops they use.
-UI.Stockpile = Stockpile ///P///
-UI.Stockpile.Desc = Click and drag your mouse to create a new ##stockpilezone or expand an existing zone. 
-UI.Grove = Grove ///G///
-UI.Grove.Desc = Create or expand a ##grovezone.
-UI.Farm = Farm ///F///
-UI.Farm.Desc = Create a new ##farmzone or expand an existing zone.
-UI.InventoryMenu = Inventory ///I///
-UI.InventoryMenu.Desc = Display your colony's inventory and manage how the goods are used.
-UI.UnloadAll = Unload everything.
-UI.UnloadAll.Desc = Order your colonists to unload all cargo from your ##ship.
-UI.BuiltFrom = Built using
-UI.ProducedHere = Produced here
-UI.ProducedFrom = Produced from
-UI.UsedToProduce = Used to produce
-UI.UsedToConstruct = Used to construct
+UI.MessageLog = Журнал ///L///
+UI.MessageLog.Desc = Содержит архив всех сообщений.
+UI.MultiSelectHeader = $1 колонист выбран.
+UI.Build = Строительство ///B///
+UI.Build.Desc = Разместите проект здания, который нужно будет построить вашим колонистам.
+UI.Mine = Сбор и добыча ///M///
+UI.Mine.Desc = Отметьте деревья, камни и другие объекты, которые будут добывать или собирать колонисты. (Удерживайте Аlt, чтобы отметить однотипные объекты на вашей территории).
+UI.SettlerMenu = Панель управления колонистами ///F9///
+UI.SettlerMenu.Desc = Назначьте колонистам тип выполняемых задач и мастерские, в которых они будут работать.
+UI.Stockpile = Склад ///P///
+UI.Stockpile.Desc = Выделите мышкой область под новый Склад или расширьте существующий. 
+UI.Grove = Лесоферма ///G///
+UI.Grove.Desc = Выделите мышкой область под новую Лесоферму или расширьте существующую.
+UI.Farm = Ферма ///F///
+UI.Farm.Desc = Выделите мышкой область под новую Ферму или расширьте существующую.
+UI.InventoryMenu = Инвентарь ///I///
+UI.InventoryMenu.Desc = Инвентарь вашей колонии и управление использованием ресурсов.
+UI.UnloadAll = Разгрузить все.
+UI.UnloadAll.Desc = Отдайте приказ своим колонистам разгрузить все предметы с вашего корабля.
+UI.BuiltFrom = Строится из
+UI.ProducedHere = Продукция
+UI.ProducedFrom = Производится из
+UI.UsedToProduce = Используется при производстве
+UI.UsedToConstruct = Используется при постройке
 
-UI.Acceleration = Accel_eration: $1
-UI.ClaimRange = Claim range: $1
-UI.Faction = Status
-UI.Fight = Command your warriors.
-UI.Fight.Desc = Set a rally flag for your colonists. All colonists who carry a weapon will gather around this flag and attack enemies on sight.
-UI.GrowTime = Time to grow: $1s
-UI.GrowthRateDay = Growth rate at daytime: $1%
-UI.GrowthRateNight = Growth rate at nighttime: $1%
-UI.MovementSpeed = Movement speed: $1
-UI.DamageUnarmed = Damage (unarmed): $1
-UI.VisionRange = Vision range: $1
-UI.Eats = Eats: $1
-UI.Drinks = Drinks: $1
-UI.Harbour.Explanation = ##Cargoships deliver manufactured goods from previously colonized islands.
-UI.HitpointMax = Max. HP: $1
-UI.HitpointRegen = HP regen_eration: $1
-UI.Stack = Stack size: $1 ($2)
-UI.LinkOverlay = Production Routes
-UI.LinkOverlay.Desc = Toggles the display of active links between workshops, farms and ##stockpilezones. [Default: Left Alt]
-UI.MaxSpeed = Max. speed: $1
-UI.SettlerScreen.Areas=Zones
-UI.SettlerScreen.Explanation = Tools: Colonists auto_matically pick the best possible tools. Their tool preference depends on their assigned tasks.<br>Zones: Click to allow/forbid a zone. Colonists will not interact with things in inactive zones. Select a bonfire to change its designated zone.<br>Tasks & workshops: Click to toggle between active and inactive. The squares' sizes indicate the colonists' skill levels. 
-UI.SettlerScreen.Tasks=Tasks
-UI.SettlerScreen.Title=Colonist management
-UI.SettlerScreen.Tool=Tool
-UI.SettlerScreen.Workshops=Workshops
-UI.ToolAssignment = Equipped tool or preference.
-UI.ToolAssignment.Desc = Colonists auto_matically pick the best possible ##tool. Their tool preference (hammer, shovel, pickaxe or weapon) depends on their assigned tasks.
-UI.ToolBaseEffect = Base effect: $1
-UI.ToolTaskType = Task type: $1
-UI.Track = Track construction tool. ///T///
-UI.Track.Desc = Construct train tracks and signals. <br>Press ##Keyrotate to rotate. <br>Press ##Keycycle to toggle between high and low level.
-UI.Road = Road construction tool. ///H///
+UI.Acceleration = Ускорение: $1
+UI.ClaimRange = Радиус присоединяемого участка: $1
+UI.Faction = Статус
+UI.Fight = Флаг атаки
+UI.Fight.Desc = Установите флаг, у которого соберутся все вооруженные колонисты. Они будут нападать на всех врагов в поле зрения.
+UI.GrowTime = Время роста: $1с
+UI.GrowthRateDay = Скорость роста в дневное время: $1%
+UI.GrowthRateNight = Скорость роста в ночное время: $1%
+UI.MovementSpeed = Скорость передвижения: $1
+UI.DamageUnarmed = Урон (без оружия): $1
+UI.VisionRange = Радиус поля зрения: $1
+UI.Eats = Пища: $1
+UI.Drinks = Напитки: $1
+UI.Harbour.Explanation = Грузовое судно доставляет товары с ранее колонизированных островов.
+UI.HitpointMax = Макс. здоровье: $1
+UI.HitpointRegen = Восстановление ХП: $1
+UI.Stack = Количество в пачке: $1
+UI.LinkOverlay = Производственные маршруты
+UI.LinkOverlay.Desc = Переключает отображение активных связей между мастерскими, фермами и складами. [По умолчанию: левый Alt]
+UI.MaxSpeed = Макс. скорость: $1
+UI.SettlerScreen.Areas = Зоны
+UI.SettlerScreen.Explanation = Колонисты сами подбирают себе инструмент для выполнения поставленных перед ними задач. <br>Разрешайте или запрещайте колонистам взаимодействовать с предметами в конкретных зонах. <br>Назначьте колонистам задачи для выполнения. Размер квадрата указывает на уровень навыка колониста. 
+UI.SettlerScreen.Tasks = Задачи
+UI.SettlerScreen.Title = Управление колонистами
+UI.SettlerScreen.Tool = Инструмент
+UI.SettlerScreen.Workshops = Мастерские
+UI.ToolAssignment = Экипированный или предпочтительный инструмент.
+UI.ToolAssignment.Desc = Колонисты автоматически выбирают лучший из доступных инструментов. Их выбор (молоток, лопата, кирка или оружие) зависит от поставленных им задач.
+UI.ToolBaseEffect = Базовый эффект: $1
+UI.ToolTaskType = Тип задачи: $1
+UI.Track = Ж\д пути ///T///
+UI.Track.Desc = Строительство ж\д путей и сигналов. Нажмите клавишу <b>Цикл</b> для вращения. Нажмите клавишу <b>Цикл</b> для переключения между высотой постройки путей.
+UI.Road = Дороги ///H///
 
-UI.Conv = Conveyor belt construction tool. ///C///
-UI.Conv.Desc = Construct conveyor belts. <br>Press ##Keyrotate to rotate. <br>Press ##Keycycle to toggle between high and low level.
-UI.ZoneAssignment = Assign zones.
-UI.ZoneAssignment.Desc = Every bonfire can be set to one of 5 colors. You can restrict your colonists to certain areas by changing their zone assignment here.
+UI.Conv = Конвейер ///C///
+UI.Conv.Desc = Строительство конвейера. <br>Нажмите клавишу <b>Вращение</b> для поворота объекта. Нажмите клавишу <b>Цикл</b> для переключения высоты постройки конвейера.
+UI.ZoneAssignment = Назначенные зоны
+UI.ZoneAssignment.Desc = Каждому костру можно назначить один из 5 цветов. Каждый из них создает независимую от других зону. С помощью этого, вы сможете назначать своим колонистам определенные зоны для работ.
 
 
 # Top right menu
-UI.Speed = Toggle game speed ///Numpad 0-3///
-UI.Speed.Desc = Toggle between pause, 1x, 2x and 4x speed.
-UI.Settings = Settings menu
-UI.Settings.Desc = Open the settings menu.
-UI.LoadSave = Load / save
-UI.LoadSave.Desc = Open the save game menu.
-UI.Bug = Report a bug
-UI.Bug.Desc = Reporting a bug will send a screenshot and optionally a bug report to the developer.
-UI.Undo = Undo
-UI.Undo.Desc = Remove the track / belt / blueprint last constructed.
-UI.Main = Open the menu ///Escape///
-UI.Main.Desc = Load/save a game, change the settings or exit the game.
+UI.Speed = Скорость игры ///Numpad 0-3///
+UI.Speed.Desc = Переключение между паузой, 1x, 2x и 4x скоростью игры.
+UI.Settings = Настройки
+UI.Settings.Desc = Меню настроек.
+UI.LoadSave = Загрузить/сохранить
+UI.LoadSave.Desc = Меню сохранения и загрузки игры.
+UI.Bug = Сообщение об ошибке
+UI.Bug.Desc = Отправить разработчику скриншот и отчет об ошибке.
+UI.Undo = Отменить
+UI.Undo.Desc = Отменить постройку последнего объекта (дорога/конвейер/проект здания).
+UI.Main = Главное меню ///Escape///
+UI.Main.Desc = Загрузка/сохранение игры, настройки, выход из игры.
 
 
-UI.Close = Close
-UI.LoadGame = Load game
-UI.SaveGame = Save game
-UI.SaveGame.Desc = Save the current game state to a file.
+UI.Close = Закрыть
+UI.LoadGame = Загрузить
+UI.SaveGame = Сохранить
+UI.SaveGame.Desc = Сохранение текущего состояния игры.
 
 UI.FarmMode = Mode
 UI.FarmModeWater = Water
@@ -227,109 +227,109 @@ UI.TaskGroupTotal = Sum
 # Objectives
 
 
-Objective.AttackEnemyCamp = Attack enemy camp.
-Objective.AttackEnemyCamp.Desc = To attack an enemy camp select it or the surrounding area and click on attack. (Your colonists cannot die in combat.)
+Objective.AttackEnemyCamp = Атака на вражеский лагерь.
+Objective.AttackEnemyCamp.Desc = Чтобы атаковать вражеский лагерь, выберите его или его окрестности и нажмите <b>Атаковать</b>. (Ваши колонисты не могут умереть в бою.)
 
-Objective.DefeatEnemyCamp = Defeat enemy camp.
-Objective.DefeatEnemyCamp.Desc = To attack an enemy camp select it or the surrounding area and click on attack. (Your colonists cannot die in combat.)
-
-
-Objective.SetClaimColor = Set zone assignment for bonfire $5 to $9.
-Objective.SetClaimColor.Desc = To change a zone's color select its bonfire and click on the desired zone color in the info panel.
-Objective.LogisticsLink = Create a link from $7 $5 to $8 $6.
-Objective.LogisticsLink.Desc = To create a logistics link between two objects, select the first object and right-_click the second object. Logistics links will show up as blue arrows whenever a ##logsys building is selected.
-
-Objective.SetZoneColorActive = Enable $5's access to zone $9.
-Objective.SetZoneColorActive.Desc = To enable a colonist's access to a zone select the colonist and click on the desired zone color in the info panel.
-Objective.SetZoneColorInactive = Disable $5's access to zone $9.
-Objective.SetZoneColorInactive.Desc = To disable a colonist's access to a zone select the colonist and click on the desired zone color in the info panel.
-
-Objective.StockpileAcceptsType = Make stockpile $5 accept $1.
-Objective.StockpileAcceptsType.Desc = To change a ##stockpilezone's set of accepted goods select it and click on the goods in the info panel.
+Objective.DefeatEnemyCamp = Разгром вражеского лагеря.
+Objective.DefeatEnemyCamp.Desc = Чтобы атаковать вражеский лагерь, выберите его или его окрестности и нажмите <b>Атаковать</b>. (Ваши колонисты не могут умереть в бою.)
 
 
-Objective.HopperAcceptsType = Make depot exit/entry $5 accept $1.
-Objective.HopperAcceptsType.Desc = To change the accepted goods of a depot exit/entry select it and click on the goods in the info panel.
+Objective.SetClaimColor = Установить цвет $5 для зоны костра $9.
+Objective.SetClaimColor.Desc = Чтобы изменить цвет зоны, выберите костер и нажмите на нужный цвет зоны на информационной панели.
+Objective.LogisticsLink = Создать связь между $7 $5 и $8 $6.
+Objective.LogisticsLink.Desc = Чтобы создать логистическую связь между двумя объектами, выберите первый объект и щелкните правой кнопкой мыши на втором объекте. Логистические связи будут отображаться в виде синих стрелок при выборе объекта.
 
-Objective.StationAcceptsType = Make station exit/entry $5 accept $1.
-Objective.StationAcceptsType.Desc = To change the accepted goods of a station exit/entry select it and click on the goods in the info panel.
+Objective.SetZoneColorActive = Включить доступ $5 к цветовой зоне $3.
+Objective.SetZoneColorActive.Desc = Чтобы отключить доступ колониста к зоне, выберите колониста и нажмите на нужный цвет зоны на информационной панели.
+Objective.SetZoneColorInactive = Отключить доступ $5 к цветовой зоне $9.
+Objective.SetZoneColorInactive.Desc = Чтобы отключить доступ колониста к зоне, выберите колониста и нажмите на нужный цвет зоны на информационной панели.
 
-Objective.StockpileAcceptsOnlyType = Make stockpile $5 accept only $1.
-Objective.StockpileAcceptsOnlyType.Desc = To change a ##stockpilezone's set of accepted goods select it and click on the goods in the info panel.
-
-Objective.BuildTrain = Build trains ($2/$3)
-Objective.BuildTrain.Desc = To construct a train select a train factory and click on "build train" in the info panel.
-
-Objective.FulfillProductionTarget = Reach inventory target.
-Objective.FulfillProductionTarget.Desc = The ##productiontarget is shown in the top left corner. Produce goods until you reach what is required. All goods in your colony as well as the goods stored on your ship count.
-
-Objective.Construct = Construct: $1 ($2/$3)
-Objective.Construct.Desc = To construct a $1 open the #Build# build menu, switch to the $7 tab, click on $1 and place it on the map. 
-Objective.CreateStockpile = Create a stockpile zone ($2/$3)
-Objective.CreateStockpile.Desc = To create a new ##stockpilezone click on the #Stockpile# stockpile zone button and drag an area on solid ground.
-Objective.FarmZone = Create farm zone ($2/$3)
-Objective.FarmZone.Desc = To create a ##farmzone click on the #Farm# farm zone button and mark an area on fertile ground. Assign at least $3 tiles to be farms.
-Objective.FarmZoneCrop = Assign crop: $1
-Objective.FarmZoneCrop.Desc = To start growing a crop, select a ##farmzone and select the plant you want to grow.
-Objective.Have = Mine or produce: $1 ($2/$3)
-Objective.Have.Desc = Resources can be ##mined from the environment. Goods can be produced in workshops.
+Objective.StockpileAcceptsType = Настроить склад $5 на хранение $1.
+Objective.StockpileAcceptsType.Desc = Чтобы изменить на складе список принимаемых предметов, выберите его и нажмите на его панели на нужные предметы.
 
 
-Objective.TrainSchedule = Add $5 to train schedule
-Objective.TrainSchedule.Desc = To add a station to a train's schedule, select the train and right-_click on the station you want to add. Clicking again will remove the station. 
+Objective.HopperAcceptsType = Настроить выход/вход хранилища $5 на хранение $1.
+Objective.HopperAcceptsType.Desc = Чтобы изменить список принимаемых предметов на входе\выходе хранилища, выберите его и нажмите на его панели на нужные предметы.
 
-Objective.SetWorkshopInput = Link $8 $6 to $7 $5
-Objective.SetWorkshopInput.Desc = To link $6 to an input ##stockpilezone, left-_click on $6 and right-_click on $5. 
-Objective.SetWorkshopOutput = Link $7 $5 to $8 $6
-Objective.SetWorkshopOutput.Desc = To link $5 to an output ##stockpilezone, left-_click on $5 and right-_click on $6. 
+Objective.StationAcceptsType = Настроить выход/вход станции $5 на хранение $1.
+Objective.StationAcceptsType.Desc = Чтобы изменить список принимаемых предметов на входе\выходе станции, выберите её и нажмите на её панели на нужные предметы.
 
+Objective.StockpileAcceptsOnlyType = Настроить склад $5 на хранение только $1.
+Objective.StockpileAcceptsOnlyType.Desc = Чтобы изменить на складе список принимаемых предметов, выберите его и нажмите на его панели на нужные предметы.
 
-Objective.LinkStockpile = Link $1 to stockpile ($2/$3)
-Objective.LinkStockpile.Desc = To link a $1 to a ##stockpilezone, left-_click the $1 and right-_click on the stockpile. Workshops will produce until the linked stockpiles are full.
-Objective.LinkFarmToStockpile = Link farm to stockpile ($2/$3)
-Objective.LinkFarmToStockpile.Desc = To link a ##farmzone to a ##stockpilezone, left-_click the farm and right-_click on the stockpile. Crops on farms will be harvested until the linked stockpiles are full.
-Objective.MiningJob = Create mining tasks ($2/$3)
-Objective.MiningJob.Desc = To select a resource to be ##mined, click the #Mine# mine button and select the things to be mined. Drag an area to mine everything within. Note that your colonists can only mine resources within your ##territory.
-Objective.ProductionTask = Set production: $1
-Objective.ProductionTask.Desc = To produce a good, select a workshop and click on the good you want it to produce.
-Objective.SettlersEquipTool = Tools equipped ($2/$3)
-Objective.SettlersEquipTool.Desc = Colonists auto_matically equip the ##tools they need. Produce the tools they need to make them more productive.
+Objective.BuildTrain = Построить поезд ($2/$3)
+Objective.BuildTrain.Desc = Чтобы построить поезд, выберите депо и нажмите на его панели на кнопку <b>Построить поезд</b>.
 
-Objective.SetActorTaskGroup = Assign $5 to work in $1.
-Objective.SetActorTaskGroup.Desc = To make $5 work in $1, select $5 and click on #$7# $1. Alter_natively, you can manage your colonists' jobs from the settler management screen.
+Objective.FulfillProductionTarget = Выполните Производственную цель
+Objective.FulfillProductionTarget.Desc = Производственные цели показана в верхнем левом углу. Производите указанные товары, пока не достигнете значений которые требуются. Учитываются все товары в вашей колонии, а также товары, хранящиеся на вашем корабле.
 
-Objective.SettlerTaskGroup = Assign job: $4 ($2/$3)
-Objective.SettlerTaskGroup.Desc = To make a colonist do $4 jobs, select him/her and click on #$7# $4. Alter_natively, you can manage your colonists' jobs in the #People# colonist management screen.
-Objective.SettlerWorkshop = Assign job: $1 ($2/$3) 
-Objective.SettlerWorkshop.Desc = To make a colonist work in the $1, select him/her and click on the $1 in the colonist panel. Alter_natively, you can manage your colonists' jobs in the #People# colonist management screen.
-Objective.UnloadAll = Unload your ship ($1 left)
-Objective.UnloadAll.Desc = Click on your ##ship to see what goods it has on board. Click on a good to order your colonists to unload it. You can unload multiple goods at once by holding the shift or control key while clicking. Alter_natively you can press the #Unload# unload button to unload everything.
-
-Objective.Recruit = Recruit them.
-Objective.Recruit.Desc = Recruiting a castaway or taming an animal will make them join your colony. Note: Animals can only perform a limited set of tasks. Once they are a part of your colony, they will begin consuming your supplies.
-Objective.ActivateDebugMode = Activate debug mode.
-Objective.ActivateDebugMode.Desc = Open the settings menu and activate debug/cheat mode.
-Objective.UseDebugRemove = Remove an object.
-Objective.UseDebugRemove.Desc = You can remove any object, building or item in the game by using the standard remove tool while holding the alt key. [Requires debug mode]
-Objective.UseDebugSpawn = Spawn an object.
-Objective.UseDebugSpawn.Desc = You can spawn any object, building or item in the game by using the cheat menu. Press F8 to open it. [Requires debug mode]
-
-Objective.UseRevealMap = Reveal the map.
-Objective.UseRevealMap.Desc = You can remove the fog of war and reveal the map by pressing F7. [Requires debug mode]
-Objective.ShowHelpTooltip = Move your mouse over an objective to display more help.
-Objective.ShowHelpTooltip.Desc = Well done. Objectives and many other user interface elements provide more information when you hover your mouse over them. 
-Objective.ClickHelp = Click this objective.
-Objective.ClickHelp.Desc = You can click on most objectives to move the camera to what you need to interact with.
+Objective.Construct = Построить: $1 ($2/$3)
+Objective.Construct.Desc = Чтобы построить $1, откройте меню <b>Строительство</b>, переключитесь на вкладку $7, нажмите на $1 и разместите его на карте.
+Objective.CreateStockpile = Создать склад ($2/$3)
+Objective.CreateStockpile.Desc = Чтобы создать новый склад, нажмите на панели на кнопку <b>Склад</b> и выделите область на твердой почве.
+Objective.FarmZone = Создать ферму ($2/$3)
+Objective.FarmZone.Desc = Чтобы создать ферму, нажмите на панели на кнопку <b>Ферма</b> и выделите область на плодородной почве. Размер фермы должен быть как минимум $3 плитки.
+Objective.FarmZoneCrop = Назначить выращиваемую культуру: $1
+Objective.FarmZoneCrop.Desc = Чтобы начать выращивать урожай, выберите Ферму и выберите растение, которое вы хотите выращивать.
+Objective.Have = Добыть или произвести: $1 ($2/$3)
+Objective.Have.Desc = Ресурсы можно добыть в прилегающих областях. Предметы можно производить в мастерских.
 
 
-Objective.ScrollCamera = Move camera using WASD/arrows.
-Objective.ScrollCamera.Desc = Press the WASD- or arrow keys to scroll the camera.
+Objective.TrainSchedule = Добавить $5 в расписание поезда
+Objective.TrainSchedule.Desc = Чтобы добавить станцию в расписание поезда, выберите поезд и нажмите правой кнопкой мыши на станции, которую вы хотите добавить. При повторном нажатии станция будет удалена.
 
-Objective.ZoomCamera = Zoom using the mouse wheel.
-Objective.ZoomCamera.Desc = Move the mouse wheel to zoom in and out with the camera.
+Objective.SetWorkshopInput = Привязать $8 $6 к $7 $5
+Objective.SetWorkshopInput.Desc = Чтобы привязать $6 к Input Складу, нажмите левой кнопкой мыши на $6, а правой кнопкой мыши на $5.
+Objective.SetWorkshopOutput = Привязать $7 $5 к $8 $6
+Objective.SetWorkshopOutput.Desc = Чтобы привязать $6 к Output Складу, нажмите левой кнопкой мыши на $5, а правой кнопкой мыши на $6.
 
-Objective.RotateCamera = Rotate using the Q/E or PgUp/PgDown.
-Objective.RotateCamera.Desc = Press the Q- and E-keys to rotate the camera. Alter_natively you can use the page up/down keys.
+
+Objective.LinkStockpile = Привязать $1 к складу ($2/$3)
+Objective.LinkStockpile.Desc = Чтобы привязать $1 к складу, нажмите левой кнопкой мыши на $1, а правой кнопкой мыши на склад. Продукция будет производиться до тех пор, пока привязанные склады не будут заполнены.
+Objective.LinkFarmToStockpile = Привязать ферму к складу ($2/$3)
+Objective.LinkFarmToStockpile.Desc = Чтобы привязать ферму к складу, щелкните левой кнопкой мыши на ферме, а правой кнопкой мыши на складе. Урожай на фермах будет собираться до тех пор, пока привязанные склады не будут заполнены.
+Objective.MiningJob = Назначить задачу на добычу ($2/$3)
+Objective.MiningJob.Desc = Чтобы добыть ресурс, нажмите на панели кнопку <b>Сбор и добыча</b> и выберите нужный вам ресурс. Выделите область, чтобы добыть в ней все доступные ресурсы. Обратите внимание, что колонисты могут добывать ресурсы только на вашей территории.
+Objective.ProductionTask = Выбрать продукцию: $1
+Objective.ProductionTask.Desc = Чтобы создать предмет, выберите мастерскую и нажмите в её панели на нужный вам предмет.
+Objective.SettlersEquipTool = Экипировать инструмент ($2/$3)
+Objective.SettlersEquipTool.Desc = Колонисты автоматически экипируют подходящий для их работы инструмент. Создавайте инструменты в мастерских, чтобы повысить производительность колонистов.
+
+Objective.SetActorTaskGroup = Назначить $5 на работу в $1.
+Objective.SetActorTaskGroup.Desc = Чтобы колонист работал в $1, выберите его и нажмите на иконку $1 в его панели. Также вы можете управлять задачами ваших колонистов на Экране управления колонистами.
+
+Objective.SettlerTaskGroup = Назначить задачу: $4 ($2/$3)
+Objective.SettlerTaskGroup.Desc = Чтобы назначить колонисту задачу $4 , выберите его и нажмите на иконку $4 в панели колониста. Также вы можете управлять задачами ваших колонистов на Экране управления колонистами.
+Objective.SettlerWorkshop = Назначить задачу: $1 ($2/$3) 
+Objective.SettlerWorkshop.Desc = Чтобы назначить колониста на работу в $1, выберите его и нажмите на иконку $1 в панели колониста. Также вы можете управлять задачами ваших колонистов на Экране управления колонистами.
+Objective.UnloadAll = Разгрузите свой корабль (осталось $1)
+Objective.UnloadAll.Desc = Нажмите на ваш корабль, чтобы увидеть, какие предметы у него есть на борту. Нажмите на предмет, чтобы отдать колонистам приказ на его разгрузку. Вы можете выгрузить несколько предметов одновременно, зажав клавишу Shift или Control. Или вы можете нажать кнопку в правом верхнем углу, чтобы разгрузить всё сразу.
+
+Objective.Recruit = Завербовать новых колонистов.
+Objective.Recruit.Desc = Вербовка потерпевших кораблекрушение или приручение животного позволит им присоединиться к вашей колонии. Примечание: животные могут выполнять только ограниченный набор задач. Как только они станут частью вашей колонии, они начнут потреблять ваши припасы.
+Objective.ActivateDebugMode = Режим отладки
+Objective.ActivateDebugMode.Desc = Откройте меню настроек и включите режим отладки.
+Objective.UseDebugRemove = Удаление объектов
+Objective.UseDebugRemove.Desc = Вы можете удалить любой объект, здание или предмет в игре, используя стандартный инструмент удаления и удерживая клавишу Alt. [Требуется режим отладки]
+Objective.UseDebugSpawn = Создание объектов
+Objective.UseDebugSpawn.Desc = Вы можете создать любой объект, здание или предмет в игре, используя чит-меню. Нажмите F8, чтобы открыть его. [Требуется режим отладки]
+
+Objective.UseRevealMap = Удаление тумана войны
+Objective.UseRevealMap.Desc = Вы можете убрать туман войны и открыть всю карту, нажав F7. [Требуется режим отладки]
+Objective.ShowHelpTooltip = Наведите указатель мыши на задание, чтобы увидеть дополнительную справку.
+Objective.ShowHelpTooltip.Desc = Отлично сделано. Задачи и многие другие элементы пользовательского интерфейса предоставляют больше информации, когда вы наводите на них указатель мыши.
+Objective.ClickHelp = Нажмите на это задание.
+Objective.ClickHelp.Desc = Вы можете нажать на большинство заданий, чтобы переместить камеру к объекту, с которым вам нужно взаимодействовать.
+
+
+Objective.ScrollCamera = Перемещайте камеру, используя WASD или клавиши со стрелками.
+Objective.ScrollCamera.Desc = Нажмите WASD или клавиши со стрелками для перемещения камеры.
+
+Objective.ZoomCamera = Масштабирование колесиком мыши.
+Objective.ZoomCamera.Desc = Прокрутите колесико мыши, чтобы приблизить или отдалить камеру.
+
+Objective.RotateCamera = Поверните камеру, используя Q/E или PgUp/PgDown.
+Objective.RotateCamera.Desc = Нажмите Q или E клавишу, чтобы повернуть камеру. В качестве альтернативы вы можете использовать клавиши PgUp и PgDown.
 
 
 
@@ -349,224 +349,224 @@ ObjectiveGroup.Recruit = Recruit
 
 
 # Settler needs
-Need.Sleep = Sleep
-Need.Sleep.Desc = When tired, colonists will auto_matically return to their homes and sleep.
-Need.Food = Food
-Need.Food.Desc = When hungry, colonists will auto_matically search for ##food.
-Need.Drink = Drink
-Need.Drink.Desc = When thirsty, colonists will auto_matically search for something to ##drink. 
-Need.Social = Social
-Need.Social.Desc = Colonists need ##social interaction with each other to thrive. Providing social interaction will make them more happy and productive.
-Need.Housing = Housing
-Need.Housing.Desc = Colonists prefer to have a ##house to live in. Providing one will make them more happy and productive.
-Need.Health = Health
-Need.Health.Desc = Injured colonists are unhappy and less productive. They will regenerate while they sleep.
-Need.Sum = Sum
-Need.Happiness = ##Happiness
-Need.SpeedFactor = Speed
+Need.Sleep = Сон
+Need.Sleep.Desc = Устав, колонисты возвращаются в свои дома и засыпают.
+Need.Food = Пища
+Need.Food.Desc = Проголодавшись, колонисты начнут поиски пищи.
+Need.Drink = Напитки
+Need.Drink.Desc = Почувствовав жажду, колонисты начнут поиски напитков.
+Need.Social = Общение
+Need.Social.Desc = Колонисты нуждаются в общении друг с другом. Общение делает их более счастливыми и эффективными.
+Need.Housing = Жильё
+Need.Housing.Desc = Все колонисты хотят иметь своё собственное жильё. Дом, в котором они смогут жить, сделает их более счастливыми и эффективными.
+Need.Health = Здоровье
+Need.Health.Desc = У раненых колонистов заметно падает уровень счастья и эффективность работы. Их здоровье восстанавливается во время сна.
+Need.Sum = Суммарно
+Need.Happiness = Счастье
+Need.SpeedFactor = Скорость
 
-ActorState.Drinkvariety.High = High drink variety.
-ActorState.Drinkvariety.Low = Low drink variety.
-ActorState.Foodvariety.High = High food variety.
-ActorState.Foodvariety.Low = Low food variety.
-ActorState.HouseQuality.High = High quality house.
-ActorState.HouseQuality.Low = Low quality house.
-ActorState.Hasdrunk = Has drunk recently
-ActorState.Hasinteracted = Had social interaction
-ActorState.Housed = Owns a house
-ActorState.Hungry = Hungry
-ActorState.Nohouse = Homeless
-ActorState.Notinteracted = Lonely
-ActorState.BadDecoration = No decoration. 
-ActorState.GoodDecoration = Nice decoration.
-ActorState.FavoriteFood.Yes = Had $1.
-ActorState.FavoriteFood.No = Needs $1.
-ActorState.FavoriteDrink.Yes = Had $1.
-ActorState.FavoriteDrink.No = Needs $1.
+ActorState.Drinkvariety.High = Высокое разнообразие напитков.
+ActorState.Drinkvariety.Low = Низкое разнообразие напитков.
+ActorState.Foodvariety.High = Высокое разнообразие пищи.
+ActorState.Foodvariety.Low = Низкое разнообразие пищи.
+ActorState.HouseQuality.High = Высокое качество жилья.
+ActorState.HouseQuality.Low = Низкое качество жилья.
+ActorState.Hasdrunk = Недавно утолил жажду
+ActorState.Hasinteracted = Общение с друзьями
+ActorState.Housed = Есть своё жильё
+ActorState.Hungry = Испытывает чувство голода
+ActorState.Nohouse = Нет своего жилья
+ActorState.Notinteracted = Недостаток общения
+ActorState.BadDecoration = В лагере нет украшений
+ActorState.GoodDecoration = В лагере есть украшения
+ActorState.FavoriteFood.Yes = Прием пищи $1.
+ActorState.FavoriteFood.No = Отсутствие пищи $1.
+ActorState.FavoriteDrink.Yes = Употребление напитка $1.
+ActorState.FavoriteDrink.No = Отсутствие напитка $1.
 
-ActorState.Rested = Well rested
-ActorState.Saturated = Saturated
-ActorState.Injured = Injured
-ActorState.Hurt = Severely hurt
-ActorState.Thirsty = Thirsty
-ActorState.NotThirsty = Not thirsty
-ActorState.Tired = Tired
-ActorState.Total = Sum
-ActorState.NoTool = Lightweight (no tool)
-ActorState.Healthy = Healthy
+ActorState.Rested = Недавний отдых
+ActorState.Saturated = Недавно утолил голод
+ActorState.Injured = Ранение
+ActorState.Hurt = Тяжелое ранение
+ActorState.Thirsty = Испытывает жажду
+ActorState.NotThirsty = Недавно утолил жажду
+ActorState.Tired = Усталость
+ActorState.Total = Суммарно
+ActorState.NoTool = Налегке (без инструмента)
+ActorState.Healthy = Здоров
 
 # Job/task groups
-TaskGroup._Name = Job assignments
-TaskGroup.Agriculture = Farm work
-TaskGroup.Agriculture.Desc = Farm workers till the ground and plant and harvest crops in ##farmzone.
-TaskGroup.Construction = Con_struction
-TaskGroup.Construction.Desc = Con_struction workers execute con_struction jobs.
-TaskGroup.Crafting = Crafting
-TaskGroup.Crafting.Desc = Craftsmen operate workshops to create more complex goods.
-TaskGroup.Combat = Combat
-TaskGroup.Combat.Desc = Fighters defend their fellow colonists and battle against enemies.
-TaskGroup.Mining = Mining & harvesting
-TaskGroup.Mining.Desc = Miners chop down trees and ##mine rocks and stone.
-Workshop._Name = Workshops
-TaskGroup.Power = Power
-TaskGroup.Power.Desc = Colonists and animals can generate ##power.
-TaskGroup.Logistics = Logistics
-TaskGroup.Logistics.Desc = Hauling to stockpiles and depots, importing and exporting. 
+TaskGroup._Name = Назначенная задача
+TaskGroup.Agriculture = Работа на ферме
+TaskGroup.Agriculture.Desc = Работники фермы возделывают землю, сажают и собирают урожай на фермах.
+TaskGroup.Construction = Строительство
+TaskGroup.Construction.Desc = Строители выполняют задачи по строительству объектов.
+TaskGroup.Crafting = Ремесло
+TaskGroup.Crafting.Desc = Ремесленники создают предметы в мастерских.
+TaskGroup.Combat = Сражение
+TaskGroup.Combat.Desc = Воины защищают колонию и сражаются с врагами.
+TaskGroup.Mining = Сбор и добыча
+TaskGroup.Mining.Desc = Рабочие рубят деревья и добывают полезные ресурсы.
+Workshop._Name = Мастерские
+TaskGroup.Power = Энергия
+TaskGroup.Power.Desc = Колонисты и животные могут производить энергию.
+TaskGroup.Logistics = Транспортировка
+TaskGroup.Logistics.Desc = Транспортировка предметов на склады и хранилища, импорт и экспорт.
 
 
 
-Faction.Player = Friendly
-Faction.Enemy = Hostile
-Faction.Neutral = Neutral
+Faction.Player = Дружественный
+Faction.Enemy = Враждебный
+Faction.Neutral = Нейтральный
 
 
-Text.BackerRaft.Desc = Sent by $1.
+Text.BackerRaft.Desc = Отправлено на $1.??
 
-BuildingType.Actor = Actor
-BuildingType.Actor.Desc = Spawn colonists, enemies and animals.
-BuildingType.Decoration = Decoration ///1///
-BuildingType.Decoration.Desc = Decoration makes your colony more pretty and improves your colonists' happiness.
-BuildingType.Defense = Defense
-BuildingType.Defense.Desc = Walls and towers. 
-BuildingType.Food = Food and Water ///2///
-BuildingType.Food.Desc = Buildings to produce and refine ##food and ##drinks.
-BuildingType.House = Housing
-BuildingType.House.Desc = Having ##houses improves your colonists' happiness and efficiency. 
-BuildingType.Item = Items
-BuildingType.Item.Desc = Items.
-BuildingType.Logistics = Logistics ///3///
-BuildingType.Logistics.Desc = Buildings and machinery to automate your production.
-BuildingType.None = Miscel_laneous ///4///
-BuildingType.None.Desc = Miscel_laneous buildings.
-BuildingType.Refining = Refining
-BuildingType.Refining.Desc = Workshops to refine and dispose of resources.
-BuildingType.Workshop = Workshop ///5///
-BuildingType.Workshop.Desc = Workshops to produce ##tools, weapons and machinery.
+BuildingType.Actor = Персонажи
+BuildingType.Actor.Desc = Создание колонистов, врагов и животных.
+BuildingType.Decoration = Декоративные предметы ///1///
+BuildingType.Decoration.Desc = Декоративные предметы делают вашу колонию более привлекательной и повышают счастье ваших колонистов.
+BuildingType.Defense = Оборона
+BuildingType.Defense.Desc = Стены и башни.
+BuildingType.Food = Пища и Напитки ///2///
+BuildingType.Food.Desc = Здания для производства пищи и напитков.
+BuildingType.House = Жильё
+BuildingType.House.Desc = Наличие собственного жилья повышает счастье и эффективность ваших колонистов.
+BuildingType.Item = Предметы
+BuildingType.Item.Desc = Различные объекты.
+BuildingType.Logistics = Логистическая сеть ///3///
+BuildingType.Logistics.Desc = Здания и механизмы для автоматизации производства.
+BuildingType.None = Разное ///4///
+BuildingType.None.Desc = Разные объекты.
+BuildingType.Refining = Переработка
+BuildingType.Refining.Desc = Мастерские по переработке и утилизации ресурсов.
+BuildingType.Workshop = Мастерские ///5///
+BuildingType.Workshop.Desc = Мастерские по производству инструментов, оружия и механизмов.
 BuildingType.AutoWorkshop = Factory
 BuildingType.AutoWorkshop.Desc = Factories produce goods without the need to be operated by colonists.
 
 
-Settings.Category.Graphics = Graphics
-Settings.Category.Audio = Audio
-Settings.Category.Gameplay = Gameplay
-Settings.Category.Other = Other
+Settings.Category.Graphics = Графика
+Settings.Category.Audio = Звук
+Settings.Category.Gameplay = Геймплей
+Settings.Category.Other = Разное
 
-Settings.Recommendations = Recommen_dations
-Settings.Recommendations.Desc = Show recommen_dations in the top left corner.
-
-
-Settings.UIScale = UI scale
-Settings.UIScale.Desc = Magnify or shrink the user interface.
-Settings.Shadows = Shadow quality
-Settings.Shadows.Desc = Quality of the shadows cast by lights. Shadows look nice but can be very hard on the GPU when you have many light sources.
-
-Settings.Brightness=Brightness
-Settings.Brightness.Desc=Brightness
-Settings.AA = AA
-Settings.AA.Desc = Anti-Aliasing: Reduce aliasing around edges.
-Settings.PauseOnDefocus = Auto-pause
-Settings.PauseOnDefocus.Desc = Automatically pause the game when it loses focus. 
-Settings.LocalizationHelp = Localization help
-Settings.LocalizationHelp.Desc = Generates the Missing_<language>.txt files to aid with localization.
-Settings.Ambience = Ambience
-Settings.Ambience.Desc = Volume of ambient effects.
-Settings.AO = AO
-Settings.AO.Desc = Ambient occlusion: Approxi_mation of ambient lighting and shadows.
-Settings.Autosave = Auto save
-Settings.Autosave.Desc = Auto_matically save after a set period of time. 
-Settings.Bevel = Bevel and edges
-Settings.Bevel.Desc = Draw a bevel effect on objects and draw an outline around them.
-Settings.Bloom = Bloom
-Settings.Bloom.Desc = Draw a bloom effect around overexposed areas.
-Settings.Clouds = Clouds
-Settings.Clouds.Desc = Clouds move across the land.
-Settings.Debug = Debug/Cheat mode
-Settings.Debug.Desc = The debug mode allows you to freely spawn objects (F8) and access more debug options (F7).
-Settings.DOF = Depth of field
-Settings.DOF.Desc = Reduce extent of focal plane when zooming in.
-Settings.Fog = Fog and haze
-Settings.Fog.Desc = Display fog and haze effects.
-Settings.ShowMarkers = Show markers
-Settings.ShowMarkers.Desc = Show markers for loading and mining jobs.
-Settings.FPS = Display FPS
-Settings.FPS.Desc = Display current frames per second.
-Settings.Hints = Hints
-Settings.Hints.Desc = Display hints when the game detects events like idle production buildings.
-Settings.Hit = Hit animations
-Settings.Hit.Desc = Mineables and buildings react when hit.
-Settings.Language = Language
-Settings.Language.Desc = (The language can only be changed in the main menu and may require a restart).
-Settings.Music = Music
-Settings.Music.Desc = Volume of music.
-Settings.Scroll = Scroll at border
-Settings.Scroll.Desc = Scroll when the mouse hits the screen edge.
-Settings.ScrollSpeed = Scroll speed
-Settings.ScrollSpeed.Desc = Scroll speed factor. Affects scroll on screen edge and scrolling by WASD.
-Settings.RotateSpeed = Rotate speed
-Settings.RotateSpeed.Desc = Rotate speed factor. Affects camera rotation with Q / E / PgUp / PgDown.
-Settings.Sound = Sound
-Settings.Sound.Desc = Volume of sound effects.
-Settings.SSScale = Screenshot SS
-Settings.SSScale.Desc = Upscaling factor of the screenshots.
-Settings.Weather = Weather effects
-Settings.Weather.Desc = Visual weather effects like rain and snow.
+Settings.Recommendations = Советы
+Settings.Recommendations.Desc = Показывать советы в верхнем левом углу.
 
 
-Workshop.Status.Busy = Workshop is busy.
-Workshop.Status.Busy.Desc = A colonist is using this workshop.
-Workshop.Status.Idle = Workshop is idle.
-Workshop.Status.Idle.Desc = As soon as a colonist is ready, production will begin.
-Workshop.Status.NoInput = No inputs. 
-Workshop.Status.NoInput.Desc = Production will resume when the required input resources become available.
+Settings.UIScale = Масштаб UI
+Settings.UIScale.Desc = Увеличение или уменьшение размеров пользовательского интерфейса.
+Settings.Shadows = Тени
+Settings.Shadows.Desc = Качество теней, отбрасываемых источниками света. Ощутимо влияет на нагрузку графического процессора, когда у вас много источников света.
 
-Workshop.Status.NoOutput = No output stockpile assigned.
-Workshop.Status.NoOutput.Desc = To link an output ##stockpilezone, left-_click the workshop and right-_click the stockpile where you want the workshop's output to go. Workshops will produce until the linked stockpiles are full.
-Workshop.Status.NoProduct = No product selected.
-Workshop.Status.NoProduct.Desc = To choose an item to be produced, click on it in the workshop info panel.
+Settings.Brightness=Яркость
+Settings.Brightness.Desc=Яркость
+Settings.AA = Сглаживание
+Settings.AA.Desc = Уменьшение или увеличение качества сглаживания.
+Settings.PauseOnDefocus = Авто-пауза
+Settings.PauseOnDefocus.Desc = Автоматическая приостановка игры, когда она теряет фокус.
+Settings.LocalizationHelp = Помощь при переводе
+Settings.LocalizationHelp.Desc = Создает файл Missing_<language>.txt для помощи с локализацией.
+Settings.Ambience = Окружение
+Settings.Ambience.Desc = Громкость окружающих эффектов.
+Settings.AO = Окклюзия
+Settings.AO.Desc = Окружающая окклюзия: упрощение вычислений окружающего освещения и теней.
+Settings.Autosave = Автосохранение
+Settings.Autosave.Desc = Автоматическое сохранение игры в заданный период времени.
+Settings.Bevel = Фаски и грани
+Settings.Bevel.Desc = Эффект фаски на объектах и отрисовка контура вокруг них.
+Settings.Bloom = Размытие
+Settings.Bloom.Desc = Эффект размытия света на ярких гранях сцены.
+Settings.Clouds = Облака
+Settings.Clouds.Desc = Тени облаков на земле.
+Settings.Debug = Режим отладки
+Settings.Debug.Desc = Позволяет свободно создавать объекты (F8) и получить доступ к параметрам отладки (F7).
+Settings.DOF = Глубина резкости
+Settings.DOF.Desc = Изменение степени фокусировки при увеличении.
+Settings.Fog = Туман и дымка
+Settings.Fog.Desc = Отображение эффектов тумана и дымки.
+Settings.ShowMarkers = Маркеры
+Settings.ShowMarkers.Desc = Отображение маркеров для погрузочных и горных работ.
+Settings.FPS = Отображение FPS
+Settings.FPS.Desc = Отображение текущих кадров в секунду.
+Settings.Hints = Подсказки
+Settings.Hints.Desc = Отображение подсказок, когда игра обнаруживает такие события, как простой производственных зданий.
+Settings.Hit = Анимация работы
+Settings.Hit.Desc = Ресурсы и здания реагируют когда с ними работают.
+Settings.Language = Язык
+Settings.Language.Desc = Язык можно изменить только в главном меню
+Settings.Music = Музыка
+Settings.Music.Desc = Громкость музыки.
+Settings.Scroll = Прокрутка по краю
+Settings.Scroll.Desc = Перемещение камеры при касании указателем мышки края экрана.
+Settings.ScrollSpeed = Скор. прокрутки
+Settings.ScrollSpeed.Desc = Скорость перемещения камеры. Влияет на скорость прокрутки по краю экрана и перемещения по WASD.
+Settings.RotateSpeed = Скор. вращения
+Settings.RotateSpeed.Desc = Скорость вращение камеры. Влияет на скорость вращение с помощью Q/E/PgUp/PgDown.
+Settings.Sound = Звук
+Settings.Sound.Desc = Громкость звуковых эффектов.
+Settings.SSScale = Скриншоты
+Settings.SSScale.Desc = Коэффициент масштабирования скриншотов.
+Settings.Weather = Эффекты погоды
+Settings.Weather.Desc = Визуаллизация погодных эффектов, таких как дождь и снег.
+
+
+Workshop.Status.Busy = Мастерская занята
+Workshop.Status.Busy.Desc = Колонист уже использует эту мастерскую.
+Workshop.Status.Idle = Мастерская не активна
+Workshop.Status.Idle.Desc = Производство начнется, как только прибудет колонист.
+Workshop.Status.NoInput = Нет ресурсов
+Workshop.Status.NoInput.Desc = Производство возобновится, когда станут доступны необходимые ресурсы.
+
+Workshop.Status.NoOutput = Не назначен склад для продукции
+Workshop.Status.NoOutput.Desc = Чтобы назначить склад для приема продукции мастерской, нажмите левой кнопкой мыши на мастерской, а правой кнопкой мыши на склад, куда вы хотите отправлять продукцию. Мастерская будет производить продукцию, пока склад не заполниться.
+Workshop.Status.NoProduct = Не выбрана продукция
+Workshop.Status.NoProduct.Desc = Чтобы выбрать предмет для производства, нажмите на него на панели мастерской.
 
  
-Workshop.Status.NoSettler = No colonist assigned.
-Workshop.Status.NoSettler.Desc = To make a colonist work in this workshop, select him/her and click on the workshop in the colonist panel and make sure he/she is allowed to work in this zone. Alter_natively, you can manage your colonists' jobs in the #People# colonist management screen.
-Workshop.Status.OutputFull = Output stockpiles full.
-Workshop.Status.OutputFull.Desc = Production will resume when space in the output ##stockpilezone becomes available.
-Workshop.Status.UnderConstruction = Under con_struction.
-Workshop.Status.UnderConstruction.Desc = The workshop is being built.
+Workshop.Status.NoSettler = Не назначен колонист
+Workshop.Status.NoSettler.Desc = Чтобы назначить колониста на работу в этой мастерской, выберите его и нажмите на нужную мастерскую на панели колониста. Убедитесь, что ему разрешено работать в этой зоне. Также вы можете управлять задачами ваших колонистов на Экране управления колонистами.
+Workshop.Status.OutputFull = Склад заполнен
+Workshop.Status.OutputFull.Desc = Производство возобновится, когда появиться свободное пространство на принимающем продукцию #Stockpile# складе.
+Workshop.Status.UnderConstruction = В процессе строительства
+Workshop.Status.UnderConstruction.Desc = Мастерская строится
 
 
-Farm.Status.Harvest = Ready to harvest.
+Farm.Status.Harvest = Урожай готов к сбору
 Farm.Status.Harvest.Desc = 
-Farm.Status.Idle = Idle.
+Farm.Status.Idle = Проставает
 Farm.Status.Idle.Desc = 
-Farm.Status.NoOutput = No output stockpile assigned.
-Farm.Status.NoOutput.Desc = To link an output ##stockpilezone, left-_click the farm and right-_click the stockpile where you want the ##farmzone's output to go. Farms will produce until the linked stockpiles are full.
-Farm.Status.NoOutputForProduct = Output stockpiles don't accept products.
-Farm.Status.NoOutputForProduct.Desc = To change the accepted goods of a ##stockpilezone, left-_click it and change the types by selecting them in the panel.
+Farm.Status.NoOutput = Не назначен склад для приема продукции
+Farm.Status.NoOutput.Desc = Чтобы назначить склад для приема продукции фермы, нажмите левой кнопкой мыши на ферму, а правой кнопкой мыши на складе, куда вы хотите отправлять продукцию. Ферма будет производить продукцию, пока склад не заполниться.
+Farm.Status.NoOutputForProduct = Склад не настроен на хранение продукции
+Farm.Status.NoOutputForProduct.Desc = Чтобы настроить склад на хранение нужной вам продукции, нажмите на нём левой кнопкой мыши и выберите необходимую продукцию на панели склада.
+Farm.Status.Paused.Desc = Выберите культуру для выращивания на этой ферме.
+Workshop.Status.NoOutputForProduct = Склад не настроен на хранение продукции
+Workshop.Status.NoOutputForProduct.Desc = Чтобы настроить склад на хранение нужной вам продукции, нажмите на нём левой кнопкой мыши и выберите нужную продукцию на панели склада.
 
-Workshop.Status.NoOutputForProduct = Output stockpiles don't accept products.
-Workshop.Status.NoOutputForProduct.Desc = To change the accepted goods of a ##stockpilezone, left-_click it and change the types by selecting them in the panel.
+Farm.Status.NoWorkers = На ферме отсутствуют рабочие
+Farm.Status.OutputFull = Склад, принимающий продукцию, заполнен.
+Farm.Status.OutputFull.Desc = Сбор урожая возобновится, когда появиться свободное пространство на принимающем продукцию складе.
+Farm.Status.Paused = Не выбрана продукция
 
-Farm.Status.NoWorkers = No farm workers.
-Farm.Status.OutputFull = Output stockpiles full.
-Farm.Status.OutputFull.Desc = Harvesting will resume when space in the output ##stockpilezone becomes available.
-Farm.Status.Paused = No product selected.
-
-Farm.Status.Plant = Ready to plant.
-Farm.Status.Plant.Desc = 
-Farm.Status.Till = Ready to till.
-Farm.Status.Till.Desc = Ready to till.
-Farm.Status.Water = Ready to water.
-Farm.Status.Water.Desc = Ready to ##water. Make sure to have water buckets available. 
-
-
+Farm.Status.Plant = Готово к посадке
+Farm.Status.Plant.Desc = На Ферме можно начинать посадку.
+Farm.Status.Till = Готово к возделыванию
+Farm.Status.Till.Desc = На Ферме можно начинать возделывание почвы.
+Farm.Status.Water = Готово к поливке
+Farm.Status.Water.Desc = На Ферме можно начинать поливку. Убедитесь, что у вас есть ведра с водой.
 
 
-MainMenu.NewCampaign = New Campaign
-MainMenu.ResumeCampaign = Resume Game
-MainMenu.PlayTutorial = Play Tutorials
-MainMenu.PlayCustomMap = Play Custom Map
-MainMenu.Settings = Settings
-MainMenu.Mods = User Mods
-MainMenu.ExitGame = Exit Game
+
+
+MainMenu.NewCampaign = Новая игра
+MainMenu.ResumeCampaign = Продолжить
+MainMenu.PlayTutorial = Обучение
+MainMenu.PlayCustomMap = Своя карта
+MainMenu.Settings = Настройки
+MainMenu.Mods = Моды
+MainMenu.ExitGame = Выход
 MainMenu.OneBigMap = Play Huge Map
 
 LoadingPhase.Clearing = Clearing remaining data.
@@ -637,14 +637,14 @@ UI.CancelOrder = Cancel order ///X///
 UI.CancelOrder.Desc = Cancel an order like mining, loading or decon_structing.
 
 
-Logistics.Status.NotConnected = Not connected to logistics system.
-Logistics.Status.Supply = Providing to logistics system.
-Logistics.Status.Request = Requesting from logistics system.
-Logistics.Status.SupplyRequest = Supplying and requesting.
-Logistics.Status.CanSupply = Can provide to logistics system.
-Logistics.Status.CanRequest = Can request from logistics system.
-Logistics.Status.CanSupplyRequest = Can supply or request.
-Logistics.Status.CanRequestButNotSetup = No good accepted from log. system.
+Logistics.Status.NotConnected = Не подключено к логистической сети.
+Logistics.Status.Supply = Поставляет в логистическую сеть.
+Logistics.Status.Request = Запрашивает из логистической сети.
+Logistics.Status.SupplyRequest = Поставляет и запрашивает.
+Logistics.Status.CanSupply = Может поставлять в логистическую сеть.
+Logistics.Status.CanRequest = Может запросить из логистической сети.
+Logistics.Status.CanSupplyRequest = Может поставлять или запрашивать.
+Logistics.Status.CanRequestButNotSetup = Нет продукции, принимаемой из логистической сети.
 
 
 UI.LogisticsSystem = Logistics system
@@ -684,17 +684,17 @@ UI.Build.MissingMaterials.Desc = Your colonists are missing one or more resource
 UI.Cancel = Cancel
 UI.Cancel.Desc = Abort con_struction.
 
-StockpileZoneCC = Stockpile
-StockpileZoneCC.Desc = A stockpile can be used to hold products from workshops, farms or mining operations.
-FarmZoneCC = Farm
-FarmZoneCC.Desc = Farms allow your colonists to grow a number of crops. (##farmzone)
-GroveZoneCC = Grove
-GroveZoneCC.Desc = Groves can be built on fertile soil and allow your colonists to grow trees. (##grovezone)
+StockpileZoneCC = Склад
+StockpileZoneCC.Desc = Склады используются для хранения продукции из мастерских, ферм или добытых ресурсов.
+FarmZoneCC = Ферма
+FarmZoneCC.Desc = Фермы позволяют вашим колонистам выращивать с\х культуры.
+GroveZoneCC = Лесоферма
+GroveZoneCC.Desc = Лесофермы строятся на плодородной почве и позволяют вашим колонистам выращивать деревья.
 
 
-CargoShip.State.ENTERHARBOUR = Entering cargo port.
-CargoShip.State.UNLOAD = Unloading.
-CargoShip.State.LEAVE = Leaving cargo port.
+CargoShip.State.ENTERHARBOUR = Заходит в грузовой порт.
+CargoShip.State.UNLOAD = Разгружается.
+CargoShip.State.LEAVE = Покидает грузовой порт.
 
 
 
@@ -718,72 +718,72 @@ UI.Warnings.Desc = Warnings indicate possible problems like workshops with no as
 UI.Time = Time
 UI.Time.Desc = Time of the day. Most crops only grow during ##day. 
 
-Robot.Mode = Robot mode
-Robot.Mode.Desc = ##Robots can operate in multiple modes. The mode effects their movement speed as well as their fuel consumption. 
-Robot.Mode.OFF = Off
-Robot.Mode.ECO = Eco mode
-Robot.Mode.NORMAL = Normal mode
-Robot.Mode.OVERCLOCKED = Overclocked
+Robot.Mode = Режим робота
+Robot.Mode.Desc = Роботы могут работать в нескольких режимах. Режим влияет на скорость их движения и расход топлива.
+Robot.Mode.OFF = Выкл.
+Robot.Mode.ECO = Эконом режим
+Robot.Mode.NORMAL = Обычный режим
+Robot.Mode.OVERCLOCKED = Форсаж
 
 MainMenu.Tutorials = Tutorials and example scenes
 
 
-Task.Upgrade.Text = Upgrading $1.
-Task.Unload.Text = Unloading $1.
+Task.Upgrade.Text = Улучшает $1.
+Task.Unload.Text = Выгружает $1.
 
-Task.Attack.Text = Attacking $1.
+Task.Attack.Text = Атакует $1.
 Task.CombatTrain.Text = Training.
-Task.Rally.Text = Moving to rally flag.
-Task.Construct.Text = Con_structing $1.
-Task.ConstructClear.Text = Clearing $1.
-Task.Deconstruct.Text = Decon_structing $1.
-Task.Mine.Text = Mining $1.
-Task.Produce.Text = Producing $1 in $2.
+Task.Rally.Text = Направляется к флагу атаки.
+Task.Construct.Text = Строит $1.
+Task.ConstructClear.Text = Расчищает территорию $1.
+Task.Deconstruct.Text = Демонтирует $1.
+Task.Mine.Text = Добывает $1.
+Task.Produce.Text = Производит $1 в $2.
 Task.SupplyAutoWorkshop.Text = Producing $1 in $2.
 Task.UnloadAutoWorkshop.Text = Unloading $1 from $2.
 
-Task.Power.Text = Powering $1.
-Task.Clean.Text = Cleaning $1.
-Task.Load.Text = Loading $1.
-Task.Stockpile.Text = Moving $1 to stockpile.
-Task.LogisticsSystem.Text = Moving $1.
-Task.Equip.Text = Equipping $1.
-Task.Unequip.Text = Unequipping.
-Task.Drink.Text = Drinking $1.
-Task.Eat.Text = Eating $1.
-Task.MoveIntoHouse.Text = Moving into $1.
-Task.Socialize.Text = Socializing in $1.
-Task.Sleep.Text = Sleeping.
-Task.Idle.Text = Idling.
-Task.Wander.Text = Wandering around.
-Task.HarvestCrop.Text = Harvesting $1.
-Task.HarvestTree.Text = Chopping $1.
-Task.PlantCrop.Text = Planting $1.
-Task.PlantTree.Text = Planting $1.
-Task.FarmClear.Text = Clearing $1.
+Task.Power.Text = Производит энергию $1.
+Task.Clean.Text = Расчищает территорию $1.
+Task.Load.Text = Загружает $1.
+Task.Stockpile.Text = Перемещает $1 на склад.
+Task.LogisticsSystem.Text = Переносит $1.
+Task.Equip.Text = Экипирует $1.
+Task.Unequip.Text = Снимает экипировку.
+Task.Drink.Text = Пьет $1.
+Task.Eat.Text = Ест $1.
+Task.MoveIntoHouse.Text = Идет в $1.
+Task.Socialize.Text = Общается в $1.
+Task.Sleep.Text = Спит.
+Task.Idle.Text = Бездельничает.
+Task.Wander.Text = Бродит по округе.
+Task.HarvestCrop.Text = Собирает урожай $1.
+Task.HarvestTree.Text = Рубит $1.
+Task.PlantCrop.Text = Высаживает $1.
+Task.PlantTree.Text = Высаживает $1.
+Task.FarmClear.Text = Расчищает $1.
 
-Task.GroveClear.Text = Clearing $1.
-Task.Till.Text = Tilling ground.
+Task.GroveClear.Text = Расчищает $1.
+Task.Till.Text = Возделывает почву.
 
-Task.Export.Text = Exporting $1.
-Task.Import.Text = Importing $1.
+Task.Export.Text = Экспортирует $1.
+Task.Import.Text = Импортирует $1.
 
-Train.Schedule = Train schedule:
-Train.Schedule.UI = Train station
-Train.Schedule.UI.Desc = To add a station to the schedule, select the train and right-_click on the new station. To remove a station, click on its entry in the schedule.
+Train.Schedule = Расписание поездов:
+Train.Schedule.UI = Ж\д станция
+Train.Schedule.UI.Desc = Чтобы добавить станцию в расписание, выберите поезд и нажмите правой кнопкой мыши на станции. Чтобы удалить станцию, нажмите на ее запись в расписании.
 
 UI.WaveNoTime = Enemies approaching.
 UI.WaveTime = Arriving in $1s.
 
-Train.Status.Deactivated = Train deactivated.
-Train.Status.Deactivated.Desc = You can activate a train by setting it to active in the info panel.
-Train.Status.NoSchedule = No schedule defined.
-Train.Status.NoSchedule.Desc = To add a station to the schedule, select the train and right-_click on the new station. To remove a station, click on its entry in the schedule.
-Train.Status.NoPath = No path to next target.
-Train.Status.NoPath.Desc = Make sure to lay track between stations.
-Train.Status.Okay = Train active.
-Train.Status.WaitAtStation = Waiting at station. 
-Train.Status.WaitAtStation.Desc = The train will resume when it is processed at the station. 
+Train.Status.Deactivated = Поезд не активен.
+Train.Status.Deactivated.Desc = Вы можете активировать поезд, переключив его активность на информационной панели.
+Train.Status.NoSchedule = Расписание не задано.
+Train.Status.NoSchedule.Desc = Чтобы добавить станцию в расписание, выберите поезд и нажмите правой кнопкой мыши на станции. Чтобы удалить станцию, нажмите на ее запись в расписании.
+Train.Status.NoPath = Нет пути к следующей станции.
+Train.Status.NoPath.Desc = Обязательно проложите пути между станциями.
+Train.Status.Okay = Активный поезд.
+Train.Status.WaitAtStation = Остановка на станции.
+Train.Status.WaitAtStation.Desc = Поезд продолжит движение по расписанию, когда выполнит все задачи на станции.
 
 
 UI.AttackCamp = Attack camp.
@@ -799,36 +799,36 @@ UI.RelativeStrength.Equal = Enemy strength: Equal.
 UI.RelativeStrength.Hard = Enemy strength: Hard.
 UI.RelativeStrength.Overwhelming = Enemy strength: Over_whelming.
 
-Tool.Effect.Combat.Effect = Damage: $1
-Tool.Effect.Combat.Hit = Chance to hit: $1%
-Tool.Effect.Combat.Crit = Critical hit chance: $1%
+Tool.Effect.Combat.Effect = Урон: $1
+Tool.Effect.Combat.Hit = Шанс попасть: $1%
+Tool.Effect.Combat.Crit = Шанс крита: $1%
 
-Tool.Effect.Agriculture.Effect = Speed: $1
-Tool.Effect.Agriculture.Hit = Chance to succeed: $1%
-Tool.Effect.Agriculture.Crit = Critical success chance: $1%
+Tool.Effect.Agriculture.Effect = Скорость: $1
+Tool.Effect.Agriculture.Hit = Шанс на успех: $1%
+Tool.Effect.Agriculture.Crit = Шанс крит. успеха: $1%
 
-Tool.Effect.Mining.Effect = Speed: $1
-Tool.Effect.Mining.Hit = Chance to succeed: $1%
-Tool.Effect.Mining.Crit = Critical success chance: $1%
+Tool.Effect.Mining.Effect = Скорость: $1
+Tool.Effect.Mining.Hit = Шанс на успех: $1%
+Tool.Effect.Mining.Crit = Шанс крит. успеха: $1%
 
-Tool.Effect.Crafting.Effect = Speed: $1
-Tool.Effect.Crafting.Hit = Chance to succeed: $1%
-Tool.Effect.Crafting.Crit = Critical success chance: $1%
+Tool.Effect.Crafting.Effect = Скорость: $1
+Tool.Effect.Crafting.Hit = Шанс на успех: $1%
+Tool.Effect.Crafting.Crit = Шанс крит. успеха: $1%
 
-Tool.Effect.None.Effect = Base effect
-Tool.Effect.None.Hit = Chance to succeed: 50%
-Tool.Effect.None.Crit = Chance to crit: 0%
+Tool.Effect.None.Effect = Базовый эффект
+Tool.Effect.None.Hit = Шанс на успех: 50%
+Tool.Effect.None.Crit = Шанс крита: 0%
 
-Tool.None = No tool equipped.
+Tool.None = Инструмент не экипирован
 
-Tool.Effect = Tool effect
-Tool.Effect.Desc = - A weapon's effect deter_mines the damage it can inflict. <br>- Mining, farming and craf_ting tools increase the corres_ponding task com_pletion speed.
+Tool.Effect = Эффект инструмента
+Tool.Effect.Desc = - Эффект оружия определяет урон, который оно может нанести. <br>- Инструменты для добычи, земледелия и ремесла увеличивают скорость выполнения соответствующей задачи.
 
-Tool.Hit = Success chance
-Tool.Hit.Desc = The success chance deter_mines how likely it is that a task is com_pleted success_fully, e.g. that an enemy is hit or that a produc_tion attempt is success_ful.
+Tool.Hit = Шанс на успех
+Tool.Hit.Desc = Шанс на успех показывает вероятность успешного выполнения задачи(например, удар по противнику, попытка сделать предмет и др.).
 
-Tool.Crit = Critical chance
-Tool.Crit.Desc = The proba_bility that a success is critical. Critical weapon hits inflict bonus damage. Critical mining successes yield bonus goods. 
+Tool.Crit = Шанс крит. успеха
+Tool.Crit.Desc = Шанс критического успеха имеет большое значение. Критические удары оружия наносят дополнительный урон. Критический успех при добыче\крафте даёт дополнительные ресурсы\продукцию.
 
 
 MainMenu.Skirmish.Scenarios = Scenarios
@@ -841,10 +841,10 @@ UI.ItemTypes.Title = Item types:
 
 
 
-Building.Mode = Building mode. 
-Building.Mode.Desc = Click to toggle between active and inactive.
-Building.Mode.Enabled = Building active.
-Building.Mode.Disabled = Building inactive.
+Building.Mode = Режим здания. 
+Building.Mode.Desc = Нажмите для активации или деактивации здания.
+Building.Mode.Enabled = Здание активно.
+Building.Mode.Disabled = Здание неактивно.
 
 UI.TypeNameFilter = Search for type...
 UI.DecorationValue = ##Decoration: Value $1, range $2
@@ -1019,8 +1019,8 @@ UI.MinedFrom = Mined from
 
 # 14.4.19
 
-Status.ZoneSplit = Zone is split.
-Status.ZoneSplit.Desc = The zone is split into two or more disconnected parts. Remove the extra parts to remove this warning.
+Status.ZoneSplit = Зона разъединена.
+Status.ZoneSplit.Desc = Зона разделена на две или более части. Удалите лишние части, чтобы выключить это предупреждение.
 
 UI.GrowsOn = Grows on
 
@@ -1030,8 +1030,8 @@ Farm.Status.InvalidTerrain.Desc = The selected plant does not grow on this soil.
 UI.HaltUnloadAll = Halt unload.
 
 
-Status.NothingAccepted = No good accepted.
-Status.NothingAccepted.Desc = No good is accepted by this stockpile.
+Status.NothingAccepted = Не выбраны предметы для хранения.
+Status.NothingAccepted.Desc = Этот склад не настроен на хранение предметов.
 
 UI.AcrossIslands = For all islands: $1
 
@@ -1099,10 +1099,10 @@ UI.MiningDifficulty = Mining difficulty
 UI.MiningDifficulty.Desc = The mining difficulty determines the time it will take a worker to mine this resource.
 
 
-MiningDifficulty.Easy = Mining difficulty: Easy.
-MiningDifficulty.Normal = Mining difficulty: Normal.
-MiningDifficulty.Hard = Mining difficulty: Hard.
-MiningDifficulty.VeryHard = Mining difficulty: Very hard.
+MiningDifficulty.Easy = Трудоемкость добычи: Легко.
+MiningDifficulty.Normal = Трудоемкость добычи: Нормально.
+MiningDifficulty.Hard = Трудоемкость добычи: Трудно.
+MiningDifficulty.VeryHard = Трудоемкость добычи: Очень трудно.
 
 UI.BuildTrain.NoMoreTrains = Maximum number built.
 UI.BuildTrain.NoFreeSegment = Track segment occupied.
@@ -1216,9 +1216,9 @@ UI.Train.Go = Go
 UI.Train.Stop = Stop
 
 
-Name.StockpileZoneCC = Stockpile
-Name.FarmZoneCC = Farm
-Name.GroveZoneCC = Grove
+Name.StockpileZoneCC = Склад
+Name.FarmZoneCC = Ферма
+Name.GroveZoneCC = Лесоферма
 
 UI.Road.Desc = Construct roads to connect remote workshops and storages. Colonists move faster while traveling on roads. Click on a starting tile and an end tile to place a road. Alter_natively click and drag to build a straight road.
 
@@ -1314,7 +1314,7 @@ UI.SelectAnimal = Select animal
 UI.PastureAnimalInfo = Farm animal
 UI.TamingDifficulty = Taming difficulty
 
-Name.PastureZoneCC = Pasture
+Name.PastureZoneCC = Пастбище
 UI.PastureYield = Yields $1 every $2 seconds when kept in pasture.
 UI.PastureYield.Short = Yield when in pasture
 UI.PastureCapacity = Capacity used: $1 / $2
@@ -1322,18 +1322,18 @@ Task.Tame.Text = Taming $1.
 Task.YieldAnimal.Text = Milking $1.
 
 
-Pasture.Status.Idle = Idle.
-Pasture.Status.Idle.Desc = Pasture is operating normally.
-Pasture.Status.Paused = No animal selected.
-Pasture.Status.Paused.Desc = Select an animal type to be tamed. Only neutral animals in vision range can be tamed.
-Pasture.Status.NoPastureWorkers = No ranchers available.
-Pasture.Status.NoPastureWorkers.Desc = Assign a colonist to work as a rancher and make sure he/she is allowed to access this zone.
-Pasture.Status.TooSmall = Pasture is too small.
-Pasture.Status.TooSmall.Desc = Pastures require 6 tiles per animal.
+Pasture.Status.Idle = Простаивает.
+Pasture.Status.Idle.Desc = Пастбище работает нормально.
+Pasture.Status.Paused = Не выбрано животное.
+Pasture.Status.Paused.Desc = Выберите вид животного для приручения. Приручить можно только нейтральных животных в поле зрения.
+Pasture.Status.NoPastureWorkers = Нет доступных животноводов
+Pasture.Status.NoPastureWorkers.Desc = Назначьте колонисту задачу Животновод и убедитесь, что ему разрешен доступ в эту зону.
+Pasture.Status.TooSmall = Слишком маленькое.пастбище
+Pasture.Status.TooSmall.Desc = Мнмальный размер пастбища для каждого животного должен составлять 6 плиток.
 
-PastureAnimal.Status.NoPasture = Animal not tamed.
-PastureAnimal.Status.NoYield = Animal produces nothing.
-PastureAnimal.Status.YieldProgress = Production progress: $1%
+PastureAnimal.Status.NoPasture = Животное не приручено.
+PastureAnimal.Status.NoYield = Животное ничего не производит.
+PastureAnimal.Status.YieldProgress = Прогресс производства: $1%
 
 ## 9.7.2019
 UI.Error.TrackReserved = Cannot remove tracks while they are reserved by a train. 
