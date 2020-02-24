@@ -1,5 +1,5 @@
-﻿language=English
-locales=EN
+﻿language=Ruccian
+locales=RU
 fallback=English
  
 
