@@ -698,15 +698,15 @@ CargoShip.State.LEAVE = Покидает грузовой порт.
 
 
 
-UI.Food = Food stock
-UI.Food.Desc = Provide ##food for your colonists well fed to make them more productive.
+UI.Food = Запас продовальствия
+UI.Food.Desc = Предоставьте ##food вашим колонистам, чтобы они были сыты для большей продуктивности. 
 
-UI.Drink = Drink stock
-UI.Drink.Desc = Provide ##drinks for your colonists to make them more productive.
+UI.Drink = Запас воды
+UI.Drink.Desc = Предоставьте ##drinks вашим колонистам для большей продуктивности. 
 
 
-UI.House = Housing
-UI.House.Desc = Providing ##houses for your colonists will make them more productive.
+UI.House = Жилье
+UI.House.Desc = предоставьте ##houses вашим колонистам для большей продуктивности.
 
 UI.IdleColonists = Idle colonists
 UI.IdleColonists.Desc = Click here to cycle through all ##idle colonists.
@@ -715,8 +715,8 @@ UI.Warnings = Warnings
 UI.Warnings.Desc = Warnings indicate possible problems like workshops with no assigned workers. Click here to cycle through all warning flags. 
 
 
-UI.Time = Time
-UI.Time.Desc = Time of the day. Most crops only grow during ##day. 
+UI.Time = Время
+UI.Time.Desc = Время дня. Большинство семян растет только во время ##day. 
 
 Robot.Mode = Режим робота
 Robot.Mode.Desc = Роботы могут работать в нескольких режимах. Режим влияет на скорость их движения и расход топлива.
@@ -725,14 +725,14 @@ Robot.Mode.ECO = Эконом режим
 Robot.Mode.NORMAL = Обычный режим
 Robot.Mode.OVERCLOCKED = Форсаж
 
-MainMenu.Tutorials = Tutorials and example scenes
+MainMenu.Tutorials = Обучение и сцены с примерами
 
 
 Task.Upgrade.Text = Улучшает $1.
 Task.Unload.Text = Выгружает $1.
 
 Task.Attack.Text = Атакует $1.
-Task.CombatTrain.Text = Training.
+Task.CombatTrain.Text = Тренируется.
 Task.Rally.Text = Направляется к флагу атаки.
 Task.Construct.Text = Строит $1.
 Task.ConstructClear.Text = Расчищает территорию $1.
@@ -772,8 +772,8 @@ Train.Schedule = Расписание поездов:
 Train.Schedule.UI = Ж\д станция
 Train.Schedule.UI.Desc = Чтобы добавить станцию в расписание, выберите поезд и нажмите правой кнопкой мыши на станции. Чтобы удалить станцию, нажмите на ее запись в расписании.
 
-UI.WaveNoTime = Enemies approaching.
-UI.WaveTime = Arriving in $1s.
+UI.WaveNoTime = Враг приближается.
+UI.WaveTime = Прибудет через $1s.
 
 Train.Status.Deactivated = Поезд не активен.
 Train.Status.Deactivated.Desc = Вы можете активировать поезд, переключив его активность на информационной панели.
@@ -786,18 +786,18 @@ Train.Status.WaitAtStation = Остановка на станции.
 Train.Status.WaitAtStation.Desc = Поезд продолжит движение по расписанию, когда выполнит все задачи на станции.
 
 
-UI.AttackCamp = Attack camp.
-UI.TotalStrength = Combined strength 
-UI.CancelAttack = Abort attack.
+UI.AttackCamp = Атткаковать лагерь.
+UI.TotalStrength = Общая сила 
+UI.CancelAttack = Прервать атаку.
 
-Message.EnemyCampDestroyed = Enemy camp destroyed! Yay!
-Message.AttackFailed = Attack on enemy camp failed. :(
+Message.EnemyCampDestroyed = Вражеский лагерь уничтожен! Йей!
+Message.AttackFailed = Атака на вражеский лагерь провалена. :(
 
-UI.RelativeStrength.Inferior = Enemy strength: Inferior.
-UI.RelativeStrength.Low = Enemy strength: Low.
-UI.RelativeStrength.Equal = Enemy strength: Equal.
-UI.RelativeStrength.Hard = Enemy strength: Hard.
-UI.RelativeStrength.Overwhelming = Enemy strength: Over_whelming.
+UI.RelativeStrength.Inferior = Мощь врага: Низшая.
+UI.RelativeStrength.Low = Мощь врага: Низкая.
+UI.RelativeStrength.Equal = Мощь врага: Равная.
+UI.RelativeStrength.Hard = Мощь врага: Тяжелая.
+UI.RelativeStrength.Overwhelming = Мощь врага: Непреодолимая.
 
 Tool.Effect.Combat.Effect = Урон: $1
 Tool.Effect.Combat.Hit = Шанс попасть: $1%
