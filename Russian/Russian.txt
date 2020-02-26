@@ -64,10 +64,10 @@ fallback=English
 
 
 ##water = #water# 
-##water.Desc = Чтобы растения росли, поля на фермах необходимо поливать.
+##water.Desc = Для роста растений на полях фермы, их необходимо поливать.
 
 ##food = #food#
-##food.Desc = Когда колонисты голодны, они будут автоматически искать доступную пищу. Разнообразие продуктов сделает их более счастливыми и эффективными.
+##food.Desc = Почувствовав голод, колонисты  начнут автоматически искать пищу. Разнообразие доступных продуктов питания сделает их более счастливыми и работоспособными.
 
 ##stockpilezone = #stockpile zone#
 ##stockpilezone.Desc = Склады позволят вам хранить ресурсы, продукцию из мастерских и ферм. Их  необходимо размещать на твердой почве.
@@ -155,7 +155,7 @@ UI.Acceleration = Ускорение: $1
 UI.ClaimRange = Радиус присоединяемого участка: $1
 UI.Faction = Статус
 UI.Fight = Флаг атаки
-UI.Fight.Desc = Установите флаг, у которого соберутся все вооруженные колонисты. Они будут нападать на всех врагов в поле зрения.
+UI.Fight.Desc = Установите флаг, у которого соберутся все вооруженные колонисты. Они будут атаковать всех врагов в поле зрения.
 UI.GrowTime = Время роста: $1с
 UI.GrowthRateDay = Скорость роста в дневное время: $1%
 UI.GrowthRateNight = Скорость роста в ночное время: $1%
@@ -211,16 +211,16 @@ UI.LoadGame = Загрузить
 UI.SaveGame = Сохранить
 UI.SaveGame.Desc = Сохранение текущего состояния игры.
 
-UI.FarmMode = Mode
-UI.FarmModeWater = Water
-UI.FarmModeTill = Till
-UI.FarmModeGrow = Grow
-UI.FarmModeHarvest = Harvest
+UI.FarmMode = Режим
+UI.FarmModeWater = Полив
+UI.FarmModeTill = Вспашка
+UI.FarmModeGrow = Рост
+UI.FarmModeHarvest = Сбор урожая
 
-UI.SelectProduct = Select product
-UI.TaskGroupLevelBase = Learned skill
-UI.TaskGroupLevelToolModifier = Tool modifier
-UI.TaskGroupTotal = Sum
+UI.SelectProduct = Выберите продукцию
+UI.TaskGroupLevelBase = Получает навык
+UI.TaskGroupLevelToolModifier = Модификатор инструмента
+UI.TaskGroupTotal = Суммарно
 
 
 
@@ -335,32 +335,32 @@ Objective.RotateCamera.Desc = Нажмите Q или E клавишу, чтоб
 
 
 # Objective groups
-ObjectiveGroup.Help = Help system
-ObjectiveGroup.Camera = Camera
-ObjectiveGroup.Controls = Basic controls
-ObjectiveGroup.LoadShip = Reach inventory targets
-ObjectiveGroup.Expand = Expand your territory
-ObjectiveGroup.MineResources = Mine resources
-ObjectiveGroup.UnloadShip = Unload the ship
-ObjectiveGroup.SetupFarm = Set up a farm
-ObjectiveGroup.SetupWell = Set up a well
-ObjectiveGroup.RescueSettlers = Rescue colonists
-ObjectiveGroup.Recruit = Recruit
+ObjectiveGroup.Help = Справочная система
+ObjectiveGroup.Camera = Камера
+ObjectiveGroup.Controls = Основные элементы управления
+ObjectiveGroup.LoadShip = Достижение Производственных целей
+ObjectiveGroup.Expand = Расширение своей территории
+ObjectiveGroup.MineResources = Добыча ресурсов
+ObjectiveGroup.UnloadShip = Разгрузка корабля
+ObjectiveGroup.SetupFarm = Постройка фермы
+ObjectiveGroup.SetupWell = Постройка колодца
+ObjectiveGroup.RescueSettlers = Спасение колонистов
+ObjectiveGroup.Recruit = Вербовка
 
 
 # Settler needs
 Need.Sleep = Сон
-Need.Sleep.Desc = Устав, колонисты возвращаются в свои дома и засыпают.
+Need.Sleep.Desc = Почувствовав усталость, колонисты возвращаются в свои дома для отдыха.
 Need.Food = Пища
 Need.Food.Desc = Проголодавшись, колонисты начнут поиски пищи.
 Need.Drink = Напитки
 Need.Drink.Desc = Почувствовав жажду, колонисты начнут поиски напитков.
 Need.Social = Общение
-Need.Social.Desc = Колонисты нуждаются в общении друг с другом. Общение делает их более счастливыми и эффективными.
+Need.Social.Desc = Колонисты нуждаются в общении друг с другом. Общение повышает их счастье и работоспособность.
 Need.Housing = Жильё
-Need.Housing.Desc = Все колонисты хотят иметь своё собственное жильё. Дом, в котором они смогут жить, сделает их более счастливыми и эффективными.
+Need.Housing.Desc = Все колонисты хотят иметь своё собственное жильё. Дом, в котором они смогут жить, сделает их более счастливыми и работоспособными.
 Need.Health = Здоровье
-Need.Health.Desc = У раненых колонистов заметно падает уровень счастья и эффективность работы. Их здоровье восстанавливается во время сна.
+Need.Health.Desc = У раненых колонистов заметно падает уровень счастья и эффективность работы. Восстановить здоровье они могут во время сна.
 Need.Sum = Суммарно
 Need.Happiness = Счастье
 Need.SpeedFactor = Скорость
@@ -402,7 +402,7 @@ TaskGroup.Agriculture.Desc = Работники фермы возделываю�
 TaskGroup.Construction = Строительство
 TaskGroup.Construction.Desc = Строители выполняют задачи по строительству объектов.
 TaskGroup.Crafting = Ремесло
-TaskGroup.Crafting.Desc = Ремесленники создают предметы в мастерских.
+TaskGroup.Crafting.Desc = Ремесленники создают в мастерских различные предметы.
 TaskGroup.Combat = Сражение
 TaskGroup.Combat.Desc = Воины защищают колонию и сражаются с врагами.
 TaskGroup.Mining = Сбор и добыча
@@ -567,74 +567,74 @@ MainMenu.PlayCustomMap = Своя карта
 MainMenu.Settings = Настройки
 MainMenu.Mods = Моды
 MainMenu.ExitGame = Выход
-MainMenu.OneBigMap = Play Huge Map
+MainMenu.OneBigMap = Большая карта
 
-LoadingPhase.Clearing = Clearing remaining data.
-LoadingPhase.InitializingGame = Initializing game.
-LoadingPhase.IconGeneration = Icon generation: $1%
-LoadingPhase.ExplicitSpawns = Processing explicit object spawns: $1%
-LoadingPhase.GenericSpawns = Processing generic object spawns: $1%
-LoadingPhase.CreatingMap = Creating map.
-LoadingPhase.GeneratingTiles = Generating tiles: $1%
-LoadingPhase.LoadMap = Loading map from file.
-LoadingPhase.InitialisingObjects = Initialising objects.
-LoadingPhase.ModelGeneration = Generating models: $1%
-LoadingPhase.ObjectMaterialCombiner = Combining materials.
-LoadingPhase.ObjectTreeExporter = Exporting object tree.
+LoadingPhase.Clearing = очистка данных
+LoadingPhase.InitializingGame = инициализация игры
+LoadingPhase.IconGeneration = генерация иконок: $1%
+LoadingPhase.ExplicitSpawns = обработка размещаемых объектов: $1%
+LoadingPhase.GenericSpawns = обработка размещаемых объектов: $1%
+LoadingPhase.CreatingMap = создание карты
+LoadingPhase.GeneratingTiles = генерация тайлов: $1%
+LoadingPhase.LoadMap = загрузка карты из файла
+LoadingPhase.InitialisingObjects = инициализация объектов
+LoadingPhase.ModelGeneration = генерация моделей: 1%
+LoadingPhase.ObjectMaterialCombiner = объединение материалов
+LoadingPhase.ObjectTreeExporter = экспорт древа объектов
 
-UI.Weight = ##Weight: $1
-UI.Weight.Desc = The ##weight of the item. 
-UI.CanBeMined = Can be mined for
+UI.Weight = Вес : $1
+UI.Weight.Desc = Вес предмета. 
+UI.CanBeMined = Можно добыть\получить
 
-UI.SelectZoneColor = Select zone color:
-UI.Equipment = Equipment
+UI.SelectZoneColor = Выберите цвет зоны:
+UI.Equipment = Экипировка
 
-UI.SelectAssignedZones = Allowed zones:
-UI.AcceptedGoods = Accepted goods:
-UI.AcceptedGoods.Help = (Click on a good to toggle it.)
+UI.SelectAssignedZones = Разрешенные зоны:
+UI.AcceptedGoods = Принимаемые товары:
+UI.AcceptedGoods.Help = (Нажмите на товар, чтобы переключить его.)
 
-UI.Recruitment = Recruitment
-UI.Recruit.Title = Enemies:
-UI.Recruit.Defeat = Enemies (Strength $1):
-UI.Recruit.Requirements = Require_ments:
-UI.Colonists = Your warriors (Strength $1):
-UI.Help = Help
+UI.Recruitment = Вербовка
+UI.Recruit.Title = Враги:
+UI.Recruit.Defeat = Враги (сила $1):
+UI.Recruit.Requirements = Требования:
+UI.Colonists = Ваши воины (сила $1):
+UI.Help = Помощь
 
-UI.PressAnyKey = Press any key to begin!
+UI.PressAnyKey = Нажмите любую клавишу, чтобы начать!
 
-UI.CapacityUsed = Capacity used:
-UI.LoadLeave = Load and leave:
-UI.StoredCargo = Stored cargo:
-UI.StoredCargo.Help = (Click on a good to unload.)
-UI.VersionInfo = Version info
+UI.CapacityUsed = Используемая вместимость:
+UI.LoadLeave = Загрузить и покинуть:
+UI.StoredCargo = Хранящийся груз:
+UI.StoredCargo.Help = (Нажмите на предмет для разгрузки.)
+UI.VersionInfo = Информация о версии
 
-UI.Menu = Menu
-UI.Menu.Title = Menu
-UI.ExitToMain = Quit to main menu
+UI.Menu = Меню
+UI.Menu.Title = Меню
+UI.ExitToMain = Выход в главное меню
 
-Settings.ExportIcons = Export icons
-Settings.ExportIcons.Desc = Export object icons on startup (usually not required).
+Settings.ExportIcons = Экспорт иконок
+Settings.ExportIcons.Desc = Экспорт иконок объектов при запуске (обычно не требуется).
 
-Settings.LeadingCamera = Lead camera
-Settings.LeadingCamera.Desc = When following a colonist, the camera will lead its movement.
+Settings.LeadingCamera = Слежение камеры
+Settings.LeadingCamera.Desc = Камера будет следовать за колонистом, отслеживая его передвижение.
 
-UI.ProductionTree = Product Encyclopedia
+UI.ProductionTree = Древо Производства
 
 
-UI.AcceptAll = Accept all
-UI.AcceptAll.Desc = Set the ##stockpilezone to accept all goods.
-UI.RefuseAll = Refuse all
-UI.RefuseAll.Desc = Set the ##stockpilezone to refuse all goods.
+UI.AcceptAll = Принимать всё
+UI.AcceptAll.Desc = Разрешить складу принимать любые товары.
+UI.RefuseAll = Запретить всё
+UI.RefuseAll.Desc = Запретить складу принимать любые товары.
 
-MainMenu.LoadGame = Load Game
-Settings.RightDrag = RMB-Drag
-Settings.RightDrag.Desc = Drag the map while holding the right mouse button. Rotate it while holding the middle mouse button.
-LoadingPhase.Combining = Combining meshes
+MainMenu.LoadGame = Загрузить игру
+Settings.RightDrag = ПКМ-двигает камеру
+Settings.RightDrag.Desc = Перемещайте камеру, удерживая правую кнопку мыши. Поворачивайте камеру, удерживая среднюю кнопку мыши.
+LoadingPhase.Combining = комбинирование моделей
 
-UI.ClearZone = Sell / Deconstruct / Clear zone ///Z///
-UI.ClearZone.Desc = Destroy a building or remove a ##Stockpilezone, ##Farmzone or ##Grovezone. Use ##Keycycle to switch between multiple objects on the same tile.
-UI.CancelOrder = Cancel order ///X///
-UI.CancelOrder.Desc = Cancel an order like mining, loading or decon_structing.
+UI.ClearZone = Демонтаж / Очистка зоны / Продажа ///Z///
+UI.ClearZone.Desc = Демонтируйте здания, склады, фермы, лесные фермы. Используйте клавишу <b>Цикл</b> для переключения между несколькими объектами на одном квадрате.
+UI.CancelOrder = Отменить приказ ///X///
+UI.CancelOrder.Desc = Отменить приказ на добычу, погрузку, демонтаж.
 
 
 Logistics.Status.NotConnected = Не подключено к логистической сети.
@@ -647,42 +647,42 @@ Logistics.Status.CanSupplyRequest = Может поставлять или за�
 Logistics.Status.CanRequestButNotSetup = Нет продукции, принимаемой из логистической сети.
 
 
-UI.LogisticsSystem = Logistics system
-UI.LogisticsSystem.Desc = In order to <b>provide</b> goods, connect this unit to other units (stockpiles, zeppelin stations etc.) by right clicking on them. Also, make sure there are actual goods to provide. <br>In order to <b>request</b> goods, connect other units (stockpile, zeppelin station etc.) to this stockpile and set the desired goods to be accepted. (##logsys)
+UI.LogisticsSystem = Логистическая сеть
+UI.LogisticsSystem.Desc = Для того чтобы <b>поставлять</b> продукцию в Логистическую сеть, подключите здание к другим (склады, станции дирижаблей и др.), нажав на них правой кнопкой мыши. Убедитесь в наличии нужной продукции. <br> Для того чтобы <b>запросить</b> продукцию в Логистической сети, подключите здание к другим (склады, станции дирижаблей и др.) и выберите продукцию, которую будете запрашивать из Логистической сети.
 
 
 
-Farm.Status.Working = Working
-Farm.Status.UnderConstruction = Under con_struction
+Farm.Status.Working = Работает
+Farm.Status.UnderConstruction = В процессе строительства
 
-Message.CombatInProgress = $1 is under attack!
+Message.CombatInProgress = $1 атакован!
 
-UI.SurveyInfo = Mini survey
-Settings.Surveys=Surveys
-Settings.Surveys.Desc=Display surveys in the main menu.
-Settings.Lights=Lights
-Settings.Lights.Desc=Display lights in the scene (requires map reload).
+UI.SurveyInfo = Мини-опросы
+Settings.Surveys = Опросы
+Settings.Surveys.Desc = Отображение опросов в главном меню.
+Settings.Lights = Освещение
+Settings.Lights.Desc = Отображение света в сценах (требуется перезагрузка карты).
 
-Settings.Tooltips=Tooltips
-Settings.Tooltips.Desc=Display tooltips when hovering over buttons etc.. When disabled, you can still see the tooltips when holding the shift key while moving the mouse.
+Settings.Tooltips = Подсказки
+Settings.Tooltips.Desc = Отображение всплывающих подсказок при наведении указателя мыши на кнопки и т. д.. Если этот параметр отключен, всплывающие подсказки будут отображаться при удержании клавиши shift во время перемещения мыши.
 
 
-UI.FightClose = Remove rally flag.
-UI.FightClose.Desc = Removes the rally flag for your colonists. All colonists will return to their usual work.
+UI.FightClose = Удалить флаг атаки.
+UI.FightClose.Desc = Убрать флаг атаки для ваших колонистов. Все колонисты вернутся к своей обычной работе.
 
-UI.Pet.Owner = Owner
-UI.Hitpoints = Hitpoints: $1/$2
+UI.Pet.Owner = Владелец
+UI.Hitpoints = Здоровье: $1/$2
 
-UI.Build.InProgress = Con_struction in progress.
-UI.Build.InProgress.Desc = A colonist will haul all required goods and begin con_struction.
-UI.Build.AwaitingConstruction = Awaiting con_struction.
+UI.Build.InProgress = В процессе строительства
+UI.Build.InProgress.Desc = Колонист доставит все необходимые материалы и начнет строительство.
+UI.Build.AwaitingConstruction = В ожидании постройки.
 
-UI.Build.MissingMaterials = Missing materials.
-UI.Build.MissingMaterials.Explicit = Missing $1 for con_struction.
-UI.Build.MissingMaterials.Desc = Your colonists are missing one or more resource in order to build this.
+UI.Build.MissingMaterials = Недостающие материалы.
+UI.Build.MissingMaterials.Explicit = Для постройки требуется $1.
+UI.Build.MissingMaterials.Desc = Вашим колонистам не хватает материалов для того, чтобы закончить строительство.
 
-UI.Cancel = Cancel
-UI.Cancel.Desc = Abort con_struction.
+UI.Cancel = Назад
+UI.Cancel.Desc = Прервать строительство.
 
 StockpileZoneCC = Склад
 StockpileZoneCC.Desc = Склады используются для хранения продукции из мастерских, ферм или добытых ресурсов.
@@ -869,9 +869,9 @@ UI.ProcessedIn = Processed in
 
 UI.BuildTrain = Build train
 
-LoadingPhase.UIPanels = Initializing user interface.
-LoadingPhase.CombineMeshes = Combining meshes.
-LoadingPhase.InitNavmesh = Initializing navigation.
+LoadingPhase.UIPanels = инициализация интерфейса
+LoadingPhase.CombineMeshes = комбинирование моделей
+LoadingPhase.InitNavmesh = инициализация навигации
 
 
 UI.MineableContent = Mountain content:
@@ -1349,7 +1349,7 @@ UI.Vein.Destroy.Desc = Destroys this vein and allows you to build other things o
 UI.House.ForColonists = Colonists:
 UI.House.ForAnimals = Animals:
 
-LoadingPhase.HarbourPlacement = Initializing shipping port UI. 
+LoadingPhase.HarbourPlacement = настройка интерфейса порта доставки. 
 
 UI.IdleColonists.ListTaskGroups = Assigned jobs:
 
