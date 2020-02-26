@@ -876,7 +876,7 @@ LoadingPhase.InitNavmesh = инициализация навигации
 
 UI.MineableContent = Mountain content:
 
-UI.DeleteGame = Delete
+UI.DeleteGame = Удалить
 UI.Tier = Tier
 UI.Tier1 = Tier 1
 UI.Tier2 = Tier 2
@@ -1516,38 +1516,38 @@ WorkshopAuto.Status.NoOutputForProduct.Desc = To change the accepted goods of a 
 WorkshopAuto.Status.PartialServe = Not all inputs supplied by inserters.
 WorkshopAuto.Status.PartialServe.Desc = Make sure all input spots are supplied by inserters. 
 
-UI.DomesticAnimal = Domestic animal. 
-UI.DomesticAnimal.Desc = Can be recruited into your colony. 
+UI.DomesticAnimal = Домашнее животное. 
+UI.DomesticAnimal.Desc = Может быть принят в вашу колонию. 
 
 
 
-Settings.ZoomAnimation = Zoom animation
-Settings.ZoomAnimation.Desc = Transition smoothly when zooming in / out.
+Settings.ZoomAnimation = Анимация приближения/отдаления.
+Settings.ZoomAnimation.Desc = Плавный переход между приближением/отдалением.
 
-UI.Saturation = Saturation
-UI.SettlerScreen.Filter = Filter:
+UI.Saturation = Насыщение
+UI.SettlerScreen.Filter = Фильтр:
 
 UI.UpgradeBuilding = Upgrade to $1.
 UI.UpgradeBuilding.Desc = Upgrade this building to a $1. Requires $2. 
 
-UI.RequiredTool = Required tool
+UI.RequiredTool = Требуется инструмент
 UI.RequiredTool.Desc = Higher quality resources require better ##tools to be mined or harvested. You can craft tools in the tool workshop.
-UI.RequiredTool.None = No tool required.
+UI.RequiredTool.None = Инструмент не требуется.
 UI.RequiredTool.Lvl = Requires $1 or better.
 
-UI.Build.NoTool = Workers need better tools.
+UI.Build.NoTool = Работникам нужен инструмент получше.
 UI.Build.NoTool.Desc = To construct higher tier buildings your colonists require better ##tools. Have a look at the building's info tooltip (hover over it's description above) to see what type and quality of tool you need.
 
-Farm.Status.NoTool = Workers need better tools.
+Farm.Status.NoTool = Работникам нужен инструмент получше.
 Farm.Status.NoTool.Desc = To harvest higher tier plants and trees your colonists require better ##tools. Have a look at the plant's info tooltip (hover over it's name) to see what type and quality of tool you need.
 
 
-UI.BuildInstantly = (Built instantly.)
+UI.BuildInstantly = (Незамедлительно построить.)
 
 
 
 
-UI.ResetTasks = Reset tasks.
+UI.ResetTasks = Сбросить задачи.
 UI.ResetTasks.Desc = Clear all task assignments.
 UI.ResetWorkshops = Reset workshops.
 UI.ResetWorkshops.Desc = Clear all workshop assignments.
@@ -1555,10 +1555,10 @@ UI.Autoassign = Auto-assign.
 UI.Autoassign.Desc = Automatically assign task and workshops to the most competent colonists.
 
 
-ActorState.Sum.Happy = Happy
-ActorState.Sum.Unhappy = Unhappy
-ActorState.Sum.Neutral = Neutral 
+ActorState.Sum.Happy = Счастлив
+ActorState.Sum.Unhappy = Грустит
+ActorState.Sum.Neutral = Нейтрально
 
 
-ActorState.Title.BasicNeeds = Basic needs:
-ActorState.Title.SecondaryNeeds = Secondary needs:
+ActorState.Title.BasicNeeds = Основные нужды:
+ActorState.Title.SecondaryNeeds = Второстепенные нужды:
