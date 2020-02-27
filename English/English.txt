@@ -198,8 +198,8 @@ UI.Settings = Settings menu
 UI.Settings.Desc = Open the settings menu.
 UI.LoadSave = Load / save
 UI.LoadSave.Desc = Open the save game menu.
-UI.Bug = Report a bug
-UI.Bug.Desc = Reporting a bug will send a screenshot and optionally a bug report to the developer.
+UI.Bug = Report a bug ///Ctrl-Q///
+UI.Bug.Desc = Reporting a bug will send a screenshot and a bug report to the developer.
 UI.Undo = Undo
 UI.Undo.Desc = Remove the track / belt / blueprint last constructed.
 UI.Main = Open the menu ///Escape///
@@ -785,6 +785,12 @@ Train.Status.Okay = Train active.
 Train.Status.WaitAtStation = Waiting at station. 
 Train.Status.WaitAtStation.Desc = The train will resume when it is processed at the station. 
 
+Carriage.Status.Deactivated = Carriage deactivated.
+Carriage.Status.Deactivated.Desc = You can activate a carriage by setting it to active in the info panel.
+Carriage.Status.NoSchedule = No schedule defined.
+Carriage.Status.NoSchedule.Desc = To add a station to the schedule, select the train and right-_click on the new station. To remove a station, click on its entry in the schedule.
+Carriage.Status.Okay = Carriage active.
+
 
 UI.AttackCamp = Attack camp.
 UI.TotalStrength = Combined strength 
@@ -1264,7 +1270,7 @@ UI.ShowTips = Show tips
 UI.Tips = Tips
 
 Debug.currency = Add 100 coins. 
-Debug.currency = Add 100 coins to your shipping port.
+Debug.currency.Desc = Add 100 coins to your shipping port.
 
 
 
@@ -1562,3 +1568,8 @@ ActorState.Sum.Neutral = Neutral
 
 ActorState.Title.BasicNeeds = Basic needs:
 ActorState.Title.SecondaryNeeds = Secondary needs:
+
+UI.Confirm.ReturnToWorldMap = Are you sure you want to abandon the current island and return to the world map?
+UI.ReturnToWorldMap = Return to world map
+
+Logistics.Status.CarriageLinkedButNotStation = 
