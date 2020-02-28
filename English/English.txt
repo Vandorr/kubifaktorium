@@ -741,6 +741,7 @@ Task.Mine.Text = Mining $1.
 Task.Produce.Text = Producing $1 in $2.
 Task.SupplyAutoWorkshop.Text = Producing $1 in $2.
 Task.UnloadAutoWorkshop.Text = Unloading $1 from $2.
+Task.AutoWorkshopClear.Text = Clearing input $1 from $2.
 
 Task.Power.Text = Powering $1.
 Task.Clean.Text = Cleaning $1.
@@ -1540,6 +1541,7 @@ UI.RequiredTool = Required tool
 UI.RequiredTool.Desc = Higher quality resources require better ##tools to be mined or harvested. You can craft tools in the tool workshop.
 UI.RequiredTool.None = No tool required.
 UI.RequiredTool.Lvl = Requires $1 or better.
+UI.RequiredToolPlant.Lvl = Tools suitable to harvest: $1 
 
 UI.Build.NoTool = Workers need better tools.
 UI.Build.NoTool.Desc = To construct higher tier buildings your colonists require better ##tools. Have a look at the building's info tooltip (hover over it's description above) to see what type and quality of tool you need.
