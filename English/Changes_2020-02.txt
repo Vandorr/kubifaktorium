@@ -1,0 +1,193 @@
+diff --git a/English/English.txt b/English/English.txt
+index e981137..28e734b 100644
+--- a/English/English.txt
++++ b/English/English.txt
+@@ -19,6 +19,8 @@ fallback=English
+ 
+ 
+ 
++
++
+ ##zone = zone
+ ##zone.Desc = Zones: Colonists can be assigned to one or more zones. They will only work in the zones they are assigned to.
+ 
+@@ -54,7 +56,7 @@ fallback=English
+ ##drink.Desc = Drink: When thirsty, colonists will auto_matically search for something to drink. Providing drinks will make them more happy and productive.
+ 
+ ##happiness = Happiness 
+-##happiness.Desc = Happiness: A colonist's movement speed is influenced by how well his/her needs are met.
++##happiness.Desc = Happiness: A colonist's movement and work speed are influenced by how well his/her needs are met.
+ 
+ ##skill = Skill
+ ##skill.Desc = Skill: Every colonist has a different skill for each task group and workshop. This skill determines the chance to succeed or fail at a task. Over time, colonists improve their skill in the tasks they perform.  
+@@ -170,7 +172,7 @@ UI.LinkOverlay = Production Routes
+ UI.LinkOverlay.Desc = Toggles the display of active links between workshops, farms and ##stockpilezones. [Default: Left Alt]
+ UI.MaxSpeed = Max. speed: $1
+ UI.SettlerScreen.Areas=Zones
+-UI.SettlerScreen.Explanation = Tools: Colonists auto_matically pick the best possible tool. Their tool preference depends on their assigned tasks.<br>Zones: Click to allow/forbid a zone. Colonists will not interact with things in inactive zones. Select a bonfire to change its designated zone.<br>Tasks & workshops: Click to toggle between active and inactive. The squares' sizes indicate the colonists' skill levels. 
++UI.SettlerScreen.Explanation = Tools: Colonists auto_matically pick the best possible tools. Their tool preference depends on their assigned tasks.<br>Zones: Click to allow/forbid a zone. Colonists will not interact with things in inactive zones. Select a bonfire to change its designated zone.<br>Tasks & workshops: Click to toggle between active and inactive. The squares' sizes indicate the colonists' skill levels. 
+ UI.SettlerScreen.Tasks=Tasks
+ UI.SettlerScreen.Title=Colonist management
+ UI.SettlerScreen.Tool=Tool
+@@ -196,8 +198,8 @@ UI.Settings = Settings menu
+ UI.Settings.Desc = Open the settings menu.
+ UI.LoadSave = Load / save
+ UI.LoadSave.Desc = Open the save game menu.
+-UI.Bug = Report a bug
+-UI.Bug.Desc = Reporting a bug will send a screenshot and optionally a bug report to the developer.
++UI.Bug = Report a bug ///Ctrl-Q///
++UI.Bug.Desc = Reporting a bug will send a screenshot and a bug report to the developer.
+ UI.Undo = Undo
+ UI.Undo.Desc = Remove the track / belt / blueprint last constructed.
+ UI.Main = Open the menu ///Escape///
+@@ -376,17 +378,22 @@ ActorState.Hungry = Hungry
+ ActorState.Nohouse = Homeless
+ ActorState.Notinteracted = Lonely
+ ActorState.BadDecoration = No decoration. 
+-ActorState.GoodDecoration = Nice decoration. 
++ActorState.GoodDecoration = Nice decoration.
++ActorState.FavoriteFood.Yes = Had $1.
++ActorState.FavoriteFood.No = Needs $1.
++ActorState.FavoriteDrink.Yes = Had $1.
++ActorState.FavoriteDrink.No = Needs $1.
+ 
+ ActorState.Rested = Well rested
+ ActorState.Saturated = Saturated
+ ActorState.Injured = Injured
+ ActorState.Hurt = Severely hurt
+ ActorState.Thirsty = Thirsty
++ActorState.NotThirsty = Not thirsty
+ ActorState.Tired = Tired
+ ActorState.Total = Sum
+ ActorState.NoTool = Lightweight (no tool)
+-
++ActorState.Healthy = Healthy
+ 
+ # Job/task groups
+ TaskGroup._Name = Job assignments
+@@ -594,7 +601,6 @@ UI.Colonists = Your warriors (Strength $1):
+ UI.Help = Help
+ 
+ UI.PressAnyKey = Press any key to begin!
+-#시작하려면 좌클릭 및 키를 눌러주세요!
+ 
+ UI.CapacityUsed = Capacity used:
+ UI.LoadLeave = Load and leave:
+@@ -735,6 +741,7 @@ Task.Mine.Text = Mining $1.
+ Task.Produce.Text = Producing $1 in $2.
+ Task.SupplyAutoWorkshop.Text = Producing $1 in $2.
+ Task.UnloadAutoWorkshop.Text = Unloading $1 from $2.
++Task.AutoWorkshopClear.Text = Clearing input $1 from $2.
+ 
+ Task.Power.Text = Powering $1.
+ Task.Clean.Text = Cleaning $1.
+@@ -779,6 +786,12 @@ Train.Status.Okay = Train active.
+ Train.Status.WaitAtStation = Waiting at station. 
+ Train.Status.WaitAtStation.Desc = The train will resume when it is processed at the station. 
+ 
++Carriage.Status.Deactivated = Carriage deactivated.
++Carriage.Status.Deactivated.Desc = You can activate a carriage by setting it to active in the info panel.
++Carriage.Status.NoSchedule = No schedule defined.
++Carriage.Status.NoSchedule.Desc = To add a station to the schedule, select the train and right-_click on the new station. To remove a station, click on its entry in the schedule.
++Carriage.Status.Okay = Carriage active.
++
+ 
+ UI.AttackCamp = Attack camp.
+ UI.TotalStrength = Combined strength 
+@@ -842,7 +855,9 @@ Building.Mode.Disabled = Building inactive.
+ 
+ UI.TypeNameFilter = Search for type...
+ UI.DecorationValue = ##Decoration: Value $1, range $2
+-UI.HousingValue = ##House: Value $1, places $2
++UI.HousingValue = ##House: Quality $1, places $2
++UI.HousingValue.High = high
++UI.HousingValue.Low = low
+ UI.SocialValue = ##Social.
+ UI.ToolValue = ##Tool: Base value $1.
+ 
+@@ -1114,8 +1129,6 @@ UI.TrainStation.WaitForFull = Stop trains until full.
+ UI.TrainStation.WaitForFull.Desc = Stop trains until they are fully loaded.
+ 
+ 
+-TipOfTheDay.12=Use the upgrade workshop to upgrade tools and weapons. 
+-
+ 
+ Debug.forcerain = Force rain
+ Debug.forcerain.Desc = Force rain to begin.
+@@ -1209,12 +1222,6 @@ UI.Train.Destroy = Destroy train
+ UI.Train.Go = Go
+ UI.Train.Stop = Stop
+ 
+-Quality.Level0 = poor
+-Quality.Level1 = normal
+-Quality.Level2 = excellent
+-Quality.Level0.Desc = Items of poor quality.
+-Quality.Level1.Desc = Items of normal quality.
+-Quality.Level2.Desc = Items of excellent quality.
+ 
+ Name.StockpileZoneCC = Stockpile
+ Name.FarmZoneCC = Farm
+@@ -1223,7 +1230,7 @@ Name.GroveZoneCC = Grove
+ UI.Road.Desc = Construct roads to connect remote workshops and storages. Colonists move faster while traveling on roads. Click on a starting tile and an end tile to place a road. Alter_natively click and drag to build a straight road.
+ 
+ 
+-EarlyAccessWarning.Intro = The dark terrain and the related mechanics (conveyor belts, automated production etc.) are still in very early development. Expect poor balance, missing resources etc.. I'm aware of the problems so you don't need to report them as bugs. They are planned to get fixed around the end of 2019. :) 
++EarlyAccessWarning.Intro = The mid-late game balancing is still work in progress. Use the shipping port to import the resources you need to complete your objectives.  
+ EarlyAccessWarning.Help = Early Access Warning
+ 
+ # Deleted: Objective.ShowHelpScreen Objective.ShowHelpScreen.Desc Objective.ConnectFarmsToRoads Objective.ConnectFarmsToRoads.Desc Objective.ConnectWorkshopsToRoads Objective.ConnectWorkshopsToRoads.Desc
+@@ -1250,6 +1257,7 @@ TipOfTheDay.16 = The tiles within a stockpile are used in the order they are cre
+ 
+ TipOfTheDay.17 = You can link your ship to a stockpile. Doing so will make your colonists unload all the items the stockpile is set to accept.
+ 
++
+ MainMenu.Notice.Demo = This is a demo version with limited functionality. Click here to visit the game's Steam page to buy the Early Access version or wishlist the game to get notified of updates. Thanks :)
+ 
+ MainMenu.Notice.EarlyAccess = Welcome to the Early Access version of Kubifaktorium! Here are some general tips for the current version: <br>- I recommend playing the tutorials to get started.<br> - The grassland and desert biomes are quite playable. Everything beyond (automation, conveyor belts etc.) is early in development. To learn more, have a look at the game's road map. <br> - When playing the campaign, please save the game every time you come back to the world map. <br> - If you encounter a bug, please report it using the in-game reporting tool (button in the top right). <br> - The best place to chat about the game is the official Discord server. <br>Thank you for playing, I hope you enjoy the game! :) <br>  Mirko 
+@@ -1263,7 +1271,7 @@ UI.ShowTips = Show tips
+ UI.Tips = Tips
+ 
+ Debug.currency = Add 100 coins. 
+-Debug.currency = Add 100 coins to your shipping port.
++Debug.currency.Desc = Add 100 coins to your shipping port.
+ 
+ 
+ 
+@@ -1533,6 +1541,7 @@ UI.RequiredTool = Required tool
+ UI.RequiredTool.Desc = Higher quality resources require better ##tools to be mined or harvested. You can craft tools in the tool workshop.
+ UI.RequiredTool.None = No tool required.
+ UI.RequiredTool.Lvl = Requires $1 or better.
++UI.RequiredToolPlant.Lvl = Tools suitable to harvest: $1 
+ 
+ UI.Build.NoTool = Workers need better tools.
+ UI.Build.NoTool.Desc = To construct higher tier buildings your colonists require better ##tools. Have a look at the building's info tooltip (hover over it's description above) to see what type and quality of tool you need.
+@@ -1541,3 +1550,28 @@ Farm.Status.NoTool = Workers need better tools.
+ Farm.Status.NoTool.Desc = To harvest higher tier plants and trees your colonists require better ##tools. Have a look at the plant's info tooltip (hover over it's name) to see what type and quality of tool you need.
+ 
+ 
++UI.BuildInstantly = (Built instantly.)
++
++
++
++
++UI.ResetTasks = Reset tasks.
++UI.ResetTasks.Desc = Clear all task assignments.
++UI.ResetWorkshops = Reset workshops.
++UI.ResetWorkshops.Desc = Clear all workshop assignments.
++UI.Autoassign = Auto-assign.
++UI.Autoassign.Desc = Automatically assign task and workshops to the most competent colonists.
++
++
++ActorState.Sum.Happy = Happy
++ActorState.Sum.Unhappy = Unhappy
++ActorState.Sum.Neutral = Neutral 
++
++
++ActorState.Title.BasicNeeds = Basic needs:
++ActorState.Title.SecondaryNeeds = Secondary needs:
++
++UI.Confirm.ReturnToWorldMap = Are you sure you want to abandon the current island and return to the world map?
++UI.ReturnToWorldMap = Return to world map
++
++Logistics.Status.CarriageLinkedButNotStation = 
+\ No newline at end of file
