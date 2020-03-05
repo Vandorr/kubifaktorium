@@ -1,6 +1,7 @@
 language=Русский
 locales=RU
 fallback=English
+# Строка «fallback = English» указывает, какой язык использовать, если не удается найти перевод для строки.
 
 # Russian localization by Well
 
