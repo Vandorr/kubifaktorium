@@ -1,1 +1,8 @@
 TerrainShape.PlaneWithMountains = Без воды??   может пустыней обозвать? Пустынный рельеф ...
+
+
+Черт! Дьявол! Damn! Надо переводить обучение. проходить его еще раз сначала и определяться с названиями. Мирко придумал черт знает что. Мозговыносяшку какую-то. Вот что ЭТО значит?? Я лично не очень понимаю.
+UI.DepotExit.LogisticsMode = Режим конвейера  (Conveyor mode)
+UI.DepotExit.LogisticsMode.Desc = Находясь в Режиме конвейера это хранилище будет передавать нужные товары с помощью конвейерных лент. Постройте ячейки выхода и выхода, конвейеры и манипуляторы. Пройдите соответствующую обучающую миссию для получения дополнительной информации.   (While in conveyor mode, this depot will transport outgoing goods using conveyor belts. Build depot exits, conveyor belts and inserters. Have a look at the corresponding tutorial for more information.)
+
+
