@@ -134,7 +134,6 @@ Scenario.AllTheBiomes = Все биомы!
 Scenario.AllTheBiomes.Desc = Сыграйте со всеми биомами на единой карте! (эксперементальная версия).
 Scenario.AllTheBiomes.Name = Многобиомная карта
 Scenario.TestMap.Name = Пустая карта
-Scenario.TutorialAutoWorkshops = Обучение: автоматические местерские?? Цеха??
 Settings.ColorBlindMode = Режим дальтоника
 Settings.ColorBlindMode.Desc = Изменяет некоторые цвета интерфейсов, чтобы было легче их различать, если вы имеете ослабленное видение цветов. Перезапустите игру для видения эффекта.
 Status.NoTrain = Поезда не назначены.
