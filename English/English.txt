@@ -127,6 +127,7 @@ UI.Recruit.It = Recruit it.
 UI.Recruit.Desc = Recruiting a castaway or an animal will make them join your colony. Note: Animals can only perform a limited set of tasks. Once they are a part of your colony, they will begin consuming your supplies.
 
 UI.MessageLog = Message log ///L///
+UI.MessageLog.Title = Message log
 UI.MessageLog.Desc = Keeps track of previous messages.
 UI.MultiSelectHeader = $1 colonist selected.
 UI.Build = Construct ///B///
@@ -142,6 +143,7 @@ UI.Grove.Desc = Create or expand a ##grovezone.
 UI.Farm = Farm ///F///
 UI.Farm.Desc = Create a new ##farmzone or expand an existing zone.
 UI.InventoryMenu = Inventory ///I///
+UI.InventoryMenu.Title = Inventory
 UI.InventoryMenu.Desc = Display your colony's inventory and manage how the goods are used.
 UI.UnloadAll = Unload everything.
 UI.UnloadAll.Desc = Order your colonists to unload all cargo from your ##ship.
@@ -238,6 +240,8 @@ Objective.SetClaimColor = Set zone assignment for bonfire $5 to $9.
 Objective.SetClaimColor.Desc = To change a zone's color select its bonfire and click on the desired zone color in the info panel.
 Objective.LogisticsLink = Create a link from $7 $5 to $8 $6.
 Objective.LogisticsLink.Desc = To create a logistics link between two objects, select the first object and right-_click the second object. Logistics links will show up as blue arrows whenever a ##logsys building is selected.
+Objective.ConvMode = Activate conveyor mode on $5.
+Objective.ConvMode.Desc = Select the target and click on "conveyor mode" in the panel in the bottom right.
 
 Objective.SetZoneColorActive = Enable $5's access to zone $9.
 Objective.SetZoneColorActive.Desc = To enable a colonist's access to a zone select the colonist and click on the desired zone color in the info panel.
