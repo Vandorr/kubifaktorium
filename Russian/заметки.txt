@@ -81,7 +81,8 @@ Tier 3: Ashen world   Темные земли     Темные земли или
 
 ChocolateMilk = Шоколадное молоко    Какао?
 
-
+Wooden board = Деревянная доска?? Пластина??
+workshop = мастерская??
 
 ##movementspeed = Movement speed
 ##movementspeed.Desc = Movement speed factor. (Determined by happiness)  Уточнить у Мирко !!! Пропущен Desc ??
