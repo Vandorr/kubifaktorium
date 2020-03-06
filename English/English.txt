@@ -1576,3 +1576,9 @@ UI.Confirm.ReturnToWorldMap = Are you sure you want to abandon the current islan
 UI.ReturnToWorldMap = Return to world map
 
 Logistics.Status.CarriageLinkedButNotStation = 
+
+
+UI.DepotExit.LogisticsMode = Conveyor mode
+UI.DepotExit.LogisticsMode.Desc = While in conveyor mode, this depot will transport outgoing goods using conveyor belts. Build depot exits, conveyor belts and inserters. Have a look at the corresponding tutorial for more information. 
+
+Message.TradeCaravan.NoSpace = Not enough free space available to receive items. 
