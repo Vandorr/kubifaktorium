@@ -401,8 +401,8 @@ ActorState.Healthy = Healthy
 
 # Job/task groups
 TaskGroup._Name = Job assignments
-TaskGroup.Agriculture = Farm work
-TaskGroup.Agriculture.Desc = Farm workers till the ground and plant and harvest crops in ##farmzone.
+TaskGroup.Agriculture = Farm and grove work
+TaskGroup.Agriculture.Desc = Farm workers till the ground and plant and harvest crops and trees in ##farmzones and ##grovezones.
 TaskGroup.Construction = Con_struction
 TaskGroup.Construction.Desc = Con_struction workers execute con_struction jobs.
 TaskGroup.Crafting = Crafting
