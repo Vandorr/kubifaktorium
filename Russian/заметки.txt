@@ -81,3 +81,5 @@ Tier 3: Ashen world   Темные земли     Темные земли или
 
 ChocolateMilk = Шоколадное молоко    Какао?
 
+Workshop.Status.NoInputStockpileForRecipe = На складе нет необходимого сырья.
+Workshop.Status.NoInputStockpileForRecipe.Desc = Ни один из принимающих складов, назначенных этому цеху, не принимает один или несколько товаров, необходимых для выполнения выбранных работ.
