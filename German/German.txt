@@ -271,7 +271,7 @@ ActorState.Total = Summe
 
 TaskGroup._Name = Jobs
 TaskGroup.Agriculture = Land_wirtschaft
-TaskGroup.Agriculture.Desc = Land_arbeiter pflanzen und ernten in den ##farmzoneen.
+TaskGroup.Agriculture.Desc = Land_arbeiter pflanzen und ernten in den ##farmzoneen und ##grovezonen.
 TaskGroup.Construction = Bau
 TaskGroup.Construction.Desc = Bau_arbeiter arbeiten an Bau_stellen und errichten Gebäude.
 TaskGroup.Crafting = Handwerker
@@ -662,7 +662,7 @@ ObjectType.Brewery.Desc = Zur Herstellung von Bier, Tee und anderen Getränken.
 ObjectType.Kiln = Ofen
 ObjectType.Kiln.Desc = Der Ofen dient der Herstellung von Holz_kohle und zum Brennen von Ziegeln.
 ObjectType.MetalWorkshop = Metall_werkstatt
-ObjectType.MetalWorkshop.Desc = Die Metall_werkstatt ermöglicht die Her_stellung von modernen ##toolen und Waffen.
+ObjectType.MetalWorkshop.Desc = Die Metall_werkstatt ermöglicht die Her_stellung komplexer Produkte.
 ObjectType.Smelter = Erzhütte
 ObjectType.Smelter.Desc = Schmilzt abgebautes Erz zu Metall_blöcken.
 ObjectType.Well = Brunnen
@@ -2324,3 +2324,68 @@ WorkshopAuto.Status.PartialServe.Desc = Stelle sicher, dass alle Gütereingänge
 
 
 
+
+
+
+
+
+ActorState.FavoriteDrink.No = Braucht $1.
+ActorState.FavoriteDrink.Yes = Hatte $1.
+ActorState.FavoriteFood.No = Braucht $1.
+ActorState.FavoriteFood.Yes = Hatte $1.
+ActorState.Healthy = Gesund
+ActorState.NotThirsty = Nicht durstig
+ActorState.Sum.Happy = Glücklich
+ActorState.Sum.Neutral = Neutral
+ActorState.Sum.Unhappy = Unglücklich
+ActorState.Title.BasicNeeds = Grundbedürfnisse:
+ActorState.Title.SecondaryNeeds = Luxusbedürfnisse:
+Carriage.Status.Deactivated = Wagen deaktiviert.
+Carriage.Status.Deactivated.Desc =  Um einen Wagen zu aktivieren, klicke die ent_sprechende Schaltfläche im Wagenpanel.
+
+Carriage.Status.NoSchedule = Kein Fahrplan
+Carriage.Status.NoSchedule.Desc = Um einen Bahnhof zum Fahrplan hin_zuzufügen wähle den Wagen aus und rechts-klicke auf den Bahnhof. Um einen Bahn_hof zu ent_fernen, klicke auf seinen Eintrag im Fahrplan.
+Carriage.Status.Okay = Wagen aktiv.
+Debug.currency.Desc = Fügt deinem Hafen 100 Münzen hinzu.
+Logistics.Status.CarriageLinkedButNotStation = 
+
+Message.TradeCaravan.NoSpace = Nicht genügend Platz um Gegenstände zu empfangen.
+Modifier.SpawnTradeCaravan = Erzeugt einen Handelsposten
+
+Scenario.TutorialConveyorLogistics = Tutorial: Fließbänder und Logistik
+Scenario.TutorialConveyorLogistics.Desc = Benutze Fließbänder zusammen mit dem Logistiksystem.
+Modifier.TutorialConveyorLogistics = Benutze Fließbänder zusammen mit dem Logistiksystem.
+Modifier.TutorialConveyorLogistics.Intro = Dieses Tutorial zeigt wie Depots und Fließbänder in das Logistiksystem integriert werden können. Alles ist bereits gebaut, du musst nur noch die nötigen Verbindungen herstellen.
+Modifier.TutorialConveyorLogistics.Outro = Sehr gut! Die Depots werden nun automatisch benötigte Güter bereitstellen und zum Zeppelinbahnhof liefern. 
+ObjectType.Cliff = Felsen
+ObjectType.Cliff.Desc = Felsen.
+ObjectType.CliffBig = Felsen
+ObjectType.CliffBig.Desc = Felsen.
+ObjectType.TradeCaravan = Handelsposten
+ObjectType.TradeCaravan.Desc = Tausche überschüssige Gegenstände gegen benötigte Rohstoffe.
+ObjectType.TrainWagon = Wagon
+ObjectType.TrainWagon.Desc = Loko_motiven treiben Züge an.
+ObjectType.TrainWagon2 = Wagon
+ObjectType.TrainWagon2.Desc = Loko_motiven treiben Züge an.
+ObjectType.TrainWagon3 = Wagon
+ObjectType.TrainWagon3.Desc = Loko_motiven treiben Züge an.
+ObjectType.WhaleSkeleton = Walskelett
+ObjectType.WhaleSkeleton.Desc = Walskelett 
+
+Task.AutoWorkshopClear.Text = Entferne $1 aus $2.
+Task.ProduceHigh.Text = Produziere $1 in $2.
+UI.Autoassign = Auto-Zuweisung.
+UI.Autoassign.Desc = Weise den Kolonisten ihre geeignetsten Aufgaben und Arbeitsplätze zu.
+UI.Confirm.ReturnToWorldMap = Bist du sicher, dass du diese Insel verlassen und zur Weltkarte zurückkehren möchtest?
+UI.DepotExit.LogisticsMode = Fließbandmodus
+UI.DepotExit.LogisticsMode.Desc = Wenn der Fließbandmodus aktiv ist wird dieses Depot die ausgehenden Güter mit Hilfe von Förderbändern transportieren. Baue Depotausgänge, Förderbänder und Inserter. Weitere Informationen findest du im entsprechenden Tutorial.
+UI.HousingValue.High = hoch
+UI.HousingValue.Low = niedrig
+UI.InventoryMenu.Title = Inventar
+UI.MessageLog.Title = Nachrichtenlog
+UI.RequiredToolPlant.Lvl = Geeignete Werkzeuge: $1
+UI.ResetTasks = Aufgaben zurücksetzen.
+UI.ResetTasks.Desc = Löscht alle Aufgabenzuweisungen.
+UI.ResetWorkshops = Werkstätten zurücksetzen.
+UI.ResetWorkshops.Desc = Löscht alle Werkstättenzuweisungen.
+UI.ReturnToWorldMap = Zurück zur Weltkarte
