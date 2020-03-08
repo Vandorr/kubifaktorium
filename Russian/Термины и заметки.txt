@@ -64,7 +64,7 @@ Decor     декоративные предметы
 Output Stockpile     Поставляющий склад
 Input Stockpile     Принимающий склад
 
-Cargo port   Грузовой порт
+Shipping port   Порт
 Cargo ship   Грузовое судно
 
 LogisticsSystem   Логистическая сеть
