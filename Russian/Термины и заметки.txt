@@ -84,3 +84,9 @@ ChocolateMilk = Шоколадное молоко    Какао?
 
 Workshop.Status.NoInputStockpileForRecipe
 Workshop.Status.NoInputStockpileForRecipe.Desc
+ShippingPort.Status.Idle
+ShippingPort.Status.NoExitHopperValidType
+ShippingPort.Status.NoExportStockpile
+ShippingPort.Status.NoExportValidType
+ShippingPort.Status.NoExportValidType.Desc
+ShippingPort.Status.NoExportStockpile.Desc
