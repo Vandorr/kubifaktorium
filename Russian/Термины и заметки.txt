@@ -53,9 +53,9 @@
 
 Inventory Target    Производственная цель   Производственных целей
 
-привязка склада и т.д.
+Link to     подключенный склад, подключить склад и т.д.
 
-Grove   Лесопитомник   лесопосадка  лесопарк   лесная ферма   Лесоферма
+Grove   Лесопитомник  Лесоферма
 Stockpile   Склад
 Depot   Хранилище
 
@@ -64,14 +64,14 @@ Decor     декоративные предметы
 Output Stockpile     Поставляющий склад
 Input Stockpile     Принимающий склад
 
-Shipping port   Порт
+Shipping port   Порт  (просто Порт, без добавок)
 Cargo ship   Грузовое судно
 
 LogisticsSystem   Логистическая сеть
 Carriage = Конная повозка
 Crushed = Обогащенная руда
 MachineParts = Деталь механизма
-HorseStation = Конная станция   Конный двор
+HorseStation = Конная станция
 Blank = слиток
 RefinedBuildingPart = Сложная деревянная деталь
 
