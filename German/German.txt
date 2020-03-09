@@ -149,7 +149,7 @@ UI.LinkOverlay = Produktions_ketten
 UI.LinkOverlay.Desc = Schaltet die Anzeige von aktiven Verb_indungen zwischen Werk_stätten, Farmen etc. an. [Standard: Left Alt]
 UI.MaxSpeed = Höchstge_schwin_digkeit: $1
 UI.SettlerScreen.Areas = Zonen
-UI.SettlerScreen.Explanation = Werkzeuge: Kolo_nisten wählen automatisch die best_möglichen Werk_zeuge für ihre zugewiesenen Aufgaben aus.<br>Zonen: Eine Zone zulassen oder verbieten. <br>Aufgaben und Werkstätten: Quadratgröße = Kenntnis_stand. Umschalten zw. aktiv und inaktiv. Shift/Strg beim Klicken = hohe Priorität.
+UI.SettlerScreen.Explanation = Werkzeuge: Kolo_nisten wählen automatisch die best_möglichen Werk_zeuge für ihre zugewiesenen Aufgaben aus.<br>Zonen: Eine Zone zulassen oder verbieten. <br>Aufgaben: Quadratgröße = Kenntnis_stand. Umschalten zw. aktiv und inaktiv. Shift/Strg beim Klicken = hohe Priorität.
 UI.SettlerScreen.Tasks = Aufgaben
 UI.SettlerScreen.Title = Kolo_nisten_management
 UI.SettlerScreen.Tool = Werkzeug
@@ -258,11 +258,11 @@ Need.Housing.Desc = Kolo_nisten ziehen es vor, ein Haus zum Leben zu haben. Ein 
 
 
 ActorState.Hasdrunk = Hat gerade getrunken
-ActorState.Hasinteracted = Hatte soziale Inter_aktion
+ActorState.Hasinteracted = Gut unterhalten
 ActorState.Housed = Besitzt ein Haus
 ActorState.Hungry = Hungrig
 ActorState.Nohouse = Obdachlos
-ActorState.Notinteracted = Einsam
+ActorState.Notinteracted = Gelangweilt
 ActorState.Rested = Ausgeruht
 ActorState.Saturated = Gesättigt
 ActorState.Thirsty = Durstig
@@ -2389,3 +2389,6 @@ UI.ResetTasks.Desc = Löscht alle Aufgabenzuweisungen.
 UI.ResetWorkshops = Werkstätten zurücksetzen.
 UI.ResetWorkshops.Desc = Löscht alle Werkstättenzuweisungen.
 UI.ReturnToWorldMap = Zurück zur Weltkarte
+
+Farm.Status.Operational = In Betrieb.
+Farm.Status.Operational.Desc = In Betrieb.
