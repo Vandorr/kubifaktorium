@@ -82,11 +82,5 @@ Tier 3: Ashen world   Темные земли     Темные земли или
 
 ChocolateMilk = Шоколадное молоко    Какао?
 
-Workshop.Status.NoInputStockpileForRecipe
-Workshop.Status.NoInputStockpileForRecipe.Desc
-ShippingPort.Status.Idle
-ShippingPort.Status.NoExitHopperValidType
-ShippingPort.Status.NoExportStockpile
-ShippingPort.Status.NoExportValidType
-ShippingPort.Status.NoExportValidType.Desc
-ShippingPort.Status.NoExportStockpile.Desc
+Обучение. 2 урок. Проверить чтоб Мирко пофиксил текст. Подключение складов к мастерской. Строки 556, 557, 566-569
+Везде где знак $ какая-то фигня.  
