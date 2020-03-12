@@ -24,43 +24,21 @@
 <b>   </b>
 <br>
 «     »
-
-Иконки которые использовались вначале.
-
-#star#   звездочка
-#controller#   джойстик
-#Idle#   человечек вопрос
-#Mine#   ##mine
-#Mountain#   
-#sun#   
-#Happy#   
-#People#   
-#Stockpile#   
-#Farm#   ##farmzone   листок?
-#Grove#   ##grovezone   ёлка
-#Compass#   ##ship   кораблик
-#Power#   автоматизация
-#House#   
-#Chat#   
-#Logistics#   
-#Refine#   
-#settings#   
-#Pasture#   
-
+ 
 КОЛОНИСТЫ    не поселенцы!
 
 Типы работ
 
-Inventory Target    Производственная цель   Производственных целей
+Inventory Target    Цели миссии 
 
 Link to     подключенный склад, подключить склад и т.д.
 
 Grove   Лесопитомник  Лесоферма
 Stockpile   Склад
 Depot   Хранилище
-Hopper = ??
+Hopper = ??  бункер, площадка погрузки (погрузочная),
 
-Decor     декоративные предметы
+Decor     "декоративные предметы" где влезает
 
 Output Stockpile     Поставляющий склад
 Input Stockpile     Принимающий склад
@@ -75,12 +53,6 @@ MachineParts = Деталь механизма
 HorseStation = Конная станция
 Blank = слиток
 RefinedBuildingPart = Сложная деревянная деталь
-
-Tier 1: Grassland   Равнинные луга
-Tier 2: Desert   Пустыня
-Tier 3: Ashen world   Темные земли     Темные земли или пепельные??
-
-ChocolateMilk = Шоколадное молоко    Какао?
 
 Обучение. 2 урок. Проверить чтоб Мирко пофиксил текст. Подключение складов к мастерской. Строки 556, 557, 566-569
 Везде где знак $ какая-то фигня.  
