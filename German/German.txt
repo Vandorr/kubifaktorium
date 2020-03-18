@@ -1396,7 +1396,7 @@ Task.Water.Text = Bewässere Boden.
 TipOfTheDay.5 = Halte beim Hin_zufügen eines Rezepts die Alt-Taste gedrückt, um die akzeptierten Güter der Ausgangs_lager auto_matisch zu aktuali_sieren.
 TipOfTheDay.6 = Drücke Shift-F1, um die aktuelle Kamera_position zu speichern. Drücke F1, um zu dieser Position zurück_zukehren. (Funk_tioniert mit F1-F4)
 TipOfTheDay.7 = Drücke F11, um das Benutzer_interface aus_zublenden.
-TipOfTheDay.8 = Drücke F12, um einen Screenshot zu machen.<br><br>Ordner unter Windows/Linux/Mac:<br>   C:\Users_\<benutzername>_\AppData_\LocalLow_\MirkoStudio_\Kubifak_torium_\...  <br>~/.config_/unity3d_/MirkoStudio_/Kubifak_torium_/<br>~_/Library_/Application Support_/unity.Unity Technologies.Unity Labs...
+TipOfTheDay.8 = Drücke Shift-F12, um einen Screenshot zu machen.<br><br>Ordner unter Windows/Linux/Mac:<br>   C:\Users_\<benutzername>_\AppData_\LocalLow_\MirkoStudio_\Kubifak_torium_\...  <br>~/.config_/unity3d_/MirkoStudio_/Kubifak_torium_/<br>~_/Library_/Application Support_/unity.Unity Technologies.Unity Labs...
 
 TipOfTheDay.9 = Klicke auf das Beschrei_bungs_panel eines Gegen_stands, um die entsprech_ende Produktions_übersicht zu öffnen.
 UI.Conv = Fließ_band_werkzeug ///C///
