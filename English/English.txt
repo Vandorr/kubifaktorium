@@ -510,6 +510,8 @@ Settings.RotateSpeed = Rotate speed
 Settings.RotateSpeed.Desc = Rotate speed factor. Affects camera rotation with Q / E / PgUp / PgDown.
 Settings.Sound = Sound
 Settings.Sound.Desc = Volume of sound effects.
+Settings.WorkSound = Work Sound
+Settings.WorkSound.Desc = Volume of work related sound effects (relative to sound volume).
 Settings.SSScale = Screenshot SS
 Settings.SSScale.Desc = Upscaling factor of the screenshots.
 Settings.Weather = Weather effects
@@ -905,7 +907,7 @@ TipOfTheDay.4=You can clone an existing building by holding the alt-key and clic
 TipOfTheDay.5=While adding a workshop's recipe hold the alt-key to auto_matically update  the accepted goods of its output stockpiles.
 TipOfTheDay.6=Press shift-F1 to save the current camera position. Press F1 to go back to that position. (Works with F1-F4)
 TipOfTheDay.7=Press F11 to hide the user interface.
-TipOfTheDay.8=Press F12 to make a screenshot.<br><br>Save folders on Win/Linux/Mac:<br>   C:\Users_\<username>_\AppData_\LocalLow_\MirkoStudio_\Kubifak_torium_\...  <br>  ~/.config_/unity3d_/MirkoStudio_/Kubifak_torium_/<br>  ~/Library/Application Support/unity.Unity Technologies.Unity Labs
+TipOfTheDay.8=Press Shift-F12 to make a screenshot.<br><br>Save folders on Win/Linux/Mac:<br>   C:\Users_\<username>_\AppData_\LocalLow_\MirkoStudio_\Kubifak_torium_\...  <br>  ~/.config_/unity3d_/MirkoStudio_/Kubifak_torium_/<br>  ~/Library/Application Support/unity.Unity Technologies.Unity Labs
 
 
 
