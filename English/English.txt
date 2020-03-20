@@ -1549,7 +1549,7 @@ UI.UpgradeBuilding.Desc = Upgrade this building to a $1. Requires $2.
 UI.RequiredTool = Required tool
 UI.RequiredTool.Desc = Higher quality resources require better ##tools to be mined or harvested. You can craft tools in the tool workshop.
 UI.RequiredTool.None = No tool required.
-UI.RequiredTool.Lvl = Requires $1 or better.
+UI.RequiredTool.Lvl = Requires $1.
 UI.RequiredToolPlant.Lvl = Tools suitable to harvest: $1 
 
 UI.Build.NoTool = Workers need better tools.
