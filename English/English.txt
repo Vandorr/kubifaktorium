@@ -322,7 +322,7 @@ Objective.UseRevealMap = Reveal the map.
 Objective.UseRevealMap.Desc = You can remove the fog of war and reveal the map by pressing F7. [Requires debug mode]
 Objective.ShowHelpTooltip = Move your mouse over an objective to display more help.
 Objective.ShowHelpTooltip.Desc = Well done. Objectives and many other user interface elements provide more information when you hover your mouse over them. 
-Objective.ClickHelp = Click this objective.
+Objective.ClickHelp = Click this objective to proceed.
 Objective.ClickHelp.Desc = You can click on most objectives to move the camera to what you need to interact with.
 
 
@@ -1590,3 +1590,5 @@ UI.DepotExit.LogisticsMode = Conveyor mode
 UI.DepotExit.LogisticsMode.Desc = While in conveyor mode, this depot will transport outgoing goods using conveyor belts. Build depot exits, conveyor belts and inserters. Have a look at the corresponding tutorial for more information. 
 
 Message.TradeCaravan.NoSpace = Not enough free space available to receive items. 
+
+Message.TradeCaravan.NewContent = New goods are available at the trading hub. 
