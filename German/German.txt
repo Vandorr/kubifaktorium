@@ -1438,7 +1438,7 @@ UI.ProductionTarget.Met = Vorrats_ziel erreicht für:<br> $1
 UI.ProductionTarget.MetShort = Vorrats_ziel erreicht:<br> $1  
 
 
-Objective.ClickHelp=Klicke auf diese Aufgabe
+Objective.ClickHelp=Klicke auf diese Aufgabe.
 Objective.RotateCamera=Rotiere die Kamera mit Q/E oder BildAuf / BildAb
 Objective.ScrollCamera=Bewege Kamera mit WASD / Pfeil_tasten
 Objective.ZoomCamera=Zoome mit dem Mausrad
