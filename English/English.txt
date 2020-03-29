@@ -267,6 +267,7 @@ Objective.BuildTrain.Desc = To construct a train select a train factory and clic
 Objective.FulfillProductionTarget = Reach inventory target.
 Objective.FulfillProductionTarget.Desc = The ##productiontarget is shown in the top left corner. Produce goods until you reach what is required. All goods in your colony as well as the goods stored on your ship count.
 
+
 Objective.Construct = Construct: $1 ($2/$3)
 Objective.Construct.Desc = To construct a $1 open the #Build# build menu, switch to the $7 tab, click on $1 and place it on the map. 
 Objective.CreateStockpile = Create a stockpile zone ($2/$3)
@@ -275,7 +276,7 @@ Objective.FarmZone = Create farm zone ($2/$3)
 Objective.FarmZone.Desc = To create a ##farmzone click on the #Farm# farm zone button and mark an area on fertile ground. Assign at least $3 tiles to be farms.
 Objective.FarmZoneCrop = Assign crop: $1
 Objective.FarmZoneCrop.Desc = To start growing a crop, select a ##farmzone and select the plant you want to grow.
-Objective.Have = Mine or produce: $1 ($2/$3)
+Objective.Have = Produce: $1 ($2/$3)
 Objective.Have.Desc = Resources can be ##mined from the environment. Goods can be produced in workshops.
 
 
@@ -656,7 +657,7 @@ Logistics.Status.CanRequestButNotSetup = No good accepted from log. system.
 
 
 UI.LogisticsSystem = Logistics system
-UI.LogisticsSystem.Desc = In order to <b>provide</b> goods, connect this unit to other units (stockpiles, zeppelin stations etc.) by right clicking on them. Also, make sure there are actual goods to provide. <br>In order to <b>request</b> goods, connect other units (stockpile, zeppelin station etc.) to this stockpile and set the desired goods to be accepted. (##logsys)
+UI.LogisticsSystem.Desc = In order to <b>provide</b> goods, connect this unit to other units (stockpiles, zeppelin stations etc.) by right clicking on them. Also, make sure there are actual goods to provide. <br>In order to <b>request</b> goods, connect other units (stockpile, zeppelin station etc.) to this stockpile and set the desired goods to be accepted. (##logsys) <br>Hint: Hold ctrl, alt or shift while clicking to create a two-way-connection.
 
 
 
@@ -800,6 +801,9 @@ Carriage.Status.Deactivated.Desc = You can activate a carriage by setting it to 
 Carriage.Status.NoSchedule = No schedule defined.
 Carriage.Status.NoSchedule.Desc = To add a station to the schedule, select the train and right-_click on the new station. To remove a station, click on its entry in the schedule.
 Carriage.Status.Okay = Carriage active.
+Carriage.Status.AutoSchedule = Automatic schedule.
+Carriage.Status.AutoSchedule.Desc = When automatic schedule is enabled, the carriage will automatically travel between its home station and stations connected to it.
+Carriage.Status.ManualSchedule = Manual schedule.
 
 
 UI.AttackCamp = Attack camp.
@@ -1592,3 +1596,18 @@ UI.DepotExit.LogisticsMode.Desc = While in conveyor mode, this depot will transp
 Message.TradeCaravan.NoSpace = Not enough free space available to receive items. 
 
 Message.TradeCaravan.NewContent = New goods are available at the trading hub. 
+
+
+
+Objective.DefeatEnemies = Defeat enemy camps ($2 remaining).
+Objective.DefeatEnemies.Desc = Claim the map, find and defeat enemy camps.
+
+Modifier.EarnMoney = Export goods to earn money
+Objective.EarnMoney = Money earned: $2 / $3
+Objective.EarnMoney.Desc = Build a shipping port and export goods to earn money. 
+
+Modifier.Claim = Expand your territory
+Objective.Claim = Claim land: $2 / $3 tiles
+Objective.Claim.Desc = Build bonfires and defeat enemy camps to expand your territory.
+
+MapModifier.FulfillProductionTarget.Intro = Produce goods to fulfill your inventory target.
