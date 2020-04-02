@@ -862,10 +862,8 @@ ActorState.HouseQuality.Low = Schlechtes Haus
 ActorState.Hurt = Schwer verletzt
 ActorState.Injured = Verletzt
 
-AttackEnemyCamp.Desc = 2.) Angriff und Kampf
-AttackEnemyCamp.Intro = Klicke auf das gegnerische Terri_torium und wähle Angreifen, um deine Krieger zu ent_senden.
-AttackEnemyCamp.Outro = Hinweis: Wähle deine Kolo_nisten aus um zu sehen, wie viel Schaden sie mit den unter_schiedlichen Waffen anrichten.
-
+AttackEnemyCamp.Desc = 1.) Angriff und Kampf
+AttackEnemyCamp.Intro = Wähle deine Kampfroboter aus und rechts-klicke auf das gegnerische Territorium um anzugreifen.
 
 Robot.Mode = Robotermodus
 Robot.Mode.Desc = ##robot können in unter_schiedlichen Modi arbeiten. Ihr Modus beeinflusst ihre Bewegungs_geschwin_digkeit und ihren Treibstoff_verbrauch.
@@ -1084,9 +1082,11 @@ BuildTrain.Intro = Baue einen Zug in der Zug_fabrik (4).
 CargoShip.State.ENTERHARBOUR = Steuere Hafen an.
 CargoShip.State.LEAVE = Verlasse Hafen.
 CargoShip.State.UNLOAD = Entlade Schiff.
-DefeatEnemyCamp.Desc = 3.) Besiege das gegnerische Lager
-DefeatEnemyCamp.Intro = Klicke auf das gegnerische Terri_torium und dann auf Angriff um mit diesem zu beginnen.
-DefeatEnemyCamp.Outro = Hinweis: Kolo_nisten können nicht im Kampf sterben. Wenn sie verletzt sind heilen sie sich im Schlaf.
+DefeatEnemyCamp.Desc = 2.) Besiege das gegnerische Lager
+DefeatEnemyCamp.Intro = Warte, bis deine Roboter die Gegner besiegt haben.
+DefeatEnemyCamp.Outro = Hinweis: Du kannst Kampfroboter in der Roboterwerkstatt bauen.
+			
+			
 FarmZoneCC = Farm
 FarmZoneCC.Desc = Farmen erlauben den Anbau ver_schiedener Pflanzen.
 GroveZoneCC = Baumschule
@@ -1152,11 +1152,11 @@ Need.Health = Gesundheit
 Need.Health.Desc = Verwundete Kolo_nisten sind unglücklich und weniger produktiv. Sie erholen sich während sie schlafen.
 
 Objective.AttackEnemyCamp = Greife Gegner an
-Objective.AttackEnemyCamp.Desc = Um ein Gegnerlager anzu_greifen wähle es aus und klicke auf Angreifen (Deine Kolo_nisten können im Kampf nicht sterben.)
+Objective.AttackEnemyCamp.Desc = Um ein Gegnerlager anzu_greifen wähle deine Kampfroboter aus und rechts-klicke auf das das gegnerische Gebiet.
 Objective.BuildTrain = Baue Züge ($2/$3)
 Objective.BuildTrain.Desc = Um einen Zug zu bauen, wähle die Zugfabrik aus und klicke auf "Baue Zug".
 Objective.DefeatEnemyCamp = Besiege Gegner_lager
-Objective.DefeatEnemyCamp.Desc =  Um ein Gegner_lager anzu_greifen wähle es aus und klicke auf Angreifen (Deine Kolo_nisten können im Kampf nicht sterben.)
+Objective.DefeatEnemyCamp.Desc =  Um ein Gegner_lager anzu_greifen wähle deine Kampfroboter aus und rechts-klicke auf das das gegnerische Gebiet.
 Objective.LogisticsLink = Erzeuge eine Verbindung von $5 zu $6
 Objective.LogisticsLink.Desc = 
 Um eine Logistik_verbindung zu erzeugen wähle das erste Objekt aus und rechts-klicke dann auf das zweite Objekt. Logistik_verbindungen werden als blaue Pfeile angezeigt.
@@ -2392,3 +2392,34 @@ UI.ReturnToWorldMap = Zurück zur Weltkarte
 
 Farm.Status.Operational = In Betrieb.
 Farm.Status.Operational.Desc = In Betrieb.
+
+
+
+Carriage.Status.AutoSchedule = Automatischer Fahrplan
+Carriage.Status.AutoSchedule.Desc = Wenn der automatische Fahrplan aktiviert ist, verkehrt der Wagen automatisch zwischen seinem Heimatbahnhof und den mit ihm verbundenen Bahnhöfen.
+Carriage.Status.ManualSchedule = Manueller Fahrplan
+CarriageFinal.Desc = 4.) Beende dieses Tutorial.
+MapModifier.FulfillProductionTarget.Intro = Produziere Güter um das Produktionsziel zu erfüllen.
+Message.TradeCaravan.NewContent = Neue Güter sind am Handelsposten eingetroffen.
+Modifier.Claim = Expandiere dein Gebiet
+Modifier.EarnMoney = Exportiere Güter um Geld zu verdienen
+Modifier.MapGoalDefeatEnemies = Besiege die Gegner
+Modifier.MapGoalDefeatEnemies.Desc = Finde und besiege alle gegnerischen Lager.
+Objective.Claim = Erobere Land: $2 / $3 Felder
+Objective.Claim.Desc = Baue Lagerfeuer und besiege gegnerische Lager um dein Gebiet zu erweitern.
+Objective.ConvMode = Aktiviere den Fließbandmodus: $5
+Objective.ConvMode.Desc = Wähle das Ziel aus und klicke auf "Fließbandmodus".
+Objective.DefeatEnemies = Besiege Gegnerlager (noch $2).
+Objective.DefeatEnemies.Desc = Erobere die Karte, finde und besiege gegnerische Lager.
+Objective.EarnMoney = Verdientes Geld: $2 / $3
+Objective.EarnMoney.Desc = Baue einen Frachthafen und exportiere Güter um Geld zu verdienen.
+ObjectType.Foundation = Fundament
+ObjectType.Foundation.Desc = Baue Fundamente auf tief gelegenem Terrain um den Bau von Gebäuden, Straßen usw. zu ermöglichen.
+Settings.WorkSound = Arbeitslautstärke
+Settings.WorkSound.Desc = Lautstärte für Arbeitsgeräusche (relativ zur Soundlautstärke).
+TCLLinkGoldBlocks.Desc = 1.) Verbinde Goldblöcke
+TCLLinkGoldBlocks.Intro =  Wir werden Zeppeline verwenden um die Goldblöcke zu transportieren. Beginne, indem du den nördlichen Zeppelinbahnhof (2) mit dem südlichen (4) verbindest.
+TCLLinkGoldBlocks.Outro = Gut! Die Fließbänder und Inserter werden dafür sorgen, dass die Blöcke ins richtige Depot gebracht werden.
+TCLLinkStoneBlocks.Desc = 2.) Verbinde Steinblöcke
+TCLLinkStoneBlocks.Intro = Wir können das bestehende Setup benutzen, um Steinblöcke in die entgegengesetzte Richtung zu bringen.
+ZeppelinFinal.Desc = 7.) Beende dieses Tutorial.
