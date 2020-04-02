@@ -1,0 +1,200 @@
+diff --git a/English/English.txt b/English/English.txt
+index 28e734b..80834cc 100644
+--- a/English/English.txt
++++ b/English/English.txt
+@@ -127,6 +127,7 @@ UI.Recruit.It = Recruit it.
+ UI.Recruit.Desc = Recruiting a castaway or an animal will make them join your colony. Note: Animals can only perform a limited set of tasks. Once they are a part of your colony, they will begin consuming your supplies.
+ 
+ UI.MessageLog = Message log ///L///
++UI.MessageLog.Title = Message log
+ UI.MessageLog.Desc = Keeps track of previous messages.
+ UI.MultiSelectHeader = $1 colonist selected.
+ UI.Build = Construct ///B///
+@@ -142,6 +143,7 @@ UI.Grove.Desc = Create or expand a ##grovezone.
+ UI.Farm = Farm ///F///
+ UI.Farm.Desc = Create a new ##farmzone or expand an existing zone.
+ UI.InventoryMenu = Inventory ///I///
++UI.InventoryMenu.Title = Inventory
+ UI.InventoryMenu.Desc = Display your colony's inventory and manage how the goods are used.
+ UI.UnloadAll = Unload everything.
+ UI.UnloadAll.Desc = Order your colonists to unload all cargo from your ##ship.
+@@ -172,13 +174,13 @@ UI.LinkOverlay = Production Routes
+ UI.LinkOverlay.Desc = Toggles the display of active links between workshops, farms and ##stockpilezones. [Default: Left Alt]
+ UI.MaxSpeed = Max. speed: $1
+ UI.SettlerScreen.Areas=Zones
+-UI.SettlerScreen.Explanation = Tools: Colonists auto_matically pick the best possible tools. Their tool preference depends on their assigned tasks.<br>Zones: Click to allow/forbid a zone. Colonists will not interact with things in inactive zones. Select a bonfire to change its designated zone.<br>Tasks & workshops: Click to toggle between active and inactive. The squares' sizes indicate the colonists' skill levels. 
+-UI.SettlerScreen.Tasks=Tasks
++UI.SettlerScreen.Explanation = Tools: Colonists auto_matically pick the best possible tools. Their tool preference depends on their assigned tasks.<br>Zones: Click to allow/forbid a zone. Colonists will not interact with things in inactive zones. Select a bonfire to change its designated zone.<br>Jobs: The squares' sizes indicate the colonists' skill levels. Click to toggle between active and inactive. Hold shift/ctrl for high priority.
++UI.SettlerScreen.Tasks=Jobs
+ UI.SettlerScreen.Title=Colonist management
+ UI.SettlerScreen.Tool=Tool
+ UI.SettlerScreen.Workshops=Workshops
+ UI.ToolAssignment = Equipped tool or preference.
+-UI.ToolAssignment.Desc = Colonists auto_matically pick the best possible ##tool. Their tool preference (hammer, shovel, pickaxe or weapon) depends on their assigned tasks.
++UI.ToolAssignment.Desc = Colonists auto_matically pick the best possible ##tool. Their tool preference (hammer, shovel, pickaxe or weapon) depends on their assigned jobs.
+ UI.ToolBaseEffect = Base effect: $1
+ UI.ToolTaskType = Task type: $1
+ UI.Track = Track construction tool. ///T///
+@@ -238,6 +240,8 @@ Objective.SetClaimColor = Set zone assignment for bonfire $5 to $9.
+ Objective.SetClaimColor.Desc = To change a zone's color select its bonfire and click on the desired zone color in the info panel.
+ Objective.LogisticsLink = Create a link from $7 $5 to $8 $6.
+ Objective.LogisticsLink.Desc = To create a logistics link between two objects, select the first object and right-_click the second object. Logistics links will show up as blue arrows whenever a ##logsys building is selected.
++Objective.ConvMode = Activate conveyor mode on $5.
++Objective.ConvMode.Desc = Select the target and click on "conveyor mode" in the panel in the bottom right.
+ 
+ Objective.SetZoneColorActive = Enable $5's access to zone $9.
+ Objective.SetZoneColorActive.Desc = To enable a colonist's access to a zone select the colonist and click on the desired zone color in the info panel.
+@@ -263,6 +267,7 @@ Objective.BuildTrain.Desc = To construct a train select a train factory and clic
+ Objective.FulfillProductionTarget = Reach inventory target.
+ Objective.FulfillProductionTarget.Desc = The ##productiontarget is shown in the top left corner. Produce goods until you reach what is required. All goods in your colony as well as the goods stored on your ship count.
+ 
++
+ Objective.Construct = Construct: $1 ($2/$3)
+ Objective.Construct.Desc = To construct a $1 open the #Build# build menu, switch to the $7 tab, click on $1 and place it on the map. 
+ Objective.CreateStockpile = Create a stockpile zone ($2/$3)
+@@ -271,7 +276,7 @@ Objective.FarmZone = Create farm zone ($2/$3)
+ Objective.FarmZone.Desc = To create a ##farmzone click on the #Farm# farm zone button and mark an area on fertile ground. Assign at least $3 tiles to be farms.
+ Objective.FarmZoneCrop = Assign crop: $1
+ Objective.FarmZoneCrop.Desc = To start growing a crop, select a ##farmzone and select the plant you want to grow.
+-Objective.Have = Mine or produce: $1 ($2/$3)
++Objective.Have = Produce: $1 ($2/$3)
+ Objective.Have.Desc = Resources can be ##mined from the environment. Goods can be produced in workshops.
+ 
+ 
+@@ -318,7 +323,7 @@ Objective.UseRevealMap = Reveal the map.
+ Objective.UseRevealMap.Desc = You can remove the fog of war and reveal the map by pressing F7. [Requires debug mode]
+ Objective.ShowHelpTooltip = Move your mouse over an objective to display more help.
+ Objective.ShowHelpTooltip.Desc = Well done. Objectives and many other user interface elements provide more information when you hover your mouse over them. 
+-Objective.ClickHelp = Click this objective.
++Objective.ClickHelp = Click this objective to proceed.
+ Objective.ClickHelp.Desc = You can click on most objectives to move the camera to what you need to interact with.
+ 
+ 
+@@ -372,11 +377,11 @@ ActorState.Foodvariety.Low = Low food variety.
+ ActorState.HouseQuality.High = High quality house.
+ ActorState.HouseQuality.Low = Low quality house.
+ ActorState.Hasdrunk = Has drunk recently
+-ActorState.Hasinteracted = Had social interaction
++ActorState.Hasinteracted = Entertained
+ ActorState.Housed = Owns a house
+ ActorState.Hungry = Hungry
+ ActorState.Nohouse = Homeless
+-ActorState.Notinteracted = Lonely
++ActorState.Notinteracted = Bored
+ ActorState.BadDecoration = No decoration. 
+ ActorState.GoodDecoration = Nice decoration.
+ ActorState.FavoriteFood.Yes = Had $1.
+@@ -397,8 +402,8 @@ ActorState.Healthy = Healthy
+ 
+ # Job/task groups
+ TaskGroup._Name = Job assignments
+-TaskGroup.Agriculture = Farm work
+-TaskGroup.Agriculture.Desc = Farm workers till the ground and plant and harvest crops in ##farmzone.
++TaskGroup.Agriculture = Farm and grove work
++TaskGroup.Agriculture.Desc = Farm workers till the ground and plant and harvest crops and trees in ##farmzones and ##grovezones.
+ TaskGroup.Construction = Con_struction
+ TaskGroup.Construction.Desc = Con_struction workers execute con_struction jobs.
+ TaskGroup.Crafting = Crafting
+@@ -506,6 +511,8 @@ Settings.RotateSpeed = Rotate speed
+ Settings.RotateSpeed.Desc = Rotate speed factor. Affects camera rotation with Q / E / PgUp / PgDown.
+ Settings.Sound = Sound
+ Settings.Sound.Desc = Volume of sound effects.
++Settings.WorkSound = Work Sound
++Settings.WorkSound.Desc = Volume of work related sound effects (relative to sound volume).
+ Settings.SSScale = Screenshot SS
+ Settings.SSScale.Desc = Upscaling factor of the screenshots.
+ Settings.Weather = Weather effects
+@@ -535,6 +542,8 @@ Workshop.Status.UnderConstruction.Desc = The workshop is being built.
+ 
+ Farm.Status.Harvest = Ready to harvest.
+ Farm.Status.Harvest.Desc = 
++Farm.Status.Operational = Operational.
++Farm.Status.Operational.Desc = Operational.
+ Farm.Status.Idle = Idle.
+ Farm.Status.Idle.Desc = 
+ Farm.Status.NoOutput = No output stockpile assigned.
+@@ -648,7 +657,7 @@ Logistics.Status.CanRequestButNotSetup = No good accepted from log. system.
+ 
+ 
+ UI.LogisticsSystem = Logistics system
+-UI.LogisticsSystem.Desc = In order to <b>provide</b> goods, connect this unit to other units (stockpiles, zeppelin stations etc.) by right clicking on them. Also, make sure there are actual goods to provide. <br>In order to <b>request</b> goods, connect other units (stockpile, zeppelin station etc.) to this stockpile and set the desired goods to be accepted. (##logsys)
++UI.LogisticsSystem.Desc = In order to <b>provide</b> goods, connect this unit to other units (stockpiles, zeppelin stations etc.) by right clicking on them. Also, make sure there are actual goods to provide. <br>In order to <b>request</b> goods, connect other units (stockpile, zeppelin station etc.) to this stockpile and set the desired goods to be accepted. (##logsys) <br>Hint: Hold ctrl, alt or shift while clicking to create a two-way-connection.
+ 
+ 
+ 
+@@ -739,6 +748,7 @@ Task.ConstructClear.Text = Clearing $1.
+ Task.Deconstruct.Text = Decon_structing $1.
+ Task.Mine.Text = Mining $1.
+ Task.Produce.Text = Producing $1 in $2.
++Task.ProduceHigh.Text = Producing $1 in $2.
+ Task.SupplyAutoWorkshop.Text = Producing $1 in $2.
+ Task.UnloadAutoWorkshop.Text = Unloading $1 from $2.
+ Task.AutoWorkshopClear.Text = Clearing input $1 from $2.
+@@ -791,6 +801,9 @@ Carriage.Status.Deactivated.Desc = You can activate a carriage by setting it to
+ Carriage.Status.NoSchedule = No schedule defined.
+ Carriage.Status.NoSchedule.Desc = To add a station to the schedule, select the train and right-_click on the new station. To remove a station, click on its entry in the schedule.
+ Carriage.Status.Okay = Carriage active.
++Carriage.Status.AutoSchedule = Automatic schedule.
++Carriage.Status.AutoSchedule.Desc = When automatic schedule is enabled, the carriage will automatically travel between its home station and stations connected to it.
++Carriage.Status.ManualSchedule = Manual schedule.
+ 
+ 
+ UI.AttackCamp = Attack camp.
+@@ -854,7 +867,7 @@ Building.Mode.Enabled = Building active.
+ Building.Mode.Disabled = Building inactive.
+ 
+ UI.TypeNameFilter = Search for type...
+-UI.DecorationValue = ##Decoration: Value $1, range $2
++UI.DecorationValue = ##Decoration: Range $2
+ UI.HousingValue = ##House: Quality $1, places $2
+ UI.HousingValue.High = high
+ UI.HousingValue.Low = low
+@@ -898,7 +911,7 @@ TipOfTheDay.4=You can clone an existing building by holding the alt-key and clic
+ TipOfTheDay.5=While adding a workshop's recipe hold the alt-key to auto_matically update  the accepted goods of its output stockpiles.
+ TipOfTheDay.6=Press shift-F1 to save the current camera position. Press F1 to go back to that position. (Works with F1-F4)
+ TipOfTheDay.7=Press F11 to hide the user interface.
+-TipOfTheDay.8=Press F12 to make a screenshot.<br><br>Save folders on Win/Linux/Mac:<br>   C:\Users_\<username>_\AppData_\LocalLow_\MirkoStudio_\Kubifak_torium_\...  <br>  ~/.config_/unity3d_/MirkoStudio_/Kubifak_torium_/<br>  ~/Library/Application Support/unity.Unity Technologies.Unity Labs
++TipOfTheDay.8=Press Shift-F12 to make a screenshot.<br><br>Save folders on Win/Linux/Mac:<br>   C:\Users_\<username>_\AppData_\LocalLow_\MirkoStudio_\Kubifak_torium_\...  <br>  ~/.config_/unity3d_/MirkoStudio_/Kubifak_torium_/<br>  ~/Library/Application Support/unity.Unity Technologies.Unity Labs
+ 
+ 
+ 
+@@ -1540,7 +1553,7 @@ UI.UpgradeBuilding.Desc = Upgrade this building to a $1. Requires $2.
+ UI.RequiredTool = Required tool
+ UI.RequiredTool.Desc = Higher quality resources require better ##tools to be mined or harvested. You can craft tools in the tool workshop.
+ UI.RequiredTool.None = No tool required.
+-UI.RequiredTool.Lvl = Requires $1 or better.
++UI.RequiredTool.Lvl = Requires $1.
+ UI.RequiredToolPlant.Lvl = Tools suitable to harvest: $1 
+ 
+ UI.Build.NoTool = Workers need better tools.
+@@ -1574,4 +1587,27 @@ ActorState.Title.SecondaryNeeds = Secondary needs:
+ UI.Confirm.ReturnToWorldMap = Are you sure you want to abandon the current island and return to the world map?
+ UI.ReturnToWorldMap = Return to world map
+ 
+-Logistics.Status.CarriageLinkedButNotStation = 
+\ No newline at end of file
++Logistics.Status.CarriageLinkedButNotStation = 
++
++
++UI.DepotExit.LogisticsMode = Conveyor mode
++UI.DepotExit.LogisticsMode.Desc = While in conveyor mode, this depot will transport outgoing goods using conveyor belts. Build depot exits, conveyor belts and inserters. Have a look at the corresponding tutorial for more information. 
++
++Message.TradeCaravan.NoSpace = Not enough free space available to receive items. 
++
++Message.TradeCaravan.NewContent = New goods are available at the trading hub. 
++
++
++
++Objective.DefeatEnemies = Defeat enemy camps ($2 remaining).
++Objective.DefeatEnemies.Desc = Claim the map, find and defeat enemy camps.
++
++Modifier.EarnMoney = Export goods to earn money
++Objective.EarnMoney = Money earned: $2 / $3
++Objective.EarnMoney.Desc = Build a shipping port and export goods to earn money. 
++
++Modifier.Claim = Expand your territory
++Objective.Claim = Claim land: $2 / $3 tiles
++Objective.Claim.Desc = Build bonfires and defeat enemy camps to expand your territory.
++
++MapModifier.FulfillProductionTarget.Intro = Produce goods to fulfill your inventory target.
+\ No newline at end of file

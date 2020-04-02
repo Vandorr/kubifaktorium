@@ -230,10 +230,10 @@ UI.TaskGroupTotal = Sum
 
 
 Objective.AttackEnemyCamp = Attack enemy camp.
-Objective.AttackEnemyCamp.Desc = To attack an enemy camp select it or the surrounding area and click on attack. (Your colonists cannot die in combat.)
+Objective.AttackEnemyCamp.Desc = To attack an enemy camp select your combat robots by drag-selecting them and right-click on enemy terrain.
 
 Objective.DefeatEnemyCamp = Defeat enemy camp.
-Objective.DefeatEnemyCamp.Desc = To attack an enemy camp select it or the surrounding area and click on attack. (Your colonists cannot die in combat.)
+Objective.DefeatEnemyCamp.Desc = To attack an enemy camp select your combat robots by drag-selecting them and right-click on enemy terrain.
 
 
 Objective.SetClaimColor = Set zone assignment for bonfire $5 to $9.
