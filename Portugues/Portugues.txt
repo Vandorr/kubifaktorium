@@ -2081,46 +2081,7 @@ Status.NoCarriage.Desc = Nenhuma carruagem esta definida para parar nesta estaç
 Status.NoTrain = Nenhum trem definido.
 Status.NoTrain.Desc = Nenhum trem esta definido para parar nesta estação. Selecione um trem e clique com o botão esquerdo nesta estação para adicioná-la ao cronograma.
 
-AutoWorkshop1.Desc = 1.) Configuração semi-automática
-AutoWorkshop1.Intro = O jeito mais básico de operar uma bancada automática é deixar seus colonos suprir os materiais de entrada necessários and transportar os de saída. Ligue o estoque 1 a Serralheria e ligue a Serralheria ao estoque 2.
-AutoWorkshop2.Desc = 2.) Depósitos e Insersores
-AutoWorkshop2.Intro = Você pode usar depósitos, funis e Insersores para automa_ticamente suprir uma bancada automa_tizada. Defina os funis no depósito 4 para aceitar troncos.
-AutoWorkshop3.Desc = 3.) Múltiplas bancadas
-AutoWorkshop3.Intro = Você pode usar esteiras para suprir múltiplas bancadas de uma vez. Você também pode ligar a saída de uma bancada para a próxima bancada automa_tizada na linha de produ_ção.
-AutoWorkshop3.Outro = Dica: O estoque 1x1 entre os insersores garantem que os colonos não "roubem" as tábuas de madeiras intermediadas.
-Modifier.TutorialAutoWorkshops = Configure bancadas automa_tizadas em diferentes maneiras.
-Modifier.TutorialAutoWorkshops.Intro = Este tutorial mostra como configurar bancadas automa_tizadas para produzir mercadorias sem necessitar de colonos.
-Modifier.TutorialAutoWorkshops.Outro = 
-Scenario.TutorialAutoWorkshops = Tutorial: Bancadas automa_tizadas
-Scenario.TutorialAutoWorkshops.Desc = Configure bancadas automa_tizadas em diferentes maneiras.
-
-# 16.9.2019
-
-UI.Priority.TooltipDisabled = Desativado.
-UI.Priority.TooltipDisabled.Desc = Esse objeto está desativado.
-
-UI.Modding.State.PreviewTooBig = Visualização muito grande. O arquivo miniatura.png deve ser menor que 1MB.
-
-# 17.9.2019
-
-Status.TooManyGoods = Muitas mercadorias aceitadas
-Status.TooManyGoods.Desc = Não é recomendado aceitar mais que 5 mercadorias em um estoque de saída. Crie múltiplos estoques para ter mais controle sobre a produção. 
-
-# 19.9.2019
-
-Message.Screenshot = Captura de tela salva em $1.
-
-# 20.9.2019
-
-UI.Credits = Créditos
-UI.ItemTier = Grau: $1
-
-Settings.ColorBlindMode = Modo daltônico 
-Settings.ColorBlindMode.Desc = Alterna cores da interface para melhor distinguição se você tem daltonismo. Requer reinicialização para ter efeito.
-
 # 18.10.2019
-Workshop.Status.NoInputStockpileForRecipe = Entradas necessárias não são supridas pelos estoques.  
-Workshop.Status.NoInputStockpileForRecipe.Desc = Nenhum dos estoques de entrada designados para essa bancadas aceita um ou mais das mercadorias necessárias para o trabalho selecionado.
 
 AutoWorkshop1.Desc = 1.) Configuração semi-automática
 AutoWorkshop1.Intro = A maneira mais básica para operar uma bancada automa_tizada é deixar seus colonos suprir as mercadorias de entrada e estocar as de saída. Ligue o estoque 1 na serralheria e ligue a serralheria no estoque 2.
@@ -2192,7 +2153,7 @@ Status.TooManyGoods = Muitas mercadorias aceitas
 Status.TooManyGoods.Desc = Não é recomendado aceitar mais do que 5 mercadorias em um estoque de saí_da. Crie múltiplos estoques para ter um controle de sua produ_ção.
 UI.Credits = Creditos
 UI.ItemTier = Grau: $1
-UI.Modding.State.PreviewTooBig = Visualização muito grande. O arquivo thumbnail.png deve ser menor que 1MB. Preview too big.
+UI.Modding.State.PreviewTooBig = Visualização muito grande. O arquivo thumbnail.png deve ser menor que 1MB.
 UI.Priority.TooltipDisabled = Desativado.
 UI.Priority.TooltipDisabled.Desc = Esse objeto está desativado.
 Workshop.Status.NoInputStockpileForRecipe = Recursos de entrada necessários não são supridos pelos estoques.
@@ -2214,7 +2175,7 @@ Savegame.ModsInUse.None = (Nenhum mod usado.)
 ##successchance.Desc = Chance de sucesso. (Determinada pela habilidade)
 
 ##movementspeed = Velocidade de movimento
-##movementspeed = Fator da velocidade de movimento. (Determinada pela felicidade)
+##movementspeed.Desc = Fator da velocidade de movimento. (Determinada pela felicidade)
 
 # 16.11.2019
 
@@ -2293,3 +2254,170 @@ ObjectType.XmasPresents = Presentes
 ObjectType.XmasPresents.Desc = Presentes oiden ser mineirados para obter mercadorias aleatórias.
 ObjectType.XmasTree = Árvore de Natal
 ObjectType.XmasTree.Desc = Celebrando o início de um novo ano.
+
+# 5.1.2020
+
+Message.Ingredients.Missing = Ingredients faltando: $1
+Message.Building.Complete = $1 completou $2.
+
+UI.ColonistScreen.NameHead = Nome
+
+# 11.1.2020
+
+Conveyor.Status.AdjacentDistributors = Distri_buidoras de Esteiras adjacentes.
+Conveyor.Status.AdjacentDistributors.Desc = Distri_buidoras de Esteiras não podem ser colocadas próximas a outras. 
+
+Conveyor.Status.Operational = Transportadora está funcionando.
+Conveyor.Status.Operational.Desc = Transportadora está configurada corretamente.
+
+# 19.1.2020
+
+WorkshopAuto.Status.NoOutput = Nenhum estoque de saída ou insersores definidos.
+WorkshopAuto.Status.NoOutput.Desc = Você precisa definir um estoque de saí_da ou construir um insersor para descarregar as mercadoriasde saída dessa bancada. Para ligar uma ##stockpilezone de saída, clique com botão esquerdo na bancada e clique com botão direito no estoque onde você quer que as mercadorias vá. Bancadas vão produzir até que os estoques ligados estejam cheios.
+WorkshopAuto.Status.NoOutputForProduct = Estoque de saída não aceita as mercadorias.
+WorkshopAuto.Status.NoOutputForProduct.Desc = Para trocar as mercadorias de uma ##stockpilezone, clique com botão esquerdo neça e troque os tipos selecionando-os no painel.
+
+WorkshopAuto.Status.PartialServe = Nem todas as entradas estão sendo fornecidas por insersores.
+WorkshopAuto.Status.PartialServe.Desc = Certifique-se de que todos os pontos são fornecidos por insersores.
+
+# 22.1.2020
+
+UI.DomesticAnimal = Animal doméstico. 
+UI.DomesticAnimal.Desc = Pode ser recrutado para sua colonia. 
+
+
+
+Settings.ZoomAnimation = Animação de aproximação
+Settings.ZoomAnimation.Desc = Transição suave quando é feita aproximação.
+
+UI.Saturation = Saturação
+
+# 23.1.2020
+
+UI.SettlerScreen.Filter = Filtro:
+
+# 26.1.2020
+
+UI.UpgradeBuilding = Melhora para $1.
+UI.UpgradeBuilding.Desc = Melhora essa construção para $1. Requer $2. 
+
+UI.RequiredTool = Ferramenta necessária
+UI.RequiredTool.Desc = Recursos de alta qualidade requerem melhores ##tools para serem minerados ou colhidos. Você pode construir ferramentas na bancada de ferramentas.
+UI.RequiredTool.None = Não requer ferramenta.
+UI.RequiredTool.Lvl = Requer $1 ou melhor.
+
+UI.Build.NoTool = Trabalhadores precisam de melhores ferramentas.
+UI.Build.NoTool.Desc = Para construir construções de qualidades maiores seus colonos precisam de melhores ##tools. Dê uma olhada nas informações da construção para ver o tipo e qualidade de ferramenta necessária.
+
+Farm.Status.NoTool = Trabalhadores precisam de melhores ferramentas.
+Farm.Status.NoTool.Desc = Para colher plantas e árvores de qualidades maiores seus colonos precisam de melhores ##tools. Dê uma olhada nas informações da planta para ver o tipo e qualidade de ferramenta necessária.
+
+# 5.2.2020
+
+UI.ResetTasks = Reiniciar tarefas.
+UI.ResetTasks.Desc = Limpa todas as tarefas designadas.
+UI.ResetWorkshops = Reiniciar bancadas.
+UI.ResetWorkshops.Desc = Limpa todas as bancadas designadas.
+UI.Autoassign = Auto-designar.
+UI.Autoassign.Desc = Automa_ticamente designa tarefas e bancadas para os colonos mais competentes.
+
+# 20.2.2020
+
+ActorState.Sum.Happy = Feliz
+ActorState.Sum.Unhappy = Triste
+ActorState.Sum.Neutral = Neutro 
+
+ActorState.Title.BasicNeeds = Necessidades básicas:
+ActorState.Title.SecondaryNeeds = Necessidades secundárias:
+
+# 27.2.2020
+
+UI.Confirm.ReturnToWorldMap = Você tem certeza que quer abandonar a ilha atual e retornam ao mapa mundo?
+UI.ReturnToWorldMap = Retorna ao mapa mundo
+
+Logistics.Status.CarriageLinkedButNotStation = 
+
+# 6.3.2020
+
+UI.DepotExit.LogisticsMode = Modo esteira
+UI.DepotExit.LogisticsMode.Desc = Enquanto no modo esteira, esse depósito irá transportar mercadorias de saída usando esteiras. Construa saídas, esteiras e insersores. De uma olhada no tutorial correspondente para maiores informações. 
+
+Message.TradeCaravan.NoSpace = Não há espaço suficiente para receber os itens. 
+
+# 23.3.2020
+
+Message.TradeCaravan.NewContent = Novas mercadorias estão disponíveis no mercado de troca.
+
+# 29.3.2020
+
+Objective.DefeatEnemies = Derrote acampamentos inimigos ($2 restantes).
+Objective.DefeatEnemies.Desc = Conquiste o mapa, ache e derrote os acampamentos inimigos.
+
+Modifier.EarnMoney = Exporte mercadorias para ganhar dinheiro
+Objective.EarnMoney = Dinheiro ganho: $2 / $3
+Objective.EarnMoney.Desc = Construa um porto de carga e exporte mercadorias para ganhar dinheiro. 
+
+Modifier.Claim = Expanda seu território
+Objective.Claim = Conquiste terra: $2 / $3 áreas
+Objective.Claim.Desc = Construa fogueiras e derrote acampamentos inimigos para expandir seu território.
+
+MapModifier.FulfillProductionTarget.Intro = Produza mercadorias para atingir sua meta de inventário.
+
+# 4.4.2020
+
+ActorState.FavoriteDrink.No = Necessita $1.
+ActorState.FavoriteDrink.Yes = Tem $1.
+ActorState.FavoriteFood.No = Necessita $1.
+ActorState.FavoriteFood.Yes = Tem $1.
+ActorState.Healthy = Saudável
+ActorState.NotThirsty = Sem sede
+Carriage.Status.Deactivated = Carruagem desativada.
+Carriage.Status.Deactivated.Desc = Você pode ativar uma carruagem através do painel de Informação.
+Carriage.Status.NoSchedule = Sem cronograma definido.
+Carriage.Status.NoSchedule.Desc = Para adicionar uma estação ao cronograma, selecione o trem e aperte o botão direito na nova estação. Para remover uma estação, clique nela através do cronograma.
+Carriage.Status.Okay = Carruagem ativa.
+ConvTutPart4.Desc = 4.) Termine esse tutorial.
+ConvTutPart4.Intro = Esteiras são vitais para o funcionamento de sua produção automática. Dê uma olhada nas configurações desse tutorial e clique no objetivo abaixo para finalizar.
+Debug.currency.Desc = Adiciona 100 moedas ao seu porto de carga.
+Farm.Status.Operational = Operacional.
+Farm.Status.Operational.Desc = Operacional.
+Modifier.SpawnTradeCaravan = Invoca uma caravana de troca.
+Modifier.TerrainShapePlaneWithMountains.Name = Forma do terreno
+Modifier.TutorialConveyorLogistics = Use esteiras no sistema de logís_tica.
+Modifier.TutorialConveyorLogistics.Intro = Esse tutorial mostra como depósitos e esteiras podem ser usados no sistema de logís_tica. Tudo que precisamos já está montado, só é necessário configurar corre_tamente.
+Modifier.TutorialConveyorLogistics.Outro = Ótimo! Os depósitos irão automa_ticamente forneces mercadorias solicitadas e transporta-las para a estação de dirigíveis.
+Objective.ConvMode = Ative o modo esteira em $5.
+Objective.ConvMode.Desc = Selecione o alvo e clique em "Modo esteira" no painel inferior direito.
+ObjectType.Cliff = Penhasco
+ObjectType.Cliff.Desc = Penhasco.
+ObjectType.CliffBig = Penhasco
+ObjectType.CliffBig.Desc = Penhasco.
+ObjectType.TradeCaravan = Mercado de troca
+ObjectType.TradeCaravan.Desc = Troca itens em excesso por mercadorias no mercado de troca.
+ObjectType.TrainWagon = Vagão
+ObjectType.TrainWagon.Desc = Trens são usados para transportar mercadorias pesadas em longas distâncias.
+ObjectType.TrainWagon2 = Vagão
+ObjectType.TrainWagon2.Desc = Trens são usados para transportar mercadorias pesadas em longas distâncias
+ObjectType.TrainWagon3 = Vagão
+ObjectType.TrainWagon3.Desc = Trens são usados para transportar mercadorias pesadas em longas distâncias
+ObjectType.WatchTower = Torre de vigia
+ObjectType.WatchTower.Desc = Construa uma torre de vigia para expandir a visão de seu território.
+ObjectType.WhaleSkeleton = Esqueleto de baleia
+ObjectType.WhaleSkeleton.Desc = O quê é muito mais frio que uma estrela e não parece um peixe?
+Scenario.TutorialConveyorLogistics = Tutorial: Esteiras e logís_tica
+Scenario.TutorialConveyorLogistics.Desc = Use esteiras no sistema de logís_tica.
+Task.AutoWorkshopClear.Text = Limpando entradas $1 de $2.
+Task.ProduceHigh.Text = Produzindo $1 em $2.
+TCLLinkGoldBlocks.Desc = 1.) Ligue blocos de ouro
+TCLLinkGoldBlocks.Intro = Iremos usar dirigíveis para transportar os blocos de ouro. Para isso, comece ligando a estação norte (2) com a estação sul (4) de dirigíveis.
+TCLLinkGoldBlocks.Outro = Ótimo! As esteiras e insersores irão garantir que os blocos seham trazido até o depósito certo.
+TCLLinkStoneBlocks.Desc = 2.) Ligue blocos de pedras.
+TCLLinkStoneBlocks.Intro = Nós podemos usar o mesmo esquema para transportar blocos de pedras na direção oposta.
+TerrainShape.PlaneWithMountains = Sem água
+UI.BuildInstantly = (Constrói instantaneamente.)
+UI.HousingValue.High = alto
+UI.HousingValue.Low = baixo
+UI.InventoryMenu.Title = Inventário
+UI.MessageLog.Title = Histórico de mensagens
+UI.Recruit.It = Recrute-o.
+UI.RequiredToolPlant.Lvl = Ferramentas adequadas para colheita: $1
