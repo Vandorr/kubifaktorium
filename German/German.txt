@@ -1441,7 +1441,7 @@ UI.ProductionTarget.MetShort = Vorrats_ziel erreicht:<br> $1
 Objective.ClickHelp=Klicke auf diese Aufgabe.
 Objective.RotateCamera=Rotiere die Kamera mit Q/E oder BildAuf / BildAb
 Objective.ScrollCamera=Bewege Kamera mit WASD / Pfeil_tasten
-Objective.ZoomCamera=Zoome mit dem Mausrad
+Objective.ZoomCamera=Zoome mit dem Mausrad oder Pos1/Ende
 
 ##productiontarget = Vorrats_ziel
 ##productiontarget.Desc = Vorrats_ziel: Menge an Gütern, die produziert werden muss, um die Kampagne zu gewinnen.
@@ -1600,7 +1600,7 @@ Need.Happiness = ##Glücklichkeit
 Objective.ClickHelp.Desc = Du kannst auf die meisten Ziele klicken, um die Kamera auf einen passenden Gegenstand zu bewegen.
 Objective.RotateCamera.Desc = Drücke die Q- und E-Tasten um die Kamera zu drehen. Alternativ kannst du BildAuf / BildAb drücken.
 Objective.ScrollCamera.Desc = Drücke die WASD- oder Pfeil_tasten um die Kamera zu bewegen.
-Objective.ZoomCamera.Desc = Bewege das Mausrad, um mit der Kamera rein- und raus_zuzoomen.
+Objective.ZoomCamera.Desc = Bewege das Mausrad, um mit der Kamera rein- und raus_zuzoomen. Alternativ kannst du die pos1/ende-Tasten benutzen.
 ObjectiveGroup.Camera = Kamera
 ObjectType.Cactus = Kaktus
 ObjectType.Cactus.Desc = Widersteht dem rauen Klima der Wüste.
@@ -2423,3 +2423,7 @@ TCLLinkGoldBlocks.Outro = Gut! Die Fließbänder und Inserter werden dafür sorg
 TCLLinkStoneBlocks.Desc = 2.) Verbinde Steinblöcke
 TCLLinkStoneBlocks.Intro = Wir können das bestehende Setup benutzen, um Steinblöcke in die entgegengesetzte Richtung zu bringen.
 ZeppelinFinal.Desc = 7.) Beende dieses Tutorial.
+
+
+UI.AssignZoneBonfire = Setze Zonenfarbe.
+UI.AssignZoneBonfire.Desc = Klicke hier, um die Farbe dieser ##zone zu ändern.  
