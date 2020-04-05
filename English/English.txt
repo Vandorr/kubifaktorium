@@ -330,8 +330,8 @@ Objective.ClickHelp.Desc = You can click on most objectives to move the camera t
 Objective.ScrollCamera = Move camera using WASD/arrows.
 Objective.ScrollCamera.Desc = Press the WASD- or arrow keys to scroll the camera.
 
-Objective.ZoomCamera = Zoom using the mouse wheel.
-Objective.ZoomCamera.Desc = Move the mouse wheel to zoom in and out with the camera.
+Objective.ZoomCamera = Zoom the camera using the mouse wheel or home/end.
+Objective.ZoomCamera.Desc = Move the mouse wheel or press home/end to zoom in and out with the camera.
 
 Objective.RotateCamera = Rotate using the Q/E or PgUp/PgDown.
 Objective.RotateCamera.Desc = Press the Q- and E-keys to rotate the camera. Alter_natively you can use the page up/down keys.
@@ -799,11 +799,13 @@ Train.Status.WaitAtStation.Desc = The train will resume when it is processed at 
 Carriage.Status.Deactivated = Carriage deactivated.
 Carriage.Status.Deactivated.Desc = You can activate a carriage by setting it to active in the info panel.
 Carriage.Status.NoSchedule = No schedule defined.
-Carriage.Status.NoSchedule.Desc = To add a station to the schedule, select the train and right-_click on the new station. To remove a station, click on its entry in the schedule.
+Carriage.Status.NoSchedule.Desc = To add a station to the schedule, select the carriage and right-_click on the new station. To remove a station, click on its entry in the schedule.
 Carriage.Status.Okay = Carriage active.
+Carriage.Status.Okay.Desc = The carriage is working normally.
 Carriage.Status.AutoSchedule = Automatic schedule.
-Carriage.Status.AutoSchedule.Desc = When automatic schedule is enabled, the carriage will automatically travel between its home station and stations connected to it.
+Carriage.Status.AutoSchedule.Desc = When automatic schedule is enabled, the carriage will automatically travel between its home station and stations connected to it. 
 Carriage.Status.ManualSchedule = Manual schedule.
+Carriage.Status.ManualSchedule.Desc = To add a station to the schedule, select the carriage and right-_click on the new station. To remove a station, click on its entry in the schedule.
 
 
 UI.AttackCamp = Attack camp.
@@ -936,6 +938,9 @@ MainMenu.Campaign.Size.4 = Huge
 
 UI.AssignZone = Toggle zone.
 UI.AssignZone.Desc = Click here to assign / unassign this ##zone color.  
+
+UI.AssignZoneBonfire = Set zone.
+UI.AssignZoneBonfire.Desc = Click here to change this ##zone's color.  
 
 UI.RestartMap = Restart map
 
@@ -1226,7 +1231,7 @@ Objective.CarriageSchedule.Desc = To add a station to a carriage's schedule, sel
 				
 UI.Skirmish.Cargohint = Hint: In order to try a different terrain, please select the Mockup Tier 2 or 3 scenarios. This will ensure that you have the appropriate cargo on board.
 
-Carriage.Schedule = Carriage schedule:
+Carriage.Schedule = Carriage schedule
 Carriage.Schedule.UI = Carriage station
 Carriage.Schedule.UI.Desc = To add a station to the schedule, select the carriage and right-_click on the new station. To remove a station, click on its entry in the schedule.
 
@@ -1411,8 +1416,8 @@ TutorialWarning.Desc = It is strongly recommended to play some of the tutorials 
 UI.Build.ConstructionComplete = Construction complete.
 UI.Build.ConstructionComplete.Desc = Construction has been completed.
 
-Workshop.Status.OutputBoxFull = Output box occupied.
-Workshop.Status.OutputBoxFull.Desc = Please empty the output box to resume production.
+Workshop.Status.OutputBoxFull = Output box clogged.
+Workshop.Status.OutputBoxFull.Desc = Move produced goods to stockpiles or depots to resume production.
 
 UI.Color1 = red
 UI.Color2 = yellow
@@ -1471,9 +1476,9 @@ Savegame.ModsInUse.None = (No mods used.)
 ##movementspeed = Movement speed factor. (Determined by happiness)
 
 UI.ShippingPort.Import = Import goods
-UI.ShippingPort.Import.Desc = Click to toggle further goods from getting ordered (Only affects future shipments). To import goods link this shipping port to a stockpile and set it to accept what you want to import.
+UI.ShippingPort.Import.Desc = Click to toggle goods from getting ordered (Only affects future shipments). To import goods link this shipping port to a stockpile and set it to accept what you want to import.
 UI.ShippingPort.Export = Export goods
-UI.ShippingPort.Export.Desc = Click to toggle further goods from being brought to be exported (Only affects future shipments). To export goods link a stockpile containing them to this shipping port. 
+UI.ShippingPort.Export.Desc = Click to toggle goods from being brought to be exported (Only affects future shipments). To export goods link a stockpile containing them to this shipping port. 
 
 UI.ShowAll = Show all items
 UI.ShowAll.Desc = Deactivate to show only the most relevant items in the current context.
