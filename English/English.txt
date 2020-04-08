@@ -1616,3 +1616,5 @@ Objective.Claim = Claim land: $2 / $3 tiles
 Objective.Claim.Desc = Build bonfires and defeat enemy camps to expand your territory.
 
 MapModifier.FulfillProductionTarget.Intro = Produce goods to fulfill your inventory target.
+
+UI.Producing = Producing $1 ($2%)
