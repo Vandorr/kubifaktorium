@@ -2427,3 +2427,5 @@ ZeppelinFinal.Desc = 7.) Beende dieses Tutorial.
 
 UI.AssignZoneBonfire = Setze Zonenfarbe.
 UI.AssignZoneBonfire.Desc = Klicke hier, um die Farbe dieser ##zone zu ändern.  
+
+UI.Producing = Produziere $1 ($2%)
