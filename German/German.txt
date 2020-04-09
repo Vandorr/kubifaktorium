@@ -1704,8 +1704,8 @@ UI.CombatState.Title = Kampf im Gange
 UI.CombatState.Waiting = (Warte)
 UI.GrowsOn = Wächst auf
 UI.HaltUnloadAll = Entladen abbrechen
-UI.IdleFighters = Untätige Kämpfer
-UI.IdleFighters.Desc = Klicke hier, um durch alle ##idleen Kämpfer zu blättern.
+UI.IdleFighters = Kampfroboter
+UI.IdleFighters.Desc = Klicke hier, um alle Kampfroboter auszuwählen.
 UI.Inhabitants = Bewohner
 UI.ItemInfo = Gegenstandsinfo:
 UI.MapComplete = Gewonnen!
@@ -2428,4 +2428,6 @@ ZeppelinFinal.Desc = 7.) Beende dieses Tutorial.
 UI.AssignZoneBonfire = Setze Zonenfarbe.
 UI.AssignZoneBonfire.Desc = Klicke hier, um die Farbe dieser ##zone zu ändern.  
 
-UI.Producing = Produziere $1 ($2%)
+UI.Producing = Produziere $1 ($2%)UI.IdleFighters
+
+UI.SelectedRobots = Ausgewählte Roboter
