@@ -2009,7 +2009,7 @@ UI.House.ForAnimals = Tiere:
 
 LoadingPhase.HarbourPlacement = Initialisiere Hafen-UI. 
 
-UI.IdleColonists.ListTaskGroups = Zugewiesene Jobs:
+UI.IdleColonists.ListTaskGroups = Zugewiesene Jobs (akt./max)
 
 
 TipOfTheDay.19 = Wenn eine Werkstatt oder ein Lager ausgewählt ist, halte die linke Alt-Taste um die Pfeile für andere Werkstätten und Lager anzuzeigen.
