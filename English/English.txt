@@ -1376,7 +1376,7 @@ UI.House.ForAnimals = Animals:
 
 LoadingPhase.HarbourPlacement = Initializing shipping port UI. 
 
-UI.IdleColonists.ListTaskGroups = Assigned jobs:
+UI.IdleColonists.ListTaskGroups = Assigned jobs (current/max)
 
 
 TipOfTheDay.19 = When workshop or stockpile is selected, hold the left alt-key to display arrows for other workshops/stockpiles.
@@ -1620,3 +1620,6 @@ MapModifier.FulfillProductionTarget.Intro = Produce goods to fulfill your invent
 UI.Producing = Producing $1 ($2%)
 
 UI.SelectedRobots = Selected robots
+
+Recommendation.Title = Set up a $1 ($2 coins)
+Message.Recommendation.Complete = $2 coins have been rewarded for setting up $1! 
