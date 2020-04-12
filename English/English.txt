@@ -131,7 +131,8 @@ UI.MessageLog.Title = Message log
 UI.MessageLog.Desc = Keeps track of previous messages.
 UI.MultiSelectHeader = $1 colonist selected.
 UI.Build = Construct ///B///
-UI.Build.Desc = Create a blueprint for a building to be con_structed by your colonists.
+UI.Build.Desc = Create a blueprint for a building to be con_structed by your colonists. Press ##Keyrotate to rotate. <br>Press ##Keycycle to toggle between variations.
+
 UI.Mine = Mine & harvest ///M///
 UI.Mine.Desc = Mark trees, rocks and other objects to be ##mined or harvested. (Hold alt to mark all objects of the same type in your ##territory).
 UI.SettlerMenu = Colonist management ///F9///
@@ -184,11 +185,17 @@ UI.ToolAssignment.Desc = Colonists auto_matically pick the best possible ##tool.
 UI.ToolBaseEffect = Base effect: $1
 UI.ToolTaskType = Task type: $1
 UI.Track = Track construction tool. ///T///
-UI.Track.Desc = Construct train tracks and signals. <br>Press ##Keyrotate to rotate. <br>Press ##Keycycle to toggle between high and low level.
+UI.Track.Desc = Construct train tracks and signals. Press ##Keyrotate to rotate. <br>Press ##Keycycle to toggle between high/low.
+UI.Track.Hint = R: rotate, V: toggle high/low
+UI.Build.Hint = R: rotate, V: toggle variation
+
+
+
 UI.Road = Road construction tool. ///H///
 
 UI.Conv = Conveyor belt construction tool. ///C///
 UI.Conv.Desc = Construct conveyor belts. <br>Press ##Keyrotate to rotate. <br>Press ##Keycycle to toggle between high and low level.
+UI.Conv.Hint = R: rotate, V: toggle high/low
 UI.ZoneAssignment = Assign zones.
 UI.ZoneAssignment.Desc = Every bonfire can be set to one of 5 colors. You can restrict your colonists to certain areas by changing their zone assignment here.
 
@@ -642,6 +649,8 @@ LoadingPhase.Combining = Combining meshes
 
 UI.ClearZone = Sell / Deconstruct / Clear zone ///Z///
 UI.ClearZone.Desc = Destroy a building or remove a ##Stockpilezone, ##Farmzone or ##Grovezone. Use ##Keycycle to switch between multiple objects on the same tile.
+UI.ClearZone.Hint = V: cycle between objects
+
 UI.CancelOrder = Cancel order ///X///
 UI.CancelOrder.Desc = Cancel an order like mining, loading or decon_structing.
 
