@@ -753,6 +753,7 @@ Task.Attack.Text = Attacking $1.
 Task.CombatTrain.Text = Training.
 Task.Rally.Text = Moving to rally flag.
 Task.Construct.Text = Con_structing $1.
+Task.UpgradeCarry.Text = Upgrading $1.
 Task.ConstructClear.Text = Clearing $1.
 Task.Deconstruct.Text = Decon_structing $1.
 Task.Mine.Text = Mining $1.
@@ -1188,6 +1189,7 @@ Debug.toggleenglish = Toggle English.
 Debug.toggleenglish.Desc = Change to English and back.
 
 # 21.5.2019
+
 UI.Item.Import = Import price: $1
 UI.Item.Export = Export price: $1
 UI.Import.Title = Import prices:
@@ -1632,3 +1634,7 @@ UI.SelectedRobots = Selected robots
 
 Recommendation.Title = Set up a $1 ($2 coins)
 Message.Recommendation.Complete = $2 coins have been rewarded for setting up $1! 
+
+UI.Price = Price: $1
+
+UI.UpgradeInProgress = Upgrade in progress. 
