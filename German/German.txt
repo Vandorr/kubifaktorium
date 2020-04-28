@@ -683,7 +683,7 @@ Settings.Language.Desc = (Die Sprache kann nur im Hauptmenü geändert werden.)
 
 
 MainMenu.NewCampaign = Neue Kampagne
-MainMenu.ResumeCampaign = Kampagne fortsetzen
+MainMenu.ResumeCampaign = Kampagne forts.
 MainMenu.PlayTutorial = Tutorial spielen
 MainMenu.PlayCustomMap = Eigene Karte spielen
 MainMenu.Settings = Ein_stellungen
