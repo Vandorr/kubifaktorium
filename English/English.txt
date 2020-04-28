@@ -213,6 +213,8 @@ UI.Undo = Undo
 UI.Undo.Desc = Remove the track / belt / blueprint last constructed.
 UI.Main = Open the menu ///Escape///
 UI.Main.Desc = Load/save a game, change the settings or exit the game.
+UI.WMMain = Return to main menu
+UI.WMMain.Desc = End the game and return to the main menu.
 
 
 UI.Close = Close
@@ -1633,8 +1635,11 @@ UI.Producing = Producing $1 ($2%)
 UI.SelectedRobots = Selected robots
 
 Recommendation.Title = Set up a $1 ($2 coins)
-Message.Recommendation.Complete = $2 coins have been rewarded for setting up $1! 
+Message.Recommendation.Complete = Congratulations!<br>Completed: $1<br>Reward: $25 Coins
 
 UI.Price = Price: $1
 
 UI.UpgradeInProgress = Upgrade in progress. 
+
+
+UI.TradeCaravan.TimeLeft = New offers in $1:$2
