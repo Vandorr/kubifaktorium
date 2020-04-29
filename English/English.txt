@@ -1635,7 +1635,7 @@ UI.Producing = Producing $1 ($2%)
 UI.SelectedRobots = Selected robots
 
 Recommendation.Title = Set up a $1 ($2 coins)
-Message.Recommendation.Complete = Congratulations!<br>Completed: $1<br>Reward: $25 Coins
+Message.Recommendation.Complete = Congratulations!<br>Completed: $1<br>Reward: $2 Coins
 
 UI.Price = Price: $1
 
@@ -1643,3 +1643,5 @@ UI.UpgradeInProgress = Upgrade in progress.
 
 
 UI.TradeCaravan.TimeLeft = New offers in $1:$2
+
+UI.QuickDeconstruct = Are you sure you want to deconstruct $1?
