@@ -476,6 +476,8 @@ Settings.Shadows.Desc = Quality of the shadows cast by lights. Shadows look nice
 
 Settings.Brightness=Brightness
 Settings.Brightness.Desc=Brightness
+Settings.RecommendationCount=Recommendations
+Settings.RecommendationCount.Desc=Changes the number of recommendations that are displayed at the same time. 
 Settings.AA = AA
 Settings.AA.Desc = Anti-Aliasing: Reduce aliasing around edges.
 Settings.PauseOnDefocus = Auto-pause
@@ -1267,9 +1269,9 @@ EarlyAccessWarning.Help = Early Access Warning
 # Deleted: Objective.ShowHelpScreen Objective.ShowHelpScreen.Desc Objective.ConnectFarmsToRoads Objective.ConnectFarmsToRoads.Desc Objective.ConnectWorkshopsToRoads Objective.ConnectWorkshopsToRoads.Desc
 
 
-UI.Import.Money = Available coins: $1
+UI.Import.Money = Available money: $1 #Money#
 UI.Import.Help = Available coins
-UI.Import.Help.Desc = Coins can be used to import raw materials onto your island. Earn coins by exporting manufactured goods. 
+UI.Import.Help.Desc = Coins (#Money#) can be used to import raw materials onto your island. Earn coins by exporting manufactured goods. 
 
 UI.ItemState.Available = Item available
 UI.ItemState.Reserved = Item reserved
@@ -1301,8 +1303,8 @@ MainMenu.Notice.EarlyAccess = Welcome to the Early Access version of Kubifaktori
 UI.ShowTips = Show tips
 UI.Tips = Tips
 
-Debug.currency = Add 100 coins. 
-Debug.currency.Desc = Add 100 coins to your shipping port.
+Debug.currency = Add 100 #Money#. 
+Debug.currency.Desc = Add 100 #Money# to your shipping port.
 
 
 
@@ -1634,8 +1636,8 @@ UI.Producing = Producing $1 ($2%)
 
 UI.SelectedRobots = Selected robots
 
-Recommendation.Title = Set up a $1 ($2 coins)
-Message.Recommendation.Complete = Congratulations!<br>Completed: $1<br>Reward: $2 Coins
+Recommendation.Title = Set up a $1 ($2 #Money#)
+Message.Recommendation.Complete = Congratulations!<br>Completed: $1<br>Reward: $2 #Money#
 
 UI.Price = Price: $1
 
@@ -1645,3 +1647,4 @@ UI.UpgradeInProgress = Upgrade in progress.
 UI.TradeCaravan.TimeLeft = New offers in $1:$2
 
 UI.QuickDeconstruct = Are you sure you want to deconstruct $1?
+UI.IsWater = Can be used to water farms. 
