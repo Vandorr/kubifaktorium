@@ -2431,3 +2431,40 @@ UI.AssignZoneBonfire.Desc = Klicke hier, um die Farbe dieser ##zone zu ändern.
 UI.Producing = Produziere $1 ($2%)UI.IdleFighters
 
 UI.SelectedRobots = Ausgewählte Roboter
+
+
+
+
+
+Carriage.Status.ManualSchedule.Desc = Um einen Bahnhof zum Fahrplan hinzuzufügen, wähle den Wagen aus und klicke mit der rechten Maustaste auf den Bahnhof. Um einen Bahnhof zu entfernen, klicke auf seinen Eintrag im Fahrplan.
+Message.Recommendation.Complete = Glückwunsch!<br>Fertiggestellt: $1<br>Belohnung: $2 #Money#
+Modifier.MapGoalClaim.Name = Ziel: Erobere Karte
+Modifier.MapGoalDefeatEnemies.Name = Ziel: Besiege Gegner
+Modifier.MapGoalEarnMoney.Name = Ziel: Geld verdienen
+Modifier.MapGoalFulfillProductionTarget.Name = Ziel: Produktionsziel
+ObjectType.CombatRobot = Einfacher Kampf_roboter
+ObjectType.CombatRobot.Desc = Roboter können nur die Arbeit aus_führen, für die sie gebaut wurden. Im Gegen_satz zu Kolo_nisten ver_bessern sie sich nicht durch Erfahrung.
+ObjectType.SpiderNest = Spinnennest
+ObjectType.SpiderNest.Desc = Heimat der kleinen achtbeinigen Monster.
+Recommendation.AutoKiln = Automatisiere die Schmelzen
+Recommendation.Bakery = Richte eine Produktionskette für hochqualitative Nahrung ein.
+Recommendation.BasicWorkplace = Produziere Baumaterialien
+Recommendation.Sawmill = Automatisiere die Baumaterialien_produktion
+Recommendation.StatueTrain = Dekoriere deine Kolonie
+Recommendation.Title = Richte $1 ein ($2 #Money#)
+Recommendation.ToolWorkshop = Prozudiere Werkzeuge für deine Kolonisten
+Recommendation.Well = Baue eine Wasserversorgung
+Settings.RecommendationCount = Empfehlungen
+Settings.RecommendationCount.Desc = Ändert die Anzahl der Empfehlungen, die gleichzeitig angezeigt werden.
+Task.UpgradeCarry.Text = Verbessere $1.
+UI.Build.Hint = R: drehen, V: Aussehen verändern
+UI.ClearZone.Hint = V: durch Objekten blättern
+UI.Conv.Hint = R: drehen, V: niedrig/hoch
+UI.IsWater = Wird benutzt, um Farmen zu bewässern.
+UI.Price = Preis: $1
+UI.QuickDeconstruct = Bist du sicher, dass du $1 abreißen möchtest?
+UI.Track.Hint = R: drehen, V: niedrig/hoch
+UI.TradeCaravan.TimeLeft = Neue Angebote in $1:$2
+UI.UpgradeInProgress = Verbesserung in Arbeit.
+UI.WMMain = Zurück zum Hauptmenü
+UI.WMMain.Desc = Beendet das Spiel und kehrt ins Hauptmenü zurück.
