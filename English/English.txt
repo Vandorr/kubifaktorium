@@ -1636,7 +1636,7 @@ UI.Producing = Producing $1 ($2%)
 
 UI.SelectedRobots = Selected robots
 
-Recommendation.Title = Set up a $1 ($2 #Money#)
+Recommendation.Title = Set up a $1 ($2#Money#)
 Message.Recommendation.Complete = Congratulations!<br>Completed: $1<br>Reward: $2 #Money#
 
 UI.Price = Price: $1
