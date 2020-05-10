@@ -1568,7 +1568,7 @@ Debug.killall.Desc = Entfernt Tiere, Kolo_nisten und Gegner.
 Debug.reloadTranslations = Über_setzungen laden
 Debug.reloadTranslations.Desc = Lädt alle Über_setzungen neu. Funktio_niert nicht bei bestimmten GUI-Elementen.
 Debug.revealmap = Karte aufdecken
-Debug.revealmap.Desc = Entwernt fog of war.
+Debug.revealmap.Desc = Entfernt fog of war.
 Debug.time = Vorspulen
 Debug.time.Desc = Zeit um 2.4 Stunden vorstellen.
 Debug.toggleenglish = Englisch.
@@ -2418,7 +2418,7 @@ ObjectType.Foundation.Desc = Baue Fundamente auf tief gelegenem Terrain um den B
 Settings.WorkSound = Arbeitslautstärke
 Settings.WorkSound.Desc = Lautstärte für Arbeitsgeräusche (relativ zur Soundlautstärke).
 TCLLinkGoldBlocks.Desc = 1.) Verbinde Goldblöcke
-TCLLinkGoldBlocks.Intro =  Wir werden Zeppeline verwenden um die Goldblöcke zu transportieren. Beginne, indem du den nördlichen Zeppelinbahnhof (2) mit dem südlichen (4) verbindest.
+TCLLinkGoldBlocks.Intro =  Wir werden Zeppeline verwenden um die Goldblöcke zu transportieren. Beginne, indem du den nördlichen Zeppelin_bahnhof (2) mit dem südlichen (4) verbindest.
 TCLLinkGoldBlocks.Outro = Gut! Die Fließbänder und Inserter werden dafür sorgen, dass die Blöcke ins richtige Depot gebracht werden.
 TCLLinkStoneBlocks.Desc = 2.) Verbinde Steinblöcke
 TCLLinkStoneBlocks.Intro = Wir können das bestehende Setup benutzen, um Steinblöcke in die entgegengesetzte Richtung zu bringen.
@@ -2428,7 +2428,7 @@ ZeppelinFinal.Desc = 7.) Beende dieses Tutorial.
 UI.AssignZoneBonfire = Setze Zonenfarbe.
 UI.AssignZoneBonfire.Desc = Klicke hier, um die Farbe dieser ##zone zu ändern.  
 
-UI.Producing = Produziere $1 ($2%)UI.IdleFighters
+UI.Producing = Produziere $1 ($2%)
 
 UI.SelectedRobots = Ausgewählte Roboter
 
