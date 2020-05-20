@@ -88,7 +88,7 @@ fallback=English
 
 
 ##social = social 
-##social.Desc = Social: Colonists need interaction with each other to thrive. Providing social interaction will make them more happy and productive.
+##social.Desc = Social: Colonists need interaction with each other to thrive. Providing leisure activities will make them more happy and productive.
 ##logsys = logistics system
 ##logsys.Desc = Logistics System: Allows you to connect multiple trans_portation and storage systems. Once set up, it will auto_matically generate transport jobs for vehicles and colonists.
 
@@ -370,7 +370,7 @@ Need.Food.Desc = When hungry, colonists will auto_matically search for ##food.
 Need.Drink = Drink
 Need.Drink.Desc = When thirsty, colonists will auto_matically search for something to ##drink. 
 Need.Social = Social
-Need.Social.Desc = Colonists need ##social interaction with each other to thrive. Providing social interaction will make them more happy and productive.
+Need.Social.Desc = Colonists need ##social interaction with each other to thrive. Providing leisure activities will make them more happy and productive.
 Need.Housing = Housing
 Need.Housing.Desc = Colonists prefer to have a ##house to live in. Providing one will make them more happy and productive.
 Need.Health = Health
@@ -1404,7 +1404,7 @@ UI.Confirm.Restart = Are you sure you want to abandon the current game and resta
 UI.Confirm.Quit = Are you sure you want to exit the game?
 
 UI.Recipe.Inputs = Inputs:
-UI.Recipe.AdditionalOutputs = Additional outputs:
+UI.Recipe.Outputs = Outputs:
 
 # 1.8.2019
 UI.ProductionTree.Desc = Open the selected item in the product encyclopedia.
@@ -1648,3 +1648,16 @@ UI.TradeCaravan.TimeLeft = New offers in $1:$2
 
 UI.QuickDeconstruct = Are you sure you want to deconstruct $1?
 UI.IsWater = Can be used to water farms. 
+
+
+
+ActorState.FavoriteLeisureActivity.Yes = Used $1.
+ActorState.FavoriteLeisureActivity.No = Needs $1.
+
+ActorState.FavoriteDecoration.Yes = $1 exists.
+ActorState.FavoriteDecoration.No = Needs $1.
+
+
+Modifier.Happy = Make colonists happy
+Objective.Happy = Happy: $2 / $3 colonists
+Objective.Happy.Desc = Supply food and drinks, build leisure activities, decoration and housing to make your colonists happy.
