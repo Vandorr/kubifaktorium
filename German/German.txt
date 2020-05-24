@@ -1828,7 +1828,7 @@ EarlyAccessWarning.Help = Early-Access-Warnung
 
 UI.Import.Money = Verfügbare Währung: $1
 UI.Import.Help = Verfügbare Währung
-UI.Import.Help.Desc = Währung kann ver_wendet werden, um Roh_stoffe auf deine Insel zu impor_tieren. Verdiene Geld durch den Export von produ_zierten Waren. 
+UI.Import.Help.Desc = Währung kann ver_wendet werden, um Roh_stoffe auf deine Insel zu impor_tieren. Verdiene Geld durch den Export von produ_zierten Waren oder das Erfüllen von Aufgaben. 
 
 UI.ItemState.Available = Gegen_stand verf_ügbar
 UI.ItemState.Reserved = Gegen_stand reser_viert
