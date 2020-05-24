@@ -1271,7 +1271,7 @@ EarlyAccessWarning.Help = Early Access Warning
 
 UI.Import.Money = Available money: $1 #Money#
 UI.Import.Help = Available coins
-UI.Import.Help.Desc = Coins (#Money#) can be used to import raw materials onto your island. Earn coins by exporting manufactured goods. 
+UI.Import.Help.Desc = Coins (#Money#) can be used to import raw materials onto your island. Earn coins by exporting manufactured goods or completing tasks. 
 
 UI.ItemState.Available = Item available
 UI.ItemState.Reserved = Item reserved
