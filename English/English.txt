@@ -1271,7 +1271,7 @@ EarlyAccessWarning.Help = Early Access Warning
 
 UI.Import.Money = Available money: $1 #Money#
 UI.Import.Help = Available coins
-UI.Import.Help.Desc = Coins (#Money#) can be used to import raw materials onto your island. Earn coins by exporting manufactured goods or completing tasks. 
+UI.Import.Help.Desc = Coins (#Money#) can be used to import raw materials onto your island. Earn coins by exporting manufactured goods or completing recommendations. 
 
 UI.ItemState.Available = Item available
 UI.ItemState.Reserved = Item reserved
@@ -1636,8 +1636,9 @@ UI.Producing = Producing $1 ($2%)
 
 UI.SelectedRobots = Selected robots
 
-Recommendation.Title = Set up a $1 ($2#Money#)
+Recommendation.Title = Set up a $1 ($2 #Money#)
 Message.Recommendation.Complete = Congratulations!<br>Completed: $1<br>Reward: $2 #Money#
+Message.Recommendation.Complete.VictoryScreen = Recommendation:<br>$1
 
 UI.Price = Price: $1
 
@@ -1661,3 +1662,8 @@ ActorState.FavoriteDecoration.No = Needs $1.
 Modifier.Happy = Make colonists happy
 Objective.Happy = Happy: $2 / $3 colonists
 Objective.Happy.Desc = Supply food and drinks, build leisure activities, decoration and housing to make your colonists happy.
+
+
+UI.HappinessSummary = Happiness
+UI.HappinessSummary.Critical = Critical needs: 
+UI.HappinessSummary.Advanced = Advanced needs: 
