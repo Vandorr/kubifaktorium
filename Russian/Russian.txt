@@ -2031,4 +2031,4 @@ Recommendation.House = Организуйте жилье для своих ко�
 Recommendation.Leisure = Создайте несколько мест для отдыха.
 UI.HappinessSummary = Счастье
 UI.HappinessSummary.Advanced = Дополнительные потребности:
-UI.HappinessSummary.Critical = Острая потребность:
+UI.HappinessSummary.Critical = Повышенная потребность:
