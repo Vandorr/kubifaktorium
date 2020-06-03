@@ -1,0 +1,281 @@
+diff --git a/English/English.txt b/English/English.txt
+index 80834cc..89904ca 100644
+--- a/English/English.txt
++++ b/English/English.txt
+@@ -88,7 +88,7 @@ fallback=English
+ 
+ 
+ ##social = social 
+-##social.Desc = Social: Colonists need interaction with each other to thrive. Providing social interaction will make them more happy and productive.
++##social.Desc = Social: Colonists need interaction with each other to thrive. Providing leisure activities will make them more happy and productive.
+ ##logsys = logistics system
+ ##logsys.Desc = Logistics System: Allows you to connect multiple trans_portation and storage systems. Once set up, it will auto_matically generate transport jobs for vehicles and colonists.
+ 
+@@ -131,7 +131,8 @@ UI.MessageLog.Title = Message log
+ UI.MessageLog.Desc = Keeps track of previous messages.
+ UI.MultiSelectHeader = $1 colonist selected.
+ UI.Build = Construct ///B///
+-UI.Build.Desc = Create a blueprint for a building to be con_structed by your colonists.
++UI.Build.Desc = Create a blueprint for a building to be con_structed by your colonists. Press ##Keyrotate to rotate. <br>Press ##Keycycle to toggle between variations.
++
+ UI.Mine = Mine & harvest ///M///
+ UI.Mine.Desc = Mark trees, rocks and other objects to be ##mined or harvested. (Hold alt to mark all objects of the same type in your ##territory).
+ UI.SettlerMenu = Colonist management ///F9///
+@@ -162,7 +163,7 @@ UI.GrowTime = Time to grow: $1s
+ UI.GrowthRateDay = Growth rate at daytime: $1%
+ UI.GrowthRateNight = Growth rate at nighttime: $1%
+ UI.MovementSpeed = Movement speed: $1
+-UI.DamageUnarmed = Damage (unarmed): $1
++UI.DamageUnarmed = Damage: $1
+ UI.VisionRange = Vision range: $1
+ UI.Eats = Eats: $1
+ UI.Drinks = Drinks: $1
+@@ -184,11 +185,17 @@ UI.ToolAssignment.Desc = Colonists auto_matically pick the best possible ##tool.
+ UI.ToolBaseEffect = Base effect: $1
+ UI.ToolTaskType = Task type: $1
+ UI.Track = Track construction tool. ///T///
+-UI.Track.Desc = Construct train tracks and signals. <br>Press ##Keyrotate to rotate. <br>Press ##Keycycle to toggle between high and low level.
++UI.Track.Desc = Construct train tracks and signals. Press ##Keyrotate to rotate. <br>Press ##Keycycle to toggle between high/low.
++UI.Track.Hint = R: rotate, V: toggle high/low
++UI.Build.Hint = R: rotate, V: toggle variation
++
++
++
+ UI.Road = Road construction tool. ///H///
+ 
+ UI.Conv = Conveyor belt construction tool. ///C///
+ UI.Conv.Desc = Construct conveyor belts. <br>Press ##Keyrotate to rotate. <br>Press ##Keycycle to toggle between high and low level.
++UI.Conv.Hint = R: rotate, V: toggle high/low
+ UI.ZoneAssignment = Assign zones.
+ UI.ZoneAssignment.Desc = Every bonfire can be set to one of 5 colors. You can restrict your colonists to certain areas by changing their zone assignment here.
+ 
+@@ -206,6 +213,8 @@ UI.Undo = Undo
+ UI.Undo.Desc = Remove the track / belt / blueprint last constructed.
+ UI.Main = Open the menu ///Escape///
+ UI.Main.Desc = Load/save a game, change the settings or exit the game.
++UI.WMMain = Return to main menu
++UI.WMMain.Desc = End the game and return to the main menu.
+ 
+ 
+ UI.Close = Close
+@@ -230,10 +239,10 @@ UI.TaskGroupTotal = Sum
+ 
+ 
+ Objective.AttackEnemyCamp = Attack enemy camp.
+-Objective.AttackEnemyCamp.Desc = To attack an enemy camp select it or the surrounding area and click on attack. (Your colonists cannot die in combat.)
++Objective.AttackEnemyCamp.Desc = To attack an enemy camp select your combat robots by drag-selecting them and right-click on enemy terrain.
+ 
+ Objective.DefeatEnemyCamp = Defeat enemy camp.
+-Objective.DefeatEnemyCamp.Desc = To attack an enemy camp select it or the surrounding area and click on attack. (Your colonists cannot die in combat.)
++Objective.DefeatEnemyCamp.Desc = To attack an enemy camp select your combat robots by drag-selecting them and right-click on enemy terrain.
+ 
+ 
+ Objective.SetClaimColor = Set zone assignment for bonfire $5 to $9.
+@@ -330,8 +339,8 @@ Objective.ClickHelp.Desc = You can click on most objectives to move the camera t
+ Objective.ScrollCamera = Move camera using WASD/arrows.
+ Objective.ScrollCamera.Desc = Press the WASD- or arrow keys to scroll the camera.
+ 
+-Objective.ZoomCamera = Zoom using the mouse wheel.
+-Objective.ZoomCamera.Desc = Move the mouse wheel to zoom in and out with the camera.
++Objective.ZoomCamera = Zoom the camera using the mouse wheel or home/end.
++Objective.ZoomCamera.Desc = Move the mouse wheel or press home/end to zoom in and out with the camera.
+ 
+ Objective.RotateCamera = Rotate using the Q/E or PgUp/PgDown.
+ Objective.RotateCamera.Desc = Press the Q- and E-keys to rotate the camera. Alter_natively you can use the page up/down keys.
+@@ -361,7 +370,7 @@ Need.Food.Desc = When hungry, colonists will auto_matically search for ##food.
+ Need.Drink = Drink
+ Need.Drink.Desc = When thirsty, colonists will auto_matically search for something to ##drink. 
+ Need.Social = Social
+-Need.Social.Desc = Colonists need ##social interaction with each other to thrive. Providing social interaction will make them more happy and productive.
++Need.Social.Desc = Colonists need ##social interaction with each other to thrive. Providing leisure activities will make them more happy and productive.
+ Need.Housing = Housing
+ Need.Housing.Desc = Colonists prefer to have a ##house to live in. Providing one will make them more happy and productive.
+ Need.Health = Health
+@@ -467,6 +476,8 @@ Settings.Shadows.Desc = Quality of the shadows cast by lights. Shadows look nice
+ 
+ Settings.Brightness=Brightness
+ Settings.Brightness.Desc=Brightness
++Settings.RecommendationCount=Recommendations
++Settings.RecommendationCount.Desc=Changes the number of recommendations that are displayed at the same time. 
+ Settings.AA = AA
+ Settings.AA.Desc = Anti-Aliasing: Reduce aliasing around edges.
+ Settings.PauseOnDefocus = Auto-pause
+@@ -642,6 +653,8 @@ LoadingPhase.Combining = Combining meshes
+ 
+ UI.ClearZone = Sell / Deconstruct / Clear zone ///Z///
+ UI.ClearZone.Desc = Destroy a building or remove a ##Stockpilezone, ##Farmzone or ##Grovezone. Use ##Keycycle to switch between multiple objects on the same tile.
++UI.ClearZone.Hint = V: cycle between objects
++
+ UI.CancelOrder = Cancel order ///X///
+ UI.CancelOrder.Desc = Cancel an order like mining, loading or decon_structing.
+ 
+@@ -744,6 +757,7 @@ Task.Attack.Text = Attacking $1.
+ Task.CombatTrain.Text = Training.
+ Task.Rally.Text = Moving to rally flag.
+ Task.Construct.Text = Con_structing $1.
++Task.UpgradeCarry.Text = Upgrading $1.
+ Task.ConstructClear.Text = Clearing $1.
+ Task.Deconstruct.Text = Decon_structing $1.
+ Task.Mine.Text = Mining $1.
+@@ -799,11 +813,13 @@ Train.Status.WaitAtStation.Desc = The train will resume when it is processed at
+ Carriage.Status.Deactivated = Carriage deactivated.
+ Carriage.Status.Deactivated.Desc = You can activate a carriage by setting it to active in the info panel.
+ Carriage.Status.NoSchedule = No schedule defined.
+-Carriage.Status.NoSchedule.Desc = To add a station to the schedule, select the train and right-_click on the new station. To remove a station, click on its entry in the schedule.
++Carriage.Status.NoSchedule.Desc = To add a station to the schedule, select the carriage and right-_click on the new station. To remove a station, click on its entry in the schedule.
+ Carriage.Status.Okay = Carriage active.
++Carriage.Status.Okay.Desc = The carriage is working normally.
+ Carriage.Status.AutoSchedule = Automatic schedule.
+-Carriage.Status.AutoSchedule.Desc = When automatic schedule is enabled, the carriage will automatically travel between its home station and stations connected to it.
++Carriage.Status.AutoSchedule.Desc = When automatic schedule is enabled, the carriage will automatically travel between its home station and stations connected to it. 
+ Carriage.Status.ManualSchedule = Manual schedule.
++Carriage.Status.ManualSchedule.Desc = To add a station to the schedule, select the carriage and right-_click on the new station. To remove a station, click on its entry in the schedule.
+ 
+ 
+ UI.AttackCamp = Attack camp.
+@@ -937,6 +953,9 @@ MainMenu.Campaign.Size.4 = Huge
+ UI.AssignZone = Toggle zone.
+ UI.AssignZone.Desc = Click here to assign / unassign this ##zone color.  
+ 
++UI.AssignZoneBonfire = Set zone.
++UI.AssignZoneBonfire.Desc = Click here to change this ##zone's color.  
++
+ UI.RestartMap = Restart map
+ 
+ UI.TargetTrack = Inventory Target ($1 / $2):
+@@ -1111,8 +1130,8 @@ UI.AttackCamp.Desc = Defeat enemy camps to claim their ##territory. Unlike your
+ 
+ ## 1.5.2019 
+ 
+-UI.IdleFighters = Idle fighters
+-UI.IdleFighters.Desc = Click here to cycle through all ##idle fighters.
++UI.IdleFighters = Combat robots
++UI.IdleFighters.Desc = Click here to select all your combat robots.
+ 
+ 
+ UI.MiningDifficulty = Mining difficulty
+@@ -1174,6 +1193,7 @@ Debug.toggleenglish = Toggle English.
+ Debug.toggleenglish.Desc = Change to English and back.
+ 
+ # 21.5.2019
++
+ UI.Item.Import = Import price: $1
+ UI.Item.Export = Export price: $1
+ UI.Import.Title = Import prices:
+@@ -1226,7 +1246,7 @@ Objective.CarriageSchedule.Desc = To add a station to a carriage's schedule, sel
+ 				
+ UI.Skirmish.Cargohint = Hint: In order to try a different terrain, please select the Mockup Tier 2 or 3 scenarios. This will ensure that you have the appropriate cargo on board.
+ 
+-Carriage.Schedule = Carriage schedule:
++Carriage.Schedule = Carriage schedule
+ Carriage.Schedule.UI = Carriage station
+ Carriage.Schedule.UI.Desc = To add a station to the schedule, select the carriage and right-_click on the new station. To remove a station, click on its entry in the schedule.
+ 
+@@ -1249,9 +1269,9 @@ EarlyAccessWarning.Help = Early Access Warning
+ # Deleted: Objective.ShowHelpScreen Objective.ShowHelpScreen.Desc Objective.ConnectFarmsToRoads Objective.ConnectFarmsToRoads.Desc Objective.ConnectWorkshopsToRoads Objective.ConnectWorkshopsToRoads.Desc
+ 
+ 
+-UI.Import.Money = Available coins: $1
++UI.Import.Money = Available money: $1 #Money#
+ UI.Import.Help = Available coins
+-UI.Import.Help.Desc = Coins can be used to import raw materials onto your island. Earn coins by exporting manufactured goods. 
++UI.Import.Help.Desc = Coins (#Money#) can be used to import raw materials onto your island. Earn coins by exporting manufactured goods or completing recommendations. 
+ 
+ UI.ItemState.Available = Item available
+ UI.ItemState.Reserved = Item reserved
+@@ -1283,8 +1303,8 @@ MainMenu.Notice.EarlyAccess = Welcome to the Early Access version of Kubifaktori
+ UI.ShowTips = Show tips
+ UI.Tips = Tips
+ 
+-Debug.currency = Add 100 coins. 
+-Debug.currency.Desc = Add 100 coins to your shipping port.
++Debug.currency = Add 100 #Money#. 
++Debug.currency.Desc = Add 100 #Money# to your shipping port.
+ 
+ 
+ 
+@@ -1371,7 +1391,7 @@ UI.House.ForAnimals = Animals:
+ 
+ LoadingPhase.HarbourPlacement = Initializing shipping port UI. 
+ 
+-UI.IdleColonists.ListTaskGroups = Assigned jobs:
++UI.IdleColonists.ListTaskGroups = Assigned jobs (current/max)
+ 
+ 
+ TipOfTheDay.19 = When workshop or stockpile is selected, hold the left alt-key to display arrows for other workshops/stockpiles.
+@@ -1384,7 +1404,7 @@ UI.Confirm.Restart = Are you sure you want to abandon the current game and resta
+ UI.Confirm.Quit = Are you sure you want to exit the game?
+ 
+ UI.Recipe.Inputs = Inputs:
+-UI.Recipe.AdditionalOutputs = Additional outputs:
++UI.Recipe.Outputs = Outputs:
+ 
+ # 1.8.2019
+ UI.ProductionTree.Desc = Open the selected item in the product encyclopedia.
+@@ -1411,8 +1431,8 @@ TutorialWarning.Desc = It is strongly recommended to play some of the tutorials
+ UI.Build.ConstructionComplete = Construction complete.
+ UI.Build.ConstructionComplete.Desc = Construction has been completed.
+ 
+-Workshop.Status.OutputBoxFull = Output box occupied.
+-Workshop.Status.OutputBoxFull.Desc = Please empty the output box to resume production.
++Workshop.Status.OutputBoxFull = Output box clogged.
++Workshop.Status.OutputBoxFull.Desc = Move produced goods to stockpiles or depots to resume production.
+ 
+ UI.Color1 = red
+ UI.Color2 = yellow
+@@ -1471,9 +1491,9 @@ Savegame.ModsInUse.None = (No mods used.)
+ ##movementspeed = Movement speed factor. (Determined by happiness)
+ 
+ UI.ShippingPort.Import = Import goods
+-UI.ShippingPort.Import.Desc = Click to toggle further goods from getting ordered (Only affects future shipments). To import goods link this shipping port to a stockpile and set it to accept what you want to import.
++UI.ShippingPort.Import.Desc = Click to toggle goods from getting ordered (Only affects future shipments). To import goods link this shipping port to a stockpile and set it to accept what you want to import.
+ UI.ShippingPort.Export = Export goods
+-UI.ShippingPort.Export.Desc = Click to toggle further goods from being brought to be exported (Only affects future shipments). To export goods link a stockpile containing them to this shipping port. 
++UI.ShippingPort.Export.Desc = Click to toggle goods from being brought to be exported (Only affects future shipments). To export goods link a stockpile containing them to this shipping port. 
+ 
+ UI.ShowAll = Show all items
+ UI.ShowAll.Desc = Deactivate to show only the most relevant items in the current context.
+@@ -1610,4 +1630,40 @@ Modifier.Claim = Expand your territory
+ Objective.Claim = Claim land: $2 / $3 tiles
+ Objective.Claim.Desc = Build bonfires and defeat enemy camps to expand your territory.
+ 
+-MapModifier.FulfillProductionTarget.Intro = Produce goods to fulfill your inventory target.
+\ No newline at end of file
++MapModifier.FulfillProductionTarget.Intro = Produce goods to fulfill your inventory target.
++
++UI.Producing = Producing $1 ($2%)
++
++UI.SelectedRobots = Selected robots
++
++Recommendation.Title = Set up a $1 ($2 #Money#)
++Message.Recommendation.Complete = Congratulations!<br>Completed: $1<br>Reward: $2 #Money#
++Message.Recommendation.Complete.VictoryScreen = Recommendation:<br>$1
++
++UI.Price = Price: $1
++
++UI.UpgradeInProgress = Upgrade in progress. 
++
++
++UI.TradeCaravan.TimeLeft = New offers in $1:$2
++
++UI.QuickDeconstruct = Are you sure you want to deconstruct $1?
++UI.IsWater = Can be used to water farms. 
++
++
++
++ActorState.FavoriteLeisureActivity.Yes = Used $1.
++ActorState.FavoriteLeisureActivity.No = Needs $1.
++
++ActorState.FavoriteDecoration.Yes = $1 exists.
++ActorState.FavoriteDecoration.No = Needs $1.
++
++
++Modifier.Happy = Make colonists happy
++Objective.Happy = Happy: $2 / $3 colonists
++Objective.Happy.Desc = Supply food and drinks, build leisure activities, decoration and housing to make your colonists happy.
++
++
++UI.HappinessSummary = Happiness
++UI.HappinessSummary.Critical = Critical needs: 
++UI.HappinessSummary.Advanced = Advanced needs: 
+\ No newline at end of file
