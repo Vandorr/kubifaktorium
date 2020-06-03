@@ -2441,7 +2441,7 @@ Message.Recommendation.Complete = Glückwunsch!<br>Fertiggestellt: $1<br>Belohnu
 Modifier.MapGoalClaim.Name = Ziel: Erobere Karte
 Modifier.MapGoalDefeatEnemies.Name = Ziel: Besiege Gegner
 Modifier.MapGoalEarnMoney.Name = Ziel: Geld verdienen
-Modifier.MapGoalFulfillProductionTarget.Name = Ziel: Produktionsziel
+Modifier.MapGoalInventoryTarget.Name = Ziel: Produktionsziel
 ObjectType.CombatRobot = Einfacher Kampf_roboter
 ObjectType.CombatRobot.Desc = Roboter können nur die Arbeit aus_führen, für die sie gebaut wurden. Im Gegen_satz zu Kolo_nisten ver_bessern sie sich nicht durch Erfahrung.
 ObjectType.SpiderNest = Spinnennest
@@ -2520,3 +2520,34 @@ ObjectType.SteelBlock.Desc = Benötigt für den Bau hochwertiger Gebäude.
 Recipe.BorniteSorting = Bornitsortierung
 Recipe.CarbonateSorting = Carbonatsortierung
 UI.Recipe.Outputs = Ausgabeprodukte:
+
+
+
+
+
+
+Message.Recommendation.Complete.VictoryScreen = Empfehlung:<br>$1
+ObjectType.Bench = Bank
+ObjectType.Bench.Desc = Wenn sie erschöpft sind, setzen sich die Kolonisten hierhin um zu entspannen.
+ObjectType.CarbonizedKoaTree = Versteinerter Koabaum
+ObjectType.CarbonizedKoaTree.Desc = Dieser Koabaum wurde durch die Hitze der Lava versteinert.
+ObjectType.FertileRock = Kleine Steine
+ObjectType.FertileRock.Desc = Kann durch Abbauen entfernt werden. 
+ObjectType.Floor_Dark_Fertile = Fruchtbare Lava
+ObjectType.Floor_Dark_Fertile.Desc = Erlaubt den Anbau von Pflanzen in einer lebensfeindlichen Umgebung.
+ObjectType.HarvestedSorghum = Sorghum
+ObjectType.HarvestedSorghum.Desc = Sorghum ist ein altes nährstoffreiches Getreidekorn. Und glutenfrei.
+ObjectType.HarvestedTea = Tee
+ObjectType.HarvestedTea.Desc = Aus Teeblättern kann ein schmackhaftes Getränk gebraut werden.
+ObjectType.KoaTree = Koabaum
+ObjectType.KoaTree.Desc = Dieser Baum ist oft in reichen Vulkanböden zu finden.
+ObjectType.Sorghum = Sorghum
+ObjectType.Sorghum.Desc = Sorghum ist ein altes nährstoffreiches Getreidekorn. Und glutenfrei.
+ObjectType.TeaShrub = Teestrauch
+ObjectType.TeaShrub.Desc = Die Blätter des Teestrauchs können gepflückt und für die Zubereitung von Tee getrocknet werden.
+Recommendation.BasicWorkplace2 = Produziere fort_geschrittene Bau_materialien.
+Recommendation.House = Baue Häuser für deine Kolo_nisten.
+Recommendation.Leisure = Errichte Freizeit_aktivitäten für deine Kolo_nisten.
+UI.HappinessSummary = Zufriedenheit
+UI.HappinessSummary.Advanced = Luxusbedürfnisse:
+UI.HappinessSummary.Critical = Grundbedürfnisse:
