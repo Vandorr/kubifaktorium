@@ -519,10 +519,13 @@ ObjectType.StatueTrain = Zug-Statue
 ObjectType.StatueTrain.Desc = Eine Statue eines Zuges.
 ObjectType.Depot5x5 = Depot 5x5
 ObjectType.Depot5x5.Desc = ##depots können Waren lagern und verteilen.
-ObjectType.DepotEntry = Depot-Eingang
-ObjectType.DepotEntry.Desc = Lege Gegen_stände hier ab, um sie ins ##depot zu bringen.
-ObjectType.DepotExit = Depot-Ausgang
-ObjectType.DepotExit.Desc = Fordert Waren aus dem ##depot an.
+ObjectType.DepotEntry = Depot_eingang
+ObjectType.DepotEntry.Desc = Baue Depot_eingänge innerhalb von ##depots. Gegen_stände die hier abgelegt werden, werden ins Depot gebracht.
+ObjectType.DepotExit = Depot_ausgang
+ObjectType.DepotExit.Desc = Baue Depot_ausgänge innerhalb von ##depots. Im Depot gelagerte Gegenstände werden hierher gebracht.
+
+  
+
 ObjectType.Harbour = Hafen
 ObjectType.Harbour.Desc = Häfen bieten eine Anlege_stelle für ##cargoshipe.
 ObjectType.IronHammer = Eisen_hammer
@@ -2225,7 +2228,7 @@ ObjectType.DecoSnowRocks = Kleine Steine
 ObjectType.DecoSnowRocks.Desc = Kann durch Abbauen entfernt werden.
 ObjectType.Floor_Grassland_Ice = Eis
 ObjectType.Floor_Grassland_Ice.Desc = Eis
-ObjectType.SnowBench = Bank
+ObjectType.SnowBench = Bank im Schnee
 ObjectType.SnowBench.Desc = Wenn ein Kolonist erschöpft ist kann er hier entspannen.
 ObjectType.SnowMan = Schneemann
 ObjectType.SnowMan.Desc = Mag die kalte Umgebung.
@@ -2437,7 +2440,8 @@ UI.SelectedRobots = Ausgewählte Roboter
 
 
 Carriage.Status.ManualSchedule.Desc = Um einen Bahnhof zum Fahrplan hinzuzufügen, wähle den Wagen aus und klicke mit der rechten Maustaste auf den Bahnhof. Um einen Bahnhof zu entfernen, klicke auf seinen Eintrag im Fahrplan.
-Message.Recommendation.Complete = Glückwunsch!<br>Fertiggestellt: $1<br>Belohnung: $2 #Money#
+#<br>Belohnung: $2 #Money#
+Message.Recommendation.Complete = Glückwunsch!<br>Aufgabe erfüllt: $1
 Modifier.MapGoalClaim.Name = Ziel: Erobere Karte
 Modifier.MapGoalDefeatEnemies.Name = Ziel: Besiege Gegner
 Modifier.MapGoalEarnMoney.Name = Ziel: Geld verdienen
