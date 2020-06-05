@@ -1622,7 +1622,7 @@ Message.TradeCaravan.NewContent = New goods are available at the trading hub.
 Objective.DefeatEnemies = Defeat enemy camps ($2 remaining).
 Objective.DefeatEnemies.Desc = Claim the map, find and defeat enemy camps.
 
-Modifier.EarnMoney = Export goods to earn money
+Modifier.EarnMoney = Export goods to earn money.
 Objective.EarnMoney = Money earned: $2 / $3
 Objective.EarnMoney.Desc = Build a shipping port and export goods to earn money. 
 
@@ -1637,7 +1637,7 @@ UI.Producing = Producing $1 ($2%)
 UI.SelectedRobots = Selected robots
 
 Recommendation.Title = Set up a $1 ($2 #Money#)
-Message.Recommendation.Complete = Congratulations!<br>Completed: $1<br>Reward: $2 #Money#
+Message.Recommendation.Complete = Congratulations!<br>Completed: $1
 Message.Recommendation.Complete.VictoryScreen = Recommendation:<br>$1
 
 UI.Price = Price: $1
@@ -1667,3 +1667,7 @@ Objective.Happy.Desc = Supply food and drinks, build leisure activities, decorat
 UI.HappinessSummary = Happiness
 UI.HappinessSummary.Critical = Critical needs: 
 UI.HappinessSummary.Advanced = Advanced needs: 
+
+UI.Hoppers = Place hoppers
+UI.Hoppers.Desc = Hoppers are used to set from where items will be brought into the depot (entry hopper) or where they will be unloaded to (exit hopper). 
+
