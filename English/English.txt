@@ -309,8 +309,8 @@ Objective.ProductionTask.Desc = To produce a good, select a workshop and click o
 Objective.SettlersEquipTool = Tools equipped ($2/$3)
 Objective.SettlersEquipTool.Desc = Colonists auto_matically equip the ##tools they need. Produce the tools they need to make them more productive.
 
-Objective.SetActorTaskGroup = Assign $5 to work in $1.
-Objective.SetActorTaskGroup.Desc = To make $5 work in $1, select $5 and click on #$7# $1. Alter_natively, you can manage your colonists' jobs from the settler management screen.
+Objective.SetActorTaskGroup = Assign $5 to work in $4.
+Objective.SetActorTaskGroup.Desc = To make $5 work in $4, select $5 and click on #$7# $4. Alter_natively, you can manage your colonists' jobs from the settler management screen.
 
 Objective.SettlerTaskGroup = Assign job: $4 ($2/$3)
 Objective.SettlerTaskGroup.Desc = To make a colonist do $4 jobs, select him/her and click on #$7# $4. Alter_natively, you can manage your colonists' jobs in the #People# colonist management screen.
