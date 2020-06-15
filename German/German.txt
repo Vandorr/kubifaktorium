@@ -965,7 +965,7 @@ Task.Unequip.Text = Lege Ausrüstung ab
 Task.Unload.Text = Entlade $1
 Task.Wander.Text = Wandere
 
-TipOfTheDay.2 = Deine Kolo_nisten können nicht sterben. Wenn sie verwundet werden, heilen sie sich im Schlaf.
+TipOfTheDay.2 = Deine Kolo_nisten können nicht verhungern oder verdursten. 
 TipOfTheDay.3 = Wenn du eine Ressource zum Abbau markierst, halte die Alt-Taste um alle Ressourcen vom gleichen Typ zu markieren.
 TipOfTheDay.4 = Du kannst ein exist_ierendes Gebäude klonen indem du die Alt-Taste hältst und auf das Gebäude klickst.
 
@@ -1697,7 +1697,7 @@ Train.Status.Okay.Desc = Der Zug fährt zur nächsten Station.
 UI.AcrossIslands = Für alle Inseln: $1
 UI.ActorInfo = Kolonist/_Tierinfo:
 UI.Attack.Miss = Daneben!
-UI.AttackCamp.Desc = Besiege Gegner, um dein ##territory zu erweitern. Im Gegen_satz zu deinen Feinden können deine Kolo_nisten nicht sterben. Ein starkes Lager wieder_holt anzu_greifen, ist eine gute Strate_gie für den Sieg.
+UI.AttackCamp.Desc = Besiege Gegner, um dein ##territory zu erweitern. Baue Kampfroboter um deine Feinde anzugreifen. 
 UI.Build.AwaitingConstruction.Desc = Der Baubeginn erfolgt, sobald ein Kolonist verfügbar ist.
 UI.Build.InProgress.Desc = Ein Kolo_nist wird alle benötigten Güter bringen und mit dem Bau beginnen.
 UI.Build.MissingMaterials.Desc = Deinen Kolo_nisten fehlen Ressourcen, um dieses Gebäude zu bauen.
