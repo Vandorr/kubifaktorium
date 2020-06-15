@@ -921,7 +921,7 @@ UI.Tier3 = Tier 3
 
 TipOfTheDay.Header=Tip:
 TipOfTheDay.1=Your objectives are displayed in the top left. Mouse over them for more information. Click on the light bulb to open the help window. Take your time - your colonists will not starve.
-TipOfTheDay.2=Your colonists cannot die. When they get hurt, they will heal while sleeping.
+TipOfTheDay.2=Your colonists cannot starve or die of thirst.
 TipOfTheDay.3=When selecting resources to be mined, hold the alt-key to mark all objects of the same type in your territory.
 TipOfTheDay.4=You can clone an existing building by holding the alt-key and clicking on it.
 TipOfTheDay.5=While adding a workshop's recipe hold the alt-key to auto_matically update  the accepted goods of its output stockpiles.
@@ -1126,7 +1126,7 @@ UI.CombatState.Waiting = (Waiting)
 UI.CombatState.Title = Combat in progress!
 
 UI.Attack.Miss = Miss!
-UI.AttackCamp.Desc = Defeat enemy camps to claim their ##territory. Unlike your enemies, your colonists cannot die. Attacking a strong camp repeatedly is a valid strategy for victory.
+UI.AttackCamp.Desc = Defeat enemy camps to claim their ##territory. Build combat robots to attack your enemies.
 
 ## 1.5.2019 
 
