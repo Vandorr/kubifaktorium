@@ -1521,9 +1521,16 @@ ShippingPort.Status.Idle = Shipping port is idle.
 
 UI.ShippingPort.AutomationMode = Automation mode
 UI.ShippingPort.AutomationMode.Desc = While in automation mode, the shipping port will ignore connected import stockpiles and import goods requested by exit hoppers. 
+UI.ShippingPort.AutomationModeEx = Automation mode
+UI.ShippingPort.AutomationModeEx.Desc = While in automation mode, the shipping port will ignore connected export stockpiles and export goods provided by entry hoppers. 
 
 ShippingPort.Status.NoExitHopper = No exit hopper placed. 
 ShippingPort.Status.NoExitHopper.Desc = While in automation mode, the shipping port will ignore connected import stockpiles and import goods requested by exit hoppers.
+
+
+ShippingPort.Status.NoEntryHopper = No entry hopper placed. 
+ShippingPort.Status.NoEntryHopper.Desc = While in automation mode, the shipping port will ignore connected export stockpiles and export goods provided by entry hoppers.
+
 
 ShippingPort.Status.NoExitHopperValidType = No valid import type assigned. 
 ShippingPort.Status.NoExitHopperValidType.Desc = To assign goods for import, select an exit hopper and set it to accept one ore more good types, that can be imported.
