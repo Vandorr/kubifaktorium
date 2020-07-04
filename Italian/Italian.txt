@@ -1,24 +1,24 @@
 language = Italian
-locali = IT
+locales = IT
 fallback = English
  
 
-#Il formato generale del file di localizzazione per ogni riga è <key> = <valore>, ad esempio "UI.BuildTrain = Build train". <key> non deve essere modificato, <value> deve essere tradotto, quindi ad es. "UI.BuildTrain = Baue Zug".
-#Una riga che inizia con "#" viene ignorata e può essere utilizzata per i commenti.
-#La riga "fallback = English" specifica quale lingua utilizzare quando non è possibile trovare una determinata stringa. Di solito l'inglese è una buona scelta in quanto è di solito la più aggiornata ma altre lingue possono essere scelte se sono più vicine alla lingua di destinazione.
-#Il gioco supporta la sillabazione per le lingue con stringhe lunghe come il tedesco. Per usarlo, usa il carattere "_" per inserire un trattino morbido nei punti in cui una parola può essere sillabata. Lo consiglio per parole più lunghe di 12-15 caratteri. Ad esempio: "recommen_dations" o "trans_portation".
-#Una stringa nel formato "# <id> #" provoca l'inserimento di un'icona, ad es. "#sole#". Si noti che l'id non deve essere tradotto, altrimenti non verrà trovato e tradotto correttamente.
-#Una stringa nel formato "## <id>" crea una parola chiave. Parole chiave come "## daytime" verranno tradotte in una parola sottolineata "daytime". Inoltre, una spiegazione verrà aggiunta sotto, di solito nelle descrizioni comandi. Ancora una volta, l'id non deve essere tradotto. Tuttavia, il testo esplicativo (le righe con i tasti come ## inattivo) dovrebbe.
-#Stringhe come "$ 1", "$ 2" ecc. Sono segnaposto per numeri e altre cose che verranno riempite dal gioco. Ad esempio "Tasso di crescita durante il giorno: $ 1%" diventerà "Tasso di crescita durante il giorno: 75%" durante il runtime.
-#Se richiesto per qualche motivo, puoi utilizzare <br> per creare un'interruzione di riga. Comunque consiglio di non usarlo.
-#Ogni volta che avvii il gioco con un nuovo file di traduzione, verrà creato automaticamente un elenco delle righe di traduzione mancanti. Ciò è utile sia per iniziare che per mantenere la traduzione aggiornata quando vengono aggiunte nuove stringhe. Il file può essere trovato in C: \ Users \ <nomeutente> \ AppData \ LocalLow \ MirkoStudio \ Kubifaktorium \ Missing_ <language> .txt su Windows o ~ / .config / unity3d / MirkoStudio / Kubifaktorium / su Linux.
+# Il formato generale del file di localizzazione per ogni riga è <key> = <valore>, ad esempio "UI.BuildTrain = Build train". <key> non deve essere modificato, <value> deve essere tradotto, quindi ad es. "UI.BuildTrain = Baue Zug".
+# Una riga che inizia con "#" viene ignorata e può essere utilizzata per i commenti.
+# La riga "fallback = English" specifica quale lingua utilizzare quando non è possibile trovare una determinata stringa. Di solito l'inglese è una buona scelta in quanto è di solito la più aggiornata ma altre lingue possono essere scelte se sono più vicine alla lingua di destinazione.
+# Il gioco supporta la sillabazione per le lingue con stringhe lunghe come il tedesco. Per usarlo, usa il carattere "_" per inserire un trattino morbido nei punti in cui una parola può essere sillabata. Lo consiglio per parole più lunghe di 12-15 caratteri. Ad esempio: "recommen_dations" o "trans_portation".
+# Una stringa nel formato "# <id> #" provoca l'inserimento di un'icona, ad es. "#sole#". Si noti che l'id non deve essere tradotto, altrimenti non verrà trovato e tradotto correttamente.
+# Una stringa nel formato "## <id>" crea una parola chiave. Parole chiave come "## daytime" verranno tradotte in una parola sottolineata "daytime". Inoltre, una spiegazione verrà aggiunta sotto, di solito nelle descrizioni comandi. Ancora una volta, l'id non deve essere tradotto. Tuttavia, il testo esplicativo (le righe con i tasti come ## inattivo) dovrebbe.
+# Stringhe come "$ 1", "$ 2" ecc. Sono segnaposto per numeri e altre cose che verranno riempite dal gioco. Ad esempio "Tasso di crescita durante il giorno: $ 1%" diventerà "Tasso di crescita durante il giorno: 75%" durante il runtime.
+# Se richiesto per qualche motivo, puoi utilizzare <br> per creare un'interruzione di riga. Comunque consiglio di non usarlo.
+# Ogni volta che avvii il gioco con un nuovo file di traduzione, verrà creato automaticamente un elenco delle righe di traduzione mancanti. Ciò è utile sia per iniziare che per mantenere la traduzione aggiornata quando vengono aggiunte nuove stringhe. Il file può essere trovato in C: \ Users \ <nomeutente> \ AppData \ LocalLow \ MirkoStudio \ Kubifaktorium \ Missing_ <language> .txt su Windows o ~ / .config / unity3d / MirkoStudio / Kubifaktorium / su Linux.
 
-#Le traduzioni finite possono essere condivise e sincronizzate su: https://github.com/Vandorr/kubifaktorium
-#Visitaci su discord.gg/kubifaktorium per ottenere l'accesso e condividere il lavoro di localizzazione con altri esseri umani amichevoli. :)
+# Le traduzioni finite possono essere condivise e sincronizzate su: https://github.com/Vandorr/kubifaktorium
+# Visitaci su discord.gg/kubifaktorium per ottenere l'accesso e condividere il lavoro di localizzazione con altri esseri umani amichevoli. :)
 
 
 
-#Traduzione italiana a cura di AndyD
+# Traduzione italiana a cura di AndyD
 
 
 ##zone = zone
@@ -100,16 +100,16 @@ fallback = English
 
 ##tool = Tool
 ##tool.Desc = Tool: consente ai tuoi coloni di costruire, estrarre o raccogliere edifici e risorse di livello superiore. I coloni forniranno auto_maticamente lo strumento di massima qualità disponibile per il loro compito principale assegnato.
-##depot = depot
-##depot.Desc = Depot: utilizzato per immagazzinare e distribuire merci. Utilizzare tramogge di entrata e uscita per inserire ed estrarre merci.
+##depot = deposito
+##depot.Desc = Deposito: utilizzato per immagazzinare e distribuire merci. Utilizzare tramogge di entrata e uscita per inserire ed estrarre merci.
 
 ##robot = robot
 ##robot.Desc = Robot: può eseguire compiti semplici. Non migliora l'abilità ##skill con esperienza e richiede olio per funzionare. Può essere impostato per funzionare in più modalità.
 
-##carriage = carrozza
+##carriage = carrello
 ##carriage.Desc = I carrelli trasporta automaticamente le merci tra le stazioni di trasporto collegate. Selezionare una stazione e fare clic con il tasto destro su un'altra stazione per collegarle.
 
-#Message
+# Messages
 Message.AreaExpanded = Abbiamo ampliato il nostro territorio!
 Message.AreaLost = Abbiamo perso il territorio!
 Message.WeAreUnderAttack = Siamo sotto attacco!
@@ -143,7 +143,7 @@ UI.Grove = Grove ///G///
 UI.Grove.Desc = Crea o espandi un ##grovezone.
 UI.Farm = Farm ///F///
 UI.Farm.Desc = Crea un nuovo ##farmzone o espandi una zona esistente.
-UI.InventoryMenu = Inventory ///I///
+UI.InventoryMenu = Inventario ///I///
 UI.InventoryMenu.Title = Inventario
 UI.InventoryMenu.Desc = Visualizza l'inventario della tua colonia e gestisci come vengono utilizzate le merci.
 UI.UnloadAll = Scarica tutto.
@@ -156,7 +156,7 @@ UI.UsedToConstruct = Usato per costruire
 
 UI.Acceleration = Accellerazione: $1
 UI.ClaimRange = Intervallo di reclamo: $1
-UI.Faction = Status
+UI.Faction = Stato
 UI.Fight = Comanda i tuoi guerrieri.
 UI.Fight.Desc = Imposta una bandiera da rally per i tuoi coloni. Tutti i coloni che portano un'arma si riuniranno attorno a questa bandiera e attaccheranno i nemici a vista.
 UI.GrowTime = Tempo di crescita: $ 1s
@@ -165,7 +165,7 @@ UI.GrowthRateNight = Tasso di crescita notturna: $1%
 UI.MovementSpeed ​​= Velocità di movimento: $1
 UI.DamageUnarmed = Danno: $1
 UI.VisionRange = Intervallo di visione: $1
-UI.Eats = Eats: $1
+UI.Eats = Mangiare: $1
 UI.Drinks = Bevande: $1
 UI.Harbour.Explanation = Le ##Cargoships consegnano manufatti da isole precedentemente colonizzate.
 UI.HitpointMax = Max. HP: $1
@@ -602,7 +602,7 @@ LoadingPhase.ModelGeneration = Generazione di modelli: $1%
 LoadingPhase.ObjectMaterialCombiner = Combinazione di materiali.
 LoadingPhase.ObjectTreeExporter = Esportazione dell'albero degli oggetti.
 
-UI.Weight = ##weight: $ 1
+UI.Weight = ##Weight: $ 1
 UI.Weight.Desc = Il ##weight dell'articolo.
 UI.CanBeMined = Può essere estratto
 
@@ -651,7 +651,7 @@ Settings.RightDrag = RMB-Drag
 Settings.RightDrag.Desc = Trascina la mappa tenendo premuto il tasto destro del mouse. Ruotalo tenendo premuto il pulsante centrale del mouse.
 LoadingPhase.Combining = Combinazione di presa
 
-UI.ClearZone = Vendi/Decostruisci/Cancella zona ///Z///
+UI.ClearZone = Vendi / Decostruisci / Cancella zona ///Z///
 UI.ClearZone.Desc = Distruggi un edificio o rimuovi un ##Stockpilezone, ##Farmzone o ##Grovezone. Utilizzare ##Keycycle per alternare più oggetti sulla stessa tessera.
 UI.ClearZone.Hint = V: ciclo tra oggetti
 
@@ -680,13 +680,13 @@ Farm.Status.UnderConstruction = Sotto costruzione
 Message.CombatInProgress = $1 è sotto attacco!
 
 UI.SurveyInfo = Mini sondaggio
-Settings.Surveys = sondaggi
-Settings.Surveys.Desc = Visualizza i sondaggi nel menu principale.
-Settings.Lights = Luci
-Settings.Lights.Desc = Visualizza le luci nella scena (richiede il ricaricamento della mappa).
+Settings.Surveys=sondaggi
+Settings.Surveys.Desc=Visualizza i sondaggi nel menu principale.
+Settings.Lights=Luci
+Settings.Lights.Desc=Visualizza le luci nella scena (richiede il ricaricamento della mappa).
 
-Settings.Tooltips = Strumento per suggerimenti
-Settings.Tooltips.Desc = Visualizza i suggerimenti quando si passa con il mouse sopra i pulsanti, ecc. Se disabilitato, è ancora possibile vedere i suggerimenti quando si tiene premuto il tasto Maiusc mentre si sposta il mouse.
+Settings.Tooltips=Strumento per suggerimenti
+Settings.Tooltips.Desc=Visualizza i suggerimenti quando si passa con il mouse sopra i pulsanti, ecc. Se disabilitato, è ancora possibile vedere i suggerimenti quando si tiene premuto il tasto Maiusc mentre si sposta il mouse.
 
 
 UI.FightClose = Rimuovi la bandiera del rafuno.
@@ -721,7 +721,7 @@ CargoShip.State.LEAVE = Uscita dal porto mercantile.
 
 
 UI.Food = Stock alimentare
-UI.Food.Desc = Fornisci cibo per i tuoi coloni ben nutrito per renderli più produttivi.
+UI.Food.Desc = Fornisci ##food per i tuoi coloni ben nutrito per renderli più produttivi.
 
 UI.Drink = Bere brodo
 UI.Drink.Desc = Fornisci da ##drink ai tuoi coloni per renderli più produttivi.
@@ -864,7 +864,7 @@ Tool.Hit = Probabilità di successo
 Tool.Hit.Desc = La probabilità di successo determina la probabilità che un'attività venga completata correttamente, ad es. che un nemico viene colpito o che un tentativo di produzione ha successo.
 
 Tool.Crit = Probabilità critica
-Tool.Crit.Desc = Probabilità che un successo sia fondamentale. I colpi d'arma critici infliggono danni bonus. I successi di scavaggio critici producono beni bonus.
+Tool.Crit.Desc = Probabilità che un successo sia fondamentale. I colpi d'arma critici infliggono danni bonus. I successi di scavaggio critici producono beni bonus. 
 
 
 MainMenu.Skirmish.Scenarios = Scenari
@@ -882,7 +882,7 @@ Building.Mode.Desc = Fare clic per alternare tra attivo e inattivo.
 Building.Mode.Enabled = Edificio attivo.
 Building.Mode.Disabled = Edificio inattivo.
 
-UI.TypeNameFilter = Cerca per tipo ...
+UI.TypeNameFilter = Cerca per tipo...
 UI.DecorationValue = ##Decoration: intervallo $2
 UI.HousingValue = ##House: qualità $1, posti $2
 UI.HousingValue.High = alto
@@ -919,20 +919,20 @@ UI.Tier2 = Livello 2
 UI.Tier3 = Livello 3
 
 
-TipOfTheDay.Header = Suggerimento:
-TipOfTheDay.1 = I tuoi obiettivi sono visualizzati in alto a sinistra. Passaci sopra con il mouse per maggiori informazioni. Fare clic sulla lampadina per aprire la finestra della guida. Prenditi il ​​tuo tempo - i tuoi coloni non moriranno di fame.
-TipOfTheDay.2 = I tuoi coloni non possono morire di fame o morire di sete.
-TipOfTheDay.3 = Quando si selezionano le risorse da estrarre, tenere premuto il tasto Alt per contrassegnare tutti gli oggetti dello stesso tipo nel proprio territorio.
-TipOfTheDay.4 = Puoi clonare un edificio esistente tenendo premuto il tasto Alt e facendo clic su di esso.
-TipOfTheDay.5 = Mentre aggiungi la ricetta di un'officina, tieni premuto il tasto Alt per aggiornare automaticamente le merci accettate delle sue scorte di produzione.
-TipOfTheDay.6 = Premi shift-F1 per salvare la posizione corrente della telecamera. Premere F1 per tornare a quella posizione. (Funziona con F1-F4)
-TipOfTheDay.7 = Premi F11 per nascondere l'interfaccia utente.
-TipOfTheDay.8 = Premi Shift-F12 per fare uno screenshot. <br> <br> Salva cartelle su Win/Linux/Mac: <br>C:\Users_\<nomeutente>_\AppData_\LocalLow_\MirkoStudio_\Kubifak_torium_\. ..<br>~/.config_/unity3d_/MirkoStudio_/Kubifak_torium_/<br>~/Library/Application Support/unity.Unity Technologies.Unity Labs
+TipOfTheDay.Header=Suggerimento:
+TipOfTheDay.1=I tuoi obiettivi sono visualizzati in alto a sinistra. Passaci sopra con il mouse per maggiori informazioni. Fare clic sulla lampadina per aprire la finestra della guida. Prenditi il ​​tuo tempo - i tuoi coloni non moriranno di fame.
+TipOfTheDay.2=I tuoi coloni non possono morire di fame o morire di sete.
+TipOfTheDay.3=Quando si selezionano le risorse da estrarre, tenere premuto il tasto Alt per contrassegnare tutti gli oggetti dello stesso tipo nel proprio territorio.
+TipOfTheDay.4=Puoi clonare un edificio esistente tenendo premuto il tasto Alt e facendo clic su di esso.
+TipOfTheDay.5=Mentre aggiungi la ricetta di un'officina, tieni premuto il tasto Alt per aggiornare automaticamente le merci accettate delle sue scorte di produzione.
+TipOfTheDay.6=Premi shift-F1 per salvare la posizione corrente della telecamera. Premere F1 per tornare a quella posizione. (Funziona con F1-F4)
+TipOfTheDay.7=Premi F11 per nascondere l'interfaccia utente.
+TipOfTheDay.8=Premi Shift-F12 per fare uno screenshot. <br> <br> Salva cartelle su Win/Linux/Mac: <br>C:\Users_\<nomeutente>_\AppData_\LocalLow_\MirkoStudio_\Kubifak_torium_\. ..<br>~/.config_/unity3d_/MirkoStudio_/Kubifak_torium_/<br>~/Library/Application Support/unity.Unity Technologies.Unity Labs
 
 
 
-TipOfTheDay.9 = Fai clic sul pannello descrizione di un elemento per aprire la panoramica dell'albero della produzione.
-TipOfTheDay.10 = Fai clic su un edificio consigliato per costruirlo. Fare clic su un elemento consigliato per selezionare un'officina in cui può essere costruito.
+TipOfTheDay.9=Fai clic sul pannello descrizione di un elemento per aprire la panoramica dell'albero della produzione.
+TipOfTheDay.10=Fai clic su un edificio consigliato per costruirlo. Fare clic su un elemento consigliato per selezionare un'officina in cui può essere costruito.
 
 UI.RecipieHint = <i> Fai clic su una ricetta per attivarla o disattivarla. Tenere premuto il tasto Alt per aggiornare auto_maticamente i prodotti accettati delle scorte di produzione.</i>
 
@@ -1003,8 +1003,8 @@ UI.Randomize = Rendi casuale
 Objective.AnyStockpileAcceptsType = Imposta scorta per accettare $1.
 Objective.AnyStockpileAcceptsType.Desc = Per modificare un set di prodotti accettati di ##stockpilezone, selezionalo e fai clic sui prodotti nel pannello informazioni.
 
-## productiontarget = Obbiettivo inventario
-## productiontarget.Desc = Obbiettivo di inventario: quantità di merci che devi produrre su ogni isola per fare progressi nella campagna.
+##productiontarget = Obbiettivo inventario
+##productiontarget.Desc = Obbiettivo di inventario: quantità di merci che devi produrre su ogni isola per fare progressi nella campagna.
 
 
 
@@ -1028,7 +1028,7 @@ Settings.StreamDeck.Desc = Supporto Stream Deck. Richiede il riavvio.
 
 UI.ActiveJobs = Lavori
 
-TipOfTheDay.11 = Puoi usare i depositi di zeppelin come scorte. Puoi usarli come input o output per officine, fattorie ecc.
+TipOfTheDay.11=Puoi usare i depositi di zeppelin come scorte. Puoi usarli come input o output per officine, fattorie ecc.
 
 
 UI.Follow = Segui oggetto ///O///
@@ -1128,7 +1128,7 @@ UI.CombatState.Title = Combattimento in corso!
 UI.Attack.Miss = Miss!
 UI.AttackCamp.Desc = Sconfiggi i campi nemici per rivendicare il loro ##territory. Costruisci robot da combattimento per attaccare i tuoi nemici.
 
-1.5.2019
+## 1.5.2019
 
 UI.IdleFighters = Robot da combattimento
 UI.IdleFighters.Desc = Clicca qui per selezionare tutti i tuoi robot da combattimento.
@@ -1225,7 +1225,7 @@ UI.CurrentlyInStock = In inventario: $1
 UI.PropagateToAll = Propaga la produzione.
 UI.PropagateToAll.Desc = Imposta tutte le scorte di produzione per accettare alla produzione di questa officina.
 
-TipOfTheDay.13 = Quando mancano le risorse necessarie, è possibile creare un porto di spedizione per importarle. Esportare beni prodotti per permetterseli.
+TipOfTheDay.13=Quando mancano le risorse necessarie, è possibile creare un porto di spedizione per importarle. Esportare beni prodotti per permetterseli.
 
 
 
@@ -1243,7 +1243,7 @@ UI.TargetsForTier = Target per bioma $1:
 Objective.CarriageSchedule = Aggiungi $5 al programma di trasporto $3
 Objective.CarriageSchedule.Desc = Per aggiungere una stazione al programma di una carrozza, selezionare la carrozza e fare clic con il tasto destro del mouse sulla stazione che si desidera aggiungere. Fare di nuovo clic per rimuovere la stazione.
 
-
+				
 UI.Skirmish.Cargohint = Suggerimento: per provare un terreno diverso, seleziona gli scenari Modello Livello 2 o 3. Ciò assicurerà di avere a bordo il carico adeguato.
 
 Carriage.Schedule = Programma di trasporto
@@ -1282,7 +1282,7 @@ UI.Upgrade = Seleziona gli oggetti potenziati da creare.
 UI.Upgrade.Desc = Nel workshop di upgrade due articoli di una qualità vengono combinati per produrre un articolo di qualità superiore.
 
 
-TipOfTheDay.14 = Puoi rinominare coloni, zone e alcuni edifici. Per fare ciò, selezionali e fai clic sul loro nome nella parte superiore del pannello informativo.
+TipOfTheDay.14=Puoi rinominare coloni, zone e alcuni edifici. Per fare ciò, selezionali e fai clic sul loro nome nella parte superiore del pannello informativo.
 
 TipOfTheDay.15 = I coloni si muovono più velocemente quando non portano strumenti. Annulla l'assegnazione di tutti i compiti e i seminari per trasformare un colono in un trasportatore.
 
@@ -1345,8 +1345,8 @@ TipOfTheDay.18 = Quando esaurisci le risorse che devi progredire, costruisci un 
 
 UI.Pasture = Pascolo ///U///
 UI.Pasture.Desc = Crea o espandi un ##pasturezone.
-## pasturezone = Pascolo
-## pasturezone.Desc = Zona di pascolo: può essere assegnato su terreno fertile per raccogliere e ospitare animali neutri.
+##pasturezone = Pascolo
+##pasturezone.Desc = Zona di pascolo: può essere assegnato su terreno fertile per raccogliere e ospitare animali neutri.
 
 TaskGroup.Pasture = Lavoro nel ranch
 TaskGroup.Pasture.Desc = Gli allevatori addomesticano gli animali selvatici e tendono agli animali in ##pasturezones.
@@ -1383,7 +1383,7 @@ UI.SocialBuilding = Edificio ##Social.
 
 UI.Error.LastBonfire = Non puoi rimuovere l'ultimo falò.
 
-# 20.7.2019
+## 20.7.2019
 UI.Vein.Destroy = Vena di copertura
 UI.Vein.Destroy.Desc = Distrugge questa vena e ti permette di costruire altre cose in cima. Avviso: non può essere annullato.
 UI.House.ForColonists = Coloni:
@@ -1417,7 +1417,7 @@ Savegame.Version = Versione del gioco:
 Savegame.ModsInUse = Mod in uso:
 Savegame.TimeSaved = Salvato su:
 
-UI.EnterText = Inserisci testo...
+UI.EnterText=Inserisci testo...
 
 Settings.AssistMode = Modalità assistenza
 Settings.AssistMode.Desc = Semplifica alcune meccaniche per rendere il gioco più semplice da raccogliere per i nuovi giocatori: 1) Assegna automaticamente i coloni a tutti i compiti/seminari. 2) I prodotti dell'officina vengono assegnati automaticamente alle loro scorte di output. 3) Alcuni oggetti come i materiali da costruzione vengono scaricati automaticamente dalla tua nave. 4) Aggiunge tutti i colori/zone a tutti i coloni.
@@ -1481,14 +1481,14 @@ Savegame.ModsInUse.None = (Nessuna mod utilizzata.)
 
 
 
-## critchance = Probabilità critica
-## critchance.Desc = Possibilità di successo critico. (Determinato dall'abilità)
+##critchance = Probabilità critica
+##critchance.Desc = Possibilità di successo critico. (Determinato dall'abilità)
 
-## successchance = Probabilità di successo
-## successchance.Desc = Possibilità di successo. (Determinato dall'abilità)
+##successchance = Probabilità di successo
+##successchance.Desc = Possibilità di successo. (Determinato dall'abilità)
 
-## movespeed = Velocità di movimento
-## movespeed = Fattore di velocità di movimento. (Determinato dalla felicità)
+##movementspeed = Velocità di movimento
+##movementspeed = Fattore di velocità di movimento. (Determinato dalla felicità)
 
 UI.ShippingPort.Import = Importa merci
 UI.ShippingPort.Import.Desc = Fare clic per disattivare la merce ordinata (influisce solo sulle spedizioni future). Per importare merci collegare questa porta di spedizione a una scorta e impostarla in modo da accettare ciò che si desidera importare.
@@ -1643,11 +1643,11 @@ UI.Producing = Produrre $1 ($2%)
 
 UI.SelectedRobots = Robot selezionati
 
-Raccomandazione.Titolo = Imposta un $1 ($2 #Money#)
+Recommendation.Title = Imposta un $1 ($2 #Money#)
 Message.Recommendation.Complete = Congratulazioni! <br> Completato: $1
 Message.Recommendation.Complete.VictoryScreen = Raccomandazione: <br> $1
 
-Prezzo UI. = Prezzo: $1
+UI.Price = Prezzo: $1
 
 UI.UpgradeInProgress = Aggiornamento in corso.
 
@@ -1667,7 +1667,7 @@ ActorState.FavoriteDecoration.No = Richiede $1.
 
 
 Modifier.Happy = Rendi felici i coloni
-Objective.Happy = Happy: $2/$3 coloni
+Objective.Happy = Felici: $2/$3 coloni
 Objective.Happy.Desc = Fornisci cibo e bevande, costruisci attività per il tempo libero, decorazioni e alloggi per rendere felici i tuoi coloni.
 
 
