@@ -438,7 +438,7 @@ Text.BackerRaft.Desc = Sent by $1.
 
 BuildingType.Actor = Actor
 BuildingType.Actor.Desc = Spawn colonists, enemies and animals.
-BuildingType.Decoration = Decoration ///1///
+BuildingType.Decoration = Housing, social and decoration ///1///
 BuildingType.Decoration.Desc = Decoration makes your colony more pretty and improves your colonists' happiness.
 BuildingType.Defense = Defense
 BuildingType.Defense.Desc = Walls and towers. 
@@ -452,9 +452,9 @@ BuildingType.Logistics = Logistics ///3///
 BuildingType.Logistics.Desc = Buildings and machinery to automate your production.
 BuildingType.None = Miscel_laneous ///4///
 BuildingType.None.Desc = Miscel_laneous buildings.
-BuildingType.Refining = Refining
+BuildingType.Refining = Mining and refining
 BuildingType.Refining.Desc = Workshops to refine and dispose of resources.
-BuildingType.Workshop = Workshop ///5///
+BuildingType.Workshop = Workshops ///5///
 BuildingType.Workshop.Desc = Workshops to produce ##tools, weapons and machinery.
 BuildingType.AutoWorkshop = Factory
 BuildingType.AutoWorkshop.Desc = Factories produce goods without the need to be operated by colonists.
@@ -1678,3 +1678,10 @@ UI.HappinessSummary.Advanced = Advanced needs:
 UI.Hoppers = Place hoppers
 UI.Hoppers.Desc = Hoppers are used to set from where items will be brought into the depot (entry hopper) or where they will be unloaded to (exit hopper). 
 
+
+UI.PowerPoleTitle = Energy
+UI.PowerPoleTitle.Stored = Stored energy: $1 / $2 MWh
+UI.Power.Title = Power:
+UI.Power.Range = Extension range: $1
+UI.Power.Capacity = Capacity: $1 MWh
+UI.Power.Generation = Generation: $1 MWh / cycle 
