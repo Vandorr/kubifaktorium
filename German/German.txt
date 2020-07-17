@@ -303,7 +303,7 @@ Faction.Neutral = Neutral
 
 Text.BackerRaft.Desc = Gesendet von $1.
 BuildingType.Actor = Lebewesen
-BuildingType.Decoration = Dekoration ///1///
+BuildingType.Decoration = Häuser, Dekoration und Freizeit ///1///
 BuildingType.Decoration.Desc = Dekorative Gegen_stände machen Kolo_nisten glücklicher und produktiver.
 BuildingType.Defense = Verteidigung
 BuildingType.Defense.Desc = Wände und Türme.
