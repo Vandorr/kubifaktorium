@@ -24,7 +24,7 @@ fallback=English
 
 
 MainMenu.NewCampaign = Nouvelle Campagne
-MainMenu.ResumeCampaign = Continuer Campagne
+MainMenu.ResumeCampaign = Continuer
 MainMenu.PlayTutorial = Jouer aux Tutoriels
 MainMenu.PlayCustomMap = Jouer Carte Perso
 MainMenu.Settings = Paramètres
