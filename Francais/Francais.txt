@@ -1756,3 +1756,211 @@ UI.Mod.Missing = manquant
 Savegame.Type.World = Sauvegarder Carte du Monde
 Savegame.Type.Island = Sauvegarder Ile
 Savegame.ModsInUse.None = (Aucun mod utilisé)
+
+
+
+
+##critchance = Chance critique
+##critchance.Desc = Une chance de succès critique. (Déterminé par la compétence)
+
+##successchance = Chance de réussite
+##successchance.Desc = Une chance de réussir. (Déterminé par la compétence)
+
+##movementspeed = Vitesse de déplacement
+##movementspeed = Facteur de vitesse de déplacement. (Déterminé par le bonheur)
+
+UI.ShippingPort.Import = Importation de marchandises
+UI.ShippingPort.Import.Desc = Cliquez pour basculer d'une marchandise à l'autre (N'affecte que les envois futurs). Pour importer des marchandises, il faut relier ce port maritime à un stock et le paramétrer pour qu'il accepte ce que vous voulez importer.
+UI.ShippingPort.Export = Exportation de marchandises
+UI.ShippingPort.Export.Desc = Cliquer pour basculer d'une marchandise à l'autre (N'affecte que les envois futurs). Pour exporter des marchandises, il faut relier un stock les contenant à ce port maritime. 
+
+UI.ShowAll = Afficher tous les éléments
+UI.ShowAll.Desc = Désactiver pour ne montrer que les éléments les plus pertinents dans le contexte actuel.
+
+UI.AreYouSure.Delete = Êtes-vous sûr de vouloir supprimer le fichier sélectionné ?
+UI.AreYouSure.Overwrite = Êtes-vous sûr de vouloir écraser le fichier sélectionné ?
+
+
+ShippingPort.Status.NoImportStockpile = Aucun stock d'importation n'est relié.
+ShippingPort.Status.NoImportStockpile.Desc = Pour importer des marchandises, il faut relier ce port maritime à un stock et le paramétrer pour qu'il accepte ce que vous voulez importer.
+
+ShippingPort.Status.NoExportStockpile = Aucun stock d'exportation n'est relié.
+ShippingPort.Status.NoExportStockpile.Desc = Pour exporter des marchandises, il faut relier un stock les contenant à ce port maritime. 
+
+ShippingPort.Status.NoImportValidType = Aucun type d'importation valable n'a été attribué.
+ShippingPort.Status.NoImportValidType.Desc = Pour affecter des marchandises à l'importation, sélectionnez un stock d'importation relié et réglez-le pour qu'il accepte un ou plusieurs types de marchandises pouvant être importées.
+
+ShippingPort.Status.NoExportValidType = Aucun type d'exportation valable n'a été attribué.
+ShippingPort.Status.NoExportValidType.Desc = To assign goods for export, select a connected export stockpile and set it to accept one or more good types that can be exported.
+
+ShippingPort.Status.Okay = Le port maritime fonctionne.
+ShippingPort.Status.Okay.Desc = Le port maritime est correctement paramétré.
+
+ShippingPort.Status.Idle = Le port maritime est inactif.
+
+UI.ShippingPort.AutomationMode = Mode automatisation
+UI.ShippingPort.AutomationMode.Desc = En mode automatisation, le port maritime ignore les stocks d'importation reliés et les marchandises d'importation demandées par les trémies de sortie. 
+UI.ShippingPort.AutomationModeEx = Mode automatisation
+UI.ShippingPort.AutomationModeEx.Desc = En mode automatisation, le port d'expédition ignore les stocks d'exportation connectés et les marchandises d'exportation fournies par les trémies d'entrée. 
+
+ShippingPort.Status.NoExitHopper = Pas de trémie de sortie placée. 
+ShippingPort.Status.NoExitHopper.Desc = En mode automatisation, le port maritime ignore les stocks d'importation connectés et les marchandises d'importation demandées par les trémies de sortie.
+
+
+ShippingPort.Status.NoEntryHopper = Aucune trémie d'entrée placée.
+ShippingPort.Status.NoEntryHopper.Desc = En mode automatisation, le port d'expédition ignore les stocks d'exportation connectés et les marchandises d'exportation fournies par les trémies d'entrée.
+
+
+ShippingPort.Status.NoExitHopperValidType = Aucun type d'importation valable n'a été attribué. 
+ShippingPort.Status.NoExitHopperValidType.Desc = Pour affecter des marchandises à l'importation, sélectionnez une trémie de sortie et réglez-la pour qu'elle accepte un ou plusieurs types de marchandises pouvant être importées.
+
+
+ 
+
+
+Debug.audiodebug = Panneau Debug Audio
+Debug.audiodebug.Desc = Jouez les sons du jeu (utile pour le débogage et la conception audio).
+
+
+Message.Ingredients.Missing = Ingrédients manquants : $1
+Message.Building.Complete = $1 terminé $2.
+
+UI.ColonistScreen.NameHead = Nom
+
+Conveyor.Status.AdjacentDistributors = Distributeurs de bandes transporteuses adjacents.
+Conveyor.Status.AdjacentDistributors.Desc = Les distributeurs de bandes transporteuses ne peuvent pas être placés les uns à côté des autres. 
+
+Conveyor.Status.Operational = Le convoyeur fonctionne.
+Conveyor.Status.Operational.Desc = Le convoyeur est correctement installé.  
+
+
+WorkshopAuto.Status.NoOutput = No output stockpile or inserter assigned.
+WorkshopAuto.Status.NoOutput.Desc = You need to assign an output stockpile or build an inserter to unload this workshop's output goods. To link an output ##stockpilezone, left-_click the workshop and right-_click the stockpile where you want the workshop's output to go. Workshops will produce until the linked stockpiles are full.
+WorkshopAuto.Status.NoOutputForProduct = Output stockpiles don't accept products.
+WorkshopAuto.Status.NoOutputForProduct.Desc = To change the accepted goods of a ##stockpilezone, left-_click it and change the types by selecting them in the panel.
+
+WorkshopAuto.Status.PartialServe = Not all inputs supplied by inserters.
+WorkshopAuto.Status.PartialServe.Desc = Make sure all input spots are supplied by inserters. 
+
+UI.DomesticAnimal = Animal domestique. 
+UI.DomesticAnimal.Desc = Peut être recruté dans votre colonie. 
+
+
+
+Settings.ZoomAnimation = Animation de zoom
+Settings.ZoomAnimation.Desc = Transition en douceur lors d'un zoom avant / arrière.
+
+UI.Saturation = Saturation
+UI.SettlerScreen.Filter = Filtre :
+
+UI.UpgradeBuilding = Améliorer vers $1.
+UI.UpgradeBuilding.Desc = Améliorer ce bâtiment en $1. Requiert $2. 
+
+UI.RequiredTool = Outil requis
+UI.RequiredTool.Desc = Des ressources de meilleure qualité nécessitent de meilleurs ##tools pour être extraites ou récoltées. Vous pouvez fabriquer des outils dans l'atelier d'outillage.
+UI.RequiredTool.None = Aucun outil n'est requis.
+UI.RequiredTool.Lvl = Requiert $1.
+UI.RequiredToolPlant.Lvl = Outils adaptés à la récolte : $1 
+
+UI.Build.NoTool = Les travailleurs ont besoin de meilleurs outils.
+UI.Build.NoTool.Desc = To construct higher tier buildings your colonists require better ##tools. Have a look at the building's info tooltip (hover over it's description above) to see what type and quality of tool you need.
+
+Farm.Status.NoTool = Les travailleurs ont besoin de meilleurs outils.
+Farm.Status.NoTool.Desc = To harvest higher tier plants and trees your colonists require better ##tools. Have a look at the plant's info tooltip (hover over it's name) to see what type and quality of tool you need.
+
+
+UI.BuildInstantly = (Built instantly.)
+
+
+
+
+UI.ResetTasks = Réinitialiser les tâches.
+UI.ResetTasks.Desc = Clear all task assignments.
+UI.ResetWorkshops = Réinitialiser le workshops.
+UI.ResetWorkshops.Desc = Clear all workshop assignments.
+UI.Autoassign = Auto-assign.
+UI.Autoassign.Desc = Automatically assign task and workshops to the most competent colonists.
+
+
+ActorState.Sum.Happy = Bonheur
+ActorState.Sum.Unhappy = Insatisfaction
+ActorState.Sum.Neutral = Neur 
+
+
+ActorState.Title.BasicNeeds = Besoins primaires :
+ActorState.Title.SecondaryNeeds = Besoins secondaires :
+
+UI.Confirm.ReturnToWorldMap = Êtes-vous sûr de vouloir abandonner l'île actuelle et revenir sur la carte du monde ?
+UI.ReturnToWorldMap = Retourner à la carte du monde
+
+Logistics.Status.CarriageLinkedButNotStation = 
+
+
+UI.DepotExit.LogisticsMode = Conveyor mode
+UI.DepotExit.LogisticsMode.Desc = While in conveyor mode, this depot will transport outgoing goods using conveyor belts. Build depot exits, conveyor belts and inserters. Have a look at the corresponding tutorial for more information. 
+
+Message.TradeCaravan.NoSpace = Not enough free space available to receive items. 
+
+Message.TradeCaravan.NewContent = New goods are available at the trading hub. 
+
+
+
+Objective.DefeatEnemies = Defeat enemy camps ($2 remaining).
+Objective.DefeatEnemies.Desc = Claim the map, find and defeat enemy camps.
+
+Modifier.EarnMoney = Export goods to earn money.
+Objective.EarnMoney = Money earned: $2 / $3
+Objective.EarnMoney.Desc = Build a shipping port and export goods to earn money. 
+
+Modifier.Claim = Etendre ventre territoire
+Objective.Claim = Claim land: $2 / $3 tuiles
+Objective.Claim.Desc = Build bonfires and defeat enemy camps to expand your territory.
+
+MapModifier.FulfillProductionTarget.Intro = Produce goods to fulfill your inventory target.
+
+UI.Producing = Production $1 ($2%)
+
+UI.SelectedRobots = Robots sélectionnés
+
+Recommendation.Title = Installer $1 ($2 #Money#)
+Message.Recommendation.Complete = Félicitations !<br>Terminé : $1
+Message.Recommendation.Complete.VictoryScreen = Recommandation :<br>$1
+
+UI.Price = Prix : $1
+
+UI.UpgradeInProgress = Amélioration en cours.
+
+
+UI.TradeCaravan.TimeLeft = Nouvelles offres dans $1:$2
+
+UI.QuickDeconstruct = Etes-vous sûr de vouloir déconstruire $1 ?
+UI.IsWater = Peut être utilisé pour arroser les fermes. 
+
+
+
+ActorState.FavoriteLeisureActivity.Yes = Utilisé $1.
+ActorState.FavoriteLeisureActivity.No = Besoins de $1.
+
+ActorState.FavoriteDecoration.Yes = $1 existe.
+ActorState.FavoriteDecoration.No = Besoins de $1.
+
+
+Modifier.Happy = Rendre les colons heureux
+Objective.Happy = Bonheur : $2 / $3 colons
+Objective.Happy.Desc = Fournissez de la nourriture et des boissons, construisez des activités de loisirs, de la décoration et des logements pour rendre vos colons heureux.
+
+
+UI.HappinessSummary = Bonheur
+UI.HappinessSummary.Critical = Besoins critiques : 
+UI.HappinessSummary.Advanced = Besoins avancés : 
+
+UI.Hoppers = Placer les trémies
+UI.Hoppers.Desc = Les trémies sont utilisées pour définir l'endroit d'où les objets seront amenés dans le dépôt (trémie d'entrée) ou celui où ils seront déchargés (trémie de sortie). 
+
+
+UI.PowerPoleTitle = Energie
+UI.PowerPoleTitle.Stored = Energie stockée : $1 / $2 MWh
+UI.Power.Title = Puissance :
+UI.Power.Range = Extension range: $1
+UI.Power.Capacity = Capacité : $1 MWh
+UI.Power.Generation = Production : $1 MWh / cycle 
