@@ -1834,10 +1834,10 @@ Conveyor.Status.Operational = Le convoyeur fonctionne.
 Conveyor.Status.Operational.Desc = Le convoyeur est correctement installé.  
 
 
-WorkshopAuto.Status.NoOutput = No output stockpile or inserter assigned.
-WorkshopAuto.Status.NoOutput.Desc = You need to assign an output stockpile or build an inserter to unload this workshop's output goods. To link an output ##stockpilezone, left-_click the workshop and right-_click the stockpile where you want the workshop's output to go. Workshops will produce until the linked stockpiles are full.
-WorkshopAuto.Status.NoOutputForProduct = Output stockpiles don't accept products.
-WorkshopAuto.Status.NoOutputForProduct.Desc = To change the accepted goods of a ##stockpilezone, left-_click it and change the types by selecting them in the panel.
+WorkshopAuto.Status.NoOutput = Aucun stock de sortie ou d'insertion n'est attribué.
+WorkshopAuto.Status.NoOutput.Desc = Vous devez affecter un stock de sortie ou construire une inséreuse pour décharger les marchandises de sortie de cet atelier. Pour relier une ##zone de stockage sortante, cliquez avec le bouton gauche sur l'atelier et avec le bouton droit sur la zone de stockage où vous voulez que la production de l'atelier soit envoyée. Les ateliers produiront jusqu'à ce que les stocks liés soient pleins.
+WorkshopAuto.Status.NoOutputForProduct = Les stocks de sortie n'acceptent pas de marchandises.
+WorkshopAuto.Status.NoOutputForProduct.Desc = Pour modifier les marchandises acceptées d'une ##zone de stockage, cliquez dessus avec le bouton gauche de la souris et changez les types en les sélectionnant dans le panneau.
 
 WorkshopAuto.Status.PartialServe = Not all inputs supplied by inserters.
 WorkshopAuto.Status.PartialServe.Desc = Make sure all input spots are supplied by inserters. 
@@ -1863,28 +1863,28 @@ UI.RequiredTool.Lvl = Requiert $1.
 UI.RequiredToolPlant.Lvl = Outils adaptés à la récolte : $1 
 
 UI.Build.NoTool = Les travailleurs ont besoin de meilleurs outils.
-UI.Build.NoTool.Desc = To construct higher tier buildings your colonists require better ##tools. Have a look at the building's info tooltip (hover over it's description above) to see what type and quality of tool you need.
+UI.Build.NoTool.Desc = Pour construire des bâtiments de niveau supérieur, vos colons ont besoin de meilleurs ##outils. Consultez l'info-bulle du bâtiment (survolez sa description ci-dessus) pour savoir de quel type et de quelle qualité d'outil vous avez besoin.
 
 Farm.Status.NoTool = Les travailleurs ont besoin de meilleurs outils.
-Farm.Status.NoTool.Desc = To harvest higher tier plants and trees your colonists require better ##tools. Have a look at the plant's info tooltip (hover over it's name) to see what type and quality of tool you need.
+Farm.Status.NoTool.Desc = Pour récolter les plantes et les arbres de niveau supérieur, vos colons ont besoin de meilleurs ##outils. Consultez l'info-bulle de la plante (survolez son nom) pour savoir de quel type et de quelle qualité d'outil vous avez besoin.
 
 
-UI.BuildInstantly = (Built instantly.)
+UI.BuildInstantly = (Construit instantanément.)
 
 
 
 
 UI.ResetTasks = Réinitialiser les tâches.
-UI.ResetTasks.Desc = Clear all task assignments.
+UI.ResetTasks.Desc = Effacer toutes les affectations de tâches.
 UI.ResetWorkshops = Réinitialiser le workshops.
-UI.ResetWorkshops.Desc = Clear all workshop assignments.
+UI.ResetWorkshops.Desc = Effacer toutes les affectations de l'atelier.
 UI.Autoassign = Auto-assign.
-UI.Autoassign.Desc = Automatically assign task and workshops to the most competent colonists.
+UI.Autoassign.Desc = Attribuer automatiquement les tâches et les ateliers aux colons les plus compétents.
 
 
 ActorState.Sum.Happy = Bonheur
 ActorState.Sum.Unhappy = Insatisfaction
-ActorState.Sum.Neutral = Neur 
+ActorState.Sum.Neutral = Neutre
 
 
 ActorState.Title.BasicNeeds = Besoins primaires :
@@ -1896,27 +1896,27 @@ UI.ReturnToWorldMap = Retourner à la carte du monde
 Logistics.Status.CarriageLinkedButNotStation = 
 
 
-UI.DepotExit.LogisticsMode = Conveyor mode
-UI.DepotExit.LogisticsMode.Desc = While in conveyor mode, this depot will transport outgoing goods using conveyor belts. Build depot exits, conveyor belts and inserters. Have a look at the corresponding tutorial for more information. 
+UI.DepotExit.LogisticsMode = Mode convoyeur
+UI.DepotExit.LogisticsMode.Desc = En mode convoyeur, ce dépôt transportera les marchandises sortantes à l'aide de bandes transporteuses. Construisez des sorties de dépôt, des bandes transporteuses et des dispositifs d'insertion. Pour plus d'informations, consultez le tutoriel correspondant. 
 
-Message.TradeCaravan.NoSpace = Not enough free space available to receive items. 
+Message.TradeCaravan.NoSpace = Pas assez d'espace libre disponible pour recevoir des objets. 
 
-Message.TradeCaravan.NewContent = New goods are available at the trading hub. 
+Message.TradeCaravan.NewContent = De nouvelles marchandises sont disponibles au centre des échanges. 
 
 
 
-Objective.DefeatEnemies = Defeat enemy camps ($2 remaining).
-Objective.DefeatEnemies.Desc = Claim the map, find and defeat enemy camps.
+Objective.DefeatEnemies = Détruisez les camps ennemis ($2 restants).
+Objective.DefeatEnemies.Desc = Revendiquez la carte, trouvez et détruisez les camps ennemis.
 
-Modifier.EarnMoney = Export goods to earn money.
-Objective.EarnMoney = Money earned: $2 / $3
-Objective.EarnMoney.Desc = Build a shipping port and export goods to earn money. 
+Modifier.EarnMoney = Exporter des marchandises pour gagner de l'argent.
+Objective.EarnMoney = Argent gagné : $2 / $3
+Objective.EarnMoney.Desc = Construisez un port maritime et exportez des marchandises pour gagner de l'argent. 
 
 Modifier.Claim = Etendre ventre territoire
-Objective.Claim = Claim land: $2 / $3 tuiles
-Objective.Claim.Desc = Build bonfires and defeat enemy camps to expand your territory.
+Objective.Claim = Revendication de terres : $2 / $3 tuiles
+Objective.Claim.Desc = Construisez des bûchers et détruisez les camps ennemis pour étendre votre territoire.
 
-MapModifier.FulfillProductionTarget.Intro = Produce goods to fulfill your inventory target.
+MapModifier.FulfillProductionTarget.Intro = Produisez des marchandises pour atteindre votre objectif en matière de stocks.
 
 UI.Producing = Production $1 ($2%)
 
@@ -1961,6 +1961,6 @@ UI.Hoppers.Desc = Les trémies sont utilisées pour définir l'endroit d'où les
 UI.PowerPoleTitle = Energie
 UI.PowerPoleTitle.Stored = Energie stockée : $1 / $2 MWh
 UI.Power.Title = Puissance :
-UI.Power.Range = Extension range: $1
+UI.Power.Range = Zone d'extension : $1
 UI.Power.Capacity = Capacité : $1 MWh
 UI.Power.Generation = Production : $1 MWh / cycle 
