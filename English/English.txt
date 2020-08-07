@@ -434,7 +434,7 @@ Faction.Enemy = Hostile
 Faction.Neutral = Neutral
 
 
-Text.BackerRaft.Desc = Sent by $1.
+Text.BackerRaft.Desc = Donated by $1.
 
 BuildingType.Actor = Actor
 BuildingType.Actor.Desc = Spawn colonists, enemies and animals.
@@ -1685,3 +1685,98 @@ UI.Power.Title = Power:
 UI.Power.Range = Extension range: $1
 UI.Power.Capacity = Capacity: $1 MWh
 UI.Power.Generation = Generation: $1 MWh / cycle 
+UI.Power.GenerationDN = Generation: $1 MW (day), $2 MW (night) 
+
+
+
+
+Achievement.AnimalLover = Animal lover
+Achievement.AnimalLover.Desc = Take an animal to a pasture and gather the resource it produces.
+Achievement.Automation = Automation 
+Achievement.Automation.Desc = Build your first automated workshop.
+Achievement.BeOurMayor = Be our mayor!
+Achievement.BeOurMayor.Desc = Have more than 50 colonists. 
+Achievement.BeltWorld = Belt world 
+Achievement.BeltWorld.Desc = Place 100 conveyor belts.
+Achievement.BetterThanWater = Better than water 
+Achievement.BetterThanWater.Desc = Craft beer in a brewery.
+Achievement.BrewMaster = Brew master
+Achievement.BrewMaster.Desc = Have 5 different types of drinks at the same time.
+Achievement.CargoFleet = Cargo fleet
+Achievement.CargoFleet.Desc = Construct 5 shipping ports.
+Achievement.ColorCoding = Color coding 
+Achievement.ColorCoding.Desc = Have 5 different zones on a map.
+Achievement.Dentist = Where's the dentist?
+Achievement.Dentist.Desc = Produce the first chocolate milk.
+Achievement.DrDolittle = Dr. Dolittle
+Achievement.DrDolittle.Desc = Tame your first animal.
+Achievement.FastTransport = Fast transport 
+Achievement.FastTransport.Desc = Build your first conveyor belt.
+Achievement.GoodOldTimes = Good old times
+Achievement.GoodOldTimes.Desc = Transport an item using zeppelins.
+Achievement.HardEdge = Hard edge
+Achievement.HardEdge.Desc = Mine an object that requires iron pickaxes.
+Achievement.HardWorkers = Hard workers
+Achievement.HardWorkers.Desc = Make all your colonists happy on day 5 or later. 
+Achievement.Heretic = Heretic
+Achievement.Heretic.Desc = Tear down a temple.
+Achievement.IndustrialRevolution = Industrial revolution
+Achievement.IndustrialRevolution.Desc = Have automated workshops produce 5 different items at the same time.
+Achievement.KingOfTheAir = King of the air 
+Achievement.KingOfTheAir.Desc = Transport an item using zeppelins over a distance of 50 tiles.
+Achievement.KubiCrafting = KubiCrafting
+Achievement.KubiCrafting.Desc = Build your first basic workplace.
+Achievement.KubiReady = Kubi ready 
+Achievement.KubiReady.Desc = Complete 10 tutorials.
+Achievement.LivingOffTheLand = Living off the land
+Achievement.LivingOffTheLand.Desc = Have farms growing 3 different crops at the same time.
+Achievement.Lumberjack = Lumberjack
+Achievement.Lumberjack.Desc = Harvest wooden logs from a grove.
+Achievement.MakingItHome = Making it home 
+Achievement.MakingItHome.Desc = Reach day 50 on any island.
+Achievement.MakingMoney = Making money 
+Achievement.MakingMoney.Desc = Export your first item using the cargo port.
+Achievement.MasterChef = Master chef
+Achievement.MasterChef.Desc = Have 5 different types of food at the same time.
+Achievement.MoreLand = More land
+Achievement.MoreLand.Desc = Expand your territory.
+Achievement.NeighProblem = Neigh problem 
+Achievement.NeighProblem.Desc = Transport an item using horse carriages.
+Achievement.OneHereOneThere = One here, one there...
+Achievement.OneHereOneThere.Desc = Have 3 or more of each decoration building type. 
+Achievement.Protectors = Protectors
+Achievement.Protectors.Desc = Have 10 or more combat robots.
+Achievement.Route66 = Route 66 
+Achievement.Route66.Desc = Place 66 roads.
+Achievement.StoneAge = Stone age
+Achievement.StoneAge.Desc = Have 250 rocks and 50 stone blocks.
+Achievement.TheGloriousThree = The glorious three
+Achievement.TheGloriousThree.Desc = Use an automated workshop to craft a recipe that requires 3 input resources.
+Achievement.Tier2 = New oasis
+Achievement.Tier2.Desc = Reach a tier 2 island in campaign mode.
+Achievement.Tier3 = Ashen world
+Achievement.Tier3.Desc = Reach a tier 3 island in campaign mode.
+Achievement.Tutorial1 = Getting started
+Achievement.Tutorial1.Desc = Complete the first tutorial.
+Achievement.UpwardMobility = Upward mobility 
+Achievement.UpwardMobility.Desc = Place 10 upper level conveyor belts.
+Achievement.WellThatHelps = Well, that helps 
+Achievement.WellThatHelps.Desc = Construct a well.
+Achievement.WoodShop = Wood shop
+Achievement.WoodShop.Desc = Have 250 wooden logs and 50 wooden boards.
+
+Message.DonationReceived = $1 sent you a $2. How nice!
+Message.DonationSent = You sent a $1. 
+Message.DonationSent.ErrorNotAvailable = Item cannot be donated while it is reserved.
+
+Tooltip.ItemDonation = Donate item.
+Tooltip.ItemDonation.Desc = Donate this item to a random player. Item will be displayed as "sent by $1".
+
+Debug.GiveAchievement = Give achievement Tutorial1.
+Debug.ClearAchievement = Clear achievement Tutorial1.
+
+UI.FuelValue = Fuel value: $1 MWh
+
+
+WorkshopAuto.Status.NoEnergy = No energy
+WorkshopAuto.Status.NoEnergy.Desc = This building requires energy to work. Build power poles and generators like treadmills or solar cells to provide energy. 
