@@ -977,7 +977,7 @@ UI.WM.Inventory.Desc = Review the items you have harvested and produced so far.
 UI.VictoryScreen.Title = You have won!
 
 UI.LeaveMap = Leave island
-UI.LeaveMap.Desc = Leave this island and return to the world map.
+UI.LeaveMap.Desc = Leave this island and return to the world map. Buildings will be automatically deconstructed and items will be brought to your ship. Items exceeding the cargo capacity will be sold at half of their value.
 UI.IncreaseProductionTarget = Raise target 
 UI.IncreaseProductionTarget.Desc = Raising the ##productiontarget for this island will decrease the goods you will need to produce on other islands. <br>Note: You can leave this island at any time, even when you haven't met the raised target.
 Message.IncreaseProductionTarget = Inventory target raised to $1%.  
@@ -1469,6 +1469,7 @@ UI.ItemTier = Tier: $1
 Settings.ColorBlindMode = Color Blind Mode 
 Settings.ColorBlindMode.Desc = Changes some UI colors to make it easier to distinguish if you have impaired color vision. Requires restart to take effect.
 
+UI.ModsRequireRestart = <color="orange"><b>Hint: Changing the loaded mods requires a restart to take effect.</b>
 
 Workshop.Status.NoInputStockpileForRecipe = Required inputs not supplied by stockpiles.  
 Workshop.Status.NoInputStockpileForRecipe.Desc = None of the input stockpiles assigned to this workshop accept one or more of the goods required by the selected jobs. 
@@ -1780,3 +1781,6 @@ UI.FuelValue = Fuel value: $1 MWh
 
 WorkshopAuto.Status.NoEnergy = No energy
 WorkshopAuto.Status.NoEnergy.Desc = This building requires energy to work. Build power poles and generators like treadmills or solar cells to provide energy. 
+
+
+Debug.InvalidateTrainNetwork = Invalidate train network 
