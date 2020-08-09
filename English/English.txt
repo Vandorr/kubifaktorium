@@ -1784,3 +1784,6 @@ WorkshopAuto.Status.NoEnergy.Desc = This building requires energy to work. Build
 
 
 Debug.InvalidateTrainNetwork = Invalidate train network 
+
+UI.SettleDown = Settle down on this island.
+UI.SettleDown.Desc = Your ship can only carry a limited number of colonists to the next island. Colonists that are left behind will settle down and send money to your next colony. 
