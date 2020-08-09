@@ -1407,7 +1407,8 @@ UI.Conv.Desc = Erzeugt Fließ_bänder. <br>Drücke ##keyrotate zum Aus_richten. 
 UI.DeleteGame = Löschen
 UI.FarmModeWater = Bewässern
 UI.LeaveMap = Insel verlassen
-UI.LeaveMap.Desc = Verlasse diese Insel und kehre zur Welt_karte zurück.
+UI.LeaveMap.Desc = Verlasse diese Insel und kehre zur Welt_karte zurück. Gebäude werden automatisch abgerissen und Gegenstände werden auf dein Schiff gebracht. Gegenstände die nicht mehr passen werden automatisch zum halben Preis verkauft. 
+
 UI.LeaveMap.ItemWarning = Du musst mi_ndestens 10 #Log# Holz_scheite und 10 #MinedRock# Steine auf deinem ##Schiff haben, um die Insel ver_lassen zu können.
 UI.MineableContent = Im Berg vorhanden:
 UI.RecipieHint = <i>Klicke auf ein Rezept, um es zu aktivieren oder zu deak_tivieren. Halte die Alt-Taste gedrückt, um die akzeptierten Güter der Ausgangs_lager auto_matisch zu aktuali_sieren.</i>
