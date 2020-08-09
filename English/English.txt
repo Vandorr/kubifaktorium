@@ -1786,4 +1786,7 @@ WorkshopAuto.Status.NoEnergy.Desc = This building requires energy to work. Build
 Debug.InvalidateTrainNetwork = Invalidate train network 
 
 UI.SettleDown = Settle down on this island.
-UI.SettleDown.Desc = Your ship can only carry a limited number of colonists to the next island. Colonists that are left behind will settle down and send money to your next colony. 
+UI.SettleDown.Desc = Your ship can only carry a limited number of colonists to the next island. Colonists that are left behind will settle down and send money to your future colonies. 
+
+UI.SettlerScreen.SettleDown = $1 colonists will settle down and send $2 #Money#. $3/$4 colonists will travel to the next island. 
+UI.SettlerScreen.SettleDown.Desc = Your ship can only carry a limited number of colonists to the next island. Colonists that are left behind will settle down and send money to your future colonies. 
