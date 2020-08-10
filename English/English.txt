@@ -1769,6 +1769,8 @@ Achievement.WoodShop.Desc = Have 250 wooden logs and 50 wooden boards.
 Message.DonationReceived = $1 sent you a $2. How nice!
 Message.DonationSent = You sent a $1. 
 Message.DonationSent.ErrorNotAvailable = Item cannot be donated while it is reserved.
+Message.DonationSent.ErrorNoMods = Item from mods cannot be donated.
+
 
 Tooltip.ItemDonation = Donate item.
 Tooltip.ItemDonation.Desc = Donate this item to a random player. Item will be displayed as "sent by $1".
@@ -1788,5 +1790,16 @@ Debug.InvalidateTrainNetwork = Invalidate train network
 UI.SettleDown = Settle down on this island.
 UI.SettleDown.Desc = Your ship can only carry a limited number of colonists to the next island. Colonists that are left behind will settle down and send money to your future colonies. 
 
-UI.SettlerScreen.SettleDown = $1 colonists will settle down and send $2 #Money#. $3/$4 colonists will travel to the next island. 
+UI.SettlerScreen.SettleDown = $1 colonists will settle down and send $2 coins/day. $3/$4 colonists will travel to the next island. 
 UI.SettlerScreen.SettleDown.Desc = Your ship can only carry a limited number of colonists to the next island. Colonists that are left behind will settle down and send money to your future colonies. 
+
+Message.Leave.TooFewColonists = You need to take at least $1 colonists to the next island.
+Message.Leave.TooManyColonists = You can take no more than $1 colonists to the next island.
+Message.SettledColonistsSend = Your previous colonies have sent you $1 #Money#. 
+
+UI.WM.IslandTooltip.MoneyTransfer = Sends you $1 #Money# per day.
+
+UI.FuelTypes = Fuel types:
+
+BuildingType.Energy = Energy
+BuildingType.Energy.Desc = Buildings for energy generation, storage and distribution.
