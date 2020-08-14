@@ -1293,7 +1293,7 @@ TipOfTheDay.17 = You can link your ship to a stockpile. Doing so will make your 
 
 MainMenu.Notice.Demo = This is a demo version with limited functionality. Click here to visit the game's Steam page to buy the Early Access version or wishlist the game to get notified of updates. Thanks :)
 
-MainMenu.Notice.EarlyAccess = Welcome to the Early Access version of Kubifaktorium! Here are some general tips for the current version: <br>- I recommend playing the tutorials to get started.<br> - The grassland and desert biomes are quite playable. Everything beyond (automation, conveyor belts etc.) is early in development. To learn more, have a look at the game's road map. <br> - When playing the campaign, please save the game every time you come back to the world map. <br> - If you encounter a bug, please report it using the in-game reporting tool (button in the top right). <br> - The best place to chat about the game is the official Discord server. <br>Thank you for playing, I hope you enjoy the game! :) <br>  Mirko 
+MainMenu.Notice.EarlyAccess = Welcome to the Early Access version of Kubifaktorium! Here are some general tips for the current version: <br>- I recommend playing the tutorials to get started.<br> - The grassland and desert biomes are quite playable. Everything beyond (automation, conveyor belts etc.) is still in development. To learn more, have a look at the game's road map. <br> - When playing the campaign, please save the game every time you come back to the world map. <br> - If you encounter a bug, please report it using the in-game reporting tool (button in the top right). <br> - The best place to chat about the game is the official Discord server. <br>Thank you for playing, I hope you enjoy the game! :) <br>  Mirko 
 
 
 # 15.6.2019
@@ -1471,7 +1471,7 @@ Settings.ColorBlindMode.Desc = Changes some UI colors to make it easier to disti
 
 UI.ModsRequireRestart = <color="orange"><b>Hint: Changing the loaded mods requires a restart to take effect.</b>
 
-Workshop.Status.NoInputStockpileForRecipe = Required inputs not supplied by stockpiles.  
+Workshop.Status.NoInputStockpileForRecipe = Required inputs not supplied.  
 Workshop.Status.NoInputStockpileForRecipe.Desc = None of the input stockpiles assigned to this workshop accept one or more of the goods required by the selected jobs. 
 
 UI.Mod.Missing = missing
