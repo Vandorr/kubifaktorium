@@ -1359,7 +1359,7 @@ UI.PastureYield = Yields $1 every $2 seconds when kept in pasture.
 UI.PastureYield.Short = Yield when in pasture
 UI.PastureCapacity = Capacity used: $1 / $2
 Task.Tame.Text = Taming $1.
-Task.YieldAnimal.Text = Milking $1.
+Task.YieldAnimal.Text = Gathering resource from $1.
 
 
 Pasture.Status.Idle = Idle.
@@ -1766,7 +1766,7 @@ Achievement.WellThatHelps.Desc = Construct a well.
 Achievement.WoodShop = Wood shop
 Achievement.WoodShop.Desc = Have 250 wooden logs and 50 wooden boards.
 
-Message.DonationReceived = $1 sent you a $2. How nice!
+Message.DonationReceived = $1 sent you a(n) $2. How nice!
 Message.DonationSent = You sent a $1. 
 Message.DonationSent.ErrorNotAvailable = Item cannot be donated while it is reserved.
 Message.DonationSent.ErrorNoMods = Item from mods cannot be donated.
