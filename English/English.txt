@@ -1384,8 +1384,8 @@ UI.SocialBuilding = ##Social building.
 UI.Error.LastBonfire = You cannot remove your last bonfire.
 
 ## 20.7.2019
-UI.Vein.Destroy = Cover vein
-UI.Vein.Destroy.Desc = Destroys this vein and allows you to build other things on top. Warning: Cannot be undone. 
+UI.Vein.Destroy = Cover vein/well
+UI.Vein.Destroy.Desc = Destroys this vein or well and allows you to build other things on top. Warning: Cannot be undone. 
 UI.House.ForColonists = Colonists:
 UI.House.ForAnimals = Animals:
 
@@ -1803,3 +1803,15 @@ UI.FuelTypes = Fuel types:
 
 BuildingType.Energy = Energy
 BuildingType.Energy.Desc = Buildings for energy generation, storage and distribution.
+
+UI.DistributorMode = Distributor mode:
+UI.DistributorMode.Normal = Cycle 
+UI.DistributorMode.Normal.Desc = Automatically cycle through inputs and outputs (default). 
+UI.DistributorMode.Equal = Fixed ratio
+UI.DistributorMode.Equal.Desc = Preserve fixed ratio of inputs (e.g. to provide automated workshops). Only works with one output belt.
+UI.DistributorMode.1 = Prioritize output 1
+UI.DistributorMode.1.Desc = Deliver goods to output 1 whenever possible.
+UI.DistributorMode.2 = Prioritize output 2
+UI.DistributorMode.2.Desc = Deliver goods to output 2 whenever possible.
+UI.DistributorMode.3 = Prioritize output 3
+UI.DistributorMode.3.Desc = Deliver goods to output 3 whenever possible.
