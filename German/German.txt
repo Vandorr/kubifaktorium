@@ -207,7 +207,7 @@ Objective.Load = Lade $1 ($2/$3)
 Objective.Load.Desc = Um ein Objekt auf das Schiff zu laden, klicke auf die Lade-Schaltfläche und markiere ein oder mehrere Objekte.
 Objective.MiningJob = Erzeuge Abbau_aufgaben ($2/$3)
 Objective.MiningJob.Desc = Um eine Ressource auszuwählen, die ##mine werden soll, klicke auf die #Mine# Abbau-Schalt_fläche und wähle sie aus. Beachte, dass Kolo_nisten nur Ressourcen in ihrem ##territory abbauen können.
-Objective.ProductionTask = Setze Produktion auf $1
+Objective.ProductionTask = Setze Produktion auf $1 ($2/$3)
 Objective.ProductionTask.Desc = Um eine Ware zu produ_zieren, wähle eine Werk_statt und klicke auf die Ware, die produ_ziert werden soll.
 Objective.SettlersEquipTool = Werkzeuge ausgerüstet ($2/$3)
 Objective.SettlersEquipTool.Desc = Kolo_nisten rüsten auto_matisch die ##toole aus, die sie benötigen. Produziere die Werk_zeuge, die sie brauchen, um sie zufrieden zu stellen.
@@ -2687,3 +2687,53 @@ UI.Power.Title = Energie:
 UI.PowerPoleTitle = Energie
 UI.PowerPoleTitle.Stored = Gespeicherte Energie: $1 / $2 MWh
 
+
+
+
+BuildingType.Energy = Energie
+BuildingType.Energy.Desc = Gebäude zur Energieerzeugung oder -Verteilung.
+ConvTutPart2.Outro = Tipp: Du kannst ines Verteiler auswählen um seine Ausgabepriorität zu ändern. 
+Debug.InvalidateTrainNetwork = Invalidate train network
+Message.DonationSent.ErrorNoMods = Gegenstände aus Mods können nicht gespendet werden.
+Message.DonationSent.ErrorNotThis = Dieser Gegenstand kann nicht gespendet werden.
+Message.Leave.TooFewColonists = Du musst mindestens $1 Kolonisten mitnehmen.
+Message.Leave.TooFewColonists.Short = Zu wenig Kolonisten.
+Message.Leave.TooManyColonists = Du kannst nicht mehr als $1 Kolonisten mitnehmen.
+Message.Leave.TooManyColonists.Short = Zu viele Kolonisten.
+Message.SettledColonistsSend = Deine niedergelassenen Kolonisten haben dir $1 #Money# geschickt.
+ObjectType.DepotExitOverflow = Depotausgang (Überfluss)
+ObjectType.DepotExitOverflow.Desc = Gegenstände werden hierhin gebracht wenn das ##depot zu mehr als 75% voll ist.
+ObjectType.Graveyard = Graveyard
+ObjectType.Graveyard.Desc = Ein Ort der ewigen Ruhe. Wahrscheinlich.
+ObjectType.HorseBarn = Pferdescheune
+ObjectType.HorseBarn.Desc = Bietet Platz für 3 neue Pferde.
+ObjectType.HorseStation3x3 = Pferdebahnhof
+ObjectType.HorseStation3x3.Desc = Bahnhof der von ##carriage angefahren wird. Plus ein ges_chenkter Gaul!
+ObjectType.PowerPlant = Kraftwerk
+ObjectType.PowerPlant.Desc = Verwandelt Brennstoff in Energie.
+ObjectType.SolarCell = Solarzelle
+ObjectType.SolarCell.Desc = Ein fortgeschrittener Weg der Energieerzeugung.
+
+SetBertaWorkshop.Outro = Hint: Alternativ kannst du Kolonisten einem bestimmten Arbeitsplatz zuweisen indem du sie auswählst und auf den Arbeitsplatz rechts-klickst.
+UI.DistributorMode = Verteilermodus:
+UI.DistributorMode.1 = Priorität Ausgang 1
+UI.DistributorMode.1.Desc = Liefere Güter an Ausgang 1 wenn möglich.
+UI.DistributorMode.2 = Priorität Ausgang 2
+UI.DistributorMode.2.Desc = Liefere Güter an Ausgang 2 wenn möglich.
+UI.DistributorMode.3 = Priorität Ausgang 3
+UI.DistributorMode.3.Desc = Liefere Güter an Ausgang 3 wenn möglich.
+UI.DistributorMode.Equal = Festes Verhältnis
+UI.DistributorMode.Equal.Desc = Bewahre ein festes Verhältnis der eingehenden Güter (zum Beispiel um automatisierte Werkstätten zu versorgen). Funktioniert nur mit einem Ausgang.
+UI.DistributorMode.Normal = Automatisch wechseln
+UI.DistributorMode.Normal.Desc = Wechselt automatisch zwische Ein- und Ausgängen (Standard).
+UI.FuelTypes = Brennstoffe:
+UI.FuelValue = Brennstoffwert: $1 MWh
+UI.ModsRequireRestart = <color="orange"><b>Hinweis: Benötigt einen Neustart des Spiels.</b>
+UI.Power.GenerationDN = Erzeugt: $1 MW (Tag), $2 MW (Nacht)
+UI.SettleDown = Auf dieser Insel niederlassen.
+UI.SettleDown.Desc = Dein Schiff kann nur eine begrenzte Anzahl an Kolonisten auf die nächste Insel mitnehmen. Kolonisten die zurückgelassen werden lassen sich nieder und schicken regelmäßig Geld an deine neuen Kolonien.
+UI.SettlerScreen.SettleDown = $1 Kolonisten lassen sich nieder und senden $2 Münzen/Tag. $3/$4 Kolonisten reisen mit zur nächsten Insel.
+UI.SettlerScreen.SettleDown.Desc = Dein Schiff kann nur eine begrenzte Anzahl an Kolonisten auf die nächste Insel mitnehmen. Kolonisten die zurückgelassen werden lassen sich nieder und schicken regelmäßig Geld an deine neuen Kolonien.
+UI.WM.IslandTooltip.MoneyTransfer = Sendet dir $1 #Money# pro Tag.
+WorkshopAuto.Status.NoEnergy = Keine Energie
+WorkshopAuto.Status.NoEnergy.Desc = Dieses Gebäude benötigt Energie um zu funktionieren. Baue energieerzeugende Gebäude und Strommasten um es mit Energie zu versorgen.
