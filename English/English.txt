@@ -304,7 +304,7 @@ Objective.LinkFarmToStockpile = Link farm to stockpile ($2/$3)
 Objective.LinkFarmToStockpile.Desc = To link a ##farmzone to a ##stockpilezone, left-_click the farm and right-_click on the stockpile. Crops on farms will be harvested until the linked stockpiles are full.
 Objective.MiningJob = Create mining tasks ($2/$3)
 Objective.MiningJob.Desc = To select a resource to be ##mined, click the #Mine# mine button and select the things to be mined. Drag an area to mine everything within. Note that your colonists can only mine resources within your ##territory.
-Objective.ProductionTask = Set production: $1
+Objective.ProductionTask = Set production: $1 ($2/$3)
 Objective.ProductionTask.Desc = To produce a good, select a workshop and click on the good you want it to produce.
 Objective.SettlersEquipTool = Tools equipped ($2/$3)
 Objective.SettlersEquipTool.Desc = Colonists auto_matically equip the ##tools they need. Produce the tools they need to make them more productive.
@@ -1770,6 +1770,7 @@ Message.DonationReceived = $1 sent you a(n) $2. How nice!
 Message.DonationSent = You sent a $1. 
 Message.DonationSent.ErrorNotAvailable = Item cannot be donated while it is reserved.
 Message.DonationSent.ErrorNoMods = Item from mods cannot be donated.
+Message.DonationSent.ErrorNotThis = This item cannot be donated.
 
 
 Tooltip.ItemDonation = Donate item.
@@ -1793,8 +1794,11 @@ UI.SettleDown.Desc = Your ship can only carry a limited number of colonists to t
 UI.SettlerScreen.SettleDown = $1 colonists will settle down and send $2 coins/day. $3/$4 colonists will travel to the next island. 
 UI.SettlerScreen.SettleDown.Desc = Your ship can only carry a limited number of colonists to the next island. Colonists that are left behind will settle down and send money to your future colonies. 
 
-Message.Leave.TooFewColonists = You need to take at least $1 colonists to the next island.
-Message.Leave.TooManyColonists = You can take no more than $1 colonists to the next island.
+Message.Leave.TooFewColonists.Short = Too few colonists
+Message.Leave.TooManyColonists.Short = Too many colonists 
+
+Message.Leave.TooFewColonists = You need to take at least $1 colonists to the next island. You can change which colonists will settle down in the colonist management screen.
+Message.Leave.TooManyColonists = You can take no more than $1 colonists, animals and robots to the next island. You can change which colonists will settle down in the colonist management screen.
 Message.SettledColonistsSend = Your previous colonies have sent you $1 #Money#. 
 
 UI.WM.IslandTooltip.MoneyTransfer = Sends you $1 #Money# per day.
@@ -1815,3 +1819,7 @@ UI.DistributorMode.2 = Prioritize output 2
 UI.DistributorMode.2.Desc = Deliver goods to output 2 whenever possible.
 UI.DistributorMode.3 = Prioritize output 3
 UI.DistributorMode.3.Desc = Deliver goods to output 3 whenever possible.
+
+
+Objective.SetDistributorModeFixed = Set distributor $5 to fixed mode
+Objective.SetDistributorModeFixed.Desc = To set distributor $5 to fixed output mode, select it and click on the '='-icon in the panel on the right side. 
