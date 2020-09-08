@@ -1823,3 +1823,6 @@ UI.DistributorMode.3.Desc = Deliver goods to output 3 whenever possible.
 
 Objective.SetDistributorModeFixed = Set distributor $5 to fixed mode
 Objective.SetDistributorModeFixed.Desc = To set distributor $5 to fixed output mode, select it and click on the '='-icon in the panel on the right side. 
+
+UI.RemoveRecommendation = Remove recommendation
+UI.RemoveRecommendation.Desc = Remove this recommendation from the list and replace it with a new one. 
