@@ -877,10 +877,10 @@ UI.ItemTypes.Title = Item types:
 
 
 
-Building.Mode = Building mode. 
+Building.Mode = Building mode
 Building.Mode.Desc = Click to toggle between active and inactive.
-Building.Mode.Enabled = Building active.
-Building.Mode.Disabled = Building inactive.
+Building.Mode.Enabled = Building active
+Building.Mode.Disabled = Building inactive
 
 UI.TypeNameFilter = Search for type...
 UI.DecorationValue = ##Decoration: Range $2
@@ -1826,3 +1826,17 @@ Objective.SetDistributorModeFixed.Desc = To set distributor $5 to fixed output m
 
 UI.RemoveRecommendation = Remove recommendation
 UI.RemoveRecommendation.Desc = Remove this recommendation from the list and replace it with a new one. 
+
+
+Debug.EgoCamera = Toggle ego-camera.
+Debug.EgoCamera.Desc = Use arrow keys and pos1/end to move the camera, use mouse look to rotate the camera. Use the screen position keys (shift F1-F3) and cinematic camera key (F10) to use the cinematic camera. <br>Useful for making screenshots and short footage videos. Not useful for playing the game. :)  
+
+
+ShippingPort.Status.ShouldHaveNoImportStockpile = Import stockpile in automation mode.
+ShippingPort.Status.ShouldHaveNoImportStockpile.Desc = When automation mode is used for importing, no stockpile should be linked.
+
+ShippingPort.Status.ShouldHaveNoExportStockpile = Export stockpile in automation mode.
+ShippingPort.Status.ShouldHaveNoExportStockpile.Desc = When automation mode is used for exporting, no stockpile should be linked.
+
+ShippingPort.Status.ShouldHaveNoExitHopper = Exit hopper without automation mode.
+ShippingPort.Status.ShouldHaveNoExitHopper.Desc = Exit hoppers will not work correctly unless automation mode is used. 
