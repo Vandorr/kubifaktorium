@@ -1840,3 +1840,5 @@ ShippingPort.Status.ShouldHaveNoExportStockpile.Desc = When automation mode is u
 
 ShippingPort.Status.ShouldHaveNoExitHopper = Exit hopper without automation mode.
 ShippingPort.Status.ShouldHaveNoExitHopper.Desc = Exit hoppers will not work correctly unless automation mode is used. 
+
+UI.RequiresBlueprint = Requires blueprint
