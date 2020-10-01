@@ -1842,3 +1842,12 @@ ShippingPort.Status.ShouldHaveNoExitHopper = Exit hopper without automation mode
 ShippingPort.Status.ShouldHaveNoExitHopper.Desc = Exit hoppers will not work correctly unless automation mode is used. 
 
 UI.RequiresBlueprint = Requires blueprint
+
+MainMenu.VideoSettings = Video settings
+UI.Apply = Apply
+
+UI.ApplyResolution.Testing = Settings reset in $1s. Click "Apply" again to confirm changes.
+UI.FullScreenMode.Windowed = Windowed
+UI.FullScreenMode.MaximizedWindow = Max. Window
+UI.FullScreenMode.FullScreenWindow = Fullscreen
+UI.FullScreenMode.ExclusiveFullScreen = Excl. Fullscreen
