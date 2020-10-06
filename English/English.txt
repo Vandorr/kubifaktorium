@@ -746,6 +746,8 @@ Robot.Mode.OFF = Off
 Robot.Mode.ECO = Eco mode
 Robot.Mode.NORMAL = Normal mode
 Robot.Mode.OVERCLOCKED = Overclocked
+Robot.Disassemble = Disassemble robot
+Robot.Disassemble.Desc = Disassemble the robot and get back its original components.
 
 MainMenu.Tutorials = Tutorials and example scenes
 
