@@ -163,6 +163,7 @@ UI.GrowTime = Time to grow: $1s
 UI.GrowthRateDay = Growth rate at daytime: $1%
 UI.GrowthRateNight = Growth rate at nighttime: $1%
 UI.MovementSpeed = Movement speed: $1
+UI.CarryingStrength = Carrying strength: $1
 UI.DamageUnarmed = Damage: $1
 UI.VisionRange = Vision range: $1
 UI.Eats = Eats: $1
@@ -528,6 +529,10 @@ Settings.SSScale = Screenshot SS
 Settings.SSScale.Desc = Upscaling factor of the screenshots.
 Settings.Weather = Weather effects
 Settings.Weather.Desc = Visual weather effects like rain and snow.
+Settings.Lightning = Lightning effects
+Settings.Lightning.Desc = Disable lightning effects e.g. if you are prone to visual-based seizures.
+Settings.WarningFlags = Warning flags
+Settings.WarningFlags.Desc = Shows warning flags next to buildings that are not set up correctly.   
 
 
 Workshop.Status.Busy = Workshop is busy.
@@ -1387,7 +1392,11 @@ UI.Error.LastBonfire = You cannot remove your last bonfire.
 
 ## 20.7.2019
 UI.Vein.Destroy = Cover vein/well
-UI.Vein.Destroy.Desc = Destroys this vein or well and allows you to build other things on top. Warning: Cannot be undone. 
+UI.Vein.Destroy.Desc = Destroys this vein or well and allows you to build other things on top. Warning: Cannot be undone.
+UI.Vein.Destroy.Confirm = Are you sure you want to remove this vein/well? This cannot be undone.
+
+UI.Vein.Construct = Place extraction building   
+UI.Vein.Construct.Desc = Place the matching extraction building for this vein/well.
 UI.House.ForColonists = Colonists:
 UI.House.ForAnimals = Animals:
 
@@ -1853,3 +1862,7 @@ UI.FullScreenMode.Windowed = Windowed
 UI.FullScreenMode.MaximizedWindow = Max. Window
 UI.FullScreenMode.FullScreenWindow = Fullscreen
 UI.FullScreenMode.ExclusiveFullScreen = Excl. Fullscreen
+
+
+UI.ForbidStockpiling = Don't use as stockpile
+UI.ForbidStockpiling.Desc = Use this option if you only want to use this stockpile/depot as an output for a given workshop.     
