@@ -1698,7 +1698,9 @@ UI.Power.Range = Extension range: $1
 UI.Power.Capacity = Capacity: $1 MWh
 UI.Power.Generation = Generation: $1 MWh / cycle 
 UI.Power.GenerationDN = Generation: $1 MW (day), $2 MW (night) 
-
+UI.Power.GenerationFB.Efficiency = Conversion efficiency: $1%
+UI.Power.GeneratedPerSecond = Generation: $1 MWh / s
+UI.Power.ConsumptionPerSecond = Consumption: $1 MWh / s
 
 
 
@@ -1866,3 +1868,7 @@ UI.FullScreenMode.ExclusiveFullScreen = Excl. Fullscreen
 
 UI.ForbidStockpiling = Don't use as stockpile
 UI.ForbidStockpiling.Desc = Use this option if you only want to use this stockpile/depot as an output for a given workshop.     
+
+UI.Recipe.Workshop = Workshop:
+
+UI.Build.HintUnload = Unload building materials from your ship to unlock buildings. 
