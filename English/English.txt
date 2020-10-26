@@ -1188,7 +1188,7 @@ Debug.killall = Kill all the things
 Debug.killall.Desc = Kill all animals, colonists and enemies.
 
 Debug.clearitems = Clear items
-Debug.clearitems.Desc = Delete all items.
+Debug.clearitems.Desc = Delete all unreserved items. (Hold ctrl/alt/shift to delete all items.)
 
 Debug.forcewin = Win
 Debug.forcewin.Desc = Remove inventory targets.
@@ -1655,7 +1655,7 @@ UI.Producing = Producing $1 ($2%)
 
 UI.SelectedRobots = Selected robots
 
-Recommendation.Title = Set up a $1 ($2 #Money#)
+Recommendation.Title = Set up $1 ($2 #Money#)
 Message.Recommendation.Complete = Congratulations!<br>Completed: $1
 Message.Recommendation.Complete.VictoryScreen = Recommendation:<br>$1
 
