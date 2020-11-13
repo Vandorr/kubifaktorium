@@ -1694,15 +1694,15 @@ UI.Hoppers.Desc = Hoppers are used to set from where items will be brought into 
 
 
 UI.PowerPoleTitle = Energy
-UI.PowerPoleTitle.Stored = Stored energy: $1 / $2 MWh
+UI.PowerPoleTitle.Stored = Stored energy: $1 / $2 MWs
 UI.Power.Title = Power:
 UI.Power.Range = Extension range: $1
-UI.Power.Capacity = Capacity: $1 MWh
-UI.Power.Generation = Generation: $1 MWh / cycle 
+UI.Power.Capacity = Capacity: $1 MWs
+UI.Power.Generation = Generation: $1 MWs / cycle 
 UI.Power.GenerationDN = Generation: $1 MW (day), $2 MW (night) 
 UI.Power.GenerationFB.Efficiency = Conversion efficiency: $1%
-UI.Power.GeneratedPerSecond = Generation: $1 MWh / s
-UI.Power.ConsumptionPerSecond = Consumption: $1 MWh / s
+UI.Power.GeneratedPerSecond = Generation: $1 MW
+UI.Power.ConsumptionPerSecond = Consumption: $1 MW
 
 
 
@@ -1711,7 +1711,7 @@ Achievement.AnimalLover.Desc = Take an animal to a pasture and gather the resour
 Achievement.Automation = Automation 
 Achievement.Automation.Desc = Build your first automated workshop.
 Achievement.BeOurMayor = Be our mayor!
-Achievement.BeOurMayor.Desc = Have more than 50 colonists. 
+Achievement.BeOurMayor.Desc = Have more than 30 colonists. 
 Achievement.BeltWorld = Belt world 
 Achievement.BeltWorld.Desc = Place 100 conveyor belts.
 Achievement.BetterThanWater = Better than water 
