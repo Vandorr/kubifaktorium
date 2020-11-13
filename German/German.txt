@@ -2597,7 +2597,7 @@ Achievement.Automation.Desc = Baue deinen erste automatisierte Werkstatt.
 Achievement.BeltWorld = Fließbandwelt
 Achievement.BeltWorld.Desc = Baue 100 Fließbänder.
 Achievement.BeOurMayor = Bürgermeister
-Achievement.BeOurMayor.Desc = Sammle 50 (oder mehr) Kolonisten.
+Achievement.BeOurMayor.Desc = Sammle 30 (oder mehr) Kolonisten.
 Achievement.BetterThanWater = Besser als Wasser
 Achievement.BetterThanWater.Desc = Produziere Bier in der Brauerei.
 Achievement.BrewMaster = Braumeister
@@ -2684,12 +2684,12 @@ OreCrushing.Desc = 1.) Eisenblockproduktion
 OreCrushing.Intro = Dieses Szenario zeigt, wie Fließbänder, Depots und automatisierte Werkstätten benutzt werden können, um Dinge wie Eisenblöcke zu produzieren.
 Tooltip.ItemDonation = Gegenstand verschenken.
 Tooltip.ItemDonation.Desc = Verschenk diesen Gegenstand an einen zufälligen anderen Spieler. Der Gegenstand wird als "von $1 geschenk" angezeigt werden.
-UI.Power.Capacity = Kapazität: $1 MWh
-UI.Power.Generation = Stromerzeugung: $1 MWh / Zyklus
+UI.Power.Capacity = Kapazität: $1 MWs
+UI.Power.Generation = Stromerzeugung: $1 MWs / Zyklus
 UI.Power.Range = Reichweite: $1
 UI.Power.Title = Energie:
 UI.PowerPoleTitle = Energie
-UI.PowerPoleTitle.Stored = Gespeicherte Energie: $1 / $2 MWh
+UI.PowerPoleTitle.Stored = Gespeicherte Energie: $1 / $2 MWs
 
 
 
@@ -2731,7 +2731,7 @@ UI.DistributorMode.Equal.Desc = Bewahre ein festes Verhältnis der eingehenden G
 UI.DistributorMode.Normal = Automatisch wechseln
 UI.DistributorMode.Normal.Desc = Wechselt automatisch zwische Ein- und Ausgängen (Standard).
 UI.FuelTypes = Brennstoffe:
-UI.FuelValue = Brennstoffwert: $1 MWh
+UI.FuelValue = Brennstoffwert: $1 MWs
 UI.ModsRequireRestart = <color="orange"><b>Hinweis: Benötigt einen Neustart des Spiels.</b>
 UI.Power.GenerationDN = Erzeugt: $1 MW (Tag), $2 MW (Nacht)
 UI.SettleDown = Auf dieser Insel niederlassen.
@@ -2943,7 +2943,7 @@ UI.Build.HintUnload = Entlade Baumaterialien aus deinem Schiff um Gebäude freiz
 UI.CarryingStrength = Tragkraft: $1
 UI.ForbidStockpiling = Nicht als Lager nutzen
 UI.ForbidStockpiling.Desc = Benutze diese Option bei Lagerplätzen, die nur als Ausgangslager für Werkstätten genutzt werden sollen.
-UI.Power.ConsumptionPerSecond = Verbrauch: $1 MWh / s
-UI.Power.GeneratedPerSecond = Generierung: $1 MWh / s
+UI.Power.ConsumptionPerSecond = Verbrauch: $1 MW
+UI.Power.GeneratedPerSecond = Generierung: $1 MW
 UI.Power.GenerationFB.Efficiency = Effizienz: $1%
 UI.Recipe.Workshop = Werkstätten:
