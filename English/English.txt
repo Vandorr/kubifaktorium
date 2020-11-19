@@ -1876,4 +1876,7 @@ UI.Recipe.Workshop = Workshop:
 UI.Build.HintUnload = Unload building materials from your ship to unlock buildings. 
 
 
+UI.RebindKeys = Rebind keys
+UI.RebindKeys.Hint = To change key bindings, start a game and open the in-game menu (e.g. using the escape key).  
+
 
