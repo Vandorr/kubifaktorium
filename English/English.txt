@@ -1523,7 +1523,7 @@ ShippingPort.Status.NoExportStockpile = No export stockpile connected.
 ShippingPort.Status.NoExportStockpile.Desc = To export goods link a stockpile containing them to this shipping port. 
 
 ShippingPort.Status.NoImportValidType = No valid import type assigned.
-ShippingPort.Status.NoImportValidType.Desc = To assign goods for import, select a connected import stockpile and set it to accept one ore more good types, that can be imported.
+ShippingPort.Status.NoImportValidType.Desc = To assign goods for import, select a connected import stockpile and set it to accept one or more good types, that can be imported.
 
 ShippingPort.Status.NoExportValidType = No valid export type assigned.
 ShippingPort.Status.NoExportValidType.Desc = To assign goods for export, select a connected export stockpile and set it to accept one or more good types that can be exported.
