@@ -1664,6 +1664,7 @@ Message.Recommendation.Complete.VictoryScreen = Recommendation:<br>$1
 UI.Price = Price: $1
 
 UI.UpgradeInProgress = Upgrade in progress. 
+UI.UpgradeAvailable = Upgrade available.
 
 
 UI.TradeCaravan.TimeLeft = New offers in $1:$2
