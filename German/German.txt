@@ -1137,7 +1137,7 @@ Modifier.TutorialCombat = Einführung in das Kampfsystem
 Modifier.TutorialCombat.Intro = Dieses Tutorial zeigt, wie man gegnerische Lager angreifen und besiegen kann.
 Modifier.TutorialLogistics = Einführung in das Logistik_system
 Modifier.TutorialLogistics.Intro = Richte einen Außen_posten ein und beliefere ihn mit Hilfe von Zeppelinen. 
-Modifier.TutorialLogistics.Outro = Sehr gut! Kolo_nisten und Zeppline werden gemeinsam dafür sorgen, dass die Goldblöcke trans_portiert werden. Das Logistik_system erlaubt das Erstellen komplexer Trans_port_ketten, welche ver_schie_dene Trans_port_systeme kombinieren können.
+Modifier.TutorialLogistics.Outro = Sehr gut! Kolo_nisten und Zeppline werden gemeinsam dafür sorgen, dass die Goldblöcke und Wasser_eimer trans_portiert werden. Das Logistik_system erlaubt das Erstellen komplexer Trans_port_ketten, welche ver_schie_dene Trans_port_systeme kombinieren können.
 Modifier.TutorialNeedsTools = Bedürfnisse und Werkzeuge.
 
 
@@ -1159,21 +1159,21 @@ Objective.BuildTrain = Baue Züge ($2/$3)
 Objective.BuildTrain.Desc = Um einen Zug zu bauen, wähle die Zugfabrik aus und klicke auf "Baue Zug".
 Objective.DefeatEnemyCamp = Besiege Gegner_lager
 Objective.DefeatEnemyCamp.Desc =  Um ein Gegner_lager anzu_greifen wähle deine Kampfroboter aus und rechts-klicke auf das das gegnerische Gebiet.
-Objective.LogisticsLink = Erzeuge eine Verbindung von $5 zu $6
+Objective.LogisticsLink = Erzeuge eine Verbindung von $7 $5 zu $8 $6
 Objective.LogisticsLink.Desc = 
 Um eine Logistik_verbindung zu erzeugen wähle das erste Objekt aus und rechts-klicke dann auf das zweite Objekt. Logistik_verbindungen werden als blaue Pfeile angezeigt.
 Objective.SetActorTaskGroup = Weise $5 $1 zu
-Objective.SetActorTaskGroup.Desc = Um $5 in $1 arbeiten zu lassen wähle $5 aus und klicke dann auf #$7# $1. Alternativ kannst du dies im #People# Kolo_nisten_management_bildschirm tun.
-Objective.SetWorkshopInput = Verbinde $6 mit $5
+Objective.SetActorTaskGroup.Desc = Um $5 in $4 arbeiten zu lassen wähle $5 aus und klicke dann auf #$7# $4. Alternativ kannst du dies im #People# Kolo_nisten_management_bildschirm tun.
+Objective.SetWorkshopInput = Verbinde $8 $6 mit $7 $5
 Objective.SetWorkshopInput.Desc = Um $6 mit einem Eingangs_lager zu verbinden, wähle $6 aus und rechts-klicke dann auf $5.
-Objective.SetWorkshopOutput = Verbinde $5 mit $6
-Objective.SetWorkshopOutput.Desc = Um $6 mit einen Ausgangs_lager zu verbinden, wähle $6 aus und rechts-klicke dann auf $5.
+Objective.SetWorkshopOutput = Verbinde $7 $5 mit $8 $6
+Objective.SetWorkshopOutput.Desc = Um $5 mit einen Ausgangs_lager zu verbinden, wähle $5 aus und rechts-klicke dann auf $6.
 
 
 
-Objective.SetZoneColorActive = Erlaube $5 Zugang zu Zone $3
+Objective.SetZoneColorActive = Erlaube $5 Zugang zu Zone $9
 Objective.SetZoneColorActive.Desc = Um einem Kolo_nisten den Zugang zu einer Zone zu erlauben, wähle den Kolo_nisten aus und klicke auf die Zone im Kolo_nisten_panel rechts unten. 
-Objective.SetZoneColorInactive = Verbiete $5 Zugang zu Zone $3
+Objective.SetZoneColorInactive = Verbiete $5 Zugang zu Zone $9
 Objective.SetZoneColorInactive.Desc = Um einem Kolo_nisten den Zugang zu einer Zone zu verbieten, wähle den Kolo_nisten aus und klicke auf die Zone im Kolo_nisten_panel rechts unten.
 Objective.StockpileAcceptsOnlyType = Richte $5 so ein, dass es nur $1 annimmt
 Objective.StockpileAcceptsOnlyType.Desc = Um die Güter ein_zustellen die ein Lager annimmt, wähle das Lager aus und klicke auf die ent_sprechenden Güter im Info_panel rechts unten.
@@ -2091,7 +2091,7 @@ Task.Import.Text = Importiere $1.
 TutorialWarning = Tutorial_war_nung.
 TutorialWarning.Desc = Es ist dringend empfohlen, einige der Tutorials zu spielen, bevor man ins Spiel geht. (Starte ein beliebiges Tutorial, um diese Warnung zu entfernen.)
 UI.ForbidUsage = Konsum verbieten
-UI.ForbidUsage.Desc = Verhindert, dass Kolonisten Waren aus diesem Lager konsumieren.
+UI.ForbidUsage.Desc = Verhindert, dass Kolonisten Waren aus diesem Lager essen oder trinken.
 UI.Priority.Tooltip1 = Sehr hohe Priorität
 UI.Priority.Tooltip1.Desc = Lager_plätze und Werk_stätten mit hoher Prio_rität werden zuerst verwendet.
 UI.Priority.Tooltip2 = Hohe Priorität
@@ -2687,7 +2687,7 @@ UI.Power.Generation = Stromerzeugung: $1 MWs / Zyklus
 UI.Power.Range = Reichweite: $1
 UI.Power.Title = Energie:
 UI.PowerPoleTitle = Energie
-UI.PowerPoleTitle.Stored = Gespeicherte Energie: $1 / $2 MWs
+UI.PowerPoleTitle.Stored = Gesp. Energie: $1 / $2 MWs
 
 
 
@@ -2788,7 +2788,7 @@ ObjectType.CrocodileBaby = Krokodilbaby
 ObjectType.CrocodileBaby.Desc = Wagt sich nicht zu weit von seiner Mutter weg.
 ObjectType.ElectronicComponents = Elek_tro_nische Kompo_nenten
 ObjectType.ElectronicComponents.Desc = Wird zum Bau von elektrischen Geräten und automatisierten Fabriken verwendet.
-ObjectType.ElectronicsFactory = Electronik_fabrik
+ObjectType.ElectronicsFactory = Elek_tronik_fabrik
 ObjectType.ElectronicsFactory.Desc = Benötigt zur Herstellung von elektronischen Komponenten.
 ObjectType.Frog = Frosch
 ObjectType.Frog.Desc = Ein sehr aerodynamischer Bursche.
