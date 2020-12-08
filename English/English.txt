@@ -835,8 +835,8 @@ UI.AttackCamp = Attack camp.
 UI.TotalStrength = Combined strength 
 UI.CancelAttack = Abort attack.
 
-Message.EnemyCampDestroyed = Enemy camp destroyed! Yay!
-Message.AttackFailed = Attack on enemy camp failed. :(
+Message.EnemyCampDestroyed = Enemy camp destroyed! 
+Message.AttackFailed = Attack on enemy camp failed.
 
 UI.RelativeStrength.Inferior = Enemy strength: Inferior.
 UI.RelativeStrength.Low = Enemy strength: Low.
@@ -1436,7 +1436,7 @@ Settings.AssistMode = Assist mode
 Settings.AssistMode.Desc = Simplifies a few mechanics to make the game easier to pick up for newer players: 1) Automatically assigns colonists to all tasks/workshops. 2) Workshop products are automatically assigned to their output stockpiles. 3) Some items like building materials are automatically unloaded from your ship. 4) Adds all colors/zones to all colonists.
 
 UI.ForbidUsage = Forbid consumption
-UI.ForbidUsage.Desc = Prevent your colonists from consuming goods from this stockpile.
+UI.ForbidUsage.Desc = Prevent your colonists from eating/drinking goods from this stockpile.
 
 TutorialWarning = Tutorial warning.
 TutorialWarning.Desc = It is strongly recommended to play some of the tutorials before going into the game. (Start any tutorial to remove this warning.)
@@ -1881,3 +1881,5 @@ UI.RebindKeys = Rebind keys
 UI.RebindKeys.Hint = To change key bindings, start a game and open the in-game menu (e.g. using the escape key).  
 
 
+Message.GameSaveFailedIO = IO-error occurred while saving the game.
+Message.GameSaveFailedUnknown = Unknown error saving game.
