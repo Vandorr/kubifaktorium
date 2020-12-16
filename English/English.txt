@@ -1665,7 +1665,7 @@ UI.Price = Price: $1
 
 UI.UpgradeInProgress = Upgrade in progress. 
 UI.UpgradeAvailable = Upgrade available.
-
+UI.UpgradeAvailable.Desc = This building can be upgraded.
 
 UI.TradeCaravan.TimeLeft = New offers in $1:$2
 
