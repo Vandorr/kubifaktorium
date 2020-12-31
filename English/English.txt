@@ -163,6 +163,7 @@ UI.GrowTime = Time to grow: $1s
 UI.GrowthRateDay = Growth rate at daytime: $1%
 UI.GrowthRateNight = Growth rate at nighttime: $1%
 UI.MovementSpeed = Movement speed: $1
+UI.CarryingStrength = Carrying strength: $1
 UI.DamageUnarmed = Damage: $1
 UI.VisionRange = Vision range: $1
 UI.Eats = Eats: $1
@@ -304,7 +305,7 @@ Objective.LinkFarmToStockpile = Link farm to stockpile ($2/$3)
 Objective.LinkFarmToStockpile.Desc = To link a ##farmzone to a ##stockpilezone, left-_click the farm and right-_click on the stockpile. Crops on farms will be harvested until the linked stockpiles are full.
 Objective.MiningJob = Create mining tasks ($2/$3)
 Objective.MiningJob.Desc = To select a resource to be ##mined, click the #Mine# mine button and select the things to be mined. Drag an area to mine everything within. Note that your colonists can only mine resources within your ##territory.
-Objective.ProductionTask = Set production: $1
+Objective.ProductionTask = Set production: $1 ($2/$3)
 Objective.ProductionTask.Desc = To produce a good, select a workshop and click on the good you want it to produce.
 Objective.SettlersEquipTool = Tools equipped ($2/$3)
 Objective.SettlersEquipTool.Desc = Colonists auto_matically equip the ##tools they need. Produce the tools they need to make them more productive.
@@ -477,7 +478,9 @@ Settings.Shadows.Desc = Quality of the shadows cast by lights. Shadows look nice
 Settings.Brightness=Brightness
 Settings.Brightness.Desc=Brightness
 Settings.RecommendationCount=Recommendations
-Settings.RecommendationCount.Desc=Changes the number of recommendations that are displayed at the same time. 
+Settings.RecommendationCount.Desc=Changes the number of recommendations that are displayed at the same time.
+Settings.RecommendationEarlierTiers=Low tier recomm.
+Settings.RecommendationEarlierTiers.Desc=Show recommendations from lower tiers.
 Settings.AA = AA
 Settings.AA.Desc = Anti-Aliasing: Reduce aliasing around edges.
 Settings.PauseOnDefocus = Auto-pause
@@ -528,6 +531,10 @@ Settings.SSScale = Screenshot SS
 Settings.SSScale.Desc = Upscaling factor of the screenshots.
 Settings.Weather = Weather effects
 Settings.Weather.Desc = Visual weather effects like rain and snow.
+Settings.Lightning = Lightning effects
+Settings.Lightning.Desc = Disable lightning effects e.g. if you are prone to visual-based seizures.
+Settings.WarningFlags = Warning flags
+Settings.WarningFlags.Desc = Shows warning flags next to buildings that are not set up correctly.   
 
 
 Workshop.Status.Busy = Workshop is busy.
@@ -746,6 +753,8 @@ Robot.Mode.OFF = Off
 Robot.Mode.ECO = Eco mode
 Robot.Mode.NORMAL = Normal mode
 Robot.Mode.OVERCLOCKED = Overclocked
+Robot.Disassemble = Disassemble robot
+Robot.Disassemble.Desc = Disassemble the robot and get back its original components.
 
 MainMenu.Tutorials = Tutorials and example scenes
 
@@ -826,8 +835,8 @@ UI.AttackCamp = Attack camp.
 UI.TotalStrength = Combined strength 
 UI.CancelAttack = Abort attack.
 
-Message.EnemyCampDestroyed = Enemy camp destroyed! Yay!
-Message.AttackFailed = Attack on enemy camp failed. :(
+Message.EnemyCampDestroyed = Enemy camp destroyed! 
+Message.AttackFailed = Attack on enemy camp failed.
 
 UI.RelativeStrength.Inferior = Enemy strength: Inferior.
 UI.RelativeStrength.Low = Enemy strength: Low.
@@ -877,10 +886,10 @@ UI.ItemTypes.Title = Item types:
 
 
 
-Building.Mode = Building mode. 
+Building.Mode = Building mode
 Building.Mode.Desc = Click to toggle between active and inactive.
-Building.Mode.Enabled = Building active.
-Building.Mode.Disabled = Building inactive.
+Building.Mode.Enabled = Building active
+Building.Mode.Disabled = Building inactive
 
 UI.TypeNameFilter = Search for type...
 UI.DecorationValue = ##Decoration: Range $2
@@ -1181,7 +1190,7 @@ Debug.killall = Kill all the things
 Debug.killall.Desc = Kill all animals, colonists and enemies.
 
 Debug.clearitems = Clear items
-Debug.clearitems.Desc = Delete all items.
+Debug.clearitems.Desc = Delete all unreserved items. (Hold ctrl/alt/shift to delete all items.)
 
 Debug.forcewin = Win
 Debug.forcewin.Desc = Remove inventory targets.
@@ -1385,7 +1394,11 @@ UI.Error.LastBonfire = You cannot remove your last bonfire.
 
 ## 20.7.2019
 UI.Vein.Destroy = Cover vein/well
-UI.Vein.Destroy.Desc = Destroys this vein or well and allows you to build other things on top. Warning: Cannot be undone. 
+UI.Vein.Destroy.Desc = Destroys this vein or well and allows you to build other things on top. Warning: Cannot be undone.
+UI.Vein.Destroy.Confirm = Are you sure you want to remove this vein/well? This cannot be undone.
+
+UI.Vein.Construct = Place extraction building   
+UI.Vein.Construct.Desc = Place the matching extraction building for this vein/well.
 UI.House.ForColonists = Colonists:
 UI.House.ForAnimals = Animals:
 
@@ -1423,7 +1436,7 @@ Settings.AssistMode = Assist mode
 Settings.AssistMode.Desc = Simplifies a few mechanics to make the game easier to pick up for newer players: 1) Automatically assigns colonists to all tasks/workshops. 2) Workshop products are automatically assigned to their output stockpiles. 3) Some items like building materials are automatically unloaded from your ship. 4) Adds all colors/zones to all colonists.
 
 UI.ForbidUsage = Forbid consumption
-UI.ForbidUsage.Desc = Prevent your colonists from consuming goods from this stockpile.
+UI.ForbidUsage.Desc = Prevent your colonists from eating/drinking goods from this stockpile.
 
 TutorialWarning = Tutorial warning.
 TutorialWarning.Desc = It is strongly recommended to play some of the tutorials before going into the game. (Start any tutorial to remove this warning.)
@@ -1510,7 +1523,7 @@ ShippingPort.Status.NoExportStockpile = No export stockpile connected.
 ShippingPort.Status.NoExportStockpile.Desc = To export goods link a stockpile containing them to this shipping port. 
 
 ShippingPort.Status.NoImportValidType = No valid import type assigned.
-ShippingPort.Status.NoImportValidType.Desc = To assign goods for import, select a connected import stockpile and set it to accept one ore more good types, that can be imported.
+ShippingPort.Status.NoImportValidType.Desc = To assign goods for import, select a connected import stockpile and set it to accept one or more good types, that can be imported.
 
 ShippingPort.Status.NoExportValidType = No valid export type assigned.
 ShippingPort.Status.NoExportValidType.Desc = To assign goods for export, select a connected export stockpile and set it to accept one or more good types that can be exported.
@@ -1644,14 +1657,15 @@ UI.Producing = Producing $1 ($2%)
 
 UI.SelectedRobots = Selected robots
 
-Recommendation.Title = Set up a $1 ($2 #Money#)
+Recommendation.Title = Set up $1 ($2 #Money#)
 Message.Recommendation.Complete = Congratulations!<br>Completed: $1
 Message.Recommendation.Complete.VictoryScreen = Recommendation:<br>$1
 
 UI.Price = Price: $1
 
 UI.UpgradeInProgress = Upgrade in progress. 
-
+UI.UpgradeAvailable = Upgrade available.
+UI.UpgradeAvailable.Desc = This building can be upgraded.
 
 UI.TradeCaravan.TimeLeft = New offers in $1:$2
 
@@ -1681,13 +1695,15 @@ UI.Hoppers.Desc = Hoppers are used to set from where items will be brought into 
 
 
 UI.PowerPoleTitle = Energy
-UI.PowerPoleTitle.Stored = Stored energy: $1 / $2 MWh
+UI.PowerPoleTitle.Stored = Stored energy: $1 / $2 MWs
 UI.Power.Title = Power:
 UI.Power.Range = Extension range: $1
-UI.Power.Capacity = Capacity: $1 MWh
-UI.Power.Generation = Generation: $1 MWh / cycle 
+UI.Power.Capacity = Capacity: $1 MWs
+UI.Power.Generation = Generation: $1 MWs / cycle 
 UI.Power.GenerationDN = Generation: $1 MW (day), $2 MW (night) 
-
+UI.Power.GenerationFB.Efficiency = Conversion efficiency: $1%
+UI.Power.GeneratedPerSecond = Generation: $1 MW
+UI.Power.ConsumptionPerSecond = Consumption: $1 MW
 
 
 
@@ -1696,7 +1712,7 @@ Achievement.AnimalLover.Desc = Take an animal to a pasture and gather the resour
 Achievement.Automation = Automation 
 Achievement.Automation.Desc = Build your first automated workshop.
 Achievement.BeOurMayor = Be our mayor!
-Achievement.BeOurMayor.Desc = Have more than 50 colonists. 
+Achievement.BeOurMayor.Desc = Have more than 30 colonists. 
 Achievement.BeltWorld = Belt world 
 Achievement.BeltWorld.Desc = Place 100 conveyor belts.
 Achievement.BetterThanWater = Better than water 
@@ -1770,6 +1786,7 @@ Message.DonationReceived = $1 sent you a(n) $2. How nice!
 Message.DonationSent = You sent a $1. 
 Message.DonationSent.ErrorNotAvailable = Item cannot be donated while it is reserved.
 Message.DonationSent.ErrorNoMods = Item from mods cannot be donated.
+Message.DonationSent.ErrorNotThis = This item cannot be donated.
 
 
 Tooltip.ItemDonation = Donate item.
@@ -1793,8 +1810,11 @@ UI.SettleDown.Desc = Your ship can only carry a limited number of colonists to t
 UI.SettlerScreen.SettleDown = $1 colonists will settle down and send $2 coins/day. $3/$4 colonists will travel to the next island. 
 UI.SettlerScreen.SettleDown.Desc = Your ship can only carry a limited number of colonists to the next island. Colonists that are left behind will settle down and send money to your future colonies. 
 
-Message.Leave.TooFewColonists = You need to take at least $1 colonists to the next island.
-Message.Leave.TooManyColonists = You can take no more than $1 colonists to the next island.
+Message.Leave.TooFewColonists.Short = Too few colonists
+Message.Leave.TooManyColonists.Short = Too many colonists 
+
+Message.Leave.TooFewColonists = You need to take at least $1 colonists to the next island. You can change which colonists will settle down in the colonist management screen.
+Message.Leave.TooManyColonists = You can take no more than $1 colonists, animals and robots to the next island. You can change which colonists will settle down in the colonist management screen.
 Message.SettledColonistsSend = Your previous colonies have sent you $1 #Money#. 
 
 UI.WM.IslandTooltip.MoneyTransfer = Sends you $1 #Money# per day.
@@ -1815,3 +1835,51 @@ UI.DistributorMode.2 = Prioritize output 2
 UI.DistributorMode.2.Desc = Deliver goods to output 2 whenever possible.
 UI.DistributorMode.3 = Prioritize output 3
 UI.DistributorMode.3.Desc = Deliver goods to output 3 whenever possible.
+
+
+Objective.SetDistributorModeFixed = Set distributor $5 to fixed mode
+Objective.SetDistributorModeFixed.Desc = To set distributor $5 to fixed output mode, select it and click on the '='-icon in the panel on the right side. 
+
+UI.RemoveRecommendation = Remove recommendation
+UI.RemoveRecommendation.Desc = Remove this recommendation from the list and replace it with a new one. 
+
+
+Debug.EgoCamera = Toggle ego-camera.
+Debug.EgoCamera.Desc = Use arrow keys and pos1/end to move the camera, use mouse look to rotate the camera. Use the screen position keys (shift F1-F3) and cinematic camera key (F10) to use the cinematic camera. <br>Useful for making screenshots and short footage videos. Not useful for playing the game. :)  
+
+
+ShippingPort.Status.ShouldHaveNoImportStockpile = Import stockpile in automation mode.
+ShippingPort.Status.ShouldHaveNoImportStockpile.Desc = When automation mode is used for importing, no stockpile should be linked.
+
+ShippingPort.Status.ShouldHaveNoExportStockpile = Export stockpile in automation mode.
+ShippingPort.Status.ShouldHaveNoExportStockpile.Desc = When automation mode is used for exporting, no stockpile should be linked.
+
+ShippingPort.Status.ShouldHaveNoExitHopper = Exit hopper without automation mode.
+ShippingPort.Status.ShouldHaveNoExitHopper.Desc = Exit hoppers will not work correctly unless automation mode is used. 
+
+UI.RequiresBlueprint = Requires blueprint
+
+MainMenu.VideoSettings = Video settings
+UI.Apply = Apply
+
+UI.ApplyResolution.Testing = Settings reset in $1s. Click "Apply" again to confirm changes.
+UI.FullScreenMode.Windowed = Windowed
+UI.FullScreenMode.MaximizedWindow = Max. Window
+UI.FullScreenMode.FullScreenWindow = Fullscreen
+UI.FullScreenMode.ExclusiveFullScreen = Excl. Fullscreen
+
+
+UI.ForbidStockpiling = Don't use as stockpile
+UI.ForbidStockpiling.Desc = Use this option if you only want to use this stockpile/depot as an output for a given workshop.     
+
+UI.Recipe.Workshop = Workshop:
+
+UI.Build.HintUnload = Unload building materials from your ship to unlock buildings. 
+
+
+UI.RebindKeys = Rebind keys
+UI.RebindKeys.Hint = To change key bindings, start a game and open the in-game menu (e.g. using the escape key).  
+
+
+Message.GameSaveFailedIO = IO-error occurred while saving the game.
+Message.GameSaveFailedUnknown = Unknown error saving game.
