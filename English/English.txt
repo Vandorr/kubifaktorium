@@ -1883,3 +1883,9 @@ UI.RebindKeys.Hint = To change key bindings, start a game and open the in-game m
 
 Message.GameSaveFailedIO = IO-error occurred while saving the game.
 Message.GameSaveFailedUnknown = Unknown error saving game.
+
+UI.Continue = Continue...
+
+UI.ColorZone = Assign color zones.
+UI.ColorZone.Desc = Manually assign colors to specified areas. Alternatively you can use bonfires to set the color of surrounding tiles. Use color zones to restrict your colonists to certain areas and prevent them from roaming the map.   
+
