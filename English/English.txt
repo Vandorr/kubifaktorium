@@ -1156,6 +1156,7 @@ UI.BuildTrain.NoMoreTrains = Maximum number built.
 UI.BuildTrain.NoFreeSegment = Track segment occupied.
 
 Task.UnloadAuto.Text = Unloading $1.
+Task.ClearStockpiles.Text = Clearing $1 from $2.
 
 UI.TrackLayer.Start = Build train track.
 UI.TrackLayer.Start.Desc = Build tracks to connect train factories and stations. The tracks will be auto_matically built as long as you have track parts in your inventory. <br>Press ##Keycycle to toggle between low and high elevation. 
@@ -1889,3 +1890,5 @@ UI.Continue = Continue...
 UI.ColorZone = Assign color zones.
 UI.ColorZone.Desc = Manually assign colors to specified areas. Alternatively you can use bonfires to set the color of surrounding tiles. Use color zones to restrict your colonists to certain areas and prevent them from roaming the map.   
 
+UI.Train.Override = Ignore signals
+UI.Train.Override.Desc = Use this function to unlock trains that are stuck for a while. 
