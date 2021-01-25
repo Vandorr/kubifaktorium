@@ -1,6 +1,6 @@
 language = Italian
 locales = IT
-fallback = English
+fallback = Italian
  
 
 # Il formato generale del file di localizzazione per ogni riga è <key> = <valore>, ad esempio "UI.BuildTrain = Build train". <key> non deve essere modificato, <value> deve essere tradotto, quindi ad es. "UI.BuildTrain = Baue Zug".
@@ -9,7 +9,7 @@ fallback = English
 # Il gioco supporta la sillabazione per le lingue con stringhe lunghe come il tedesco. Per usarlo, usa il carattere "_" per inserire un trattino morbido nei punti in cui una parola può essere sillabata. Lo consiglio per parole più lunghe di 12-15 caratteri. Ad esempio: "recommen_dations" o "trans_portation".
 # Una stringa nel formato "# <id> #" provoca l'inserimento di un'icona, ad es. "#sole#". Si noti che l'id non deve essere tradotto, altrimenti non verrà trovato e tradotto correttamente.
 # Una stringa nel formato "## <id>" crea una parola chiave. Parole chiave come "## daytime" verranno tradotte in una parola sottolineata "daytime". Inoltre, una spiegazione verrà aggiunta sotto, di solito nelle descrizioni comandi. Ancora una volta, l'id non deve essere tradotto. Tuttavia, il testo esplicativo (le righe con i tasti come ## inattivo) dovrebbe.
-# Stringhe come "$ 1", "$ 2" ecc. Sono segnaposto per numeri e altre cose che verranno riempite dal gioco. Ad esempio "Tasso di crescita durante il giorno: $ 1%" diventerà "Tasso di crescita durante il giorno: 75%" durante il runtime.
+# Stringhe come "$1", "$2" ecc. Sono segnaposto per numeri e altre cose che verranno riempite dal gioco. Ad esempio "Tasso di crescita durante il giorno: $1%" diventerà "Tasso di crescita durante il giorno: 75%" durante il runtime.
 # Se richiesto per qualche motivo, puoi utilizzare <br> per creare un'interruzione di riga. Comunque consiglio di non usarlo.
 # Ogni volta che avvii il gioco con un nuovo file di traduzione, verrà creato automaticamente un elenco delle righe di traduzione mancanti. Ciò è utile sia per iniziare che per mantenere la traduzione aggiornata quando vengono aggiunte nuove stringhe. Il file può essere trovato in C: \ Users \ <nomeutente> \ AppData \ LocalLow \ MirkoStudio \ Kubifaktorium \ Missing_ <language> .txt su Windows o ~ / .config / unity3d / MirkoStudio / Kubifaktorium / su Linux.
 
@@ -69,7 +69,7 @@ fallback = English
 ##food = cibo
 ##food.Desc = Cibo: quando hanno fame, i coloni cercheranno auto_maticamente qualcosa da mangiare. Fornire cibo li renderà più felici e produttivi.
 
-##stockpilezone = zona di riserva
+##stockpilezone = zona di stoccaggio
 ##stockpilezone.Desc = Zona di stoccaggio: può essere assegnata su terreno solido e utilizzata per contenere prodotti provenienti da officine, fattorie o operazioni minerarie.
 ##farmzone = Fattoria
 ##farmzone.Desc = Zona agricola: può essere assegnata su un terreno fertile per consentire ai tuoi coloni di coltivare un numero di colture.
@@ -159,7 +159,7 @@ UI.ClaimRange = Intervallo di reclamo: $1
 UI.Faction = Stato
 UI.Fight = Comanda i tuoi guerrieri.
 UI.Fight.Desc = Imposta una bandiera da rally per i tuoi coloni. Tutti i coloni che portano un'arma si riuniranno attorno a questa bandiera e attaccheranno i nemici a vista.
-UI.GrowTime = Tempo di crescita: $ 1s
+UI.GrowTime = Tempo di crescita: $1s
 UI.GrowthRateDay = Tasso di crescita di giorno: $1%
 UI.GrowthRateNight = Tasso di crescita notturna: $1%
 UI.DamageUnarmed = Danno: $1
@@ -254,7 +254,7 @@ Objective.ConvMode.Desc = Seleziona il target e fai clic su "modalità di traspo
 
 Objective.SetZoneColorActive = Abilita l'accesso di $5 alla zona $9.
 Objective.SetZoneColorActive.Desc = Per abilitare l'accesso di un colono a una zona, seleziona il colono e fai clic sul colore della zona desiderato nel pannello informazioni.
-Objective.SetZoneColorInactive = Disabilita l'accesso di $ 5 alla zona $9.
+Objective.SetZoneColorInactive = Disabilita l'accesso di $5 alla zona $9.
 Objective.SetZoneColorInactive.Desc = Per disabilitare l'accesso di un colono a una zona selezionare il colono e fare clic sul colore della zona desiderato nel pannello informazioni.
 
 Objective.StockpileAcceptsType = Rendi la scorta $5 accetta $1.
@@ -314,7 +314,7 @@ Objective.SetActorTaskGroup.Desc = Per far funzionare $5 in $4, selezionare $5 e
 
 Objective.SettlerTaskGroup = Assegna lavoro: $4 ($2/$3)
 Objective.SettlerTaskGroup.Desc = Per fare in modo che un colono faccia $4 lavori, selezionalo e fai clic su #$7# $4. Alter_nativamente, puoi gestire i lavori dei tuoi coloni nella schermata #People# gestione dei coloni.
-Objective.SettlerWorkshop = Assegna lavoro: $ 1 ($ 2 / $ 3)
+Objective.SettlerWorkshop = Assegna lavoro: $1 ($2 / $3)
 Objective.SettlerWorkshop.Desc = Per far funzionare un colono in $1, selezionalo e fai clic su $1 nel pannello del colono. Alter_nativamente, puoi gestire i lavori dei tuoi coloni nella schermata #People# gestione dei coloni.
 Objective.UnloadAll = Scarica la tua nave ($1 rimanente)
 Objective.UnloadAll.Desc = Fai clic sulla tua ##ship per vedere quali merci ha a bordo. Fai clic su un buono per ordinare ai tuoi coloni di scaricarlo. Puoi scaricare più merci contemporaneamente tenendo premuto il tasto Maiusc o Control mentre fai clic. Alter_nativamente puoi premere il pulsante #Unload# scaricare per scaricare tutto.
@@ -423,7 +423,7 @@ TaskGroup.Mining = Estrazione e raccolta
 TaskGroup.Mining.Desc = I minatori abbattono alberi e ##mine rocce e pietre.
 Workshop._Name = Workshop
 TaskGroup.Power = Potenza
-TaskGroup.Power.Desc = I coloni e gli animali possono generare ## potere.
+TaskGroup.Power.Desc = I coloni e gli animali possono generare ##power.
 TaskGroup.Logistics = Logistica
 TaskGroup.Logistics.Desc = Trasporto di scorte e depositi, importazione ed esportazione.
 
@@ -445,7 +445,7 @@ BuildingType.Defense.Desc = Mura e torri.
 BuildingType.Food = Cibo e acqua ///2///
 BuildingType.Food.Desc = Edifici per produrre e raffinare ##food e ##drink.
 BuildingType.House = Housing
-BuildingType.House.Desc = Avere ##houses migliora la felicità e l'efficienza dei tuoi coloni.
+BuildingType.House.Desc = Avere ##house migliora la felicità e l'efficienza dei tuoi coloni.
 BuildingType.Item = Articoli
 BuildingType.Item.Desc = Articoli.
 BuildingType.Logistics = Logistica ///3///
@@ -455,7 +455,7 @@ BuildingType.None.Desc = Edifici miscel_lanei.
 BuildingType.Refining = Raffinazione
 BuildingType.Refining.Desc = Workshop per perfezionare e smaltire le risorse.
 BuildingType.Workshop = Workshop ///5///
-BuildingType.Workshop.Desc = Workshop per produrre ##tools, armi e macchinari.
+BuildingType.Workshop.Desc = Workshop per produrre ##tool, armi e macchinari.
 BuildingType.AutoWorkshop = Fabbrica
 BuildingType.AutoWorkshop.Desc = Le fabbriche producono merci senza la necessità di essere gestite dai coloni.
 
@@ -602,7 +602,7 @@ LoadingPhase.ModelGeneration = Generazione di modelli: $1%
 LoadingPhase.ObjectMaterialCombiner = Combinazione di materiali.
 LoadingPhase.ObjectTreeExporter = Esportazione dell'albero degli oggetti.
 
-UI.Weight = ##Weight: $ 1
+UI.Weight = ##Weight: $1
 UI.Weight.Desc = Il ##weight dell'articolo.
 UI.CanBeMined = Può essere estratto
 
@@ -615,9 +615,9 @@ UI.AcceptedGoods.Help = (Fai clic su un oggetto per attivarlo).
 
 UI.Recruitment = Reclutamento
 UI.Recruit.Title = Nemici:
-UI.Recruit.Defeat = Nemici (Forza $ 1):
+UI.Recruit.Defeat = Nemici (Forza $1):
 UI.Recruit.Requirements = Requisiti:
-UI.Colonists = I tuoi guerrieri (Forza $ 1):
+UI.Colonists = I tuoi guerrieri (Forza $1):
 UI.Help = Aiuto
 
 UI.PressAnyKey = Premi un tasto qualsiasi per iniziare!
@@ -723,12 +723,12 @@ CargoShip.State.LEAVE = Uscita dal porto mercantile.
 UI.Food = Stock alimentare
 UI.Food.Desc = Fornisci ##food per i tuoi coloni ben nutrito per renderli più produttivi.
 
-UI.Drink = Bere brodo
+UI.Drink = Bere
 UI.Drink.Desc = Fornisci da ##drink ai tuoi coloni per renderli più produttivi.
 
 
-UI.House = Housing
-UI.House.Desc = Fornire ##houses ai tuoi coloni li renderà più produttivi.
+UI.House = Alloggi
+UI.House.Desc = Fornire ##house ai tuoi coloni li renderà più produttivi.
 
 UI.IdleColonists = Coloni inattivi
 UI.IdleColonists.Desc = Fai clic qui per scorrere tutti i coloni ##idle.
@@ -741,7 +741,7 @@ UI.Time = Tempo
 UI.Time.Desc = Ora del giorno. La maggior parte delle colture cresce solo durante il ##day.
 
 Robot.Mode = Modalità robot
-Robot.Mode.Desc = I ##Robots possono operare in più modalità. La modalità influenza la velocità di movimento e il consumo di carburante.
+Robot.Mode.Desc = I ##Robot possono operare in più modalità. La modalità influenza la velocità di movimento e il consumo di carburante.
 Robot.Mode.OFF = Off
 Robot.Mode.ECO = Modalità Eco
 Robot.Mode.NORMAL = Modalità normale
@@ -940,7 +940,7 @@ UI.RecipieHint = <i> Fai clic su una ricetta per attivarla o disattivarla. Tener
 
 UI.Recommendations = Raccomandazioni
 
-Message.MinimumGood = $ 1 aggiunti al carico della nave.
+Message.MinimumGood = $1 aggiunti al carico della nave.
 
 MainMenu.Campaign.Size = Dimensione della mappa del mondo:
 MainMenu.Campaign.Size.0 = Minuscolo
@@ -966,7 +966,7 @@ UI.ProductionTarget.MetShort = Obiettivo di inventario raggiunto: <br> $1
 UI.Recommendations.Desc = Il sistema di raccomandazione suggerisce cose da fare in base alla situazione attuale.
 
 UI.ProductionTarget = ##Productiontarget
-UI.ProductionTarget.Desc = Il ##productiontarget per l'isola corrente.
+UI.ProductionTarget.Desc = L' ##productiontarget per l'isola corrente.
 UI.ProductionTarget.TooltipTitle = Obbiettivo di produzione:
 
 
@@ -979,7 +979,7 @@ UI.VictoryScreen.Title = Hai vinto!
 UI.LeaveMap = Lascia l'isola
 UI.LeaveMap.Desc = Lascia quest'isola e torna alla mappa del mondo.
 UI.IncreaseProductionTarget = Solleva bersaglio
-UI.IncreaseProductionTarget.Desc = Aumentando il ##productiontarget per quest'isola diminuirà i beni che dovrai produrre su altre isole. <br>Nota: puoi lasciare quest'isola in qualsiasi momento, anche quando non hai raggiunto il bersaglio sollevato.
+UI.IncreaseProductionTarget.Desc = Aumentando l' ##productiontarget per quest'isola diminuirà i beni che dovrai produrre su altre isole. <br>Nota: puoi lasciare quest'isola in qualsiasi momento, anche quando non hai raggiunto il bersaglio sollevato.
 Message.IncreaseProductionTarget = Obbiettivo di inventario aumentato a $1%.
 
 UI.ReturnToMain = Torna al menu principale
@@ -1578,16 +1578,16 @@ UI.UpgradeBuilding = Aggiorna a $1.
 UI.UpgradeBuilding.Desc = Aggiorna questo edificio a $1. Richiede $2.
 
 UI.RequiredTool = Strumento richiesto
-UI.RequiredTool.Desc = Risorse di qualità superiore richiedono ##tools migliori per essere estratti o raccolti. Puoi creare strumenti nell'officina degli strumenti.
+UI.RequiredTool.Desc = Risorse di qualità superiore richiedono ##tool migliori per essere estratti o raccolti. Puoi creare strumenti nell'officina degli strumenti.
 UI.RequiredTool.None = Nessuno strumento richiesto.
 UI.RequiredTool.Lvl = Richiede $1.
 UI.RequiredToolPlant.Lvl = Strumenti adatti alla raccolta: $1
 
 UI.Build.NoTool = I lavoratori hanno bisogno di strumenti migliori.
-UI.Build.NoTool.Desc = Per costruire edifici di livello superiore i tuoi coloni richiedono ##tools migliori. Dai un'occhiata al suggerimento informativo dell'edificio (passa con il mouse sopra la descrizione sopra) per vedere di quale tipo e qualità di strumento hai bisogno.
+UI.Build.NoTool.Desc = Per costruire edifici di livello superiore i tuoi coloni richiedono ##tool migliori. Dai un'occhiata al suggerimento informativo dell'edificio (passa con il mouse sopra la descrizione sopra) per vedere di quale tipo e qualità di strumento hai bisogno.
 
 Farm.Status.NoTool = I lavoratori hanno bisogno di strumenti migliori.
-Farm.Status.NoTool.Desc = Per raccogliere piante e alberi di livello superiore i tuoi coloni richiedono ##tools migliori. Dai un'occhiata alla descrizione delle informazioni dell'impianto (passa il mouse sopra il suo nome) per vedere quale tipo e qualità di strumento hai bisogno.
+Farm.Status.NoTool.Desc = Per raccogliere piante e alberi di livello superiore i tuoi coloni richiedono ##tool migliori. Dai un'occhiata alla descrizione delle informazioni dell'impianto (passa il mouse sopra il suo nome) per vedere quale tipo e qualità di strumento hai bisogno.
 
 
 UI.BuildInstantly = (Costruito istantaneamente.)
@@ -1679,7 +1679,7 @@ UI.HappinessSummary.Advanced = Esigenze avanzate:
 UI.Hoppers = Posiziona tramogge
 UI.Hoppers.Desc = Tramogge vengono utilizzate per impostare da dove gli oggetti verranno portati nel deposito (tramoggia di entrata) o da dove verranno scaricati (tramoggia di uscita).
 
-##automatically = auto_maticamente
+##automatically = automatica
 ##automatically.Desc = Automazione: gli edifici automatizzati funzioneranno senza essere gestiti dai tuoi coloni ma richiedono il potere di funzionare.
 
 AttackEnemyCamp.Desc = 1.) Attacca l'accampamento nemico
@@ -1874,7 +1874,7 @@ Modifier.TutorialTrainSignalsCircle.Intro = Questa esercitazione mostra come uti
 ObjectType.AdvancedToolWorkshop = Officina strumenti avanzata
 ObjectType.AdvancedToolWorkshop.Desc = Permette la produzione di strumenti avanzati.
 ObjectType.AutoKiln = Forno automatico
-ObjectType.AutoKiln.Desc = ## I forni automatici sono usati per produrre mattoni e carbone.
+ObjectType.AutoKiln.Desc = I forni ##Automated sono usati per produrre mattoni e carbone.
 ObjectType.AutoMason = Stonecutter automatizzato
 ObjectType.AutoMason.Desc = Gli scalpellatori automatizzati trasformano le pietre grezze in blocchi di pietra.
 ObjectType.AutomatedBasicWorkplace = Officina di base automatica.
@@ -1944,7 +1944,7 @@ ObjectType.CocoaBeans.Desc = Un sacchetto di fave di cacao. Può essere usato pe
 ObjectType.Column = Colonna
 ObjectType.Column.Desc = Può essere rimosso raccogliendolo.
 ObjectType.CombatRobot = Robot da combattimento di base
-ObjectType.CombatRobot.Desc = I ##Robots possono eseguire solo il lavoro per cui sono stati creati.
+ObjectType.CombatRobot.Desc = I ##Robot possono eseguire solo il lavoro per cui sono stati creati.
 ObjectType.ConstructionBlock = Blocco di costruzione
 ObjectType.ConstructionBlock.Desc = Un blocco di costruzione rinforzato utilizzato per edifici avanzati.
 ObjectType.ConveyorBeltHigh = Nastro trasportatore (alto)
@@ -2038,13 +2038,13 @@ ObjectType.DecoSnowRocks.Desc = Può essere rimosso estraendoli / raccogliendoli
 ObjectType.DecoSwampBranches = Rami
 ObjectType.DecoSwampBranches.Desc = Può essere rimosso raccogliendoli.
 ObjectType.Depot5x5 = Deposito 5x5
-ObjectType.Depot5x5.Desc = I ##depots ##Automated possono essere utilizzati per immagazzinare e distribuire merci.
+ObjectType.Depot5x5.Desc = I ##depot ##Automated possono essere utilizzati per immagazzinare e distribuire merci.
 ObjectType.DepotEntry = Voce di deposito
 ObjectType.DepotEntry.Desc = Crea questo all'interno di un ##depot. Gli oggetti lasciati cadere in cima verranno portati nel deposito.
 ObjectType.DepotExit = Uscita dal deposito
 ObjectType.DepotExit.Desc = Crea questo all'interno di un ##depot. Gli oggetti dall'interno del deposito verranno portati qui.
 ObjectType.DepotHC5x5 = Depot 5x5 (alta capacità)
-ObjectType.DepotHC5x5.Desc = I ##depots ##Automated possono essere utilizzati per immagazzinare e distribuire merci.
+ObjectType.DepotHC5x5.Desc = I ##depot ##Automated possono essere utilizzati per immagazzinare e distribuire merci.
 ObjectType.Desert_Mountain = Montagna del deserto
 ObjectType.Desert_Mountain.Desc = Montagna del deserto
 ObjectType.DesertBrokenGround = Terreno appassito.
@@ -2070,7 +2070,7 @@ ObjectType.Fennec.Desc = Un cacciatore carino che vive nel deserto.
 ObjectType.FertileRock = Piccole rocce
 ObjectType.FertileRock.Desc = Può essere rimosso estraendoli / raccogliendoli.
 ObjectType.FilterInserter = Inseritore di filtri
-ObjectType.FilterInserter.Desc = Gli inseritori spostano gli articoli tra nastri trasportatori, depositi ## e altro.
+ObjectType.FilterInserter.Desc = Gli inseritori spostano gli articoli tra nastri trasportatori, ##depot e altro.
 ObjectType.Firefly = Lucciola
 ObjectType.Firefly.Desc = Illuminare la notte.
 ObjectType.Floor_Dark_Fertile = Lava fertile
@@ -2170,7 +2170,7 @@ ObjectType.Horse.Desc = Una creatura pacifica.
 ObjectType.HorseCarriage = Carrozza
 ObjectType.HorseCarriage.Desc = I cavalli possono trasportare tutti i tipi di merci.
 ObjectType.HorseStation = Stazione dei cavalli
-ObjectType.HorseStation.Desc = Stazione utilizzata dai ##carriages per trasportare merci. Viene con un cavallo gratis! (## Logsys)
+ObjectType.HorseStation.Desc = Stazione utilizzata dai ##carriages per trasportare merci. Viene con un cavallo gratis! (##Logsys)
 ObjectType.House = Casa di base
 ObjectType.House.Desc = Un posto dove riposare i tuoi coloni.
 ObjectType.HouseGood = Bella casa
@@ -2178,7 +2178,7 @@ ObjectType.HouseGood.Desc = Una bella casa per i tuoi coloni per rilassarsi.
 ObjectType.HouseNice = Bella casa
 ObjectType.HouseNice.Desc = Una casa lussuosa per far riposare i tuoi coloni.
 ObjectType.Inserter = Inseritore
-ObjectType.Inserter.Desc = Gli inseritori spostano gli articoli tra nastri trasportatori, depositi ## e altro.
+ObjectType.Inserter.Desc = Gli inseritori spostano gli articoli tra nastri trasportatori, ##depot e altro.
 ObjectType.Iron = Minerale di ferro
 ObjectType.Iron.Desc = Deposito di ferro pronto per essere estratto.
 ObjectType.IronBlank = Ferro vuoto
@@ -2206,7 +2206,7 @@ ObjectType.KoaTree.Desc = Questo albero si trova soprattutto nel ricco terreno d
 ObjectType.Log = Tronchi di legno
 ObjectType.Log.Desc = I tronchi di legno possono essere usati come combustibile o trasformati in carbone o tavole di legno.
 ObjectType.LongInserter = Inseritore lungo
-ObjectType.LongInserter.Desc = Gli inseritori spostano gli articoli tra nastri trasportatori, depositi ## e altro.
+ObjectType.LongInserter.Desc = Gli inseritori spostano gli articoli tra nastri trasportatori, ##depot e altro.
 ObjectType.LootBox = Forziere
 ObjectType.LootBox.Desc = I forzieri possono essere estratti per una selezione casuale di merci.
 ObjectType.LunchBox = Cestino per il pranzo
@@ -2238,7 +2238,7 @@ ObjectType.MinedRock.Desc = Le rocce sono utilizzate per costruire edifici di ba
 ObjectType.MinedRuby = Rubino
 ObjectType.MinedRuby.Desc = Rubino.
 ObjectType.MiningRobot = Robot da miniera
-ObjectType.MiningRobot.Desc = I ##Robots possono eseguire solo il lavoro per cui sono stati creati.
+ObjectType.MiningRobot.Desc = I ##Robot possono eseguire solo il lavoro per cui sono stati creati.
 ObjectType.Monolith = Vecchio monolito
 ObjectType.Monolith.Desc = Può essere rimosso raccogliendolo.
 ObjectType.MudRoad = Strada fangosa
@@ -2246,7 +2246,7 @@ ObjectType.MudRoad.Desc = Una strada semplice.
 ObjectType.Mummy = Mummia
 ObjectType.Mummy.Desc = Mummia.
 ObjectType.OilBarrel = Barile da olio
-ObjectType.OilBarrel.Desc = L'olio è usato per costruire e mantenere ##robots.
+ObjectType.OilBarrel.Desc = L'olio è usato per costruire e mantenere ##robot.
 ObjectType.OilPump = Pompa dell'olio
 ObjectType.OilPump.Desc = La pompa dell'olio preleva ##automatically l'olio da un pozzo e lo riempie in barili.
 ObjectType.OilWell = Pozzo di petrolio
@@ -2416,7 +2416,7 @@ ObjectType.TrainWagon2.Desc = I treni vengono utilizzati per trasportare merci p
 ObjectType.TrainWagon3 = Vagone
 ObjectType.TrainWagon3.Desc = I treni vengono utilizzati per trasportare merci pesanti su lunghe distanze.
 ObjectType.TransportRobot = Robot di trasporto
-ObjectType.TransportRobot.Desc = I ##Robots possono eseguire solo il lavoro per cui sono stati creati.
+ObjectType.TransportRobot.Desc = I ##Robot possono eseguire solo il lavoro per cui sono stati creati.
 ObjectType.Treadmill = Tapis roulant
 ObjectType.Treadmill.Desc = Gli animali o i coloni che usano il tapis roulant genereranno ##power per i tuoi macchinari.
 ObjectType.Tree = Quercia
@@ -2472,7 +2472,7 @@ ObjectType.ZeppelinDepotStation.Desc = Stazione e ##depot vengono utilizzati dag
 ObjectType.ZeppelinFactory = Fabbrica di zeppelin
 ObjectType.ZeppelinFactory.Desc = Costruisce e supporta tre zeppelin che possono trasportare merci. ##logsys
 ObjectType.ZeppelinStation = Stazione Zeppelin
-ObjectType.ZeppelinStation.Desc = Stazione utilizzata dagli zeppelin per trasportare merci su lunghe distanze. (## Logsys)
+ObjectType.ZeppelinStation.Desc = Stazione utilizzata dagli zeppelin per trasportare merci su lunghe distanze. (##Logsys)
 ObjectType.ZeppelinUnit = Zeppelin
 ObjectType.ZeppelinUnit.Desc = Gli zeppelin trasportano merci singole su lunghe distanze.
 ObjectType.Zombie = Colono non morto
@@ -2723,13 +2723,13 @@ Objective.SetDistributorModeFixed.Desc = Per impostare il distributore $5 in mod
 ObjectType.Barley = Orzo
 ObjectType.Barley.Desc = L'orzo è un raccolto che può essere utilizzato per produrre pane e altri alimenti.
 ObjectType.CombatRobot2 = Robot lancia
-ObjectType.CombatRobot2.Desc = ##I robots possono eseguire solo il lavoro per cui sono stati creati.
+ObjectType.CombatRobot2.Desc = I ##robot possono eseguire solo il lavoro per cui sono stati creati.
 ObjectType.CombatRobot3 = Robot del club
-ObjectType.CombatRobot3.Desc = ##I robots  possono eseguire solo il lavoro per cui sono stati creati.
+ObjectType.CombatRobot3.Desc = I ##robot  possono eseguire solo il lavoro per cui sono stati creati.
 ObjectType.CopperCoil = Bobina di rame
 ObjectType.CopperCoil.Desc = Utilizzato per la trasmissione di energia e l'elettronica.
 ObjectType.DepotExitOverflow = Uscita dal deposito (overflow)
-ObjectType.DepotExitOverflow.Desc = Gli articoli verranno portati qui quando il ##deposito sarà pieno per oltre il 75%.
+ObjectType.DepotExitOverflow.Desc = Gli articoli verranno portati qui quando il ##depot sarà pieno per oltre il 75%.
 ObjectType.ElectronicComponents = Componenti elettronici
 ObjectType.ElectronicComponents.Desc = Usato per costruire dispositivi elettronici e fabbriche automatizzate.
 ObjectType.ElectronicsFactory = Fabbrica di elettronica
@@ -2747,7 +2747,7 @@ ObjectType.HarvestedPotato.Desc =
 ObjectType.HorseBarn = Stalla dei cavalli
 ObjectType.HorseBarn.Desc =  Viene fornito con 3 cavalli.
 ObjectType.HorseStation3x3 = Stazione dei cavalli
-ObjectType.HorseStation3x3.Desc = Stazione usata da ##carrozze per trasportare merci. Viene fornito con un cavallo gratuito! (##Logsys)
+ObjectType.HorseStation3x3.Desc = Stazione usata da ##carriages per trasportare merci. Viene fornito con un cavallo gratuito! (##Logsys)
 ObjectType.MaizePlant = Mais
 ObjectType.MaizePlant.Desc = Mais.
 ObjectType.ModernBuildingPart = Parte di edificio moderno
@@ -2796,7 +2796,7 @@ UI.SettleDown = Stabilisciti su quest'isola.
 UI.SettleDown.Desc = La tua nave può trasportare solo un numero limitato di coloni sull'isola successiva. I coloni rimasti indietro si stabiliranno e invieranno denaro alle tue future colonie.
 UI.SettlerScreen.SettleDown = $1 coloni si sistemeranno e invieranno $2 monete/giorno. I coloni $3/$4 viaggeranno verso l'isola successiva.
 UI.SettlerScreen.SettleDown.Desc = La tua nave può trasportare solo un numero limitato di coloni sull'isola successiva. I coloni rimasti indietro si stabiliranno e invieranno denaro alle tue future colonie.
-UI.WM.IslandTooltip.MoneyTransfer = Ti invia $ 1 #Money# al giorno.
+UI.WM.IslandTooltip.MoneyTransfer = Ti invia $1 #Money# al giorno.
 WorkshopAuto.Status.NoEnergy = Nessuna energia
 WorkshopAuto.Status.NoEnergy.Desc = Questo edificio richiede energia per funzionare. Costruisci pali di alimentazione e generatori come tapis roulant o celle solari per fornire energia.
 Debug.EgoCamera = Attiva/Disattiva Camera-Ego.
@@ -2942,6 +2942,42 @@ ObjectType.StumpOak = Ceppo di quercia
 ObjectType.StumpOak.Desc = Ceppo di quercia
 ObjectType.StumpPlumTree = Ceppo di albero di prugna
 ObjectType.StumpPlumTree.Desc = Ceppo di albero di prugna
-UI.RebindKeys = Riassegna le chiavi
+UI.RebindKeys = Riassegna tasti
 UI.RebindKeys.Hint = Per modificare le associazioni dei tasti, avvia un gioco e apri il menu di gioco (ad esempio utilizzando il tasto Esc).
 UI.UpgradeAvailable = Aggiornamento disponibile.
+UI.UpgradeAvailable.Desc = Questo edificio può essere aggiornato.
+Message.GameSaveFailedIO = IO-error occurred while saving the game.
+Message.GameSaveFailedUnknown = Unknown error saving game.
+ObjectType.Fox = Volpe
+ObjectType.FrogLava = Rana di magma
+ObjectType.FrogLava.Desc = Questo anfibio è sorprendentemente resistente al calore.
+ObjectType.LotusBlue = Boccioli di loto blu
+ObjectType.LotusBlue.Desc = Rispetto al sole nella mitologia egizia, in quanto si apre al mattino e chiude di notte.
+ObjectType.LotusBlueBig = Loto blu
+ObjectType.LotusBlueBig.Desc = Questa pianta era considerata sacra e usata in modo rituale nell'antico Egitto.
+ObjectType.Monkey = Scimmia cappuccino
+ObjectType.Monkey.Desc = Questa scimmia arborea trascorre il suo tempo alla ricerca di cibo e si ferma solo per il suo pisolino di mezzogiorno.
+ObjectType.MonkeyBig = Gorilla
+ObjectType.MonkeyBig.Desc = Questi primati delle foreste che vivono a terra condividono più del 95% del loro DNA con gli umani.
+ObjectType.RabbitDesert = Lepre del deserto
+ObjectType.RabbitDesert.Desc = Questo roditore è di casa nelle zone semi-desertiche. Era raffigurato in geroglifici.
+ObjectType.RabbitGrass = Coniglio silvilago
+ObjectType.RabbitGrass.Desc = Saltellando allegramente mentre sei ancora attento ai potenziali predatori.
+ObjectType.RabbitLava = Coniglio del vulcano
+ObjectType.RabbitLava.Desc = Questa specie di coniglio può essere riconosciuta dalle sue piccole orecchie arrotondate e dalle zampe corte.
+ObjectType.RabbitSnow = Coniglio delle nevi
+ObjectType.RabbitSnow.Desc = Quasi invisibile nella neve, che mimetizzazione!
+ObjectType.SnakeDesert = Serpente a sonagli
+ObjectType.SnakeDesert.Desc = Questa creatura prende il nome dal sonaglio attaccato all'estremità della coda utilizzato per scoraggiare i predatori.
+ObjectType.SnakeLava = Serpente di lava
+ObjectType.SnakeLava.Desc = Nella mitologia, i serpenti rappresentano la duplice espressione del bene e del male.
+ObjectType.WolfVolcano = Lupo
+ObjectType.WolfVolcano.Desc = Nella mitologia turca, si pensava che i lupi incarnassero gli antenati del loro popolo.
+ObjectType.WolfVolcanoYoung = Cucciolo di lupo
+ObjectType.WolfVolcanoYoung.Desc = I cuccioli di lupo iniziano a combattere per gioco già all'età di tre settimane, ma solo con morsi delicati.
+Task.ClearStockpiles.Text = Clearing $1 from $2.
+UI.ColorZone = Assegna zone di colore.
+UI.ColorZone.Desc = Assegna manualmente i colori alle aree specificate. In alternativa puoi usare i falò per impostare il colore delle piastrelle circostanti. Usa le zone colorate per limitare i tuoi coloni a determinate aree e impedire loro di vagare sulla mappa.
+UI.Continue = Continua...
+UI.Train.Override = Ignora i segnali
+UI.Train.Override.Desc = Usa questa funzione per sbloccare i treni che sono bloccati per un po'.
