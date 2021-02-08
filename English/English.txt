@@ -1896,6 +1896,6 @@ UI.Train.Override.Desc = Use this function to unlock trains that are stuck for a
 UI.Armor = Armor: $1
 
 UI.ProductionLimit = Production limit
-UI.ProductionLimit.Desc = Allows you to limit the production of this workshop. Set the limit to 0 to disable it.
+UI.ProductionLimit.Desc = Allows you to limit the production of this workshop. Set the limit to 0 to disable the limit.
 UI.ProductionLimit.Text = Limit: $1 ($2) 
 UI.ProductionLimit.TextUnlimited = Unlimited
