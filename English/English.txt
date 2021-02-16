@@ -1899,3 +1899,5 @@ UI.ProductionLimit = Production limit
 UI.ProductionLimit.Desc = Allows you to limit the production of this workshop. Set the limit to 0 to disable the limit.
 UI.ProductionLimit.Text = Limit: $1 ($2) 
 UI.ProductionLimit.TextUnlimited = Unlimited
+
+Debug.clearcurrentobjectives = Clear current objectives
