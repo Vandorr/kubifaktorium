@@ -1901,3 +1901,5 @@ UI.ProductionLimit.Text = Limit: $1 ($2)
 UI.ProductionLimit.TextUnlimited = Unlimited
 
 Debug.clearcurrentobjectives = Clear current objectives
+
+UI.Minipet = Select mini pet:
