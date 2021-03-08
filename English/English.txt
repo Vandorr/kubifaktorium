@@ -336,6 +336,8 @@ Objective.ShowHelpTooltip.Desc = Well done. Objectives and many other user inter
 Objective.ClickHelp = Click this objective to proceed.
 Objective.ClickHelp.Desc = You can click on most objectives to move the camera to what you need to interact with.
 
+Objective.ClaimTerrain = Expand to new biome. 
+Objective.ClaimTerrain.Desc = Expand your territory towards the new biome and build a bonfire there.
 
 Objective.ScrollCamera = Move camera using WASD/arrows.
 Objective.ScrollCamera.Desc = Press the WASD- or arrow keys to scroll the camera.
