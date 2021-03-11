@@ -2,9 +2,65 @@
 locales=NL
 fallback=English
 
+# The general format of the localization file for each line is <key> = <value>, for example "UI.BuildTrain = Build train". The <key> must not be changed, the <value> is to be translated, so e.g. "UI.BuildTrain = Baue Zug".
+# A line starting with "#" is ignored and can be used for comments. 
+# The line "fallback=English" specifies which language to use when a certain string cannot be found. Usually English is a good choice as it is usually the most up-to-date but other languages can be chosen if they are closer to the target language. 
+# The game supports hyphenation for languages with long strings like German. To use it, use the "_" character to insert a soft hyphen at the spots where a word can be hyphenated. I recommend this for words longer than 12-15 characters. For example: "Recommen_dations" or "trans_portation".
+# A string in the format "#<id>#" causes an icon to be inserted, e.g. "#sun#". Note that the id must not be translated, otherwise it will not be found and translated correctly.
+# A string in the format "##<id>" creates a keyword. Keywords like "##daytime" will be translated to an underlined word "daytime". In addition, an explanation will be added underneath, usually in the tooltips. Again, the id must not be translated. However, the explanation text (the lines with keys like ##idle), should.
+# Strings like "$1", "$2" etc are placeholders for numbers and other things which will be filled by the game. For example "Growth rate at daytime: $1%" will become "Growth rate at daytime: 75%" at runtime. 
+# If required for some reason, you can use <br> to create a line break. However I recommend not using it.       
+# Whenever you start the game with a new translation file, it will auto_matically create a list of the missing translation lines. This is both useful to get started and to keep the translation up-to-date when new strings get added. The file can be found in C:\Users\<username>\AppData\LocalLow\MirkoStudio\Kubifaktorium\Missing_<language>.txt on Windows or ~/.config/unity3d/MirkoStudio/Kubifaktorium/ on Linux.
 
-MainMenu.NewCampaign = Nieuwe Campagne
-MainMenu.ResumeCampaign = Campagne Hervatten
+# Finished translations can be shared and synced on: https://github.com/Vandorr/kubifaktorium
+# Visit us on discord.gg/kubifaktorium to get access and share the localization work with other friendly humans. :)  
+
+
+
+
+
+
+##zone = #star#zone
+##zone.Desc = #star#Zones: Kolonisten kunnen aan één of meer zones worden toegewezen. Ze zullen alleen in de toegewezen zones werken.
+
+
+##keycycle = #controller#schakelen
+##keycycle.Desc = #controller#Schakelen: Middelste muisknop of 'V'-toets.
+
+##keyrotate = #controller#roteren
+##keyrotate.Desc = #controller#Roteren: Muisknoppen 4/5 of 'R'-toets.
+
+
+
+##idle = #Idle# inactief
+##idle.Desc = #Idle# Inactief: U kunt de taken van uw kolonisten in het #People# kolonisten_beheerscherm beheren.
+
+##mine = #Mine#mijnen
+##mine.Desc = #Mine#Mijnen: Om een bron te selecteren die gemijnd moet worden, klikt u op de mijnknop en selecteert u de dingen die u wilt mijnen. Sleep een gebied om alles binnenin te mijnen.
+
+##territory = #Mountain#territorium
+##territory.Desc = #Mountain#Territorium: U kunt alleen binnen uw territorium bouwen. Breid het uit door kampvuren te bouwen en vijandige kampen te verslaan.
+
+
+##weight = gewicht
+##weight.Desc = Gewicht: Bij het dragen van zware spullen worden uw kolonisten vertraagd.
+
+##stacksize = stapel grootte
+##stacksize.Desc = Stapelen: In voorraden en depots kunnen meerdere producten van hetzelfde type op één tegel worden gestapeld.
+
+##day = #sun#dag
+##day.Desc = #sun#Dag: Tijd tussen 6:00 en 18:00.
+
+##drink = drinken
+##drink.Desc = Drinken: Wanneer de kolonisten dorstig zijn, zoeken ze automatisch naar iets om te drinken. Het verstrekken van drankjes maakt ze gelukkiger en produc_tiever.
+
+##happiness = #Happy#geluk
+##happiness.Desc = #Happy#Geluk: De bewegings- en werksnelheid van een kolonist worden beïnvloed door hoe goed zijn/haar behoeften worden vervuld.
+
+# TODO, sorting WIP
+
+MainMenu.NewCampaign = Nieuw verhaal
+MainMenu.ResumeCampaign = Verhaal Hervatten
 MainMenu.PlayTutorial = Speel Tutorial
 MainMenu.PlayCustomMap = Aangepast Level
 MainMenu.LoadGame = Spel Laden
@@ -216,34 +272,20 @@ Need.Sum = Som
 ##cargoship.Desc = #Refine#Vrachtschip: Hiermee kunt u goederen exporteren die u niet langer nodig heeft en de benodigde middelen importeren. Om iets te exporteren, sluit u een voorraad aan op de vrachtpoort. Om iets te importeren, sluit u de vrachtpoort aan op een voorraad en stelt u deze in om iets te accepteren dat kan worden geïmpor_teerd.
 ##carriage = wagen
 ##carriage.Desc = Wagen: Wagens transpor_teren automatisch goederen tussen aangesloten vervoer stations. Selecteer een station en klik met de rechter_muisknop op een ander station om ze te verbinden.
-##day = #sun#dag
-##day.Desc = #sun#Dag: Tijd tussen 6:00 en 18:00.
 ##decoration = #House#decoratie
 ##decoration.Desc = #House#Decoratie: Als u decoratieve producten plaatst, worden uw kolonisten gelukkiger en produc_tiever.
 ##depot = depot
 ##depot.Desc = Depot: Wordt gebruikt voor het opslaan en distribu_teren van goederen. Gebruik ingangs- en uitgangs_hoppers om goederen in te voegen en uit te pakken.
-##drink = drinken
-##drink.Desc = Drinken: Wanneer ze dorstig zijn, zoeken kolonisten automatisch naar iets om te drinken. Het verstrekken van drankjes maakt ze gelukkiger en produc_tiever.
 ##farmzone = #Farm#landbouw zone
 ##farmzone.Desc = #Farm#Landbouw zone: Kan worden toegewezen op vruchtbare grond om uw kolonisten een aantal gewassen te laten groeien.
 ##food = eten
 ##food.Desc = Eten: Wanneer ze hongerig zijn, zoeken kolonisten automatisch naar iets om te eten. DHet verstrekken van voedsel, worden ze gelukkiger en produc_tiever.
 ##grovezone = #Grove#bos zone
 ##grovezone.Desc = #Grove#Bos zone: Kan worden toegewezen op vruchtbare grond om uw kolonisten bomen te laten groeien.
-##happiness = #Happy#geluk
-##happiness.Desc = #Happy#Geluk: De bewegings- en werksnelheid van een kolonist worden beïnvloed door hoe goed zijn/haar behoeften worden vervuld.
 ##house = onderdak
 ##house.Desc = Onderdak: Kolonisten en dieren hebben liever een plek om te wonen. Door iemand te voorzien van onderdak, worden ze gelukkiger en produc_tiever.
-##idle = #Idle#inactief
-##idle.Desc = #Idle#Inactief: U kunt de taken van uw kolonisten in het kolonisten_beheerscherm beheren.
-##keycycle = #controller#schakelen
-##keycycle.Desc = #controller#Schakelen: Middelste muisknop of 'V'-toets.
-##keyrotate = #controller#roteren
-##keyrotate.Desc = #controller#Roteren: Muisknoppen 4/5 of 'R'-toets.
 ##logsys = #Logistics#logistiek_systeem
 ##logsys.Desc = #Logistics#Logistiek_systeem: Hiermee kunt u meerdere transport- en opslag_systemen met elkaar verbinden. Eenmaal ingesteld, genereert deze automatisch transport_opdrachten voor voertuigen en kolonisten.
-##mine = #Mine#mijnen
-##mine.Desc = #Mine#Mijnen: Om een bron te selecteren die gemijnd moet worden, klikt u op de mijnknop en selecteert u de dingen die u wilt mijnen. Sleep een gebied om alles binnenin te mijnen.
 ##power = #Power#stroom
 ##power.Desc = #Power#Stroom: Opgewekt in generatoren en gebruikt door verschil_lende machines.
 ##productiontarget = voorraaddoel
@@ -255,20 +297,14 @@ Need.Sum = Som
 ##skill = #People#vaardigheid
 ##skill.Desc = #People#Vaardigheid: Elke kolonist heeft een andere vaardigheid voor elke taakgroep en werkplaats. In de loop van de tijd verbeteren ze de taken die ze uitvoeren.
 ##social = #Chat#sociaal
-##stacksize = stapel grootte
-##stacksize.Desc = Stapelen: In voorraden en depots kunnen meerdere producten van hetzelfde type op één tegel worden gestapeld.
 ##stockpilezone = #Stockpile#voorraad zone
 ##stockpilezone.Desc = #Stockpile#Voorraad zone: Kan worden toegewezen op vaste grond en kan worden gebruikt voor het stapelen van producten van werk_plaatsen, boerderijen of mijnacti_viteiten.
-##territory = #Mountain#territorium
-##territory.Desc = #Mountain#Territorium: U kunt alleen binnen uw territorium bouwen. Breid het uit door kampvuren te bouwen en vijandige kampen te verslaan.
 ##tool = #settings#gereedschap
 ##tool.Desc = #settings#Gereedschap: Vergroot de kans van een kolonist om te slagen in een bepaalde taak. Kolonisten rusten automatisch de beste tool uit die beschikbaar is voor hun primaire taaktype.
 ##water = water
 ##water.Desc = Water: Landbouw_grond moet worden bewaterd zodat planten kunnen groeien.
 ##weight = gewicht
 ##weight.Desc = Gewicht: Bij het dragen van zware spullen worden uw kolonisten vertraagd.
-##zone = #star#zone
-##zone.Desc = #star#Zones: Kolonisten kunnen aan één of meer zones worden toegewezen.
 ##pasturezone = #Pasture#Weide zone
 ##pasturezone.Desc = #Pasture#Weide zone: Kan worden toegewezen op vruchtbare grond voor het verzamelen en huisvesten van neutrale dieren.
 
