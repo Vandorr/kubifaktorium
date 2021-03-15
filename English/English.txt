@@ -1817,7 +1817,7 @@ Message.Leave.TooFewColonists.Short = Too few colonists
 Message.Leave.TooManyColonists.Short = Too many colonists 
 
 Message.Leave.TooFewColonists = You need to take at least $1 colonists to the next island. You can change which colonists will settle down in the colonist management screen.
-Message.Leave.TooManyColonists = You can take no more than $1 colonists, animals and robots to the next island. You can change which colonists will settle down in the colonist management screen.
+Message.Leave.TooManyColonists = You can take no more than $1 colonists and animals to the next island. You can change which colonists will settle down in the colonist management screen.
 Message.SettledColonistsSend = Your previous colonies have sent you $1 #Money#. 
 
 UI.WM.IslandTooltip.MoneyTransfer = Sends you $1 #Money# per day.
@@ -1905,3 +1905,10 @@ UI.ProductionLimit.TextUnlimited = Unlimited
 Debug.clearcurrentobjectives = Clear current objectives
 
 UI.Minipet = Select mini pet:
+
+
+Objective.ColonistsLowerLimit = Take at least $3 colonists to next island. (Current: $2)
+Objective.ColonistsLowerLimit.Desc = You need to take at least $3 colonists to the next island. You can change which colonists will settle down in the colonist management screen. 
+
+Objective.ColonistsUpperLimit = Take no more than $3 colonists or animals to next island. (Current: $2)
+Objective.ColonistsUpperLimit.Desc = You can take no more than $3 colonists and animals to the next island. You can change which colonists will settle down in the colonist management screen.
