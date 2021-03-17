@@ -2,6 +2,7 @@
 locales=NL
 fallback=English
 
+
 # The general format of the localization file for each line is <key> = <value>, for example "UI.BuildTrain = Build train". The <key> must not be changed, the <value> is to be translated, so e.g. "UI.BuildTrain = Baue Zug".
 # A line starting with "#" is ignored and can be used for comments. 
 # The line "fallback=English" specifies which language to use when a certain string cannot be found. Usually English is a good choice as it is usually the most up-to-date but other languages can be chosen if they are closer to the target language. 
@@ -56,6 +57,47 @@ fallback=English
 
 ##happiness = #Happy#geluk
 ##happiness.Desc = #Happy#Geluk: De bewegings- en werksnelheid van een kolonist worden beïnvloed door hoe goed zijn/haar behoeften worden vervuld.
+
+##skill = #People#vaardigheid
+##skill.Desc = #People#Vaardigheid: Elke kolonist heeft een andere vaardigheid voor elke taakgroep en werkplaats. In de loop van de tijd verbeteren ze de taken die ze uitvoeren.
+
+
+
+##water = water
+##water.Desc = Water: Landbouw_grond moet worden bewaterd zodat planten kunnen groeien.
+
+##food = eten
+##food.Desc = Eten: Wanneer ze hongerig zijn, zoeken kolonisten automatisch naar iets om te eten. DHet verstrekken van voedsel, worden ze gelukkiger en produc_tiever.
+
+##stockpilezone = #Stockpile#voorraad zone
+##stockpilezone.Desc = #Stockpile#Voorraad zone: Kan worden toegewezen op vaste grond en kan worden gebruikt voor het stapelen van producten van werk_plaatsen, boerderijen of mijnacti_viteiten.
+##farmzone = #Farm#landbouw zone
+##farmzone.Desc = #Farm#Landbouw zone: Kan worden toegewezen op vruchtbare grond om uw kolonisten een aantal gewassen te laten groeien.
+##grovezone = #Grove#bos zone
+##grovezone.Desc = #Grove#Bos zone: Kan worden toegewezen op vruchtbare grond om uw kolonisten bomen te laten groeien.
+##ship = #Compass#schip
+##ship.Desc = #Compass#Schip: Het schip dat u naar dit eiland heeft vervoerd, kan worden gebruikt om producten tussen eilanden te vervoeren.
+##power = #Power#stroom
+##power.Desc = #Power#Stroom: Opgewekt in generatoren en gebruikt door verschil_lende machines.
+
+##decoration = #House#decoratie
+##decoration.Desc = #House#Decoratie: Als u decoratieve producten plaatst, worden uw kolonisten gelukkiger en produc_tiever.
+
+##house = onderdak
+##house.Desc = Onderdak: Kolonisten en dieren hebben liever een plek om te wonen. Door iemand te voorzien van onderdak, worden ze gelukkiger en produc_tiever.
+
+
+##social = #Chat#sociaal
+# TODO: Vertalen: #social.Desc = Social: Colonists need interaction with each other to thrive. Providing leisure activities will make them more happy and productive.
+##logsys = #Logistics#logistiek_systeem
+##logsys.Desc = #Logistics#Logistiek_systeem: Hiermee kunt u meerdere transport- en opslag_systemen met elkaar verbinden. Eenmaal ingesteld, genereert deze automatisch transport_opdrachten voor voertuigen en kolonisten.
+
+##cargoship = #Refine#vrachtschip
+##automatically = #Power#automatisch
+##automatically.Desc = #Power#Automa_tisering: Geautoma_tiseerde gebouwen zullen werken zonder te worden bediend door uw kolonisten, maar hebben stroom nodig om te functio_neren.
+##Automated = #Power#geautoma_tiseerd
+##Automated.Desc = #Power#Automa_tisering: Geautoma_tiseerde gebouwen zullen werken zonder te worden bediend door uw kolonisten, maar hebben stroom nodig om te functio_neren.
+
 
 # TODO, sorting WIP
 
@@ -264,45 +306,18 @@ Need.Social.Desc = Kolonisten moeten regelmatig ##social bezig zijn om te florer
 Need.SpeedFactor = Snelheid
 Need.Sum = Som
 
-##Automated = #Power#geautoma_tiseerd
-##Automated.Desc = #Power#Automa_tisering: Geautoma_tiseerde gebouwen zullen werken zonder te worden bediend door uw kolonisten, maar hebben stroom nodig om te functio_neren.
-##automatically = #Power#automatisch
-##automatically.Desc = #Power#Automa_tisering: Geautoma_tiseerde gebouwen zullen werken zonder te worden bediend door uw kolonisten, maar hebben stroom nodig om te functio_neren.
-##cargoship = #Refine#vrachtschip
-##cargoship.Desc = #Refine#Vrachtschip: Hiermee kunt u goederen exporteren die u niet langer nodig heeft en de benodigde middelen importeren. Om iets te exporteren, sluit u een voorraad aan op de vrachtpoort. Om iets te importeren, sluit u de vrachtpoort aan op een voorraad en stelt u deze in om iets te accepteren dat kan worden geïmpor_teerd.
 ##carriage = wagen
 ##carriage.Desc = Wagen: Wagens transpor_teren automatisch goederen tussen aangesloten vervoer stations. Selecteer een station en klik met de rechter_muisknop op een ander station om ze te verbinden.
-##decoration = #House#decoratie
-##decoration.Desc = #House#Decoratie: Als u decoratieve producten plaatst, worden uw kolonisten gelukkiger en produc_tiever.
 ##depot = depot
 ##depot.Desc = Depot: Wordt gebruikt voor het opslaan en distribu_teren van goederen. Gebruik ingangs- en uitgangs_hoppers om goederen in te voegen en uit te pakken.
-##farmzone = #Farm#landbouw zone
-##farmzone.Desc = #Farm#Landbouw zone: Kan worden toegewezen op vruchtbare grond om uw kolonisten een aantal gewassen te laten groeien.
-##food = eten
-##food.Desc = Eten: Wanneer ze hongerig zijn, zoeken kolonisten automatisch naar iets om te eten. DHet verstrekken van voedsel, worden ze gelukkiger en produc_tiever.
-##grovezone = #Grove#bos zone
-##grovezone.Desc = #Grove#Bos zone: Kan worden toegewezen op vruchtbare grond om uw kolonisten bomen te laten groeien.
-##house = onderdak
-##house.Desc = Onderdak: Kolonisten en dieren hebben liever een plek om te wonen. Door iemand te voorzien van onderdak, worden ze gelukkiger en produc_tiever.
-##logsys = #Logistics#logistiek_systeem
-##logsys.Desc = #Logistics#Logistiek_systeem: Hiermee kunt u meerdere transport- en opslag_systemen met elkaar verbinden. Eenmaal ingesteld, genereert deze automatisch transport_opdrachten voor voertuigen en kolonisten.
-##power = #Power#stroom
-##power.Desc = #Power#Stroom: Opgewekt in generatoren en gebruikt door verschil_lende machines.
 ##productiontarget = voorraaddoel
 ##productiontarget.Desc = Voorraad_doel: Hoeveelheid goederen die u op elk eiland moet produceren om vooruitgang te boeken in de campagne.
 ##robot = robot
 ##robot.Desc = Robot: Kan eenvoudige taken uitvoeren. Verhoogt de ##skill niet met ervaring en vereist olie om te functio_neren. Kan worden ingesteld om in meerdere modi te werken.
-##ship = #Compass#schip
-##ship.Desc = #Compass#Schip: Het schip dat u naar dit eiland heeft vervoerd, kan worden gebruikt om producten tussen eilanden te vervoeren.
-##skill = #People#vaardigheid
-##skill.Desc = #People#Vaardigheid: Elke kolonist heeft een andere vaardigheid voor elke taakgroep en werkplaats. In de loop van de tijd verbeteren ze de taken die ze uitvoeren.
-##social = #Chat#sociaal
-##stockpilezone = #Stockpile#voorraad zone
-##stockpilezone.Desc = #Stockpile#Voorraad zone: Kan worden toegewezen op vaste grond en kan worden gebruikt voor het stapelen van producten van werk_plaatsen, boerderijen of mijnacti_viteiten.
+
+
 ##tool = #settings#gereedschap
 ##tool.Desc = #settings#Gereedschap: Vergroot de kans van een kolonist om te slagen in een bepaalde taak. Kolonisten rusten automatisch de beste tool uit die beschikbaar is voor hun primaire taaktype.
-##water = water
-##water.Desc = Water: Landbouw_grond moet worden bewaterd zodat planten kunnen groeien.
 ##weight = gewicht
 ##weight.Desc = Gewicht: Bij het dragen van zware spullen worden uw kolonisten vertraagd.
 ##pasturezone = #Pasture#Weide zone
@@ -1220,3 +1235,5 @@ ObjectiveGroup.RescueSettlers = Red kolonisten
 ObjectiveGroup.SetupFarm = Zet een landbouw zone op
 ObjectiveGroup.SetupWell = Zet een put op
 ObjectiveGroup.UnloadShip = Los het schip
+
+##cargoship.Desc = #Refine#Vrachtschip: Hiermee kunt u goederen exporteren die u niet langer nodig heeft en de benodigde middelen importeren. Om iets te exporteren, sluit u een voorraad aan op de vrachtpoort. Om iets te importeren, sluit u de vrachtpoort aan op een voorraad en stelt u deze in om iets te accepteren dat kan worden geïmpor_teerd.
