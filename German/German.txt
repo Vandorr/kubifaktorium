@@ -196,7 +196,7 @@ Objective.FarmZone.Desc = Um eine ##farmzone zu erstellen, klicke auf die #Farm#
 Objective.FarmZoneCrop = Produktion zuweisen: $1
 Objective.FarmZoneCrop.Desc = Um mit dem Anbau einer Pflanze zu beginnen, wähle eine ##farmzone aus und wähle die Pflanze, die angebaut werden soll.
 
-Objective.Have = Produziere: $1 ($2/$3)
+Objective.Have = Besitze: $1 ($2/$3)
 Objective.Have.Desc = Ressourcen wie Holz_scheite können aus der Umwelt ##mine werden. Waren können in Werk_stätten her_gestellt werden.
 Objective.LinkStockpile = Verbinde $1 mit Lagerplatz ($2/$3)
 Objective.LinkStockpile.Desc = Um $1 mit einem ##stockpilezone zu ver_knüpfen, klicke mit der linken Maus_taste auf $1 und mit der rechten Maustaste auf den ##stockpilezone. Die Werk_stätten produ_zieren, bis die ver_knüpften Lager_plätze voll sind.
