@@ -286,7 +286,7 @@ Objective.FarmZone = Create farm zone ($2/$3)
 Objective.FarmZone.Desc = To create a ##farmzone click on the #Farm# farm zone button and mark an area on fertile ground. Assign at least $3 tiles to be farms.
 Objective.FarmZoneCrop = Assign crop: $1
 Objective.FarmZoneCrop.Desc = To start growing a crop, select a ##farmzone and select the plant you want to grow.
-Objective.Have = Produce: $1 ($2/$3)
+Objective.Have = Own: $1 ($2/$3)
 Objective.Have.Desc = Resources can be ##mined from the environment. Goods can be produced in workshops.
 
 
@@ -303,6 +303,8 @@ Objective.LinkStockpile = Link $1 to stockpile ($2/$3)
 Objective.LinkStockpile.Desc = To link a $1 to a ##stockpilezone, left-_click the $1 and right-_click on the stockpile. Workshops will produce until the linked stockpiles are full.
 Objective.LinkFarmToStockpile = Link farm to stockpile ($2/$3)
 Objective.LinkFarmToStockpile.Desc = To link a ##farmzone to a ##stockpilezone, left-_click the farm and right-_click on the stockpile. Crops on farms will be harvested until the linked stockpiles are full.
+Objective.LinkShipToStockpile = Link ship to stockpile
+Objective.LinkShipToStockpile.Desc = To link your ship to a ##stockpilezone, left-_click the ship and right-_click on the stockpile. Your colonists will automatically fill the stockpile with matching items from your ship.
 Objective.MiningJob = Create mining tasks ($2/$3)
 Objective.MiningJob.Desc = To select a resource to be ##mined, click the #Mine# mine button and select the things to be mined. Drag an area to mine everything within. Note that your colonists can only mine resources within your ##territory.
 Objective.ProductionTask = Set production: $1 ($2/$3)
@@ -310,7 +312,10 @@ Objective.ProductionTask.Desc = To produce a good, select a workshop and click o
 Objective.SettlersEquipTool = Tools equipped ($2/$3)
 Objective.SettlersEquipTool.Desc = Colonists auto_matically equip the ##tools they need. Produce the tools they need to make them more productive.
 
-Objective.SetActorTaskGroup = Assign $5 to work in $4.
+Objective.StockpileAcceptsAllTypes = Set stockpile to accept all items
+Objective.StockpileAcceptsAllTypes.Desc = Select the stockpile and click the "accept all" button in the type selection panel in the bottom right.
+
+Objective.SetActorTaskGroup = Assign $5 to work in $4
 Objective.SetActorTaskGroup.Desc = To make $5 work in $4, select $5 and click on #$7# $4. Alter_natively, you can manage your colonists' jobs from the settler management screen.
 
 Objective.SettlerTaskGroup = Assign job: $4 ($2/$3)
@@ -320,7 +325,7 @@ Objective.SettlerWorkshop.Desc = To make a colonist work in the $1, select him/h
 Objective.UnloadAll = Unload your ship ($1 left)
 Objective.UnloadAll.Desc = Click on your ##ship to see what goods it has on board. Click on a good to order your colonists to unload it. You can unload multiple goods at once by holding the shift or control key while clicking. Alter_natively you can press the #Unload# unload button to unload everything.
 
-Objective.Recruit = Recruit them.
+Objective.Recruit = Recruit them
 Objective.Recruit.Desc = Recruiting a castaway or taming an animal will make them join your colony. Note: Animals can only perform a limited set of tasks. Once they are a part of your colony, they will begin consuming your supplies.
 Objective.ActivateDebugMode = Activate debug mode.
 Objective.ActivateDebugMode.Desc = Open the settings menu and activate debug/cheat mode.
@@ -1912,3 +1917,5 @@ Objective.ColonistsLowerLimit.Desc = You need to take at least $3 colonists to t
 
 Objective.ColonistsUpperLimit = Take no more than $3 colonists or animals to next island. (Current: $2)
 Objective.ColonistsUpperLimit.Desc = You can take no more than $3 colonists and animals to the next island. You can change which colonists will settle down in the colonist management screen.
+
+UI.WorldMap.Loading = Generating / loading world map.
