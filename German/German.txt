@@ -111,7 +111,7 @@ UI.MessageLog = Nachrichten_log ///L///
 UI.MessageLog.Desc = Zeigt frühere Mel_dungen an.
 UI.MultiSelectHeader = $1 Kolonist aus_gewählt.
 UI.Build = Bauen ///B///
-UI.Build.Desc = Erstellt einen Plan für ein Gebäude, das an_schließend von deinen Kolo_nisten gebaut wird.
+UI.Build.Desc = Erstellt einen Plan für ein Gebäude, das an_schließend von deinen Kolo_nisten gebaut wird. Drücke ##Keyrotate zum rotieren.
 UI.Mine = Abbauen & ernten ///M///
 UI.Mine.Desc = Markiert Bäume, Felsen und andere Objekte, die ##mine oder geerntet werden sollen.
 UI.SettlerMenu = Kolo_nisten_management ///F9///
@@ -737,9 +737,9 @@ Settings.ExportIcons.Desc = Expor_tiert Objekt_icons beim Start (in der Regel ni
 UI.ProductionTree = Pro_duktions_übersicht
 
 
-UI.AcceptAll = Alle akzeptieren
+UI.AcceptAll = Alle Güter akzeptieren
 UI.AcceptAll.Desc = Der ##stockpilezone nimmt alle Güter auf.
-UI.RefuseAll = Alle ablehnen
+UI.RefuseAll = Alle Güter ablehnen
 UI.RefuseAll.Desc = Der ##stockpilezone nimmt keine Güter auf.
 
 Settings.RotateSpeed = Rot.-geschw.
@@ -970,7 +970,7 @@ TipOfTheDay.4 = Du kannst ein exist_ierendes Gebäude klonen indem du die Alt-Ta
 
 TerrainShape.Normal = Normales Terrain
 TerrainShape.Plane = Perfekt glattes Terrain
-Tool.Effect.Agriculture.Crit = 
+Tool.Effect.Agriculture.Crit = Krit. Erfolgs_chance: $1% 
 Tool.Effect.Agriculture.Effect = Geschwin_digkeit: $1
 Tool.Effect.Agriculture.Hit = Erfolgs_chance: $1%
 Tool.Effect.Combat.Crit = Krit. Erfolgs_chance: $1%
@@ -982,7 +982,7 @@ Tool.Effect.Crafting.Hit = Erfolgs_chance: $1%
 Tool.Effect.Mining.Crit = Krit. Erfolgs_chance: $1%
 Tool.Effect.Mining.Effect = Ge_schwin_dig_keit: $1
 Tool.Effect.Mining.Hit = Erfolgs_chance: $1%
-Tool.Effect.None.Crit = -
+Tool.Effect.None.Crit = Krit. Erfolgs_chance: 0%
 Tool.Effect.None.Effect = Basis_effekt
 Tool.Effect.None.Hit = Erfolgs_chance: 50%
 Tool.None = Kein Werkzeug.
@@ -1044,7 +1044,8 @@ UI.Time.Desc = Zeit des Tages. Die meisten Pflanzen wachsen nur ##day.
 UI.TotalStrength = Stärke
 UI.TrackLayer.Semaphore1 = Platziere ein Signal auf einer Zugstrecke.
 UI.TrackLayer.Semaphore2 = Platziere ein Vorsignal auf einer Zugstrecke.
-UI.TrackLayer.Start = Erweitere eine bestehende Zug_strecke. (Beginne eine Zugstrecke an einer Zugfabrik oder einem Bahnhof.)
+UI.TrackLayer.Start = Erweitere eine bestehende Zug_strecke um Zugfabriken und Bahnhöfe zu verbinden. Die Schienen werden auto_matisch gebaut falls Schienen_teile vor_handen sind. <br>Drücke ##Keycycle um zwischen niedrig/hoch zu wechseln.
+ 
 UI.TypeNameFilter = Suche nach Typ...
 UI.VisionRange = Sichtradius: $1
 UI.Warnings = Warnungen
@@ -3039,3 +3040,42 @@ Scenario.MockupTier4 = Testmission 4
 Scenario.MockupTier4.Desc = Eine Testmission.
 Scenario.MockupTier4.Name = Stufe 4
 UI.Minipet = Minihaustier:
+
+
+
+
+Campaign.Real = Hauptkampagne
+Message.EnemyLandAcquired = Land erworben!
+Modifier.ResourcesBasic2 = Nur Basisresourcen (2).
+Modifier.ResourcesBasic2.Name = Resourcen_menge
+Modifier.ResourcesBasic3 = Nur Basisresourcen (3).
+Modifier.ResourcesBasic3.Name = Resourcen_menge
+Objective.ClaimTerrain = Erreiche neues Biom.
+Objective.ClaimTerrain.Desc = Expandiere dein Gebiet und baue ein Leuchtfeuer auf dem neuen Biom.
+Objective.ColonistsLowerLimit = Nimm mindestens $3 Kolonisten mit. (Current: $2)
+Objective.ColonistsLowerLimit.Desc = Du musst mindestens $3 Kolonisten auf die nächste Insel mitnehmem. Du kannst im Kolonisten_management_menü einstellen, wer mitkommt und wer auf dieser Insel bleibt.
+Objective.ColonistsUpperLimit = Nimm nicht mehr als $3 Kolonisten mit. (Current: $2)
+Objective.ColonistsUpperLimit.Desc = Du kannst nicht mehr als $3 Kolonisten und Tiere auf die nächste Insel mitnehmen. Du kannst im Kolonisten_management_menü einstellen, wer mitkommt und wer auf dieser Insel bleibt.
+Objective.GroveZone = Baumschule erstellen ($2/$3)
+Objective.GroveZone.Desc = Um eine ##grovezone zu erstellen, klicke auf die #Grove# Grove-Schalt_fläche und markiere ein Gebiet auf frucht_baren Boden.
+Objective.LinkShipToStockpile = Verbinde Schiff mit Lager
+Objective.LinkShipToStockpile.Desc = Um dein Schiff mit einer ##stockpilezone zu verbinden, wähle das Schiff aus und rechts-klicke auf das Lager. Deine Kolonisten werden das Lager automatisch mit passenden Gegenständen aus deinem Schiff füllen.
+Objective.StockpileAcceptsAllTypes = Setze das Lager auf "Alle Güter akzeptieren"
+Objective.StockpileAcceptsAllTypes.Desc = Wähle das Lager aus und klicke auf "Alle Güter akzeptieren".
+ObjectType.ArcticFox = Polarfuchs
+ObjectType.BlackSpruce = Schwarzfichte
+ObjectType.Deer = Reh
+ObjectType.Depot3x3 = Depot 3x3
+ObjectType.Depot3x3.Desc = ##depots können Waren lagern und verteilen.
+ObjectType.Ermine = Hermelin
+ObjectType.FrozenWillow = Willow tree
+ObjectType.Penguin = Weide
+ObjectType.PenguinBaby = Pinguin_baby
+ObjectType.PolarBear = Eisbär
+ObjectType.Reindeer = Rentier
+ObjectType.Seal = Seelöwe
+ObjectType.Walrus = Walrosss
+UI.BuyCamp = Land kaufen
+UI.BuyCamp.Desc = Bezahle die Ressourcen, um das vom feindlichen Lager besetzte Land friedlich zu kaufen. Die Feinde werden neutral und hindern dich nicht mehr daran zu expandieren.
+UI.BuyCamp.Error = Nicht genug Ressourcen, um Land zu kaufen.
+UI.WorldMap.Loading = Generiere / lade Weltkarte.
