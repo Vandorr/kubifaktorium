@@ -131,7 +131,7 @@ UI.MessageLog.Title = Message log
 UI.MessageLog.Desc = Keeps track of previous messages.
 UI.MultiSelectHeader = $1 colonist selected.
 UI.Build = Construct ///B///
-UI.Build.Desc = Create a blueprint for a building to be con_structed by your colonists. Press ##Keyrotate to rotate. <br>Press ##Keycycle to toggle between variations.
+UI.Build.Desc = Create a blueprint for a building to be con_structed by your colonists. Press ##Keyrotate to rotate.
 
 UI.Mine = Mine & harvest ///M///
 UI.Mine.Desc = Mark trees, rocks and other objects to be ##mined or harvested. (Hold alt to mark all objects of the same type in your ##territory).
@@ -176,7 +176,7 @@ UI.LinkOverlay = Production Routes
 UI.LinkOverlay.Desc = Toggles the display of active links between workshops, farms and ##stockpilezones. [Default: Left Alt]
 UI.MaxSpeed = Max. speed: $1
 UI.SettlerScreen.Areas=Zones
-UI.SettlerScreen.Explanation = Tools: Colonists auto_matically pick the best possible tools. Their tool preference depends on their assigned tasks.<br>Zones: Click to allow/forbid a zone. Colonists will not interact with things in inactive zones. Select a bonfire to change its designated zone.<br>Jobs: The squares' sizes indicate the colonists' skill levels. Click to toggle between active and inactive. Hold shift/ctrl for high priority.
+UI.SettlerScreen.Explanation = Tools: Colonists auto_matically pick the best possible tools. Their tool preference depends on their assigned tasks.<br>Zones: Click to allow/forbid a zone.<br>Jobs: The squares' sizes indicate the colonists' skill levels. Click to toggle between active and inactive. Hold shift/ctrl for high priority.
 UI.SettlerScreen.Tasks=Jobs
 UI.SettlerScreen.Title=Colonist management
 UI.SettlerScreen.Tool=Tool
@@ -282,8 +282,10 @@ Objective.Construct = Construct: $1 ($2/$3)
 Objective.Construct.Desc = To construct a $1 open the #Build# build menu, switch to the $7 tab, click on $1 and place it on the map. 
 Objective.CreateStockpile = Create a stockpile zone ($2/$3)
 Objective.CreateStockpile.Desc = To create a new ##stockpilezone click on the #Stockpile# stockpile zone button and drag an area on solid ground.
-Objective.FarmZone = Create farm zone ($2/$3)
+Objective.FarmZone = Create farm zone(s) ($2/$3)
 Objective.FarmZone.Desc = To create a ##farmzone click on the #Farm# farm zone button and mark an area on fertile ground. Assign at least $3 tiles to be farms.
+Objective.GroveZone = Create grove zone(s) ($2/$3)
+Objective.GroveZone.Desc = To create a ##grovezone click on the #Grove# grove zone button and mark an area on fertile ground. Assign at least $3 tiles to be groves.
 Objective.FarmZoneCrop = Assign crop: $1
 Objective.FarmZoneCrop.Desc = To start growing a crop, select a ##farmzone and select the plant you want to grow.
 Objective.Have = Own: $1 ($2/$3)
@@ -504,6 +506,8 @@ Settings.Bevel = Bevel and edges
 Settings.Bevel.Desc = Draw a bevel effect on objects and draw an outline around them.
 Settings.Bloom = Bloom
 Settings.Bloom.Desc = Draw a bloom effect around overexposed areas.
+Settings.Particles = Particles
+Settings.Particles.Desc = Disable particles like smoke effects or make them opaque for better performance.
 Settings.Clouds = Clouds
 Settings.Clouds.Desc = Clouds move across the land.
 Settings.Debug = Debug/Cheat mode
@@ -843,6 +847,7 @@ UI.TotalStrength = Combined strength
 UI.CancelAttack = Abort attack.
 
 Message.EnemyCampDestroyed = Enemy camp destroyed! 
+Message.EnemyLandAcquired = Enemy land acquired!
 Message.AttackFailed = Attack on enemy camp failed.
 
 UI.RelativeStrength.Inferior = Enemy strength: Inferior.
@@ -1919,3 +1924,7 @@ Objective.ColonistsUpperLimit = Take no more than $3 colonists or animals to nex
 Objective.ColonistsUpperLimit.Desc = You can take no more than $3 colonists and animals to the next island. You can change which colonists will settle down in the colonist management screen.
 
 UI.WorldMap.Loading = Generating / loading world map.
+
+UI.BuyCamp = Buy land
+UI.BuyCamp.Desc = Pay the resources to peacefully buy the land occupied by the enemy camp. The enemies will become neutral and no longer prevent you from expanding.
+UI.BuyCamp.Error = Not enough resources to buy land.
