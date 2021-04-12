@@ -429,7 +429,7 @@ TaskGroup.Crafting = Crafting
 TaskGroup.Crafting.Desc = Craftsmen operate workshops to create more complex goods.
 TaskGroup.Combat = Combat
 TaskGroup.Combat.Desc = Fighters defend their fellow colonists and battle against enemies.
-TaskGroup.Mining = Mining & harvesting
+TaskGroup.Mining = Mining and harvesting
 TaskGroup.Mining.Desc = Miners chop down trees and ##mine rocks and stone.
 Workshop._Name = Workshops
 TaskGroup.Power = Power
@@ -507,7 +507,7 @@ Settings.Bevel.Desc = Draw a bevel effect on objects and draw an outline around 
 Settings.Bloom = Bloom
 Settings.Bloom.Desc = Draw a bloom effect around overexposed areas.
 Settings.Particles = Particles
-Settings.Particles.Desc = Disable particles like smoke effects or make them opaque for better performance.
+Settings.Particles.Desc = Disable particles like smoke effects to improve performance.
 Settings.Clouds = Clouds
 Settings.Clouds.Desc = Clouds move across the land.
 Settings.Debug = Debug/Cheat mode
@@ -638,6 +638,7 @@ UI.Recruit.Requirements = Require_ments:
 UI.Colonists = Your warriors (Strength $1):
 UI.Help = Help
 
+UI.ColonistsTool = colonists
 UI.PressAnyKey = Press any key to begin!
 
 UI.CapacityUsed = Capacity used:
@@ -743,6 +744,9 @@ UI.Food.Desc = Provide ##food for your colonists well fed to make them more prod
 
 UI.Drink = Drink stock
 UI.Drink.Desc = Provide ##drinks for your colonists to make them more productive.
+
+UI.Tool = Tool stock
+UI.Tool.Desc = Provide ##tools for your colonists to allow them to work with higher tier resources.
 
 
 UI.House = Housing
@@ -1928,3 +1932,14 @@ UI.WorldMap.Loading = Generating / loading world map.
 UI.BuyCamp = Buy land
 UI.BuyCamp.Desc = Pay the resources to peacefully buy the land occupied by the enemy camp. The enemies will become neutral and no longer prevent you from expanding.
 UI.BuyCamp.Error = Not enough resources to buy land.
+
+UI.Encyclopaedia.Construct = Construct building
+
+UI.StoredCargo.Help2 = Up to 99 items of each type are auto_matically loaded when you leave the island.
+
+UI.BonusObjective = (Optional)
+UI.BonusIsland = Optional mission
+
+TipOfTheDay.20 = Colonists tire out much faster when they carry heavy items. Use carriages, trains or zeppelins to transport items over long distances.
+
+Message.NewNeedTier = Your colonists have developed more advanced needs!
