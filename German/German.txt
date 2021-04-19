@@ -9,7 +9,7 @@ fallback = English
 ##happiness.Desc = Zufrieden_heit: Die Bewegungs- und Arbeits_geschwin_dig_keit eines Kolo_nisten werden davon beein_flusst, wie gut seine Bedürf_nisse erfüllt werden.
 
 ##skill = Geschick
-##skill.Desc = Geschick: Jeder Kolonist ist unter_schiedlich gut für die ver_schiedenen Arbeiten und Werk_stätten geeignet, was die Erfolgs- und Fehlschlags_wahr_scheinlich_keit beeinflusst. Im Laufe der Zeit werden die Kolonisten besser in den Aufgaben, die sie verrichten.
+##skill.Desc = Geschick: Jeder Kolonist ist unter_schiedlich gut für die ver_schiedenen Arbeiten und Werk_stätten geeignet, was die Arbeits_geschwin_digkeit be_einflusst. Im Laufe der Zeit werden die Kolonisten besser in den Aufgaben, die sie verrichten.
 
 
 ##keycycle = wechseln
@@ -161,7 +161,7 @@ UI.Track = Schienen verlegen ///T///
 UI.Track.Desc = Bau von Gleisen, Bahnhöfen und ##depots. <br>Drücke ##keyrotate zum Ausrichten. <br>Drücke ##keycycle zum Umschalten zwischen unterer und oberer Ebene.
 UI.ZoneAssignment = Zonen zuweisen.
 UI.ZoneAssignment.Desc = Jedes Lager_feuer kann auf eine von 5 Farben ein_gestellt werden. Du kannst Kolo_nisten auf bestimmte Bereiche ein_schränken, indem du hier ihre Zonen_zuordnung änderst.
-UI.Speed = Spiel_geschwin_digkeit einstellen ///Numpad 0-3///
+UI.Speed = Spiel_geschwin_digkeit einstellen ///Numpad 0-2///
 UI.Speed.Desc = Zwischen Pause, einfacher und be_schleu_nigter Spiel_geschwin_digkeit umschalten.
 UI.Settings = Einstell_ungs_menü
 UI.Settings.Desc = Öffnet das Einstell_ungs_menü.
