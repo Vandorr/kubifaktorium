@@ -59,7 +59,7 @@ fallback=English
 ##happiness.Desc = Happiness: A colonist's movement and work speed are influenced by how well his/her needs are met.
 
 ##skill = Skill
-##skill.Desc = Skill: Every colonist has a different skill for each task group and workshop. This skill determines the chance to succeed or fail at a task. Over time, colonists improve their skill in the tasks they perform.  
+##skill.Desc = Skill: Every colonist has a different skill for each task group and workshop. This skill determines the work speed of the colonist. Over time, colonists improve their skill in the tasks they perform.  
 
 
 
@@ -202,8 +202,8 @@ UI.ZoneAssignment.Desc = Every bonfire can be set to one of 5 colors. You can re
 
 
 # Top right menu
-UI.Speed = Toggle game speed ///Numpad 0-3///
-UI.Speed.Desc = Toggle between pause, 1x, 2x and 4x speed.
+UI.Speed = Toggle game speed ///Numpad 0-2///
+UI.Speed.Desc = Toggle between pause, 1x, 2x speed.
 UI.Settings = Settings menu
 UI.Settings.Desc = Open the settings menu.
 UI.LoadSave = Load / save
@@ -346,6 +346,10 @@ Objective.ClickHelp.Desc = You can click on most objectives to move the camera t
 Objective.ClaimTerrain = Expand to new biome. 
 Objective.ClaimTerrain.Desc = Expand your territory towards the new biome and build a bonfire there.
 
+Objective.Find = Find $1. 
+Objective.Find.Desc = Find an object of type $1 on the map.
+
+
 Objective.ScrollCamera = Move camera using WASD/arrows.
 Objective.ScrollCamera.Desc = Press the WASD- or arrow keys to scroll the camera.
 
@@ -389,24 +393,24 @@ Need.Sum = Sum
 Need.Happiness = ##Happiness
 Need.SpeedFactor = Speed
 
-ActorState.Drinkvariety.High = High drink variety.
-ActorState.Drinkvariety.Low = Low drink variety.
-ActorState.Foodvariety.High = High food variety.
-ActorState.Foodvariety.Low = Low food variety.
-ActorState.HouseQuality.High = High quality house.
-ActorState.HouseQuality.Low = Low quality house.
+ActorState.Drinkvariety.High = High drink variety
+ActorState.Drinkvariety.Low = Low drink variety
+ActorState.Foodvariety.High = High food variety
+ActorState.Foodvariety.Low = Low food variety
+ActorState.HouseQuality.High = High quality house
+ActorState.HouseQuality.Low = Low quality house
 ActorState.Hasdrunk = Has drunk recently
 ActorState.Hasinteracted = Entertained
 ActorState.Housed = Owns a house
 ActorState.Hungry = Hungry
 ActorState.Nohouse = Homeless
 ActorState.Notinteracted = Bored
-ActorState.BadDecoration = No decoration. 
-ActorState.GoodDecoration = Nice decoration.
-ActorState.FavoriteFood.Yes = Had $1.
-ActorState.FavoriteFood.No = Needs $1.
-ActorState.FavoriteDrink.Yes = Had $1.
-ActorState.FavoriteDrink.No = Needs $1.
+ActorState.BadDecoration = No decoration 
+ActorState.GoodDecoration = Nice decoration
+ActorState.FavoriteFood.Yes = Had $1
+ActorState.FavoriteFood.No = Needs $1
+ActorState.FavoriteDrink.Yes = Had $1
+ActorState.FavoriteDrink.No = Needs $1
 
 ActorState.Rested = Well rested
 ActorState.Saturated = Saturated
@@ -861,24 +865,14 @@ UI.RelativeStrength.Hard = Enemy strength: Hard.
 UI.RelativeStrength.Overwhelming = Enemy strength: Over_whelming.
 
 Tool.Effect.Combat.Effect = Damage: $1
-Tool.Effect.Combat.Hit = Chance to hit: $1%
-Tool.Effect.Combat.Crit = Critical hit chance: $1%
 
 Tool.Effect.Agriculture.Effect = Speed: $1
-Tool.Effect.Agriculture.Hit = Chance to succeed: $1%
-Tool.Effect.Agriculture.Crit = Critical success chance: $1%
 
 Tool.Effect.Mining.Effect = Speed: $1
-Tool.Effect.Mining.Hit = Chance to succeed: $1%
-Tool.Effect.Mining.Crit = Critical success chance: $1%
 
 Tool.Effect.Crafting.Effect = Speed: $1
-Tool.Effect.Crafting.Hit = Chance to succeed: $1%
-Tool.Effect.Crafting.Crit = Critical success chance: $1%
 
 Tool.Effect.None.Effect = Base effect
-Tool.Effect.None.Hit = Chance to succeed: 50%
-Tool.Effect.None.Crit = Chance to crit: 0%
 
 Tool.None = No tool equipped.
 
@@ -1511,13 +1505,6 @@ Savegame.ModsInUse.None = (No mods used.)
 
 
 
-
-##critchance = Critical chance
-##critchance.Desc = Chance for critical success. (Determined by skill)
-
-##successchance = Success chance
-##successchance.Desc = Chance to succeed. (Determined by skill)
-
 ##movementspeed = Movement speed
 ##movementspeed = Movement speed factor. (Determined by happiness)
 
@@ -1886,8 +1873,8 @@ UI.FullScreenMode.FullScreenWindow = Fullscreen
 UI.FullScreenMode.ExclusiveFullScreen = Excl. Fullscreen
 
 
-UI.ForbidStockpiling = Don't use as stockpile
-UI.ForbidStockpiling.Desc = Use this option if you only want to use this stockpile/depot as an output for a given workshop.     
+UI.AllowStockpiling = Use as stockpile
+UI.AllowStockpiling.Desc = Use this option if you want your colonists to use this stockpile/depot for stockpiling.     
 
 UI.Recipe.Workshop = Workshop:
 
@@ -1943,3 +1930,5 @@ UI.BonusIsland = Optional mission
 TipOfTheDay.20 = Colonists tire out much faster when they carry heavy items. Use carriages, trains or zeppelins to transport items over long distances.
 
 Message.NewNeedTier = Your colonists have developed more advanced needs!
+
+WM.Tutorials = Recommended tutorials
