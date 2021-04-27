@@ -1592,7 +1592,7 @@ Settings.ZoomAnimation.Desc = Transition smoothly when zooming in / out.
 UI.Saturation = Saturation
 UI.SettlerScreen.Filter = Filter:
 
-UI.UpgradeBuilding = Upgrade to $1.
+UI.UpgradeBuilding = Upgrade to $1
 UI.UpgradeBuilding.Desc = Upgrade this building to a $1. Requires $2. 
 
 UI.RequiredTool = Required tool
@@ -1618,7 +1618,7 @@ UI.ResetTasks.Desc = Clear all task assignments.
 UI.ResetWorkshops = Reset workshops.
 UI.ResetWorkshops.Desc = Clear all workshop assignments.
 UI.Autoassign = Auto-assign.
-UI.Autoassign.Desc = Automatically assign task and workshops to the most competent colonists.
+UI.Autoassign.Desc = Automatically assign tasks and color zones to the most competent colonists.
 
 
 ActorState.Sum.Happy = Happy
@@ -1667,8 +1667,8 @@ Message.Recommendation.Complete.VictoryScreen = Recommendation:<br>$1
 
 UI.Price = Price: $1
 
-UI.UpgradeInProgress = Upgrade in progress. 
-UI.UpgradeAvailable = Upgrade available.
+UI.UpgradeInProgress = Upgrade in progress 
+UI.UpgradeAvailable = Upgrade available
 UI.UpgradeAvailable.Desc = This building can be upgraded.
 
 UI.TradeCaravan.TimeLeft = New offers in $1:$2
