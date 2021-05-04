@@ -303,7 +303,7 @@ Objective.SetWorkshopOutput.Desc = To link $5 to an output ##stockpilezone, left
 
 Objective.LinkStockpile = Link $1 to stockpile ($2/$3)
 Objective.LinkStockpile.Desc = To link a $1 to a ##stockpilezone, left-_click the $1 and right-_click on the stockpile. Workshops will produce until the linked stockpiles are full.
-Objective.LinkFarmToStockpile = Link farm to stockpile ($2/$3)
+Objective.LinkFarmToStockpile = Link $1 farm to stockpile ($2/$3)
 Objective.LinkFarmToStockpile.Desc = To link a ##farmzone to a ##stockpilezone, left-_click the farm and right-_click on the stockpile. Crops on farms will be harvested until the linked stockpiles are full.
 Objective.LinkShipToStockpile = Link ship to stockpile
 Objective.LinkShipToStockpile.Desc = To link your ship to a ##stockpilezone, left-_click the ship and right-_click on the stockpile. Your colonists will automatically fill the stockpile with matching items from your ship.
@@ -1932,3 +1932,6 @@ TipOfTheDay.20 = Colonists tire out much faster when they carry heavy items. Use
 Message.NewNeedTier = Your colonists have developed more advanced needs!
 
 WM.Tutorials = Recommended tutorials
+
+Objective.Upgrade = Upgrade $7 to $1
+Objective.Upgrade.Desc = To upgrade $7 to $1, select it and press the upgrade button. 
