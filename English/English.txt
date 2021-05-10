@@ -247,7 +247,6 @@ Objective.DefeatEnemyCamp.Desc = To attack an enemy camp select your combat robo
 
 
 Objective.SetClaimColor = Set zone assignment for bonfire $5 to $9.
-Objective.SetClaimColor.Desc = To change a zone's color select its bonfire and click on the desired zone color in the info panel.
 Objective.LogisticsLink = Create a link from $7 $5 to $8 $6.
 Objective.LogisticsLink.Desc = To create a logistics link between two objects, select the first object and right-_click the second object. Logistics links will show up as blue arrows whenever a ##logsys building is selected.
 Objective.ConvMode = Activate conveyor mode on $5.
@@ -1561,7 +1560,7 @@ Debug.audiodebug = Audio Debug Panel
 Debug.audiodebug.Desc = Play in-game sounds (useful for debugging and audio design).
 
 
-Message.Ingredients.Missing = Missing ingredients: $1
+Message.Ingredients.Missing = Missing ingredients. Requires $1
 Message.Building.Complete = $1 completed $2.
 
 UI.ColonistScreen.NameHead = Name
@@ -1935,3 +1934,15 @@ WM.Tutorials = Recommended tutorials
 
 Objective.Upgrade = Upgrade $7 to $1
 Objective.Upgrade.Desc = To upgrade $7 to $1, select it and press the upgrade button. 
+
+
+
+# updated 7.5.21
+
+Objective.SetClaimColor.Desc = To change a tile's color select the zone color tool, click the desired color and select the area around the bonfire.
+#SetOutpostColor.Intro = This tutorial covers setting up an outpost and a logistics system. Begin by separating our territory into two distinct zones. To do so, use the zone color tool to assign the northern area to yellow.
+#SetOutpostColorTrain.Intro = The first part of this tutorial is identical to the logistics tutorial. Assign the northern half of the map to zone color yellow.
+
+Settings.CursorLock = Lock cursor 
+Settings.CursorLock.Desc = Lock cursor to game window.
+
