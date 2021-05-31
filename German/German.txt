@@ -1206,7 +1206,7 @@ ObjectType.CrushedIron.Desc = Kann zu Eisen_blöcken ge_schmolzen werden.
 ObjectType.CrushedIronMix = Eisen_reiches Gestein
 ObjectType.CrushedIronMix.Desc = Kann zu gemahlenem Eisen und Geröll verarbeitet werden.
 ObjectType.CrushedRock = Geröll
-ObjectType.CrushedRock.Desc = Kann zu Asphalt verarbeitet werden.
+ObjectType.CrushedRock.Desc = Nutzloses Neben_produkt der Erz_verarbeitung.
 ObjectType.DecoBranches = Zweige
 ObjectType.DecoBranches.Desc = Kann durch Abbauen entfernt werden.
 ObjectType.DecoRocks = Kleine Steine
@@ -2572,18 +2572,18 @@ ObjectType.AutomatedBasicWorkplace.Desc = Die Basis_werk_statt ermöglicht die H
 ObjectType.AutomatedMetalWorkplace = Autom. Metall_werk_statt
 ObjectType.AutomatedMetalWorkplace.Desc = Ermöglicht die Her_stellung fort_ge_schrittener Produkte aus Eisen und Holz.
 ObjectType.CopperQuarry = Kupfermine
-ObjectType.CopperQuarry.Desc = Der Kupfer_stein_bruch liefert linen endlosen Vorrat an Eisen. Wird auf Kupferader errichtet.
+ObjectType.CopperQuarry.Desc = Der Kupfer_stein_bruch liefert einen endlosen Vorrat an Eisen. Wird auf Kupferader errichtet.
 ObjectType.CopperVein = Kupferader
 ObjectType.CopperVein.Desc = Baue einen Kupfer_stein_bruch um den Kupfer abzubauen.
 
 Recommendation.AdvancedToolWorkshop = Stelle Werkzeuge für deine Kolonisten her
 ShippingPort.Status.NoEntryHopper = Kein Depot_eingang platziert.
-ShippingPort.Status.NoEntryHopper.Desc = Im automa_tischen Modus ignoriert der Hafen verbundene Ausgangs_lager und exportiert die Güter, die von den Depot_eingängen gelifert werden.
+ShippingPort.Status.NoEntryHopper.Desc = Im automa_tischen Modus ignoriert der Hafen verbundene Ausgangs_lager und exportiert die Güter, die von den Depot_eingängen geliefert werden.
 UI.Hoppers = Ein- und Ausgänge bauen
 UI.Hoppers.Desc = Ein- und Ausgänge werden benötigt um festzulegen, wo Güter in das Depot gebracht werden und wohin sie entladen werden.
 UI.ShippingPort.AutomationModeEx = automa_tikmodus
 UI.ShippingPort.AutomationMode = automa_tikmodus
-UI.ShippingPort.AutomationModeEx.Desc = Im automa_tischen Modus ignoriert der Hafen verbundene Ausgangs_lager und exportiert die Güter, die von den Depot_eingängen gelifert werden.
+UI.ShippingPort.AutomationModeEx.Desc = Im automa_tischen Modus ignoriert der Hafen verbundene Ausgangs_lager und exportiert die Güter, die von den Depot_eingängen geliefert werden.
 
 
 
