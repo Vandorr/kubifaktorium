@@ -903,8 +903,10 @@ Building.Mode.Disabled = Building inactive
 UI.TypeNameFilter = Search for type...
 UI.DecorationValue = ##Decoration: Range $2
 UI.HousingValue = ##House: Quality $1, places $2
-UI.HousingValue.High = high
 UI.HousingValue.Low = low
+UI.HousingValue.Medium = medium
+UI.HousingValue.High = high
+UI.HousingValue.VeryHigh = very high
 UI.SocialValue = ##Social.
 UI.ToolValue = ##Tool: Base value $1.
 
