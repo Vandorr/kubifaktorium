@@ -252,6 +252,15 @@ Objective.LogisticsLink.Desc = To create a logistics link between two objects, s
 Objective.ConvMode = Activate conveyor mode on $5.
 Objective.ConvMode.Desc = Select the target and click on "conveyor mode" in the panel in the bottom right.
 
+Objective.HarbourLogisticsMode = Activate logistics mode in $7 $5.
+Objective.HarbourLogisticsMode.Desc = To activate logistics mode, select $7 $5 and click on logistics mode in the bottom right.
+
+
+Objective.StationRequestFromLogisticsSystem = Set $7 $5 to "use as stockpile".
+Objective.StationRequestFromLogisticsSystem.Desc = To activate this, select $7 $5 and click on "use as stockpile" in the bottom right.
+
+
+
 Objective.SetZoneColorActive = Enable $5's access to zone $9.
 Objective.SetZoneColorActive.Desc = To enable a colonist's access to a zone select the colonist and click on the desired zone color in the info panel.
 Objective.SetZoneColorInactive = Disable $5's access to zone $9.
@@ -1538,6 +1547,10 @@ ShippingPort.Status.Okay.Desc = The shipping port is set up correctly.
 
 ShippingPort.Status.Idle = Shipping port is idle.
 
+UI.ShippingPort.LogisticsMode = Logistics mode
+UI.ShippingPort.LogisticsMode.Desc = While in logistics mode, the shipping port will automatically import goods requested by clients anywhere in the connected logistics systemUnload. 
+
+
 UI.ShippingPort.AutomationMode = Automation mode
 UI.ShippingPort.AutomationMode.Desc = While in automation mode, the shipping port will ignore connected import stockpiles and import goods requested by exit hoppers. 
 UI.ShippingPort.AutomationModeEx = Automation mode
@@ -1948,3 +1961,11 @@ Objective.SetClaimColor.Desc = To change a tile's color select the zone color to
 Settings.CursorLock = Lock cursor 
 Settings.CursorLock.Desc = Lock cursor to game window.
 
+
+
+
+UI.WorkshopCharge = Charged: $1/$2
+Workshop.NoOutput = (Charge)
+
+Objective.Charge = Charge $1 ($2/$3)
+Objective.Charge.Desc = To charge $1, deliver the items it needs. 
