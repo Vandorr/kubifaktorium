@@ -188,7 +188,7 @@ UI.SelectPlantType = Pflanzen_art auswählen
 
 
 Objective.Construct = Baue: $1 ($2/$3)
-Objective.Construct.Desc = Um ein $1-Gebäude zu bauen, öffne das #Build# Bau_menü, wechsle zum $7-Tab, klicke auf das gewünschte Gebäude und platziere es auf der Karte.
+Objective.Construct.Desc = Um ein $1-Gebäude zu bauen, öffne das #Build# Bau_menü, klicke auf das gewünschte Gebäude und platziere es auf der Karte.
 Objective.CreateStockpile = Erstelle einen Lagerplatz ($2/$3)
 Objective.CreateStockpile.Desc = Um einen neuen ##stockpilezone anzulegen, klicke auf die Lager_platz-Schalt_fläche und ziehe einen Bereich auf festem Boden.
 Objective.FarmZone = Farm erstellen ($2/$3)
@@ -1180,11 +1180,11 @@ Objective.StockpileAcceptsOnlyType = Richte $5 so ein, dass es nur $1 annimmt
 Objective.StockpileAcceptsOnlyType.Desc = Um die Güter ein_zustellen die ein Lager annimmt, wähle das Lager aus und klicke auf die ent_sprechenden Güter im Info_panel rechts unten.
 Objective.StockpileAcceptsType = Richte Lagerplatz $5 so ein, dass es $1 annimmt
 Objective.StockpileAcceptsType.Desc = Um die Güter ein_zustellen die ein Lager annimmt, wähle das Lager aus und klicke auf die ent_sprechenden Güter im Info_panel rechts unten.
-Objective.HopperAcceptsType = Richte Depot_eingang/-Ausgang $5 so ein, dass er $1 annimmt
-Objective.HopperAcceptsType.Desc = Um die Güter ein_zustellen die ein Depot_eingang/-Ausgang annimmt, wähle das Lager aus und klicke auf die ent_sprechenden Güter im Info_panel rechts unten.
+Objective.HopperAcceptsType = Richte Depot_ausgang $5 so ein, dass er $1 annimmt
+Objective.HopperAcceptsType.Desc = Um die Güter ein_zustellen die ein Depot_ausgang annimmt, wähle das Lager aus und klicke auf die ent_sprechenden Güter im Info_panel rechts unten.
 Objective.AnyStockpileAcceptsType = Richte Lager so ein, dass es $1 annimmt
 Objective.AnyStockpileAcceptsType.Desc = Um die Güter ein_zustellen die ein Lager annimmt, wähle das Lager aus und klicke auf die ent_sprechenden Güter im Info_panel rechts unten.
-Objective.TrainSchedule = Füge $5 zum Fahrplan hinzu
+Objective.TrainSchedule = Füge Bahnhof $5 zum Fahrplan hinzu
 Objective.TrainSchedule.Desc = Um einen Bahnhof zum Fahrplan eines Zuges hin_zuzufügen wähle den Zug aus und rechts-klicke auf den Bahn_hof.
 
 ObjectType.AutoKiln = Autom. Ofen
@@ -2465,7 +2465,7 @@ Recommendation.Well = Baue eine Wasser_versorgung
 Settings.RecommendationCount = Em_pfehl_ungen
 Settings.RecommendationCount.Desc = Ändert die Anzahl der Em_pfehl_ungen, die gleichzeitig angezeigt werden.
 Task.UpgradeCarry.Text = Verbessere $1.
-UI.Build.Hint = R: drehen, V: Aussehen verändern
+UI.Build.Hint = R: drehen
 UI.ClearZone.Hint = V: durch Objekten blättern
 UI.Conv.Hint = R: drehen, V: niedrig/hoch
 UI.IsWater = Wird benutzt, um Farmen zu bewässern.
