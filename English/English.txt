@@ -188,7 +188,7 @@ UI.ToolTaskType = Task type: $1
 UI.Track = Track construction tool. ///T///
 UI.Track.Desc = Construct train tracks and signals. Press ##Keyrotate to rotate. <br>Press ##Keycycle to toggle between high/low.
 UI.Track.Hint = R: rotate, V: toggle high/low
-UI.Build.Hint = R: rotate, V: toggle variation
+
 
 
 
@@ -270,10 +270,8 @@ Objective.StockpileAcceptsType = Make stockpile $5 accept $1.
 Objective.StockpileAcceptsType.Desc = To change a ##stockpilezone's set of accepted goods select it and click on the goods in the info panel.
 
 
-Objective.HopperAcceptsType = Make depot exit/entry $5 accept $1.
-Objective.HopperAcceptsType.Desc = To change the accepted goods of a depot exit/entry select it and click on the goods in the info panel.
 
-Objective.StationAcceptsType = Make station exit/entry $5 accept $1.
+Objective.StationAcceptsType = Make station $5 accept $1.
 Objective.StationAcceptsType.Desc = To change the accepted goods of a station exit/entry select it and click on the goods in the info panel.
 
 Objective.StockpileAcceptsOnlyType = Make stockpile $5 accept only $1.
@@ -287,7 +285,6 @@ Objective.FulfillProductionTarget.Desc = The ##productiontarget is shown in the 
 
 
 Objective.Construct = Construct: $1 ($2/$3)
-Objective.Construct.Desc = To construct a $1 open the #Build# build menu, switch to the $7 tab, click on $1 and place it on the map. 
 Objective.CreateStockpile = Create a stockpile zone ($2/$3)
 Objective.CreateStockpile.Desc = To create a new ##stockpilezone click on the #Stockpile# stockpile zone button and drag an area on solid ground.
 Objective.FarmZone = Create farm zone(s) ($2/$3)
@@ -300,7 +297,7 @@ Objective.Have = Own: $1 ($2/$3)
 Objective.Have.Desc = Resources can be ##mined from the environment. Goods can be produced in workshops.
 
 
-Objective.TrainSchedule = Add $5 to train schedule
+
 Objective.TrainSchedule.Desc = To add a station to a train's schedule, select the train and right-_click on the station you want to add. Clicking again will remove the station. 
 
 Objective.SetWorkshopInput = Link $8 $6 to $7 $5
@@ -1323,7 +1320,7 @@ TipOfTheDay.17 = You can link your ship to a stockpile. Doing so will make your 
 
 MainMenu.Notice.Demo = This is a demo version with limited functionality. Click here to visit the game's Steam page to buy the Early Access version or wishlist the game to get notified of updates. Thanks :)
 
-MainMenu.Notice.EarlyAccess = Welcome to the Early Access version of Kubifaktorium! Here are some general tips for the current version: <br>- I recommend playing the tutorials to get started.<br> - The grassland and desert biomes are quite playable. Everything beyond (automation, conveyor belts etc.) is still in development. To learn more, have a look at the game's road map. <br> - When playing the campaign, please save the game every time you come back to the world map. <br> - If you encounter a bug, please report it using the in-game reporting tool (button in the top right). <br> - The best place to chat about the game is the official Discord server. <br>Thank you for playing, I hope you enjoy the game! :) <br>  Mirko 
+MainMenu.Notice.EarlyAccess = Welcome to the Early Access version of Kubifaktorium! Here are some general tips for the current version: <br>- I recommend playing the tutorials to get started.<br> - The first three biomes are quite playable. Then 4th biome is still in development. To learn more, have a look at the game's road map. <br> - When playing the campaign, please save the game every time you come back to the world map. <br> - If you encounter a bug, please report it using the in-game reporting tool (button in the top right). <br> - The best place to chat about the game is the official Discord server. <br>Thank you for playing, I hope you enjoy the game! :) <br>  Mirko 
 
 
 # 15.6.2019
@@ -1969,3 +1966,13 @@ Workshop.NoOutput = (Charge)
 
 Objective.Charge = Charge $1 ($2/$3)
 Objective.Charge.Desc = To charge $1, deliver the items it needs. 
+
+
+Objective.Construct.Desc = To construct a $1 open the #Build# build menu, click on $1 and place it on the map. 
+
+UI.Build.Hint = R: rotate
+
+Objective.TrainSchedule = Add station $5 to train schedule
+
+Objective.HopperAcceptsType = Make depot exit $5 accept $1.
+Objective.HopperAcceptsType.Desc = To change the accepted goods of a depot exit select it and click on the goods in the info panel.
