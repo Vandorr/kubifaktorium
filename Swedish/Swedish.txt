@@ -764,7 +764,6 @@ ObjectType.ZeppelinUnit = Zeppelinare
 ObjectType.ZeppelinUnit.Desc = Zeppelinare kan transportera varor över längre sträckor.
 
 
-
 ### Missing strings for Swedish
 
 ##Automated = Auto_matiserad
@@ -772,3 +771,52 @@ ObjectType.ZeppelinUnit.Desc = Zeppelinare kan transportera varor över längre 
 ##automatically = automatiskt
 ##automatically.Desc = Automatisering: Automatiska strukturer kan köras utan manöver av nybyggare men kräver kraft för att fungera.
 ##cargoship = lastfartyg
+##cargoship.Desc = #Refine#Cargo ship: Tillåter dig att exportera varor du inte längre behöver, och importera varor du behöver. För att exportera någonting, koppla ihop ett lager med en lasthamn. För att importera någonting, koppla ihop lasthamnen med ett lager. Vid import, se till att lagret är inställt för att kunna ta emort varan eller varorna.
+##carriage = vagn
+##carriage.Desc = Vagnar transporterar automatiskt varor mellan vagnstationerna. Välj en station och högerklicka på en annan station för att sammankoppla dem.
+##critchance = Kritisk potential
+##critchance.Desc = Chansen att kritiskt träffa. (Beslutas av färdighet)
+##day = Dagtid
+##day.Desc = Dagtid: Tiden mellan 6:00 och 18:00.
+##decoration = dekoration
+##decoration.Desc = inmatare: Placering av dekorativa saker gör dina nybyggare glada och mer produktiva.
+##depot = depå
+##depot.Desc = Depå: Används för att lagra och leverera varor. Ingång/Utgång matartratt används för att stoppa in samt mata ut varor.
+##drink = dryck
+##drink.Desc = Dryck: En törstig nybyggare kommer automatiskt leta efter något att dricka. Förse nybyggarena med drycker för att göra dem muntra och mer produktiva. 
+##farmzone = Åkermark
+##farmzone.Desc = Åkermark: Kan utmärkas på bördig jord så att dina nybyggare kan odla ett antal grödor.
+##food = mat
+##food.Desc = Mat: En hungrig nybyggare kommer automatiskt leta efter något att äta. Förse nybyggarena med mat för att göra dem belåtna och mer produktiva.
+##grovezone = Skogsmark
+##grovezone.Desc = Skogsmark: Kan utmärkas på bördig jord så att dina nybyggare kan odla ett antal träd.
+
+##happiness = Glädje
+##happiness.Desc = Glädje: Kolonistens rörelse och arbetshastighet är påverkad beroende hur väl hans/hennes behov är uppfyllda.
+##house = hus
+##house.Desc = Boende: Kolonister och djur föredrar någonstans att bo. Tillförande av boende gör dem lyckligare och mer produktiva.
+##idle = inaktiv
+##idle.Desc = Inaktiv: du kan redigera dina nybyggares jobb i #People# nybyggar_redigerings_skärmen.
+##keycycle = bläddra
+##keycycle.Desc = Bläddra: Mittenknappen på musen, eller 'V'-tangenten.
+##keyrotate = rotera
+##keyrotate.Desc = Rotera: Musknapp 4/5 eller 'R'-tangenten.
+##logsys = logistiksystem
+##logsys.Desc = Logistiksystem: Tillåter dig att sammankoppla flera transportering- och lagersyste. När systemet är färdigt kommer det automatiskt generera transportjobb för fordon och nybyggare.
+##mine = gräv
+##mine.Desc = Gräv: För att välja en resurs som ska grävas, klicka på gräva-knappen och ange sakerna som ska grävas. Markera ett område för att gräva allt innuti.
+##movementspeed = Rörelse_hastighet
+##pasturezone = Betesmark
+##pasturezone.Desc = Betesmark: Kan läggas på bördig jord för att samla in och tämja neutrala djur.
+##power = kraft
+##power.Desc = Kraft: Genereras i generatorer och används av många maskiner.
+##productiontarget = inventeringsmål
+##productiontarget.Desc = IUnventeringsmål: Antalet varor du behöver producera på vardera ö för att göra framsteg i kampanjen.
+##robot = robot
+##robot.Desc = Robot: Kan utföra enkla uppgifter. Förbättrar inte ##skill med erfarenhet och kräver olja för att fungera. Can perform simple tasks. Does not improve ##skill with experience and requires oil to function. Kan ställas in för att fungera i flera lägen.
+##ship = skepp
+##ship.Desc = Ship: Skeppet som färdade dig till den här ön kan användas till att transportera varor mellan öar.
+##skill = färdighet
+##skill.Desc = Skicklighet: Varje nybyggare har olika skicklighetsgrad för varje uppgiftstyp och verkstad. Skickligheten avgör sannolikheten att nybyggaren misslyckas eller lyckas med en uppgift. Nybyggarnas skicklighet ökar genom att utföra uppgifter.
+##social = social
+##social.Desc = Social: Nybyggare behöver umgås med andra för att må bra. Genom att ge nybyggarna möjlighet till fritidsaktiviteter kommer de bli gladare och därmed mer produktiva.
