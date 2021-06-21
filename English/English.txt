@@ -410,8 +410,6 @@ ActorState.Housed = Owns a house
 ActorState.Hungry = Hungry
 ActorState.Nohouse = Homeless
 ActorState.Notinteracted = Bored
-ActorState.BadDecoration = No decoration 
-ActorState.GoodDecoration = Nice decoration
 ActorState.FavoriteFood.Yes = Had $1
 ActorState.FavoriteFood.No = Needs $1
 ActorState.FavoriteDrink.Yes = Had $1
@@ -1350,7 +1348,6 @@ Mod.Steam = Downloaded from Steam Workshop.
 UI.BuildTrain.SelectTrainToBuild = Select train to build.
 
 UI.WorldMap = World map
-UI.WorldMap.Desc = Welcome to the world map! Farm and harvest resources, build increasingly more complex production chains and grow your workforce by recruiting animals and colonists.<br>Note: Currently there is no story or ultimate objective. Just explore the different biomes and enjoy the game. :) 
 
 
 # 6.7.2019
@@ -1689,11 +1686,6 @@ UI.IsWater = Can be used to water farms.
 
 
 
-ActorState.FavoriteLeisureActivity.Yes = Used $1.
-ActorState.FavoriteLeisureActivity.No = Needs $1.
-
-ActorState.FavoriteDecoration.Yes = $1 exists.
-ActorState.FavoriteDecoration.No = Needs $1.
 
 
 Modifier.Happy = Make colonists happy
@@ -1976,3 +1968,17 @@ Objective.TrainSchedule = Add station $5 to train schedule
 
 Objective.HopperAcceptsType = Make depot exit $5 accept $1.
 Objective.HopperAcceptsType.Desc = To change the accepted goods of a depot exit select it and click on the goods in the info panel.
+
+
+UI.WorldMap.Desc = Welcome to the campaign! Farm and harvest resources, build increasingly more complex production chains and grow your workforce by recruiting animals and colonists.<br>Note: Currently there is no story or ultimate objective. Both are being worked on at the moment. For now, just explore the different biomes and enjoy the game. :) 
+
+
+
+ActorState.FavoriteLeisureActivity.Yes = $1 exists
+ActorState.FavoriteLeisureActivity.No = Needs $1
+
+ActorState.FavoriteDecoration.Yes = $1 exists
+ActorState.FavoriteDecoration.No = Needs $1
+
+ActorState.BadDecoration = No decoration in range 
+ActorState.GoodDecoration = Decoration in range
