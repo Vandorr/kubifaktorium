@@ -853,12 +853,10 @@ UI.Build.MissingMaterials.Explicit = Zum Bau fehlt: $1
 
 
 
-ActorState.BadDecoration = Keine Deko_ration
 ActorState.Drinkvariety.High = Hohe Getränke_viel_falt
 ActorState.Drinkvariety.Low = Keine Getränke_viel_falt
 ActorState.Foodvariety.High = Hohe Essens_viel_falt
 ActorState.Foodvariety.Low = Keine Essens_viel_falt
-ActorState.GoodDecoration = Schöne Umgebung
 ActorState.HouseQuality.High = Hochwertiges Haus
 ActorState.HouseQuality.Low = Schlechtes Haus
 ActorState.Hurt = Schwer verletzt
@@ -1897,7 +1895,7 @@ Objective.StationAcceptsType.Desc = Um die Güter ein_zustellen die ein Bahnhof 
 UI.BuildTrain.SelectTrainToBuild = Wähle zu bauenden Zugtyp.
 
 UI.WorldMap = Weltkarte
-UI.WorldMap.Desc = Willkommen auf der Weltkarte! Sammle Ressourcen, baue immer komplexere Produktions_ketten auf und erweitere deine Arbeiter_schaft durch die Rekrutierung von Tieren und Kolonisten.<br>Hinweis: Derzeit gibt es keine Story oder ein besonderes Ziel. Erkunde einfach die ver_schiedenen Biome und genieße das Spiel. :) 
+UI.WorldMap.Desc = Willkommen in der Kampagne! Sammle Ressourcen, baue immer komplexere Produktions_ketten auf und erweitere deine Arbeiter_schaft durch die Rekrutierung von Tieren und Kolonisten.<br>Hinweis: Derzeit gibt es keine Story oder ein besonderes Ziel. An beidem wird aktuell gearbeitet. Bis dahin, erkunde die ver_schiedenen Biome und genieße das Spiel. :) 
 
 
 
@@ -2480,10 +2478,6 @@ UI.WMMain.Desc = Beendet das Spiel und kehrt ins Hauptmenü zurück.
 
 
 
-ActorState.FavoriteDecoration.No = Benötigt $1.
-ActorState.FavoriteDecoration.Yes = $1 wurde gebaut.
-ActorState.FavoriteLeisureActivity.No = Benötigt $1.
-ActorState.FavoriteLeisureActivity.Yes = $1 wurde gebaut.
 Carriage.Status.Okay.Desc = Der Wagen funktioniert normal.
 Modifier.Happy = Mache deine Kolonisten glücklich
 Modifier.MapGoalHappy.Name = Ziel: Mache Kolonisten glücklich
@@ -3211,3 +3205,10 @@ ObjectType.SiberianTit.Desc = Lebt in Nadelwäldern und ist nicht dafür bekannt
 Settings.CursorLock = Zeiger-Sperre
 Settings.CursorLock.Desc = Mauszeiger auf Spiel_fenster begrenzen.
 
+
+ActorState.BadDecoration = Keine Deko im Umkreis
+ActorState.GoodDecoration = Deko vorhanden
+ActorState.FavoriteDecoration.No = Benötigt $1
+ActorState.FavoriteDecoration.Yes = $1 ist vorhanden
+ActorState.FavoriteLeisureActivity.No = Benötigt $1
+ActorState.FavoriteLeisureActivity.Yes = $1 ist vorhanden
