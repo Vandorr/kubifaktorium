@@ -555,20 +555,20 @@ Settings.WarningFlags = Warning flags
 Settings.WarningFlags.Desc = Shows warning flags next to buildings that are not set up correctly.   
 
 
-Workshop.Status.Busy = Workshop is busy.
+Workshop.Status.Busy = Workshop is busy
 Workshop.Status.Busy.Desc = A colonist is using this workshop.
-Workshop.Status.Idle = Workshop is idle.
+Workshop.Status.Idle = Workshop is idle
 Workshop.Status.Idle.Desc = As soon as a colonist is ready, production will begin.
-Workshop.Status.NoInput = No inputs. 
+Workshop.Status.NoInput = No inputs
 Workshop.Status.NoInput.Desc = Production will resume when the required input resources become available.
 
-Workshop.Status.NoOutput = No output stockpile assigned.
+Workshop.Status.NoOutput = No output stockpile assigned
 Workshop.Status.NoOutput.Desc = To link an output ##stockpilezone, left-_click the workshop and right-_click the stockpile where you want the workshop's output to go. Workshops will produce until the linked stockpiles are full.
-Workshop.Status.NoProduct = No product selected.
+Workshop.Status.NoProduct = No product selected
 Workshop.Status.NoProduct.Desc = To choose an item to be produced, click on it in the workshop info panel.
 
  
-Workshop.Status.NoSettler = No colonist assigned.
+Workshop.Status.NoSettler = No colonist assigned
 Workshop.Status.NoSettler.Desc = To make a colonist work in this workshop, select him/her and click on the workshop in the colonist panel and make sure he/she is allowed to work in this zone. Alter_natively, you can manage your colonists' jobs in the #People# colonist management screen.
 Workshop.Status.OutputFull = Output stockpiles full.
 Workshop.Status.OutputFull.Desc = Production will resume when space in the output ##stockpilezone becomes available.
@@ -576,13 +576,13 @@ Workshop.Status.UnderConstruction = Under con_struction.
 Workshop.Status.UnderConstruction.Desc = The workshop is being built.
 
 
-Farm.Status.Harvest = Ready to harvest.
+Farm.Status.Harvest = Ready to harvest
 Farm.Status.Harvest.Desc = 
-Farm.Status.Operational = Operational.
-Farm.Status.Operational.Desc = Operational.
+Farm.Status.Operational = Operational
+Farm.Status.Operational.Desc = Operational
 Farm.Status.Idle = Idle.
 Farm.Status.Idle.Desc = 
-Farm.Status.NoOutput = No output stockpile assigned.
+Farm.Status.NoOutput = No output stockpile assigned
 Farm.Status.NoOutput.Desc = To link an output ##stockpilezone, left-_click the farm and right-_click the stockpile where you want the ##farmzone's output to go. Farms will produce until the linked stockpiles are full.
 Farm.Status.NoOutputForProduct = Output stockpiles don't accept products.
 Farm.Status.NoOutputForProduct.Desc = To change the accepted goods of a ##stockpilezone, left-_click it and change the types by selecting them in the panel.
@@ -590,16 +590,16 @@ Farm.Status.NoOutputForProduct.Desc = To change the accepted goods of a ##stockp
 Workshop.Status.NoOutputForProduct = Output stockpiles don't accept products.
 Workshop.Status.NoOutputForProduct.Desc = To change the accepted goods of a ##stockpilezone, left-_click it and change the types by selecting them in the panel.
 
-Farm.Status.NoWorkers = No farm workers.
-Farm.Status.OutputFull = Output stockpiles full.
+Farm.Status.NoWorkers = No farm workers
+Farm.Status.OutputFull = Output stockpiles full
 Farm.Status.OutputFull.Desc = Harvesting will resume when space in the output ##stockpilezone becomes available.
-Farm.Status.Paused = No product selected.
+Farm.Status.Paused = No product selected
 
-Farm.Status.Plant = Ready to plant.
+Farm.Status.Plant = Ready to plant
 Farm.Status.Plant.Desc = 
-Farm.Status.Till = Ready to till.
-Farm.Status.Till.Desc = Ready to till.
-Farm.Status.Water = Ready to water.
+Farm.Status.Till = Ready to till
+Farm.Status.Till.Desc = Ready to till
+Farm.Status.Water = Ready to water
 Farm.Status.Water.Desc = Ready to ##water. Make sure to have water buckets available. 
 
 
@@ -634,7 +634,7 @@ UI.CanBeMined = Can be mined for
 UI.SelectZoneColor = Select zone color:
 UI.Equipment = Equipment
 
-UI.SelectAssignedZones = Allowed zones:
+UI.SelectAssignedZones = Assigned zones
 UI.AcceptedGoods = Accepted goods:
 UI.AcceptedGoods.Help = (Click on a good to toggle it.)
 
@@ -650,7 +650,7 @@ UI.PressAnyKey = Press any key to begin!
 
 UI.CapacityUsed = Capacity used:
 UI.LoadLeave = Load and leave:
-UI.StoredCargo = Stored cargo:
+UI.StoredCargo = Stored cargo
 UI.StoredCargo.Help = (Click on a good to unload.)
 UI.VersionInfo = Version info
 
@@ -685,14 +685,6 @@ UI.CancelOrder = Cancel order ///X///
 UI.CancelOrder.Desc = Cancel an order like mining, loading or decon_structing.
 
 
-Logistics.Status.NotConnected = Not connected to logistics system.
-Logistics.Status.Supply = Providing to logistics system.
-Logistics.Status.Request = Requesting from logistics system.
-Logistics.Status.SupplyRequest = Supplying and requesting.
-Logistics.Status.CanSupply = Can provide to logistics system.
-Logistics.Status.CanRequest = Can request from logistics system.
-Logistics.Status.CanSupplyRequest = Can supply or request.
-Logistics.Status.CanRequestButNotSetup = No good accepted from log. system.
 
 
 UI.LogisticsSystem = Logistics system
@@ -921,7 +913,7 @@ Message.FactorySegmentBlocked = Track segment occupied.
 UI.PlantGrowth = Growth: $1%
 UI.PlantGrowthRate = Growth rate: $1%
 UI.PlantGrowthTime = Growth time: $1s
-UI.PlantTitle = Plant information:
+UI.PlantTitle = Plant information
 UI.WaterUsage = Water usage: $1%
 
 UI.ProducedIn = Produced in
@@ -1228,7 +1220,7 @@ Task.Produce.Export = Exporting $1.
 Task.Produce.Import = Importing $1.
 
 
-UI.Priority = Priority:
+UI.Priority = Priority
 UI.Priority.Tooltip = Priority
 UI.Priority.Tooltip.Desc = Stockpiles and workshops with higher priority are used first.
 UI.Priority.Tooltip1 = Very high priority
@@ -1542,7 +1534,7 @@ ShippingPort.Status.Okay.Desc = The shipping port is set up correctly.
 ShippingPort.Status.Idle = Shipping port is idle.
 
 UI.ShippingPort.LogisticsMode = Logistics mode
-UI.ShippingPort.LogisticsMode.Desc = While in logistics mode, the shipping port will automatically import goods requested by clients anywhere in the connected logistics systemUnload. 
+UI.ShippingPort.LogisticsMode.Desc = While in logistics mode, the shipping port will automatically import goods requested by clients anywhere in the connected logistics system. 
 
 
 UI.ShippingPort.AutomationMode = Automation mode
@@ -1652,10 +1644,10 @@ Message.TradeCaravan.NewContent = New goods are available at the trading hub.
 
 
 
-Objective.DefeatEnemies = Defeat enemy camps ($2 remaining).
+Objective.DefeatEnemies = Defeat enemy camps ($2 remaining)
 Objective.DefeatEnemies.Desc = Claim the map, find and defeat enemy camps.
 
-Modifier.EarnMoney = Export goods to earn money.
+Modifier.EarnMoney = Export goods to earn money
 Objective.EarnMoney = Money earned: $2 / $3
 Objective.EarnMoney.Desc = Build a shipping port and export goods to earn money. 
 
@@ -1908,7 +1900,7 @@ UI.ProductionLimit.TextUnlimited = Unlimited
 
 Debug.clearcurrentobjectives = Clear current objectives
 
-UI.Minipet = Select mini pet:
+UI.Minipet = Mini pet
 
 
 Objective.ColonistsLowerLimit = Take at least $3 colonists to next island. (Current: $2)
@@ -1982,3 +1974,35 @@ ActorState.FavoriteDecoration.No = Needs $1
 
 ActorState.BadDecoration = No decoration in range 
 ActorState.GoodDecoration = Decoration in range
+
+# updated 29.6.21
+UI.MineableObject = Mineable object
+UI.LogisticsClient = Logistics system
+UI.ActorIPC = Needs and happiness
+UI.ConstructionStatus = Construction status
+UI.ConveyorStatus = Conveyor status
+UI.EnemyClaim = Enemy camp
+UI.ItemStatus = Item status
+UI.PastureAnimal = Pasture animal
+UI.Pasture = Pasture
+UI.Pet = Pet
+UI.LogisticsMode = Logistics mode
+UI.ProductionStatus = Production status
+UI.OngoingConstruction = Ongoing construction
+UI.TradeCaravan = Trade caravan
+UI.Train = Train status
+UI.TypeFilter = Accepted types
+UI.UpgradeableBuilding = Building upgrade
+UI.Vein = Natural resources
+UI.WorkshopCharge = Charge
+
+UI.NamePanel = Name
+
+Logistics.Status.NotConnected = Not connected
+Logistics.Status.Supply = Providing
+Logistics.Status.Request = Requesting
+Logistics.Status.SupplyRequest = Supplying and requesting
+Logistics.Status.CanSupply = Can provide
+Logistics.Status.CanRequest = Can request
+Logistics.Status.CanSupplyRequest = Can supply or request
+Logistics.Status.CanRequestButNotSetup = No good accepted
