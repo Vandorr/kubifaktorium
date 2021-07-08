@@ -1917,7 +1917,7 @@ Task.TrainCombat.Text = Kampf_training.
 TipOfTheDay.18 = Wenn dir die Ressourcen ausgehen, die du benötigst um weiter zu kommen, baue einen Frachthafen und handle. Gegenstände wie Holzbretter, Brot und Bier können immer produziert und exportiert werden. 
 
 
-UI.Pasture = Weide ///U///
+UI.Pasture = Weide
 UI.Pasture.Desc = Erstelle oder expandiere eine ##pasturezone.
 ##pasturezone = Weide
 ##pasturezone.Desc = Weide: Kann auf fruchtbarem Boden erstellt werden um neutrale Tiere zu sammeln und zu behausen.
@@ -2575,8 +2575,8 @@ ShippingPort.Status.NoEntryHopper = Kein Depot_eingang platziert.
 ShippingPort.Status.NoEntryHopper.Desc = Im automa_tischen Modus ignoriert der Hafen verbundene Ausgangs_lager und exportiert die Güter, die von den Depot_eingängen geliefert werden.
 UI.Hoppers = Ein- und Ausgänge bauen
 UI.Hoppers.Desc = Ein- und Ausgänge werden benötigt um festzulegen, wo Güter in das Depot gebracht werden und wohin sie entladen werden.
-UI.ShippingPort.AutomationModeEx = automa_tikmodus
-UI.ShippingPort.AutomationMode = automa_tikmodus
+UI.ShippingPort.AutomationModeEx = Automa_tikmodus
+UI.ShippingPort.AutomationMode = Automa_tikmodus
 UI.ShippingPort.AutomationModeEx.Desc = Im automa_tischen Modus ignoriert der Hafen verbundene Ausgangs_lager und exportiert die Güter, die von den Depot_eingängen geliefert werden.
 
 
@@ -3087,7 +3087,7 @@ Modifier.RecruitColonists4.Name = Gestrandete Kolonisten (4)
 Modifier.RecruitColonists5.Name = Gestrandete Kolonisten (5)
 Objective.Find = Finde $1.
 Objective.Find.Desc = Finde ein Objekt vom Typ $1 auf der Karte.
-Objective.Upgrade = Verbessere $7 pu $1
+Objective.Upgrade = Verbessere $7 zu $1
 Objective.Upgrade.Desc = Um ein Upgrade von $7 auf $1 durch_zuführen, wähle es aus und klicke auf Upgrade.
 ObjectType.ArcticFox.Desc = Dieser Fuchs ist an kalte Regionen angepasst. Seine Körperform ist rundlich um die Körperwärme zu erhalten.
 ObjectType.ArcticPoppy = Klatschmohn
@@ -3274,4 +3274,5 @@ UI.TypeFilter = Angenommene Waren
 UI.UpgradeableBuilding = Gebäudeupgrade
 UI.Vein = Natürliche Resourcen
 UI.WorkshopCharge = Aufgeladen: $1/$2
-Workshop.NoOutput = (Aufladen)
+UI.WorkshopCharge.Title = Ladestatus
+Workshop.NoOutput = Ladung
