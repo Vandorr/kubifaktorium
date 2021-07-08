@@ -726,10 +726,6 @@ UI.Cancel.Desc = Abort con_struction.
 
 StockpileZoneCC = Stockpile
 StockpileZoneCC.Desc = A stockpile can be used to hold products from workshops, farms or mining operations.
-FarmZoneCC = Farm
-FarmZoneCC.Desc = Farms allow your colonists to grow a number of crops. (##farmzone)
-GroveZoneCC = Grove
-GroveZoneCC.Desc = Groves can be built on fertile soil and allow your colonists to grow trees. (##grovezone)
 
 
 CargoShip.State.ENTERHARBOUR = Entering cargo port.
@@ -1060,7 +1056,7 @@ UI.Build.AwaitingConstruction.Desc = Con_struction will begin as soon as a colo_
 
 UI.BuiltFrom.Multibuild = Yields $1 units.
 
-UI.LogisticsRequest = Request from logistics system.
+UI.LogisticsRequest = Request from logistics system
 UI.LogisticsRequest.Desc = Request the selected good types from the logistics system. If not, they will only be used for stockpiling or workshop outputs. 
 
 UI.Inventory.ShowCargo = Include cargo
@@ -1359,7 +1355,7 @@ Task.TrainCombat.Text = Combat training.
 TipOfTheDay.18 = When you run out of the resources you need to progress, build a shipping port and trade. Items like wooden boards, bread and beer can be produced infinitely and exported. 
 
 
-UI.Pasture = Pasture ///U///
+
 UI.Pasture.Desc = Create or expand a ##pasturezone.
 ##pasturezone = Pasture
 ##pasturezone.Desc = Pasture zone: Can be assigned on fertile soil to collect and house neutral animals.
@@ -1946,7 +1942,7 @@ Settings.CursorLock.Desc = Lock cursor to game window.
 
 
 UI.WorkshopCharge = Charged: $1/$2
-Workshop.NoOutput = (Charge)
+
 
 Objective.Charge = Charge $1 ($2/$3)
 Objective.Charge.Desc = To charge $1, deliver the items it needs. 
@@ -1994,7 +1990,7 @@ UI.Train = Train status
 UI.TypeFilter = Accepted types
 UI.UpgradeableBuilding = Building upgrade
 UI.Vein = Natural resources
-UI.WorkshopCharge = Charge
+
 
 UI.NamePanel = Name
 
@@ -2006,3 +2002,18 @@ Logistics.Status.CanSupply = Can provide
 Logistics.Status.CanRequest = Can request
 Logistics.Status.CanSupplyRequest = Can supply or request
 Logistics.Status.CanRequestButNotSetup = No good accepted
+
+
+FarmZoneCC = Farm
+FarmZoneCC.Desc = Farms allow your colonists to grow a number of crops.
+GroveZoneCC = Grove
+GroveZoneCC.Desc = Groves can be built on fertile soil and allow your colonists to grow trees. 
+PastureZoneCC = Pasture
+PastureZoneCC.Desc = Pastures are used to keep farm animals like sheep and cows.
+
+UI.Pasture = Pasture
+
+Workshop.NoOutput = Charge
+UI.WorkshopCharge.Title = Building charge
+
+UI.SelectedRobots.Desc = Use combat robots to defeat enemy camps in order to expand your territory.
