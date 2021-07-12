@@ -584,10 +584,10 @@ Farm.Status.Idle = Idle.
 Farm.Status.Idle.Desc = 
 Farm.Status.NoOutput = No output stockpile assigned
 Farm.Status.NoOutput.Desc = To link an output ##stockpilezone, left-_click the farm and right-_click the stockpile where you want the ##farmzone's output to go. Farms will produce until the linked stockpiles are full.
-Farm.Status.NoOutputForProduct = Output stockpiles don't accept products.
+Farm.Status.NoOutputForProduct = Output stockpiles don't accept products
 Farm.Status.NoOutputForProduct.Desc = To change the accepted goods of a ##stockpilezone, left-_click it and change the types by selecting them in the panel.
 
-Workshop.Status.NoOutputForProduct = Output stockpiles don't accept products.
+Workshop.Status.NoOutputForProduct = Output stockpiles don't accept products
 Workshop.Status.NoOutputForProduct.Desc = To change the accepted goods of a ##stockpilezone, left-_click it and change the types by selecting them in the panel.
 
 Farm.Status.NoWorkers = No farm workers
@@ -707,30 +707,30 @@ Settings.Tooltips=Tooltips
 Settings.Tooltips.Desc=Display tooltips when hovering over buttons etc.. When disabled, you can still see the tooltips when holding the shift key while moving the mouse.
 
 
-UI.FightClose = Remove rally flag.
+UI.FightClose = Remove rally flag
 UI.FightClose.Desc = Removes the rally flag for your colonists. All colonists will return to their usual work.
 
 UI.Pet.Owner = Owner
 UI.Hitpoints = Hitpoints: $1/$2
 
-UI.Build.InProgress = Con_struction in progress.
+UI.Build.InProgress = Con_struction in progress
 UI.Build.InProgress.Desc = A colonist will haul all required goods and begin con_struction.
-UI.Build.AwaitingConstruction = Awaiting con_struction.
+UI.Build.AwaitingConstruction = Awaiting con_struction
 
-UI.Build.MissingMaterials = Missing materials.
-UI.Build.MissingMaterials.Explicit = Missing $1 for con_struction.
+UI.Build.MissingMaterials = Missing materials
+UI.Build.MissingMaterials.Explicit = Missing $1 for con_struction
 UI.Build.MissingMaterials.Desc = Your colonists are missing one or more resource in order to build this.
 
 UI.Cancel = Cancel
-UI.Cancel.Desc = Abort con_struction.
+UI.Cancel.Desc = Abort con_struction
 
 StockpileZoneCC = Stockpile
-StockpileZoneCC.Desc = A stockpile can be used to hold products from workshops, farms or mining operations.
+StockpileZoneCC.Desc = Stockpiles are used to store products from workshops, farms or mining.
 
 
-CargoShip.State.ENTERHARBOUR = Entering cargo port.
-CargoShip.State.UNLOAD = Unloading.
-CargoShip.State.LEAVE = Leaving cargo port.
+CargoShip.State.ENTERHARBOUR = Entering cargo port
+CargoShip.State.UNLOAD = Unloading
+CargoShip.State.LEAVE = Leaving cargo port
 
 
 
@@ -769,91 +769,91 @@ Robot.Disassemble.Desc = Disassemble the robot and get back its original compone
 MainMenu.Tutorials = Tutorials and example scenes
 
 
-Task.Upgrade.Text = Upgrading $1.
-Task.Unload.Text = Unloading $1.
+Task.Upgrade.Text = Upgrading $1
+Task.Unload.Text = Unloading $1
 
-Task.Attack.Text = Attacking $1.
-Task.CombatTrain.Text = Training.
-Task.Rally.Text = Moving to rally flag.
-Task.Construct.Text = Con_structing $1.
-Task.UpgradeCarry.Text = Upgrading $1.
-Task.ConstructClear.Text = Clearing $1.
-Task.Deconstruct.Text = Decon_structing $1.
-Task.Mine.Text = Mining $1.
-Task.Produce.Text = Producing $1 in $2.
-Task.ProduceHigh.Text = Producing $1 in $2.
-Task.SupplyAutoWorkshop.Text = Producing $1 in $2.
-Task.UnloadAutoWorkshop.Text = Unloading $1 from $2.
-Task.AutoWorkshopClear.Text = Clearing input $1 from $2.
+Task.Attack.Text = Attacking $1
+Task.CombatTrain.Text = Training
+Task.Rally.Text = Moving to rally flag
+Task.Construct.Text = Con_structing $1
+Task.UpgradeCarry.Text = Upgrading $1
+Task.ConstructClear.Text = Clearing $1
+Task.Deconstruct.Text = Decon_structing $1
+Task.Mine.Text = Mining $1
+Task.Produce.Text = Producing $1 in $2
+Task.ProduceHigh.Text = Producing $1 in $2
+Task.SupplyAutoWorkshop.Text = Producing $1 in $2
+Task.UnloadAutoWorkshop.Text = Unloading $1 from $2
+Task.AutoWorkshopClear.Text = Clearing input $1 from $2
 
-Task.Power.Text = Powering $1.
-Task.Clean.Text = Cleaning $1.
-Task.Load.Text = Loading $1.
-Task.Stockpile.Text = Moving $1 to stockpile.
-Task.LogisticsSystem.Text = Moving $1.
-Task.Equip.Text = Equipping $1.
-Task.Unequip.Text = Unequipping.
-Task.Drink.Text = Drinking $1.
-Task.Eat.Text = Eating $1.
-Task.MoveIntoHouse.Text = Moving into $1.
-Task.Socialize.Text = Socializing in $1.
-Task.Sleep.Text = Sleeping.
-Task.Idle.Text = Idling.
-Task.Wander.Text = Wandering around.
-Task.HarvestCrop.Text = Harvesting $1.
-Task.HarvestTree.Text = Chopping $1.
-Task.PlantCrop.Text = Planting $1.
-Task.PlantTree.Text = Planting $1.
-Task.FarmClear.Text = Clearing $1.
+Task.Power.Text = Powering $1
+Task.Clean.Text = Cleaning $1
+Task.Load.Text = Loading $1
+Task.Stockpile.Text = Moving $1 to stockpile
+Task.LogisticsSystem.Text = Moving $1
+Task.Equip.Text = Equipping $1
+Task.Unequip.Text = Unequipping
+Task.Drink.Text = Drinking $1
+Task.Eat.Text = Eating $1
+Task.MoveIntoHouse.Text = Moving into $1
+Task.Socialize.Text = Socializing in $1
+Task.Sleep.Text = Sleeping
+Task.Idle.Text = Idling
+Task.Wander.Text = Wandering around
+Task.HarvestCrop.Text = Harvesting $1
+Task.HarvestTree.Text = Chopping $1
+Task.PlantCrop.Text = Planting $1
+Task.PlantTree.Text = Planting $1
+Task.FarmClear.Text = Clearing $1
 
-Task.GroveClear.Text = Clearing $1.
-Task.Till.Text = Tilling ground.
+Task.GroveClear.Text = Clearing $1
+Task.Till.Text = Tilling ground
 
-Task.Export.Text = Exporting $1.
-Task.Import.Text = Importing $1.
+Task.Export.Text = Exporting $1
+Task.Import.Text = Importing $1
 
 Train.Schedule = Train schedule:
 Train.Schedule.UI = Train station
 Train.Schedule.UI.Desc = To add a station to the schedule, select the train and right-_click on the new station. To remove a station, click on its entry in the schedule.
 
-UI.WaveNoTime = Enemies approaching.
+UI.WaveNoTime = Enemies approaching
 UI.WaveTime = Arriving in $1s.
 
-Train.Status.Deactivated = Train deactivated.
+Train.Status.Deactivated = Train deactivated
 Train.Status.Deactivated.Desc = You can activate a train by setting it to active in the info panel.
-Train.Status.NoSchedule = No schedule defined.
+Train.Status.NoSchedule = No schedule defined
 Train.Status.NoSchedule.Desc = To add a station to the schedule, select the train and right-_click on the new station. To remove a station, click on its entry in the schedule.
-Train.Status.NoPath = No path to next target.
+Train.Status.NoPath = No path to next target
 Train.Status.NoPath.Desc = Make sure to lay track between stations.
 Train.Status.Okay = Train active.
-Train.Status.WaitAtStation = Waiting at station. 
+Train.Status.WaitAtStation = Waiting at station
 Train.Status.WaitAtStation.Desc = The train will resume when it is processed at the station. 
 
-Carriage.Status.Deactivated = Carriage deactivated.
+Carriage.Status.Deactivated = Carriage deactivated
 Carriage.Status.Deactivated.Desc = You can activate a carriage by setting it to active in the info panel.
-Carriage.Status.NoSchedule = No schedule defined.
+Carriage.Status.NoSchedule = No schedule defined
 Carriage.Status.NoSchedule.Desc = To add a station to the schedule, select the carriage and right-_click on the new station. To remove a station, click on its entry in the schedule.
-Carriage.Status.Okay = Carriage active.
+Carriage.Status.Okay = Carriage active
 Carriage.Status.Okay.Desc = The carriage is working normally.
-Carriage.Status.AutoSchedule = Automatic schedule.
+Carriage.Status.AutoSchedule = Automatic schedule
 Carriage.Status.AutoSchedule.Desc = When automatic schedule is enabled, the carriage will automatically travel between its home station and stations connected to it. 
-Carriage.Status.ManualSchedule = Manual schedule.
+Carriage.Status.ManualSchedule = Manual schedule
 Carriage.Status.ManualSchedule.Desc = To add a station to the schedule, select the carriage and right-_click on the new station. To remove a station, click on its entry in the schedule.
 
 
-UI.AttackCamp = Attack camp.
+UI.AttackCamp = Attack camp
 UI.TotalStrength = Combined strength 
-UI.CancelAttack = Abort attack.
+UI.CancelAttack = Abort attack
 
 Message.EnemyCampDestroyed = Enemy camp destroyed! 
 Message.EnemyLandAcquired = Enemy land acquired!
 Message.AttackFailed = Attack on enemy camp failed.
 
-UI.RelativeStrength.Inferior = Enemy strength: Inferior.
-UI.RelativeStrength.Low = Enemy strength: Low.
-UI.RelativeStrength.Equal = Enemy strength: Equal.
-UI.RelativeStrength.Hard = Enemy strength: Hard.
-UI.RelativeStrength.Overwhelming = Enemy strength: Over_whelming.
+UI.RelativeStrength.Inferior = Enemy strength: Inferior
+UI.RelativeStrength.Low = Enemy strength: Low
+UI.RelativeStrength.Equal = Enemy strength: Equal
+UI.RelativeStrength.Hard = Enemy strength: Hard
+UI.RelativeStrength.Overwhelming = Enemy strength: Over_whelming
 
 Tool.Effect.Combat.Effect = Damage: $1
 
@@ -899,8 +899,8 @@ UI.HousingValue.Low = low
 UI.HousingValue.Medium = medium
 UI.HousingValue.High = high
 UI.HousingValue.VeryHigh = very high
-UI.SocialValue = ##Social.
-UI.ToolValue = ##Tool: Base value $1.
+UI.SocialValue = ##Social
+UI.ToolValue = ##Tool: Base value $1
 
 Message.TrainRouteFail = Train found no route to $1.
 Message.FactorySegmentBlocked = Track segment occupied.
@@ -1150,13 +1150,6 @@ UI.MiningDifficulty = Mining difficulty
 UI.MiningDifficulty.Desc = The mining difficulty determines the time it will take a worker to mine this resource.
 
 
-MiningDifficulty.Easy = Mining difficulty: Easy.
-MiningDifficulty.Normal = Mining difficulty: Normal.
-MiningDifficulty.Hard = Mining difficulty: Hard.
-MiningDifficulty.VeryHard = Mining difficulty: Very hard.
-
-UI.BuildTrain.NoMoreTrains = Maximum number built.
-UI.BuildTrain.NoFreeSegment = Track segment occupied.
 
 Task.UnloadAuto.Text = Unloading $1.
 Task.ClearStockpiles.Text = Clearing $1 from $2.
@@ -1230,7 +1223,7 @@ UI.Priority.Tooltip4.Desc = Stockpiles and workshops with higher priority are us
 UI.Priority.Tooltip5 = Very low priority
 UI.Priority.Tooltip5.Desc = Stockpiles and workshops with higher priority are used first.
 
-##cargoship.Desc = #Refine#Cargo ship: Allows you to export goods you no longer need and import resources you need. To export something, connect a stockpile to the cargo port. To import something, connect the cargo port to stockpile and set it to accept something that can be imported.  
+##cargoship.Desc = Cargo ship: Allows you to export goods you no longer need and import resources you need. To export something, connect a stockpile to the cargo port. To import something, connect the cargo port to stockpile and set it to accept something that can be imported.  
 
 
 UI.CurrentlyInStock = In inventory: $1
@@ -1407,7 +1400,6 @@ UI.House.ForAnimals = Animals:
 
 LoadingPhase.HarbourPlacement = Initializing shipping port UI. 
 
-UI.IdleColonists.ListTaskGroups = Assigned jobs (current/max)
 
 
 TipOfTheDay.19 = When workshop or stockpile is selected, hold the left alt-key to display arrows for other workshops/stockpiles.
@@ -1809,7 +1801,6 @@ Message.Leave.TooFewColonists.Short = Too few colonists
 Message.Leave.TooManyColonists.Short = Too many colonists 
 
 Message.Leave.TooFewColonists = You need to take at least $1 colonists to the next island. You can change which colonists will settle down in the colonist management screen.
-Message.Leave.TooManyColonists = You can take no more than $1 colonists and animals to the next island. You can change which colonists will settle down in the colonist management screen.
 Message.SettledColonistsSend = Your previous colonies have sent you $1 #Money#. 
 
 UI.WM.IslandTooltip.MoneyTransfer = Sends you $1 #Money# per day.
@@ -1899,11 +1890,8 @@ Debug.clearcurrentobjectives = Clear current objectives
 UI.Minipet = Mini pet
 
 
-Objective.ColonistsLowerLimit = Take at least $3 colonists to next island. (Current: $2)
-Objective.ColonistsLowerLimit.Desc = You need to take at least $3 colonists to the next island. You can change which colonists will settle down in the colonist management screen. 
 
-Objective.ColonistsUpperLimit = Take no more than $3 colonists or animals to next island. (Current: $2)
-Objective.ColonistsUpperLimit.Desc = You can take no more than $3 colonists and animals to the next island. You can change which colonists will settle down in the colonist management screen.
+
 
 UI.WorldMap.Loading = Generating / loading world map.
 
@@ -2016,4 +2004,25 @@ UI.Pasture = Pasture
 Workshop.NoOutput = Charge
 UI.WorkshopCharge.Title = Building charge
 
+# 9.7.2021
 UI.SelectedRobots.Desc = Use combat robots to defeat enemy camps in order to expand your territory.
+
+
+MiningDifficulty.Easy = Mining difficulty: Easy
+MiningDifficulty.Normal = Mining difficulty: Normal
+MiningDifficulty.Hard = Mining difficulty: Hard
+MiningDifficulty.VeryHard = Mining difficulty: Very hard
+
+UI.BuildTrain.NoMoreTrains = Maximum number built
+UI.BuildTrain.NoFreeSegment = Track segment occupied
+
+Message.Leave.TooManyColonists = You can take no more than $1 colonists to the next island. You can change which colonists will settle down in the colonist management screen.
+Objective.ColonistsUpperLimit = Take no more than $3 colonists. (Current: $2)
+Objective.ColonistsUpperLimit.Desc = You can take no more than $3 colonists to the next island. You can change which colonists will settle down in the colonist management screen.
+Objective.ColonistsLowerLimit = Take at least $3 colonists. (Current: $2)
+Objective.ColonistsLowerLimit.Desc = You need to take at least $3 colonists to the next island. You can change which colonists will settle down in the colonist management screen. 
+#ObjectType.GoldBlock.Desc = Ein wertvoller Metallblock. Kann mit großem Gewinn exportiert werden.
+
+UI.IdleColonists.ListTaskGroups = Assigned jobs (current/max)
+UI.IdleColonists.ListZone = Assigned zones (current/max)
+
