@@ -811,6 +811,7 @@ Task.Till.Text = Tilling ground
 
 Task.Export.Text = Exporting $1
 Task.Import.Text = Importing $1
+Task.UnloadToLogistics.Text = Unloading $1
 
 Train.Schedule = Train schedule:
 Train.Schedule.UI = Train station
@@ -1794,7 +1795,7 @@ Debug.InvalidateTrainNetwork = Invalidate train network
 UI.SettleDown = Settle down on this island.
 UI.SettleDown.Desc = Your ship can only carry a limited number of colonists to the next island. Colonists that are left behind will settle down and send money to your future colonies. 
 
-UI.SettlerScreen.SettleDown = $1 colonists will settle down and send $2 coins/day. $3/$4 colonists will travel to the next island. 
+ 
 UI.SettlerScreen.SettleDown.Desc = Your ship can only carry a limited number of colonists to the next island. Colonists that are left behind will settle down and send money to your future colonies. 
 
 Message.Leave.TooFewColonists.Short = Too few colonists
@@ -2021,8 +2022,10 @@ Objective.ColonistsUpperLimit = Take no more than $3 colonists. (Current: $2)
 Objective.ColonistsUpperLimit.Desc = You can take no more than $3 colonists to the next island. You can change which colonists will settle down in the colonist management screen.
 Objective.ColonistsLowerLimit = Take at least $3 colonists. (Current: $2)
 Objective.ColonistsLowerLimit.Desc = You need to take at least $3 colonists to the next island. You can change which colonists will settle down in the colonist management screen. 
-#ObjectType.GoldBlock.Desc = Ein wertvoller Metallblock. Kann mit großem Gewinn exportiert werden.
+
 
 UI.IdleColonists.ListTaskGroups = Assigned jobs (current/max)
 UI.IdleColonists.ListZone = Assigned zones (current/max)
 
+
+UI.SettlerScreen.SettleDown = $1 colonists will settle down and send $2 coins/day. $3 colonists will travel to the next island. (Min: $5, Max: $4)
