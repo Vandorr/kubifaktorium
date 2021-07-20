@@ -693,14 +693,14 @@ MainMenu.ExitGame = Spiel beenden
 
 
 
-LoadingPhase.InitializingGame = Initia_lisiere Spiel
-LoadingPhase.IconGeneration = Generiere Icons
-LoadingPhase.ExplicitSpawns = Erzeuge explizite Objekt_spawns: $1%
-LoadingPhase.GenericSpawns = Erzeuge generische Objekt_spawns: $1%
-LoadingPhase.CreatingMap = Erzeuge Karte
-LoadingPhase.GeneratingTiles = Generiere Kacheln: $1%
-LoadingPhase.LoadMap = Lade Karte aus Datei
-LoadingPhase.InitialisingObjects = Initia_lisiere Objekte
+LoadingPhase.InitializingGame = Initia_lisiere Spiel...
+LoadingPhase.IconGeneration = Generiere Icons...
+LoadingPhase.ExplicitSpawns = Erzeuge explizite Objekt_spawns ($1%)...
+LoadingPhase.GenericSpawns = Erzeuge generische Objekt_spawns ($1%)...
+LoadingPhase.CreatingMap = Erzeuge Karte...
+LoadingPhase.GeneratingTiles = Generiere Kacheln ($1%)...
+LoadingPhase.LoadMap = Lade Karte aus Datei...
+LoadingPhase.InitialisingObjects = Initia_lisiere Objekte...
 
 UI.Weight = ##Weight: $1
 UI.CanBeMined = Kann abgebaut werden
@@ -760,7 +760,7 @@ Objective.SetClaimColor.Desc = Um die Farbe einer Zone zu ändern, wähle das Zo
 
 Settings.RightDrag = RMB-Scrollen
 Settings.RightDrag.Desc = Bewege die Karte, in dem du sie bei gedrückter rechter Maustaste ziehst.
-LoadingPhase.Combining = Kombiniere Meshes
+LoadingPhase.Combining = Kombiniere Meshes...
 
 UI.ClearZone = Verkaufen / Abreißen / Zone entfernen ///Z///
 UI.ClearZone.Desc = Zerstöre ein Gebäude oder entferne einen ##stockpilezone, eine ##farmzone oder eine ##grovezone. Benutze ##Keycycle zum Umschalten zwischen mehreren Objekten auf demselben Feld.
@@ -1108,7 +1108,7 @@ LinkZeppelinStations.Desc = 3.) Verbinde Zeppelin_bahnhöfe
 LinkZeppelinStations.Intro = Da Goldblöcke schwer sind, werden wir Zeppeline verwenden um sie zu trans_portieren. Verbinde hierzu zunächst den nördlichen Zeppelin_bahnhof (2) mit dem südlichen (4).
 LinkZeppelinStationToTarget.Desc = 5.) Verbinde Ziellager
 LinkZeppelinStationToTarget.Intro = Schließlich müssen wir noch den südlichen Zeppelin_bahnhof (4) mit unserem Ziel_lager (5) verbinden und einrichten, dass dieses Gold_blöcke akzeptiert.
-LoadingPhase.ModelGeneration = Generiere Modelle: $1%
+LoadingPhase.ModelGeneration = Generiere Modelle ($1%)...
 Logistics.Status.CanRequestButNotSetup = Warnung: Kein Gut von Logistik_system akzeptiert.
 MainMenu.Mods = Mods
 MainMenu.Skirmish.Modifiers = Modi_fika_toren
@@ -1295,11 +1295,11 @@ ConvTutPart3.Desc = 3.) Über_irdische Bänder
 ConvTutPart3.Intro = Förder_bänder können in zwei Ebenen gebaut werden. Verwende Rampen, um Waren zwischen den beiden Ebenen zu trans_portieren. Wähle den Lager_ausgang im Depot (3) aus stelle ihn so ein, dass er Holz_scheite aufnimmt.
 Farm.Status.Water = Fertig zum Bewässern
 Farm.Status.Water.Desc = Fertig zum ##water. Achte darauf, dass Wasser bereit steht.
-LoadingPhase.Clearing = Lösche verbleibende Daten.
-LoadingPhase.CombineMeshes = Kombiniere Meshes.
-LoadingPhase.InitNavmesh = Initiali_siere Navigation.
-LoadingPhase.ObjectMaterialCombiner = Kombiniere Materialien.
-LoadingPhase.ObjectTreeExporter = Exportiere Objektbaum.
+LoadingPhase.Clearing = Lösche verbleibende Daten...
+LoadingPhase.CombineMeshes = Kombiniere Meshes...
+LoadingPhase.InitNavmesh = Initiali_siere Navigation...
+LoadingPhase.ObjectMaterialCombiner = Kombiniere Materialien...
+LoadingPhase.ObjectTreeExporter = Exportiere Objektbaum...
 MainMenu.Campaign.Size = Welt_karten_größe:
 MainMenu.Campaign.Size.0 = Winzig
 MainMenu.Campaign.Size.1 = Klein
@@ -1755,10 +1755,10 @@ ObjectType.HorseStation = Pferde_bahnhof
 ObjectType.HorseStation.Desc = Bahnhof der von ##carriage angefahren wird. Plus ein ges_chenkter Gaul!
 Scenario.TestMap = Kleine Testkarte.
 Task.Produce.Export = Exportiere $1.
-Task.Produce.Import = Importiier $1.
+Task.Produce.Import = Importiere $1.
 UI.CurrentlyInStock = Im Inventar: $1
-UI.Export.Title = Export_preise:
-UI.Import.Title = Import_preise:
+UI.Export.Title = Export
+UI.Import.Title = Import
 UI.Item.Export = Exportpreis: $1
 UI.Item.Import = Importpreis: $1
 UI.Priority = Priorität:
@@ -2013,7 +2013,7 @@ UI.Vein.Destroy.Desc = Zerstört diese Ader und erlaubt den Bau von Gebäuden. W
 UI.House.ForColonists = Kolonisten:
 UI.House.ForAnimals = Tiere:
 
-LoadingPhase.HarbourPlacement = Initiali_siere Hafen-UI. 
+LoadingPhase.HarbourPlacement = Initiali_siere Hafen-UI...
 
 UI.IdleColonists.ListTaskGroups = Zugewiesene Jobs (akt./max)
 
