@@ -1516,10 +1516,10 @@ ShippingPort.Status.NoImportValidType.Desc = To assign goods for import, select 
 ShippingPort.Status.NoExportValidType = No valid export type assigned.
 ShippingPort.Status.NoExportValidType.Desc = To assign goods for export, select a connected export stockpile and set it to accept one or more good types that can be exported.
 
-ShippingPort.Status.Okay = Shipping port is working.
-ShippingPort.Status.Okay.Desc = The shipping port is set up correctly.
+ShippingPort.Status.Okay = Shipping port is working
+ShippingPort.Status.Okay.Desc = The shipping port is set up correctly
 
-ShippingPort.Status.Idle = Shipping port is idle.
+ShippingPort.Status.Idle = Shipping port is idle
 ShippingPort.Title = Shipping port
 
 UI.ShippingPort.LogisticsMode = Logistics mode
@@ -2039,3 +2039,12 @@ PowerPlant.Working = Working
 ## 19.7.21
 UI.Import.Title = Import
 UI.Export.Title = Export
+
+
+UI.ZoomMaxHint = Zoom out further for map view
+
+UI.ManualWorkshop = (Manual workshop)
+UI.AutomatedWorkshop = (Automated workshop)
+
+
+TipOfTheDay.21 = You can earn a lot of money by producing and exporting gold ingots.
