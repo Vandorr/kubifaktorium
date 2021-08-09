@@ -110,14 +110,14 @@ fallback=English
 ##carriage.Desc = Carriages auto_matically transports goods between connected carriage stations. Select a station and right click another station to connect them. 
 
 # Messages
-Message.AreaExpanded = We have expanded our territory!
-Message.AreaLost = We have lost territory!
+Message.AreaExpanded = We have expanded our territory
+Message.AreaLost = We have lost territory
 Message.WeAreUnderAttack = We are under attack!
 Message.NewBuildOptions = Acquiring $1 has unlocked:
-Message.RecruitmentSuccess = Recruitment successful!
+Message.RecruitmentSuccess = Recruitment successful
 Message.WarnDisembark = You cannot disembark while your colonists are still on the island.
 Message.MissionComplete = Nice, you have completed all objectives for this island! :)
-UI.MissionComplete = Mission complete!
+UI.MissionComplete = Mission complete
 
 UI.MessagePanel = Message
 UI.MessagePanel.Desc = To close a message, right-_click on it. You can review closed messages in the message log. Left-_click on a message to focus your camera on the event.
@@ -801,20 +801,15 @@ Task.Socialize.Text = Socializing in $1
 Task.Sleep.Text = Sleeping
 Task.Idle.Text = Idling
 Task.Wander.Text = Wandering around
-Task.HarvestCrop.Text = Harvesting $1
-Task.HarvestTree.Text = Chopping $1
-Task.PlantCrop.Text = Planting $1
-Task.PlantTree.Text = Planting $1
+Task.Harvest.Text = Harvesting $1
+Task.Plant.Text = Planting $1
 Task.FarmClear.Text = Clearing $1
-
-Task.GroveClear.Text = Clearing $1
 Task.Till.Text = Tilling ground
 
 Task.Export.Text = Exporting $1
 Task.Import.Text = Importing $1
 Task.UnloadToLogistics.Text = Unloading $1
 
-Train.Schedule = Train schedule:
 Train.Schedule.UI = Train station
 Train.Schedule.UI.Desc = To add a station to the schedule, select the train and right-_click on the new station. To remove a station, click on its entry in the schedule.
 
@@ -827,7 +822,7 @@ Train.Status.NoSchedule = No schedule defined
 Train.Status.NoSchedule.Desc = To add a station to the schedule, select the train and right-_click on the new station. To remove a station, click on its entry in the schedule.
 Train.Status.NoPath = No path to next target
 Train.Status.NoPath.Desc = Make sure to lay track between stations.
-Train.Status.Okay = Train active.
+Train.Status.Okay = Train active
 Train.Status.WaitAtStation = Waiting at station
 Train.Status.WaitAtStation.Desc = The train will resume when it is processed at the station. 
 
@@ -847,9 +842,9 @@ UI.AttackCamp = Attack camp
 UI.TotalStrength = Combined strength 
 UI.CancelAttack = Abort attack
 
-Message.EnemyCampDestroyed = Enemy camp destroyed! 
-Message.EnemyLandAcquired = Enemy land acquired!
-Message.AttackFailed = Attack on enemy camp failed.
+Message.EnemyCampDestroyed = Enemy camp destroyed
+Message.EnemyLandAcquired = Enemy land acquired
+Message.AttackFailed = Attack on enemy camp failed
 
 UI.RelativeStrength.Inferior = Enemy strength: Inferior
 UI.RelativeStrength.Low = Enemy strength: Low
@@ -904,8 +899,8 @@ UI.HousingValue.VeryHigh = very high
 UI.SocialValue = ##Social
 UI.ToolValue = ##Tool: Base value $1
 
-Message.TrainRouteFail = Train found no route to $1.
-Message.FactorySegmentBlocked = Track segment occupied.
+Message.TrainRouteFail = Train found no route to $1
+Message.FactorySegmentBlocked = Track segment occupied
 
 
 UI.PlantGrowth = Growth: $1%
@@ -954,7 +949,7 @@ UI.RecipieHint = <i>Click on a recipe to activate or deactivate it. Hold the alt
 
 UI.Recommendations = Recommen_dations
 
-Message.MinimumGood = $1 added to ship's cargo.
+Message.MinimumGood = $1 added to ship's cargo
 
 MainMenu.Campaign.Size = World map size:
 MainMenu.Campaign.Size.0 = Tiny
@@ -994,7 +989,7 @@ UI.LeaveMap = Leave island
 UI.LeaveMap.Desc = Leave this island and return to the world map. Buildings will be automatically deconstructed and items will be brought to your ship. Items exceeding the cargo capacity will be sold at half of their value.
 UI.IncreaseProductionTarget = Raise target 
 UI.IncreaseProductionTarget.Desc = Raising the ##productiontarget for this island will decrease the goods you will need to produce on other islands. <br>Note: You can leave this island at any time, even when you haven't met the raised target.
-Message.IncreaseProductionTarget = Inventory target raised to $1%.  
+Message.IncreaseProductionTarget = Inventory target raised to $1%  
 
 UI.ReturnToMain = Back to main menu
 UI.ReturnToMain.Desc = Leave this game and return to the main menu.
@@ -1005,9 +1000,9 @@ UI.NextTutorial.Desc = Leave this game and play the next tutorial.
 UI.ResumePlaying = Resume playing
 UI.MapComplete = Victory!
 
-Message.LevelUp = $1 reached $3 lvl. $2.
+Message.LevelUp = $1 reached $3 lvl. $2
 
-Message.GameSaved = Game saved. 
+Message.GameSaved = Game saved 
 
 
 # 31.3.2019
@@ -1130,7 +1125,7 @@ BugReport.Submitting = Submitting User Report. Thank you!! :D
 BugReport.Failed = The user report could not be sent. Please try again later.
 
 UI.Inhabitants = Inhabitants
-Message.ActorDied = $1 was defeated.
+Message.ActorDied = $1 was defeated
 Train.Status.Okay.Desc = The train is proceeding to the next station.
 
 
@@ -1455,7 +1450,7 @@ UI.ProductionTime = Production time: $1s
 Status.NoCarriage = No carriage assigned.
 Status.NoCarriage.Desc = No carriage is assigned to stop at this station. Select a carriage and right-click on this station to add it to its schedule.
 
-Status.NoTrain = No train assigned.
+Status.NoTrain = No train assigned
 Status.NoTrain.Desc = No train is assigned to stop at this station. Select a train and right-click on this station to add it to its schedule.
 
 
@@ -1467,12 +1462,14 @@ UI.Modding.State.PreviewTooBig = Preview too big. The thumbnail.png file must be
 Status.TooManyGoods = Too many goods accepted
 Status.TooManyGoods.Desc = It is not recommended to accept more than 5 goods in an output stockpile. Create multiple stockpiles to get more control over your production. 
 
-Message.Screenshot = Screenshot written to $1.
+Message.Screenshot = Screenshot written to $1
 
 UI.Credits = Credits
 UI.ItemTier = Tier: $1
 
 
+Settings.LimitsForAll = Production limits
+Settings.LimitsForAll.Desc = Show global production limits for all workshops.
 
 Settings.ColorBlindMode = Color Blind Mode 
 Settings.ColorBlindMode.Desc = Changes some UI colors to make it easier to distinguish if you have impaired color vision. Requires restart to take effect.
@@ -1551,7 +1548,7 @@ Debug.audiodebug.Desc = Play in-game sounds (useful for debugging and audio desi
 
 
 Message.Ingredients.Missing = Missing ingredients. Requires $1
-Message.Building.Complete = $1 completed $2.
+Message.Building.Complete = $1 completed $2
 
 UI.ColonistScreen.NameHead = Name
 
@@ -1586,8 +1583,8 @@ UI.UpgradeBuilding.Desc = Upgrade this building to a $1. Requires $2.
 
 UI.RequiredTool = Required tool
 UI.RequiredTool.Desc = Higher quality resources require better ##tools to be mined or harvested. You can craft tools in the tool workshop.
-UI.RequiredTool.None = No tool required.
-UI.RequiredTool.Lvl = Requires $1.
+UI.RequiredTool.None = No tool required
+UI.RequiredTool.Lvl = Requires $1
 UI.RequiredToolPlant.Lvl = Tools suitable to harvest: $1 
 
 UI.Build.NoTool = Workers need better tools.
@@ -1627,9 +1624,9 @@ Logistics.Status.CarriageLinkedButNotStation =
 UI.DepotExit.LogisticsMode = Conveyor mode
 UI.DepotExit.LogisticsMode.Desc = While in conveyor mode, this depot will transport outgoing goods using conveyor belts. Build depot exits, conveyor belts and inserters. Have a look at the corresponding tutorial for more information. 
 
-Message.TradeCaravan.NoSpace = Not enough free space available to receive items. 
+Message.TradeCaravan.NoSpace = Not enough free space available to receive items 
 
-Message.TradeCaravan.NewContent = New goods are available at the trading hub. 
+Message.TradeCaravan.NewContent = New goods are available at the trading hub 
 
 
 
@@ -1771,10 +1768,10 @@ Achievement.WoodShop = Wood shop
 Achievement.WoodShop.Desc = Have 250 wooden logs and 50 wooden boards.
 
 Message.DonationReceived = $1 sent you a(n) $2. How nice!
-Message.DonationSent = You sent a $1. 
-Message.DonationSent.ErrorNotAvailable = Item cannot be donated while it is reserved.
-Message.DonationSent.ErrorNoMods = Item from mods cannot be donated.
-Message.DonationSent.ErrorNotThis = This item cannot be donated.
+Message.DonationSent = You sent a $1 
+Message.DonationSent.ErrorNotAvailable = Item cannot be donated while it is reserved
+Message.DonationSent.ErrorNoMods = Item from mods cannot be donated
+Message.DonationSent.ErrorNotThis = This item cannot be donated
 
 
 Tooltip.ItemDonation = Donate item.
@@ -1868,8 +1865,8 @@ UI.RebindKeys = Rebind keys
 UI.RebindKeys.Hint = To change key bindings, start a game and open the in-game menu (e.g. using the escape key).  
 
 
-Message.GameSaveFailedIO = IO-error occurred while saving the game.
-Message.GameSaveFailedUnknown = Unknown error saving game.
+Message.GameSaveFailedIO = IO-error occurred while saving the game
+Message.GameSaveFailedUnknown = Unknown error saving game
 
 UI.Continue = Continue...
 
@@ -2048,3 +2045,10 @@ UI.AutomatedWorkshop = (Automated workshop)
 
 
 TipOfTheDay.21 = You can earn a lot of money by producing and exporting gold ingots.
+
+
+
+UI.ShuffleCamp = Shuffle (250 coins)
+UI.ShuffleCamp.Desc = Change the items requested by this camp in exchange of 250 #Money#.
+
+Train.Schedule = Train schedule
